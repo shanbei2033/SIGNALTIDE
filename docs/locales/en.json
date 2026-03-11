@@ -5,8 +5,8 @@
   },
   "ui": {
     "lead": "Lead Story",
-    "secondary": "Key News",
-    "info": "AI Tech Info",
+    "secondary": "Top Stories",
+    "info": "Trends",
     "editor": "Editorial Column",
     "projects": "Open Source Recommendations",
     "back": "Back to Today's Edition",
@@ -15,7 +15,8 @@
     "date": "Updated {date}",
     "loading": "Loading edition...",
     "failed": "Failed to load edition",
-    "notFound": "Article not found."
+    "notFound": "Article not found.",
+    "observe": "Observations"
   },
   "projects": {
     "promptfoo": {

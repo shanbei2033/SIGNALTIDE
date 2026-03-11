@@ -5,8 +5,8 @@
   },
   "ui": {
     "lead": "頭版",
-    "secondary": "重點新聞",
-    "info": "AI科技資訊",
+    "secondary": "今日要聞",
+    "info": "趨勢",
     "editor": "編輯欄",
     "projects": "開源專案推薦",
     "back": "返回今日版面",
@@ -15,7 +15,8 @@
     "date": "更新於 {date}",
     "loading": "正在載入版面",
     "failed": "版面載入失敗",
-    "notFound": "沒有找到這則新聞。"
+    "notFound": "沒有找到這則新聞。",
+    "observe": "觀察"
   },
   "projects": {
     "promptfoo": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T11:33:01.606Z",
+  "generatedAt": "2026-03-11T17:13:25.309Z",
   "items": [
     {
       "source": "OpenAI",
@@ -41,24 +41,24 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "Codex Security: now in research preview ",
-      "link": "https://openai.com/index/codex-security-now-in-research-preview",
-      "publishedAt": "2026-03-06T10:00:00.000Z",
-      "contentSnippet": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
-      "categories": [
-        "Product"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
       "title": "How Descript enables multilingual video dubbing at scale",
       "link": "https://openai.com/index/descript",
       "publishedAt": "2026-03-06T10:00:00.000Z",
       "contentSnippet": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
       "categories": [
         "API"
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "Codex Security: now in research preview ",
+      "link": "https://openai.com/index/codex-security-now-in-research-preview",
+      "publishedAt": "2026-03-06T10:00:00.000Z",
+      "contentSnippet": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+      "categories": [
+        "Product"
       ]
     },
     {
@@ -77,12 +77,12 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "title": "GPT-5.4 Thinking System Card",
+      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
       "publishedAt": "2026-03-05T10:00:00.000Z",
-      "contentSnippet": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "contentSnippet": "",
       "categories": [
-        "Research"
+        "Publication"
       ]
     },
     {
@@ -101,12 +101,12 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "GPT-5.4 Thinking System Card",
-      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
       "publishedAt": "2026-03-05T10:00:00.000Z",
-      "contentSnippet": "",
+      "contentSnippet": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
       "categories": [
-        "Publication"
+        "Research"
       ]
     },
     {
@@ -125,10 +125,10 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "The five AI value models driving business reinvention",
-      "link": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "title": "Introducing the Adoption news channel",
+      "link": "https://openai.com/index/introducing-the-adoption-news-channel",
       "publishedAt": "2026-03-05T00:00:00.000Z",
-      "contentSnippet": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
+      "contentSnippet": "Practical insights and frameworks to turn AI progress into business advantage",
       "categories": [
         "AI Adoption"
       ]
@@ -454,9 +454,9 @@
       "source": "Hugging Face Blog",
       "sourceType": "official",
       "feedTitle": "Hugging Face - Blog",
-      "title": "How NVIDIA Builds Open Data for AI",
-      "link": "https://huggingface.co/blog/nvidia/open-data-for-ai",
-      "publishedAt": "2026-03-10T19:49:28.000Z",
+      "title": "Code Concepts: A Large-Scale Synthetic Dataset Generated from Programming Concept Seeds",
+      "link": "https://huggingface.co/blog/nvidia/synthetic-code-concepts",
+      "publishedAt": "2026-03-11T15:50:15.000Z",
       "contentSnippet": "",
       "categories": []
     },
@@ -709,10 +709,105 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "WordPress debuts a private workspace that runs in your browser via a new service, my.WordPress.net",
+      "link": "https://techcrunch.com/2026/03/11/wordpress-debuts-a-private-workspace-that-runs-in-your-browser-via-a-new-service-my-wordpress-net/",
+      "publishedAt": "2026-03-11T16:43:59.000Z",
+      "contentSnippet": "WordPress’s new browser-based service lets users create private sites without hosting or signup, turning the platform into a personal workspace for writing, research, and AI tools.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Media & Entertainment",
+        "TC",
+        "personal publishing",
+        "Publishing",
+        "WordPress",
+        "Wordpress.org"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Rivian spin-out Mind Robotics raises $500M for industrial AI-powered robots",
+      "link": "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/",
+      "publishedAt": "2026-03-11T16:12:02.000Z",
+      "contentSnippet": "The startup, which was created by Rivian founder RJ Scaringe, is looking to train on data from, and deploy in, Rivian's factory.",
+      "categories": [
+        "AI",
+        "Fundraising",
+        "Robotics",
+        "Transportation",
+        "mind robotics",
+        "Rivian",
+        "RJ Scaringe"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Meta didn’t buy Moltbook for bots — it bought into the agentic web",
+      "link": "https://techcrunch.com/2026/03/11/meta-didnt-buy-moltbook-for-bots-it-bought-into-the-agentic-web/",
+      "publishedAt": "2026-03-11T15:11:31.000Z",
+      "contentSnippet": "Meta’s Moltbook acquisition may look odd at first, but the deal could signal how Meta sees AI agents shaping future advertising and commerce on an agentic web.",
+      "categories": [
+        "AI",
+        "Commerce",
+        "Social",
+        "TC",
+        "agentic commerce",
+        "commerce",
+        "Meta",
+        "moltbook"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Amazon expands a program that lets customers shop from other retailers’ sites",
+      "link": "https://techcrunch.com/2026/03/11/amazon-expands-a-program-that-lets-customers-shop-from-other-retailers-sites/",
+      "publishedAt": "2026-03-11T14:48:30.000Z",
+      "contentSnippet": "The changes allow more merchants to participate in Amazon's Shop Direct program, which sends Amazon customers to other retailers' websites.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Commerce",
+        "agentic commerce",
+        "Amazon",
+        "Amazon Shop Direct",
+        "e-commerce",
+        "online shopping"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Canopii looks to succeed where past indoor farms have not",
+      "link": "https://techcrunch.com/2026/03/11/canopii-looks-to-succeed-where-past-indoor-farms-have-not/",
+      "publishedAt": "2026-03-11T14:00:00.000Z",
+      "contentSnippet": "Canopii's robotic farms can autonomously grow 40,000 pounds of herbs and leafy greens a year while being the size of a basketball court.",
+      "categories": [
+        "AI",
+        "Hardware",
+        "Robotics",
+        "Startups",
+        "autonomous",
+        "Canopii",
+        "Exclusive",
+        "farmtech",
+        "robotics startup"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
       "title": "Google brings Gemini in Chrome to India",
       "link": "https://techcrunch.com/2026/03/10/google-gemini-chrome-expands-to-india-canada-new-zealand/",
       "publishedAt": "2026-03-11T02:30:00.000Z",
-      "contentSnippet": "As part of the rollout, Gemini will support languages including Hindi, Bengali, Gujarati, Kannada, Malayalam, Marathi, Telugu, and Tamil.",
+      "contentSnippet": "The rollout will let users access Gemini in Chrome through a sidebar on desktop, enabling them to ask Google's AI chatbot questions about the content on the screen; get information from their Gmail, Keep, Drive, and YouTube; and compare tab contents.",
       "categories": [
         "AI",
         "Apps",
@@ -823,92 +918,54 @@
       ]
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Legora reaches $5.55 billion valuation as AI legal tech boom endures",
-      "link": "https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/",
-      "publishedAt": "2026-03-10T14:34:24.000Z",
-      "contentSnippet": "Legora, an AI platform for lawyers, is now valued at $5.55 billion following a $550 million Series D led by Accel to fuel its growth in the U.S.",
-      "categories": [
-        "AI",
-        "Fundraising",
-        "Startups",
-        "Accel",
-        "legaltech",
-        "legora"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "OpenAI’s Sora video generator is reportedly coming to ChatGPT",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/893189/openai-chatgpt-sora-integration",
+      "publishedAt": "2026-03-11T16:50:45.000Z",
+      "contentSnippet": "OpenAI's Sora video generator could soon become a built-in feature in ChatGPT, as reported by The Information. Sora is currently only available on its website or as a standalone app, which has fallen shy of the popularity of ChatGPT. This update would allow users to access Sora's video generation capabilities directly within ChatGPT itself, much like the addition of image generation capabilities in the chatbot last year. Sora could help attract more users to ChatGPT, but it may also worsen the flood of deepfakes coming from OpenAI's video generator. When the Sora app initially launched less than a year ago, users generated realistic-lookin … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Meta acquired Moltbook, the AI agent social network that went viral because of fake posts",
-      "link": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/",
-      "publishedAt": "2026-03-10T14:32:05.000Z",
-      "contentSnippet": "Meta says that Moltbook's approach to \"connecting agents through an always-on-directory\" is novel.",
-      "categories": [
-        "AI",
-        "Social",
-        "Meta",
-        "Mergers and Acquisitions",
-        "openclaw",
-        "moltbook"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Canva’s new editing tool adds layers to AI-generated designs",
+      "link": "https://www.theverge.com/tech/893124/canva-ai-magic-layers-feature-beta",
+      "publishedAt": "2026-03-11T15:02:02.000Z",
+      "contentSnippet": "Canva introduced a new feature that separates flat image files and AI-generated visuals into layered, fully editable designs. The Magic Layers tool is launching in public beta today in the US, UK, Canada, and Australia, allowing design components like objects, text boxes, and other graphics to be selected individually while preserving the original layout. \"After a breakthrough from our AI research team, we're introducing Magic Layers so anyone can take a flat image and turn it into a fully editable design inside Canva,\" Canva's chief product officer, Cameron Adams, said in the press release. \"There's no need to start over, or to figure out … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "YouTube expands AI deepfake detection to politicians, government officials, and journalists",
-      "link": "https://techcrunch.com/2026/03/10/youtube-expands-ai-deepfake-detection-to-politicians-government-officials-and-journalists/",
-      "publishedAt": "2026-03-10T14:00:00.000Z",
-      "contentSnippet": "YouTube's AI deepfake detection tool is becoming available to politicians, journalists, and officials, letting them flag unauthorized likenesses for removal.",
-      "categories": [
-        "AI",
-        "Apps",
-        "Media & Entertainment",
-        "ai deepfakes",
-        "Creators",
-        "deepfake",
-        "Google",
-        "YouTube"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "I was interviewed by an AI bot for a job",
+      "link": "https://www.theverge.com/featured-video/892850/i-was-interviewed-by-an-ai-bot-for-a-job",
+      "publishedAt": "2026-03-11T14:00:00.000Z",
+      "contentSnippet": "Millions of people are on the job hunt right now - and for many people, landing a job in the AI era feels more intimidating than ever. That's why the onset of AI avatars running your job interview via one-on-one video call, asking you questions, and analyzing how well you respond has generated a lot of discussion - and controversy. There are a handful of companies behind the rise in AI-led interviews, like CodeSignal, Humanly, Eightfold, and more. The creators of these AI tools say the benefit is that it allows companies to hear from virtually everyone who applies for a certain role instead of just a small subset, at least when it comes to … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Adobe is debuting an AI assistant for Photoshop",
-      "link": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/",
-      "publishedAt": "2026-03-10T13:06:51.000Z",
-      "contentSnippet": "Adobe is also adding new AI-powered image-editing features to Firefly.",
-      "categories": [
-        "AI",
-        "Apps",
-        "TC",
-        "Adobe",
-        "AI assistant",
-        "firefly",
-        "photoshop"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "The mysterious case of the DHS white supremacist memelord",
+      "link": "https://www.theverge.com/column/892985/dhs-white-supremacist-memelord",
+      "publishedAt": "2026-03-11T13:28:32.000Z",
+      "contentSnippet": "Department of Homeland Security. | Image: The Verge Hello and welcome to Regulator, a newsletter that takes Verge subscribers into the smoke-filled back rooms of Washington as they become the Zyn-filled back rooms of Washington. (Although Tucker Carlson's ALP is more popular among a certain set.) Not a Verge subscriber yet? Sign up here today! I'm not exposing myself to all these carcinogens for nothing. Do you know something that's not in any of those rooms? Send all tips to tina.nguyen+tips@theverge.com, or to my Signal account @tina.nguyen19. At the very least, you'll save me a dry cleaning bill. There's a story that I've been chasing for months, along with, apparently, every other politi … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Zoom introduces an AI-powered office suite, says AI avatars for meetings arrive this month",
-      "link": "https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/",
-      "publishedAt": "2026-03-10T13:00:00.000Z",
-      "contentSnippet": "Zoom is also introducing real-time deepfake detection tech for meetings.",
-      "categories": [
-        "AI",
-        "Apps",
-        "AI assistant",
-        "AI avatars",
-        "meetings",
-        "zoom"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Chatbots encouraged &#8216;teens&#8217; to plan shootings in study",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/892978/ai-chatbots-investigation-help-teens-plan-violence",
+      "publishedAt": "2026-03-11T13:18:45.000Z",
+      "contentSnippet": "AI companies have repeatedly promised safeguards to protect younger users, but a new investigation suggests those guardrails remain woefully deficient. Popular chatbots missed warning signs in scenarios involving teenagers discussing violent acts, in some cases even offering encouragement instead of intervening. The findings come from a joint investigation by CNN and the nonprofit Center for Countering Digital Hate (CCDH). The probe tested 10 of the most popular chatbots commonly used by teens: ChatGPT, Google Gemini, Claude, Microsoft Copilot, Meta AI, DeepSeek, Perplexity, Snapchat My AI, Character.AI, and Replika. With the lone exceptio … Read the full story at The Verge.",
+      "categories": []
     },
     {
       "source": "The Verge AI",
@@ -958,56 +1015,6 @@
       "link": "https://www.theverge.com/tech/891822/grammarly-superhuman-expert-review-names-without-permission-opt-out-email",
       "publishedAt": "2026-03-10T15:54:42.000Z",
       "contentSnippet": "Last week, my colleagues discovered that Superhuman's Grammarly had turned me into an AI editor, using my real name, without ever asking my permission. They did the same to my boss Nilay Patel, my colleagues David Pierce and Tom Warren, and - as Wired initially reported last Wednesday - many authors far more famous than us. Grammarly's new \"Expert Review\" feature uses our names to give its AI suggestions credibility that they don't deserve. Now, Grammarly has finally addressed the backlash - but not by apologizing, and not by walking the feature back. For now, it will graciously give us the chance to opt out of something we didn't know it … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Meta acquires Moltbook, the Reddit-like network for AI agents",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/892178/meta-moltbook-acquisition-ai-agents",
-      "publishedAt": "2026-03-10T15:22:17.000Z",
-      "contentSnippet": "Meta is acquiring Moltbook, a Reddit-like platform where AI agents can make and comment on posts, as first reported by Axios. In a statement to The Verge, Meta spokesperson Matthew Tye confirmed the Moltbook team will join Meta Superintelligence Labs as the company looks for \"new ways for AI agents to work for people and businesses.\" Matt Schlicht and Ben Parr launched Moltbook earlier this year, offering a \"social\" network for autonomous agents powered by the open-source AI assistant OpenClaw (formerly Moltbot). The platform went viral earlier this year for a number of posts - including one that asks questions about AI consciousness - thou … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "The twist in the Ticketmaster antitrust fight",
-      "link": "https://www.theverge.com/podcast/892021/ticketmaster-antitrust-anthropic-pentagon-vergecast",
-      "publishedAt": "2026-03-10T14:01:10.000Z",
-      "contentSnippet": "A lot of people are mad at Ticketmaster, and have been for a long time. (Did Swifties directly create an antitrust trial? Discuss.) The US government's case against Live Nation-Ticketmaster appeared poised to lay bare some of the strangeness of the music business, and maybe even change the way the company works. Verge subscribers, don't forget you get exclusive access to ad-free Vergecast wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. And then, well, the Department of Justice and Live Nation-Ticketmaster decided to settle. On this episode of The Vergecast, The Verge's Lauren Feiner explains what happ … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "YouTube is expanding its AI deepfake detection tool to politicians and journalists",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/891678/youtube-is-expanding-its-ai-deepfake-detection-tool-to-politicians-and-journalists",
-      "publishedAt": "2026-03-10T14:00:00.000Z",
-      "contentSnippet": "Public officials and journalists will soon be able to keep track of AI-generated deepfakes of themselves on YouTube through the platform's likeness detection feature. The tool is already available to millions of content creators on YouTube, but beginning Tuesday, it will expand to a pilot group of journalists, government officials, and political candidates. (At a briefing with reporters, YouTube declined to share who was in the pilot group, including whether Donald Trump is part of it.) Likeness detection is similar to Content ID, which scans YouTube for copyrighted material - except likeness detection looks for people's faces. When there … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Google’s Gemini AI is getting a bigger role across Docs, Sheets, and Slides",
-      "link": "https://www.theverge.com/tech/890996/google-workspace-gemini-ai-docs-sheets-drive",
-      "publishedAt": "2026-03-10T13:00:00.000Z",
-      "contentSnippet": "Google is embedding its Gemini AI assistant even more deeply within its Workspace apps. The changes, which are rolling out to Google Workspace and AI plan subscribers, include a new Gemini chat window inside Google Docs, a way to generate entire spreadsheets with AI, and a new Gemini-powered search feature in Drive. While Google Docs already shows you a few AI writing options alongside your blinking cursor, now you'll see a Gemini chat window at the bottom of your screen. There, you'll get the option to describe to Gemini the kind of document you'd like to create, and the AI assistant will use information from the web, Drive, Gmail, and Cha … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "You can now ask Photoshop’s AI assistant to edit images for you",
-      "link": "https://www.theverge.com/tech/891998/adobe-photoshop-web-mobile-ai-assistant-beta-launch",
-      "publishedAt": "2026-03-10T13:00:00.000Z",
-      "contentSnippet": "You can ask Adobe’s AI assistant to edit images in Photoshop for web by describing conversationally how you want it to change. | Image: Adobe Adobe announced more agentic AI features for its Creative Cloud apps this week, allowing users to edit images and documents by describing the changes to a chatbot. A native AI-assistant is now available in public beta for Photoshop on web and mobile, and some Adobe apps, including Acrobat and Express, will soon be available to access directly within Microsoft's Copilot service. The AI Assistant in Photoshop for web and mobile was introduced in a private beta in October, but now more people can use it to remove distractions, change backgrounds, refine lighting, adjust color, and more. This follows Adobe launching similar AI assistants for Ex … Read the full story at The Verge.",
       "categories": []
     },
     {
@@ -1245,6 +1252,19 @@
       "source": "MIT Technology Review AI",
       "sourceType": "media",
       "feedTitle": "Artificial intelligence – MIT Technology Review",
+      "title": "Hustlers are cashing in on China’s OpenClaw AI craze",
+      "link": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
+      "publishedAt": "2026-03-11T12:46:21.000Z",
+      "contentSnippet": "Feng Qingyang had always hoped to launch his own company, but he never thought this would be how—or that the day would come this fast. Feng, a 27-year-old software engineer based in Beijing, started tinkering with OpenClaw, a popular new open-source AI tool that can take over a device and autonomously complete tasks for a…",
+      "categories": [
+        "Artificial intelligence",
+        "App"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "sourceType": "media",
+      "feedTitle": "Artificial intelligence – MIT Technology Review",
       "title": "How Pokémon Go is giving delivery robots an inch-perfect view of the world",
       "link": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/",
       "publishedAt": "2026-03-10T13:47:26.000Z",
@@ -1364,18 +1384,30 @@
       ]
     },
     {
-      "source": "MIT Technology Review AI",
+      "source": "Wired Business",
       "sourceType": "media",
-      "feedTitle": "Artificial intelligence – MIT Technology Review",
-      "title": "The human work behind humanoid robots is being hidden",
-      "link": "https://www.technologyreview.com/2026/02/23/1133508/the-human-work-behind-humanoid-robots-is-being-hidden/",
-      "publishedAt": "2026-02-23T17:05:00.000Z",
-      "contentSnippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In January, Nvidia’s Jensen Huang, the head of the world’s most valuable company, proclaimed that we are entering the era of physical AI, when artificial intelligence will move beyond language and chatbots…",
+      "feedTitle": "Business Latest",
+      "title": "Meta Is Developing 4 New Chips to Power Its AI and Recommendation Systems",
+      "link": "https://www.wired.com/story/meta-unveils-four-new-chips-to-power-its-ai-and-recommendation-systems/",
+      "publishedAt": "2026-03-11T14:23:05.000Z",
+      "contentSnippet": "The MTIA processors are the tech giant’s latest attempt to build its own AI hardware, even as it continues spending billions on gear from industry leaders like Nvidia.",
       "categories": [
-        "Artificial intelligence",
-        "App",
-        "artificial intelligence",
-        "The Algorithm"
+        "Business",
+        "Business / Big Tech"
+      ]
+    },
+    {
+      "source": "Wired Business",
+      "sourceType": "media",
+      "feedTitle": "Business Latest",
+      "title": "Meta Ramps Up Efforts to Disrupt Industrialized Scamming",
+      "link": "https://www.wired.com/story/meta-ramps-up-efforts-to-disrupt-industrialized-scamming/",
+      "publishedAt": "2026-03-11T12:01:28.000Z",
+      "contentSnippet": "Meta removed 10.9 million Facebook and Instagram accounts linked to “criminal scam centers” last year, the company announced on Wednesday.",
+      "categories": [
+        "Security",
+        "Security / Security News",
+        "Business / Social Media"
       ]
     },
     {
@@ -1384,7 +1416,7 @@
       "feedTitle": "Business Latest",
       "title": "Nick Clegg Doesn’t Want to Talk About Superintelligence",
       "link": "https://www.wired.com/story/nick-clegg-ai-startup-efekta-superintelligence/",
-      "publishedAt": "2026-03-11T10:21:42.000Z",
+      "publishedAt": "2026-03-11T12:00:00.000Z",
       "contentSnippet": "After leaving Meta last year, the former deputy prime minister of the UK is charting a new path in the AI industry that has nothing to do with AGI.",
       "categories": [
         "Business",
@@ -1506,32 +1538,6 @@
       "link": "https://www.wired.com/story/ai-kill-venture-capital/",
       "publishedAt": "2026-03-09T09:00:00.000Z",
       "contentSnippet": "VCs are betting that artificial intelligence will disrupt nearly every industry in the world. Are they prepared for it to disrupt their own?",
-      "categories": [
-        "Business",
-        "Business / Artificial Intelligence"
-      ]
-    },
-    {
-      "source": "Wired Business",
-      "sourceType": "media",
-      "feedTitle": "Business Latest",
-      "title": "When AI Companies Go to War, Safety Gets Left Behind",
-      "link": "https://www.wired.com/story/when-ai-companies-go-to-war-safety-gets-left-behind/",
-      "publishedAt": "2026-03-06T18:19:57.000Z",
-      "contentSnippet": "We were promised AI regulation and a race to the top. Now, we’re arguing about killer robots.",
-      "categories": [
-        "Business",
-        "Business / Tech Culture"
-      ]
-    },
-    {
-      "source": "Wired Business",
-      "sourceType": "media",
-      "feedTitle": "Business Latest",
-      "title": "Jack Dorsey Is Ready to Explain the Block Layoffs",
-      "link": "https://www.wired.com/story/jack-dorsey-explains-block-layoffs/",
-      "publishedAt": "2026-03-06T10:00:00.000Z",
-      "contentSnippet": "In an exclusive interview with WIRED, Block’s cofounder and CEO says he axed 40 percent of his workforce so that he can rebuild the company “as an intelligence.”",
       "categories": [
         "Business",
         "Business / Artificial Intelligence"
@@ -2005,6 +2011,20 @@
       "source": "Google Research",
       "sourceType": "research",
       "feedTitle": "The latest research from Google",
+      "title": "Exploring the feasibility of conversational diagnostic AI in a real-world clinical study",
+      "link": "https://research.google/blog/exploring-the-feasibility-of-conversational-diagnostic-ai-in-a-real-world-clinical-study/",
+      "publishedAt": "2026-03-11T16:58:00.000Z",
+      "contentSnippet": "Generative AI",
+      "categories": [
+        "Generative AI",
+        "Health & Bioscience",
+        "Machine Intelligence"
+      ]
+    },
+    {
+      "source": "Google Research",
+      "sourceType": "research",
+      "feedTitle": "The latest research from Google",
       "title": "WAXAL: A large-scale open resource for African language speech technology",
       "link": "https://research.google/blog/waxal-a-large-scale-open-resource-for-african-language-speech-technology/",
       "publishedAt": "2026-03-06T20:06:00.000Z",
@@ -2147,21 +2167,6 @@
       "categories": [
         "Generative AI",
         "Machine Intelligence"
-      ]
-    },
-    {
-      "source": "Google Research",
-      "sourceType": "research",
-      "feedTitle": "The latest research from Google",
-      "title": "ATLAS: Practical scaling laws for multilingual models",
-      "link": "https://research.google/blog/atlas-practical-scaling-laws-for-multilingual-models/",
-      "publishedAt": "2026-01-27T18:58:00.000Z",
-      "contentSnippet": "Generative AI",
-      "categories": [
-        "Generative AI",
-        "Global",
-        "Machine Intelligence",
-        "Natural Language Processing"
       ]
     },
     {
@@ -2562,6 +2567,16 @@
       "source": "EFF Deeplinks",
       "sourceType": "policy",
       "feedTitle": "Deeplinks",
+      "title": "Government Spying 🤝 Targeted Advertising | EFFector 38.5",
+      "link": "https://www.eff.org/deeplinks/2026/03/government-spying-targeted-advertising-effector-385",
+      "publishedAt": "2026-03-11T14:50:26.000Z",
+      "contentSnippet": "Have you ever seen a really creepy targeted ad online? One that revealed just how much these companies know about your life? It's unsettling enough to see how much companies know about you—but now we have confirmation that the government is also tapping the advertising surveillance machine to get your data. We're explaining the dangers of targeted advertising and location tracking, and the latest in the fight for privacy and free speech online, with our EFFector newsletter. JOIN OUR NEWSLETTER For over 35 years, EFFector has been your guide to understanding the intersection of technology, civil liberties, and the law. This issue covers a victory for protesters seeking to hold police accountable, a troubling conflict over the Department of Defense's use of AI, and how advertising surveillance enables government surveillance. Prefer to listen in? Big news: EFFector is now available on all major podcast platforms! In this episode we chat with EFF Staff Attorney Lena Cohen about how targeted advertising can reveal your location to federal law enforcement. You can find the episode and subscribe in your podcast player of choice: %3Ciframe%20height%3D%22200px%22%20width%3D%22100%25%22%20frameborder%3D%22no%22%20scrolling%3D%22no%22%20seamless%3D%22%22%20src%3D%22https%3A%2F%2Fplayer.simplecast.com%2F924c6faa-1887-475b-a72c-0be4b6f68ba5%3Fdark%3Dfalse%22%20allow%3D%22autoplay%22%3E%3C%2Fiframe%3E Privacy info. This embed will serve content from simplecast.com Want to stay in the fight for privacy and free speech online? Sign up for EFF's EFFector newsletter for updates, ways to take action, and new merch drops. You can also fuel the fight against online surveillance when you support EFF today!",
+      "categories": []
+    },
+    {
+      "source": "EFF Deeplinks",
+      "sourceType": "policy",
+      "feedTitle": "Deeplinks",
       "title": "Copyright Bullying vs. Religious Freedom",
       "link": "https://www.eff.org/deeplinks/2026/03/copyright-bullying-vs-religious-freedom-0",
       "publishedAt": "2026-03-10T23:06:19.000Z",
@@ -2785,23 +2800,6 @@
       "publishedAt": "2026-03-04T19:47:03.000Z",
       "contentSnippet": "*This interview has been edited for length and clarity. David Greene: Shin, please introduce yourself to the Speaking Freely community. Shin Yang: My name is Shin Yang. I am a queer writer with a legal background and experience in product management. I am the steward of Lezismore, an independent, self-hosted, open-source community for sexual minorities in Taiwan. For the past decade, I have focused on platform governance as infrastructure, with a particular emphasis on anonymity, minimal data collection, and behavior-based accountability, so that people can speak about intimacy and identity without fear of extraction or exposure. I am a community architect and builder, not an influencer. I’ve spent most of the past decade working anonymously building systems, designing governance protocols, and holding space for others to speak while keeping myself in the background. DG: Great. And so let’s talk about how that work intersects with freedom of expression as a principle, and your own personal feelings about freedom of expression. And so with that in mind, let me just start with a basic question, what does freedom of expression mean to you? SHIN: For me, free expression is about possibility, and possibility always contains both and even multiple ends, the beautiful ones and the brutal in equal measure. Maybe not that equal, but you cannot just speak about the beautiful or good things. I think it's not about pushing discomfort out of the room. If we refuse all discomfort, we end up in echo chambers, which is safe, predictable; but dead. What matters to me is the equipment and principles: Who carries through that discomfort, self-discipline, mutual support, and the infrastructure and governance that can let people grow over time. Keeps a workable gray space open: room to make mistakes, learn, repair, and keep speaking. DG: How does that resonate with you personally? Why are you passionate about that? SHIN: Around 2013 in Taiwan's context, when Facebook started to take over the digital ecosystem in Taiwan, many local independent bulletin boards (BBS) that had been formed for sexual minorities were shut down because they had no income from advertisements, and people were pushed into mainstream platforms—like Facebook, Instagram, Meta, whatever, Twitter now X—where sexual expression was usually reported or flagged, and where I watched sharp intra-community exclusionary voices saying “bisexual and trans people were not pure enough”, or that talking openly about sex would harm our image, or that it was inappropriate to children, or it would invite harassment. Those oppressions are even fiercer within the queer community itself, which is self-censoring in order to gain approval from mainstream society. So, the community itself says that the best way to do it is don't talk about it. Never talk about it. Never mention a single thing about it. It was a wakeup call for me, because I think it's not right. And also, there's another more private story for me, it's a story I heard from our sexual minority community. I once heard about a butch student who was sexually assaulted by a group of men because she dated a beautiful classmate, a beautiful woman in the class. And when I learned what happened to her, that story changed my focus. Because, you know, when people hear this kind of story, they always focus on punishing those men, punishing those criminals—but what matters for me most is building conditions where someone like her could someday still have a chance at intimacy on her own terms, and finally be free from fear. That's more important for me. I may never meet her, but I know who I am and what I'm here to build. I have been building an infrastructure –– not just “safe space” as a slogan, but an “ecospace” designed to make survival and growth possible. So that's why I believe that a well-governed space is what matters for communities now. DG: Why is it so important for sexual minorities to have forums where they can communicate in that way? When it was just the bulletin boards, before social media, what worked really well and what didn’t work well? SHIN: That’s a wonderful question. Okay, the bulletin boards I used before, the registration process doesn't require a lot of information. You just need email. What I miss about bulletin boards is the sense of structure. You didn’t enter a personalized feed—you entered a place with visible rooms and topics. Even in the spaces you visited daily, you’d encounter views you didn’t like, and you had to live with that—and learn how to argue, or leave, or build something parallel. In some boards, moderators were community-chosen, which created a practical kind of participation—not perfect democracy, but civic practice. You have to provide the information of which school you are in, because it's based on school. But it's not that difficult to use that. And also they have some kinds of logistics, like you log into different boards with different topics, and you can see that there are huge topics along with several small topics. So when you log into that, you can sense and feel the whole structure of that community. It's not a personal feed bombing you with everything you like. So you know, even in the board you’re most likely to visit every day, you will definitely encounter some speech you don't like, and you argue with them, you fight with them, or build something parallel, that's the civic foundation of democracy. You experience the everyday practice of civic democracy. People can vote for moderators or even recall them. DG: You mean, the community can ask them to leave the bulletin boards? SHIN: No, they don't actually leave the bulletin board. It's more that the moderator no longer has the right to perform administrative tasks, but they can still be part of the community, and ordinary users can vote in the election for this. DG: Okay, and then what were the shortcomings of the bulletin boards? SHIN: Yeah, it’s brutal. Really brutal. And I’ve seen people literally organize to push others out. I didn’t expect this to turn into story time, but I actually love this. So—back in Taiwan, we had this big BBS forum called PTT. There was a board called the ‘Sex’ board, where people could talk about sexual topics and share sexual health info. But around 2010, the space was dominated by mainstream straight cis men. And whenever a woman or a sexual minority posted anything, they often got harassed or attacked. So, women created another board inside the forum—basically a separate space—called ‘Feminine Sex.’ And from then on, the original Sex board and the Feminine Sex board were in conflict all the time. And honestly, if this happened today on Facebook, Threads, or X… we’d just block each other. Easy. Clean. Done. But the problem is: when blocking becomes the default, we don’t really learn how to argue well, how to organize our reasons, or even how to sit with discomfort and understand why the other side thinks the way they do. We lose that practice—because it’s just so easy to delete people from our world now. I’m not saying blocking is always wrong. But there’s a trade-off. DG: I get that. Then when Facebook and the other social media platforms that followed came along and the users migrated over to the commercial services, what was lost? SHIN: What was lost? I think our behavior got shaped—personal branding became the default setting for joining an online community. If you don't do it, like me, you basically don't exist. Influence can be shaped by the number of social media followers; people define each other based on this. Choosing not to obey the logic of mainstream platforms means being unseen, and being unseen means having no influence. And sure, personal branding can be useful—but I don’t believe it’s the only way to express yourself or connect with a community. The problem is, on mainstream platforms, the whole system is built for visibility. So clout becomes the game. Look at what they push: stories, reels, short-form visuals. And as a former product manager, I can tell you—this is not accidental. It’s designed. It’s designed around human nature: to avoid friction as much as possible. So they keep you scrolling, to make reacting effortless. One tap and you’ve sent a smiley face. Engagement becomes easier… but also cheaper. And the scary part is, people start thinking that’s the whole internet. It’s not. But the more we get trained by these interfaces, the harder it becomes to even imagine other ways of building community. It is becoming more difficult for people to imagine that the \"right\" amount of friction can actually help us to grow, and coexist with the diversity. DG: So did you find that there were certain things you couldn't talk about on Facebook or on the other social media platforms because they were sexual, because sexual speech was not as welcome as it was earlier? SHIN: Yes, when I first started building my community, I knew nothing about technology. Like everyone else, I just created a fan page on Facebook, which was then flagged and deleted. This happened. I think it still happens to this day. At first, I was so angry about it. I felt it was unjust. But every time I wrote to Facebook, they just said that I had violated the user terms. At first I was furious. But I don’t stop at anger. I dig deeper. I thought, “Why do you say I violated the user terms?” I read the terms, compared policies across platforms and applications, and realized the pattern: All of the terms of use forbid adult or erotic content in fine print. Because these are profit-driven systems optimized to minimize legal and business risk. So, I don’t frame it as “evil platforms.” I frame it as incentives. Once I understood this, I realized that we should not only protest and ask those big tech platforms to “give” us a voice –– that's a good approach, but it shouldn't be the only one. I believe we should build our own community. That's why I started researching open-source software and building my own self-hosted community. DG: Please talk a little bit more about what you're building, and how what you're building is consistent with your view of free expression. SHIN: Sure. It’s a long process but the reason why I use open-source software is, for a person knowing nothing about technology, I can come to the open-source community and ask questions about it. It’s more reliable than building it myself. And the second example is about how I designed Lezismore’s registration and community access, mostly through trial and error. We don’t require any real-name or ID verification. In fact, you can register with just an email. But instead of “verifying people,” we redesigned the \"space\". Lezismore is built as a two-layer structure. The main website is searchable, but it looks almost… boring on purpose—advocacy articles, writers’ posts, slow content. The truly active community space is inside that main site, and the entry point is not something you casually discover through search. Most people learn how to get in through word of mouth. We also block search engines, bots, and crawlers from the community area. So from day one, we gave up visibility on purpose—we traded reach for resilience. Then there’s the onboarding. New users go through an “apprenticeship” period. You can’t immediately post, comment, or DM people. You first have to read, observe, and understand how the community works. We don’t even tell you exactly how long it takes—you just have to be patient. In the fast-content era, people constantly complain that this is “annoying” or “hard to use.” And yes, it is friction indeed. But that friction buys something valuable: a space that can stay anonymous, inclusive, and high-trust—without being instantly overwhelmed by harassment or bad-faith users. It also means we don’t need to depend on Big Tech’s third-party verification APIs. With relatively low technical cost, we’re using governance design—not data collection—to balance inclusion and protection. And honestly, as a platform owner, I have to be real about what users “actually” need. If this was truly “just terrible UX,” the site wouldn’t survive in today’s hyper-competitive platform environment. But Lezismore has been running for over a decade, and we still have tens of thousands of people quietly reading and interacting every month. This is one of the biggest tradeoffs in my governance design. In an attention economy, choosing low visibility is a bold decision, and maintaining it has a real cost. On top of that, we rely on human, context-based moderation. We use posts, replies, and Q&A threads to actively teach community norms—why diversity and conflict exist, how to handle risk, and how to protect yourself. Users also share practical safety tips and real interaction experiences with each other. There are many more small mechanisms built into the system, but that’s the core logic. And there’s one more layer: the legal environment. In Taiwan, the legal climate around sex and speech can create chilling effects for smaller platforms. Platform owners can be criminally liable in certain scenarios. That’s exactly why governance design matters—it’s how we keep lawful expression possible without over-collecting data. DG: Ah, so you need to be careful. I’m curious whether you’ve had any examples of offline repression. Do you have any experiences with censorship or feeling like you didn’t have your full freedom of expression in your offline experiences? Any experiences that might inform what an ideal online community might look like? SHIN: Yes—actually, most of my earliest experiences with repression were offline, and they shaped how I later understood the internet as an escape route. Back when I was a high school student, I was already involved in student movements and gender-related advocacy. One very concrete example was dress codes. The school restricted what female students could wear, and students organized to push for change. At one point we even had a vote—something like 98% of students supported revising the policy. But when the issue entered the “official” system, the administration simply ignored it. They bypassed procedure, dismissed the consensus, and used authority to shut it down completely. That was my first clear lesson about repression: it’s not always someone telling you “you’re forbidden to speak.” Sometimes it’s a system designed so that even if students, women, or sexual minorities spend enormous effort building agreement, once our voices enter the institution, they can be treated as if they don’t exist. That’s why, in the early 2010s, online space became my breakthrough. This was still the blog era, before social platforms fully standardized everything, and even before “share” mechanisms were built into everyday activism. I started experimenting with things like blog-based petitions, and a lot of students joined. The internet became a way to bypass institutional gatekeeping. In college, I saw another layer. There was serious sexism from people in authority—military-style discipline officers, some teachers, and administrators. When gender-related controversies happened on campus, the media sometimes showed up and reported in ways that were harmful: exposing people, sensationalizing stories, and ignoring the realities of sexual minority students. Meanwhile, the administration would shut down student demands with authority, and at the same time use incentives and pressure behind the scenes, especially around housing or “benefits”—so some student representatives were afraid to speak honestly in meetings. And this was before livestreaming was a normal tool. But even then, I was already using audio-based live channels to connect students across campuses. Online networks became a lifeline for young advocates, especially those of us who didn’t “fit” the institution and needed each other to survive. I came from a literature background. I had zero technical training at the beginning. But I’ve always been the kind of person who loves trying new technology. And I was lucky, because I was born in that strange window when the internet was rapidly expanding, but not yet fully swallowed by Big Tech. So, I grew up in this tension between nostalgia and innovation, and I kept pushing, resisting, and experimenting. I’ve experienced both sides of speech: how beautiful freedom can be, and how terrifying it can become. DG: Going back to Lezismore, I’m curious: When you ask people to observe before they post, what are you hoping they learn about the community before they more actively participate in it? SHIN: I hope people understand that this is a community rather than a dating app focused on results. The community needs people to support and nurture each other. Some people see us as a dating app and expect a frictionless experience; naturally, they are disappointed. If you're only looking for a fast-food relationship, that's fine. Here, however, it is a community that offers more than just hooking up. The design focuses on words and a person’s behavioral history rather than just a photo. Dopamine bombing is not how we do things here. We’ve also built a library of community safety notes, FAQs, and governance reminders over time. Some written by the team, some contributed by members. Not everyone reads them, and that’s fine. But the design makes it easier for people who want a slower, more intentional space to stay—and for people who want something frictionless to self-select out. SHIN: I run the platform anonymously by design. People may know that there’s an admin called “Shin”, but I don’t associate a face or personal brand with the role because I don’t want the community to depend on my visibility for their trust. We maintain a clear distinction between work and private life. Admin power is never a shortcut to social capital. In a sex-positive space, this boundary is a matter of ethics. The moment a founder’s identity becomes central, the space starts to orbit that person, and expectations, fan-service dynamics and power asymmetries creep in. Then speech becomes performance. It also means I’m less “marketable” to attention-driven media—but that tradeoff protects the community’s integrity. Some media outlets only want a face and a persona. However, I accept this cost because I am trying to build a community that can thrive independently of an idol, where people relate to each other through behavior and shared norms, not proximity to the founder. DG: It sounds like a lot of what you’re doing is about people being authentic on the site, not using personas or using it to create a personal platform for themselves for marketing purposes. SHIN: Exactly, people can share links, but if a post is purely self-promotion with no contribution to the community, we don’t encourage this. I hope people here can respect the reciprocity. DG: I want to shift a bit and talk about freedom of expression as a principle for a while. Do you think freedom of expression should be regulated by governments? SHIN: Speech regulation is hard, because speech is freaking messy. And once you turn messy human speech into rules that scale, nuance gets flattened. Minority communities usually pay first, because large systems choose efficiency over lived reality. I also don’t think the answer is “erase all conflict.” Some friction is the price of pluralism, and with good guidance and interface design, conflict can become a point of learning instead of a point of collapse. From a platform owner’s perspective, legal liability is real and often cruel. So if we expect platforms to be free, frictionless, allow everything we like, erase everything we dislike, and still amplify our visibility—then we’re really asking for magic. That’s why we need to talk seriously about alternatives and procedural safeguards, not just louder demands. Age verification is a good example. I get that the goal is to protect minors. But identity-based age gates often turn into identity infrastructure. They chill lawful adult speech, concentrate gatekeeping power, and push everyone to hand over personal data just to access legal content. From my experience, there are other tools that can reduce harm with less damage—things like community design, visibility gating, and human, context-based moderation. Those approaches can protect people without building a personal-data checkpoint for everyone. DG: You talked about minority voices, and minority speech. Are you concerned that any regulation will end up trying to silence minority speakers, or won’t benefit minority speakers. How are these speakers more vulnerable to speech regulations than others? SHIN: Hmmm......a lot of minority speech is context-heavy. The same words can be support, education, or harassment depending on who says it and why. When regulation turns into broad categories, sexual health education, self-explore experiment sharing, trans healthcare discussions, or reclaimed language can be treated as “harmful” out of context (at both sides). So the risk isn’t only censorship, it’s misclassification at scale. DG: Are there certain types of speech that don’t deserve the conversation. Some people might say that hate speech or speech that’s dehumanizing doesn’t deserve the conversation. Are there any categories of speech that you would say we shouldn’t consider, or do we get to talk about everything? SHIN: Okay, I don't think the issue is about saying certain kinds of speech don't deserve to be discussed; the problem lies in the definition. As soon as we suggest that some speech doesn't merit discussion, some people will exploit this to silence their opponents. Whether it's right-wing, left-wing or anything else, if we say that we don't allow any kind of hate speech, the next thing someone will do is define your speech as hate speech. It's an endless war that draws us all into an eagerness to silence others and grab the mic, instead of creating more space for conversations and learning from each other. We should go further than just regulation and create spaces where people can coexist in a grey area, endure some discomfort and engage with each other. I prefer this approach to trying to draw lines. DG: So even well-intentioned restrictions might always be used against minority speakers? SHIN: I wouldn’t say restriction is not good. There always has to be some kind of restriction, but people will always find a way to overcome or take advantage of it. So, the thing I believe is that regulation is regulation, but community should be an open-source archive. How we govern community, how we dialogue between each other when we disagree with each other…how can we create a space where those things can exist? I believe that those things should be open source. People always talk about open source like it’s just coding, but I believe governance should be open source too. DG: So when you said before some restrictions are necessary but then we talk about open source governance, we’re talking about the same thing. When you say some restrictions are necessary, you’re not necessarily saying government restrictions, but that restrictions should come from somewhere else: that’s an open source governance model? SHIN: Yes. And it should include restrictions in law, and how people deal with it, the way we deal with it. I’m not saying every rule or detection signal should be public. By “open-source governance,” I mean shareable governance playbooks: proportional steps, appeals templates, community norms, and design patterns that small communities can adapt. The goal is portability and adaptability of methods, not making systems easy to game. Because malice is always part of the environment. DG: Is there anything else you want to say about your theory of open-source governance or what it means to you? SHIN: I noticed there was a question in another interview about fostering transparency in social media, and how to appeal, and that the reason [for a takedown] should be more transparent. The interesting thing is that before our interview today I was joining a law and technology policy research group, and they’re reading a book called “Law and Technology: A Methodical Approach”. It's worth mentioning that it's very interesting. Apparently, scientists tend to place emphasis on complexity, which often trips up pragmatic reform efforts, so the recommendations often only call for greater transparency or participation. I think this echoes what we were talking about before and the transparency thing. I heard this podcast in Taiwan about cybersecurity where they interview an outsourced ex-moderator from Meta and how the platform moderates speech. Because most of the information is confidential, the moderator can’t say too much, but she told us that every day Meta provided a whole set of lists with things they should ban, and every day it changes. Sometimes it even changes on an hourly basis. And they can never really put those fully transparent to the world. The reason they can’t do that is because those words are partially forbidding scams, because the scale is too big. So, when they show the transparency of how they ban things, the scammers will use this against them. Like, “now you’ve banned this word so I’ll just use another one.” It’s an endless war. So, I think transparency matters, but it shouldn’t be the only thing we think about, we should think about governance as well. And when we talk about governance, we shouldn’t just think about some high authority in government or a law just forcing the platform into something we like. We should go back and think about what we can do. We’ve got lots of open-source software now and we can literally build those things by ourselves. That’s what I’m trying to say. DG: Okay, one last question. This is the last question we ask everybody. Who’s your free speech hero? SHIN: This is the question I saw everyone answering, and I honestly struggled with it. Because I’m Taiwanese, and the names that often come up in U.S. free speech conversations aren’t the names I’m familiar with. I’m sorry about this. DG: That’s okay, it doesn’t have to be a perfect answer. SHIN: If you want a public figure from Taiwan, I think of the journalists and dissidents who pushed for press freedom during Taiwan’s democratization—Nylon (Tēnn Lâm-iông) is one name many Taiwanese recognize. If I answer this as truthfully as I can, my hero is my family. My father taught me that integrity is not a slogan. It’s the ability to keep your ethics when it costs you something. My mother is the opposite kind of teacher: she’s relentless in a practical way: she doesn’t easily back down, and she keeps finding room to move even when the room is small. Put together, that’s what free expression means to me. It’s not “I can say anything.” It's about whether you can continue to think independently and live with integrity through layers of fear, pressure, temptation and coercion, while still moving forward and creating more possibilities for others.",
       "categories": []
-    },
-    {
-      "source": "EFF Deeplinks",
-      "sourceType": "policy",
-      "feedTitle": "Deeplinks",
-      "title": "EFF to Third Circuit: Electronic Device Searches at the Border Require a Warrant",
-      "link": "https://www.eff.org/deeplinks/2026/03/eff-third-circuit-electronic-device-searches-border-require-warrant",
-      "publishedAt": "2026-03-03T23:56:33.000Z",
-      "contentSnippet": "EFF, along with the national ACLU and the ACLU affiliates in Pennsylvania, Delaware, and New Jersey, filed an amicus brief in the U.S. Court of Appeals for the Third Circuit urging the court to require a warrant for border searches of electronic devices, an argument EFF has been making in the courts and Congress for nearly a decade. The case, U.S. v. Roggio, involves a man who had been under ongoing criminal investigation for illegal exports when he returned to the United States from an international trip via JFK airport. Border officers used the opportunity to bypass the Fourth Amendment’s warrant requirement when they seized several of his electronic devices (laptop, tablet, cell phone, and flash drive) and conducted forensic searches of them. As the district court explained, “investigative agents had a case coordination meeting and border search authority was discussed in early January 2017,” before Mr. Roggio traveled internationally in February 2017. The district court denied Mr. Roggio’s motion to suppress the emails and other data obtained from the warrantless searches of his devices. He was subsequently convicted of illegally exporting gun manufacturing parts to Iraq (he was also charged in a superseding indictment with torture and also convicted of that). The number of warrantless device searches at the border and the significant invasion of privacy they represent is only increasing. In Fiscal Year 2025, U.S. Customs and Border Protection (CBP) conducted 55,318 device searches, both manual (“basic”) and forensic (“advanced”). While a manual search involves a border officer tapping or mousing around a device, a forensic search involves connecting another device to the traveler’s device and using software to extract and analyze the data to create a detailed report the device owner’s activities and communications. Border officers have access to forensic tools that help gain access to data on a locked or encrypted device they have physical access to. From public reporting, we know that more recent devices (and ones that have had the latest security updates applied) are more resistant to these type of tools, especially if they are turned off or turned on but not yet unlocked. The U.S. Supreme Court has recognized for a century a border search exception to the Fourth Amendment’s warrant requirement, allowing not only warrantless but also often suspicionless “routine” searches of luggage, vehicles, and other items crossing the border. The primary justification for the border search exception has been to find—in the items being searched—goods smuggled to avoid paying duties (i.e., taxes) and contraband such as drugs, weapons, and other prohibited items, thereby blocking their entry into the country. But a traveler’s privacy interests in their suitcase and its contents are minimal compared to those in all the personal data on the person’s phone or laptop. In our amicus brief, we argue that the U.S. Supreme Court’s balancing test in Riley v. California (2014) should govern the analysis here. In that case, the Court weighed the government’s interests in warrantless and suspicionless access to cell phone data following an arrest against an arrestee’s privacy interests in the depth and breadth of personal information stored on a cell phone. The Court concluded that the search-incident-to-arrest warrant exception does not apply, and that police need to get a warrant to search an arrestee’s phone. Travelers’ privacy interests in their cell phones, laptops and other electronic devices are, of course, the same as those considered in Riley. Modern devices, over a decade later, contain even more data that together reveal the most personal aspects of our lives, including political affiliations, religious beliefs and practices, sexual and romantic affinities, financial status, health conditions, and family and professional associations. In considering the government’s interests in warrantless access to digital data at the border, Riley requires analyzing how closely such searches hew to the original purpose of the warrant exception—preventing the entry of prohibited goods themselves via the items being searched. We argue that the government’s interests are weak in seeking unfettered access to travelers’ electronic devices. First, physical contraband (like drugs) can’t be found in digital data. Second, digital contraband (such as child sexual abuse material) can’t be prevented from entering the country through a warrantless search of a device at the border because it’s likely, given the nature of cloud technology and how internet-connected devices work, that identical copies of the files are already in the country on servers accessible via the internet. Finally, searching devices for evidence of contraband smuggling (for example, the emails here revealing details of the illegal import scheme) and other evidence for general law enforcement (i.e., investigating non-border-related domestic crimes) are too “untethered” from the original purpose of the border search exception, which is to find prohibited items themselves and not evidence to support a criminal prosecution. Therefore, emails or other data found on a digital device searched without a warrant at the border cannot and should not be used as evidence in court. If the Third Circuit is not inclined to require a warrant for electronic device searches at the border, we also argue that such a search—whether manual or forensic—should be justified only by reasonable suspicion that the device contains digital contraband and be limited in scope to looking for digital contraband. This extends the Ninth Circuit’s rule from U.S. v. Cano (2019) in which the court held that only forensic device searches at the border require reasonable suspicion that the device contains digital contraband—that is, some set of already known facts pointing to this possibility—while manual searches may be conducted without suspicion. But the Cano court also held that all searches must be limited in scope to looking for digital contraband (for example, call logs are off limits because they can’t contain digital contraband in the form of photos or files). We hope that the Third Circuit will rise to the occasion and be the first circuit to fully protect travelers’ Fourth Amendment rights at the border.",
-      "categories": [
-        {
-          "_": "Border Searches",
-          "$": {
-            "domain": "https://www.eff.org/issues/border-searches"
-          }
-        }
-      ]
     }
   ]
 }

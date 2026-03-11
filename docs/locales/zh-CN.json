@@ -5,8 +5,8 @@
   },
   "ui": {
     "lead": "头版",
-    "secondary": "重点新闻",
-    "info": "AI科技资讯",
+    "secondary": "今日要闻",
+    "info": "趋势",
     "editor": "编辑栏",
     "projects": "开源项目推荐",
     "back": "返回今日版面",
@@ -15,7 +15,8 @@
     "date": "更新于 {date}",
     "loading": "正在载入版面",
     "failed": "版面加载失败",
-    "notFound": "没有找到这条新闻。"
+    "notFound": "没有找到这条新闻。",
+    "observe": "观察"
   },
   "projects": {
     "promptfoo": {

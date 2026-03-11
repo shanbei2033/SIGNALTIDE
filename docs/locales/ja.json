@@ -5,8 +5,8 @@
   },
   "ui": {
     "lead": "トップ記事",
-    "secondary": "重要ニュース",
-    "info": "AI技術情報",
+    "secondary": "今日の主要ニュース",
+    "info": "トレンド",
     "editor": "編集欄",
     "projects": "オープンソース推奨プロジェクト",
     "back": "今日の版面に戻る",
@@ -15,7 +15,8 @@
     "date": "更新日：{date}",
     "loading": "版面を読み込み中...",
     "failed": "版面の読み込みに失敗しました",
-    "notFound": "記事が見つかりません。"
+    "notFound": "記事が見つかりません。",
+    "observe": "観察"
   },
   "projects": {
     "promptfoo": {

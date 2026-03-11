@@ -5,8 +5,8 @@
   },
   "ui": {
     "lead": "헤드라인",
-    "secondary": "주요 뉴스",
-    "info": "AI 기술 정보",
+    "secondary": "오늘의 주요 뉴스",
+    "info": "트렌드",
     "editor": "에디터리얼 칼럼",
     "projects": "오픈소스 추천 프로젝트",
     "back": "오늘의 면으로 돌아가기",
@@ -15,7 +15,8 @@
     "date": "업데이트: {date}",
     "loading": "면을 불러오는 중...",
     "failed": "면 불러오기 실패",
-    "notFound": "기사를 찾을 수 없습니다."
+    "notFound": "기사를 찾을 수 없습니다.",
+    "observe": "관찰"
   },
   "projects": {
     "promptfoo": {

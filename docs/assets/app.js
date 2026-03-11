@@ -123,9 +123,9 @@ function renderInfoRail(container, articles) {
   container.innerHTML = '';
   container.append(el('div', 'section-label', t('ui.info')));
 
-  const list = el('div', 'info-list');
-  for (const article of articles.slice(0, 4)) {
-    const item = el('article', 'info-item');
+  const list = el('div', 'info-list compact-list');
+  for (const article of articles.slice(0, 2)) {
+    const item = el('article', 'info-item compact-item');
     const title = document.createElement('a');
     title.href = articleHref(article.id);
     title.className = 'info-link';
@@ -133,6 +133,30 @@ function renderInfoRail(container, articles) {
     item.append(title);
 
     const body = el('div', 'info-body');
+    for (const paragraph of articleParagraphs(article, 2)) {
+      body.append(el('p', null, paragraph));
+    }
+    item.append(body);
+    list.append(item);
+  }
+
+  container.append(list);
+}
+
+function renderObserveRail(container, articles) {
+  container.innerHTML = '';
+  container.append(el('div', 'section-label', t('ui.observe')));
+
+  const list = el('div', 'observe-list');
+  for (const article of articles.slice(0, 2)) {
+    const item = el('article', 'observe-item');
+    const title = document.createElement('a');
+    title.href = articleHref(article.id);
+    title.className = 'observe-link';
+    title.textContent = article.headline;
+    item.append(title);
+
+    const body = el('div', 'observe-body');
     for (const paragraph of articleParagraphs(article, 2)) {
       body.append(el('p', null, paragraph));
     }
@@ -179,8 +203,9 @@ function renderPage(rawData) {
     .filter((article) => article.id !== lead.id)
     .sort((a, b) => impactScore(b, lead.id) - impactScore(a, lead.id));
 
-  const secondary = ranked.slice(0, 4);
-  const info = [...secondary, ...ranked.slice(4)].slice(0, 4);
+  const secondary = ranked.slice(0, 2);
+  const info = ranked.slice(2, 4);
+  const observe = ranked.slice(4, 7);
 
   document.title = `${data.site.name} · ${data.edition.displayDate}`;
   document.querySelector('#siteName').textContent = data.site.name;
@@ -191,6 +216,7 @@ function renderPage(rawData) {
   renderLead(document.querySelector('#leadStory'), lead);
   renderSecondary(document.querySelector('#secondaryStories'), secondary);
   renderInfoRail(document.querySelector('#infoRail'), info);
+  renderObserveRail(document.querySelector('#observeRail'), observe);
   renderEditorRail(document.querySelector('#editorRail'));
   updatePageLanguage();
 }

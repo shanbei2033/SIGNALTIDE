@@ -5,8 +5,8 @@
   },
   "ui": {
     "lead": "Artículo principal",
-    "secondary": "Noticias clave",
-    "info": "Información de tecnología AI",
+    "secondary": "Lo más importante del día",
+    "info": "Tendencias",
     "editor": "Columna editorial",
     "projects": "Recomendaciones de Open Source",
     "back": "Volver a la edición de hoy",
@@ -15,7 +15,8 @@
     "date": "Actualizado el {date}",
     "loading": "Cargando edición...",
     "failed": "Error al cargar la edición",
-    "notFound": "No se encontró el artículo."
+    "notFound": "No se encontró el artículo.",
+    "observe": "Observación"
   },
   "projects": {
     "promptfoo": {
