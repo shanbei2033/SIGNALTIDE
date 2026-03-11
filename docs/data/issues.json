@@ -1,0 +1,351 @@
+{
+  "site": {
+    "name": "Signal Tide",
+    "tagline": "由openclaw驱动的AI日报",
+    "description": "聚合、重写并归档每日 AI 领域的重要新闻。"
+  },
+  "edition": {
+    "id": "2026-03-11",
+    "issueNumber": 2,
+    "date": "2026-03-11",
+    "displayDate": "2026年3月11日",
+    "generatedAt": "2026-03-11T11:35:00.000Z",
+    "lead": "openai-instruction-hierarchy",
+    "mode": "openclaw-edited",
+    "editorNote": ""
+  },
+  "sections": [
+    {
+      "key": "lead",
+      "label": "头版"
+    },
+    {
+      "key": "company",
+      "label": "公司与产品"
+    },
+    {
+      "key": "policy",
+      "label": "政策与治理"
+    },
+    {
+      "key": "tools",
+      "label": "开发工具"
+    },
+    {
+      "key": "impact",
+      "label": "应用与影响"
+    }
+  ],
+  "articles": [
+    {
+      "id": "openai-instruction-hierarchy",
+      "section": "lead",
+      "category": "模型安全",
+      "headline": "OpenAI 公开 instruction hierarchy 新结果，前沿模型开始把“谁的话更可信”当成一等能力",
+      "deck": "这项工作的重点不只是又一个安全 benchmark，而是把模型在复杂提示链里分辨指令层级、抵抗注入和保持可控性的能力，往前推进成了基础能力建设。",
+      "kicker": "头版",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-10T11:00:00.000Z",
+      "updatedAt": "2026-03-11T11:35:00.000Z",
+      "readingTime": 4,
+      "tags": [
+        "OpenAI",
+        "Safety",
+        "Prompt Injection",
+        "Research"
+      ],
+      "summary": [
+        "OpenAI 3 月 10 日发布了 instruction hierarchy 相关研究与 IH-Challenge，核心目标是让前沿大模型在面对多层提示、工具调用和潜在攻击时，更稳定地区分哪些指令更值得遵从，哪些内容应该被降权甚至忽略。这个问题听起来抽象，但它其实正对应今天代理系统最现实的风险之一：用户输入、系统提示、外部网页和工具返回值混在一起之后，模型到底听谁的。",
+        "如果这个能力不足，所谓提示注入、越狱和工具滥用就很容易从理论问题变成真实漏洞。OpenAI 这次的表述值得注意，因为它没有把事情包装成单一技术突破，而是把 instruction hierarchy、safety steerability 和对 prompt injection 的抵抗能力放在同一条线上看。这说明模型厂商已经越来越清楚，代理系统要真正进入企业主流程，安全性不能只靠外围规则兜底，模型本体也必须更擅长处理“冲突指令”的优先级。",
+        "对行业来说，这条消息真正重要的地方在于它把一类长期存在但不够显眼的问题推到了台前。未来比较模型时，大家看的可能不再只是通用能力、成本和上下文长度，而是模型在复杂执行环境里对可信指令的服从能力到底有多稳。"
+      ],
+      "bullets": [
+        "OpenAI 发布 instruction hierarchy 相关研究与 IH-Challenge。",
+        "重点是提升 trusted instructions 的优先级判断与抗注入能力。",
+        "这类能力将直接影响 AI 代理进入真实业务流程的安全边界。"
+      ],
+      "significance": "下一阶段的模型竞争，正在从“会不会做题”转向“在复杂系统里会不会听对话、做对事”。",
+      "sources": [
+        {
+          "title": "Improving instruction hierarchy in frontier LLMs",
+          "publication": "OpenAI",
+          "url": "https://openai.com/index/instruction-hierarchy-challenge"
+        }
+      ],
+      "i18n": {
+        "zh-TW": {
+          "kicker": "頭版",
+          "category": "模型安全",
+          "headline": "OpenAI 公開 instruction hierarchy 新結果，前沿模型開始把「誰的指令更可信」當成一等能力",
+          "deck": "這項工作的重點不只是又一個安全 benchmark，而是把模型在複雜提示鏈裡分辨指令層級、抵抗注入與保持可控性的能力，往前推進成了基礎能力建設。",
+          "summary": [
+            "OpenAI 於 3 月 10 日發布了 instruction hierarchy 相關研究與 IH-Challenge，核心目標是讓前沿大模型在面對多層提示、工具呼叫與潛在攻擊時，更穩定地分辨哪些指令更值得遵從，哪些內容應該被降權甚至忽略。這個問題聽起來抽象，但它其實正對應今日代理系統最現實的風險之一：使用者輸入、系統提示、外部網頁與工具回傳值混在一起之後，模型到底該聽誰的。",
+            "如果這個能力不足，所謂提示注入、越獄與工具濫用就很容易從理論問題變成真實漏洞。OpenAI 這次的表述值得注意，因為它沒有把事情包裝成單一技術突破，而是把 instruction hierarchy、safety steerability 與對 prompt injection 的抵抗能力放在同一條線上看。這說明模型廠商已越來越清楚，代理系統要真正進入企業主流程，安全性不能只靠外圍規則兜底，模型本體也必須更擅長處理「衝突指令」的優先順序。",
+            "對產業來說，這條消息真正重要的地方在於它把一類長期存在但不夠顯眼的問題推到了台前。未來比較模型時，大家看的可能不再只是通用能力、成本與上下文長度，而是模型在複雜執行環境裡對可信指令的服從能力到底有多穩。"
+          ],
+          "significance": "下一階段的模型競爭，正在從「會不會做題」轉向「在複雜系統裡會不會聽對話、做對事」。"
+        },
+        "en": {
+          "kicker": "Lead",
+          "category": "Model Safety",
+          "headline": "OpenAI puts instruction hierarchy in the spotlight as frontier models are judged on which instructions they trust",
+          "deck": "This is not just another safety benchmark. It is a push to make instruction ranking, injection resistance, and steerability into first-class capabilities for models that operate inside agent systems.",
+          "summary": [
+            "On March 10, OpenAI published new work on instruction hierarchy alongside IH-Challenge, aimed at helping frontier language models distinguish which instructions deserve priority when system prompts, user input, tool outputs, and external content are mixed together. That may sound technical, but it maps directly onto one of the most practical risks in modern agent systems: when conflicting instructions appear in the same execution chain, what does the model actually choose to obey?",
+            "If that ability is weak, prompt injection, jailbreaks, and tool misuse stop being abstract research concerns and become operational vulnerabilities. What matters in OpenAI’s framing is that the company is not presenting instruction hierarchy as an isolated safety feature. It is tying it to steerability and prompt-injection resistance, which suggests model vendors increasingly see these as core requirements for agent deployment rather than optional hardening work around the edges.",
+            "The broader importance is that this brings a long-running but often underemphasized problem into the center of model evaluation. In the next phase of competition, the key question may be less about raw benchmark performance and more about whether a model can reliably follow the right instructions when deployed inside messy, multi-layered real-world systems."
+          ],
+          "significance": "The next stage of model competition is shifting from whether a model can perform well in isolation to whether it can listen correctly and act safely inside complex systems."
+        }
+      }
+    },
+    {
+      "id": "google-gemini-sheets",
+      "section": "company",
+      "category": "办公产品",
+      "headline": "Google 把 Gemini in Sheets 往更完整的数据工作流推进，AI 助手开始真正碰电子表格的核心区域",
+      "deck": "相比聊天式问答，电子表格一直是企业最难被 AI 真正吃下来的界面之一；Google 这次押注的是，Gemini 不只给建议，还要直接参与创建、整理和分析整张表。",
+      "kicker": "产品",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-10T13:00:00.000Z",
+      "updatedAt": "2026-03-11T11:35:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "Google",
+        "Gemini",
+        "Sheets",
+        "Productivity"
+      ],
+      "summary": [
+        "Google 宣布 Gemini in Sheets 新增 beta 功能，目标是让用户不只是对着表格提问，而是可以让 AI 帮忙创建、组织、编辑整张电子表，覆盖从基础操作到更复杂的数据分析流程。这个方向的意义在于，表格不是一个容易被语言模型轻松接管的界面：它既有结构化数据，又有格式、公式、排序、筛选和协作上下文。",
+        "因此，谁能把 AI 真正做进电子表格主流程，谁就更有机会拿下企业日常办公中最黏、最频繁的一类场景。Google 这次强调 state-of-the-art 表现，也是在传递一个很明确的信号：Gemini 不只想做搜索和问答层的智能入口，还想进入更具体、更高频、更接近业务动作本身的生产工具层。",
+        "对市场来说，电子表格一直是 AI 办公竞争中一个很有代表性的阵地。因为它不像写作那样容易被演示，也不像聊天那样天然适配语言接口。谁能在这里做出稳定体验，往往更说明产品已经开始接近真正的工作流。"
+      ],
+      "bullets": [
+        "Gemini in Sheets 新增更多整表创建、整理与编辑能力。",
+        "重点不只是问答，而是深入电子表格核心工作流。",
+        "这类产品更接近企业日常高频使用场景。"
+      ],
+      "significance": "AI 办公产品真正的竞争，正在从“能不能回答问题”转向“能不能接手具体工作”。",
+      "sources": [
+        {
+          "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
+          "publication": "Google",
+          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/"
+        }
+      ],
+      "i18n": {
+        "zh-TW": {
+          "kicker": "產品",
+          "category": "辦公產品",
+          "headline": "Google 把 Gemini in Sheets 往更完整的資料工作流推進，AI 助手開始真正碰電子試算表的核心區域",
+          "deck": "相比聊天式問答，電子試算表一直是企業最難被 AI 真正吃下來的介面之一；Google 這次押注的是，Gemini 不只給建議，還要直接參與建立、整理與分析整張表。",
+          "summary": [
+            "Google 宣布 Gemini in Sheets 新增 beta 功能，目標是讓使用者不只是對著表格提問，而是可以讓 AI 幫忙建立、組織、編輯整張試算表，覆蓋從基礎操作到更複雜的資料分析流程。這個方向的意義在於，表格不是一個容易被語言模型輕鬆接管的介面：它既有結構化資料，又有格式、公式、排序、篩選與協作上下文。",
+            "因此，誰能把 AI 真正做進電子試算表主流程，誰就更有機會拿下企業日常辦公中最黏、最頻繁的一類場景。Google 這次強調 state-of-the-art 表現，也是在傳遞一個很明確的訊號：Gemini 不只想做搜尋與問答層的智慧入口，還想進入更具體、更高頻、更接近業務動作本身的生產工具層。",
+            "對市場來說，電子試算表一直是 AI 辦公競爭中一個很有代表性的陣地。因為它不像寫作那樣容易被展示，也不像聊天那樣天然適配語言介面。誰能在這裡做出穩定體驗，往往更說明產品已開始接近真正的工作流。"
+          ],
+          "significance": "AI 辦公產品真正的競爭，正在從「能不能回答問題」轉向「能不能接手具體工作」。"
+        },
+        "en": {
+          "kicker": "Product",
+          "category": "Productivity",
+          "headline": "Google pushes Gemini in Sheets deeper into workflow territory as AI moves closer to the spreadsheet core",
+          "deck": "Spreadsheets have always been harder for AI to truly absorb than chat or writing tools. Google’s bet is that Gemini should not just answer questions about a sheet, but help build, organize, and analyze the whole thing.",
+          "summary": [
+            "Google says new beta features in Gemini in Sheets will help users create, organize, and edit entire spreadsheets, extending the product beyond simple Q&A into broader analysis and workflow assistance. That matters because spreadsheets are one of the hardest mainstream productivity surfaces for AI to genuinely handle well: they combine structured data, formulas, formatting, sorting, filtering, and collaborative context in ways that do not naturally collapse into chat.",
+            "That is why this category matters so much. Whoever can make AI genuinely useful inside spreadsheet workflows is not just winning a flashy demo category, but getting closer to one of the stickiest and most repetitive layers of everyday enterprise work. Google’s emphasis on state-of-the-art performance also signals that Gemini is trying to move beyond being a search or assistant layer and into the actual execution surface where work gets done.",
+            "More broadly, spreadsheets are a revealing test for AI office products. Writing tools are easy to showcase, and chat interfaces are naturally model-friendly. Spreadsheets are different: they expose whether a system can operate reliably inside dense, real productivity environments rather than just sounding helpful from the sidelines."
+          ],
+          "significance": "The real competition in AI productivity is shifting from answering questions about work to taking over concrete parts of the work itself."
+        }
+      }
+    },
+    {
+      "id": "anthropic-thinktank-blacklist",
+      "section": "policy",
+      "category": "政策与治理",
+      "headline": "Anthropic 在五角大楼黑名单争议中启动新智库，安全边界之争开始从诉讼延伸到话语权布局",
+      "deck": "这不只是公司公关动作，而像是在释放一个更清晰的信号：当模型公司与政府安全体系发生正面冲突时，竞争的不只是采购资格，也是谁来定义 AI 的治理边界。",
+      "kicker": "政策",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-10T00:00:00.000Z",
+      "updatedAt": "2026-03-11T11:35:00.000Z",
+      "readingTime": 4,
+      "tags": [
+        "Anthropic",
+        "Policy",
+        "Defense",
+        "Governance"
+      ],
+      "summary": [
+        "The Verge 报道称，Anthropic 在与五角大楼“黑名单”争议持续发酵之际，启动了一家新的 think tank。单看这一步，它像是公司在舆论层和政策层补上一块长期阵地；放在最近一连串事件里看，它更像是对整个 AI 治理话语权竞争的一次前置布局。",
+        "过去模型公司与政府之间的矛盾，很多时候还停留在合同、合规和采购资格层面。但 Anthropic 近期围绕国防部 designation 的冲突，已经把问题推向了更敏感的位置：如果一家模型公司因为自身对大规模监控、武器自主性或安全边界的立场而承受政府惩罚，那么今后 AI 公司还能否独立设定产品边界？",
+        "在这种背景下，设立 think tank 的意义就不再只是形象工程。它是在抢占一个更长期的位置：谁来组织政策论证、谁来参与标准叙事、谁来塑造“安全且负责任的 AI”到底是什么意思。未来前沿模型公司的竞争，显然不只发生在参数和产品层。"
+      ],
+      "bullets": [
+        "Anthropic 在与五角大楼争议之际启动新的 think tank。",
+        "事件已从采购资格争议延伸到治理叙事竞争。",
+        "模型公司的政策立场正越来越直接地影响商业与监管空间。"
+      ],
+      "significance": "AI 公司与政府之间的下一轮博弈，可能不只是“能不能做”，而是谁有资格定义什么才算可以做。",
+      "sources": [
+        {
+          "title": "Anthropic is launching a new think tank amid Pentagon blacklist fight",
+          "publication": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/892478/anthropic-institute-think-tank-claude-pentagon-jack-clark"
+        }
+      ],
+      "i18n": {
+        "zh-TW": {
+          "kicker": "政策",
+          "category": "政策與治理",
+          "headline": "Anthropic 在五角大廈黑名單爭議中啟動新智庫，安全邊界之爭開始從訴訟延伸到話語權布局",
+          "deck": "這不只是公司公關動作，而像是在釋放一個更清晰的訊號：當模型公司與政府安全體系發生正面衝突時，競爭的不只是採購資格，也包括誰來定義 AI 的治理邊界。",
+          "summary": [
+            "The Verge 報導稱，Anthropic 在與五角大廈「黑名單」爭議持續發酵之際，啟動了一家新的 think tank。單看這一步，它像是公司在輿論層與政策層補上一塊長期陣地；放在最近一連串事件裡看，它更像是對整個 AI 治理話語權競爭的一次前置布局。",
+            "過去模型公司與政府之間的矛盾，很多時候還停留在合約、合規與採購資格層面。但 Anthropic 近期圍繞國防部 designation 的衝突，已經把問題推向更敏感的位置：如果一家模型公司因為自身對大規模監控、武器自主性或安全邊界的立場而承受政府懲罰，那麼今後 AI 公司還能否獨立設定產品邊界？",
+            "在這種背景下，設立 think tank 的意義就不再只是形象工程。它是在搶占一個更長期的位置：誰來組織政策論證、誰來參與標準敘事、誰來塑造「安全且負責任的 AI」到底是什麼意思。未來前沿模型公司的競爭，顯然不只發生在參數與產品層。"
+          ],
+          "significance": "AI 公司與政府之間的下一輪博弈，可能不只是「能不能做」，而是誰有資格定義什麼才算可以做。"
+        },
+        "en": {
+          "kicker": "Policy",
+          "category": "Policy & Governance",
+          "headline": "Anthropic launches a think tank as its Pentagon fight expands from procurement to narrative power",
+          "deck": "This is not just a communications move. It looks more like an attempt to shape the terms of AI governance at the same moment the company is fighting over its place inside the U.S. defense system.",
+          "summary": [
+            "The Verge reports that Anthropic is launching a new think tank while its dispute with the Pentagon continues to unfold. On its own, that might look like a standard policy-adjacent institution-building move. In context, it suggests something broader: the company is trying to secure influence not just in procurement fights, but in the longer battle over who gets to define the acceptable boundaries of advanced AI deployment.",
+            "Until recently, clashes between model labs and governments often stayed within the world of contracts, compliance, and access. The recent controversy around Anthropic’s Pentagon status pushes the issue further. If a frontier model company can face direct consequences because of where it draws lines around surveillance, weapons, or system safety, then product boundaries are no longer only internal design choices. They become politically consequential positions.",
+            "Seen that way, launching a think tank is not just about image. It is about building a durable role in policy debate, standards discourse, and the wider effort to define what responsible AI should mean in practice. The competition between labs is increasingly taking place not only in models and products, but in institutions and governance language."
+          ],
+          "significance": "The next major contest between AI firms and governments may be less about what can be built than about who gets to define what should be allowed."
+        }
+      }
+    },
+    {
+      "id": "nvidia-open-agent-platform",
+      "section": "tools",
+      "category": "开源生态",
+      "headline": "NVIDIA 计划推出开源 AI agent 平台，代理基础设施竞争开始进一步平台化",
+      "deck": "如果这一步落地，NVIDIA 想卖的就不只是芯片和推理性能，而是从模型运行到底层 agent stack 的一整套基础设施入口。",
+      "kicker": "工具",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-10T00:00:00.000Z",
+      "updatedAt": "2026-03-11T11:35:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "NVIDIA",
+        "Open Source",
+        "Agents",
+        "Infrastructure"
+      ],
+      "summary": [
+        "Wired 报道称，NVIDIA 正计划推出一个开源 AI agent 平台。对 NVIDIA 来说，这个方向并不难理解：当 AI 市场逐渐从“模型调用”迈向“代理执行”，价值链就会从训练卡和推理卡继续上移到 orchestration、tool use、memory、evaluation 和 deployment 这些更贴近开发者入口的层面。",
+        "如果 NVIDIA 真的把 agent 平台做成开源基础设施，它争夺的就不只是 GPU 预算，而是开发者在构建代理系统时默认选择的底层框架和运行路径。这个战略跟过去云厂商和模型厂商争夺开发者平台的逻辑类似，只是这一次竞争的对象不再只是应用框架，而是“代理如何运行”这整套新栈。",
+        "对开源生态来说，这条消息值得关注，因为它意味着 agent 基础设施还远没有定局。谁控制默认平台、工具接口和部署习惯，谁就更有可能影响下一代 AI 应用的技术走向。"
+      ],
+      "bullets": [
+        "NVIDIA 据称计划推出开源 AI agent 平台。",
+        "竞争焦点正在从芯片层扩展到 agent 基础设施层。",
+        "开源平台可能影响开发者默认工具链与部署路径。"
+      ],
+      "significance": "AI 代理时代的基础设施之争，正在从“算力”延伸到“谁定义开发者默认平台”。",
+      "sources": [
+        {
+          "title": "Nvidia Is Planning to Launch an Open-Source AI Agent Platform",
+          "publication": "Wired",
+          "url": "https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source/"
+        }
+      ],
+      "i18n": {
+        "zh-TW": {
+          "kicker": "工具",
+          "category": "開源生態",
+          "headline": "NVIDIA 計畫推出開源 AI agent 平台，代理基礎設施競爭開始進一步平台化",
+          "deck": "如果這一步落地，NVIDIA 想賣的就不只是晶片與推理效能，而是從模型運行到底層 agent stack 的整套基礎設施入口。",
+          "summary": [
+            "Wired 報導稱，NVIDIA 正計畫推出一個開源 AI agent 平台。對 NVIDIA 來說，這個方向並不難理解：當 AI 市場逐漸從「模型呼叫」邁向「代理執行」，價值鏈就會從訓練卡與推理卡繼續上移到 orchestration、tool use、memory、evaluation 與 deployment 這些更貼近開發者入口的層面。",
+            "如果 NVIDIA 真的把 agent 平台做成開源基礎設施，它爭奪的就不只是 GPU 預算，而是開發者在建構代理系統時預設選擇的底層框架與運行路徑。這個戰略與過去雲廠商和模型廠商爭奪開發者平台的邏輯類似，只是這一次競爭的對象不再只是應用框架，而是「代理如何運作」這整套新棧。",
+            "對開源生態來說，這條消息值得關注，因為它意味著 agent 基礎設施還遠沒有定局。誰控制預設平台、工具介面與部署習慣，誰就更有可能影響下一代 AI 應用的技術走向。"
+          ],
+          "significance": "AI 代理時代的基礎設施之爭，正在從「算力」延伸到「誰定義開發者預設平台」。"
+        },
+        "en": {
+          "kicker": "Tools",
+          "category": "Open-Source Ecosystem",
+          "headline": "NVIDIA’s reported open-source agent platform points to a broader battle over the default AI stack",
+          "deck": "If this lands, NVIDIA will be competing not just on chips and inference performance, but on the developer-facing platform layer that sits underneath agent execution.",
+          "summary": [
+            "Wired reports that NVIDIA is planning to launch an open-source AI agent platform. Strategically, the move makes sense. As the market shifts from model access toward agent execution, value is moving upward from training and inference hardware into orchestration, tool use, memory, evaluation, and deployment—the layers developers actually touch when they try to build end-to-end systems.",
+            "If NVIDIA can establish itself in that layer, it is no longer just competing for GPU budget. It is competing to become part of the default stack developers use to build and run agents. That resembles earlier platform fights in cloud and application tooling, except this time the question is not merely which framework people adopt, but how agents are structured and deployed in the first place.",
+            "For the open-source ecosystem, the signal is important because it suggests the infrastructure layer for agent systems is still very much in flux. Whoever shapes the default interfaces, workflows, and runtime assumptions could gain lasting influence over how the next wave of AI applications is built."
+          ],
+          "significance": "In the agent era, infrastructure competition is spreading beyond compute into the far more strategic question of who defines the default developer platform."
+        }
+      }
+    },
+    {
+      "id": "nist-agent-standards",
+      "section": "impact",
+      "category": "标准与安全",
+      "headline": "NIST 推出 AI Agent Standards Initiative，代理系统开始进入“先谈互操作、再谈规模扩张”的阶段",
+      "deck": "当代理系统越来越多地连接工具、调用服务并跨组织运行时，标准化与安全接口不再是慢变量，而会直接影响市场能不能做大。",
+      "kicker": "影响",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-02-01T00:00:00.000Z",
+      "updatedAt": "2026-03-11T11:35:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "NIST",
+        "Standards",
+        "Agents",
+        "Security"
+      ],
+      "summary": [
+        "NIST 宣布 AI Agent Standards Initiative，重点放在互操作性与安全创新。这个动作的重要性，不在于它立刻改变了哪家产品路线，而在于它说明监管、标准组织和产业界已经开始把“代理系统”当成一个需要独立建模的技术对象来看，而不是把它简单归入大模型应用的延伸。",
+        "这种变化往往发生在一个市场准备从概念验证迈向更大规模应用的时候。早期大家更关心 agent 能做什么、能不能跑起来；到了下一阶段，真正拦住扩张的反而可能是接口不统一、安全责任不清晰、跨系统协作不可预测。谁先把标准框架、审计能力和安全约束讨论清楚，谁就更有机会让企业和公共机构愿意真正采用。",
+        "对行业来说，这类标准工作通常不够吸睛，却常常决定基础设施市场的成熟速度。AI agent 如果要从今年最热的产品概念之一，变成未来几年的稳定软件范式，互操作与安全标准迟早会成为主战场。"
+      ],
+      "bullets": [
+        "NIST 宣布 AI Agent Standards Initiative。",
+        "重点在互操作、安全创新与更稳定的产业接口。",
+        "标准化往往预示一个市场正在从概念验证走向基础设施化。"
+      ],
+      "significance": "代理系统一旦进入标准化讨论，行业竞争就不再只是比谁做得快，也开始比谁能让整个生态稳定运转。",
+      "sources": [
+        {
+          "title": "Announcing the \"AI Agent Standards Initiative\" for Interoperable and Secure Innovation",
+          "publication": "NIST",
+          "url": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure"
+        }
+      ],
+      "i18n": {
+        "zh-TW": {
+          "kicker": "影響",
+          "category": "標準與安全",
+          "headline": "NIST 推出 AI Agent Standards Initiative，代理系統開始進入「先談互操作、再談規模擴張」的階段",
+          "deck": "當代理系統越來越多地連接工具、呼叫服務並跨組織運行時，標準化與安全介面不再是慢變量，而會直接影響市場能不能做大。",
+          "summary": [
+            "NIST 宣布 AI Agent Standards Initiative，重點放在互操作性與安全創新。這個動作的重要性，不在於它立刻改變了哪家產品路線，而在於它說明監管、標準組織與產業界已開始把「代理系統」當成一個需要獨立建模的技術對象來看，而不是把它簡單歸入大模型應用的延伸。",
+            "這種變化往往發生在一個市場準備從概念驗證邁向更大規模應用的時候。早期大家更關心 agent 能做什麼、能不能跑起來；到了下一階段，真正攔住擴張的反而可能是介面不統一、安全責任不清晰、跨系統協作不可預測。誰先把標準框架、稽核能力與安全約束討論清楚，誰就更有機會讓企業與公共機構願意真正採用。",
+            "對產業來說，這類標準工作通常不夠吸睛，卻往往決定基礎設施市場的成熟速度。AI agent 如果要從今年最熱的產品概念之一，變成未來幾年的穩定軟體範式，互操作與安全標準遲早會成為主戰場。"
+          ],
+          "significance": "代理系統一旦進入標準化討論，產業競爭就不再只是比誰做得快，也開始比誰能讓整個生態穩定運轉。"
+        },
+        "en": {
+          "kicker": "Impact",
+          "category": "Standards & Security",
+          "headline": "NIST’s new AI Agent Standards Initiative shows the market is moving from novelty toward infrastructure",
+          "deck": "As agent systems connect more tools, services, and organizations, interoperability and secure interfaces stop being back-office concerns and start shaping how large the market can really become.",
+          "summary": [
+            "NIST has announced an AI Agent Standards Initiative focused on interoperable and secure innovation. The importance of that move is not that it immediately changes product roadmaps, but that it shows standards bodies and public institutions are beginning to treat agent systems as a category that needs its own vocabulary, interfaces, and security assumptions rather than simply as an extension of general-purpose language model apps.",
+            "That kind of shift usually appears when a market is preparing to move from prototype enthusiasm into larger deployment. Early on, the central questions are whether agents can do impressive things and whether they can run at all. Later, the real blockers are more mundane and more consequential: inconsistent interfaces, unclear accountability, and unpredictable behavior across systems. Standardization enters precisely when adoption pressure starts to meet operational reality.",
+            "For the industry, this may not be the flashiest development of the week, but it is the kind that often determines how mature an infrastructure category becomes. If AI agents are going to evolve from one of the hottest product ideas of the moment into a durable software pattern, interoperability and security standards will eventually become part of the main competitive terrain."
+          ],
+          "significance": "Once agent systems enter the standards phase, competition stops being only about speed and starts becoming about who can make the wider ecosystem reliable enough to scale."
+        }
+      }
+    }
+  ]
+}

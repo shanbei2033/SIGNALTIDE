@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, initial-scale=0.28, maximum-scale=5" />
+    <title>Signal Tide</title>
+    <meta name="description" content="每日整理的 AI 新闻版面。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet" />
+    <link rel="alternate" type="application/rss+xml" title="Signal Tide RSS" href="./rss.xml" />
+    <link rel="stylesheet" href="./assets/style.css?v=20260311d" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead">
+        <div class="masthead-top">
+          <p class="masthead-meta" id="editionDate">加载中</p>
+          <div class="language-switcher" id="languageSwitcher"></div>
+        </div>
+        <h1 id="siteName">Signal Tide</h1>
+        <div class="masthead-bottom">
+          <p id="tagline">正在载入版面</p>
+          <p id="editorNote"></p>
+        </div>
+      </header>
+
+      <main class="frontpage newspaper-layout">
+        <section class="paper-lead block" id="leadStory" aria-labelledby="leadTitle"></section>
+        <section class="paper-secondary block" id="secondaryStories" data-i18n-key="ui.secondary"></section>
+        <aside class="paper-info block" id="infoRail" data-i18n-key="ui.info"></aside>
+        <aside class="paper-notes block" id="editorRail" data-i18n-key="ui.editor"></aside>
+      </main>
+
+      <footer class="site-footer">
+        <button class="rss-action" id="rssAction" type="button" aria-label="RSS">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="rss-icon">
+            <path fill="currentColor" d="M6.18 17.82a2.18 2.18 0 1 1 0-4.36a2.18 2.18 0 0 1 0 4.36ZM4 10.3v3.09a6.61 6.61 0 0 1 6.61 6.61h3.09C13.7 14.35 9.65 10.3 4 10.3Zm0-6.3v3.09C11.86 7.09 16.91 12.14 16.91 20H20C20 10.06 13.94 4 4 4Z"/>
+          </svg>
+        </button>
+      </footer>
+    </div>
+
+    <template id="secondaryTemplate">
+      <article class="secondary-story">
+        <a class="secondary-link" href="#">
+          <p class="story-kicker"></p>
+          <h2 class="story-title"></h2>
+          <div class="story-body"></div>
+        </a>
+      </article>
+    </template>
+
+    <script type="module" src="./assets/app.js?v=20260311d"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "site": {
+    "name": "Signal Tide",
+    "tagline": "AI Daily powered by openclaw"
+  },
+  "ui": {
+    "lead": "Lead Story",
+    "secondary": "Key News",
+    "info": "AI Tech Info",
+    "editor": "Editorial Column",
+    "projects": "Open Source Recommendations",
+    "back": "Back to Today's Edition",
+    "readingTime": "Recommended reading time: {minutes} minutes",
+    "sources": "Sources",
+    "date": "Updated {date}",
+    "loading": "Loading edition...",
+    "failed": "Failed to load edition",
+    "notFound": "Article not found."
+  },
+  "projects": {
+    "promptfoo": {
+      "name": "Promptfoo",
+      "note": "Large model evaluation, prompt injection, and agent security testing – suitable for pre-deployment risk checks in AI applications."
+    },
+    "openhands": {
+      "name": "OpenHands",
+      "note": "An open-source project for code agents, aiming to help AI complete more complex software work in real repositories and workflows."
+    },
+    "continue": {
+      "name": "Continue",
+      "note": "Embeds code assistant directly into editor workflows, suitable for daily development tasks like completion, Q&A, and modification."
+    },
+    "langfuse": {
+      "name": "Langfuse",
+      "note": "Focuses on LLM application tracing, observability, and evaluation, ideal for online quality tracking."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, initial-scale=0.28, maximum-scale=5" />
+    <title>Signal Tide</title>
+    <meta name="description" content="AI 新闻详情页" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet" />
+    <link rel="alternate" type="application/rss+xml" title="Signal Tide RSS" href="./rss.xml" />
+    <link rel="stylesheet" href="./assets/style.css?v=20260311d" />
+  </head>
+  <body>
+    <div class="page-shell article-shell">
+      <header class="article-topbar">
+        <a class="back-link" href="./index.html" aria-label="返回今日版面" title="返回今日版面">←</a>
+        <p id="articleDate"></p>
+        <div class="language-switcher" id="languageSwitcher"></div>
+      </header>
+
+      <main id="articleRoot" class="article-layout"></main>
+
+      <footer class="site-footer">
+        <button class="rss-action" id="rssAction" type="button" aria-label="RSS">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="rss-icon">
+            <path fill="currentColor" d="M6.18 17.82a2.18 2.18 0 1 1 0-4.36a2.18 2.18 0 0 1 0 4.36ZM4 10.3v3.09a6.61 6.61 0 0 1 6.61 6.61h3.09C13.7 14.35 9.65 10.3 4 10.3Zm0-6.3v3.09C11.86 7.09 16.91 12.14 16.91 20H20C20 10.06 13.94 4 4 4Z"/>
+          </svg>
+        </button>
+      </footer>
+    </div>
+
+    <template id="articleTemplate">
+      <article class="article-main block">
+        <p class="story-kicker article-kicker"></p>
+        <h1 class="article-title"></h1>
+        <p class="article-reading article-reading-inline"></p>
+        <p class="article-deck"></p>
+        <div class="article-summary article-body"></div>
+        <section>
+          <h2 data-i18n-key="ui.sources">来源</h2>
+          <ul class="article-sources"></ul>
+        </section>
+      </article>
+    </template>
+
+    <script type="module" src="./assets/article.js?v=20260311d"></script>
+  </body>
+</html>

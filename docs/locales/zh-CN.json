@@ -1,0 +1,38 @@
+{
+  "site": {
+    "name": "智潮",
+    "tagline": "由openclaw驱动的AI日报"
+  },
+  "ui": {
+    "lead": "头版",
+    "secondary": "重点新闻",
+    "info": "AI科技资讯",
+    "editor": "编辑栏",
+    "projects": "开源项目推荐",
+    "back": "返回今日版面",
+    "readingTime": "推荐阅读时间：{minutes} 分钟",
+    "sources": "来源",
+    "date": "更新于 {date}",
+    "loading": "正在载入版面",
+    "failed": "版面加载失败",
+    "notFound": "没有找到这条新闻。"
+  },
+  "projects": {
+    "promptfoo": {
+      "name": "Promptfoo",
+      "note": "做大模型评测、提示注入与代理安全测试，适合把 AI 应用上线前的风险检查前置。"
+    },
+    "openhands": {
+      "name": "OpenHands",
+      "note": "面向代码代理的开源项目，目标是让 AI 在真实仓库和任务流里完成更复杂的软件工作。"
+    },
+    "continue": {
+      "name": "Continue",
+      "note": "把代码助手直接嵌进编辑器工作流，适合日常开发时做补全、问答与修改。"
+    },
+    "langfuse": {
+      "name": "Langfuse",
+      "note": "聚焦 LLM 应用的 tracing、观测与评估，适合做线上质量跟踪。"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>智潮 / Signal Tide</title>
+    <link>https://example.com/</link>
+    <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 11 Mar 2026 11:35:00 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI 公開 instruction hierarchy 新結果，前沿模型開始把「誰的指令更可信」當成一等能力</title>
+      <link>https://example.com/article.html?id=openai-instruction-hierarchy</link>
+      <guid>https://example.com/article.html?id=openai-instruction-hierarchy</guid>
+      <pubDate>Wed, 11 Mar 2026 11:35:00 GMT</pubDate>
+      <description>这项工作的重点不只是又一个安全 benchmark，而是把模型在复杂提示链里分辨指令层级、抵抗注入和保持可控性的能力，往前推进成了基础能力建设。
+
+OpenAI 3 月 10 日发布了 instruction hierarchy 相关研究与 IH-Challenge，核心目标是让前沿大模型在面对多层提示、工具调用和潜在攻击时，更稳定地区分哪些指令更值得遵从，哪些内容应该被降权甚至忽略。这个问题听起来抽象，但它其实正对应今天代理系统最现实的风险之一：用户输入、系统提示、外部网页和工具返回值混在一起之后，模型到底听谁的。
+
+如果这个能力不足，所谓提示注入、越狱和工具滥用就很容易从理论问题变成真实漏洞。OpenAI 这次的表述值得注意，因为它没有把事情包装成单一技术突破，而是把 instruction hierarchy、safety steerability 和对 prompt injection 的抵抗能力放在同一条线上看。这说明模型厂商已经越来越清楚，代理系统要真正进入企业主流程，安全性不能只靠外围规则兜底，模型本体也必须更擅长处理“冲突指令”的优先级。
+
+对行业来说，这条消息真正重要的地方在于它把一类长期存在但不够显眼的问题推到了台前。未来比较模型时，大家看的可能不再只是通用能力、成本和上下文长度，而是模型在复杂执行环境里对可信指令的服从能力到底有多稳。
+
+下一阶段的模型竞争，正在从“会不会做题”转向“在复杂系统里会不会听对话、做对事”。</description>
+    </item>
+    <item>
+      <title>Google 把 Gemini in Sheets 往更完整的資料工作流推進，AI 助手開始真正碰電子試算表的核心區域</title>
+      <link>https://example.com/article.html?id=google-gemini-sheets</link>
+      <guid>https://example.com/article.html?id=google-gemini-sheets</guid>
+      <pubDate>Wed, 11 Mar 2026 11:35:00 GMT</pubDate>
+      <description>相比聊天式问答，电子表格一直是企业最难被 AI 真正吃下来的界面之一；Google 这次押注的是，Gemini 不只给建议，还要直接参与创建、整理和分析整张表。
+
+Google 宣布 Gemini in Sheets 新增 beta 功能，目标是让用户不只是对着表格提问，而是可以让 AI 帮忙创建、组织、编辑整张电子表，覆盖从基础操作到更复杂的数据分析流程。这个方向的意义在于，表格不是一个容易被语言模型轻松接管的界面：它既有结构化数据，又有格式、公式、排序、筛选和协作上下文。
+
+因此，谁能把 AI 真正做进电子表格主流程，谁就更有机会拿下企业日常办公中最黏、最频繁的一类场景。Google 这次强调 state-of-the-art 表现，也是在传递一个很明确的信号：Gemini 不只想做搜索和问答层的智能入口，还想进入更具体、更高频、更接近业务动作本身的生产工具层。
+
+对市场来说，电子表格一直是 AI 办公竞争中一个很有代表性的阵地。因为它不像写作那样容易被演示，也不像聊天那样天然适配语言接口。谁能在这里做出稳定体验，往往更说明产品已经开始接近真正的工作流。
+
+AI 办公产品真正的竞争，正在从“能不能回答问题”转向“能不能接手具体工作”。</description>
+    </item>
+    <item>
+      <title>Anthropic 在五角大廈黑名單爭議中啟動新智庫，安全邊界之爭開始從訴訟延伸到話語權布局</title>
+      <link>https://example.com/article.html?id=anthropic-thinktank-blacklist</link>
+      <guid>https://example.com/article.html?id=anthropic-thinktank-blacklist</guid>
+      <pubDate>Wed, 11 Mar 2026 11:35:00 GMT</pubDate>
+      <description>这不只是公司公关动作，而像是在释放一个更清晰的信号：当模型公司与政府安全体系发生正面冲突时，竞争的不只是采购资格，也是谁来定义 AI 的治理边界。
+
+The Verge 报道称，Anthropic 在与五角大楼“黑名单”争议持续发酵之际，启动了一家新的 think tank。单看这一步，它像是公司在舆论层和政策层补上一块长期阵地；放在最近一连串事件里看，它更像是对整个 AI 治理话语权竞争的一次前置布局。
+
+过去模型公司与政府之间的矛盾，很多时候还停留在合同、合规和采购资格层面。但 Anthropic 近期围绕国防部 designation 的冲突，已经把问题推向了更敏感的位置：如果一家模型公司因为自身对大规模监控、武器自主性或安全边界的立场而承受政府惩罚，那么今后 AI 公司还能否独立设定产品边界？
+
+在这种背景下，设立 think tank 的意义就不再只是形象工程。它是在抢占一个更长期的位置：谁来组织政策论证、谁来参与标准叙事、谁来塑造“安全且负责任的 AI”到底是什么意思。未来前沿模型公司的竞争，显然不只发生在参数和产品层。
+
+AI 公司与政府之间的下一轮博弈，可能不只是“能不能做”，而是谁有资格定义什么才算可以做。</description>
+    </item>
+    <item>
+      <title>NVIDIA 計畫推出開源 AI agent 平台，代理基礎設施競爭開始進一步平台化</title>
+      <link>https://example.com/article.html?id=nvidia-open-agent-platform</link>
+      <guid>https://example.com/article.html?id=nvidia-open-agent-platform</guid>
+      <pubDate>Wed, 11 Mar 2026 11:35:00 GMT</pubDate>
+      <description>如果这一步落地，NVIDIA 想卖的就不只是芯片和推理性能，而是从模型运行到底层 agent stack 的一整套基础设施入口。
+
+Wired 报道称，NVIDIA 正计划推出一个开源 AI agent 平台。对 NVIDIA 来说，这个方向并不难理解：当 AI 市场逐渐从“模型调用”迈向“代理执行”，价值链就会从训练卡和推理卡继续上移到 orchestration、tool use、memory、evaluation 和 deployment 这些更贴近开发者入口的层面。
+
+如果 NVIDIA 真的把 agent 平台做成开源基础设施，它争夺的就不只是 GPU 预算，而是开发者在构建代理系统时默认选择的底层框架和运行路径。这个战略跟过去云厂商和模型厂商争夺开发者平台的逻辑类似，只是这一次竞争的对象不再只是应用框架，而是“代理如何运行”这整套新栈。
+
+对开源生态来说，这条消息值得关注，因为它意味着 agent 基础设施还远没有定局。谁控制默认平台、工具接口和部署习惯，谁就更有可能影响下一代 AI 应用的技术走向。
+
+AI 代理时代的基础设施之争，正在从“算力”延伸到“谁定义开发者默认平台”。</description>
+    </item>
+    <item>
+      <title>NIST 推出 AI Agent Standards Initiative，代理系統開始進入「先談互操作、再談規模擴張」的階段</title>
+      <link>https://example.com/article.html?id=nist-agent-standards</link>
+      <guid>https://example.com/article.html?id=nist-agent-standards</guid>
+      <pubDate>Wed, 11 Mar 2026 11:35:00 GMT</pubDate>
+      <description>当代理系统越来越多地连接工具、调用服务并跨组织运行时，标准化与安全接口不再是慢变量，而会直接影响市场能不能做大。
+
+NIST 宣布 AI Agent Standards Initiative，重点放在互操作性与安全创新。这个动作的重要性，不在于它立刻改变了哪家产品路线，而在于它说明监管、标准组织和产业界已经开始把“代理系统”当成一个需要独立建模的技术对象来看，而不是把它简单归入大模型应用的延伸。
+
+这种变化往往发生在一个市场准备从概念验证迈向更大规模应用的时候。早期大家更关心 agent 能做什么、能不能跑起来；到了下一阶段，真正拦住扩张的反而可能是接口不统一、安全责任不清晰、跨系统协作不可预测。谁先把标准框架、审计能力和安全约束讨论清楚，谁就更有机会让企业和公共机构愿意真正采用。
+
+对行业来说，这类标准工作通常不够吸睛，却常常决定基础设施市场的成熟速度。AI agent 如果要从今年最热的产品概念之一，变成未来几年的稳定软件范式，互操作与安全标准迟早会成为主战场。
+
+代理系统一旦进入标准化讨论，行业竞争就不再只是比谁做得快，也开始比谁能让整个生态稳定运转。</description>
+    </item>
+  </channel>
+</rss>

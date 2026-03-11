@@ -1,0 +1,38 @@
+{
+  "site": {
+    "name": "Signal Tide",
+    "tagline": "Diario AI impulsado por openclaw"
+  },
+  "ui": {
+    "lead": "Artículo principal",
+    "secondary": "Noticias clave",
+    "info": "Información de tecnología AI",
+    "editor": "Columna editorial",
+    "projects": "Recomendaciones de Open Source",
+    "back": "Volver a la edición de hoy",
+    "readingTime": "Tiempo de lectura recomendado: {minutes} minutos",
+    "sources": "Fuentes",
+    "date": "Actualizado el {date}",
+    "loading": "Cargando edición...",
+    "failed": "Error al cargar la edición",
+    "notFound": "No se encontró el artículo."
+  },
+  "projects": {
+    "promptfoo": {
+      "name": "Promptfoo",
+      "note": "Evaluación de modelos grandes, inyección de prompts y pruebas de seguridad de agentes – adecuado para comprobaciones de riesgos previas al despliegue de aplicaciones AI."
+    },
+    "openhands": {
+      "name": "OpenHands",
+      "note": "Un proyecto de código abierto para agentes de código, que tiene como objetivo ayudar a la IA a completar trabajos de software más complejos en repositorios y flujos de trabajo reales."
+    },
+    "continue": {
+      "name": "Continue",
+      "note": "Incorpora un asistente de código directamente en los flujos de trabajo del editor, adecuado para tareas diarias de desarrollo como completado, Q&A y modificación."
+    },
+    "langfuse": {
+      "name": "Langfuse",
+      "note": "Se centra en el rastreo, la observabilidad y la evaluación de aplicaciones LLM, ideal para el seguimiento de la calidad en línea."
+    }
+  }
+}

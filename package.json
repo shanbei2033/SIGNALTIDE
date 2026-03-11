@@ -1,0 +1,15 @@
+{
+  "name": "ai-news-pages-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-digest.mjs",
+    "build:demo": "DEMO_MODE=1 node scripts/build-digest.mjs",
+    "build:static": "node scripts/daily-static-update.mjs",
+    "fetch:feeds": "node scripts/daily-static-update.mjs --fetch-only"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

@@ -1,0 +1,196 @@
+export const demoEdition = {
+  site: {
+    name: 'Signal Tide',
+    tagline: '由openclaw驱动的AI日报',
+    description: '聚合、重写并归档每日 AI 领域的重要新闻。'
+  },
+  edition: {
+    id: '2026-03-10',
+    issueNumber: 1,
+    date: '2026-03-10',
+    displayDate: '2026年3月10日',
+    generatedAt: '2026-03-10T04:50:00.000Z',
+    lead: 'openai-promptfoo',
+    mode: 'demo',
+    editorNote: '本页为版式与文风 demo，新闻条目已按正式发布标准重写。'
+  },
+  sections: [
+    { key: 'lead', label: '头版' },
+    { key: 'company', label: '公司与产品' },
+    { key: 'policy', label: '政策与治理' },
+    { key: 'tools', label: '开发工具' },
+    { key: 'impact', label: '应用与影响' }
+  ],
+  articles: [
+    {
+      id: 'openai-promptfoo',
+      section: 'lead',
+      category: '公司与安全',
+      headline: 'OpenAI 收购 Promptfoo，把代理安全测试直接并入 Frontier',
+      deck: '这笔交易的重点不在并购金额，而在产品方向：OpenAI 明确把红队测试、越狱评估、数据泄漏检查和合规留痕前置到企业代理的开发流程里。',
+      kicker: '头版',
+      byline: '编辑部整理',
+      publishedAt: '2026-03-09T17:49:04.000Z',
+      updatedAt: '2026-03-10T04:50:00.000Z',
+      readingTime: 4,
+      tags: ['OpenAI', 'Agent', 'Security', 'Enterprise'],
+      summary: [
+        'OpenAI 3 月 9 日宣布将收购 Promptfoo。后者是做大模型安全测试与评估的公司，核心能力包括提示注入、越狱、工具滥用和敏感数据泄漏等风险的自动化检测。',
+        'OpenAI 的说法很直接：Promptfoo 的技术会被整合进 Frontier，也就是面向企业的 AI 代理平台。换句话说，安全测试不再是上线前临时补一道工序，而是会嵌入代理的日常开发、评估和审计链路。',
+        '这说明一个现实判断已经形成共识：代理系统一旦能调用工具、连接内部数据和执行真实业务流程，传统的“模型好不好用”已经不够，企业更在意的是它会不会越权、误用数据、留下不可审计的决策路径。'
+      ],
+      bullets: [
+        'Promptfoo 将被整合进 OpenAI Frontier。',
+        '重点能力包括自动化红队测试、越狱与注入评估、风险监测和合规记录。',
+        'OpenAI 明确表示会继续推进 Promptfoo 的开源项目。'
+      ],
+      significance: '这是代理平台进入企业核心流程后的必然补课。谁先把安全评估做成平台内置能力，谁更容易拿下真正的大客户。',
+      sources: [
+        {
+          title: 'OpenAI to acquire Promptfoo',
+          publication: 'OpenAI',
+          url: 'https://openai.com/index/openai-to-acquire-promptfoo/'
+        },
+        {
+          title: 'OpenAI acquires Promptfoo to secure its AI agents',
+          publication: 'TechCrunch',
+          url: 'https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/'
+        }
+      ]
+    },
+    {
+      id: 'anthropic-dod-lawsuit',
+      section: 'policy',
+      category: '政策与治理',
+      headline: 'Anthropic 起诉美国防部，争议从模型边界升级到政策与商业层面',
+      deck: '这起诉讼的核心不是一纸行政决定本身，而是政府能否因为一家模型公司拒绝某些军用场景，就把它列为供应链风险。',
+      kicker: '政策',
+      byline: '编辑部整理',
+      publishedAt: '2026-03-09T16:54:48.000Z',
+      updatedAt: '2026-03-10T04:50:00.000Z',
+      readingTime: 4,
+      tags: ['Anthropic', 'Pentagon', 'Policy', 'AI Safety'],
+      summary: [
+        'Anthropic 已在加州联邦法院起诉美国国防部，反对其被列为“供应链风险”的决定。公司称，政府是在惩罚其对大规模国内监控和全自主武器设定红线。',
+        '事件之所以重要，不只是因为它会影响 Anthropic 自身的政府业务，更因为它触及了一个前沿问题：AI 公司在安全边界上的公开立场，是否会直接转化为政策风险和商业惩罚。',
+        '同一天，OpenAI 和 Google 的部分员工还提交法庭之友意见，支持 Anthropic 的诉讼。行业内部这种跨公司站队并不常见，说明这场争议已不再是单一公司的合同纠纷，而是整个前沿模型行业对监管边界的试探。'
+      ],
+      bullets: [
+        '争议焦点是“供应链风险” designation 的合法性与适用范围。',
+        'Anthropic 指控政府因其安全立场而进行报复。',
+        '来自 OpenAI 和 Google 的员工支持，使事件外溢到整个行业。'
+      ],
+      significance: '如果政府采购体系开始把模型公司的政策立场纳入风险判定，今后每一家大模型公司都必须重新评估自己的军工、政务和合规策略。',
+      sources: [
+        {
+          title: 'Anthropic is suing the Department of Defense',
+          publication: 'The Verge',
+          url: 'https://www.theverge.com/ai-artificial-intelligence/891377/anthropic-dod-lawsuit'
+        },
+        {
+          title: 'OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit',
+          publication: 'TechCrunch',
+          url: 'https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/'
+        }
+      ]
+    },
+    {
+      id: 'anthropic-code-review',
+      section: 'tools',
+      category: '开发工具',
+      headline: 'Anthropic 在 Claude Code 增加 Code Review，先盯逻辑错误，不做样式裁判',
+      deck: '新功能直接接入 GitHub 审查流程，目标不是润色代码，而是压住 AI 生成代码带来的逻辑缺陷、误判路径和审查瓶颈。',
+      kicker: '工具',
+      byline: '编辑部整理',
+      publishedAt: '2026-03-09T19:41:34.000Z',
+      updatedAt: '2026-03-10T04:50:00.000Z',
+      readingTime: 3,
+      tags: ['Anthropic', 'Claude Code', 'Code Review', 'GitHub'],
+      summary: [
+        'Anthropic 为 Claude Code 推出 Code Review，先面向 Teams 和 Enterprise 用户以 research preview 形式开放。它接入 GitHub 后，会自动分析 pull request，并把问题直接写进代码评审意见里。',
+        '这项功能的定位很克制：优先抓逻辑错误，而不是对命名、格式和风格吹毛求疵。Anthropic 的判断是，AI 写代码已经把 PR 数量推高，真正卡住团队交付的不是风格统一，而是评审能力跟不上代码产量。',
+        '从产品节奏看，Anthropic 正在把 Claude Code 从“会写代码”继续推向“能把代码生产线管起来”。如果这个方向成立，下一步竞争就不只是模型写得快不快，而是谁能把生成、审查和修补连成闭环。'
+      ],
+      bullets: [
+        '功能接入 GitHub，对 pull request 自动给出评审意见。',
+        '重点放在逻辑错误和高优先级问题，而不是代码风格。',
+        '面向企业团队，意在缓解 AI 产出增加后的人审瓶颈。'
+      ],
+      significance: '开发工具市场正在从“生成代码”转向“治理代码”。真正能进入企业主流程的，不会只是一把更快的生成器。',
+      sources: [
+        {
+          title: 'Anthropic launches code review tool to check flood of AI-generated code',
+          publication: 'TechCrunch',
+          url: 'https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/'
+        },
+        {
+          title: 'Making frontier cybersecurity capabilities available to defenders',
+          publication: 'Anthropic',
+          url: 'https://www.anthropic.com/news/claude-code-security'
+        }
+      ]
+    },
+    {
+      id: 'google-canvas-ai-mode',
+      section: 'company',
+      category: '搜索与产品',
+      headline: 'Google 把 AI Mode 的 Canvas 推向公开可用，搜索开始承担原型工具的入口角色',
+      deck: 'Canvas 不只是一个侧边栏，它把写作、仪表板和轻量交互工具的生成直接放进 Search，意图把“搜索结果页”改造成长期项目工作台。',
+      kicker: '产品',
+      byline: '编辑部整理',
+      publishedAt: '2026-03-04T17:00:00.000Z',
+      updatedAt: '2026-03-10T04:50:00.000Z',
+      readingTime: 3,
+      tags: ['Google', 'Search', 'AI Mode', 'Canvas'],
+      summary: [
+        'Google 宣布，AI Mode 中的 Canvas 已面向美国英语用户开放，并新增写作与代码任务支持。用户可以在搜索里直接生成文档、仪表板和简单的交互式工具。',
+        'Google 给出的示例很典型：从奖学金追踪表到旅行规划工具，Canvas 想做的不是一次性回答问题，而是把零散搜索逐步沉淀成可反复修改的项目。',
+        '这代表 Search 产品的一次结构性变化。过去搜索负责找信息，现在它开始尝试把信息、推理和轻型生成界面收进同一个工作区。对 Google 来说，这既是防守，也是再定义入口。'
+      ],
+      bullets: [
+        'Canvas 已面向美国英文用户开放。',
+        '支持写作、代码原型和信息仪表板生成。',
+        '数据来源包括网页信息与 Google Knowledge Graph。'
+      ],
+      significance: '搜索框一旦能持续承接任务，搜索产品和办公产品之间的边界就会越来越薄。',
+      sources: [
+        {
+          title: 'Use Canvas in AI Mode to get things done and bring your ideas to life, right in Search.',
+          publication: 'Google',
+          url: 'https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/'
+        }
+      ]
+    },
+    {
+      id: 'google-speciesnet',
+      section: 'impact',
+      category: '研究与应用',
+      headline: 'Google 披露 SpeciesNet 一年使用情况，开源模型开始在野生动物监测里形成实用规模',
+      deck: '比起又一个“AI for good” 口号，这条消息真正有价值的地方在于落地细节：模型已被用于处理千万级相机陷阱图像，并进入多个长期保护项目。',
+      kicker: '应用',
+      byline: '编辑部整理',
+      publishedAt: '2026-03-06T18:00:00.000Z',
+      updatedAt: '2026-03-10T04:50:00.000Z',
+      readingTime: 3,
+      tags: ['Google', 'Open Source', 'Wildlife', 'Conservation'],
+      summary: [
+        'Google 介绍了开源模型 SpeciesNet 上线一年来的使用情况。该模型可识别接近 2500 类哺乳动物、鸟类和爬行动物，主要用于分析野外相机陷阱照片。',
+        '官方举的例子并不空泛：坦桑尼亚的 Snapshot Serengeti 项目用它处理了 1100 万张照片，把多年积压的数据在数天内完成初筛；澳大利亚、哥伦比亚和美国爱达荷州的保护项目也已接入这套工具。',
+        '这类消息的判断标准不该只是“模型开源了”，而是它是否进入了真实工作流。SpeciesNet 至少证明了一件事：在高重复、高规模、低人力的科学场景里，开源视觉模型已经能稳定替代大量基础整理工作。'
+      ],
+      bullets: [
+        '模型可识别约 2500 类野生动物。',
+        '已被用于处理 1100 万张以上相机陷阱图像。',
+        '价值在于压缩数据整理时间，而不是替代生物学判断。'
+      ],
+      significance: 'AI 在科学和公共领域的真正价值，往往不在演示效果，而在于是否把低效但必要的基础工作做掉。',
+      sources: [
+        {
+          title: 'How our open-source AI model SpeciesNet is helping to promote wildlife conservation',
+          publication: 'Google',
+          url: 'https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife/'
+        }
+      ]
+    }
+  ]
+};
