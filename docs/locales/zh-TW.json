@@ -21,21 +21,21 @@
     "archive": "歸檔"
   },
   "projects": {
+    "ollama": {
+      "name": "Ollama",
+      "note": "最近在代理、程式碼與本地模型工作流上動作頻繁，適合關注本地部署與開發者入口。"
+    },
+    "langchain": {
+      "name": "LangChain",
+      "note": "持續在 agent harness、記憶系統與工具註冊方向迭代，是觀察代理工程化的代表性專案。"
+    },
     "promptfoo": {
       "name": "Promptfoo",
-      "note": "做大模型評測、提示注入與代理安全測試，適合把 AI 應用上線前的風險檢查前置。"
+      "note": "依然是做提示注入、防護與評測時很實用的安全測試工具。"
     },
-    "openhands": {
-      "name": "OpenHands",
-      "note": "面向代碼代理的開源專案，目標是讓 AI 在真實倉庫和任務流裡完成更複雜的軟體工作。"
-    },
-    "continue": {
-      "name": "Continue",
-      "note": "把代碼助手直接嵌進編輯器工作流，適合日常開發時做補全、問答與修改。"
-    },
-    "langfuse": {
-      "name": "Langfuse",
-      "note": "聚焦 LLM 應用的 tracing、觀測與評估，適合做線上質量跟蹤。"
+    "huggingface": {
+      "name": "Hugging Face Hub",
+      "note": "Storage Buckets 這類更新說明它正越來越像長期專案基礎設施，而不只是模型展示台。"
     }
   }
 }

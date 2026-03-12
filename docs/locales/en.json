@@ -21,21 +21,21 @@
     "archive": "Archive"
   },
   "projects": {
+    "ollama": {
+      "name": "Ollama",
+      "note": "Still one of the clearest entry points for local model workflows, especially as agent and coding use cases expand."
+    },
+    "langchain": {
+      "name": "LangChain",
+      "note": "Its recent work around agent harnesses, memory, and tooling makes it a useful barometer for how agent engineering is maturing."
+    },
     "promptfoo": {
       "name": "Promptfoo",
-      "note": "Large model evaluation, prompt injection, and agent security testing – suitable for pre-deployment risk checks in AI applications."
+      "note": "Still one of the most practical tools for prompt-injection testing, guardrail checks, and evaluation before deployment."
     },
-    "openhands": {
-      "name": "OpenHands",
-      "note": "An open-source project for code agents, aiming to help AI complete more complex software work in real repositories and workflows."
-    },
-    "continue": {
-      "name": "Continue",
-      "note": "Embeds code assistant directly into editor workflows, suitable for daily development tasks like completion, Q&A, and modification."
-    },
-    "langfuse": {
-      "name": "Langfuse",
-      "note": "Focuses on LLM application tracing, observability, and evaluation, ideal for online quality tracking."
+    "huggingface": {
+      "name": "Hugging Face Hub",
+      "note": "Storage Buckets is a reminder that the Hub is becoming project infrastructure, not just a model showcase."
     }
   }
 }
