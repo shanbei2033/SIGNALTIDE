@@ -38,7 +38,7 @@ function renderLanguageSwitchers() {
 
 async function loadLanguage(lang) {
   if (translations[lang]) return translations[lang];
-  const response = await fetch(`./locales/${lang}.json?v=20260311d`);
+  const response = await fetch(`./locales/${lang}.json?v=20260312c`);
   if (!response.ok) {
     if (lang !== 'zh-CN') return loadLanguage('zh-CN');
     throw new Error(`Failed to load locale: ${lang}`);

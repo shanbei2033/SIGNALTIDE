@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>未找到｜Signal Tide</title>
+    <meta name="description" content="页面未找到" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/style.css?v=20260312b" />
+  </head>
+  <body>
+    <div class="page-shell panel-page-shell">
+      <header class="article-topbar panel-topbar">
+        <a class="back-link" href="./index.html" aria-label="返回首页" title="返回首页">←</a>
+        <p class="panel-topbar-text">404</p>
+      </header>
+
+      <main class="panel-layout">
+        <section class="panel-hero block">
+          <p class="panel-kicker">NOT FOUND</p>
+          <h1 class="panel-title">没有该档案</h1>
+          <p class="panel-deck" id="notFoundMessage">你选择的归档日期目前不存在，或者还没有生成对应版面。</p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <nav class="footer-nav" aria-label="页面导航">
+          <a class="footer-link" href="./about.html">关于</a>
+          <a class="footer-link" href="./archive.html">归档</a>
+        </nav>
+      </footer>
+    </div>
+
+    <script>
+      const params = new URL(window.location.href).searchParams;
+      const date = params.get('date');
+      if (date) {
+        const node = document.getElementById('notFoundMessage');
+        if (node) node.textContent = `没有找到 ${date} 这一天的归档。`;
+      }
+    </script>
+  </body>
+</html>

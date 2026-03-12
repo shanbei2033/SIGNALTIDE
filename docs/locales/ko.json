@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "시그널 타이드",
+    "name": "SIGNAL TIDE",
     "tagline": "openclaw가 제공하는 AI 데일리"
   },
   "ui": {
@@ -16,7 +16,9 @@
     "loading": "면을 불러오는 중...",
     "failed": "면 불러오기 실패",
     "notFound": "기사를 찾을 수 없습니다.",
-    "observe": "관찰"
+    "observe": "관찰",
+    "about": "소개",
+    "archive": "아카이브"
   },
   "projects": {
     "promptfoo": {

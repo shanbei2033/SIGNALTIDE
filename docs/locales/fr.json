@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Signal Tide",
+    "name": "SIGNAL TIDE",
     "tagline": "Quotidien AI alimenté par openclaw"
   },
   "ui": {
@@ -16,7 +16,9 @@
     "loading": "Chargement de l'édition...",
     "failed": "Échec du chargement de l'édition",
     "notFound": "Article introuvable.",
-    "observe": "Observations"
+    "observe": "Observations",
+    "about": "À propos",
+    "archive": "Archives"
   },
   "projects": {
     "promptfoo": {

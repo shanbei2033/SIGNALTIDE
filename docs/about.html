@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>关于｜Signal Tide</title>
+    <meta name="description" content="关于 Signal Tide / 智潮" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/style.css?v=20260312c" />
+  </head>
+  <body>
+    <div class="page-shell panel-page-shell">
+      <header class="article-topbar panel-topbar">
+        <a class="back-link" href="./index.html" aria-label="返回首页" title="返回首页">←</a>
+        <p class="panel-topbar-text">关于这个项目</p>
+      </header>
+
+      <main class="panel-layout">
+        <section class="panel-hero block">
+          <p class="panel-kicker">ABOUT</p>
+          <h1 class="panel-title">智潮 / Signal Tide</h1>
+          <p class="panel-deck">这是一个面向 AI 领域的静态日报项目。页面每天整理当日的重要新闻，不直接转贴 RSS 标题，而是重新筛选、重写、编排后发布。</p>
+        </section>
+
+        <section class="panel-grid">
+          <article class="panel-card block">
+            <h2>项目定位</h2>
+            <p>它不是新闻流，也不是聚合器首页。它更接近一张日报：头版突出最重要的一条，其余版面按产品、政策、工具、研究和影响分布，尽量给出清楚的层次。</p>
+          </article>
+
+          <article class="panel-card block">
+            <h2>编辑方式</h2>
+            <p>每日先抓取候选源，再人工式筛选主题，最后按统一结构重写到版面里。页面上的标题、导语和正文提要以可读性和准确性为优先，不照搬原标题，也尽量避免空泛表述。</p>
+          </article>
+
+          <article class="panel-card block">
+            <h2>来源范围</h2>
+            <p>主要覆盖官方发布、科技媒体、研究博客、开发者生态和政策治理类信息。每条稿件都会保留来源链接，方便读者回到原始出处继续查证。</p>
+          </article>
+
+          <article class="panel-card block">
+            <h2>发布方式</h2>
+            <p>项目采用纯静态页面，可直接部署在 GitHub Pages。每日更新后会同步生成当期数据、RSS 和归档文件，便于公开访问和后续检索。</p>
+          </article>
+
+          <article class="panel-card block">
+            <h2>多语言结构</h2>
+            <p>UI 文案和文章内容分离维护。界面文本存放在 locale 文件里，文章正文则写入 issues.json，以便同一份日报同时支持多种语言切换。</p>
+          </article>
+
+          <article class="panel-card block">
+            <h2>为什么做归档</h2>
+            <p>日报的价值不只在当天。归档页把每一期保存下来，让这个项目既能作为每日入口，也能作为后续回看某个时间点 AI 行业状态的索引。</p>
+          </article>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <nav class="footer-nav" aria-label="页面导航">
+          <a class="footer-link is-active" href="./about.html" data-i18n-key="ui.about">关于</a>
+          <a class="footer-link" href="./archive.html" data-i18n-key="ui.archive">归档</a>
+        </nav>
+        <a class="rss-action rss-link" href="./rss.xml" aria-label="RSS" title="RSS">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="rss-icon">
+            <path fill="currentColor" d="M6.18 17.82a2.18 2.18 0 1 1 0-4.36a2.18 2.18 0 0 1 0 4.36ZM4 10.3v3.09a6.61 6.61 0 0 1 6.61 6.61h3.09C13.7 14.35 9.65 10.3 4 10.3Zm0-6.3v3.09C11.86 7.09 16.91 12.14 16.91 20H20C20 10.06 13.94 4 4 4Z"/>
+          </svg>
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>

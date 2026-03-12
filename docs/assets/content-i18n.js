@@ -5,10 +5,23 @@ function pickLocalizedValue(value, lang) {
   return value[lang] ?? value['zh-CN'] ?? Object.values(value)[0] ?? '';
 }
 
+function localizeSource(source, lang) {
+  if (!source) return source;
+  return {
+    ...source,
+    title: pickLocalizedValue(source.title, lang) ?? source.title,
+    publication: pickLocalizedValue(source.publication, lang) ?? source.publication
+  };
+}
+
+function localizeArray(values, lang) {
+  if (!Array.isArray(values)) return values;
+  return values.map((value) => pickLocalizedValue(value, lang) ?? value).filter(Boolean);
+}
+
 export function localizeArticle(article, lang) {
-  if (!article || !lang || lang === 'zh-CN') return article;
+  if (!article || !lang) return article;
   const localized = article.i18n?.[lang] || {};
-  if (!Object.keys(localized).length) return article;
 
   return {
     ...article,
@@ -18,10 +31,10 @@ export function localizeArticle(article, lang) {
     deck: localized.deck ?? pickLocalizedValue(article.deck, lang) ?? article.deck,
     byline: localized.byline ?? pickLocalizedValue(article.byline, lang) ?? article.byline,
     significance: localized.significance ?? pickLocalizedValue(article.significance, lang) ?? article.significance,
-    tags: localized.tags ?? article.tags,
-    summary: localized.summary ?? article.summary,
-    bullets: localized.bullets ?? article.bullets,
-    sources: localized.sources ?? article.sources
+    tags: Array.isArray(localized.tags) ? localized.tags : localizeArray(article.tags, lang),
+    summary: Array.isArray(localized.summary) ? localized.summary : localizeArray(article.summary, lang),
+    bullets: Array.isArray(localized.bullets) ? localized.bullets : localizeArray(article.bullets, lang),
+    sources: (Array.isArray(localized.sources) ? localized.sources : article.sources || []).map((source) => localizeSource(source, lang))
   };
 }
 

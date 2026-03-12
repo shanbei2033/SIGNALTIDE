@@ -10,30 +10,8 @@ import { localizeEdition } from './content-i18n.js?v=20260312c';
 
 const rssUrl = new URL('./rss.xml', window.location.href).href;
 let latestData = null;
-
-function queryDate() {
-  return new URL(window.location.href).searchParams.get('date');
-}
-
-function resolveDataUrl() {
-  const date = queryDate();
-  return date ? `./data/archive/${encodeURIComponent(date)}.json` : './data/issues.json';
-}
-
-function initRssAction() {
-  const button = document.querySelector('#rssAction');
-  if (!button) return;
-  button.addEventListener('click', async () => {
-    try {
-      if (navigator.clipboard?.writeText) {
-        await navigator.clipboard.writeText(rssUrl);
-      }
-    } catch (error) {
-      console.warn('Failed to copy RSS URL:', error);
-    }
-    window.location.href = rssUrl;
-  });
-}
+let archiveIndex = [];
+let currentDate = null;
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
@@ -42,10 +20,37 @@ function el(tag, className, text) {
   return node;
 }
 
+function queryDate() {
+  return new URL(window.location.href).searchParams.get('date');
+}
+
+function yesterdayUTC() {
+  const now = new Date();
+  now.setUTCDate(now.getUTCDate() - 1);
+  return now.toISOString().slice(0, 10);
+}
+
+async function fetchArchiveIndex() {
+  const response = await fetch('./data/archive/index.json', { cache: 'no-store' });
+  if (!response.ok) throw new Error('Failed to load archive index');
+  const data = await response.json();
+  archiveIndex = Array.isArray(data.items) ? data.items : [];
+}
+
+function hasArchive(date) {
+  return archiveIndex.some((item) => item.date === date);
+}
+
+function resolveArchiveDate() {
+  const requested = queryDate();
+  if (requested) return requested;
+  const yesterday = yesterdayUTC();
+  if (hasArchive(yesterday)) return yesterday;
+  return archiveIndex[0]?.date || yesterday;
+}
+
 function articleHref(id) {
-  const date = queryDate();
-  const params = new URLSearchParams({ id });
-  if (date) params.set('date', date);
+  const params = new URLSearchParams({ id, date: currentDate });
   return `./article.html?${params.toString()}`;
 }
 
@@ -95,9 +100,7 @@ function renderLead(container, article) {
   title.id = 'leadTitle';
 
   const body = el('div', 'lead-body');
-  for (const paragraph of articleParagraphs(article, 5)) {
-    body.append(el('p', null, paragraph));
-  }
+  for (const paragraph of articleParagraphs(article, 5)) body.append(el('p', null, paragraph));
 
   articleEl.append(meta, title, body);
   link.append(articleEl);
@@ -107,33 +110,26 @@ function renderLead(container, article) {
 function renderSecondary(container, articles) {
   container.innerHTML = '';
   container.append(el('div', 'section-label', t('ui.secondary')));
-
   const grid = el('div', 'secondary-grid');
-  for (const article of articles.slice(0, 4)) {
+  for (const article of articles.slice(0, 2)) {
     const story = el('article', 'secondary-story');
     const link = document.createElement('a');
     link.className = 'secondary-link';
     link.href = articleHref(article.id);
-
     link.append(el('p', 'story-kicker', article.kicker || article.category || ''));
     link.append(el('h2', 'story-title', article.headline));
-
     const body = el('div', 'story-body');
-    for (const paragraph of articleParagraphs(article, 2)) {
-      body.append(el('p', null, paragraph));
-    }
+    for (const paragraph of articleParagraphs(article, 2)) body.append(el('p', null, paragraph));
     link.append(body);
     story.append(link);
     grid.append(story);
   }
-
   container.append(grid);
 }
 
 function renderInfoRail(container, articles) {
   container.innerHTML = '';
   container.append(el('div', 'section-label', t('ui.info')));
-
   const list = el('div', 'info-list compact-list');
   for (const article of articles.slice(0, 2)) {
     const item = el('article', 'info-item compact-item');
@@ -142,53 +138,42 @@ function renderInfoRail(container, articles) {
     title.className = 'info-link';
     title.textContent = article.headline;
     item.append(title);
-
     const body = el('div', 'info-body');
-    for (const paragraph of articleParagraphs(article, 2)) {
-      body.append(el('p', null, paragraph));
-    }
+    for (const paragraph of articleParagraphs(article, 2)) body.append(el('p', null, paragraph));
     item.append(body);
     list.append(item);
   }
-
   container.append(list);
 }
 
 function renderObserveRail(container, articles) {
   container.innerHTML = '';
   container.append(el('div', 'section-label', t('ui.observe')));
-
   const list = el('div', 'observe-list');
-  for (const article of articles.slice(0, 2)) {
+  for (const article of articles.slice(0, 3)) {
     const item = el('article', 'observe-item');
     const title = document.createElement('a');
     title.href = articleHref(article.id);
     title.className = 'observe-link';
     title.textContent = article.headline;
     item.append(title);
-
     const body = el('div', 'observe-body');
-    for (const paragraph of articleParagraphs(article, 2)) {
-      body.append(el('p', null, paragraph));
-    }
+    for (const paragraph of articleParagraphs(article, 2)) body.append(el('p', null, paragraph));
     item.append(body);
     list.append(item);
   }
-
   container.append(list);
 }
 
 function renderEditorRail(container) {
   container.innerHTML = '';
   container.append(el('div', 'section-label', t('ui.projects')));
-
   const projects = [
     { key: 'promptfoo', url: 'https://github.com/promptfoo/promptfoo' },
     { key: 'openhands', url: 'https://github.com/All-Hands-AI/OpenHands' },
     { key: 'continue', url: 'https://github.com/continuedev/continue' },
     { key: 'langfuse', url: 'https://github.com/langfuse/langfuse' }
   ];
-
   for (const project of projects) {
     const item = el('article', 'editor-project');
     const title = document.createElement('a');
@@ -197,7 +182,6 @@ function renderEditorRail(container) {
     title.rel = 'noreferrer noopener';
     title.className = 'editor-project-link';
     title.textContent = t(`projects.${project.key}.name`);
-
     const name = el('p', 'editor-project-name');
     name.append(title);
     item.append(name);
@@ -210,10 +194,7 @@ function renderPage(rawData) {
   const data = localizedData(rawData);
   const articles = data.articles;
   const lead = articles.find((article) => article.id === data.edition.lead) || articles[0];
-  const ranked = [...articles]
-    .filter((article) => article.id !== lead.id)
-    .sort((a, b) => impactScore(b, lead.id) - impactScore(a, lead.id));
-
+  const ranked = [...articles].filter((article) => article.id !== lead.id).sort((a, b) => impactScore(b, lead.id) - impactScore(a, lead.id));
   const secondary = ranked.slice(0, 2);
   const info = ranked.slice(2, 4);
   const observe = ranked.slice(4, 7);
@@ -232,23 +213,66 @@ function renderPage(rawData) {
   updatePageLanguage();
 }
 
+function initRssAction() {
+  const button = document.querySelector('#rssAction');
+  if (!button) return;
+  button.addEventListener('click', async () => {
+    try {
+      if (navigator.clipboard?.writeText) await navigator.clipboard.writeText(rssUrl);
+    } catch (error) {
+      console.warn('Failed to copy RSS URL:', error);
+    }
+    window.location.href = rssUrl;
+  });
+}
+
+function initArchiveJump() {
+  const input = document.querySelector('#archiveDatePicker');
+  const go = document.querySelector('#archiveGo');
+  if (!input || !go) return;
+
+  if (archiveIndex.length) {
+    const dates = archiveIndex.map((item) => item.date).sort();
+    input.min = dates[0];
+    input.max = dates[dates.length - 1];
+  }
+  if (currentDate) input.value = currentDate;
+
+  const jump = () => {
+    if (!input.value) return;
+    if (!hasArchive(input.value)) {
+      window.location.href = `./404.html?date=${encodeURIComponent(input.value)}`;
+      return;
+    }
+    window.location.href = `./archive.html?date=${encodeURIComponent(input.value)}`;
+  };
+
+  go.addEventListener('click', jump);
+  input.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') jump();
+  });
+}
+
+async function loadEdition() {
+  await fetchArchiveIndex();
+  currentDate = resolveArchiveDate();
+  if (!hasArchive(currentDate)) {
+    window.location.href = `./404.html?date=${encodeURIComponent(currentDate)}`;
+    return;
+  }
+  const response = await fetch(`./data/archive/${encodeURIComponent(currentDate)}.json`, { cache: 'no-store' });
+  if (!response.ok) throw new Error('Failed to load archived edition');
+  latestData = await response.json();
+}
+
 async function main() {
   await initLanguage();
   initLanguageEvents();
   initRssAction();
+  await loadEdition();
+  initArchiveJump();
   updatePageLanguage();
-
-  const response = await fetch(resolveDataUrl(), { cache: 'no-store' });
-  if (!response.ok) throw new Error(t('ui.failed'));
-
-  const data = await response.json();
-  if (!data?.site || !data?.edition || !Array.isArray(data?.articles) || data.articles.length === 0) {
-    throw new Error('Invalid edition data');
-  }
-
-  latestData = data;
   renderPage(latestData);
-
   window.addEventListener('ai-news-languagechange', () => {
     if (latestData) renderPage(latestData);
   });

@@ -16,7 +16,9 @@
     "loading": "正在载入版面",
     "failed": "版面加载失败",
     "notFound": "没有找到这条新闻。",
-    "observe": "观察"
+    "observe": "观察",
+    "about": "关于",
+    "archive": "归档"
   },
   "projects": {
     "promptfoo": {

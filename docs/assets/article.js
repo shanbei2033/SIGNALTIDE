@@ -6,13 +6,21 @@ import {
   initLanguageEvents,
   t,
   updatePageLanguage
-} from './i18n.js?v=20260311d';
-import { localizeArticle } from './content-i18n.js?v=20260311d';
+} from './i18n.js?v=20260312c';
+import { localizeArticle } from './content-i18n.js?v=20260312c';
 
-const dataUrl = './data/issues.json';
 const rssUrl = new URL('./rss.xml', window.location.href).href;
 let latestData = null;
 let currentArticleId = null;
+
+function queryDate() {
+  return new URL(window.location.href).searchParams.get('date');
+}
+
+function resolveDataUrl() {
+  const date = queryDate();
+  return date ? `./data/archive/${encodeURIComponent(date)}.json` : './data/issues.json';
+}
 
 function initRssAction() {
   const button = document.querySelector('#rssAction');
@@ -38,6 +46,11 @@ function el(tag, className, text) {
 
 function queryId() {
   return new URL(window.location.href).searchParams.get('id');
+}
+
+function resolveBackHref() {
+  const date = queryDate();
+  return date ? `./archive.html?date=${encodeURIComponent(date)}` : './index.html';
 }
 
 function articleParagraphs(article) {
@@ -107,7 +120,9 @@ async function main() {
   updatePageLanguage();
 
   currentArticleId = queryId();
-  const response = await fetch(dataUrl, { cache: 'no-store' });
+  const backLink = document.querySelector('.back-link');
+  if (backLink) backLink.href = resolveBackHref();
+  const response = await fetch(resolveDataUrl(), { cache: 'no-store' });
   if (!response.ok) {
     throw new Error(t('ui.failed'));
   }

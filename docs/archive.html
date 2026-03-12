@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1280, initial-scale=0.28, maximum-scale=5" />
-    <title>Signal Tide</title>
-    <meta name="description" content="每日整理的 AI 新闻版面。" />
+    <title>归档｜Signal Tide</title>
+    <meta name="description" content="Signal Tide 历史归档版面" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet" />
@@ -16,11 +16,21 @@
       <header class="masthead">
         <div class="masthead-top">
           <p class="masthead-meta" id="editionDate">加载中</p>
-          <div class="language-switcher" id="languageSwitcher"></div>
+          <div class="topbar-tools">
+            <div class="archive-jump" id="archiveJump">
+              <input class="archive-date-input" id="archiveDatePicker" type="date" />
+              <button class="archive-go" id="archiveGo" type="button" aria-label="跳转到该日期归档" title="跳转到该日期归档">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="archive-go-icon">
+                  <path fill="currentColor" d="M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6z"/>
+                </svg>
+              </button>
+            </div>
+            <div class="language-switcher" id="languageSwitcher"></div>
+          </div>
         </div>
         <h1 id="siteName">Signal Tide</h1>
         <div class="masthead-bottom">
-          <p id="tagline">正在载入版面</p>
+          <p id="tagline">归档版面</p>
           <p id="editorNote"></p>
         </div>
       </header>
@@ -36,7 +46,7 @@
       <footer class="site-footer">
         <nav class="footer-nav" aria-label="页面导航">
           <a class="footer-link" href="./about.html" data-i18n-key="ui.about">关于</a>
-          <a class="footer-link" href="./archive.html" data-i18n-key="ui.archive">归档</a>
+          <a class="footer-link is-active" href="./archive.html" data-i18n-key="ui.archive">归档</a>
         </nav>
         <button class="rss-action" id="rssAction" type="button" aria-label="RSS">
           <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="rss-icon">
@@ -46,16 +56,6 @@
       </footer>
     </div>
 
-    <template id="secondaryTemplate">
-      <article class="secondary-story">
-        <a class="secondary-link" href="#">
-          <p class="story-kicker"></p>
-          <h2 class="story-title"></h2>
-          <div class="story-body"></div>
-        </a>
-      </article>
-    </template>
-
-    <script type="module" src="./assets/app.js?v=20260312c"></script>
+    <script type="module" src="./assets/archive-page.js?v=20260312c"></script>
   </body>
 </html>

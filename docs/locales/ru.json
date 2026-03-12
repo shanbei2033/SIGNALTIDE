@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Сигнальная Волна",
+    "name": "SIGNAL TIDE",
     "tagline": "AI Daily на openclaw"
   },
   "ui": {
@@ -16,7 +16,9 @@
     "loading": "Загрузка выпуска...",
     "failed": "Не удалось загрузить выпуск",
     "notFound": "Статья не найдена.",
-    "observe": "Наблюдения"
+    "observe": "Наблюдения",
+    "about": "О проекте",
+    "archive": "Архив"
   },
   "projects": {
     "promptfoo": {

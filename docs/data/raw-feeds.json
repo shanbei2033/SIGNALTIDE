@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-03-11T17:13:25.309Z",
+  "generatedAt": "2026-03-12T02:36:31.022Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "link": "https://openai.com/index/rakuten",
+      "publishedAt": "2026-03-11T13:00:00.000Z",
+      "contentSnippet": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks.",
+      "categories": [
+        "API"
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "Designing AI agents to resist prompt injection",
+      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "publishedAt": "2026-03-11T11:30:00.000Z",
+      "contentSnippet": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "categories": [
+        "Security"
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "link": "https://openai.com/index/wayfair",
+      "publishedAt": "2026-03-11T11:00:00.000Z",
+      "contentSnippet": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "categories": [
+        "B2B Story"
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "From model to agent: Equipping the Responses API with a computer environment ",
+      "link": "https://openai.com/index/equip-responses-api-computer-environment",
+      "publishedAt": "2026-03-11T11:00:00.000Z",
+      "contentSnippet": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "categories": [
+        "Engineering"
+      ]
+    },
     {
       "source": "OpenAI",
       "sourceType": "official",
@@ -77,18 +125,6 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "GPT-5.4 Thinking System Card",
-      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
-      "publishedAt": "2026-03-05T10:00:00.000Z",
-      "contentSnippet": "",
-      "categories": [
-        "Publication"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
       "title": "Introducing GPT-5.4",
       "link": "https://openai.com/index/introducing-gpt-5-4",
       "publishedAt": "2026-03-05T10:00:00.000Z",
@@ -110,45 +146,22 @@
       ]
     },
     {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
-      "title": "Ensuring AI use in education leads to opportunity",
-      "link": "https://openai.com/index/ai-education-opportunity",
-      "publishedAt": "2026-03-05T09:00:00.000Z",
-      "contentSnippet": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
-      "categories": [
-        "Global Affairs"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
-      "title": "Introducing the Adoption news channel",
-      "link": "https://openai.com/index/introducing-the-adoption-news-channel",
-      "publishedAt": "2026-03-05T00:00:00.000Z",
-      "contentSnippet": "Practical insights and frameworks to turn AI progress into business advantage",
-      "categories": [
-        "AI Adoption"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
-      "title": "Introducing ChatGPT for Excel and new financial data integrations",
-      "link": "https://openai.com/index/chatgpt-for-excel",
-      "publishedAt": "2026-03-05T00:00:00.000Z",
-      "contentSnippet": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
-      "categories": [
-        "Product"
-      ]
-    },
-    {
       "source": "Anthropic",
       "sourceType": "official",
       "error": "Error: Status code 404"
+    },
+    {
+      "source": "Google AI Blog",
+      "sourceType": "official",
+      "feedTitle": "AI",
+      "title": "How AI is helping improve heart health in rural Australia",
+      "link": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
+      "publishedAt": "2026-03-12T15:00:00.000Z",
+      "contentSnippet": "A new Google AI initiative aims to improve heart health outcomes for people living in remote Australian communities.",
+      "categories": [
+        "Health",
+        "AI"
+      ]
     },
     {
       "source": "Google AI Blog",
@@ -307,21 +320,6 @@
       "contentSnippet": "Nano Banana 2 (Gemini 3.1 Flash Image) delivers Pro-level intelligence and fidelity for all image applications.",
       "categories": [
         "Gemini models",
-        "AI"
-      ]
-    },
-    {
-      "source": "Google AI Blog",
-      "sourceType": "official",
-      "feedTitle": "AI",
-      "title": "A more intelligent Android on Samsung Galaxy S26",
-      "link": "https://blog.google/products-and-platforms/platforms/android/samsung-unpacked-2026/",
-      "publishedAt": "2026-02-25T18:00:00.000Z",
-      "contentSnippet": "At Samsung Unpacked 2026, we showcased how Samsung Galaxy S26 devices are getting the latest in Android’s AI features.",
-      "categories": [
-        "Search",
-        "Gemini App",
-        "Android",
         "AI"
       ]
     },
@@ -589,10 +587,10 @@
       "source": "Microsoft Research",
       "sourceType": "official",
       "feedTitle": "Microsoft Research",
-      "title": "From raw interaction to reusable knowledge: Rethinking memory for AI agents",
+      "title": "PlugMem: Transforming raw agent interactions into reusable knowledge",
       "link": "https://www.microsoft.com/en-us/research/blog/from-raw-interaction-to-reusable-knowledge-rethinking-memory-for-ai-agents/",
       "publishedAt": "2026-03-10T16:00:41.000Z",
-      "contentSnippet": "It seems counterintuitive: giving AI agents more memory can make them less effective. As interaction logs accumulate, they grow large, fill with irrelevant content, and become increasingly difficult to use. More memory means that agents must search through larger volumes of past interactions to find information relevant to the current task. Without structure, these records mix […] The post From raw interaction to reusable knowledge: Rethinking memory for AI agents appeared first on Microsoft Research.",
+      "contentSnippet": "It seems counterintuitive: giving AI agents more memory can make them less effective. As interaction logs accumulate, they grow large, fill with irrelevant content, and become increasingly difficult to use. More memory means that agents must search through larger volumes of past interactions to find information relevant to the current task. Without structure, these records mix […] The post PlugMem: Transforming raw agent interactions into reusable knowledge appeared first on Microsoft Research.",
       "categories": [
         "Research Blog"
       ]
@@ -709,15 +707,113 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "AI ‘actor’ Tilly Norwood put out the worst song I’ve ever heard",
+      "link": "https://techcrunch.com/2026/03/11/ai-actor-tilly-norwood-put-out-the-worst-song-ive-ever-heard/",
+      "publishedAt": "2026-03-11T23:35:03.000Z",
+      "contentSnippet": "This song is an AI actor's rallying cry to other AI actors, urging them to keep going despite the naysayers who doubt their humanity. Literally no one can relate to this.",
+      "categories": [
+        "AI",
+        "Media & Entertainment",
+        "tilly norwood"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Ford’s new AI assistant will help fleet owners know if seatbelts are being used",
+      "link": "https://techcrunch.com/2026/03/11/fords-new-ai-assistant-will-help-fleet-owners-know-if-seatbelts-are-being-used/",
+      "publishedAt": "2026-03-11T22:51:39.000Z",
+      "contentSnippet": "Ford Pro AI debuted at Work Truck Week in Indianapolis and is now available to all of its U.S.-based Pro telematics subscribers.",
+      "categories": [
+        "AI",
+        "Transportation",
+        "Ford",
+        "Ford Pro"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Zendesk acquires agentic customer service startup Forethought",
+      "link": "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/",
+      "publishedAt": "2026-03-11T22:41:27.000Z",
+      "contentSnippet": "Forethought was years ahead of its time and the 2018 winner of TechCrunch Battlefield.",
+      "categories": [
+        "AI",
+        "Startups",
+        "TC",
+        "forethought ai",
+        "Mergers and Acquisitions",
+        "Startup battlefied",
+        "Zendesk"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Netflix may have paid $600 million for Ben Affleck’s AI startup",
+      "link": "https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/",
+      "publishedAt": "2026-03-11T22:00:05.000Z",
+      "contentSnippet": "This deal could rank as among the streaming giant's largest acquisitions ever.",
+      "categories": [
+        "AI",
+        "Media & Entertainment",
+        "filmmaking",
+        "Generative AI",
+        "In Brief",
+        "InterPositive",
+        "Mergers and Acquisitions",
+        "Netflix"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Lovable says it added $100M in revenue last month alone, with just 146 employees",
+      "link": "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
+      "publishedAt": "2026-03-11T21:40:49.000Z",
+      "contentSnippet": "Swedish vibe-coding unicorn Lovable crossed $400 million in annual recurring revenue (ARR) in February.",
+      "categories": [
+        "AI",
+        "Startups",
+        "Lovable",
+        "product-led growth",
+        "vibe-coding"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Replit snags $9B valuation 6 months after hitting $3B",
+      "link": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/",
+      "publishedAt": "2026-03-11T18:52:52.000Z",
+      "contentSnippet": "Replit raised a new $400 million round and said it hopes to have $1B in ARR by year's end.",
+      "categories": [
+        "AI",
+        "Startups",
+        "TC",
+        "In Brief",
+        "Replit",
+        "vibe coding"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
       "title": "WordPress debuts a private workspace that runs in your browser via a new service, my.WordPress.net",
       "link": "https://techcrunch.com/2026/03/11/wordpress-debuts-a-private-workspace-that-runs-in-your-browser-via-a-new-service-my-wordpress-net/",
       "publishedAt": "2026-03-11T16:43:59.000Z",
-      "contentSnippet": "WordPress’s new browser-based service lets users create private sites without hosting or signup, turning the platform into a personal workspace for writing, research, and AI tools.",
+      "contentSnippet": "WordPress’s new browser-based service lets users create private sites without hosting or signing up, turning the platform into a personal workspace for writing, research, and AI tools.",
       "categories": [
         "AI",
         "Apps",
         "Media & Entertainment",
-        "TC",
         "personal publishing",
         "Publishing",
         "WordPress",
@@ -746,17 +842,15 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Meta didn’t buy Moltbook for bots — it bought into the agentic web",
-      "link": "https://techcrunch.com/2026/03/11/meta-didnt-buy-moltbook-for-bots-it-bought-into-the-agentic-web/",
+      "title": "Meta’s Moltbook deal points to a future built around AI agents",
+      "link": "https://techcrunch.com/2026/03/11/metas-moltbook-deal-points-to-a-future-built-around-ai-agents/",
       "publishedAt": "2026-03-11T15:11:31.000Z",
       "contentSnippet": "Meta’s Moltbook acquisition may look odd at first, but the deal could signal how Meta sees AI agents shaping future advertising and commerce on an agentic web.",
       "categories": [
         "AI",
         "Commerce",
         "Social",
-        "TC",
         "agentic commerce",
-        "commerce",
         "Meta",
         "moltbook"
       ]
@@ -817,105 +911,24 @@
       ]
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Amazon launches its healthcare AI assistant on its website and app",
-      "link": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/",
-      "publishedAt": "2026-03-10T20:10:06.000Z",
-      "contentSnippet": "Health AI can answer questions, explain health records, manage prescription renewals, book appointments, and more.",
-      "categories": [
-        "AI",
-        "Biotech & Health",
-        "Amazon",
-        "healthcare"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "One of Grammarly’s ‘experts’ is suing the company over its identity-stealing AI feature",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin",
+      "publishedAt": "2026-03-11T22:51:53.000Z",
+      "contentSnippet": "Journalist Julia Angwin is one of the writers whose likeness was used in Grammarly’s “expert review” feature. | Photo: Eóin Noonan / Sportsfile via Getty Images For months, Grammarly has been using the identities of real people (including us) for its \"Expert Review\" AI suggestions without getting their permission, and now it's facing a lawsuit from one of the journalists included, as previously reported by Wired. The class-action complaint filed by journalist Julia Angwin on Wednesday alleges that Superhuman violated the \"experts'\" privacy and publicity rights by breaking laws against using someone's identity for commercial purposes without their consent. Angwin says she found out her identity was used by way of Casey Newton, who is also one of the experts that The Verge uncovered being used by Gra … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "AI-powered apps struggle with long-term retention, new report shows",
-      "link": "https://techcrunch.com/2026/03/10/ai-powered-apps-struggle-with-long-term-retention-new-report-shows/",
-      "publishedAt": "2026-03-10T18:42:33.000Z",
-      "contentSnippet": "AI can drive stronger early monetization for apps, but sustaining value remains the challenge, RevenueCat's latest report finds.",
-      "categories": [
-        "AI",
-        "Apps",
-        "Commerce",
-        "ai apps",
-        "RevenueCat"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "ChatGPT can now create interactive visuals to help you understand math and science concepts",
-      "link": "https://techcrunch.com/2026/03/10/chatgpt-can-now-create-interactive-visuals-to-help-you-understand-math-and-science-concepts/",
-      "publishedAt": "2026-03-10T17:51:25.000Z",
-      "contentSnippet": "Instead of just reading an explanation or looking at a static diagram, users can now engage directly with interactive visuals.",
-      "categories": [
-        "AI",
-        "ChatGPT",
-        "EdTech",
-        "Education",
-        "Generative AI",
-        "learning",
-        "math",
-        "OpenAI"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "AgentMail raises $6M to build an email service for AI agents",
-      "link": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/",
-      "publishedAt": "2026-03-10T16:00:00.000Z",
-      "contentSnippet": "AgentMail provides an API platform that lets you give AI agents their own email inboxes, with support for two-way conversations, parsing, threading, labeling, searching, and replying.",
-      "categories": [
-        "AI",
-        "Fundraising",
-        "AgentMail",
-        "AI agents",
-        "email",
-        "General Catalyst",
-        "openclaw"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Thinking Machines Lab inks massive compute deal with Nvidia",
-      "link": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/",
-      "publishedAt": "2026-03-10T15:08:39.000Z",
-      "contentSnippet": "The multi-year deal involves at least a gigawatt of compute power and also includes a strategic investment from Nvidia.",
-      "categories": [
-        "AI",
-        "Enterprise",
-        "nvidia",
-        "Mira Murati",
-        "In Brief",
-        "artificial intelligence",
-        "compute",
-        "Thinking Machines Lab"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Google gives in to users’ complaints over AI-powered ‘Ask Photos’ search feature",
-      "link": "https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/",
-      "publishedAt": "2026-03-10T14:58:29.000Z",
-      "contentSnippet": "The option appears on the Google Photos Search screen and lets users pick which experience they want.",
-      "categories": [
-        "AI",
-        "Apps",
-        "Google Photos"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Grammarly says it will stop using AI to clone experts without permission",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/893270/grammarly-ai-expert-review-disabled",
+      "publishedAt": "2026-03-11T18:45:50.000Z",
+      "contentSnippet": "Superhuman says it has disabled Grammarly's \"expert review\" AI feature that said its edit suggestions were \"inspired by\" real writers, including our editor-in-chief and other Verge staff members. \"After careful consideration, we have decided to disable Expert Review as we reimagine the feature to make it more useful for users, while giving experts real control over how they want to be represented - or not represented at all,\" Ailian Gan, Superhuman's director of product management, said in a statement to The Verge. \"Based on the feedback we've received, we clearly missed the mark. We are sorry and will do things differently going forward.\" … Read the full story at The Verge.",
+      "categories": []
     },
     {
       "source": "The Verge AI",
@@ -998,24 +1011,23 @@
       "categories": []
     },
     {
-      "source": "The Verge AI",
+      "source": "Ars Technica AI",
       "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Judge orders Perplexity to stop AI agents from shopping on Amazon",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/892401/amazon-perplexity-ai-shopping-agent-court-order",
-      "publishedAt": "2026-03-10T18:11:43.000Z",
-      "contentSnippet": "A federal judge has issued an order blocking Perplexity's web browser-based AI agents from placing Amazon orders on a user's behalf, as reported earlier by Bloomberg. In a ruling on Monday, US District Judge Maxine Chesney writes that Amazon has \"provided strong evidence\" that Perplexity's Comet browser accesses user accounts \"without authorization\" from the retail giant. Amazon sued Perplexity in November, alleging that it \"repeatedly requested\" that the AI startup stop letting its agents buy products for customers. The company accused Perplexity of \"intruding\" into its marketplace and user accounts with Comet's agentic shopping feature, … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Grammarly will keep using authors’ identities without permission unless they opt out",
-      "link": "https://www.theverge.com/tech/891822/grammarly-superhuman-expert-review-names-without-permission-opt-out-email",
-      "publishedAt": "2026-03-10T15:54:42.000Z",
-      "contentSnippet": "Last week, my colleagues discovered that Superhuman's Grammarly had turned me into an AI editor, using my real name, without ever asking my permission. They did the same to my boss Nilay Patel, my colleagues David Pierce and Tom Warren, and - as Wired initially reported last Wednesday - many authors far more famous than us. Grammarly's new \"Expert Review\" feature uses our names to give its AI suggestions credibility that they don't deserve. Now, Grammarly has finally addressed the backlash - but not by apologizing, and not by walking the feature back. For now, it will graciously give us the chance to opt out of something we didn't know it … Read the full story at The Verge.",
-      "categories": []
+      "feedTitle": "Biz & IT - Ars Technica",
+      "title": "14,000 routers are infected by malware that's highly resistant to takedowns",
+      "link": "https://arstechnica.com/security/2026/03/14000-routers-are-infected-by-malware-thats-highly-resistant-to-takedowns/",
+      "publishedAt": "2026-03-11T21:27:16.000Z",
+      "contentSnippet": "Most of the devices are made by Asus and are located in the US.",
+      "categories": [
+        "Biz & IT",
+        "Security",
+        "Tech",
+        "ASUS",
+        "botnets",
+        "distributed hash tables",
+        "malware",
+        "routers"
+      ]
     },
     {
       "source": "Ars Technica AI",
@@ -1217,33 +1229,6 @@
       ]
     },
     {
-      "source": "Ars Technica AI",
-      "sourceType": "media",
-      "feedTitle": "Biz & IT - Ars Technica",
-      "title": "Attackers prompted Gemini over 100,000 times while trying to clone it, Google says",
-      "link": "https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/",
-      "publishedAt": "2026-02-12T19:42:08.000Z",
-      "contentSnippet": "Distillation technique lets copycats mimic Gemini at a fraction of the development cost.",
-      "categories": [
-        "AI",
-        "Biz & IT",
-        "Google",
-        "AI language models",
-        "AI security",
-        "ChatGPT",
-        "chatgtp",
-        "deepseek",
-        "Distillation",
-        "gemini",
-        "google",
-        "Google Gemini",
-        "large language models",
-        "LLMs",
-        "machine learning",
-        "openai"
-      ]
-    },
-    {
       "source": "VentureBeat AI",
       "sourceType": "media",
       "error": "Error: Status code 404"
@@ -1387,6 +1372,32 @@
       "source": "Wired Business",
       "sourceType": "media",
       "feedTitle": "Business Latest",
+      "title": "Iran Warns US Tech Firms Could Become Targets as War Expands",
+      "link": "https://www.wired.com/story/iran-warns-us-tech-firms-could-become-targets-as-war-expands/",
+      "publishedAt": "2026-03-11T18:38:21.000Z",
+      "contentSnippet": "Companies including Google, Microsoft, and Palantir were listed as targets by Iranian media as the conflict with Israel and the US spills into digital infrastructure.",
+      "categories": [
+        "Business",
+        "Business / Big Tech"
+      ]
+    },
+    {
+      "source": "Wired Business",
+      "sourceType": "media",
+      "feedTitle": "Business Latest",
+      "title": "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models, Filings Show",
+      "link": "https://www.wired.com/story/nvidia-investing-26-billion-open-source-models/",
+      "publishedAt": "2026-03-11T18:00:00.000Z",
+      "contentSnippet": "The move could position the AI infrastructure powerhouse to quickly compete with OpenAI, Anthropic, and DeepSeek.",
+      "categories": [
+        "Business",
+        "Business / Artificial Intelligence"
+      ]
+    },
+    {
+      "source": "Wired Business",
+      "sourceType": "media",
+      "feedTitle": "Business Latest",
       "title": "Meta Is Developing 4 New Chips to Power Its AI and Recommendation Systems",
       "link": "https://www.wired.com/story/meta-unveils-four-new-chips-to-power-its-ai-and-recommendation-systems/",
       "publishedAt": "2026-03-11T14:23:05.000Z",
@@ -1514,33 +1525,6 @@
       "categories": [
         "Business",
         "Business / Social Media"
-      ]
-    },
-    {
-      "source": "Wired Business",
-      "sourceType": "media",
-      "feedTitle": "Business Latest",
-      "title": "Anthropic Sues Department of Defense Over Supply-Chain-Risk Designation",
-      "link": "https://www.wired.com/story/anthropic-sues-department-of-defense-over-supply-chain-risk-designation/",
-      "publishedAt": "2026-03-09T15:29:57.000Z",
-      "contentSnippet": "The Claude chatbot developer says the Trump administration overstepped by escalating a contract dispute into a federal ban on the company’s technology.",
-      "categories": [
-        "Business",
-        "Business / Artificial Intelligence",
-        "Business / Regulation"
-      ]
-    },
-    {
-      "source": "Wired Business",
-      "sourceType": "media",
-      "feedTitle": "Business Latest",
-      "title": "Can AI Kill the Venture Capitalist?",
-      "link": "https://www.wired.com/story/ai-kill-venture-capital/",
-      "publishedAt": "2026-03-09T09:00:00.000Z",
-      "contentSnippet": "VCs are betting that artificial intelligence will disrupt nearly every industry in the world. Are they prepared for it to disrupt their own?",
-      "categories": [
-        "Business",
-        "Business / Artificial Intelligence"
       ]
     },
     {
@@ -1720,7 +1704,7 @@
       "title": "MultiGraSCCo: A Multilingual Anonymization Benchmark with Annotations of Personal Identifiers",
       "link": "https://arxiv.org/abs/2603.08879",
       "publishedAt": "2026-03-11T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.08879v1 Announce Type: new Abstract: Accessing sensitive patient data for machine learning is challenging due to privacy concerns. Datasets with annotations of personally identifiable information are crucial for developing and testing anonymization systems to enable safe data sharing that complies with privacy regulations. Since accessing real patient data is a bottleneck, synthetic data offers an efficient solution for data scarcity, bypassing privacy regulations that apply to real data. Moreover, neural machine translation can help to create high-quality data for low-resource languages by translating validated real or synthetic data from a high-resource language. In this work, we create a multilingual anonymization benchmark in ten languages, using a machine translation methodology that preserves the original annotations and renders names of cities and people in a culturally and contextually appropriate form in each target language. Our evaluation study with medical professionals confirms the quality of the translations, both in general and with respect to the translation and adaptation of personal information. Our benchmark with over 2,500 annotations of personal information can be used in many applications, including training annotators, validating annotations across institutions without legal complications, and helping improve the performance of automatic personal information detection. We make our benchmark and annotation guidelines available for further research.",
+      "contentSnippet": "arXiv:2603.08879v2 Announce Type: new Abstract: Accessing sensitive patient data for machine learning is challenging due to privacy concerns. Datasets with annotations of personally identifiable information are crucial for developing and testing anonymization systems to enable safe data sharing that complies with privacy regulations. Since accessing real patient data is a bottleneck, synthetic data offers an efficient solution for data scarcity, bypassing privacy regulations that apply to real data. Moreover, neural machine translation can help to create high-quality data for low-resource languages by translating validated real or synthetic data from a high-resource language. In this work, we create a multilingual anonymization benchmark in ten languages, using a machine translation methodology that preserves the original annotations and renders names of cities and people in a culturally and contextually appropriate form in each target language. Our evaluation study with medical professionals confirms the quality of the translations, both in general and with respect to the translation and adaptation of personal information. Our benchmark with over 2,500 annotations of personal information can be used in many applications, including training annotators, validating annotations across institutions without legal complications, and helping improve the performance of automatic personal information detection. We make our benchmark and annotation guidelines available for further research.",
       "categories": [
         "cs.CL"
       ]
@@ -1734,7 +1718,8 @@
       "publishedAt": "2026-03-11T04:00:00.000Z",
       "contentSnippet": "arXiv:2603.08899v1 Announce Type: new Abstract: Speculative decoding has emerged as a powerful approach to accelerate large language model (LLM) inference by employing lightweight draft models to propose candidate tokens that are subsequently verified by the target model. The effectiveness of this paradigm critically depends on the quality of the draft model. While recent advances such as the EAGLE series achieve state-of-the-art speedup, existing draft models remain limited by error accumulation: they condition only on the current prefix, causing their predictions to drift from the target model over steps. In this work, we propose \\textbf{ConFu} (Contemplate the Future), a novel speculative decoding framework that enables draft models to anticipate the future direction of generation. ConFu introduces (i) contemplate tokens and soft prompts that allow the draft model to leverage future-oriented signals from the target model at negligible cost, (ii) a dynamic contemplate token mechanism with MoE to enable context-aware future prediction, and (iii) a training framework with anchor token sampling and future prediction replication that learns robust future prediction. Experiments demonstrate that ConFu improves token acceptance rates and generation speed over EAGLE-3 by 8--11% across various downstream tasks with Llama-3 3B and 8B models. We believe our work is the first to bridge speculative decoding with continuous reasoning tokens, offering a new direction for accelerating LLM inference.",
       "categories": [
-        "cs.CL"
+        "cs.CL",
+        "cs.LG"
       ]
     },
     {
@@ -1857,7 +1842,7 @@
       "title": "Equitable Multi-Task Learning for AI-RANs",
       "link": "https://arxiv.org/abs/2603.08717",
       "publishedAt": "2026-03-11T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.08717v1 Announce Type: new Abstract: AI-enabled Radio Access Networks (AI-RANs) are expected to serve heterogeneous users with time-varying learning tasks over shared edge resources. Ensuring equitable inference performance across these users requires adaptive and fair learning mechanisms. This paper introduces an online-within-online fair multi-task learning (OWO-FMTL) framework that ensures long-term equity across users. The method combines two learning loops: an outer loop updating the shared model across rounds and an inner loop rebalancing user priorities within each round with a lightweight primal-dual update. Equity is quantified via generalized alpha-fairness, allowing a trade-off between efficiency and fairness. The framework guarantees diminishing performance disparity over time and operates with low computational overhead suitable for edge deployment. Experiments on convex and deep learning tasks confirm that OWO-FMTL outperforms existing multi-task learning baselines under dynamic scenarios.",
+      "contentSnippet": "arXiv:2603.08717v2 Announce Type: new Abstract: AI-enabled Radio Access Networks (AI-RANs) are expected to serve heterogeneous users with time-varying learning tasks over shared edge resources. Ensuring equitable inference performance across these users requires adaptive and fair learning mechanisms. This paper introduces an online-within-online fair multi-task learning (OWO-FMTL) framework that ensures long-term equity across users. The method combines two learning loops: an outer loop updating the shared model across rounds and an inner loop rebalancing user priorities within each round with a lightweight primal-dual update. Equity is quantified via generalized alpha-fairness, allowing a trade-off between efficiency and fairness. The framework guarantees diminishing performance disparity over time and operates with low computational overhead suitable for edge deployment. Experiments on convex and deep learning tasks confirm that OWO-FMTL outperforms existing multi-task learning baselines under dynamic scenarios.",
       "categories": [
         "cs.LG",
         "cs.NI"
@@ -1973,7 +1958,7 @@
       "title": "A New Modeling to Feature Selection Based on the Fuzzy Rough Set Theory in Normal and Optimistic States on Hybrid Information Systems",
       "link": "https://arxiv.org/abs/2603.08900",
       "publishedAt": "2026-03-11T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.08900v1 Announce Type: new Abstract: Considering the high volume, wide variety, and rapid speed of data generation, investigating feature selection methods for big data presents various applications and advantages. By removing irrelevant and redundant features, feature selection reduces data dimensions, thereby facilitating optimal decision-making within decision systems. One of the key tools for feature selection in hybrid information systems is fuzzy rough set theory. However, this theory faces two significant challenges: First, obtaining fuzzy equivalence relations through intersection operations in high-dimensional spaces can be both time-consuming and memory-intensive. Additionally, this method may produce noisy data, complicating the feature selection process. The purpose and innovation of this paper are to address these issues. We proposed a new feature selection model that calculates the combined distance between objects and subsequently used this information to derive the fuzzy equivalence relation. Rather than directly solving the feature selection problem, this approach reformulates it into an optimization problem that can be tackled using appropriate meta-heuristic algorithms. We have named this new approach FSbuHD. The FSbuHD model operates in two modes - normal and optimistic - based on the selection of one of the two introduced fuzzy equivalence relations. The model is then tested on standard datasets from the UCI repository and compared with other algorithms. The results of this research demonstrate that FSbuHD is one of the most efficient and effective methods for feature selection when compared to previous methods and algorithms.",
+      "contentSnippet": "arXiv:2603.08900v2 Announce Type: new Abstract: Considering the high volume, wide variety, and rapid speed of data generation, investigating feature selection methods for big data presents various applications and advantages. By removing irrelevant and redundant features, feature selection reduces data dimensions, thereby facilitating optimal decision-making within decision systems. One of the key tools for feature selection in hybrid information systems is fuzzy rough set theory. However, this theory faces two significant challenges: First, obtaining fuzzy equivalence relations through intersection operations in high-dimensional spaces can be both time-consuming and memory-intensive. Additionally, this method may produce noisy data, complicating the feature selection process. The purpose and innovation of this paper are to address these issues. We proposed a new feature selection model that calculates the combined distance between objects and subsequently used this information to derive the fuzzy equivalence relation. Rather than directly solving the feature selection problem, this approach reformulates it into an optimization problem that can be tackled using appropriate meta-heuristic algorithms. We have named this new approach FSbuHD. The FSbuHD model operates in two modes - normal and optimistic - based on the selection of one of the two introduced fuzzy equivalence relations. The model is then tested on standard datasets from the UCI repository and compared with other algorithms. The results of this research demonstrate that FSbuHD is one of the most efficient and effective methods for feature selection when compared to previous methods and algorithms.",
       "categories": [
         "cs.LG",
         "cs.AI"
@@ -2293,6 +2278,16 @@
       "source": "LangChain Blog",
       "sourceType": "opensource",
       "feedTitle": "LangChain Blog",
+      "title": "Autonomous context compression",
+      "link": "https://blog.langchain.com/autonomous-context-compression/",
+      "publishedAt": "2026-03-11T18:24:27.000Z",
+      "contentSnippet": "TL;DR: We've added a tool to the Deep Agents SDK (Python) and CLI that allows models to compress their own context windows at opportune times. Motivation Context compression is an action that reduces the information in an agent’s working memory. Older messages are replaced by",
+      "categories": []
+    },
+    {
+      "source": "LangChain Blog",
+      "sourceType": "opensource",
+      "feedTitle": "LangChain Blog",
       "title": "The Anatomy of an Agent Harness",
       "link": "https://blog.langchain.com/the-anatomy-of-an-agent-harness/",
       "publishedAt": "2026-03-11T02:41:22.000Z",
@@ -2400,18 +2395,6 @@
       "publishedAt": "2026-02-18T15:55:08.000Z",
       "contentSnippet": "Today, we're expanding what you can do with LangSmith Agent Builder. It’s an big update built around a simple idea: working with an agent should feel like working with a teammate. We rebuilt Agent Builder around this idea. There is now an always available agent (”",
       "categories": []
-    },
-    {
-      "source": "LangChain Blog",
-      "sourceType": "opensource",
-      "feedTitle": "LangChain Blog",
-      "title": "monday Service + LangSmith: Building a Code-First Evaluation Strategy from Day 1",
-      "link": "https://blog.langchain.com/customers-monday/",
-      "publishedAt": "2026-02-18T08:05:53.000Z",
-      "contentSnippet": "Learn how monday Service developed an eval-driven development framework for their customer-facing service agents.",
-      "categories": [
-        "Case Studies"
-      ]
     },
     {
       "source": "LlamaIndex Blog",
@@ -2562,6 +2545,29 @@
       "source": "OECD AI",
       "sourceType": "policy",
       "error": "Error: Unexpected close tag\nLine: 2633\nColumn: 414\nChar: >"
+    },
+    {
+      "source": "EFF Deeplinks",
+      "sourceType": "policy",
+      "feedTitle": "Deeplinks",
+      "title": "Certbot and Let's Encrypt Now Support IP Address Certificates",
+      "link": "https://www.eff.org/deeplinks/2026/03/certbot-and-lets-encrypt-now-support-ip-address-certificates",
+      "publishedAt": "2026-03-11T22:32:56.000Z",
+      "contentSnippet": "(Note: This post is also cross-posted on the Let's Encrypt blog) As announced earlier this year, Let's Encrypt now issues IP address and six-day certificates to the general public. The Certbot team here at the Electronic Frontier Foundation has been working on two improvements to support these features: the --preferred-profile flag released last year in Certbot 4.0, and the --ip-address flag, new in Certbot 5.3. With these improvements together, you can now use Certbot to get those IP address certificates! If you want to try getting an IP address certificate using Certbot, install version 5.4 or higher (for webroot support with IP addresses), and run this command: sudo certbot certonly --staging \\ --preferred-profile shortlived \\ --webroot \\ --webroot-path \\ --ip-address Two things of note: This will request a non-trusted certificate from the Let's Encrypt staging server. Once you've got things working the way you want, run without the --staging flag to get a publicly trusted certificate. This requests a certificate with Let's Encrypt's \"shortlived\" profile, which will be good for 6 days. This is a Let's Encrypt requirement for IP address certificates. As of right now, Certbot only supports getting IP address certificates, not yet installing them in your web server. There's work to come on that front. In the meantime, edit your webserver configuration to load the newly issued certificate from /etc/letsencrypt/live/ /fullchain.pem and /etc/letsencrypt/live/ /privkey.pem. The command line above uses Certbot's \"webroot\" mode, which places a challenge response file in a location where your already-running webserver can serve it. This is nice since you don't have to temporarily take down your server. There are two other plugins that support IP address certificates today: --manual and --standalone. The manual plugin is like webroot, except Certbot pauses while you place the challenge response file manually (or runs a user-provided hook to place the file). The standalone plugin runs a simple web server that serves a challenge response. It has the advantage of being very easy to configure, but has the disadvantage that any running webserver on port 80 has to be temporarily taken down so Certbot can listen on that port. The nginx and apache plugins don't yet support IP addresses. You should also be sure that Certbot is set up for automatic renewal. Most installation methods for Certbot set up automatic renewal for you. However, since the webserver-specific installers don't yet support IP address certificates, you'll have to set a --deploy-hook that tells your webserver to load the most up-to-date certificates from disk. You can provide this --deploy-hook through the certbot reconfigure command using the rest of the flags above. We hope you enjoy using IP address certificates with Let's Encrypt and Certbot, and as always if you get stuck you can ask for help in the Let's Encrypt Community Forum.",
+      "categories": [
+        {
+          "_": "Encrypting the Web",
+          "$": {
+            "domain": "https://www.eff.org/encrypt-the-web"
+          }
+        },
+        {
+          "_": "Announcement",
+          "$": {
+            "domain": "https://www.eff.org/taxonomy/term/68"
+          }
+        }
+      ]
     },
     {
       "source": "EFF Deeplinks",
@@ -2790,16 +2796,6 @@
           }
         }
       ]
-    },
-    {
-      "source": "EFF Deeplinks",
-      "sourceType": "policy",
-      "feedTitle": "Deeplinks",
-      "title": "Speaking Freely: Shin Yang",
-      "link": "https://www.eff.org/deeplinks/2026/03/speaking-freely-shin-yang",
-      "publishedAt": "2026-03-04T19:47:03.000Z",
-      "contentSnippet": "*This interview has been edited for length and clarity. David Greene: Shin, please introduce yourself to the Speaking Freely community. Shin Yang: My name is Shin Yang. I am a queer writer with a legal background and experience in product management. I am the steward of Lezismore, an independent, self-hosted, open-source community for sexual minorities in Taiwan. For the past decade, I have focused on platform governance as infrastructure, with a particular emphasis on anonymity, minimal data collection, and behavior-based accountability, so that people can speak about intimacy and identity without fear of extraction or exposure. I am a community architect and builder, not an influencer. I’ve spent most of the past decade working anonymously building systems, designing governance protocols, and holding space for others to speak while keeping myself in the background. DG: Great. And so let’s talk about how that work intersects with freedom of expression as a principle, and your own personal feelings about freedom of expression. And so with that in mind, let me just start with a basic question, what does freedom of expression mean to you? SHIN: For me, free expression is about possibility, and possibility always contains both and even multiple ends, the beautiful ones and the brutal in equal measure. Maybe not that equal, but you cannot just speak about the beautiful or good things. I think it's not about pushing discomfort out of the room. If we refuse all discomfort, we end up in echo chambers, which is safe, predictable; but dead. What matters to me is the equipment and principles: Who carries through that discomfort, self-discipline, mutual support, and the infrastructure and governance that can let people grow over time. Keeps a workable gray space open: room to make mistakes, learn, repair, and keep speaking. DG: How does that resonate with you personally? Why are you passionate about that? SHIN: Around 2013 in Taiwan's context, when Facebook started to take over the digital ecosystem in Taiwan, many local independent bulletin boards (BBS) that had been formed for sexual minorities were shut down because they had no income from advertisements, and people were pushed into mainstream platforms—like Facebook, Instagram, Meta, whatever, Twitter now X—where sexual expression was usually reported or flagged, and where I watched sharp intra-community exclusionary voices saying “bisexual and trans people were not pure enough”, or that talking openly about sex would harm our image, or that it was inappropriate to children, or it would invite harassment. Those oppressions are even fiercer within the queer community itself, which is self-censoring in order to gain approval from mainstream society. So, the community itself says that the best way to do it is don't talk about it. Never talk about it. Never mention a single thing about it. It was a wakeup call for me, because I think it's not right. And also, there's another more private story for me, it's a story I heard from our sexual minority community. I once heard about a butch student who was sexually assaulted by a group of men because she dated a beautiful classmate, a beautiful woman in the class. And when I learned what happened to her, that story changed my focus. Because, you know, when people hear this kind of story, they always focus on punishing those men, punishing those criminals—but what matters for me most is building conditions where someone like her could someday still have a chance at intimacy on her own terms, and finally be free from fear. That's more important for me. I may never meet her, but I know who I am and what I'm here to build. I have been building an infrastructure –– not just “safe space” as a slogan, but an “ecospace” designed to make survival and growth possible. So that's why I believe that a well-governed space is what matters for communities now. DG: Why is it so important for sexual minorities to have forums where they can communicate in that way? When it was just the bulletin boards, before social media, what worked really well and what didn’t work well? SHIN: That’s a wonderful question. Okay, the bulletin boards I used before, the registration process doesn't require a lot of information. You just need email. What I miss about bulletin boards is the sense of structure. You didn’t enter a personalized feed—you entered a place with visible rooms and topics. Even in the spaces you visited daily, you’d encounter views you didn’t like, and you had to live with that—and learn how to argue, or leave, or build something parallel. In some boards, moderators were community-chosen, which created a practical kind of participation—not perfect democracy, but civic practice. You have to provide the information of which school you are in, because it's based on school. But it's not that difficult to use that. And also they have some kinds of logistics, like you log into different boards with different topics, and you can see that there are huge topics along with several small topics. So when you log into that, you can sense and feel the whole structure of that community. It's not a personal feed bombing you with everything you like. So you know, even in the board you’re most likely to visit every day, you will definitely encounter some speech you don't like, and you argue with them, you fight with them, or build something parallel, that's the civic foundation of democracy. You experience the everyday practice of civic democracy. People can vote for moderators or even recall them. DG: You mean, the community can ask them to leave the bulletin boards? SHIN: No, they don't actually leave the bulletin board. It's more that the moderator no longer has the right to perform administrative tasks, but they can still be part of the community, and ordinary users can vote in the election for this. DG: Okay, and then what were the shortcomings of the bulletin boards? SHIN: Yeah, it’s brutal. Really brutal. And I’ve seen people literally organize to push others out. I didn’t expect this to turn into story time, but I actually love this. So—back in Taiwan, we had this big BBS forum called PTT. There was a board called the ‘Sex’ board, where people could talk about sexual topics and share sexual health info. But around 2010, the space was dominated by mainstream straight cis men. And whenever a woman or a sexual minority posted anything, they often got harassed or attacked. So, women created another board inside the forum—basically a separate space—called ‘Feminine Sex.’ And from then on, the original Sex board and the Feminine Sex board were in conflict all the time. And honestly, if this happened today on Facebook, Threads, or X… we’d just block each other. Easy. Clean. Done. But the problem is: when blocking becomes the default, we don’t really learn how to argue well, how to organize our reasons, or even how to sit with discomfort and understand why the other side thinks the way they do. We lose that practice—because it’s just so easy to delete people from our world now. I’m not saying blocking is always wrong. But there’s a trade-off. DG: I get that. Then when Facebook and the other social media platforms that followed came along and the users migrated over to the commercial services, what was lost? SHIN: What was lost? I think our behavior got shaped—personal branding became the default setting for joining an online community. If you don't do it, like me, you basically don't exist. Influence can be shaped by the number of social media followers; people define each other based on this. Choosing not to obey the logic of mainstream platforms means being unseen, and being unseen means having no influence. And sure, personal branding can be useful—but I don’t believe it’s the only way to express yourself or connect with a community. The problem is, on mainstream platforms, the whole system is built for visibility. So clout becomes the game. Look at what they push: stories, reels, short-form visuals. And as a former product manager, I can tell you—this is not accidental. It’s designed. It’s designed around human nature: to avoid friction as much as possible. So they keep you scrolling, to make reacting effortless. One tap and you’ve sent a smiley face. Engagement becomes easier… but also cheaper. And the scary part is, people start thinking that’s the whole internet. It’s not. But the more we get trained by these interfaces, the harder it becomes to even imagine other ways of building community. It is becoming more difficult for people to imagine that the \"right\" amount of friction can actually help us to grow, and coexist with the diversity. DG: So did you find that there were certain things you couldn't talk about on Facebook or on the other social media platforms because they were sexual, because sexual speech was not as welcome as it was earlier? SHIN: Yes, when I first started building my community, I knew nothing about technology. Like everyone else, I just created a fan page on Facebook, which was then flagged and deleted. This happened. I think it still happens to this day. At first, I was so angry about it. I felt it was unjust. But every time I wrote to Facebook, they just said that I had violated the user terms. At first I was furious. But I don’t stop at anger. I dig deeper. I thought, “Why do you say I violated the user terms?” I read the terms, compared policies across platforms and applications, and realized the pattern: All of the terms of use forbid adult or erotic content in fine print. Because these are profit-driven systems optimized to minimize legal and business risk. So, I don’t frame it as “evil platforms.” I frame it as incentives. Once I understood this, I realized that we should not only protest and ask those big tech platforms to “give” us a voice –– that's a good approach, but it shouldn't be the only one. I believe we should build our own community. That's why I started researching open-source software and building my own self-hosted community. DG: Please talk a little bit more about what you're building, and how what you're building is consistent with your view of free expression. SHIN: Sure. It’s a long process but the reason why I use open-source software is, for a person knowing nothing about technology, I can come to the open-source community and ask questions about it. It’s more reliable than building it myself. And the second example is about how I designed Lezismore’s registration and community access, mostly through trial and error. We don’t require any real-name or ID verification. In fact, you can register with just an email. But instead of “verifying people,” we redesigned the \"space\". Lezismore is built as a two-layer structure. The main website is searchable, but it looks almost… boring on purpose—advocacy articles, writers’ posts, slow content. The truly active community space is inside that main site, and the entry point is not something you casually discover through search. Most people learn how to get in through word of mouth. We also block search engines, bots, and crawlers from the community area. So from day one, we gave up visibility on purpose—we traded reach for resilience. Then there’s the onboarding. New users go through an “apprenticeship” period. You can’t immediately post, comment, or DM people. You first have to read, observe, and understand how the community works. We don’t even tell you exactly how long it takes—you just have to be patient. In the fast-content era, people constantly complain that this is “annoying” or “hard to use.” And yes, it is friction indeed. But that friction buys something valuable: a space that can stay anonymous, inclusive, and high-trust—without being instantly overwhelmed by harassment or bad-faith users. It also means we don’t need to depend on Big Tech’s third-party verification APIs. With relatively low technical cost, we’re using governance design—not data collection—to balance inclusion and protection. And honestly, as a platform owner, I have to be real about what users “actually” need. If this was truly “just terrible UX,” the site wouldn’t survive in today’s hyper-competitive platform environment. But Lezismore has been running for over a decade, and we still have tens of thousands of people quietly reading and interacting every month. This is one of the biggest tradeoffs in my governance design. In an attention economy, choosing low visibility is a bold decision, and maintaining it has a real cost. On top of that, we rely on human, context-based moderation. We use posts, replies, and Q&A threads to actively teach community norms—why diversity and conflict exist, how to handle risk, and how to protect yourself. Users also share practical safety tips and real interaction experiences with each other. There are many more small mechanisms built into the system, but that’s the core logic. And there’s one more layer: the legal environment. In Taiwan, the legal climate around sex and speech can create chilling effects for smaller platforms. Platform owners can be criminally liable in certain scenarios. That’s exactly why governance design matters—it’s how we keep lawful expression possible without over-collecting data. DG: Ah, so you need to be careful. I’m curious whether you’ve had any examples of offline repression. Do you have any experiences with censorship or feeling like you didn’t have your full freedom of expression in your offline experiences? Any experiences that might inform what an ideal online community might look like? SHIN: Yes—actually, most of my earliest experiences with repression were offline, and they shaped how I later understood the internet as an escape route. Back when I was a high school student, I was already involved in student movements and gender-related advocacy. One very concrete example was dress codes. The school restricted what female students could wear, and students organized to push for change. At one point we even had a vote—something like 98% of students supported revising the policy. But when the issue entered the “official” system, the administration simply ignored it. They bypassed procedure, dismissed the consensus, and used authority to shut it down completely. That was my first clear lesson about repression: it’s not always someone telling you “you’re forbidden to speak.” Sometimes it’s a system designed so that even if students, women, or sexual minorities spend enormous effort building agreement, once our voices enter the institution, they can be treated as if they don’t exist. That’s why, in the early 2010s, online space became my breakthrough. This was still the blog era, before social platforms fully standardized everything, and even before “share” mechanisms were built into everyday activism. I started experimenting with things like blog-based petitions, and a lot of students joined. The internet became a way to bypass institutional gatekeeping. In college, I saw another layer. There was serious sexism from people in authority—military-style discipline officers, some teachers, and administrators. When gender-related controversies happened on campus, the media sometimes showed up and reported in ways that were harmful: exposing people, sensationalizing stories, and ignoring the realities of sexual minority students. Meanwhile, the administration would shut down student demands with authority, and at the same time use incentives and pressure behind the scenes, especially around housing or “benefits”—so some student representatives were afraid to speak honestly in meetings. And this was before livestreaming was a normal tool. But even then, I was already using audio-based live channels to connect students across campuses. Online networks became a lifeline for young advocates, especially those of us who didn’t “fit” the institution and needed each other to survive. I came from a literature background. I had zero technical training at the beginning. But I’ve always been the kind of person who loves trying new technology. And I was lucky, because I was born in that strange window when the internet was rapidly expanding, but not yet fully swallowed by Big Tech. So, I grew up in this tension between nostalgia and innovation, and I kept pushing, resisting, and experimenting. I’ve experienced both sides of speech: how beautiful freedom can be, and how terrifying it can become. DG: Going back to Lezismore, I’m curious: When you ask people to observe before they post, what are you hoping they learn about the community before they more actively participate in it? SHIN: I hope people understand that this is a community rather than a dating app focused on results. The community needs people to support and nurture each other. Some people see us as a dating app and expect a frictionless experience; naturally, they are disappointed. If you're only looking for a fast-food relationship, that's fine. Here, however, it is a community that offers more than just hooking up. The design focuses on words and a person’s behavioral history rather than just a photo. Dopamine bombing is not how we do things here. We’ve also built a library of community safety notes, FAQs, and governance reminders over time. Some written by the team, some contributed by members. Not everyone reads them, and that’s fine. But the design makes it easier for people who want a slower, more intentional space to stay—and for people who want something frictionless to self-select out. SHIN: I run the platform anonymously by design. People may know that there’s an admin called “Shin”, but I don’t associate a face or personal brand with the role because I don’t want the community to depend on my visibility for their trust. We maintain a clear distinction between work and private life. Admin power is never a shortcut to social capital. In a sex-positive space, this boundary is a matter of ethics. The moment a founder’s identity becomes central, the space starts to orbit that person, and expectations, fan-service dynamics and power asymmetries creep in. Then speech becomes performance. It also means I’m less “marketable” to attention-driven media—but that tradeoff protects the community’s integrity. Some media outlets only want a face and a persona. However, I accept this cost because I am trying to build a community that can thrive independently of an idol, where people relate to each other through behavior and shared norms, not proximity to the founder. DG: It sounds like a lot of what you’re doing is about people being authentic on the site, not using personas or using it to create a personal platform for themselves for marketing purposes. SHIN: Exactly, people can share links, but if a post is purely self-promotion with no contribution to the community, we don’t encourage this. I hope people here can respect the reciprocity. DG: I want to shift a bit and talk about freedom of expression as a principle for a while. Do you think freedom of expression should be regulated by governments? SHIN: Speech regulation is hard, because speech is freaking messy. And once you turn messy human speech into rules that scale, nuance gets flattened. Minority communities usually pay first, because large systems choose efficiency over lived reality. I also don’t think the answer is “erase all conflict.” Some friction is the price of pluralism, and with good guidance and interface design, conflict can become a point of learning instead of a point of collapse. From a platform owner’s perspective, legal liability is real and often cruel. So if we expect platforms to be free, frictionless, allow everything we like, erase everything we dislike, and still amplify our visibility—then we’re really asking for magic. That’s why we need to talk seriously about alternatives and procedural safeguards, not just louder demands. Age verification is a good example. I get that the goal is to protect minors. But identity-based age gates often turn into identity infrastructure. They chill lawful adult speech, concentrate gatekeeping power, and push everyone to hand over personal data just to access legal content. From my experience, there are other tools that can reduce harm with less damage—things like community design, visibility gating, and human, context-based moderation. Those approaches can protect people without building a personal-data checkpoint for everyone. DG: You talked about minority voices, and minority speech. Are you concerned that any regulation will end up trying to silence minority speakers, or won’t benefit minority speakers. How are these speakers more vulnerable to speech regulations than others? SHIN: Hmmm......a lot of minority speech is context-heavy. The same words can be support, education, or harassment depending on who says it and why. When regulation turns into broad categories, sexual health education, self-explore experiment sharing, trans healthcare discussions, or reclaimed language can be treated as “harmful” out of context (at both sides). So the risk isn’t only censorship, it’s misclassification at scale. DG: Are there certain types of speech that don’t deserve the conversation. Some people might say that hate speech or speech that’s dehumanizing doesn’t deserve the conversation. Are there any categories of speech that you would say we shouldn’t consider, or do we get to talk about everything? SHIN: Okay, I don't think the issue is about saying certain kinds of speech don't deserve to be discussed; the problem lies in the definition. As soon as we suggest that some speech doesn't merit discussion, some people will exploit this to silence their opponents. Whether it's right-wing, left-wing or anything else, if we say that we don't allow any kind of hate speech, the next thing someone will do is define your speech as hate speech. It's an endless war that draws us all into an eagerness to silence others and grab the mic, instead of creating more space for conversations and learning from each other. We should go further than just regulation and create spaces where people can coexist in a grey area, endure some discomfort and engage with each other. I prefer this approach to trying to draw lines. DG: So even well-intentioned restrictions might always be used against minority speakers? SHIN: I wouldn’t say restriction is not good. There always has to be some kind of restriction, but people will always find a way to overcome or take advantage of it. So, the thing I believe is that regulation is regulation, but community should be an open-source archive. How we govern community, how we dialogue between each other when we disagree with each other…how can we create a space where those things can exist? I believe that those things should be open source. People always talk about open source like it’s just coding, but I believe governance should be open source too. DG: So when you said before some restrictions are necessary but then we talk about open source governance, we’re talking about the same thing. When you say some restrictions are necessary, you’re not necessarily saying government restrictions, but that restrictions should come from somewhere else: that’s an open source governance model? SHIN: Yes. And it should include restrictions in law, and how people deal with it, the way we deal with it. I’m not saying every rule or detection signal should be public. By “open-source governance,” I mean shareable governance playbooks: proportional steps, appeals templates, community norms, and design patterns that small communities can adapt. The goal is portability and adaptability of methods, not making systems easy to game. Because malice is always part of the environment. DG: Is there anything else you want to say about your theory of open-source governance or what it means to you? SHIN: I noticed there was a question in another interview about fostering transparency in social media, and how to appeal, and that the reason [for a takedown] should be more transparent. The interesting thing is that before our interview today I was joining a law and technology policy research group, and they’re reading a book called “Law and Technology: A Methodical Approach”. It's worth mentioning that it's very interesting. Apparently, scientists tend to place emphasis on complexity, which often trips up pragmatic reform efforts, so the recommendations often only call for greater transparency or participation. I think this echoes what we were talking about before and the transparency thing. I heard this podcast in Taiwan about cybersecurity where they interview an outsourced ex-moderator from Meta and how the platform moderates speech. Because most of the information is confidential, the moderator can’t say too much, but she told us that every day Meta provided a whole set of lists with things they should ban, and every day it changes. Sometimes it even changes on an hourly basis. And they can never really put those fully transparent to the world. The reason they can’t do that is because those words are partially forbidding scams, because the scale is too big. So, when they show the transparency of how they ban things, the scammers will use this against them. Like, “now you’ve banned this word so I’ll just use another one.” It’s an endless war. So, I think transparency matters, but it shouldn’t be the only thing we think about, we should think about governance as well. And when we talk about governance, we shouldn’t just think about some high authority in government or a law just forcing the platform into something we like. We should go back and think about what we can do. We’ve got lots of open-source software now and we can literally build those things by ourselves. That’s what I’m trying to say. DG: Okay, one last question. This is the last question we ask everybody. Who’s your free speech hero? SHIN: This is the question I saw everyone answering, and I honestly struggled with it. Because I’m Taiwanese, and the names that often come up in U.S. free speech conversations aren’t the names I’m familiar with. I’m sorry about this. DG: That’s okay, it doesn’t have to be a perfect answer. SHIN: If you want a public figure from Taiwan, I think of the journalists and dissidents who pushed for press freedom during Taiwan’s democratization—Nylon (Tēnn Lâm-iông) is one name many Taiwanese recognize. If I answer this as truthfully as I can, my hero is my family. My father taught me that integrity is not a slogan. It’s the ability to keep your ethics when it costs you something. My mother is the opposite kind of teacher: she’s relentless in a practical way: she doesn’t easily back down, and she keeps finding room to move even when the room is small. Put together, that’s what free expression means to me. It’s not “I can say anything.” It's about whether you can continue to think independently and live with integrity through layers of fear, pressure, temptation and coercion, while still moving forward and creating more possibilities for others.",
-      "categories": []
     }
   ]
 }

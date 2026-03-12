@@ -48,6 +48,52 @@ a { color: inherit; text-decoration: none; }
   justify-content: flex-end;
 }
 
+.topbar-tools {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.archive-jump {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.archive-date-input {
+  min-width: 160px;
+  height: 36px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink);
+  padding: 0 10px;
+  font: inherit;
+}
+
+.archive-go {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--muted);
+  cursor: pointer;
+  border-radius: 999px;
+  transition: all 0.2s;
+}
+
+.archive-go:hover {
+  background: var(--card);
+  color: var(--ink);
+}
+
+.archive-go-icon {
+  width: 18px;
+  height: 18px;
+}
+
 .language-toggle {
   width: 36px;
   height: 36px;
@@ -300,10 +346,38 @@ html[lang="es"] #siteName {
 
 .site-footer {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
   margin-top: 18px;
   padding-top: 14px;
   border-top: 1px solid var(--rule);
+}
+
+.footer-nav {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 0.92rem;
+  transition: all 0.2s;
+}
+
+.footer-link:hover,
+.footer-link:focus-visible,
+.footer-link.is-active {
+  background: var(--card);
+  color: var(--ink);
 }
 
 .rss-action {
@@ -359,14 +433,142 @@ html[lang="es"] #siteName {
 .tag { display: inline-flex; align-items: center; padding: 4px 8px; border: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
 .not-found { padding: 24px; }
 
+.panel-page-shell {
+  max-width: 980px;
+}
+
+.panel-topbar {
+  align-items: center;
+}
+
+.panel-topbar-text {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.panel-layout {
+  display: grid;
+  gap: 18px;
+}
+
+.panel-hero,
+.panel-card {
+  padding: 22px;
+}
+
+.panel-kicker {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.panel-title,
+.archive-title {
+  margin: 0 0 12px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.08;
+}
+
+.panel-deck,
+.archive-note {
+  margin: 0;
+  font-size: 1rem;
+  color: #2f2f2f;
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.panel-card h2 {
+  margin: 0 0 10px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.panel-card p {
+  margin: 0;
+  color: #303030;
+}
+
+.archive-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.archive-card-top,
+.archive-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.archive-date,
+.archive-count {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.archive-title {
+  font-size: 1.55rem;
+}
+
+.archive-note {
+  margin-bottom: 16px;
+}
+
+.archive-actions {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.archive-empty {
+  text-align: left;
+}
+
+.rss-link {
+  text-decoration: none;
+}
+
 @media (max-width: 980px) {
   .masthead-top, .masthead-bottom, .story-header, .article-meta, .article-topbar {
     flex-direction: column;
     align-items: flex-start;
     gap: 6px;
   }
-  .lead-grid {
-    grid-template-columns: minmax(0, 1fr);
+  .topbar-tools {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .archive-jump {
+    width: 100%;
+  }
+  .archive-date-input {
+    flex: 1 1 auto;
+  }
+  .panel-grid,
+  .archive-list {
+    grid-template-columns: 1fr;
+  }
+  .site-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-nav {
+    width: 100%;
+  }
+  .footer-link {
+    flex: 1 1 auto;
   }
   #editorNote { text-align: left; }
 }

@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "シグナル・タイド",
+    "name": "SIGNAL TIDE",
     "tagline": "openclawが提供するAIデイリー"
   },
   "ui": {
@@ -16,7 +16,9 @@
     "loading": "版面を読み込み中...",
     "failed": "版面の読み込みに失敗しました",
     "notFound": "記事が見つかりません。",
-    "observe": "観察"
+    "observe": "観察",
+    "about": "概要",
+    "archive": "アーカイブ"
   },
   "projects": {
     "promptfoo": {

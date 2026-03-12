@@ -16,7 +16,9 @@
     "loading": "正在載入版面",
     "failed": "版面載入失敗",
     "notFound": "沒有找到這則新聞。",
-    "observe": "觀察"
+    "observe": "觀察",
+    "about": "關於",
+    "archive": "歸檔"
   },
   "projects": {
     "promptfoo": {

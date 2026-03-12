@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1280, initial-scale=0.28, maximum-scale=5" />
     <title>Signal Tide</title>
-    <meta name="description" content="AI 新闻详情页" />
+    <meta name="description" content="Signal Tide 归档期刊" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet" />
@@ -12,19 +12,31 @@
     <link rel="stylesheet" href="./assets/style.css?v=20260312c" />
   </head>
   <body>
-    <div class="page-shell article-shell">
-      <header class="article-topbar">
-        <a class="back-link" href="./index.html" aria-label="返回今日版面" title="返回今日版面">←</a>
-        <p id="articleDate"></p>
-        <div class="language-switcher" id="languageSwitcher"></div>
+    <div class="page-shell">
+      <header class="masthead">
+        <div class="masthead-top">
+          <p class="masthead-meta" id="editionDate">加载中</p>
+          <div class="language-switcher" id="languageSwitcher"></div>
+        </div>
+        <h1 id="siteName">Signal Tide</h1>
+        <div class="masthead-bottom">
+          <p id="tagline">归档版面</p>
+          <p id="editorNote"></p>
+        </div>
       </header>
 
-      <main id="articleRoot" class="article-layout"></main>
+      <main class="frontpage newspaper-layout">
+        <section class="paper-lead block" id="leadStory" aria-labelledby="leadTitle"></section>
+        <section class="paper-secondary block" id="secondaryStories" data-i18n-key="ui.secondary"></section>
+        <aside class="paper-info block" id="infoRail" data-i18n-key="ui.info"></aside>
+        <section class="paper-observe block" id="observeRail" data-i18n-key="ui.observe"></section>
+        <aside class="paper-notes block" id="editorRail" data-i18n-key="ui.editor"></aside>
+      </main>
 
       <footer class="site-footer">
         <nav class="footer-nav" aria-label="页面导航">
-          <a class="footer-link" href="./about.html" data-i18n-key="ui.about">关于</a>
-          <a class="footer-link" href="./archive.html" data-i18n-key="ui.archive">归档</a>
+          <a class="footer-link" href="./about.html">关于</a>
+          <a class="footer-link is-active" href="./archive.html">归档</a>
         </nav>
         <button class="rss-action" id="rssAction" type="button" aria-label="RSS">
           <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="rss-icon">
@@ -34,20 +46,6 @@
       </footer>
     </div>
 
-    <template id="articleTemplate">
-      <article class="article-main block">
-        <p class="story-kicker article-kicker"></p>
-        <h1 class="article-title"></h1>
-        <p class="article-reading article-reading-inline"></p>
-        <p class="article-deck"></p>
-        <div class="article-summary article-body"></div>
-        <section>
-          <h2 data-i18n-key="ui.sources">来源</h2>
-          <ul class="article-sources"></ul>
-        </section>
-      </article>
-    </template>
-
-    <script type="module" src="./assets/article.js?v=20260312c"></script>
+    <script type="module" src="./assets/app.js?v=20260312c"></script>
   </body>
 </html>
