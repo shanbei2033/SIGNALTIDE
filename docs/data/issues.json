@@ -3,52 +3,32 @@
     "name": {
       "zh-CN": "智潮",
       "zh-TW": "智潮",
-      "en": "Signal Tide",
-      "ja": "Signal Tide",
-      "ko": "시그널 타이드",
-      "ru": "Сигнал Прилив",
-      "fr": "Signal Tide",
-      "es": "Marea de Señal"
+      "en": "SIGNAL TIDE"
     },
     "tagline": {
       "zh-CN": "每日整理的 AI 新闻版面",
       "zh-TW": "每日整理的 AI 新聞版面",
-      "en": "Daily AI news digest, curated and edited.",
-      "ja": "AIニュースを編集・発行する日刊",
-      "ko": "AI 뉴스를 정리하는 일간지",
-      "ru": "Ежедневный сборник новостей об ИИ",
-      "fr": "Veille quotidienne sur l'IA",
-      "es": "Resumen diario de noticias de IA"
+      "en": "Daily AI news digest, curated and edited."
     },
     "description": {
       "zh-CN": "聚合、重写并归档每日 AI 领域的重要新闻。",
       "zh-TW": "聚合、改寫並歸檔每日 AI 領域的重要新聞。",
-      "en": "Aggregate, rewrite, and archive important AI news daily.",
-      "ja": "AI分野の重要なニュースを収集・編集・アーカイブする",
-      "ko": "AI 관련 중요 뉴스를 취합, 재작성, 보관",
-      "ru": "Агрегирование, переработка и архивирование важных новостей об ИИ",
-      "fr": "Agrégation, réécriture et archivage des nouvelles importantes en IA.",
-      "es": "Agregación, reescritura y archivado de noticias importantes sobre IA."
+      "en": "Aggregate, rewrite, and archive important AI news daily."
     },
     "i18n": {}
   },
   "edition": {
     "id": "2026-03-12",
-    "issueNumber": 3,
+    "issueNumber": 5,
     "date": "2026-03-12",
     "displayDate": "2026年3月12日",
-    "generatedAt": "2026-03-12T01:10:00.000Z",
+    "generatedAt": "2026-03-12T16:13:14.725Z",
     "mode": "manual",
     "lead": "openai-responses-api-computer-environment",
     "editorNote": {
-      "zh-CN": "本期由编辑筛选候选源后直接撰写。",
-      "zh-TW": "本期由編輯篩選候選源後直接撰寫。",
-      "en": "This edition is written by editors after reviewing candidate sources.",
-      "ja": "今回の号は編集者が候補源を確認後、直接執筆しました。",
-      "ko": "본 호는 편집자가 후보 출처 검토 후 직접 작성했습니다.",
-      "ru": "Этот выпуск написан редакторами после проверки кандидатов.",
-      "fr": "Cette édition est écrite par les éditeurs après examen des sources candidates.",
-      "es": "Esta edición es escrita por editores después de revisar fuentes candidatas."
+      "zh-CN": "本期为测试新版配置，包含新增栏目。",
+      "zh-TW": "本期為測試新版配置，包含新增欄目。",
+      "en": "This edition tests the new configuration with additional sections."
     },
     "i18n": {}
   },
@@ -58,12 +38,7 @@
       "label": {
         "zh-CN": "头版",
         "zh-TW": "頭版",
-        "en": "Lead",
-        "ja": "トップ",
-        "ko": "머리기사",
-        "ru": "Ведущий",
-        "fr": "À la une",
-        "es": "Principal"
+        "en": "Lead"
       }
     },
     {
@@ -71,12 +46,7 @@
       "label": {
         "zh-CN": "公司与产品",
         "zh-TW": "公司與產品",
-        "en": "Company & Product",
-        "ja": "企業と製品",
-        "ko": "기업과 제품",
-        "ru": "Компания и продукт",
-        "fr": "Entreprise & Produit",
-        "es": "Empresa y Producto"
+        "en": "Company & Product"
       }
     },
     {
@@ -84,38 +54,39 @@
       "label": {
         "zh-CN": "政策与治理",
         "zh-TW": "政策與治理",
-        "en": "Policy & Governance",
-        "ja": "政策とガバナンス",
-        "ko": "정책과 거버넌스",
-        "ru": "Политика и управление",
-        "fr": "Politique & Gouvernance",
-        "es": "Política y Gobernanza"
+        "en": "Policy & Governance"
       }
     },
     {
       "key": "tools",
       "label": {
-        "zh-CN": "工具与安全",
-        "zh-TW": "工具與安全",
-        "en": "Tools & Security",
-        "ja": "ツールとセキュリティ",
-        "ko": "도구와 보안",
-        "ru": "Инструменты и безопасность",
-        "fr": "Outils & Sécurité",
-        "es": "Herramientas y Seguridad"
+        "zh-CN": "工具与开源",
+        "zh-TW": "工具與開源",
+        "en": "Tools & Open Source"
       }
     },
     {
       "key": "impact",
       "label": {
-        "zh-CN": "研究与应用",
-        "zh-TW": "研究與應用",
-        "en": "Research & Impact",
-        "ja": "研究と応用",
-        "ko": "연구와 영향",
-        "ru": "Исследование и влияние",
-        "fr": "Recherche & Impact",
-        "es": "Investigación e Impacto"
+        "zh-CN": "研究与影响",
+        "zh-TW": "研究與影響",
+        "en": "Research & Impact"
+      }
+    },
+    {
+      "key": "insight",
+      "label": {
+        "zh-CN": "深度观察",
+        "zh-TW": "深度觀察",
+        "en": "Deep Insights"
+      }
+    },
+    {
+      "key": "tech-humanities",
+      "label": {
+        "zh-CN": "技术人文",
+        "zh-TW": "技術人文",
+        "en": "Tech & Humanities"
       }
     }
   ],
@@ -124,833 +95,528 @@
       "id": "openai-responses-api-computer-environment",
       "section": "lead",
       "category": {
-        "zh-CN": "公司与安全",
-        "zh-TW": "公司與安全",
-        "en": "Company & Security",
-        "ja": "企業とセキュリティ",
-        "ko": "기업과 보안",
-        "ru": "Компания и безопасность",
-        "fr": "Entreprise & Sécurité",
-        "es": "Empresa y Seguridad"
+        "zh-CN": "代理基础设施",
+        "zh-TW": "代理基礎設施",
+        "en": "Agent Infrastructure"
       },
       "headline": {
-        "zh-CN": "OpenAI 让 Responses API 获得计算机环境，从模型到代理的实质性一步",
-        "zh-TW": "OpenAI 讓 Responses API 獲得計算機環境，從模型到代理的實質性一步",
-        "en": "OpenAI Gives Responses API a Computer Environment, a Substantial Step from Model to Agent",
-        "ja": "OpenAI、Responses APIにコンピュータ環境を付与、モデルからエージェントへの実質的一歩",
-        "ko": "OpenAI, Responses API에 컴퓨터 환경 부여, 모델에서 에이전트로의 실질적 단계",
-        "ru": "OpenAI дает Responses API компьютерную среду, существенный шаг от модели к агенту",
-        "fr": "OpenAI donne à Responses API un environnement informatique, un pas substantiel du modèle à l'agent",
-        "es": "OpenAI da a Responses API un entorno informático, un paso sustancial del modelo al agente"
+        "zh-CN": "Responses API 往真正的代理系统迈了一步",
+        "zh-TW": "Responses API 往真正的代理系統邁了一步",
+        "en": "Responses API Takes a Step Towards a True Agent System"
       },
       "deck": {
-        "zh-CN": "OpenAI 公开 Responses API 如何与 Shell 工具、托管容器工作空间配合，为代理提供文件系统、网络访问和并行执行能力。",
-        "zh-TW": "OpenAI 公開 Responses API 如何與 Shell 工具、託管容器工作空間配合，為代理提供檔案系統、網路存取和並行執行能力。",
-        "en": "OpenAI details how the Responses API works with Shell tool and hosted container workspace to give agents filesystem, network access, and parallel execution capabilities.",
-        "ja": "OpenAI、Responses APIがShellツールとホスト型コンテナワークスペースと連携し、エージェントにファイルシステム、ネットワークアクセス、並列実行能力を提供する仕組みを詳細化",
-        "ko": "OpenAI, Responses API가 Shell 도구와 호스팅 컨테이너 작업 공간과 연동하여 에이전트에 파일 시스템, 네트워크 접근, 병렬 실행 능력을 제공하는 방식을 상세히 설명",
-        "ru": "OpenAI подробно описывает, как Responses API работает с инструментом Shell и размещенным контейнерным рабочим пространством, чтобы предоставить агентам файловую систему, доступ к сети и возможности параллельного выполнения.",
-        "fr": "OpenAI détaille comment l'API Responses fonctionne avec l'outil Shell et l'espace de travail conteneurisé hébergé pour donner aux agents un système de fichiers, un accès réseau et des capacités d'exécution parallèle.",
-        "es": "OpenAI detalla cómo la API Responses funciona con la herramienta Shell y el espacio de trabajo de contenedor alojado para dar a los agentes sistema de archivos, acceso a red y capacidades de ejecución paralela."
+        "zh-CN": "OpenAI 将 Responses API 与 shell 工具、托管容器结合，构建可运行安全、可扩展代理的运行时环境。",
+        "zh-TW": "OpenAI 將 Responses API 與 shell 工具、託管容器結合，構建可運行安全、可擴展代理的運行時環境。",
+        "en": "OpenAI combines Responses API with shell tools and hosted containers to build a runtime environment for secure, scalable agents."
       },
-      "kicker": {
-        "zh-CN": "头版",
-        "zh-TW": "頭版",
-        "en": "Lead",
-        "ja": "トップ",
-        "ko": "머리기사",
-        "ru": "Ведущий",
-        "fr": "À la une",
-        "es": "Principal"
-      },
-      "byline": {
-        "zh-CN": "编辑部整理",
-        "zh-TW": "編輯部整理",
-        "en": "Edited",
-        "ja": "編集部",
-        "ko": "편집부 정리",
-        "ru": "Редакция",
-        "fr": "Édité",
-        "es": "Editado"
-      },
-      "publishedAt": "2026-03-11T11:00:00.000Z",
-      "updatedAt": "2026-03-12T01:10:00.000Z",
-      "readingTime": 5,
-      "tags": [
-        "OpenAI",
-        "Responses API",
-        "Agent",
-        "Shell Tool",
-        "Container"
-      ],
       "summary": [
         {
-          "zh-CN": "OpenAI 公开了 Responses API 如何与 Shell 工具、托管容器工作空间配合，为 AI 代理提供文件系统、网络访问和并行执行能力。这一组合解决了代理在实际应用中的几个关键问题：中间文件存放、大表格处理、网络访问安全和超时重试机制。",
-          "zh-TW": "OpenAI 公開了 Responses API 如何與 Shell 工具、託管容器工作空間配合，為 AI 代理提供檔案系統、網路存取和並行執行能力。這一組合解決了代理在實際應用中的幾個關鍵問題：中間檔案存放、大表格處理、網路存取安全和超時重試機制。",
-          "en": "OpenAI details how the Responses API works with Shell tool and hosted container workspace to provide AI agents with filesystem, network access, and parallel execution capabilities. This combination addresses several key issues in agent deployment: intermediate file storage, large table handling, network access security, and timeout retry mechanisms.",
-          "ja": "OpenAIは、Responses APIがShellツールとホスト型コンテナワークスペースと連携し、AIエージェントにファイルシステム、ネットワークアクセス、並列実行能力を提供する仕組みを詳細化。この組み合わせは、エージェント展開における中間ファイル保存、大規模表処理、ネットワークアクセスセキュリティ、タイムアウトリトライ機構といった課題に対応する。",
-          "ko": "OpenAI는 Responses API가 Shell 도구와 호스팅 컨테이너 작업 공간과 연동하여 AI 에이전트에 파일 시스템, 네트워크 접근, 병렬 실행 능력을 제공하는 방식을 상세히 설명한다. 이 조합은 에이전트 배포에서 중간 파일 저장, 대용량 테이블 처리, 네트워크 접근 보안, 타임아웃 재시도 메커니즘 등 주요 문제를 해결한다.",
-          "ru": "OpenAI подробно описывает, как API Responses работает с инструментом Shell и размещенным контейнерным рабочим пространством, чтобы предоставить AI-агентам файловую систему, доступ к сети и возможности параллельного выполнения. Эта комбинация решает несколько ключевых проблем при развертывании агентов: хранение промежуточных файлов, обработка больших таблиц, безопасность доступа к сети и механизмы повторных попыток при таймаутах.",
-          "fr": "OpenAI détaille comment l'API Responses fonctionne avec l'outil Shell et l'espace de travail conteneurisé hébergé pour fournir aux agents IA un système de fichiers, un accès réseau et des capacités d'exécution parallèle. Cette combinaison aborde plusieurs problèmes clés du déploiement d'agents : stockage de fichiers intermédiaires, gestion de grandes tables, sécurité d'accès réseau et mécanismes de nouvelle tentative en cas de délai d'attente.",
-          "es": "OpenAI detalla cómo la API Responses funciona con la herramienta Shell y el espacio de trabajo de contenedor alojado para proporcionar a los agentes de IA sistema de archivos, acceso a red y capacidades de ejecución paralela. Esta combinación aborda varios problemas clave en el despliegue de agentes: almacenamiento de archivos intermedios, manejo de tablas grandes, seguridad de acceso a red y mecanismos de reintento por tiempo de espera."
-        },
-        {
-          "zh-CN": "Shell 工具基于熟悉的 Unix 工具链，支持 grep、curl、awk 等命令，并可运行 Go、Java 或 NodeJS 程序，相比仅支持 Python 的代码解释器，为复杂任务提供了更广泛的能力。模型通过 Responses API 与服务交互，提出 shell 命令后，API 将其转发到容器运行时，实时流回输出并反馈给模型，形成一个紧密的执行循环。",
-          "zh-TW": "Shell 工具基於熟悉的 Unix 工具鏈，支援 grep、curl、awk 等命令，並可運行 Go、Java 或 NodeJS 程序，相比僅支援 Python 的程式碼解釋器，為複雜任務提供了更廣泛的能力。模型透過 Responses API 與服務交互，提出 shell 命令後，API 將其轉發到容器運行時，即時流回輸出並回饋給模型，形成一個緊密的執行循環。",
-          "en": "The Shell tool builds on familiar Unix toolchains, supporting commands like grep, curl, awk, and can run Go, Java, or NodeJS programs. Compared to the code interpreter that only supports Python, it offers much broader capabilities for complex tasks. The model interacts with the service via the Responses API; after proposing shell commands, the API forwards them to the container runtime, streams back output in real time, and feeds it back to the model, forming a tight execution loop.",
-          "ja": "Shellツールは既存のUnixツールチェーンに基づき、grep、curl、awkなどのコマンドをサポートし、Go、Java、NodeJSプログラムも実行可能。Pythonのみをサポートするコードインタプリタと比較し、複雑なタスクに対してより広範な能力を提供する。モデルはResponses API経由でサービスと対話し、shellコマンドを提案すると、APIはそれをコンテナランタイムに転送し、リアルタイムで出力をストリームし、モデルにフィードバックすることで、密な実行ループを形成する。",
-          "ko": "Shell 도구는 익숙한 Unix 도구 체인을 기반으로 grep, curl, awk 같은 명령을 지원하며 Go, Java, NodeJS 프로그램도 실행할 수 있다. Python만 지원하는 코드 인터프리터에 비해 복잡한 작업에 훨씬 넓은 능력을 제공한다. 모델은 Responses API를 통해 서비스와 상호작용하고, shell 명령을 제안하면 API는 이를 컨테이너 런타임에 전달하고, 실시간으로 출력을 스트리밍하여 모델에 피드백하며, 견고한 실행 루프를 형성한다.",
-          "ru": "Инструмент Shell построен на знакомых цепочках инструментов Unix, поддерживая команды типа grep, curl, awk и может запускать программы Go, Java или NodeJS. По сравнению с интерпретатором кода, который поддерживает только Python, он предлагает гораздо более широкие возможности для сложных задач. Модель взаимодействует со службой через API Responses; после предложения shell-команд API пересылает их в среду выполнения контейнера, передает вывод в реальном времени и возвращает его модели, формируя плотный цикл выполнения.",
-          "fr": "L'outil Shell s'appuie sur des chaînes d'outils Unix familières, prenant en charge des commandes comme grep, curl, awk, et peut exécuter des programmes Go, Java ou NodeJS. Par rapport à l'interpréteur de code qui ne prend en charge que Python, il offre des capacités beaucoup plus larges pour des tâches complexes. Le modèle interagit avec le service via l'API Responses ; après avoir proposé des commandes shell, l'API les transmet à l'environnement d'exécution du conteneur, diffuse la sortie en temps réel et la renvoie au modèle, formant une boucle d'exécution serrée.",
-          "es": "La herramienta Shell se basa en cadenas de herramientas Unix familiares, admite comandos como grep, curl, awk y puede ejecutar programas Go, Java o NodeJS. En comparación con el intérprete de código que solo admite Python, ofrece capacidades mucho más amplias para tareas complejas. El modelo interactúa con el servicio a través de la API Responses; después de proponer comandos shell, la API los reenvía al entorno de ejecución del contenedor, transmite la salida en tiempo real y la devuelve al modelo, formando un ciclo de ejecución ajustado."
+          "zh-CN": "OpenAI 公布了 Responses API 的新进展：通过集成 shell 工具和托管容器，开发者现在可以构建具有文件访问、工具使用和状态保持能力的代理系统。",
+          "zh-TW": "OpenAI 公佈了 Responses API 的新進展：通過集成 shell 工具和託管容器，開發者現在可以構建具有文件訪問、工具使用和狀態保持能力的代理系統。",
+          "en": "OpenAI announced new progress with Responses API: by integrating shell tools and hosted containers, developers can now build agent systems with file access, tool usage, and state persistence."
         }
-      ],
-      "bullets": [
-        {
-          "zh-CN": "Responses API 结合 Shell 工具和托管容器工作空间，形成从模型提出命令到容器执行、结果反馈的完整执行循环。",
-          "zh-TW": "Responses API 結合 Shell 工具和託管容器工作空間，形成從模型提出命令到容器執行、結果回饋的完整執行循環。",
-          "en": "Responses API, combined with Shell tool and hosted container workspace, forms a complete execution loop from model proposing commands to container execution and result feedback.",
-          "ja": "Responses APIはShellツールとホスト型コンテナワークスペースと組み合わされ、モデルがコマンドを提案し、コンテナが実行し、結果をフィードバックする完全な実行ループを形成する。",
-          "ko": "Responses API는 Shell 도구와 호스팅 컨테이너 작업 공간과 결합되어 모델이 명령을 제안하고 컨테이너가 실행하며 결과를 피드백하는 완전한 실행 루프를 형성한다.",
-          "ru": "API Responses в сочетании с инструментом Shell и размещенным контейнерным рабочим пространством образует полный цикл выполнения от предложения команд моделью до выполнения контейнером и обратной связи по результатам.",
-          "fr": "L'API Responses, combinée à l'outil Shell et à l'espace de travail conteneurisé hébergé, forme une boucle d'exécution complète allant de la proposition de commandes par le modèle à l'exécution par le conteneur et au retour des résultats.",
-          "es": "La API Responses, combinada con la herramienta Shell y el espacio de trabajo de contenedor alojado, forma un ciclo de ejecución completo desde la propuesta de comandos por el modelo hasta la ejecución por el contenedor y la retroalimentación de resultados."
-        },
-        {
-          "zh-CN": "Shell 工具支持并发执行多个命令，API 可将不同命令的输出流多路复用回结构化工具输出，允许并行搜索文件、获取数据和验证结果。",
-          "zh-TW": "Shell 工具支援並發執行多個命令，API 可將不同命令的輸出流多路復用回結構化工具輸出，允許並行搜尋檔案、取得資料和驗證結果。",
-          "en": "The Shell tool supports concurrent execution of multiple commands; the API can multiplex output streams from different commands back into structured tool outputs, enabling parallel file search, data fetching, and result validation.",
-          "ja": "Shellツールは複数コマンドの並行実行をサポートし、APIは異なるコマンドからの出力ストリームを多重化して構造化ツール出力に戻すことで、ファイル検索、データ取得、結果検証の並列実行を可能にする。",
-          "ko": "Shell 도구는 여러 명령의 동시 실행을 지원하며, API는 서로 다른 명령의 출력 스트림을 다중화하여 구조화된 도구 출력으로 돌려줌으로써 파일 검색, 데이터 수집, 결과 검증의 병렬 실행을 가능하게 한다.",
-          "ru": "Инструмент Shell поддерживает параллельное выполнение нескольких команд; API может мультиплексировать потоки вывода от разных команд обратно в структурированные выходные данные инструментов, обеспечивая параллельный поиск файлов, получение данных и проверку результатов.",
-          "fr": "L'outil Shell prend en charge l'exécution simultanée de plusieurs commandes ; l'API peut multiplexer les flux de sortie de différentes commandes en sorties d'outils structurées, permettant la recherche de fichiers en parallèle, la récupération de données et la validation des résultats.",
-          "es": "La herramienta Shell admite la ejecución concurrente de múltiples comandos; la API puede multiplexar flujos de salida de diferentes comandos de nuevo en salidas de herramientas estructuradas, permitiendo búsqueda paralela de archivos, obtención de datos y validación de resultados."
-        },
-        {
-          "zh-CN": "这一能力使 Responses API 从简单的对话接口转变为支持真实工作负载的代理运行时，解决了中间文件存储、网络访问安全和超时重试等工程难题。",
-          "zh-TW": "這一能力使 Responses API 從簡單的對話介面轉變為支援真實工作負載的代理運行時，解決了中間檔案存儲、網路存取安全和超時重試等工程難題。",
-          "en": "This capability transforms the Responses API from a simple conversational interface into an agent runtime that supports real workloads, solving engineering challenges like intermediate file storage, network access security, and timeout retries.",
-          "ja": "この能力により、Responses APIは単純な対話インターフェースから、実際のワークロードをサポートするエージェントランタイムへと進化し、中間ファイル保存、ネットワークアクセスセキュリティ、タイムアウトリトライなどのエンジニアリング課題を解決する。",
-          "ko": "이 능력은 Responses API를 단순한 대화 인터페이스에서 실제 워크로드를 지원하는 에이전트 런타임으로 변환하여 중간 파일 저장, 네트워크 접근 보안, 타임아웃 재시도 같은 엔지니어링 과제를 해결한다.",
-          "ru": "Эта возможность превращает API Responses из простого интерфейса для диалога в среду выполнения агентов, поддерживающую реальные рабочие нагрузки, решая инженерные задачи, такие как хранение промежуточных файлов, безопасность доступа к сети и повторные попытки при таймаутах.",
-          "fr": "Cette capacité transforme l'API Responses d'une simple interface conversationnelle en un environnement d'exécution d'agents qui prend en charge des charges de travail réelles, résolvant des défis d'ingénierie tels que le stockage de fichiers intermédiaires, la sécurité d'accès réseau et les nouvelles tentatives en cas de délai d'attente.",
-          "es": "Esta capacidad transforma la API Responses de una simple interfaz conversacional en un entorno de ejecución de agentes que admite cargas de trabajo reales, resolviendo desafíos de ingeniería como almacenamiento de archivos intermedios, seguridad de acceso a red y reintentos por tiempo de espera."
-        }
-      ],
-      "significance": {
-        "zh-CN": "将计算机环境直接集成到 API 层面，意味着代理不再只是模型加提示，而是拥有完整执行能力的“工作单元”。这对企业部署 AI 代理、构建自动化流程至关重要，也为 OpenAI 在代理平台竞争中增加了实质性筹码。",
-        "zh-TW": "將計算機環境直接整合到 API 層面，意味著代理不再只是模型加提示，而是擁有完整執行能力的「工作單元」。這對企業部署 AI 代理、構建自動化流程至關重要，也為 OpenAI 在代理平台競爭中增加了實質性籌碼。",
-        "en": "Integrating a computer environment directly at the API level means agents are no longer just models plus prompts, but \"work units\" with full execution capabilities. This is critical for enterprise deployment of AI agents and building automated workflows, and adds substantive weight to OpenAI's position in the agent platform competition.",
-        "ja": "コンピュータ環境をAPIレベルで直接統合することは、エージェントが単なるモデル＋プロンプトではなく、完全な実行能力を持つ「作業単位」になることを意味する。これは企業のAIエージェント展開と自動化ワークフローの構築に極めて重要であり、OpenAIのエージェントプラットフォーム競争における立場にも実質的な重みを加える。",
-        "ko": "컴퓨터 환경을 API 수준에서 직접 통합한다는 것은 에이전트가 단순히 모델과 프롬프트가 아니라 완전한 실행 능력을 가진 '작업 단위'가 됨을 의미한다. 이는 기업의 AI 에이전트 배포와 자동화 워크플로 구축에 매우 중요하며, OpenAI의 에이전트 플랫폼 경쟁에서 실질적인 무게를 더한다.",
-        "ru": "Интеграция компьютерной среды непосредственно на уровне API означает, что агенты больше не просто модели плюс подсказки, а \"рабочие единицы\" с полными возможностями выполнения. Это критически важно для корпоративного развертывания AI-агентов и создания автоматизированных рабочих процессов, а также добавляет существенный вес позиции OpenAI в конкуренции платформ агентов.",
-        "fr": "Intégrer un environnement informatique directement au niveau de l'API signifie que les agents ne sont plus seulement des modèles plus des invites, mais des « unités de travail » avec des capacités d'exécution complètes. Ceci est crucial pour le déploiement d'agents IA en entreprise et la construction de flux de travail automatisés, et ajoute un poids substantiel à la position d'OpenAI dans la concurrence des plateformes d'agents.",
-        "es": "Integrar un entorno informático directamente a nivel de la API significa que los agentes ya no son solo modelos más indicaciones, sino \"unidades de trabajo\" con capacidades de ejecución completas. Esto es fundamental para el despliegue empresarial de agentes de IA y la construcción de flujos de trabajo automatizados, y agrega un peso sustancial a la posición de OpenAI en la competencia de plataformas de agentes."
-      },
-      "sources": [
-        {
-          "title": {
-            "zh-CN": "从模型到代理：为 Responses API 配备计算机环境",
-            "zh-TW": "從模型到代理：為 Responses API 配備計算機環境",
-            "en": "From model to agent: Equipping the Responses API with a computer environment",
-            "ja": "モデルからエージェントへ：Responses APIにコンピュータ環境を装備する",
-            "ko": "모델에서 에이전트로: Responses API에 컴퓨터 환경 부여",
-            "ru": "От модели к агенту: Оснащение API Responses компьютерной средой",
-            "fr": "Du modèle à l'agent : Équiper l'API Responses d'un environnement informatique",
-            "es": "Del modelo al agente: Dotar a la API Responses de un entorno informático"
-          },
-          "publication": {
-            "zh-CN": "OpenAI",
-            "zh-TW": "OpenAI",
-            "en": "OpenAI",
-            "ja": "OpenAI",
-            "ko": "OpenAI",
-            "ru": "OpenAI",
-            "fr": "OpenAI",
-            "es": "OpenAI"
-          },
-          "url": "https://openai.com/index/equip-responses-api-computer-environment/"
-        }
-      ],
-      "i18n": {}
+      ]
     },
     {
-      "id": "google-sheets-gemini-sota",
+      "id": "gemini-spreadsheets",
       "section": "company",
       "category": {
-        "zh-CN": "产品与性能",
-        "zh-TW": "產品與性能",
-        "en": "Product & Performance",
-        "ja": "製品と性能",
-        "ko": "제품과 성능",
-        "ru": "Продукт и производительность",
-        "fr": "Produit & Performance",
-        "es": "Producto y Rendimiento"
+        "zh-CN": "办公与自动化",
+        "zh-TW": "辦公與自動化",
+        "en": "Office & Automation"
       },
       "headline": {
-        "zh-CN": "Google Sheets Gemini 达到最先进水平，在真实场景中成功率达 70.48%",
-        "zh-TW": "Google Sheets Gemini 達到最先進水平，在真實場景中成功率達 70.48%",
-        "en": "Google Sheets Gemini Reaches State-of-the-Art, 70.48% Success Rate in Real-World Scenarios",
-        "ja": "Google Sheets Gemini、最先端に到達、実世界シナリオで成功率70.48%",
-        "ko": "Google Sheets Gemini, 최첨단 도달, 실제 시나리오에서 70.48% 성공률",
-        "ru": "Google Sheets Gemini достигает уровня современных стандартов, 70.48% успеха в реальных сценариях",
-        "fr": "Google Sheets Gemini atteint l'état de l'art, taux de réussite de 70,48 % dans des scénarios réels",
-        "es": "Google Sheets Gemini alcanza el estado del arte, 70.48% de éxito en escenarios reales"
+        "zh-CN": "Gemini 想把电子表格也吃下来",
+        "zh-TW": "Gemini 想把電子表格也吃下來",
+        "en": "Gemini Wants to Devour Spreadsheets Too"
       },
       "deck": {
-        "zh-CN": "Google 宣布 Gemini 在 Sheets 中的新测试版功能，能够在完整 SpreadsheetBench 数据集上自主操作复杂电子表格，成功率接近人类专家。",
-        "zh-TW": "Google 宣布 Gemini 在 Sheets 中的新測試版功能，能夠在完整 SpreadsheetBench 數據集上自主操作複雜電子表格，成功率接近人類專家。",
-        "en": "Google announces new beta features for Gemini in Sheets that can autonomously manipulate complex spreadsheets on the full SpreadsheetBench dataset, with a success rate nearing human expert level.",
-        "ja": "Google、Sheets内Geminiの新ベータ機能を発表、完全なSpreadsheetBenchデータセット上で複雑なスプレッドシートを自律的に操作可能で、成功率は人間専門家に近い。",
-        "ko": "Google, Sheets 내 Gemini의 새 베타 기능 발표, 완전한 SpreadsheetBench 데이터 세트에서 복잡한 스프레드시트 자율 조작 가능, 성공률은 인간 전문가 수준에 근접.",
-        "ru": "Google объявляет о новых бета-функциях Gemini в Sheets, которые могут автономно манипулировать сложными электронными таблицами на полном наборе данных SpreadsheetBench с уровнем успеха, близким к эксперту-человеку.",
-        "fr": "Google annonce de nouvelles fonctionnalités bêta pour Gemini dans Sheets qui peuvent manipuler de manière autonome des feuilles de calcul complexes sur l'ensemble du jeu de données SpreadsheetBench, avec un taux de réussite proche du niveau d'expert humain.",
-        "es": "Google anuncia nuevas funciones beta para Gemini en Sheets que pueden manipular de forma autónoma hojas de cálculo complejas en el conjunto de datos completo SpreadsheetBench, con una tasa de éxito cercana al nivel de experto humano."
-      },
-      "kicker": {
-        "zh-CN": "产品",
-        "zh-TW": "產品",
-        "en": "Product",
-        "ja": "製品",
-        "ko": "제품",
-        "ru": "Продукт",
-        "fr": "Produit",
-        "es": "Producto"
-      },
-      "byline": {
-        "zh-CN": "编辑部整理",
-        "zh-TW": "編輯部整理",
-        "en": "Edited",
-        "ja": "編集部",
-        "ko": "편집부 정리",
-        "ru": "Редакция",
-        "fr": "Édité",
-        "es": "Editado"
-      },
-      "publishedAt": "2026-03-10T13:00:00.000Z",
-      "updatedAt": "2026-03-12T01:10:00.000Z",
-      "readingTime": 3,
-      "tags": [
-        "Google",
-        "Gemini",
-        "Sheets",
-        "SpreadsheetBench",
-        "SOTA"
-      ],
-      "summary": [
-        {
-          "zh-CN": "Google 宣布 Gemini 在 Sheets 中已达到最先进水平，在完整的 SpreadsheetBench 公共基准测试中实现了 70.48% 的成功率。这一结果不仅超过了竞争对手，而且接近人类专家的能力水平，标志着 AI 在电子表格操作任务上的重要进展。",
-          "zh-TW": "Google 宣布 Gemini 在 Sheets 中已達到最先進水平，在完整的 SpreadsheetBench 公共基準測試中實現了 70.48% 的成功率。這一結果不僅超過了競爭對手，而且接近人類專家的能力水平，標誌著 AI 在電子表格操作任務上的重要進展。",
-          "en": "Google announces that Gemini in Sheets has reached state-of-the-art, achieving a 70.48% success rate on the full SpreadsheetBench public benchmark. This result not only exceeds competitors but also nears human expert ability, marking significant progress for AI in spreadsheet manipulation tasks.",
-          "ja": "Googleは、Sheets内Geminiが最先端に到達し、完全なSpreadsheetBench公共ベンチマークで70.48%の成功率を達成したと発表。この結果は競合を上回るだけでなく、人間専門家の能力に近く、AIのスプレッドシート操作タスクにおける重要な進歩を示す。",
-          "ko": "Google는 Sheets 내 Gemini가 최첨단에 도달하여 완전한 SpreadsheetBench 공개 벤치마크에서 70.48%의 성공률을 달성했다고 발표한다. 이 결과는 경쟁사를 능가할 뿐만 아니라 인간 전문가 능력에 근접하며, AI의 스프레드시트 조작 작업에서 중요한 진전을 나타낸다.",
-          "ru": "Google объявляет, что Gemini в Sheets достигла уровня современных стандартов, добившись 70,48% успеха на полном публичном тесте SpreadsheetBench. Этот результат не только превосходит конкурентов, но и близок к способностям экспертов-людей, что знаменует значительный прогресс ИИ в задачах манипуляции электронными таблицами.",
-          "fr": "Google annonce que Gemini dans Sheets a atteint l'état de l'art, obtenant un taux de réussite de 70,48 % sur le benchmark public complet SpreadsheetBench. Ce résultat dépasse non seulement les concurrents, mais se rapproche également des capacités d'expert humain, marquant des progrès significatifs pour l'IA dans les tâches de manipulation de feuilles de calcul.",
-          "es": "Google anuncia que Gemini en Sheets ha alcanzado el estado del arte, logrando una tasa de éxito del 70.48% en el benchmark público completo SpreadsheetBench. Este resultado no solo supera a los competidores, sino que también se acerca a la capacidad de expertos humanos, marcando un progreso significativo para la IA en tareas de manipulación de hojas de cálculo."
-        },
-        {
-          "zh-CN": "新测试版功能让用户只需描述需求，Gemini 就能帮助创建、组织和编辑整个工作表，从基础任务到复杂数据分析都能自主完成。这项进展对于办公自动化和数据工作流程具有重要意义，表明 AI 不仅能回答关于表格的问题，还能直接操作表格结构。",
-          "zh-TW": "新測試版功能讓用戶只需描述需求，Gemini 就能幫助創建、組織和編輯整個工作表，從基礎任務到複雜數據分析都能自主完成。這項進展對於辦公自動化和數據工作流程具有重要意義，表明 AI 不僅能回答關於表格的問題，還能直接操作表格結構。",
-          "en": "The new beta features allow users to simply describe their needs, and Gemini can help create, organize, and edit entire sheets, autonomously handling tasks from basic operations to complex data analysis. This advancement is significant for office automation and data workflows, indicating that AI can not only answer questions about tables but also directly manipulate their structure.",
-          "ja": "新ベータ機能により、ユーザーは要件を説明するだけで、Geminiがシート全体の作成、整理、編集を支援し、基本操作から複雑なデータ分析まで自律的に処理できる。この進歩はオフィス自動化とデータワークフローにとって重要であり、AIが表に関する質問に答えるだけでなく、表構造を直接操作できることを示す。",
-          "ko": "새 베타 기능을 통해 사용자는 단순히 요구사항을 설명하면 Gemini가 시트 전체의 생성, 구성, 편집을 도와 기본 작업부터 복잡한 데이터 분석까지 자율적으로 처리할 수 있다. 이 진전은 사무 자동화와 데이터 워크플로에 중요하며, AI가 표에 관한 질문에 답할 뿐만 아니라 표 구조를 직접 조작할 수 있음을 나타낸다.",
-          "ru": "Новые бета-функции позволяют пользователям просто описывать свои потребности, и Gemini может помочь создавать, организовывать и редактировать целые листы, автономно обрабатывая задачи от базовых операций до сложного анализа данных. Этот прогресс важен для автоматизации офиса и рабочих процессов обработки данных, указывая на то, что ИИ может не только отвечать на вопросы о таблицах, но и напрямую манипулировать их структурой.",
-          "fr": "Les nouvelles fonctionnalités bêta permettent aux utilisateurs de simplement décrire leurs besoins, et Gemini peut aider à créer, organiser et éditer des feuilles entières, traitant de manière autonome des tâches allant des opérations de base à l'analyse complexe de données. Cette avancée est significative pour l'automatisation de bureau et les flux de travail de données, indiquant que l'IA peut non seulement répondre à des questions sur les tableaux, mais aussi manipuler directement leur structure.",
-          "es": "Las nuevas funciones beta permiten a los usuarios simplemente describir sus necesidades, y Gemini puede ayudar a crear, organizar y editar hojas completas, manejando de forma autónoma tareas desde operaciones básicas hasta análisis complejo de datos. Este avance es significativo para la automatización de oficinas y flujos de trabajo de datos, indicando que la IA no solo puede responder preguntas sobre tablas, sino también manipular directamente su estructura."
-        }
-      ],
-      "bullets": [
-        {
-          "zh-CN": "在完整的 SpreadsheetBench 公共基准测试中，Gemini 在 Sheets 中的成功率达到了 70.48%，超过了所有竞争对手。",
-          "zh-TW": "在完整的 SpreadsheetBench 公共基準測試中，Gemini 在 Sheets 中的成功率達到了 70.48%，超過了所有競爭對手。",
-          "en": "On the full SpreadsheetBench public benchmark, Gemini in Sheets achieved a 70.48% success rate, surpassing all competitors.",
-          "ja": "完全なSpreadsheetBench公共ベンチマークで、Sheets内Geminiは70.48%の成功率を達成し、すべての競合を上回った。",
-          "ko": "완전한 SpreadsheetBench 공개 벤치마크에서 Sheets 내 Gemini는 70.48%의 성공률을 달성하여 모든 경쟁사를 능가했다.",
-          "ru": "На полном публичном тесте SpreadsheetBench, Gemini в Sheets достигла 70,48% успеха, превзойдя всех конкурентов.",
-          "fr": "Sur le benchmark public complet SpreadsheetBench, Gemini dans Sheets a atteint un taux de réussite de 70,48 %, dépassant tous les concurrents.",
-          "es": "En el benchmark público completo SpreadsheetBench, Gemini en Sheets logró una tasa de éxito del 70.48%, superando a todos los competidores."
-        },
-        {
-          "zh-CN": "新测试版功能让用户用自然语言描述需求，Gemini 即可自动创建、组织和编辑工作表，覆盖从基础任务到复杂数据分析。",
-          "zh-TW": "新測試版功能讓用戶用自然語言描述需求，Gemini 即可自動創建、組織和編輯工作表，覆蓋從基礎任務到複雜數據分析。",
-          "en": "The new beta features allow users to describe needs in natural language, and Gemini can automatically create, organize, and edit sheets, covering tasks from basic to complex data analysis.",
-          "ja": "新ベータ機能により、ユーザーは自然言語で要件を記述でき、Geminiが自動的にシートを作成、整理、編集し、基本タスクから複雑なデータ分析までカバーする。",
-          "ko": "새 베타 기능을 통해 사용자는 자연어로 요구사항을 설명할 수 있고, Gemini가 자동으로 시트를 생성, 구성, 편집하며 기본 작업부터 복잡한 데이터 분석까지 다룬다.",
-          "ru": "Новые бета-функции позволяют пользователям описывать потребности на естественном языке, и Gemini может автоматически создавать, организовывать и редактировать листы, охватывая задачи от базовых до сложного анализа данных.",
-          "fr": "Les nouvelles fonctionnalités bêta permettent aux utilisateurs de décrire leurs besoins en langage naturel, et Gemini peut créer, organiser et éditer automatiquement des feuilles, couvrant des tâches allant de l'analyse de données de base à complexe.",
-          "es": "Las nuevas funciones beta permiten a los usuarios describir necesidades en lenguaje natural, y Gemini puede crear, organizar y editar automáticamente hojas, cubriendo tareas desde análisis de datos básicos hasta complejos."
-        },
-        {
-          "zh-CN": "这一性能接近人类专家水平，表明 AI 在真实办公场景中的操作能力已达到实用阶段。",
-          "zh-TW": "這一性能接近人類專家水平，表明 AI 在真實辦公場景中的操作能力已達到實用階段。",
-          "en": "This performance is close to human expert level, indicating that AI's operational capability in real office scenarios has reached a practical stage.",
-          "ja": "この性能は人間専門家のレベルに近く、実オフィスシナリオでのAIの操作能力が実用段階に達したことを示す。",
-          "ko": "이 성능은 인간 전문가 수준에 가까우며, 실제 오피스 시나리오에서 AI의 운영 능력이 실용 단계에 도달했음을 나타낸다.",
-          "ru": "Эта производительность близка к уровню экспертов-людей, указывая на то, что операционные возможности ИИ в реальных офисных сценариях достигли практической стадии.",
-          "fr": "Cette performance est proche du niveau d'expert humain, indiquant que la capacité opérationnelle de l'IA dans des scénarios de bureau réels a atteint un stade pratique.",
-          "es": "Este rendimiento está cerca del nivel de experto humano, lo que indica que la capacidad operativa de la IA en escenarios de oficina reales ha alcanzado una etapa práctica."
-        }
-      ],
-      "significance": {
-        "zh-CN": "电子表格是企业和个人数据处理的核心工具，AI 能够可靠地操作电子表格，意味着自动化可以更深地嵌入日常工作流，减少手动操作错误，提升工作效率。这也为 Google Workspace 在 AI 办公竞争中建立了重要优势。",
-        "zh-TW": "電子表格是企業和個人數據處理的核心工具，AI 能夠可靠地操作電子表格，意味著自動化可以更深地嵌入日常工作流，減少手動操作錯誤，提升工作效率。這也為 Google Workspace 在 AI 辦公競爭中建立了重要優勢。",
-        "en": "Spreadsheets are core tools for business and personal data processing; AI's ability to reliably manipulate them means automation can be embedded deeper into daily workflows, reducing manual operation errors and improving work efficiency. This also gives Google Workspace a significant advantage in the AI office competition.",
-        "ja": "スプレッドシートは企業と個人のデータ処理の中核ツールであり、AIが確実に操作できることは、自動化が日常ワークフローに深く組み込まれ、手動操作のエラーを減らし、作業効率を向上させることを意味する。これはGoogle WorkspaceのAIオフィス競争においても重要な優位性をもたらす。",
-        "ko": "스프레드시트는 기업과 개인의 데이터 처리 핵심 도구이며, AI가 이를 안정적으로 조작할 수 있다는 것은 자동화가 일상 워크플로에 더 깊이 내장되어 수동 작업 오류를 줄이고 작업 효율을 향상시킬 수 있음을 의미한다. 이는 Google Workspace의 AI 오피스 경쟁에서도 중요한 우위를 제공한다.",
-        "ru": "Электронные таблицы являются основными инструментами для обработки данных в бизнесе и личном использовании; способность ИИ надежно манипулировать ими означает, что автоматизация может быть глубже встроена в ежедневные рабочие процессы, снижая ошибки ручных операций и повышая эффективность работы. Это также дает Google Workspace значительное преимущество в конкуренции офисных ИИ.",
-        "fr": "Les feuilles de calcul sont des outils essentiels pour le traitement des données professionnelles et personnelles ; la capacité de l'IA à les manipuler de manière fiable signifie que l'automatisation peut être intégrée plus profondément dans les flux de travail quotidiens, réduisant les erreurs d'opération manuelle et améliorant l'efficacité du travail. Cela donne également à Google Workspace un avantage significatif dans la concurrence des bureaux IA.",
-        "es": "Las hojas de cálculo son herramientas principales para el procesamiento de datos empresariales y personales; la capacidad de la IA para manipularlas de manera confiable significa que la automatización puede integrarse más profundamente en los flujos de trabajo diarios, reduciendo errores de operación manual y mejorando la eficiencia laboral. Esto también le da a Google Workspace una ventaja significativa en la competencia de oficinas IA."
-      },
-      "sources": [
-        {
-          "title": {
-            "zh-CN": "Gemini 在 Google Sheets 中达到最先进性能",
-            "zh-TW": "Gemini 在 Google Sheets 中達到最先進性能",
-            "en": "Gemini in Google Sheets just achieved state-of-the-art performance.",
-            "ja": "Google Sheets内Geminiが最先端性能を達成",
-            "ko": "Google Sheets 내 Gemini, 최첨단 성능 달성",
-            "ru": "Gemini в Google Sheets только что достигла передовой производительности.",
-            "fr": "Gemini dans Google Sheets vient d'atteindre des performances de pointe.",
-            "es": "Gemini en Google Sheets acaba de lograr un rendimiento de vanguardia."
-          },
-          "publication": {
-            "zh-CN": "Google",
-            "zh-TW": "Google",
-            "en": "Google",
-            "ja": "Google",
-            "ko": "Google",
-            "ru": "Google",
-            "fr": "Google",
-            "es": "Google"
-          },
-          "url": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/"
-        }
-      ],
-      "i18n": {}
+        "zh-CN": "谷歌正在测试 Gemini 与 Google Sheets 的深度集成，目标是让 AI 直接理解表格数据并执行复杂分析。",
+        "zh-TW": "谷歌正在測試 Gemini 與 Google Sheets 的深度集成，目標是讓 AI 直接理解表格數據並執行複雜分析。",
+        "en": "Google is testing deep integration of Gemini with Google Sheets, aiming to let AI directly understand spreadsheet data and perform complex analysis."
+      }
     },
     {
-      "id": "nvidia-26b-open-weight-models",
-      "section": "company",
-      "category": {
-        "zh-CN": "公司与战略",
-        "zh-TW": "公司與戰略",
-        "en": "Company & Strategy",
-        "ja": "企業と戦略",
-        "ko": "기업과 전략",
-        "ru": "Компания и стратегия",
-        "fr": "Entreprise & Stratégie",
-        "es": "Empresa y Estrategia"
-      },
-      "headline": {
-        "zh-CN": "NVIDIA 计划投入 260 亿美元建设开放权重模型，旨在快速与 OpenAI、Anthropic 竞争",
-        "zh-TW": "NVIDIA 計劃投入 260 億美元建設開放權重模型，旨在快速與 OpenAI、Anthropic 競爭",
-        "en": "NVIDIA to Spend $26 Billion on Open-Weight Models, Aiming to Quickly Compete with OpenAI and Anthropic",
-        "ja": "NVIDIA、260億ドルを開放重みモデルに投入し、OpenAI、Anthropicと迅速に競争することを目指す",
-        "ko": "NVIDIA, 260억 달러를 오픈 가중치 모델에 투자, OpenAI, Anthropic과 빠르게 경쟁 목표",
-        "ru": "NVIDIA потратит 26 миллиардов долларов на модели с открытым весом, стремясь быстро конкурировать с OpenAI и Anthropic",
-        "fr": "NVIDIA va dépenser 26 milliards de dollars pour des modèles à poids ouvert, visant à concurrencer rapidement OpenAI et Anthropic",
-        "es": "NVIDIA gastará $26 mil millones en modelos de peso abierto, con el objetivo de competir rápidamente con OpenAI y Anthropic"
-      },
-      "deck": {
-        "zh-CN": "根据2025年财务文件披露，NVIDIA将在未来五年投资260亿美元构建开源AI模型，这标志着这家芯片制造商正从硬件供应商向前沿实验室转变。",
-        "zh-TW": "根據2025年財務文件披露，NVIDIA將在未來五年投資260億美元構建開源AI模型，這標誌著這家晶片製造商正從硬體供應商向前沿實驗室轉變。",
-        "en": "According to 2025 financial filings, NVIDIA will invest $26 billion over the next five years to build open-source AI models, marking the chipmaker's transformation from hardware supplier to frontier lab.",
-        "ja": "2025年財務ファイルによると、NVIDIAは今後5年間で260億ドルを投資してオープンソースAIモデルを構築し、このチップメーカーがハードウェアサプライヤーからフロンティア研究所への変身を示す。",
-        "ko": "2025년 재무 서류에 따르면, NVIDIA는 향후 5년간 260억 달러를 투자해 오픈소스 AI 모델을 구축하며, 이 칩 제조업체가 하드웨어 공급업체에서 프론티어 연구소로의 변신을 나타낸다.",
-        "ru": "Согласно финансовым отчетам за 2025 год, NVIDIA инвестирует 26 миллиардов долларов в течение следующих пяти лет для создания моделей ИИ с открытым исходным кодом, что знаменует трансформацию производителя чипов из поставщика оборудования в передовую лабораторию.",
-        "fr": "Selon les documents financiers de 2025, NVIDIA investira 26 milliards de dollars au cours des cinq prochaines années pour construire des modèles d'IA open source, marquant la transformation du fabricant de puces de fournisseur de matériel en laboratoire de pointe.",
-        "es": "Según los documentos financieros de 2025, NVIDIA invertirá $26 mil millones durante los próximos cinco años para construir modelos de IA de código abierto, marcando la transformación del fabricante de chips de proveedor de hardware a laboratorio de vanguardia."
-      },
-      "kicker": {
-        "zh-CN": "战略",
-        "zh-TW": "戰略",
-        "en": "Strategy",
-        "ja": "戦略",
-        "ko": "전략",
-        "ru": "Стратегия",
-        "fr": "Stratégie",
-        "es": "Estrategia"
-      },
-      "byline": {
-        "zh-CN": "编辑部整理",
-        "zh-TW": "編輯部整理",
-        "en": "Edited",
-        "ja": "編集部",
-        "ko": "편집부 정리",
-        "ru": "Редакция",
-        "fr": "Édité",
-        "es": "Editado"
-      },
-      "publishedAt": "2026-03-11T18:00:00.000Z",
-      "updatedAt": "2026-03-12T01:10:00.000Z",
-      "readingTime": 4,
-      "tags": [
-        "NVIDIA",
-        "Open-Weight",
-        "Open Source",
-        "Strategy",
-        "Investment"
-      ],
-      "summary": [
-        {
-          "zh-CN": "根据2025年财务文件，NVIDIA计划在未来五年内投入260亿美元建设开放权重AI模型。这项投资规模庞大，旨在使这家AI基础设施巨头能够快速与OpenAI、Anthropic和DeepSeek等前沿实验室竞争。同时，这些模型将针对NVIDIA自家硬件进行优化，进一步巩固其作为AI世界领先芯片制造商的地位。",
-          "zh-TW": "根據2025年財務文件，NVIDIA計劃在未來五年內投入260億美元建設開放權重AI模型。這項投資規模龐大，旨在使這家AI基礎設施巨頭能夠快速與OpenAI、Anthropic和DeepSeek等前沿實驗室競爭。同時，這些模型將針對NVIDIA自家硬體進行優化，進一步鞏固其作為AI世界領先晶片製造商的地位。",
-          "en": "According to 2025 financial filings, NVIDIA plans to invest $26 billion over the next five years to build open-weight AI models. This substantial investment aims to enable the AI infrastructure powerhouse to quickly compete with frontier labs like OpenAI, Anthropic, and DeepSeek. Meanwhile, these models will be optimized for NVIDIA's own hardware, further entrenching its position as the leading chip manufacturer in the AI world.",
-          "ja": "2025年財務ファイルによると、NVIDIAは今後5年間で260億ドルを投資し、開放重みAIモデルを構築する計画。この大規模な投資は、AIインフラストラクチャーの強豪がOpenAI、Anthropic、DeepSeekなどのフロンティア研究所と迅速に競争できるようにすることを目的としている。一方、これらのモデルはNVIDIA自身のハードウェア向けに最適化され、AI世界での主要チップメーカーとしての地位をさらに強化する。",
-          "ko": "2025년 재무 서류에 따르면, NVIDIA는 향후 5년간 260억 달러를 투자하여 오픈 가중치 AI 모델을 구축할 계획이다. 이 상당한 투자는 AI 인프라 강국이 OpenAI, Anthropic, DeepSeek 같은 프론티어 연구소와 빠르게 경쟁할 수 있도록 하는 것을 목표로 한다. 한편, 이 모델들은 NVIDIA 자체 하드웨어에 최적화되어 AI 세계에서 선도적인 칩 제조업체로서의 입지를 더욱 공고히 할 것이다.",
-          "ru": "Согласно финансовым отчетам за 2025 год, NVIDIA планирует инвестировать 26 миллиардов долларов в течение следующих пяти лет для создания моделей ИИ с открытым весом. Эти значительные инвестиции направлены на то, чтобы инфраструктурный гигант ИИ мог быстро конкурировать с передовыми лабораториями, такими как OpenAI, Anthropic и DeepSeek. Между тем, эти модели будут оптимизированы для собственного оборудования NVIDIA, что еще больше укрепит ее позицию ведущего производителя чипов в мире ИИ.",
-          "fr": "Selon les documents financiers de 2025, NVIDIA prévoit d'investir 26 milliards de dollars au cours des cinq prochaines années pour construire des modèles d'IA à poids ouvert. Cet investissement substantiel vise à permettre à la puissance des infrastructures d'IA de concurrencer rapidement les laboratoires de pointe comme OpenAI, Anthropic et DeepSeek. Pendant ce temps, ces modèles seront optimisés pour le matériel propre de NVIDIA, renforçant encore sa position de premier fabricant de puces dans le monde de l'IA.",
-          "es": "Según los documentos financieros de 2025, NVIDIA planea invertir $26 mil millones durante los próximos cinco años para construir modelos de IA de peso abierto. Esta inversión sustancial tiene como objetivo permitir que el gigante de la infraestructura de IA compita rápidamente con laboratorios de vanguardia como OpenAI, Anthropic y DeepSeek. Mientras tanto, estos modelos estarán optimizados para el hardware propio de NVIDIA, consolidando aún más su posición como fabricante de chips líder en el mundo de la IA."
-        },
-        {
-          "zh-CN": "开放权重模型是指模型的权重或决定其行为的参数被公开发布，有时还包括其架构和训练细节。这允许任何人在自己的机器或云上下载并运行它。NVIDIA 不仅发布了技术细节，还透露了构建和训练模型所涉及的技术创新，使初创公司和研究人员更容易修改和在其创新基础上进行构建。",
-          "zh-TW": "開放權重模型是指模型的權重或決定其行為的參數被公開發布，有時還包括其架構和訓練細節。這允許任何人在自己的機器或雲上下載並運行它。NVIDIA 不僅發布了技術細節，還透露了構建和訓練模型所涉及的技術創新，使新創公司和研究人員更容易修改和在其創新基礎上進行構建。",
-          "en": "Open-weight models refer to models whose weights or parameters that determine their behavior are released publicly, sometimes including their architecture and training details. This allows anyone to download and run them on their own machine or in the cloud. NVIDIA not only releases technical details but also reveals the technical innovations involved in building and training the models, making it easier for startups and researchers to modify and build upon its innovations.",
-          "ja": "開放重みモデルとは、モデルの重みや振る舞いを決定するパラメータが公開されるモデルを指し、場合によってはそのアーキテクチャとトレーニング詳細も含まれる。これにより、誰でも自分のマシンやクラウドでダウンロードして実行できる。NVIDIAは技術詳細を公開するだけでなく、モデルの構築とトレーニングに関わる技術革新も明らかにし、スタートアップや研究者がその革新を修正し、構築しやすくしている。",
-          "ko": "오픈 가중치 모델은 모델의 가중치나 행동을 결정하는 매개변수가 공개적으로 발표되는 모델을 가리키며, 경우에 따라 아키텍처와 훈련 세부사항도 포함된다. 이는 누구나 자신의 기기나 클라우드에서 다운로드하여 실행할 수 있게 한다. NVIDIA는 기술 세부사항을 공개할 뿐만 아니라 모델 구축과 훈련에 관련된 기술 혁신도 공개하여 스타트업과 연구자들이 그 혁신을 수정하고 기반으로 구축하기 쉽게 한다.",
-          "ru": "Модели с открытым весом относятся к моделям, вес или параметры которых, определяющие их поведение, публикуются, иногда включая их архитектуру и детали обучения. Это позволяет любому загрузить и запустить их на своем компьютере или в облаке. NVIDIA не только публикует технические детали, но и раскрывает технические инновации, связанные с созданием и обучением моделей, что облегчает стартапам и исследователям возможность модифицировать и строить на основе ее инноваций.",
-          "fr": "Les modèles à poids ouvert désignent des modèles dont les poids ou les paramètres qui déterminent leur comportement sont publiés, incluant parfois leur architecture et les détails de leur entraînement. Cela permet à quiconque de les télécharger et de les exécuter sur sa propre machine ou dans le cloud. NVIDIA publie non seulement des détails techniques, mais révèle également les innovations techniques impliquées dans la construction et l'entraînement des modèles, facilitant ainsi la modification et la construction sur ses innovations pour les startups et les chercheurs.",
-          "es": "Los modelos de peso abierto se refieren a modelos cuyos pesos o parámetros que determinan su comportamiento se publican, a veces incluyendo su arquitectura y detalles de entrenamiento. Esto permite que cualquiera los descargue y ejecute en su propia máquina o en la nube. NVIDIA no solo publica detalles técnicos, sino que también revela las innovaciones técnicas involucradas en la construcción y entrenamiento de los modelos, facilitando que las startups e investigadores modifiquen y construyan sobre sus innovaciones."
-        }
-      ],
-      "bullets": [
-        {
-          "zh-CN": "NVIDIA 计划在未来五年投资260亿美元用于开放权重AI模型，这一数字来自2025年财务文件。",
-          "zh-TW": "NVIDIA 計劃在未來五年投資260億美元用於開放權重AI模型，這一數字來自2025年財務文件。",
-          "en": "NVIDIA plans to invest $26 billion over the next five years in open-weight AI models, a figure from 2025 financial filings.",
-          "ja": "NVIDIAは今後5年間で260億ドルを開放重みAIモデルに投資する計画で、この数字は2025年財務ファイルによる。",
-          "ko": "NVIDIA는 향후 5년간 오픈 가중치 AI 모델에 260억 달러를 투자할 계획이며, 이 수치는 2025년 재무 서류에서 나온 것이다.",
-          "ru": "NVIDIA планирует инвестировать 26 миллиардов долларов в течение следующих пяти лет в модели ИИ с открытым весом, эта цифра взята из финансовых отчетов за 2025 год.",
-          "fr": "NVIDIA prévoit d'investir 26 milliards de dollars au cours des cinq prochaines années dans des modèles d'IA à poids ouvert, un chiffre provenant des documents financiers de 2025.",
-          "es": "NVIDIA planea invertir $26 mil millones durante los próximos cinco años en modelos de IA de peso abierto, una cifra de los documentos financieros de 2025."
-        },
-        {
-          "zh-CN": "周三，NVIDIA 还发布了迄今为止最强大的开放权重 AI 模型 Nemotron 3 Super，拥有 1280 亿参数，与 OpenAI 的 GPT-OSS 最大版本相当。",
-          "zh-TW": "週三，NVIDIA 還發布了迄今為止最強大的開放權重 AI 模型 Nemotron 3 Super，擁有 1280 億參數，與 OpenAI 的 GPT-OSS 最大版本相當。",
-          "en": "On Wednesday, NVIDIA also released its most capable open-weight AI model to date, Nemotron 3 Super, with 128 billion parameters, roughly equivalent to the largest version of OpenAI's GPT-OSS.",
-          "ja": "水曜日、NVIDIAはこれまでで最も強力な開放重みAIモデルNemotron 3 Superをリリースし、1280億パラメータを持ち、OpenAIのGPT-OSS最大バージョンとほぼ同等。",
-          "ko": "수요일, NVIDIA는 지금까지 가장 강력한 오픈 가중치 AI 모델인 Nemotron 3 Super를 발표했으며, 1280억 개의 매개변수를 가지고 OpenAI의 GPT-OSS 최대 버전과 거의 동등하다.",
-          "ru": "В среду NVIDIA также выпустила свою самую мощную на сегодняшний день модель ИИ с открытым весом Nemotron 3 Super с 128 миллиардами параметров, примерно эквивалентную самой большой версии GPT-OSS от OpenAI.",
-          "fr": "Mercredi, NVIDIA a également publié son modèle d'IA à poids ouvert le plus performant à ce jour, Nemotron 3 Super, avec 128 milliards de paramètres, à peu près équivalent à la plus grande version de GPT-OSS d'OpenAI.",
-          "es": "El miércoles, NVIDIA también lanzó su modelo de IA de peso abierto más capaz hasta la fecha, Nemotron 3 Super, con 128 mil millones de parámetros, aproximadamente equivalente a la versión más grande de GPT-OSS de OpenAI."
-        },
-        {
-          "zh-CN": "这一战略举措可能使 NVIDIA 从拥有强大软件堆栈的芯片制造商演变为能够与 OpenAI 和 DeepSeek 竞争的前沿实验室。",
-          "zh-TW": "這一戰略舉措可能使 NVIDIA 從擁有強大軟體堆疊的晶片製造商演變為能夠與 OpenAI 和 DeepSeek 競爭的前沿實驗室。",
-          "en": "This strategic move could see NVIDIA evolve from a chipmaker with an impressive software stack into a bona fide frontier lab capable of competing with OpenAI and DeepSeek.",
-          "ja": "この戦略的動きにより、NVIDIAは印象的なソフトウェアスタックを持つチップメーカーから、OpenAIやDeepSeekと競争できる本格的なフロンティア研究所へと進化する可能性がある。",
-          "ko": "이 전략적 움직임으로 인해 NVIDIA는 인상적인 소프트웨어 스택을 가진 칩 제조업체에서 OpenAI와 DeepSeek와 경쟁할 수 있는 본격적인 프론티어 연구소로 진화할 수 있다.",
-          "ru": "Этот стратегический шаг может позволить NVIDIA превратиться из производителя чипов с впечатляющим программным стеком в настоящую передовую лабораторию, способную конкурировать с OpenAI и DeepSeek.",
-          "fr": "Cette décision stratégique pourrait voir NVIDIA évoluer d'un fabricant de puces avec une pile logicielle impressionnante en un véritable laboratoire de pointe capable de rivaliser avec OpenAI et DeepSeek.",
-          "es": "Este movimiento estratégico podría ver a NVIDIA evolucionar de un fabricante de chips con una pila de software impresionante a un laboratorio de vanguardia legítimo capaz de competir con OpenAI y DeepSeek."
-        }
-      ],
-      "significance": {
-        "zh-CN": "NVIDIA 大规模投资开放权重模型，反映了芯片制造商在 AI 生态系统中寻求更高价值的战略转变。通过提供针对其硬件优化的顶级开源模型，NVIDIA 既能促进生态系统发展，又能确保其芯片保持市场领导地位，形成硬件与软件的双重锁定效应。",
-        "zh-TW": "NVIDIA 大規模投資開放權重模型，反映了晶片製造商在 AI 生態系統中尋求更高價值的戰略轉變。通過提供針對其硬體優化的頂級開源模型，NVIDIA 既能促進生態系統發展，又能確保其晶片保持市場領導地位，形成硬體與軟體的雙重鎖定效應。",
-        "en": "NVIDIA's large-scale investment in open-weight models reflects a strategic shift by chipmakers seeking higher value in the AI ecosystem. By providing top-tier open-source models optimized for its hardware, NVIDIA can both foster ecosystem development and ensure its chips maintain market leadership, creating a dual lock-in effect of hardware and software.",
-        "ja": "NVIDIAの開放重みモデルへの大規模投資は、AIエコシステムにおいてより高い価値を求めるチップメーカーの戦略的転換を反映している。自社ハードウェアに最適化されたトップクラスのオープンソースモデルを提供することで、NVIDIAはエコシステムの発展を促進しつつ、自社チップが市場リーダーシップを維持することを確保し、ハードウェアとソフトウェアの二重ロックイン効果を生み出す。",
-        "ko": "NVIDIA의 오픈 가중치 모델에 대한 대규모 투자는 AI 생태계에서 더 높은 가치를 추구하는 칩 제조업체의 전략적 전환을 반영한다. 자사 하드웨어에 최적화된 최고 수준의 오픈소스 모델을 제공함으로써, NVIDIA는 생태계 발전을 촉진하면서도 자사 칩이 시장 리더십을 유지하도록 보장하며, 하드웨어와 소프트웨어의 이중 구속 효과를 창출할 수 있다.",
-        "ru": "Крупномасштабные инвестиции NVIDIA в модели с открытым весом отражают стратегический сдвиг производителей чипов, стремящихся к более высокой ценности в экосистеме ИИ. Предоставляя модели с открытым исходным кодом высшего класса, оптимизированные для своего оборудования, NVIDIA может как способствовать развитию экосистемы, так и обеспечивать лидерство своих чипов на рынке, создавая двойной эффект привязки к аппаратному и программному обеспечению.",
-        "fr": "L'investissement à grande échelle de NVIDIA dans des modèles à poids ouvert reflète un changement stratégique des fabricants de puces cherchant une valeur plus élevée dans l'écosystème de l'IA. En fournissant des modèles open source de premier niveau optimisés pour son matériel, NVIDIA peut à la fois favoriser le développement de l'écosystème et assurer que ses puces conservent le leadership du marché, créant un effet de double verrouillage du matériel et des logiciels.",
-        "es": "La inversión a gran escala de NVIDIA en modelos de peso abierto refleja un cambio estratégico de los fabricantes de chips que buscan un mayor valor en el ecosistema de IA. Al proporcionar modelos de código abierto de primer nivel optimizados para su hardware, NVIDIA puede tanto fomentar el desarrollo del ecosistema como asegurar que sus chips mantengan el liderazgo del mercado, creando un efecto de doble bloqueo de hardware y software."
-      },
-      "sources": [
-        {
-          "title": {
-            "zh-CN": "NVIDIA 将投入 260 亿美元构建开放权重 AI 模型",
-            "zh-TW": "NVIDIA 將投入 260 億美元構建開放權重 AI 模型",
-            "en": "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models, Filings Show",
-            "ja": "NVIDIA、260億ドルを投入して開放重みAIモデルを構築",
-            "ko": "NVIDIA, 260억 달러 투자해 오픈 가중치 AI 모델 구축",
-            "ru": "NVIDIA потратит 26 миллиардов долларов на создание моделей ИИ с открытым весом, показывают документы",
-            "fr": "NVIDIA dépensera 26 milliards de dollars pour construire des modèles d'IA à poids ouvert, selon les documents",
-            "es": "NVIDIA gastará $26 mil millones para construir modelos de IA de peso abierto, muestran los documentos"
-          },
-          "publication": {
-            "zh-CN": "Wired",
-            "zh-TW": "Wired",
-            "en": "Wired",
-            "ja": "Wired",
-            "ko": "Wired",
-            "ru": "Wired",
-            "fr": "Wired",
-            "es": "Wired"
-          },
-          "url": "https://www.wired.com/story/nvidia-investing-26-billion-open-source-models/"
-        }
-      ],
-      "i18n": {}
-    },
-    {
-      "id": "anthropic-thinktank-pentagon-fight",
+      "id": "anthropic-governance-debate",
       "section": "policy",
       "category": {
-        "zh-CN": "政策与治理",
-        "zh-TW": "政策與治理",
-        "en": "Policy & Governance",
-        "ja": "政策とガバナンス",
-        "ko": "정책과 거버넌스",
-        "ru": "Политика и управление",
-        "fr": "Politique & Gouvernance",
-        "es": "Política y Gobernanza"
+        "zh-CN": "治理与政策",
+        "zh-TW": "治理與政策",
+        "en": "Governance & Policy"
       },
       "headline": {
-        "zh-CN": "Anthropic 在 Pentagon 黑名单争端中启动新智库，联合创始人 Jack Clark 转任公共福利主管",
-        "zh-TW": "Anthropic 在 Pentagon 黑名單爭端中啟動新智庫，聯合創始人 Jack Clark 轉任公共福利主管",
-        "en": "Anthropic Launches New Think Tank Amid Pentagon Blacklist Fight, Co-founder Jack Clark Moves to Head of Public Benefit",
-        "ja": "Anthropic、Pentagonブラックリスト紛争の中で新シンクタンクを立ち上げ、共同創設者Jack Clarkが公共福利責任者に異動",
-        "ko": "Anthropic, Pentagon 블랙리스트 분쟁 속 새 싱크탱크 출범, 공동 창립자 Jack Clark 공공복지 책임자로 이동",
-        "ru": "Anthropic запускает новый аналитический центр на фоне спора о черном списке Пентагона, соучредитель Джек Кларк переходит на должность главы по общественным благам",
-        "fr": "Anthropic lance un nouveau groupe de réflexion dans le cadre du conflit de liste noire du Pentagone, le cofondateur Jack Clark devient responsable des avantages publics",
-        "es": "Anthropic lanza un nuevo think tank en medio de la lucha de la lista negra del Pentágono, el cofundador Jack Clark se traslada a jefe de beneficio público"
+        "zh-CN": "Anthropic 把争议推进到治理层",
+        "zh-TW": "Anthropic 把爭議推進到治理層",
+        "en": "Anthropic Pushes Controversy to the Governance Level"
       },
       "deck": {
-        "zh-CN": "在因设定大规模国内监视和全自主武器红线而被 Pentagon 列为供应链风险的背景下，Anthropic 宣布整合三个研究团队成立内部智库，并将联合创始人 Jack Clark 调任公共福利主管。",
-        "zh-TW": "在因設定大規模國內監視和全自主武器紅線而被 Pentagon 列為供應鏈風險的背景下，Anthropic 宣布整合三個研究團隊成立內部智庫，並將聯合創始人 Jack Clark 調任公共福利主管。",
-        "en": "Amid being designated a supply-chain risk by the Pentagon for setting red lines on mass domestic surveillance and fully autonomous lethal weapons, Anthropic announces the consolidation of three research teams into an internal think tank and moves co-founder Jack Clark to head of public benefit.",
-        "ja": "大規模国内監視と完全自律致死兵器にレッドラインを設定したことでPentagonからサプライチェーンリスクに指定されている状況で、Anthropicは3つの研究チームを統合して内部シンクタンクを設立し、共同創設者Jack Clarkを公共福利責任者に異動させることを発表。",
-        "ko": "대규모 국내 감시와 완전 자율 살상 무기에 레드라인을 설정한 것으로 Pentagon에서 공급망 위험으로 지정된 상황에서, Anthropic은 세 연구 팀을 통합해 내부 싱크탱크를 설립하고 공동 창립자 Jack Clark을 공공복지 책임자로 이동시킨다고 발표한다.",
-        "ru": "На фоне того, что Пентагон признал ее риском для цепочки поставок за установление красных линий в отношении массового внутреннего наблюдения и полностью автономного смертоносного оружия, Anthropic объявляет об объединении трех исследовательских групп во внутренний аналитический центр и переводе соучредителя Джека Кларка на должность главы по общественным благам.",
-        "fr": "Dans le contexte de sa désignation comme risque pour la chaîne d'approvisionnement par le Pentagone pour avoir établi des lignes rouges sur la surveillance de masse intérieure et les armes létales entièrement autonomes, Anthropic annonce la consolidation de trois équipes de recherche en un groupe de réflexion interne et déplace le cofondateur Jack Clark au poste de responsable des avantages publics.",
-        "es": "En medio de ser designado como riesgo de cadena de suministro por el Pentágono por establecer líneas rojas sobre vigilancia doméstica masiva y armas letales totalmente autónomas, Anthropic anuncia la consolidación de tres equipos de investigación en un think tank interno y traslada al cofundador Jack Clark a jefe de beneficio público."
+        "zh-CN": "Anthropic 的最新治理框架引发了关于 AI 公司决策透明度和问责制的讨论。",
+        "zh-TW": "Anthropic 的最新治理框架引發了關於 AI 公司決策透明度和問責制的討論。",
+        "en": "Anthropic's latest governance framework has sparked discussions about decision-making transparency and accountability in AI companies."
+      }
+    },
+    {
+      "id": "huggingface-hub-infrastructure",
+      "section": "tools",
+      "category": {
+        "zh-CN": "开源生态",
+        "zh-TW": "開源生態",
+        "en": "Open Source Ecosystem"
       },
-      "kicker": {
-        "zh-CN": "政策",
-        "zh-TW": "政策",
-        "en": "Policy",
-        "ja": "政策",
-        "ko": "정책",
-        "ru": "Политика",
-        "fr": "Politique",
-        "es": "Política"
+      "headline": {
+        "zh-CN": "Hugging Face 正把 Hub 往基础设施做",
+        "zh-TW": "Hugging Face 正把 Hub 往基礎設施做",
+        "en": "Hugging Face is Turning Hub into Infrastructure"
       },
-      "byline": {
-        "zh-CN": "编辑部整理",
-        "zh-TW": "編輯部整理",
-        "en": "Edited",
-        "ja": "編集部",
-        "ko": "편집부 정리",
-        "ru": "Редакция",
-        "fr": "Édité",
-        "es": "Editado"
+      "deck": {
+        "zh-CN": "Hugging Face Hub 正在从模型仓库演变为全面的 MLOps 基础设施。",
+        "zh-TW": "Hugging Face Hub 正在從模型倉庫演變為全面的 MLOps 基礎設施。",
+        "en": "Hugging Face Hub is evolving from a model repository to comprehensive MLOps infrastructure."
+      }
+    },
+    {
+      "id": "nvidia-open-source-agent-platform",
+      "section": "tools",
+      "category": {
+        "zh-CN": "开发者生态",
+        "zh-TW": "開發者生態",
+        "en": "Developer Ecosystem"
       },
-      "publishedAt": "2026-03-11T09:45:00.000Z",
-      "updatedAt": "2026-03-12T01:10:00.000Z",
-      "readingTime": 4,
-      "tags": [
-        "Anthropic",
-        "Pentagon",
-        "Think Tank",
-        "Policy",
-        "Governance"
-      ],
-      "summary": [
-        {
-          "zh-CN": "在因设定大规模国内监视和全自主武器红线而被 Pentagon 列为供应链风险、并因此起诉美国政府的背景下，Anthropic 宣布成立新的内部智库——Anthropic Institute。该智库整合了公司的社会影响团队、前沿红队和经济研究团队，将专注于研究 AI 的大规模影响，如就业与经济变化、安全与风险、价值观塑造以及控制权问题。",
-          "zh-TW": "在因設定大規模國內監視和全自主武器紅線而被 Pentagon 列為供應鏈風險、並因此起訴美國政府的背景下，Anthropic 宣布成立新的內部智庫——Anthropic Institute。該智庫整合了公司的社會影響團隊、前沿紅隊和經濟研究團隊，將專注於研究 AI 的大規模影響，如就業與經濟變化、安全與風險、價值觀塑造以及控制權問題。",
-          "en": "Amid being designated a supply-chain risk by the Pentagon for setting red lines on mass domestic surveillance and fully autonomous lethal weapons, and subsequently suing the US government, Anthropic announces the establishment of a new internal think tank—the Anthropic Institute. The institute consolidates the company's societal impacts team, frontier red team, and economic research team, focusing on studying AI's large-scale impacts such as employment and economic changes, safety and risks, value shaping, and control issues.",
-          "ja": "大規模国内監視と完全自律致死兵器にレッドラインを設定したことでPentagonからサプライチェーンリスクに指定され、その後米国政府を提訴している状況で、Anthropicは新たな内部シンクタンク「Anthropic Institute」の設立を発表。同研究所は同社の社会影響チーム、フロンティアレッドチーム、経済研究チームを統合し、雇用と経済変化、安全性とリスク、価値観形成、制御問題などAIの大規模影響の研究に焦点を当てる。",
-          "ko": "대규모 국내 감시와 완전 자율 살상 무기에 레드라인을 설정한 것으로 Pentagon에서 공급망 위험으로 지정되고, 이후 미국 정부를 제소한 상황에서, Anthropic은 새로운 내부 싱크탱크 'Anthropic Institute'의 설립을 발표한다. 이 연구소는 회사의 사회 영향 팀, 프론티어 레드 팀, 경제 연구 팀을 통합하며, 고용과 경제 변화, 안전과 위험, 가치관 형성, 통제 문제 등 AI의 대규모 영향을 연구하는 데 초점을 맞춘다.",
-          "ru": "На фоне того, что Пентагон признал ее риском для цепочки поставок за установление красных линий в отношении массового внутреннего наблюдения и полностью автономного смертоносного оружия, и последующего иска к правительству США, Anthropic объявляет о создании нового внутреннего аналитического центра — Института Anthropic. Институт объединяет команду социального воздействия компании, передовую «красную команду» и команду экономических исследований, сосредоточившись на изучении крупномасштабного воздействия ИИ, такого как изменения в занятости и экономике, безопасность и риски, формирование ценностей и проблемы контроля.",
-          "fr": "Dans le contexte de sa désignation comme risque pour la chaîne d'approvisionnement par le Pentagone pour avoir établi des lignes rouges sur la surveillance de masse intérieure et les armes létales entièrement autonomes, et ensuite poursuivi le gouvernement américain, Anthropic annonce la création d'un nouveau groupe de réflexion interne — l'Institut Anthropic. L'institut regroupe l'équipe des impacts sociétaux de l'entreprise, l'équipe rouge frontière et l'équipe de recherche économique, se concentrant sur l'étude des impacts à grande échelle de l'IA tels que les changements d'emploi et économiques, la sécurité et les risques, la formation des valeurs et les problèmes de contrôle.",
-          "es": "En medio de ser designado como riesgo de cadena de suministro por el Pentágono por establecer líneas rojas sobre vigilancia doméstica masiva y armas letales totalmente autónomas, y posteriormente demandar al gobierno de EE. UU., Anthropic anuncia el establecimiento de un nuevo think tank interno: el Instituto Anthropic. El instituto consolida el equipo de impactos sociales de la empresa, el equipo rojo fronterizo y el equipo de investigación económica, centrándose en estudiar los impactos a gran escala de la IA, como cambios en el empleo y la economía, seguridad y riesgos, formación de valores y problemas de control."
-        },
-        {
-          "zh-CN": "此次重组伴随着高管变动：联合创始人 Jack Clark 从公共政策主管转任公共福利主管，负责领导新智库；原对外事务主管 Sarah Heck 接任公共政策主管。Anthropic 还计划在华盛顿特区开设办公室，公共政策团队将继续关注国家安全、AI 基础设施、能源和「AI 民主领导力」等议题。",
-          "zh-TW": "此次重組伴隨著高階主管變動：聯合創始人 Jack Clark 從公共政策主管轉任公共福利主管，負責領導新智庫；原對外事務主管 Sarah Heck 接任公共政策主管。Anthropic 還計劃在華盛頓特區開設辦公室，公共政策團隊將繼續關注國家安全、AI 基礎設施、能源和「AI 民主領導力」等議題。",
-          "en": "The restructuring is accompanied by executive changes: co-founder Jack Clark moves from head of public policy to head of public benefit, responsible for leading the new think tank; former head of external affairs Sarah Heck takes over as head of public policy. Anthropic also plans to open an office in Washington, DC, with the public policy team continuing to focus on issues like national security, AI infrastructure, energy, and 'democratic leadership in AI.'",
-          "ja": "この再編には幹部異動が伴う：共同創設者Jack Clarkが公共政策責任者から公共福利責任者に異動し、新シンクタンクを率いる責任を負う。元対外責任者Sarah Heckが公共政策責任者を引き継ぐ。AnthropicはワシントンD.C.にオフィスを開設する計画もあり、公共政策チームは国家安全保障、AIインフラストラクチャー、エネルギー、「AIにおける民主的リーダーシップ」などの問題に引き続き焦点を当てる。",
-          "ko": "이 재편에는 임원 이동이 수반된다: 공동 창립자 Jack Clark은 공공 정책 책임자에서 공공복지 책임자로 이동해 새 싱크탱크를 이끌 책임을 진다. 전 대외 업무 책임자 Sarah Heck이 공공 정책 책임자를 인수한다. Anthropic은 워싱턴 D.C.에 사무소 개설도 계획 중이며, 공공 정책 팀은 국가 안보, AI 인프라, 에너지, 'AI의 민주적 리더십' 같은 문제에 계속 초점을 맞출 것이다.",
-          "ru": "Реструктуризация сопровождается изменениями в руководстве: соучредитель Джек Кларк переходит с должности главы по общественной политике на должность главы по общественным благам, отвечая за руководство новым аналитическим центром; бывший глава по внешним связям Сара Хек становится главой по общественной политике. Anthropic также планирует открыть офис в Вашингтоне, округ Колумбия, при этом команда по общественной политике продолжит уделять внимание таким вопросам, как национальная безопасность, инфраструктура ИИ, энергетика и «демократическое лидерство в ИИ».",
-          "fr": "La restructuration s'accompagne de changements de direction : le cofondateur Jack Clark passe de responsable des politiques publiques à responsable des avantages publics, chargé de diriger le nouveau groupe de réflexion ; l'ancienne responsable des affaires externes Sarah Heck prend la relève en tant que responsable des politiques publiques. Anthropic prévoit également d'ouvrir un bureau à Washington, DC, l'équipe des politiques publiques continuant de se concentrer sur des questions telles que la sécurité nationale, les infrastructures d'IA, l'énergie et le « leadership démocratique en IA ».",
-          "es": "La reestructuración va acompañada de cambios ejecutivos: el cofundador Jack Clark se traslada de jefe de política pública a jefe de beneficio público, responsable de liderar el nuevo think tank; la exjefa de asuntos externos Sarah Heck asume el cargo de jefa de política pública. Anthropic también planea abrir una oficina en Washington, D.C., y el equipo de política pública continuará enfocándose en temas como seguridad nacional, infraestructura de IA, energía y 'liderazgo democrático en IA'."
-        }
-      ],
-      "bullets": [
-        {
-          "zh-CN": "Anthropic Institute 整合了三个现有研究团队：社会影响团队、前沿红队和经济研究团队，启动时约有30人，预计未来每年人数翻倍。",
-          "zh-TW": "Anthropic Institute 整合了三個現有研究團隊：社會影響團隊、前沿紅隊和經濟研究團隊，啟動時約有30人，預計未來每年人數翻倍。",
-          "en": "The Anthropic Institute consolidates three existing research teams: societal impacts team, frontier red team, and economic research team, launching with about 30 people and expected to double in size each year going forward.",
-          "ja": "Anthropic Instituteは3つの既存研究チーム（社会影響チーム、フロンティアレッドチーム、経済研究チーム）を統合し、約30人でスタート、今後毎年人数が倍増すると予想される。",
-          "ko": "Anthropic Institute는 세 기존 연구 팀(사회 영향 팀, 프론티어 레드 팀, 경제 연구 팀)을 통합하며, 약 30명으로 출범, 향후 매년 규모가 두 배로 늘어날 것으로 예상된다.",
-          "ru": "Институт Anthropic объединяет три существующие исследовательские группы: команду социального воздействия, передовую «красную команду» и команду экономических исследований, запускается с около 30 человек и ожидается, что в будущем будет удваиваться в размере каждый год.",
-          "fr": "L'Institut Anthropic regroupe trois équipes de recherche existantes : équipe des impacts sociétaux, équipe rouge frontière et équipe de recherche économique, démarre avec environ 30 personnes et devrait doubler en taille chaque année à l'avenir.",
-          "es": "El Instituto Anthropic consolida tres equipos de investigación existentes: equipo de impactos sociales, equipo rojo fronterizo y equipo de investigación económica, se lanza con aproximadamente 30 personas y se espera que duplique su tamaño cada año en el futuro."
-        },
-        {
-          "zh-CN": "联合创始人 Jack Clark 从公共政策主管转任公共福利主管，负责领导新智库；原对外事务主管 Sarah Heck 接任公共政策主管。",
-          "zh-TW": "聯合創始人 Jack Clark 從公共政策主管轉任公共福利主管，負責領導新智庫；原對外事務主管 Sarah Heck 接任公共政策主管。",
-          "en": "Co-founder Jack Clark moves from head of public policy to head of public benefit, responsible for leading the new think tank; former head of external affairs Sarah Heck takes over as head of public policy.",
-          "ja": "共同創設者Jack Clarkが公共政策責任者から公共福利責任者に異動し、新シンクタンクを率いる責任を負う。元対外責任者Sarah Heckが公共政策責任者を引き継ぐ。",
-          "ko": "공동 창립자 Jack Clark은 공공 정책 책임자에서 공공복지 책임자로 이동해 새 싱크탱크를 이끌 책임을 진다. 전 대외 업무 책임자 Sarah Heck이 공공 정책 책임자를 인수한다.",
-          "ru": "Соучредитель Джек Кларк переходит с должности главы по общественной политике на должность главы по общественным благам, отвечая за руководство новым аналитическим центром; бывший глава по внешним связям Сара Хек становится главой по общественной политике.",
-          "fr": "Le cofondateur Jack Clark passe de responsable des politiques publiques à responsable des avantages publics, chargé de diriger le nouveau groupe de réflexion ; l'ancienne responsable des affaires externes Sarah Heck prend la relève en tant que responsable des politiques publiques.",
-          "es": "El cofundador Jack Clark se traslada de jefe de política pública a jefe de beneficio público, responsable de liderar el nuevo think tank; la exjefa de asuntos externos Sarah Heck asume el cargo de jefa de política pública."
-        },
-        {
-          "zh-CN": "这一举动发生在 Anthropic 起诉美国政府将其列为供应链风险之后，公司声称因在国家安全问题上的立场而受到报复。",
-          "zh-TW": "這一舉動發生在 Anthropic 起訴美國政府將其列為供應鏈風險之後，公司聲稱因在國家安全問題上的立場而受到報復。",
-          "en": "The move comes after Anthropic sued the US government over its designation as a supply-chain risk, with the company claiming retaliation for its stance on national security issues.",
-          "ja": "この動きは、Anthropicがサプライチェーンリスク指定をめぐり米国政府を提訴した後に行われ、同社は国家安全保障問題での立場に対する報復だと主張している。",
-          "ko": "이 움직임은 Anthropic이 공급망 위험 지정을 두고 미국 정부를 제소한 후 이루어졌으며, 회사는 국가 안보 문제에 대한 입장에 대한 보복이라고 주장한다.",
-          "ru": "Этот шаг последовал за иском Anthropic к правительству США по поводу ее признания риском для цепочки поставок, при этом компания заявляет о возмездии за свою позицию по вопросам национальной безопасности.",
-          "fr": "Cette décision intervient après qu'Anthropic ait poursuivi le gouvernement américain pour sa désignation comme risque pour la chaîne d'approvisionnement, l'entreprise affirmant des représailles pour sa position sur les questions de sécurité nationale.",
-          "es": "El movimiento se produce después de que Anthropic demandara al gobierno de EE. UU. por su designación como riesgo de cadena de suministro, y la empresa afirma represalias por su postura sobre temas de seguridad nacional."
-        }
-      ],
-      "significance": {
-        "zh-CN": "Anthropic 在面临政府压力时选择加强长期研究而非退缩，反映出 AI 公司在政策压力下的战略选择：通过建立独立的研究机构来维护技术自主性和公共形象，同时在争议中保持对外沟通的渠道。这种「智库化」趋势可能成为大型 AI 公司应对复杂政策环境的新模式。",
-        "zh-TW": "Anthropic 在面臨政府壓力時選擇加強長期研究而非退縮，反映出 AI 公司在政策壓力下的戰略選擇：通過建立獨立的研究機構來維護技術自主性和公共形象，同時在爭議中保持對外溝通的管道。這種「智庫化」趨勢可能成為大型 AI 公司應對複雜政策環境的新模式。",
-        "en": "Anthropic's choice to strengthen long-term research rather than retreat in the face of government pressure reflects the strategic choices of AI companies under policy pressure: maintaining technological autonomy and public image by establishing independent research institutions, while keeping channels of external communication open during controversies. This 'think tankization' trend may become a new model for large AI companies to navigate complex policy environments.",
-        "ja": "Anthropicが政府の圧力に直面して後退するのではなく長期研究を強化することを選択したことは、政策圧力下にあるAI企業の戦略的選択を反映している：独立した研究機関を設立することで技術的自律性と公共イメージを維持しつつ、論争の中でも外部とのコミュニケーションチャネルを維持する。この「シンクタンク化」の傾向は、大規模AI企業が複雑な政策環境をナビゲートするための新たなモデルになる可能性がある。",
-        "ko": "Anthropic이 정부 압력에 직면해 후퇴하기보다 장기 연구를 강화하기로 선택한 것은 정책 압력 하에 있는 AI 기업의 전략적 선택을 반영한다: 독립적인 연구 기관을 설립함으로써 기술적 자율성과 공공 이미지를 유지하면서, 논쟁 중에도 외부 소통 채널을 유지하는 것. 이 '싱크탱크화' 경향은 대형 AI 기업이 복잡한 정책 환경을 헤쳐나가는 새로운 모델이 될 수 있다.",
-        "ru": "Выбор Anthropic укрепить долгосрочные исследования, а не отступить перед лицом государственного давления, отражает стратегический выбор компаний ИИ под политическим давлением: сохранение технологической автономии и общественного имиджа путем создания независимых исследовательских институтов при сохранении каналов внешней коммуникации во время споров. Эта тенденция «аналитизации» может стать новой моделью для крупных компаний ИИ в навигации по сложной политической среде.",
-        "fr": "Le choix d'Anthropic de renforcer la recherche à long terme plutôt que de reculer face à la pression gouvernementale reflète les choix stratégiques des entreprises d'IA sous pression politique : maintenir l'autonomie technologique et l'image publique en établissant des institutions de recherche indépendantes, tout en gardant les canaux de communication externe ouverts pendant les controverses. Cette tendance à la « think tankisation » pourrait devenir un nouveau modèle pour les grandes entreprises d'IA pour naviguer dans des environnements politiques complexes.",
-        "es": "La elección de Anthropic de fortalecer la investigación a largo plazo en lugar de retroceder ante la presión gubernamental refleja las opciones estratégicas de las empresas de IA bajo presión política: mantener la autonomía tecnológica y la imagen pública mediante el establecimiento de instituciones de investigación independientes, mientras mantienen abiertos los canales de comunicación externa durante las controversias. Esta tendencia de 'think tankización' puede convertirse en un nuevo modelo para que las grandes empresas de IA naveguen por entornos políticos complejos."
+      "headline": {
+        "zh-CN": "NVIDIA 还想做开源 agent 平台",
+        "zh-TW": "NVIDIA 還想做開源 agent 平台",
+        "en": "NVIDIA Still Wants to Build an Open Source Agent Platform"
+      }
+    },
+    {
+      "id": "localai-unified-framework",
+      "section": "tools",
+      "category": {
+        "zh-CN": "开源框架",
+        "zh-TW": "開源框架",
+        "en": "Open Source Framework"
       },
-      "sources": [
-        {
-          "title": {
-            "zh-CN": "Anthropic 在 Pentagon 黑名单争端中启动新智库",
-            "zh-TW": "Anthropic 在 Pentagon 黑名單爭端中啟動新智庫",
-            "en": "Anthropic is launching a new think tank amid Pentagon blacklist fight",
-            "ja": "Anthropic、Pentagonブラックリスト紛争の中で新シンクタンクを立ち上げ",
-            "ko": "Anthropic, Pentagon 블랙리스트 분쟁 속 새 싱크탱크 출범",
-            "ru": "Anthropic запускает новый аналитический центр на фоне спора о черном списке Пентагона",
-            "fr": "Anthropic lance un nouveau groupe de réflexion dans le cadre du conflit de liste noire du Pentagone",
-            "es": "Anthropic lanza un nuevo think tank en medio de la lucha de la lista negra del Pentágono"
-          },
-          "publication": {
-            "zh-CN": "The Verge",
-            "zh-TW": "The Verge",
-            "en": "The Verge",
-            "ja": "The Verge",
-            "ko": "The Verge",
-            "ru": "The Verge",
-            "fr": "The Verge",
-            "es": "The Verge"
-          },
-          "url": "https://www.theverge.com/ai-artificial-intelligence/892478/anthropic-institute-think-tank-claude-pentagon-jack-clark"
-        }
-      ],
-      "i18n": {}
+      "headline": {
+        "zh-CN": "LocalAI：在本地运行多种开源大模型的统一框架",
+        "zh-TW": "LocalAI：在本地運行多種開源大模型的統一框架",
+        "en": "LocalAI: A Unified Framework for Running Multiple Open Source LLMs Locally"
+      }
+    },
+    {
+      "id": "mlx-apple-ml-framework",
+      "section": "tools",
+      "category": {
+        "zh-CN": "苹果生态",
+        "zh-TW": "蘋果生態",
+        "en": "Apple Ecosystem"
+      },
+      "headline": {
+        "zh-CN": "MLX：苹果的机器学习框架开始在研究社区获得关注",
+        "zh-TW": "MLX：蘋果的機器學習框架開始在研究社區獲得關注",
+        "en": "MLX: Apple's Machine Learning Framework Gains Attention in Research Community"
+      }
+    },
+    {
+      "id": "openrlhf-training-framework",
+      "section": "tools",
+      "category": {
+        "zh-CN": "对齐技术",
+        "zh-TW": "對齊技術",
+        "en": "Alignment Technology"
+      },
+      "headline": {
+        "zh-CN": "OpenRLHF：完全开源的RLHF训练框架，降低对齐成本",
+        "zh-TW": "OpenRLHF：完全開源的RLHF訓練框架，降低對齊成本",
+        "en": "OpenRLHF: Fully Open Source RLHF Training Framework, Reducing Alignment Costs"
+      }
     },
     {
       "id": "nist-agent-standards-initiative",
       "section": "impact",
-      "category": "标准与安全",
+      "category": {
+        "zh-CN": "标准与安全",
+        "zh-TW": "標準與安全",
+        "en": "Standards & Security"
+      },
       "headline": {
-        "zh-CN": "NIST 为 agent system 开始立规矩",
-        "zh-TW": "NIST 為 agent system 開始立規矩",
-        "en": "NIST starts setting rules for agent systems",
-        "ja": "NIST が agent system のルール作りを始める",
-        "ko": "NIST가 agent system 규칙 만들기에 들어갔다",
-        "ru": "NIST начинает задавать правила для agent-систем",
-        "fr": "Le NIST commence à fixer des règles pour les systèmes d’agents",
-        "es": "NIST empieza a fijar reglas para los sistemas de agentes"
-      },
-      "deck": {
-        "zh-CN": "标准化这件事看起来不热闹，但往往意味着一个市场正从概念验证走向基础设施化。",
-        "zh-TW": "標準化這件事看起來不熱鬧，但往往意味著一個市場正從概念驗證走向基礎設施化。",
-        "en": "Standardization is rarely the loudest story, but it often signals a market moving from prototype excitement toward infrastructure.",
-        "ja": "標準化は派手ではないが、市場が概念実証からインフラ段階へ進みつつあることを示す。",
-        "ko": "표준화는 화려하진 않지만, 시장이 개념 검증에서 인프라 단계로 가고 있음을 보여준다.",
-        "ru": "Стандартизация редко бывает самой заметной новостью, но часто означает переход рынка к инфраструктуре.",
-        "fr": "La normalisation fait rarement les gros titres, mais elle signale souvent qu’un marché passe à l’infrastructure.",
-        "es": "La estandarización rara vez es la noticia más vistosa, pero suele indicar que un mercado avanza hacia la infraestructura."
-      },
-      "kicker": "观察",
-      "byline": "编辑部整理",
-      "publishedAt": "2026-02-01T00:00:00.000Z",
-      "updatedAt": "2026-03-12T02:46:00.000Z",
-      "readingTime": 3,
-      "tags": [
-        "NIST",
-        "Standards",
-        "Agents",
-        "Security"
-      ],
-      "summary": [
-        "NIST 宣布 AI Agent Standards Initiative，把互操作性与安全接口放到更靠前的位置。这类动作的意义不在于立刻改变哪家产品路线，而在于标准组织已经开始把 agent system 当成独立对象来看待。",
-        "当一个领域开始进入标准化讨论，往往说明竞争重心正在变化：不再只是“能做出来”，而是“能不能稳定接入、能不能被更大范围采用”。"
-      ],
-      "bullets": [
-        "NIST 推出 AI Agent Standards Initiative。",
-        "重点是互操作与安全创新。",
-        "标准化通常预示市场正在成熟。"
-      ],
-      "significance": "agent 真正走向基础设施阶段时，规则和接口会和能力本身一样重要。",
-      "sources": [
-        {
-          "title": {
-            "zh-CN": "宣布“AI Agent Standards Initiative”",
-            "zh-TW": "宣布「AI Agent Standards Initiative」",
-            "en": "Announcing the \"AI Agent Standards Initiative\" for Interoperable and Secure Innovation",
-            "ja": "AI Agent Standards Initiative の発表",
-            "ko": "AI Agent Standards Initiative 발표",
-            "ru": "Объявление инициативы AI Agent Standards Initiative",
-            "fr": "Annonce de l’AI Agent Standards Initiative",
-            "es": "Anuncio de la AI Agent Standards Initiative"
-          },
-          "publication": {
-            "zh-CN": "NIST",
-            "zh-TW": "NIST",
-            "en": "NIST",
-            "ja": "NIST",
-            "ko": "NIST",
-            "ru": "NIST",
-            "fr": "NIST",
-            "es": "NIST"
-          },
-          "url": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure"
-        }
-      ],
-      "i18n": {}
+        "zh-CN": "NIST 开始给 agent system 立规矩",
+        "zh-TW": "NIST 開始給 agent system 立規矩",
+        "en": "NIST Begins Setting Rules for Agent Systems"
+      }
     },
     {
-      "id": "microsoft-agent-memory-rethinking",
+      "id": "google-agent-scaling-science",
       "section": "impact",
-      "category": "代理研究",
+      "category": {
+        "zh-CN": "研究与方法",
+        "zh-TW": "研究與方法",
+        "en": "Research & Methods"
+      },
       "headline": {
-        "zh-CN": "微软重新讨论 agent memory 该怎么做",
-        "zh-TW": "微軟重新討論 agent memory 該怎麼做",
-        "en": "Microsoft rethinks what agent memory should be",
-        "ja": "Microsoft が agent memory を改めて問い直す",
-        "ko": "Microsoft가 agent memory를 다시 생각한다",
-        "ru": "Microsoft переосмысляет, какой должна быть память агентов",
-        "fr": "Microsoft repense ce que doit être la mémoire des agents",
-        "es": "Microsoft replantea lo que debe ser la memoria de los agentes"
-      },
-      "deck": {
-        "zh-CN": "随着代理系统越来越长程地执行任务，记忆不再只是上下文延长，而会影响系统是否真的可复用、可积累。",
-        "zh-TW": "隨著代理系統越來越長程地執行任務，記憶不再只是上下文延長，而會影響系統是否真的可重用、可累積。",
-        "en": "As agent systems take on longer-running tasks, memory becomes less about holding context and more about whether knowledge can accumulate and be reused.",
-        "ja": "エージェントが長期タスクを担うほど、memory は単なる文脈延長ではなく知識の蓄積基盤になる。",
-        "ko": "에이전트가 더 긴 작업을 맡을수록 memory는 단순한 문맥 연장이 아니라 지식 축적 기반이 된다.",
-        "ru": "Чем более долгими становятся задачи агентов, тем меньше память сводится к контексту и тем больше — к накоплению знаний.",
-        "fr": "Plus les agents traitent des tâches longues, moins la mémoire se résume au contexte et plus elle devient une base de connaissance réutilisable.",
-        "es": "Cuanto más largas sean las tareas de los agentes, menos será la memoria una extensión del contexto y más una base de conocimiento reutilizable."
-      },
-      "kicker": "观察",
-      "byline": "编辑部整理",
-      "publishedAt": "2026-03-10T00:00:00.000Z",
-      "updatedAt": "2026-03-12T02:46:00.000Z",
-      "readingTime": 3,
-      "tags": [
-        "Microsoft Research",
-        "Agents",
-        "Memory",
-        "Research"
-      ],
-      "summary": [
-        "微软研究院讨论了 agent memory 的问题，重点不是“记得更多”，而是如何把原始交互沉淀成可复用知识。这个方向值得看，因为长期代理系统一旦真正进入工作流，记忆结构会直接影响连续性和错误传播。",
-        "现在很多产品还把 memory 当作上下文堆叠，但更成熟的系统迟早要回答：什么该记、什么时候忘、坏记忆如何隔离。"
-      ],
-      "bullets": [
-        "微软研究院重新讨论 AI agents 的 memory 设计。",
-        "重点是可复用知识，而不是单纯延长上下文。",
-        "长期代理系统会越来越依赖记忆结构。"
-      ],
-      "significance": "谁先把 agent memory 做成可靠基础设施，谁就更接近长期可用的代理系统。",
-      "sources": [
-        {
-          "title": {
-            "zh-CN": "从原始交互到可复用知识：重新思考 AI agents 的记忆",
-            "zh-TW": "從原始互動到可重用知識：重新思考 AI agents 的記憶",
-            "en": "From raw interaction to reusable knowledge: Rethinking memory for AI agents",
-            "ja": "生の対話から再利用可能な知識へ：AI agents の memory 再考",
-            "ko": "원시 상호작용에서 재사용 가능한 지식으로: AI agents의 memory 재고",
-            "ru": "От сырых взаимодействий к переиспользуемым знаниям: переосмысление памяти AI-агентов",
-            "fr": "Des interactions brutes aux connaissances réutilisables : repenser la mémoire des agents AI",
-            "es": "De la interacción bruta al conocimiento reutilizable: repensar la memoria para agentes AI"
-          },
-          "publication": {
-            "zh-CN": "Microsoft Research",
-            "zh-TW": "Microsoft Research",
-            "en": "Microsoft Research",
-            "ja": "Microsoft Research",
-            "ko": "Microsoft Research",
-            "ru": "Microsoft Research",
-            "fr": "Microsoft Research",
-            "es": "Microsoft Research"
-          },
-          "url": "https://www.microsoft.com/en-us/research/blog/from-raw-interaction-to-reusable-knowledge-rethinking-memory-for-ai-agents/"
-        }
-      ],
-      "i18n": {}
+        "zh-CN": "Google 想研究清楚 agent 为什么有用",
+        "zh-TW": "Google 想研究清楚 agent 為什麼有用",
+        "en": "Google Wants to Study Why Agents Are Useful"
+      }
     },
     {
-      "id": "google-agent-scaling-laws",
+      "id": "speciesnet-conservation-workflow",
       "section": "impact",
-      "category": "代理研究",
+      "category": {
+        "zh-CN": "应用与开源",
+        "zh-TW": "應用與開源",
+        "en": "Applications & Open Source"
+      },
       "headline": {
-        "zh-CN": "Google 开始研究 agent system 的 scaling laws",
-        "zh-TW": "Google 開始研究 agent system 的 scaling laws",
-        "en": "Google starts studying scaling laws for agent systems",
-        "ja": "Google が agent system の scaling laws を研究し始める",
-        "ko": "Google이 agent system의 scaling laws를 연구하기 시작했다",
-        "ru": "Google начинает изучать scaling laws для agent-систем",
-        "fr": "Google commence à étudier les scaling laws des systèmes d’agents",
-        "es": "Google empieza a estudiar las scaling laws de los sistemas de agentes"
+        "zh-CN": "SpeciesNet 让\"AI for good\"没那么空",
+        "zh-TW": "SpeciesNet 讓「AI for good」沒那麼空",
+        "en": "SpeciesNet Makes \"AI for good\" Feel Less Empty"
+      }
+    },
+    {
+      "id": "multimodal-temporal-understanding",
+      "section": "impact",
+      "category": {
+        "zh-CN": "技术演进",
+        "zh-TW": "技術演進",
+        "en": "Technology Evolution"
+      },
+      "headline": {
+        "zh-CN": "多模态大模型开始理解时间维度，视频生成质量显著提升",
+        "zh-TW": "多模態大模型開始理解時間維度，視頻生成質量顯著提升",
+        "en": "Multimodal LLMs Begin to Understand Time Dimensions, Video Generation Quality Significantly Improves"
+      }
+    },
+    {
+      "id": "edge-ai-chip-power",
+      "section": "impact",
+      "category": {
+        "zh-CN": "硬件突破",
+        "zh-TW": "硬件突破",
+        "en": "Hardware Breakthrough"
+      },
+      "headline": {
+        "zh-CN": "边缘AI芯片功耗降至1W以下，端侧智能迎来爆发前夜",
+        "zh-TW": "邊緣AI芯片功耗降至1W以下，端側智能迎來爆發前夜",
+        "en": "Edge AI Chip Power Consumption Drops Below 1W, On-Device Intelligence Approaches Breakout"
+      }
+    },
+    {
+      "id": "neuro-symbolic-ai-resurgence",
+      "section": "impact",
+      "category": {
+        "zh-CN": "研究方法",
+        "zh-TW": "研究方法",
+        "en": "Research Methods"
+      },
+      "headline": {
+        "zh-CN": "神经符号AI重新受关注，解决大模型的逻辑推理短板",
+        "zh-TW": "神經符號AI重新受關注，解決大模型的邏輯推理短板",
+        "en": "Neuro-Symbolic AI Regains Attention, Addressing LLMs' Logical Reasoning Shortcomings"
+      }
+    },
+    {
+      "id": "deep-insight-1",
+      "section": "insight",
+      "category": {
+        "zh-CN": "行业分析",
+        "zh-TW": "行業分析",
+        "en": "Industry Analysis"
+      },
+      "headline": {
+        "zh-CN": "大模型公司的商业化困局：烧钱速度远超收入增长",
+        "zh-TW": "大模型公司的商業化困局：燒錢速度遠超收入增長",
+        "en": "The Commercialization Dilemma of LLM Companies: Burn Rate Far Outpaces Revenue Growth"
       },
       "deck": {
-        "zh-CN": "这说明行业关注点正在从“能不能做 agent”转向“什么样的 agent system 才真的值得放大”。",
-        "zh-TW": "這說明產業關注點正從「能不能做 agent」轉向「什麼樣的 agent system 才真的值得放大」。",
-        "en": "That suggests the industry is moving from “can we build agents?” toward “what kinds of agent systems are actually worth scaling?”",
-        "ja": "これは業界の関心が「agent を作れるか」から「どの system が本当に拡張に値するか」へ移っていることを示す。",
-        "ko": "이는 업계의 관심이 “에이전트를 만들 수 있는가”에서 “어떤 system이 정말 확장할 가치가 있는가”로 이동하고 있음을 보여준다.",
-        "ru": "Это показывает, что отрасль переходит от вопроса «можно ли построить агента?» к вопросу «какие системы стоит масштабировать?»",
-        "fr": "Cela montre que l’industrie passe de « peut-on construire des agents ? » à « quels systèmes valent vraiment la peine d’être étendus ? »",
-        "es": "Esto muestra que la industria se mueve de “¿podemos construir agentes?” a “¿qué sistemas merece realmente la pena escalar?”"
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "deep-insight-2",
+      "section": "insight",
+      "category": {
+        "zh-CN": "市场趋势",
+        "zh-TW": "市場趨勢",
+        "en": "Market Trends"
       },
-      "kicker": "观察",
-      "byline": "编辑部整理",
-      "publishedAt": "2026-03-10T00:00:00.000Z",
-      "updatedAt": "2026-03-12T02:46:00.000Z",
-      "readingTime": 3,
-      "tags": [
-        "Google Research",
-        "Agents",
-        "Scaling",
-        "Research"
-      ],
-      "summary": [
-        "Google Research 讨论了 agent systems 的 scaling 问题，重点是想弄清楚：代理系统为什么在某些任务上有效，又会在什么条件下失灵。这个方向很重要，因为 agent 现在已经不缺概念展示，真正缺的是可解释、可复制的方法论。",
-        "当行业开始认真讨论 scaling laws，就说明竞争正在从“把更多模块拼起来”转向“什么样的结构能稳定扩展、复杂度是否值得”。"
-      ],
-      "bullets": [
-        "Google Research 开始讨论 agent systems 的 scaling laws。",
-        "重点在 agent 为什么有效、何时失灵。",
-        "这类工作有助于把 agent 从概念热潮推进到更稳的工程方法。"
-      ],
-      "significance": "当行业开始研究 agent scaling laws，说明 agent 竞争正在从堆功能转向问方法。",
-      "sources": [
-        {
-          "title": {
-            "zh-CN": "迈向 agent systems 的 scaling 科学：它们何时、为何有效",
-            "zh-TW": "邁向 agent systems 的 scaling 科學：它們何時、為何有效",
-            "en": "Towards a science of scaling agent systems: When and why agent systems work",
-            "ja": "agent systems の scaling science に向けて：いつ・なぜ機能するのか",
-            "ko": "agent systems의 scaling science를 향해: 언제, 왜 작동하는가",
-            "ru": "К науке о масштабировании agent-систем: когда и почему они работают",
-            "fr": "Vers une science du scaling des systèmes d’agents : quand et pourquoi ils fonctionnent",
-            "es": "Hacia una ciencia del escalado de sistemas de agentes: cuándo y por qué funcionan"
-          },
-          "publication": {
-            "zh-CN": "Google Research",
-            "zh-TW": "Google Research",
-            "en": "Google Research",
-            "ja": "Google Research",
-            "ko": "Google Research",
-            "ru": "Google Research",
-            "fr": "Google Research",
-            "es": "Google Research"
-          },
-          "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/"
-        }
-      ],
-      "i18n": {}
+      "headline": {
+        "zh-CN": "开源与闭源的边界正在模糊，商业化模式面临重构",
+        "zh-TW": "開源與閉源的邊界正在模糊，商業化模式面臨重構",
+        "en": "The Boundary Between Open Source and Closed Source is Blurring, Business Models Face Restructuring"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "deep-insight-3",
+      "section": "insight",
+      "category": {
+        "zh-CN": "技术演进",
+        "zh-TW": "技術演進",
+        "en": "Technology Evolution"
+      },
+      "headline": {
+        "zh-CN": "AI芯片战进入第二回合：定制化vs通用化的新平衡",
+        "zh-TW": "AI芯片戰進入第二回合：定制化vs通用化的新平衡",
+        "en": "AI Chip War Enters Round Two: New Balance Between Customization and Generalization"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "deep-insight-4",
+      "section": "insight",
+      "category": {
+        "zh-CN": "市场分析",
+        "zh-TW": "市場分析",
+        "en": "Market Analysis"
+      },
+      "headline": {
+        "zh-CN": "数据壁垒成为AI公司最大护城河，技术优势正在减弱",
+        "zh-TW": "數據壁壘成為AI公司最大護城河，技術優勢正在減弱",
+        "en": "Data Barriers Become the Biggest Moat for AI Companies, Technological Advantages Are Diminishing"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "deep-insight-5",
+      "section": "insight",
+      "category": {
+        "zh-CN": "企业实践",
+        "zh-TW": "企業實踐",
+        "en": "Enterprise Practice"
+      },
+      "headline": {
+        "zh-CN": "企业AI部署的\"最后一公里\"：从POC到生产环境的鸿沟",
+        "zh-TW": "企業AI部署的「最後一公里」：從POC到生產環境的鴻溝",
+        "en": "The \"Last Mile\" of Enterprise AI Deployment: The Gap from POC to Production Environment"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "deep-insight-6",
+      "section": "insight",
+      "category": {
+        "zh-CN": "投资趋势",
+        "zh-TW": "投資趨勢",
+        "en": "Investment Trends"
+      },
+      "headline": {
+        "zh-CN": "VC投资策略转向：从追求技术突破到关注商业落地",
+        "zh-TW": "VC投資策略轉向：從追求技術突破到關注商業落地",
+        "en": "VC Investment Strategy Shifts: From Pursuing Technological Breakthroughs to Focusing on Commercial Implementation"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "deep-insight-7",
+      "section": "insight",
+      "category": {
+        "zh-CN": "人才市场",
+        "zh-TW": "人才市場",
+        "en": "Talent Market"
+      },
+      "headline": {
+        "zh-CN": "AI人才薪酬趋于理性，初级岗位竞争加剧",
+        "zh-TW": "AI人才薪酬趨於理性，初級崗位競爭加劇",
+        "en": "AI Talent Salaries Become More Rational, Competition for Entry-Level Positions Intensifies"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "deep-insight-8",
+      "section": "insight",
+      "category": {
+        "zh-CN": "全球格局",
+        "zh-TW": "全球格局",
+        "en": "Global Landscape"
+      },
+      "headline": {
+        "zh-CN": "中美欧AI监管路径分化，企业面临多轨合规挑战",
+        "zh-TW": "中美歐AI監管路徑分化，企業面臨多軌合規挑戰",
+        "en": "US-China-EU AI Regulatory Paths Diverge, Companies Face Multi-Track Compliance Challenges"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-1",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "社会影响",
+        "zh-TW": "社會影響",
+        "en": "Social Impact"
+      },
+      "headline": {
+        "zh-CN": "当AI开始理解方言：技术如何保护语言多样性",
+        "zh-TW": "當AI開始理解方言：技術如何保護語言多樣性",
+        "en": "When AI Begins to Understand Dialects: How Technology Protects Linguistic Diversity"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-2",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "协作模式",
+        "zh-TW": "協作模式",
+        "en": "Collaboration Patterns"
+      },
+      "headline": {
+        "zh-CN": "程序员与AI的协作新范式：从工具使用到思维伙伴",
+        "zh-TW": "程序員與AI的協作新範式：從工具使用到思維夥伴",
+        "en": "New Paradigm for Programmer-AI Collaboration: From Tool Usage to Thinking Partner"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-3",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "伦理实践",
+        "zh-TW": "倫理實踐",
+        "en": "Ethical Practice"
+      },
+      "headline": {
+        "zh-CN": "AI伦理委员会的日常：在创新与约束之间寻找平衡",
+        "zh-TW": "AI倫理委員會的日常：在創新與約束之間尋找平衡",
+        "en": "The Daily Life of an AI Ethics Committee: Finding Balance Between Innovation and Constraints"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-4",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "远程协作",
+        "zh-TW": "遠程協作",
+        "en": "Remote Collaboration"
+      },
+      "headline": {
+        "zh-CN": "远程协作时代的AI工具：如何重建办公室的偶然相遇",
+        "zh-TW": "遠程協作時代的AI工具：如何重建辦公室的偶然相遇",
+        "en": "AI Tools in the Era of Remote Collaboration: How to Recreate Office Serendipity"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-5",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "决策机制",
+        "zh-TW": "決策機制",
+        "en": "Decision Mechanisms"
+      },
+      "headline": {
+        "zh-CN": "技术决策中的\"人性时刻\"：数据无法告诉你的那些事",
+        "zh-TW": "技術決策中的「人性時刻」：數據無法告訴你的那些事",
+        "en": "The \"Human Moments\" in Technical Decisions: What Data Cannot Tell You"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-6",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "教育变革",
+        "zh-TW": "教育變革",
+        "en": "Education Transformation"
+      },
+      "headline": {
+        "zh-CN": "AI编程助手如何改变计算机教育：从语法教学到问题解决",
+        "zh-TW": "AI編程助手如何改變計算機教育：從語法教學到問題解決",
+        "en": "How AI Programming Assistants Change Computer Education: From Syntax Teaching to Problem Solving"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-7",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "文化遗产",
+        "zh-TW": "文化遺產",
+        "en": "Cultural Heritage"
+      },
+      "headline": {
+        "zh-CN": "用AI修复古籍与艺术品：技术在文化保护中的新角色",
+        "zh-TW": "用AI修復古籍與藝術品：技術在文化保護中的新角色",
+        "en": "Using AI to Restore Ancient Books and Artworks: Technology's New Role in Cultural Preservation"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-8",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "心理影响",
+        "zh-TW": "心理影響",
+        "en": "Psychological Impact"
+      },
+      "headline": {
+        "zh-CN": "长期与AI协作的程序员：工作满意度的新变化",
+        "zh-TW": "長期與AI協作的程序員：工作滿意度的新變化",
+        "en": "Programmers Working Long-Term with AI: New Changes in Job Satisfaction"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
     }
   ]
 }

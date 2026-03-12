@@ -1,0 +1,59 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 简洁的线条风格图标 -->
+  
+  <!-- 外圈细线 -->
+  <circle cx="100" cy="100" r="95" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- 主波形线条 -->
+  <path d="M 30,100 
+           C 50,70 70,130 90,100
+           C 110,70 130,130 150,100
+           C 170,70 190,130 210,100" 
+        stroke="#333" 
+        stroke-width="3" 
+        fill="none"
+        stroke-linecap="round"/>
+  
+  <!-- 辅助波形线条 -->
+  <path d="M 40,120 
+           C 60,90 80,150 100,120
+           C 120,90 140,150 160,120
+           C 180,90 200,150 220,120" 
+        stroke="#333" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"
+        opacity="0.7"/>
+  
+  <!-- 更细的波形线条 -->
+  <path d="M 20,80 
+           C 40,50 60,110 80,80
+           C 100,50 120,110 140,80
+           C 160,50 180,110 200,80" 
+        stroke="#333" 
+        stroke-width="1.5" 
+        fill="none"
+        stroke-linecap="round"
+        opacity="0.5"/>
+  
+  <!-- 简洁的 "ST" 字母组合 -->
+  <g transform="translate(100, 100)" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round">
+    <!-- S 形曲线 -->
+    <path d="M -20,-15 
+             Q -20,-5 -10,-5
+             Q 0,-5 0,5
+             Q 0,15 10,15
+             Q 20,15 20,25"/>
+    
+    <!-- T 形线条 -->
+    <g transform="translate(25, 0)">
+      <!-- 竖线 -->
+      <path d="M 0,-20 L 0,20"/>
+      <!-- 横线 -->
+      <path d="M -10,-20 L 10,-20"/>
+    </g>
+  </g>
+  
+  <!-- 中心点装饰 -->
+  <circle cx="100" cy="100" r="1.5" fill="#333" opacity="0.8"/>
+</svg>
