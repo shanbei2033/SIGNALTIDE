@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T16:20:43.352Z",
+  "generatedAt": "2026-03-13T02:42:02.342Z",
   "items": [
     {
       "source": "OpenAI",
@@ -29,24 +29,24 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "From model to agent: Equipping the Responses API with a computer environment ",
-      "link": "https://openai.com/index/equip-responses-api-computer-environment",
-      "publishedAt": "2026-03-11T11:00:00.000Z",
-      "contentSnippet": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
-      "categories": [
-        "Engineering"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
       "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
       "link": "https://openai.com/index/wayfair",
       "publishedAt": "2026-03-11T11:00:00.000Z",
       "contentSnippet": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
       "categories": [
         "B2B Story"
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "From model to agent: Equipping the Responses API with a computer environment ",
+      "link": "https://openai.com/index/equip-responses-api-computer-environment",
+      "publishedAt": "2026-03-11T11:00:00.000Z",
+      "contentSnippet": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "categories": [
+        "Engineering"
       ]
     },
     {
@@ -89,24 +89,24 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "How Descript enables multilingual video dubbing at scale",
-      "link": "https://openai.com/index/descript",
-      "publishedAt": "2026-03-06T10:00:00.000Z",
-      "contentSnippet": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
-      "categories": [
-        "API"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
       "title": "Codex Security: now in research preview ",
       "link": "https://openai.com/index/codex-security-now-in-research-preview",
       "publishedAt": "2026-03-06T10:00:00.000Z",
       "contentSnippet": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
       "categories": [
         "Product"
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "How Descript enables multilingual video dubbing at scale",
+      "link": "https://openai.com/index/descript",
+      "publishedAt": "2026-03-06T10:00:00.000Z",
+      "contentSnippet": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
+      "categories": [
+        "API"
       ]
     },
     {
@@ -137,12 +137,12 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "title": "GPT-5.4 Thinking System Card",
+      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
       "publishedAt": "2026-03-05T10:00:00.000Z",
-      "contentSnippet": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "contentSnippet": "",
       "categories": [
-        "Research"
+        "Publication"
       ]
     },
     {
@@ -452,9 +452,9 @@
       "source": "Hugging Face Blog",
       "sourceType": "official",
       "feedTitle": "Hugging Face - Blog",
-      "title": "How NVIDIA AI-Q Reached \\#1 on DeepResearch Bench I and II ",
-      "link": "https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench",
-      "publishedAt": "2026-03-12T03:53:34.000Z",
+      "title": "Build an Agent That Thinks Like a Data Scientist: How We Hit #1 on DABStep with Reusable Tool Generation",
+      "link": "https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place",
+      "publishedAt": "2026-03-13T01:02:47.000Z",
       "contentSnippet": "",
       "categories": []
     },
@@ -587,6 +587,18 @@
       "source": "Microsoft Research",
       "sourceType": "official",
       "feedTitle": "Microsoft Research",
+      "title": "Systematic debugging for AI agents: Introducing the AgentRx framework",
+      "link": "https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/",
+      "publishedAt": "2026-03-12T16:38:45.000Z",
+      "contentSnippet": "As AI agents transition from simple chatbots to autonomous systems capable of managing cloud incidents, navigating complex web interfaces, and executing multi-step API workflows, a new challenge has emerged: transparency. When a human makes a mistake, we can usually trace the logic. But when an AI agent fails, perhaps by hallucinating a tool output or […] The post Systematic debugging for AI agents: Introducing the AgentRx framework appeared first on Microsoft Research.",
+      "categories": [
+        "Research Blog"
+      ]
+    },
+    {
+      "source": "Microsoft Research",
+      "sourceType": "official",
+      "feedTitle": "Microsoft Research",
       "title": "PlugMem: Transforming raw agent interactions into reusable knowledge",
       "link": "https://www.microsoft.com/en-us/research/blog/from-raw-interaction-to-reusable-knowledge-rethinking-memory-for-ai-agents/",
       "publishedAt": "2026-03-10T16:00:41.000Z",
@@ -692,15 +704,126 @@
       ]
     },
     {
-      "source": "Microsoft Research",
-      "sourceType": "official",
-      "feedTitle": "Microsoft Research",
-      "title": "Multimodal reinforcement learning with agentic verifier for AI agents",
-      "link": "https://www.microsoft.com/en-us/research/blog/multimodal-reinforcement-learning-with-agentic-verifier-for-ai-agents/",
-      "publishedAt": "2026-01-20T17:00:00.000Z",
-      "contentSnippet": "Argos improves multimodal RL by evaluating whether an agent’s reasoning aligns with what it observes over time. The approach reduces visual hallucinations and produces more reliable, data-efficient agents for real-world applications. The post Multimodal reinforcement learning with agentic verifier for AI agents appeared first on Microsoft Research.",
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "How to watch Jensen Huang’s Nvidia GTC 2026 keynote",
+      "link": "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/",
+      "publishedAt": "2026-03-12T23:25:39.000Z",
+      "contentSnippet": "GTC — which stands for GPU Technology Conference — is Nvidia's flagship annual event, where the chipmaker typically uses the spotlight to announce new products, champion partnerships, and lay out its vision for the future of computing. Huang's keynote will focus on Nvidia's role in the future of computing and AI.",
       "categories": [
-        "Research Blog"
+        "AI",
+        "Enterprise",
+        "GTC",
+        "Jensen Huang",
+        "nvidia",
+        "nvidia gtc",
+        "Nvidia GTC 2026"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Sales automation startup Rox AI hits $1.2B valuation, sources say",
+      "link": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
+      "publishedAt": "2026-03-12T22:25:50.000Z",
+      "contentSnippet": "Rox, founded in 2024 by the former chief growth officer of New Relic, offers an AI-native alternative to CRM tools.",
+      "categories": [
+        "AI",
+        "Startups",
+        "exclsuive",
+        "General Catalyst",
+        "sales",
+        "Sequoia"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Facebook Marketplace now lets Meta AI respond to buyers’ messages",
+      "link": "https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/",
+      "publishedAt": "2026-03-12T18:20:33.000Z",
+      "contentSnippet": "When buyers inquire about an item’s availability, sellers can use Meta AI to automatically draft replies using information from their listing, such as the description, availability, pickup location, and price.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Commerce",
+        "Social",
+        "Facebook",
+        "Facebook Marketplace",
+        "Meta",
+        "metai ai"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Tinder tries to lure people back to online dating with IRL events, virtual speed dating",
+      "link": "https://techcrunch.com/2026/03/12/tinder-tries-to-lure-people-back-to-online-dating-with-irl-events-virtual-speed-dating/",
+      "publishedAt": "2026-03-12T18:00:00.000Z",
+      "contentSnippet": "Tinder just got a major revamp as it attempts to reengage its user base and attract younger daters. This includes in-person events, AI enhancements, and even virtual speed dating.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Social",
+        "dating",
+        "dating apps",
+        "online dating",
+        "Tinder"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Atlassian follows Block’s footsteps and cuts staff in the name of AI",
+      "link": "https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/",
+      "publishedAt": "2026-03-12T17:20:19.000Z",
+      "contentSnippet": "Atlassian laid off 10% of its workforce, around 1,600 people, as the company looks to funnel more funds to AI.",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Atlassian",
+        "block",
+        "In Brief",
+        "Layoffs",
+        "tech layoffs"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Bumble introduces an AI dating assistant, ‘Bee’",
+      "link": "https://techcrunch.com/2026/03/12/bumble-introduces-an-ai-dating-assistant-bee/",
+      "publishedAt": "2026-03-12T16:52:17.000Z",
+      "contentSnippet": "Bumble's new AI assistant Bee will move the dating app beyond the swipe by matching people based on compatibility and goals.",
+      "categories": [
+        "AI",
+        "Apps",
+        "Social",
+        "AI assistant",
+        "bumble",
+        "dating",
+        "online dating"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "A writer is suing Grammarly for turning her and other authors into ‘AI editors’ without consent",
+      "link": "https://techcrunch.com/2026/03/12/a-writer-is-suing-grammarly-for-turning-her-and-other-authors-into-ai-editors-without-consent/",
+      "publishedAt": "2026-03-12T16:42:40.000Z",
+      "contentSnippet": "Journalist Julia Angwin is leading a class action lawsuit against Grammarly for violating her privacy and publicity rights.",
+      "categories": [
+        "AI",
+        "grammarly",
+        "lawsuits",
+        "superhuman"
       ]
     },
     {
@@ -710,7 +833,7 @@
       "title": "Gumloop lands $50M from Benchmark to turn every employee into an AI agent builder",
       "link": "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
       "publishedAt": "2026-03-12T15:30:00.000Z",
-      "contentSnippet": "Benchmark’s new patner Everett Randell, sees enterprise automation as the largest opportunity in AI.",
+      "contentSnippet": "As companies race to adopt AI, Benchmark general partner Everett Randle believes the key to success lies in empowering every worker with AI superpowers, and Gumloop’s intuitive agent builder is an example of the kind of tool that will unlock that potential.",
       "categories": [
         "AI",
         "Startups",
@@ -725,15 +848,15 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Alexa+ gets a new ‘adults only’ personality option that curses but won’t get into NSFW content",
-      "link": "https://techcrunch.com/2026/03/12/alexa-gets-a-new-adults-only-personality-option-that-curses-but-wont-get-into-nsfw-content/",
+      "title": "Alexa+ gets a new ‘adults only’ personality option that curses but won’t do NSFW content",
+      "link": "https://techcrunch.com/2026/03/12/alexa-gets-a-new-adults-only-personality-option-that-curses-but-wont-do-nsfw-content/",
       "publishedAt": "2026-03-12T15:16:16.000Z",
       "contentSnippet": "The new Sassy style can curse and roast you, but the fun ends there.",
       "categories": [
         "AI",
         "Apps",
-        "Amazon",
-        "Alexa"
+        "Alexa",
+        "Amazon"
       ]
     },
     {
@@ -788,121 +911,24 @@
       ]
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "AI ‘actor’ Tilly Norwood put out the worst song I’ve ever heard",
-      "link": "https://techcrunch.com/2026/03/11/ai-actor-tilly-norwood-put-out-the-worst-song-ive-ever-heard/",
-      "publishedAt": "2026-03-11T23:35:03.000Z",
-      "contentSnippet": "This song is an AI actor's rallying cry to other AI actors, urging them to keep going despite the naysayers who doubt their humanity. Literally no one can relate to this.",
-      "categories": [
-        "AI",
-        "Media & Entertainment",
-        "tilly norwood"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Facebook Marketplace adds AI auto-replies for annoying ‘Is this still available?’ messages",
+      "link": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings",
+      "publishedAt": "2026-03-12T17:59:32.000Z",
+      "contentSnippet": "Facebook Marketplace is adding a bunch of new AI-powered tools that are supposed to make selling items on the platform a little more efficient. One feature will use Meta AI to automatically respond to those annoying \"Is this still available?\" messages. You can toggle on the auto-reply option when creating a listing, and Meta AI will draft an editable response to any questions related to availability. In an example shown by Meta, its AI assistant creates an auto-reply saying, \"Yes, it's still available. Do you have any questions?\" Facebook Marketplace is trying to speed up the process of listing items, too, as Meta AI can now use the photos … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Ford’s new AI assistant will help fleet owners know if seatbelts are being used",
-      "link": "https://techcrunch.com/2026/03/11/fords-new-ai-assistant-will-help-fleet-owners-know-if-seatbelts-are-being-used/",
-      "publishedAt": "2026-03-11T22:51:39.000Z",
-      "contentSnippet": "Ford Pro AI debuted at Work Truck Week in Indianapolis and is now available to all of its U.S.-based Pro telematics subscribers.",
-      "categories": [
-        "AI",
-        "Transportation",
-        "Ford",
-        "Ford Pro"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Zendesk acquires agentic customer service startup Forethought",
-      "link": "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/",
-      "publishedAt": "2026-03-11T22:41:27.000Z",
-      "contentSnippet": "Forethought was years ahead of its time and the 2018 winner of TechCrunch Battlefield.",
-      "categories": [
-        "AI",
-        "Startups",
-        "TC",
-        "forethought ai",
-        "Mergers and Acquisitions",
-        "Startup battlefied",
-        "Zendesk"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Netflix may have paid $600 million for Ben Affleck’s AI startup",
-      "link": "https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/",
-      "publishedAt": "2026-03-11T22:00:05.000Z",
-      "contentSnippet": "This deal could rank as among the streaming giant's largest acquisitions ever.",
-      "categories": [
-        "AI",
-        "Media & Entertainment",
-        "filmmaking",
-        "Generative AI",
-        "In Brief",
-        "InterPositive",
-        "Mergers and Acquisitions",
-        "Netflix"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Lovable says it added $100M in revenue last month alone, with just 146 employees",
-      "link": "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
-      "publishedAt": "2026-03-11T21:40:49.000Z",
-      "contentSnippet": "Swedish vibe-coding unicorn Lovable crossed $400 million in annual recurring revenue (ARR) in February.",
-      "categories": [
-        "AI",
-        "Startups",
-        "Lovable",
-        "product-led growth",
-        "vibe-coding"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Replit snags $9B valuation 6 months after hitting $3B",
-      "link": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/",
-      "publishedAt": "2026-03-11T18:52:52.000Z",
-      "contentSnippet": "Replit raised a new $400 million round and said it hopes to have $1B in ARR by year's end.",
-      "categories": [
-        "AI",
-        "Startups",
-        "TC",
-        "In Brief",
-        "Replit",
-        "vibe coding"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "WordPress debuts a private workspace that runs in your browser via a new service, my.WordPress.net",
-      "link": "https://techcrunch.com/2026/03/11/wordpress-debuts-a-private-workspace-that-runs-in-your-browser-via-a-new-service-my-wordpress-net/",
-      "publishedAt": "2026-03-11T16:43:59.000Z",
-      "contentSnippet": "WordPress’s new browser-based service lets users create private sites without hosting or signing up, turning the platform into a personal workspace for writing, research, and AI tools.",
-      "categories": [
-        "AI",
-        "Apps",
-        "Media & Entertainment",
-        "personal publishing",
-        "Publishing",
-        "WordPress",
-        "Wordpress.org"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Gemini’s task automation is here and it’s wild",
+      "link": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10",
+      "publishedAt": "2026-03-12T16:59:43.000Z",
+      "contentSnippet": "Computers ordering cappuccinos. A couple of weeks ago, Google and Samsung announced a big Gemini development coming to their newest devices: task automation. Starting with food delivery and rideshare apps, Gemini would be able to use certain apps on your behalf in a virtual window to take care of things like ordering dinner or getting a car to the airport - all based on simple prompts. You know, all the stuff that we've been promised for years AI assistants will be able to do. That feature wasn't live when I first started testing the S26 Ultra, but it just arrived in beta as part of an update. And boy is it weird watching your phone use itself! The first prompt I gave it … Read the full story at The Verge.",
+      "categories": []
     },
     {
       "source": "The Verge AI",
@@ -985,24 +1011,20 @@
       "categories": []
     },
     {
-      "source": "The Verge AI",
+      "source": "Ars Technica AI",
       "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "OpenAI’s Sora video generator is reportedly coming to ChatGPT",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/893189/openai-chatgpt-sora-integration",
-      "publishedAt": "2026-03-11T16:50:45.000Z",
-      "contentSnippet": "OpenAI's Sora video generator could soon become a built-in feature in ChatGPT, as reported by The Information. Sora is currently only available on its website or as a standalone app, which has fallen shy of the popularity of ChatGPT. This update would allow users to access Sora's video generation capabilities directly within ChatGPT itself, much like the addition of image generation capabilities in the chatbot last year. Sora could help attract more users to ChatGPT, but it may also worsen the flood of deepfakes coming from OpenAI's video generator. When the Sora app initially launched less than a year ago, users generated realistic-lookin … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Canva’s new editing tool adds layers to AI-generated designs",
-      "link": "https://www.theverge.com/tech/893124/canva-ai-magic-layers-feature-beta",
-      "publishedAt": "2026-03-11T15:02:02.000Z",
-      "contentSnippet": "Canva introduced a new feature that separates flat image files and AI-generated visuals into layered, fully editable designs. The Magic Layers tool is launching in public beta today in the US, UK, Canada, and Australia, allowing design components like objects, text boxes, and other graphics to be selected individually while preserving the original layout. \"After a breakthrough from our AI research team, we're introducing Magic Layers so anyone can take a flat image and turn it into a fully editable design inside Canva,\" Canva's chief product officer, Cameron Adams, said in the press release. \"There's no need to start over, or to figure out … Read the full story at The Verge.",
-      "categories": []
+      "feedTitle": "Biz & IT - Ars Technica",
+      "title": "The who, what, and why of the attack that has shut down Stryker's Windows network",
+      "link": "https://arstechnica.com/security/2026/03/whats-known-about-wiper-attack-on-stryker-a-major-supplier-of-lifesaving-devices/",
+      "publishedAt": "2026-03-12T22:18:11.000Z",
+      "contentSnippet": "Company says it doesn't know how long it will take to restore its Microsoft environment.",
+      "categories": [
+        "Biz & IT",
+        "Security",
+        "hacktivism",
+        "medical devices",
+        "wipers"
+      ]
     },
     {
       "source": "Ars Technica AI",
@@ -1198,34 +1220,23 @@
       ]
     },
     {
-      "source": "Ars Technica AI",
-      "sourceType": "media",
-      "feedTitle": "Biz & IT - Ars Technica",
-      "title": "OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips",
-      "link": "https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/",
-      "publishedAt": "2026-02-12T22:56:02.000Z",
-      "contentSnippet": "OpenAI's new GPT‑5.3‑Codex‑Spark is 15 times faster at coding than its predecessor.",
-      "categories": [
-        "AI",
-        "Biz & IT",
-        "AI agents",
-        "AI chips",
-        "AI coding",
-        "AI development tools",
-        "AI speed",
-        "Cerebras",
-        "code agents",
-        "machine learning",
-        "NVIDIA",
-        "openai",
-        "sam altman",
-        "tokens"
-      ]
-    },
-    {
       "source": "VentureBeat AI",
       "sourceType": "media",
       "error": "Error: Status code 404"
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "sourceType": "media",
+      "feedTitle": "Artificial intelligence – MIT Technology Review",
+      "title": "A defense official reveals how AI chatbots could be used for targeting decisions",
+      "link": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/",
+      "publishedAt": "2026-03-12T22:23:34.000Z",
+      "contentSnippet": "The US military might use generative AI systems to rank lists of targets and make recommendations—which would be vetted by humans—about which to strike first, according to a Defense Department official with knowledge of the matter. The disclosure about how the military may use AI chatbots comes as the Pentagon faces scrutiny over a strike…",
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence"
+      ]
     },
     {
       "source": "MIT Technology Review AI",
@@ -1350,17 +1361,31 @@
       ]
     },
     {
-      "source": "MIT Technology Review AI",
+      "source": "Wired Business",
       "sourceType": "media",
-      "feedTitle": "Artificial intelligence – MIT Technology Review",
-      "title": "I checked out one of the biggest anti-AI protests yet",
-      "link": "https://www.technologyreview.com/2026/03/02/1133814/i-checked-out-londons-biggest-ever-anti-ai-protest/",
-      "publishedAt": "2026-03-02T12:55:20.000Z",
-      "contentSnippet": "Pull the plug! Pull the plug! Stop the slop! Stop the slop! For a few hours this Saturday, February 28, I watched as a couple of hundred anti-AI protesters marched through London’s King’s Cross tech hub, home to the UK headquarters of OpenAI, Meta, and Google DeepMind, chanting slogans and waving signs. The march was…",
+      "feedTitle": "Business Latest",
+      "title": "‘Uncanny Valley’: Anthropic’s DOD Lawsuit, War Memes, and AI Coming for VC Jobs",
+      "link": "https://www.wired.com/story/uncanny-valley-podcast-anthropic-department-defense-lawsuit-iran-war-memes-artificial-intelligence-venture-capital/",
+      "publishedAt": "2026-03-12T19:48:21.000Z",
+      "contentSnippet": "In today’s episode, we discuss how the saga between Anthropic and the Department of Defense is far from over.",
       "categories": [
-        "Artificial intelligence",
-        "App",
-        "Summary"
+        "Business",
+        "Business / Artificial Intelligence",
+        "Politics",
+        "Politics / Politics News"
+      ]
+    },
+    {
+      "source": "Wired Business",
+      "sourceType": "media",
+      "feedTitle": "Business Latest",
+      "title": "Google Is Not Ruling Out Ads in Gemini",
+      "link": "https://www.wired.com/story/google-nick-fox-advertising-search-ai-gemini/",
+      "publishedAt": "2026-03-12T18:15:00.000Z",
+      "contentSnippet": "WIRED spoke with Nick Fox, Google’s SVP of knowledge and information, about how AI is changing the company’s advertising business.",
+      "categories": [
+        "Business",
+        "Business / Artificial Intelligence"
       ]
     },
     {
@@ -1497,32 +1522,6 @@
       ]
     },
     {
-      "source": "Wired Business",
-      "sourceType": "media",
-      "feedTitle": "Business Latest",
-      "title": "OpenAI and Google Workers File Amicus Brief in Support of Anthropic Against the US Government",
-      "link": "https://www.wired.com/story/openai-deepmind-employees-file-amicus-brief-anthropic-dod-lawsuit/",
-      "publishedAt": "2026-03-09T20:38:12.000Z",
-      "contentSnippet": "Google DeepMind chief scientist Jeff Dean is among the AI researchers and engineers rushing to Anthropic's defense.",
-      "categories": [
-        "Business",
-        "Business / Artificial Intelligence"
-      ]
-    },
-    {
-      "source": "Wired Business",
-      "sourceType": "media",
-      "feedTitle": "Business Latest",
-      "title": "Bluesky CEO Jay Graber Is Stepping Down",
-      "link": "https://www.wired.com/story/bluesky-ceo-jay-graber-is-stepping-down/",
-      "publishedAt": "2026-03-09T19:00:00.000Z",
-      "contentSnippet": "Venture capitalist Toni Schneider will take over as interim CEO as Bluesky’s board of directors hunts for a permanent replacement.",
-      "categories": [
-        "Business",
-        "Business / Social Media"
-      ]
-    },
-    {
       "source": "arXiv AI",
       "sourceType": "research",
       "feedTitle": "cs.AI updates on arXiv.org",
@@ -1633,7 +1632,7 @@
       "title": "CUAAudit: Meta-Evaluation of Vision-Language Models as Auditors of Autonomous Computer-Use Agents",
       "link": "https://arxiv.org/abs/2603.10577",
       "publishedAt": "2026-03-12T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.10577v1 Announce Type: new Abstract: Computer-Use Agents (CUAs) are emerging as a new paradigm in human-computer interaction, enabling autonomous execution of tasks in desktop environment by perceiving high-level natural-language instructions. As such agents become increasingly capable and are deployed across diverse desktop environments, evaluating their behavior in a scalable and reliable manner becomes a critical challenge. Existing evaluation pipelines rely on static benchmarks, rule-based success checks, or manual inspection, which are brittle, costly, and poorly aligned with real-world usage. In this work, we study Vision-Language Models (VLMs) as autonomous auditors for assessing CUA task completion directly from observable interactions and conduct a large-scale meta-evaluation of five VLMs that judge task success given a natural-language instruction and the final environment state. Our evaluation spans three widely used CUA benchmarks across macOS, Windows, and Linux environments and analyzes auditor behavior along three complementary dimensions: accuracy, calibration of confidence estimates, and inter-model agreement. We find that while state-of-the-art VLMs achieve strong accuracy and calibration, all auditors exhibit notable performance degradation in more complex or heterogeneous environments, and even high-performing models show significant disagreement in their judgments. These results expose fundamental limitations of current model-based auditing approaches and highlight the need to explicitly account for evaluator reliability, uncertainty, and variance when deploying autonomous CUAs in real-world settings.",
+      "contentSnippet": "arXiv:2603.10577v2 Announce Type: new Abstract: Computer-Use Agents (CUAs) are emerging as a new paradigm in human-computer interaction, enabling autonomous execution of tasks in desktop environment by perceiving high-level natural-language instructions. As such agents become increasingly capable and are deployed across diverse desktop environments, evaluating their behavior in a scalable and reliable manner becomes a critical challenge. Existing evaluation pipelines rely on static benchmarks, rule-based success checks, or manual inspection, which are brittle, costly, and poorly aligned with real-world usage. In this work, we study Vision-Language Models (VLMs) as autonomous auditors for assessing CUA task completion directly from observable interactions and conduct a large-scale meta-evaluation of five VLMs that judge task success given a natural-language instruction and the final environment state. Our evaluation spans three widely used CUA benchmarks across macOS, Windows, and Linux environments and analyzes auditor behavior along three complementary dimensions: accuracy, calibration of confidence estimates, and inter-model agreement. We find that while state-of-the-art VLMs achieve strong accuracy and calibration, all auditors exhibit notable performance degradation in more complex or heterogeneous environments, and even high-performing models show significant disagreement in their judgments. These results expose fundamental limitations of current model-based auditing approaches and highlight the need to explicitly account for evaluator reliability, uncertainty, and variance when deploying autonomous CUAs in real-world settings.",
       "categories": [
         "cs.AI",
         "cs.HC"
@@ -1711,7 +1710,7 @@
       "title": "AraModernBERT: Transtokenized Initialization and Long-Context Encoder Modeling for Arabic",
       "link": "https://arxiv.org/abs/2603.09982",
       "publishedAt": "2026-03-12T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.09982v1 Announce Type: new Abstract: Encoder-only transformer models remain widely used for discriminative NLP tasks, yet recent architectural advances have largely focused on English. In this work, we present AraModernBERT, an adaptation of the ModernBERT encoder architecture to Arabic, and study the impact of transtokenized embedding initialization and native long-context modeling up to 8,192 tokens. We show that transtokenization is essential for Arabic language modeling, yielding dramatic improvements in masked language modeling performance compared to non-transtokenized initialization. We further demonstrate that AraModernBERT supports stable and effective long-context modeling, achieving improved intrinsic language modeling performance at extended sequence lengths. Downstream evaluations on Arabic natural language understanding tasks, including inference, offensive language detection, question-question similarity, and named entity recognition, confirm strong transfer to discriminative and sequence labeling settings. Our results highlight practical considerations for adapting modern encoder architectures to Arabic and other languages written in Arabic-derived scripts.",
+      "contentSnippet": "arXiv:2603.09982v2 Announce Type: new Abstract: Encoder-only transformer models remain widely used for discriminative NLP tasks, yet recent architectural advances have largely focused on English. In this work, we present AraModernBERT, an adaptation of the ModernBERT encoder architecture to Arabic, and study the impact of transtokenized embedding initialization and native long-context modeling up to 8,192 tokens. We show that transtokenization is essential for Arabic language modeling, yielding dramatic improvements in masked language modeling performance compared to non-transtokenized initialization. We further demonstrate that AraModernBERT supports stable and effective long-context modeling, achieving improved intrinsic language modeling performance at extended sequence lengths. Downstream evaluations on Arabic natural language understanding tasks, including inference, offensive language detection, question-question similarity, and named entity recognition, confirm strong transfer to discriminative and sequence labeling settings. Our results highlight practical considerations for adapting modern encoder architectures to Arabic and other languages written in Arabic-derived scripts.",
       "categories": [
         "cs.CL",
         "cs.AI"
@@ -2557,6 +2556,45 @@
       "source": "EFF Deeplinks",
       "sourceType": "policy",
       "feedTitle": "Deeplinks",
+      "title": "A.B. 1043’s Internet Age Gates Hurt Everyone",
+      "link": "https://www.eff.org/deeplinks/2026/03/ab-1043s-internet-age-gates-hurt-everyone",
+      "publishedAt": "2026-03-12T19:59:13.000Z",
+      "contentSnippet": "EFF has long warned against age-gating the internet. Such mandates strike at the foundation of the free and open internet. They create unnecessary and unconstitutional barriers for adults and young people to access information and express themselves online. They hurt small and open-source developers. And none of the available age verification options are perfect in terms of protecting private information, providing access to everyone, and safely handling sensitive data. Last year, EFF raised concerns about A.B. 1043 as one of several bills in the California legislature that took the wrong approach to protecting young people online—by focusing on censorship rather than privacy. Now that A.B. 1043 is set to go into effect in 2027, we've received a lot of questions about its possible effects. A.B. 1043’s Censorship Trap Even proposals that may not explicitly mandate age verification, such as A.B. 1043, can still create many of the same censorship problems. A.B. 1043 requires all operating systems and app stores to create age bracketing systems that will segment their users based on their ages. Users are then required to provide operating systems and apps their birth date or age so that they can be placed in their respective age bracket. A.B. 1043 also requires application and software developers to collect this age bracket information when a user want to use that software or application. A.B. 1043 treats the age-bracket signal sent by a user as giving the application or service actual knowledge of users’ ages. Knowledge that the user is a minor could provide the basis for liability under other laws, such as California Age-Appropriate Design Code. The result is a recipe for censorship. Applications and software developers for operating systems may interpret A.B. 1043 and its potential enforcement by the California Attorney General as requiring them to exclude users who say they are minors or who don’t fit in a specific age bracket they believe is acceptable to use their application or software. But minors have a First Amendment right to access the vast majority of these apps and services. What California has done is essentially outsource censorship to developers, who are likely to lean into over-censorship. Broad Language Undercuts Policy Goals A.B. 1043’s one-size-fits-all approach is also problematic because it disregards the many ways in which we make and use digital tools. It assumes the internet and digital devices begin and end with the dominant technology companies and device makers, when we know that’s not the case. Additionally, many families share devices, especially in low-income households. These proposals do not account for situations where there is more than one user of a device. Additionally, broad proposals that demand the implementation of such censorship tools under the guise of protecting young people's safety force developers to reach for imperfect solutions—or risk being found non-compliant and pushed out of markets. Many of these mandates imagine technology that does not currently exist. Such poorly thought-out mandates, in truth, cannot achieve the purported goal of age verification. Often, they are easy to circumvent and many also expose consumers to real data breach risk. Squeezing Small and Open-Source Developers Hurts Everyone A.B. 1043’s burdens fall particularly heavily on developers who aren’t at large, well-resourced companies, such as those developing open-source software. Not recognizing the diversity of software development when thinking about liability in these proposals effectively limits software choices—which is especially harmful at a time when computational power is being rapidly concentrated in the hands of the few. This harms users' and developers' right to free expression, their digital liberties, privacy, and ability to create and use open platforms. It also, perversely, entrenches the dominance of major operating system developers and device makers. A.B. 1043 and similar proposals also raise considerable implementation issues because they cast a potentially wide net. A.B. 1043, for example, carves out “broadband internet access service,\" \"telecommunications service,” and the “use of a physical product,” whereas “mobile devices” and “computers” are covered. However, so many devices could fall into these categories; people consider smart watches to be computers, for example. Virtually every digital device that runs software built in the past three decades could fall into that category. This means that consumers may have to submit age information to more companies than ever, again increasing the possibility of data misuse and data breach. There Is Still A Better Way Legislators do not need to sacrifice their constituents' First Amendment rights and privacy to make a safer internet, but they can address many of the harms these proposals seek to mitigate. Many lawmakers have recognized these approaches, such as data minimization, in their proposals. Rather than creating age gates, a well-crafted privacy law that empowers all of us—young people and adults alike—to control how our data is collected and used would be a crucial step in the right direction.",
+      "categories": []
+    },
+    {
+      "source": "EFF Deeplinks",
+      "sourceType": "policy",
+      "feedTitle": "Deeplinks",
+      "title": "Rep. Finke Was Right: Age-Gating Isn’t About Kids, It’s About Control",
+      "link": "https://www.eff.org/deeplinks/2026/03/rep-finke-was-right-age-gating-isnt-about-kids-its-about-control",
+      "publishedAt": "2026-03-12T19:32:55.000Z",
+      "contentSnippet": "When Rep. Leigh Finke spoke last month before the Minnesota House Commerce Finance and Policy Committee to testify against HF1434, a broad-sweeping proposal to age-gate the internet, she began with something disarming: agreement. “I want to support the basic part of this,” she said, the shared goal of protecting young people online. Because that is not controversial: everyone wants kids to be safe. But HF1434, Minnesota’s proposed age-verification bill, simply won’t “protect children.” It mandates that websites hosting speech that is protected by the First Amendment for both adults and young people to verify users’ identities, often through government IDs or biometric data. As we’ve discussed before, the bill’s definition of speech that lawmakers deem “harmful to minors” is notoriously broad—broad enough to sweep in lawful, non-pornographic speech about sexual orientation, sexual health, and gender identity. Rep. Finke, an openly transgender lawmaker, next raised a point that her critics have since tried to distort: age-verification laws like the Minnesota bill are already being used to block young LGBTQ+ people from exercising their First Amendment rights to access information that may be educational, affirming, or life-saving. Referencing the Supreme Court case Free Speech Coalition v. Paxton, she noted that state attorneys general have been “almost jubilant” about the ability to use these laws to restrict queer youth from accessing content. “We know that ‘prurient interest’ could be for many people, the very existence of transgender kids,” she added, referring to the malleable legal standard that would govern what content must be age-gated under the law. But despite years’ worth of evidence to back her up, Finke has faced a wave of attacks from countless media outlets and religious advocacy groups for her statements. Rep. Finke’s testimony was repeatedly mischaracterized as not having young people’s best interests in mind, when really she was accurately describing the lived reality of LGBTQ+ youth and advocating in support of their access to vital resources and community. In fact, this backlash proves her point. Beyond attempting to silence queer voices and to scare other legislators from speaking up against these laws, it reveals how age-verification mandates are part of a larger effort to give the government much greater control of what young people are allowed to say, read, or see online. Rep. Finke was also right that these proposals are bad policy—they prevent all young people from finding community online—and that they violate young people’s First Amendment rights. Why FSC v. Paxton Matters Rep. Finke was similarly right to bring up the Paxton case, because beyond the troubling Supreme Court precedent it produced, Texas’s age-verification law also drew eager support from an extraordinary number of amicus briefs from anti-LGBTQ organizations (some even designated hate groups by the Southern Poverty Law Center). In FSC v. Paxton, the Supreme Court gave Texas the green light to require age verification for sites where at least one-third of the content is sexual material deemed “harmful to minors,” which generally means explicit sexual content. This ruling, based on how young people do not have a First Amendment right to access explicit sexual content, allows states to enact onerous age-verification rules that will block adults from accessing lawful speech, curtail their ability to be anonymous, and jeopardize their data security and privacy. These are real and immense burdens on adults, and the Court was wrong to ignore them in upholding Texas’ law. But laws enacted by other states and Minnesota HF 1434 go further than the Texas statute. Rather than restricting minors’ from accessing sexual content, these proposals expand what the state deems “harmful to minors” to include any speech that may reference sex, sexuality, gender, and reproductive health. But young people have a First Amendment right to both speak on those topics and to access information online about them. We will continue to fight against all online age restrictions, but bills like Minnesota’s HF 1434, which seek to restrict minors from accessing speech about their bodies, sexuality, and other truthful information, are especially pernicious. EFF and Rep. Finke are on the same page here: age verification mandates create immense harm to our First Amendment rights, our right to privacy, as well as our online safety and security. These proposals also fully ignore the reality that LGBTQ young people often rely on the internet for information they cannot get elsewhere. But the Paxton case, and the coalition behind it, illustrates exactly how these laws can be weaponized. They weren’t there just to stand up for young people’s privacy online—they were there to argue that the state has a compelling interest in shielding minors from material that, in practice, often includes LGBTQ content. Ultimately, these groups would like to age-gate not just porn sites, but also any content that might discuss sex, sexuality, gender, reproductive health, abortion, and more. Using Children as Props to Enact Censorship The coalition of organizations that filed amicus briefs in support of Texas’s age verification law tells us everything we need to know about the true intentions behind legislating access to information online: censorship, surveillance, and control. After all, if the race to age-gate the internet was purely about child safety, we would expect its strongest supporters to be child-development experts or privacy advocates. Instead, the loudest advocates are organizations dedicated to policing sexuality, attacking LGBTQ+ folks and reproductive rights, and censoring anything that doesn’t fit within their worldview. Below are some of the harmful platforms that the organizations supporting the age-gating movement are advancing, and how their arguments echo in the attacks on Rep. Finke today: Policing sexuality, bodily autonomy, and reproductive rights Many of the organizations backing age-verification laws have spent decades trying to restrict access to accurate sexual health information and reproductive care. Groups like Exodus Cry, for example, who filed a brief in support of the Texas AG in the SCOTUS case, frame pornography as part of a broader moral crisis. Founded by a “Christian dominionist” activist, Exodus Cry advocates for the criminalization of porn and sex work, and promotes a worldview that defines “sexual immorality” as any sexual activity outside marriage between one man and one woman. Its leadership describes the internet as a battleground in a “pornified world” that has to be reclaimed. Another brief in support of the age-verification law was filed by a group of organizations including the Public Advocate of the United States (an SPLC-designated hate group) and America’s Future. America’s Future is an organization that was formed to “revitalize the role of faith in our society” and fiercely advocates in favor of trans sports bans. These groups see age-verification laws as attractive solutions because they create a legal mechanism to wall off large swaths of content that merely mentions sex from not only young people but millions of adults, too. Attacking LGBTQ+ Rights Several of the most prominent legal advocates behind age-verification laws have also led the crusade against LGBTQ+ equality. The internet that these groups envision is one that heavily censors critical and even life-saving LGBTQ+ resources, community, and information. The Alliance Defending Freedom (ADF), for instance (which is another SPLC-designated hate group), built its reputation on litigation aimed at rolling back LGBTQ+ protections—including allowing businesses to refuse service to same-sex couples, criminalizing same-sex relationships abroad, and restricting transgender rights. The internet that these groups envision is one that heavily censors critical and even life-saving LGBTQ+ resources, community, and information. Then there’s other groups like Them Before Us and Women’s Liberation Front, both of which submitted amici in support of the Texas Attorney General and are devoted to upending LGBTQ+ rights in the United States. Them Before Us says it’s “committed to putting the rights and well-being of children ahead of the desires and agendas of adults.” But it’s also running a campaign to “End Obergefell,” the 2015 Supreme Court case that upheld the right to same-sex marriage, and has been on the cutting edge of transphobic campaigning and pseudoscientific fearmongering about IVF and surrogacy. The Women’s Liberation Front, on the other hand, is an organization that has a long track record of supporting transphobic policies such as bathroom bills, bans on gender-affirming healthcare, and efforts to define “sex” strictly as the biological sex assigned at birth. Through cases like FSC v. Paxton, groups like these three continue to advance a vision of society that creates government mandates to enforce their worldviews over personal freedom, while hiding behind a shroud of concern for children’s safety. But when they also describe LGBTQ+ people as “evil” threats to children and run countless campaigns against their human rights, they are being clear about their intentions. This is why we continue to say: the impact of age verification measures goes beyond porn sites. Expanding censorship beyond the internet into real-life public spaces As we’ve said for years now, the push to age-gate the internet is part of a broader campaign to control what information people can access in public life both on- and offline. Many of the same organizations advancing these proposals claim to be acting on behalf of young people, but their arguments consistently use children as props to justify giving the government more control over speech and information. Many of the organizations advocating for online age verification have also supported book bans, attacks on DEI policies and education, and efforts to remove LGBTQ+ materials from schools and libraries. Two of the organizations who supported the Texas Attorney General, Citizens Defending Freedom and Manhattan Institute, have led campaigns around the country to “abolish DEI” and ban classical books like “The Bluest Eye” by Toni Morrison from school libraries. These efforts are not different from the efforts to restrict access to the internet—they reflect a broader strategy to restrict access to ideas or information that these groups find objectionable. And they discourage free thought, inquiry, and the ability for people to decide how to live their lives. These campaigns rely on the same core argument: that certain ideas are inherently dangerous to young people and must therefore be restricted. But that framing misrepresents an important reality: if lawmakers genuinely want to address harms that young people experience online, they should start by listening to young people themselves. When EFF spoke directly with young people about their online experiences, they overwhelmingly rejected restrictions on their access to the internet and came back with nuanced and diverse perspectives. Once that principle—that certain ideas are inherently dangerous—is accepted, the internet, once a symbol of free expression, connection, creativity, and innovation, becomes the next logical target. Once that principle—that certain ideas are inherently dangerous—is accepted, the internet, once a symbol of free expression, connection, creativity, and innovation, becomes the next logical target. This also wouldn’t be the first time a vulnerable group is used as a prop to advance internet censorship laws. We’ve seen this playbook during the debate over FOSTA/SESTA, where many of the same advocates claimed to speak for trafficking victims/survivors and sex workers, while pushing legislation that ultimately censored online speech and harmed the very communities it invoked. It’s a familiar pattern: invoke a vulnerable group, frame certain speech as a threat, and use that as a way to expand government control over the flow of information. And as we said in the fight against FOSTA: if lawmakers are serious about addressing harms to particular communities, they should start by talking to those communities. This means that lawmakers seeking to address online harms to young people should be talking to young people, not groups who claim their interests. Rep. Finke Was Not Radical. She Was Right. The Paxton case, and the coalition backing age verification laws in the U.S., shows us exactly why the messaging around these laws draws superficial support from parents and lawmakers. But we’ve heard the quiet part said out loud before. Marsha Blackburn, a sponsor of the federal Kids Online Safety Act, has said that her goal with the legislation was to address what she called “the transgender” in society. When lawmakers and advocacy groups frame queer existence itself as a threat to young people, age-verification laws become ideological enforcement instead of regulatory policy. When lawmakers and advocacy groups frame queer existence itself as a threat to young people, age-verification laws become ideological enforcement instead of regulatory policy. In defending free speech, privacy, and the right of young people to access truthful information about themselves, Rep. Leigh Finke was not radical—she was right. She was warning that broad, ideologically driven laws will be used to erase, silence, and isolate young people under the banner of child protection. What’s at stake in the fight against age verification is not just a single bill in a single state, or even multiple states, for that matter. It’s about whether “protecting children” becomes a legal pretext for embedding government control over the internet to enforce specific moral and religious judgments—judgments that deny marginalized people access to speech, community, history, and truth—into law. And more people in public office need the courage of Rep. Finke to call this out.",
+      "categories": [
+        {
+          "_": "Age Verification and Age Gating: Resource Hub",
+          "$": {
+            "domain": "https://www.eff.org/issues/age-verification"
+          }
+        },
+        {
+          "_": "Free Speech",
+          "$": {
+            "domain": "https://www.eff.org/issues/free-speech"
+          }
+        },
+        {
+          "_": "LGBTQ+",
+          "$": {
+            "domain": "https://www.eff.org/issues/lgbtq"
+          }
+        }
+      ]
+    },
+    {
+      "source": "EFF Deeplinks",
+      "sourceType": "policy",
+      "feedTitle": "Deeplinks",
       "title": "Certbot and Let's Encrypt Now Support IP Address Certificates",
       "link": "https://www.eff.org/deeplinks/2026/03/certbot-and-lets-encrypt-now-support-ip-address-certificates",
       "publishedAt": "2026-03-11T22:32:56.000Z",
@@ -2754,52 +2792,6 @@
           "_": "Reproductive Justice",
           "$": {
             "domain": "https://www.eff.org/issues/reproductive-justice"
-          }
-        }
-      ]
-    },
-    {
-      "source": "EFF Deeplinks",
-      "sourceType": "policy",
-      "feedTitle": "Deeplinks",
-      "title": "Weasel Words: OpenAI’s Pentagon Deal Won’t Stop AI‑Powered Surveillance",
-      "link": "https://www.eff.org/deeplinks/2026/03/weasel-words-openais-pentagon-deal-wont-stop-ai-powered-surveillance",
-      "publishedAt": "2026-03-06T16:03:15.000Z",
-      "contentSnippet": "OpenAI, the maker of ChaptGPT, is rightfully facing widespread criticism for its decisions to fill the gap the U.S. Department of Defense (DoD) created when rival Anthropic refused to drop its restrictions against using its AI for surveillance and autonomous weapons systems. After protests from both users and employees who did not sign up to support government mass surveillance—early reports show that ChaptGPT uninstalls rose nearly 300% after the company announced the deal—Sam Altman, CEO of OpenAI, conceded that the initial agreement was “opportunistic and sloppy.” He then re-published an internal memo on social media stating that additions to the agreement made clear that “Consistent with applicable laws, including the Fourth Amendment to the United States Constitution, National Security Act of 1947, [and] FISA Act of 1978, the AI system shall not be intentionally used for domestic surveillance of U.S. persons and nationals.” Trouble is, the U.S. government doesn’t believe “consistent with applicable laws” means “no domestic surveillance.” Instead, for the most part, the government has embraced a lax interpretation of “applicable law” that has blessed mass surveillance and large-scale violations of our civil liberties, and then fought tooth and nail to prevent courts from weighing in. \"After all, many of the world’s most notorious human rights atrocities have historically been “legal” under existing laws at the time.\" “Intentionally” is also doing an awful lot of work in that sentence. For years the government has insisted that the mass surveillance of U.S. persons only happens incidentally (read: not intentionally) because their communications with people both inside the United States and overseas are swept up in surveillance programs supposedly designed to only collect communications outside the United States. The company’s amendment to the contract continues in a similar vein, “For the avoidance of doubt, the Department understands this limitation to prohibit deliberate tracking, surveillance, or monitoring of U.S. persons or nationals, including through the procurement or use of commercially acquired personal or identifiable information.” Here, “deliberate” is the red flag given how often intelligence and law enforcement agencies rely on incidental or commercially purchased data to sidestep stronger privacy protections. Here’s another one: “The AI System shall not be used for unconstrained monitoring of U.S. persons’ private information as consistent with these authorities. The system shall also not be used for domestic law-enforcement activities except as permitted by the Posse Comitatus Act and other applicable law.” What, one wonders, does “unconstrained” mean, precisely—and according to whom? Lawyers sometimes call these “weasel words” because they create ambiguity that protects one side or another from real accountability for contract violations. As with the Anthropic negotiations, where the Pentagon reportedly agreed to adhere to Anthropic’s red lines only “as appropriate,” the government is likely attempting to publicly commit to limits in principle, but retain broad flexibility in practice. OpenAI also notes that the Pentagon promised the NSA would not be allowed to use OpenAI’s tools absent a new agreement, and that its deployment architecture will help it verify that no red lines are crossed. But secret agreements and technical assurances have never been enough to rein in surveillance agencies, and they are no substitute for strong, enforceable legal limits and transparency. OpenAI executives may indeed be trying, as claimed, to use the company’s contractual relationship with the Pentagon to help ensure that the government should use AI tools only in a way consistent with democratic processes. But based on what we know so far, that hope seems very naïve. Moreover, that naïvete is dangerous. In a time when governments are willing to embrace extreme and unfounded interpretations of “applicable laws,” companies need to put some actual muscle behind standing by their commitments. After all, many of the world’s most notorious human rights atrocities have historically been “legal” under existing laws at the time. OpenAI promises the public that it will “avoid enabling uses of AI or AGI that harm humanity or unduly concentrate power,” but we know that enabling mass surveillance does both. OpenAI isn’t the only consumer-facing company that is, on the one hand, seeking to reassure the public that they aren’t participating in actions that violate human rights while, on the other, seeking to cash in on government mass surveillance efforts. Despite this marketing double-speak, it is very clear that companies just cannot do both. It’s also clear that companies shouldn’t be given that much power over the limits of our privacy to begin with. The public should not have to rely on a small group of people—whether CEOs or Pentagon officials—to protect our civil liberties.",
-      "categories": [
-        {
-          "_": "Artificial Intelligence",
-          "$": {
-            "domain": "https://www.eff.org/issues/ai"
-          }
-        }
-      ]
-    },
-    {
-      "source": "EFF Deeplinks",
-      "sourceType": "policy",
-      "feedTitle": "Deeplinks",
-      "title": "The Government Uses Targeted Advertising to Track Your Location. Here's What We Need to Do.",
-      "link": "https://www.eff.org/deeplinks/2026/03/targeted-advertising-gives-your-location-government-just-ask-cbp",
-      "publishedAt": "2026-03-05T14:00:38.000Z",
-      "contentSnippet": "We've all had the unsettling experience of seeing an ad online that reveals just how much advertisers know about our lives. You're right to be disturbed. Those very same online ad systems have been used by the government to warrantlessly track peoples' locations, new reporting has confirmed. For years, the internet advertising industry has been sucking up our data, including our location data, to serve us \"more relevant ads.\" At the same time, we know that federal law enforcement agencies have been buying up our location data from shady data brokers that most people have never heard of. Now, a new report gives us direct evidence that Customs and Border Protection (CBP) has used location data taken from the internet advertising ecosystem to track phones. In a document uncovered by 404 Media, CBP admits what we’ve been saying for years: The technical systems powering creepy targeted ads also allow federal agencies to track your location. The document acknowledges that a program by the agency to use \"commercially available marketing location data\" for surveillance drew from the process used to select the targeted ads shown to you on nearly every website and app you visit. In this blog post, we'll tell you what this process is, how it can and is being used for state surveillance, and what can be done about it—by individuals, by lawmakers, and by the tech companies that enable these abuses. Advertising Surveillance Enables Government Surveillance The online advertising industry has built a massive surveillance machine, and the government can co-opt it to spy on us. In the absence of strong privacy laws, surveillance-based advertising has become the norm online. Companies track our online and offline activity, then share it with ad tech companies and data brokers to help target ads. Law enforcement agencies take advantage of this advertising system to buy information about us that they would normally need a warrant for, like location data. They rely on the multi-billion-dollar data broker industry to buy location data harvested from people’s smartphones. We’ve known for years that location data brokers are one part of federal law enforcement's massive surveillance arsenal, including immigration enforcement agencies like CBP and Immigration and Customs Enforcement (ICE). ICE, CBP and the FBI have purchased location data from the data broker Venntell and used it to identify immigrants who were later arrested. Last year, ICE purchased a spy tool called Webloc that gathers the locations of millions of phones and makes it easy to search for phones within specific geographic areas over a period of time. Webloc also allows them to filter location data by the unique advertising IDs that Apple and Google assign to our phones. But a document recently obtained by 404 Media is the first time CBP has acknowledged the location data it buys is partially sourced from the system powering nearly every ad you see online: real-time bidding (RTB). As CBP puts it, “RTB-sourced location data is recorded when an advertisement is served.” Even though this document is about a 2019-2021 pilot use of this data, CBP and other federal agencies have continued to purchase and use commercially obtained location data. ICE has purchased location tracking tools since then and recently requested information on “Ad Tech” tools it could use for investigations. The CBP document acknowledges two sources of location data that it relies on: software development kits (SDKs) and RTB, both methods of location-tracking that EFF has written about before. Apps for weather, navigation, dating, fitness, and “family safety” often request location permissions to enable key features. But once an app has access to your location, it could share it with data brokers directly through SDKs or indirectly (and often without the app developers' knowledge) through RTB. Data brokers can collect location data from SDKs that they pay developers to put in their apps. When relying on RTB, data brokers don’t need any direct relationship with the apps and websites they’re collecting location data from. RTB is facilitated by ad companies that are already plugged into most websites and apps. Donate to Support EFF's Work Your donations empower EFF to do even more. How Real-Time Bidding Works RTB is the process by which most websites and apps auction off their ad space. Unfortunately, the milliseconds-long auctions that determine which ads you see also expose your information, including location data, to thousands of companies a day. At a high-level, here’s how RTB works: The moment you visit a website or app with ad space, it asks an ad tech company to determine which ads to display for you. This ad tech company packages all the information they can gather about you into a “bid request” and broadcasts it to thousands of potential advertisers. The bid request may contain information like your unique advertising ID, your GPS coordinates, IP address, device details, inferred interests, demographic information, and the app or website you’re visiting. The information in bid requests is called “bidstream data” and typically includes identifiers that can be linked to real people. Advertisers use the personal information in each bid request, along with data profiles they’ve built about you over time, to decide whether to bid on the ad space. The highest bidder gets to display an ad for you, but advertisers (or the adtech companies that represent them) can collect your bidstream data regardless of whether or not they bid on the ad space. A key vulnerability of real-time bidding is that while only one advertiser wins the auction, all participants receive data about the person who would see their ad. As a result, anyone posing as an ad buyer can access a stream of sensitive data about billions of individuals a day. Data brokers have taken advantage of this vulnerability to harvest data at a staggering scale. For example, the FTC found that location data broker Mobilewalla collected data on over a billion people, with an estimated 60% sourced from RTB auctions. Leaked data from another location data broker, Gravy Analytics, referenced thousands of apps, including Microsoft apps, Candy Crush, Tinder, Grindr, MyFitnessPal, pregnancy trackers and religious-focused apps. When confronted, several of these apps’ developers said they had never heard of Gravy Analytics. As Venntel, one of the location data brokers that has sold to ICE, puts it, “Commercially available bidstream data from the advertising ecosystem has long been one of the most comprehensive sources of real-time location and device data available.” But the privacy harms of RTB are not just a matter of misuse by individual data brokers. RTB auctions broadcast the average person’s data to thousands of companies, hundreds of times per day, with no oversight of how this information is ultimately exploited. Once your information is broadcast through RTB, it’s almost impossible to know who receives it or control how it’s used. What You Can Do To Protect Yourself Revelations about the government's exploitation of this location data shows how dangerous online tracking has become, but we’re not powerless. Here are two basic steps you can take to better protect your location data: Disable your mobile advertising ID (see instructions for iPhone/Android). Apple and Google assign unique advertising IDs to each of their phones. Location data brokers use these advertising IDs to stitch together the information they collect about you from different apps. Review apps you’ve granted location permissions to. Apps that have access to your location could share it with other companies, so make sure you’re only granting location permission to apps that really need it in order to function. If you can’t disable location access completely for an app, limit it to only when you have the app open or only approximate location instead of precise location. For more tips, check out EFF’s guide to protecting yourself from mobile-device based location tracking. Keep in mind that the security plan that’s best for you will vary in different situations. For example, you may want to take stronger steps to protect your location data when traveling to a sensitive location, like a protest. What Tech Companies and Lawmakers Must Do Legislators and tech companies must act so that individuals don’t bear the burden of defending their data every time they use the internet. Ad tech companies must reckon with their role in warrantless government surveillance, among other privacy harms. The systems they built for targeted advertising are actively used to track people’s location. The best way to prevent online ads from fueling surveillance is to stop targeting ads based on detailed behavioral profiles. Ads can still be targeted contextually—based on the content people are viewing—without collecting or exposing their sensitive personal information. Short of moving to contextual advertising, tech companies can limit the use of their systems for government location tracking by: Stopping the use of precise location data for targeted advertising. Ad tech companies facilitating ad auctions can and should remove precise location data from bid requests. Ads can be targeted based on people’s coarse location, like the city they’re in, without giving data brokers people’s exact GPS coordinates. Precise location data can reveal where we work, where we live, who we meet, where we protest, where we worship, and more. Broadcasting it to thousands of companies a day through RTB is dangerous. Removing advertising IDs from devices, or at minimum, disabling them by default. Advertising IDs have become a linchpin of the data broker economy and are actively used by law enforcement to track people’s location. Advertising IDs were added to phones in 2012 to let companies track you, and removing them is not a far-fetched idea. When Apple forced apps to request access to people’s advertising IDs starting in 2021 (if you have an iPhone you’ve probably seen the \"Ask App Not to Track\" pop-ups), 96% of U.S. users opted out, essentially disabling advertising IDs on most iOS devices. One study found that iPhone users were less likely to be victims of financial fraud after Apple implemented this change. Google should follow Apple’s lead and disable advertising IDs by default. Lawmakers also need to step up to protect their constituents' privacy. We need strong, federal privacy laws to stop companies from spying on us and selling our personal information. EFF advocates for data privacy legislation with teeth and a ban on ad targeting based on online behavioral profiles, as it creates a financial incentive for companies to track our every move. Legislators can and must also close the \"data broker loophole\" on the Fourth Amendment. Instead of obtaining a warrant signed by a judge, law enforcement agencies can just buy location data from private brokers to find out where you've been. Last year, Montana became the first state in the U.S. to pass a law blocking the government from buying sensitive data it would otherwise need a warrant to obtain. And in 2024, Senator Ron Wyden's EFF-endorsed Fourth Amendment is Not for Sale Act passed the House before dying in the Senate. Others should follow suit to stop this end-run around constitutional protections. Online behavioral advertising isn’t just creepy–it’s dangerous. It's wrong that our personal information is being silently harvested, bought by shadow-y data brokers, and sold to anyone who wants to invade our privacy. This latest revelation of warrantless government surveillance should serve as a frightening wakeup call of how dangerous online behavioral advertising has become. Donate to Support EFF's Work Your donations empower EFF to do even more.",
-      "categories": [
-        {
-          "_": "Online Behavioral Tracking",
-          "$": {
-            "domain": "https://www.eff.org/issues/online-behavioral-tracking"
-          }
-        },
-        {
-          "_": "Location Data Brokers",
-          "$": {
-            "domain": "https://www.eff.org/issues/location-data-brokers"
-          }
-        },
-        {
-          "_": "Locational Privacy",
-          "$": {
-            "domain": "https://www.eff.org/issues/location-privacy"
           }
         }
       ]

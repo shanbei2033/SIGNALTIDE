@@ -1,10 +1,18 @@
 {
-  "generatedAt": "2026-03-12T03:30:00.000Z",
+  "generatedAt": "2026-03-13T02:40:58Z",
   "items": [
+    {
+      "date": "2026-03-13",
+      "displayDate": "2026年3月13日",
+      "articleCount": 18,
+      "leadId": "openai-responses-computer-environment",
+      "leadHeadline": "OpenAI 把“会聊天”的模型往“会干活”的代理推了一大步",
+      "note": "保存当日首页版面与详情内容。"
+    },
     {
       "date": "2026-03-12",
       "displayDate": "2026年3月12日",
-      "articleCount": 8,
+      "articleCount": 30,
       "leadId": "openai-responses-api-computer-environment",
       "leadHeadline": "Responses API 往真正的代理系统迈了一步",
       "note": "保存当日首页版面与详情内容。"

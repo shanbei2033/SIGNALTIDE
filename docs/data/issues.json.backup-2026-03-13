@@ -1,0 +1,380 @@
+{
+  "site": {
+    "name": {
+      "zh-CN": "智潮",
+      "zh-TW": "智潮",
+      "en": "SIGNAL TIDE"
+    },
+    "tagline": {
+      "zh-CN": "每日整理的 AI 新闻版面",
+      "zh-TW": "每日整理的 AI 新聞版面",
+      "en": "Daily AI news digest, curated and edited."
+    },
+    "description": {
+      "zh-CN": "聚合、重写并归档每日 AI 领域的重要新闻。",
+      "zh-TW": "聚合、改寫並歸檔每日 AI 領域的重要新聞。",
+      "en": "Aggregate, rewrite, and archive important AI news daily."
+    },
+    "i18n": {}
+  },
+  "edition": {
+    "id": "2026-03-13",
+    "issueNumber": 5,
+    "date": "2026-03-13",
+    "displayDate": "2026年3月13日",
+    "generatedAt": "2026-03-13T02:21:14.218Z",
+    "mode": "auto",
+    "lead": "openai-responses-api-computer-environment",
+    "editorNote": {
+      "zh-CN": "本期为自动化生成的最新AI新闻日报。",
+      "zh-TW": "本期為自動化生成的最新AI新聞日報。",
+      "en": "This edition is automatically generated with the latest AI news."
+    },
+    "i18n": {}
+  },
+  "sections": [
+    {
+      "key": "lead",
+      "label": {
+        "zh-CN": "头版",
+        "zh-TW": "頭版",
+        "en": "Lead"
+      }
+    },
+    {
+      "key": "company",
+      "label": {
+        "zh-CN": "公司与产品",
+        "zh-TW": "公司與產品",
+        "en": "Company & Product"
+      }
+    },
+    {
+      "key": "policy",
+      "label": {
+        "zh-CN": "政策与治理",
+        "zh-TW": "政策與治理",
+        "en": "Policy & Governance"
+      }
+    },
+    {
+      "key": "tools",
+      "label": {
+        "zh-CN": "工具与开源",
+        "zh-TW": "工具與開源",
+        "en": "Tools & Open Source"
+      }
+    },
+    {
+      "key": "impact",
+      "label": {
+        "zh-CN": "研究与影响",
+        "zh-TW": "研究與影響",
+        "en": "Research & Impact"
+      }
+    },
+    {
+      "key": "insight",
+      "label": {
+        "zh-CN": "深度观察",
+        "zh-TW": "深度觀察",
+        "en": "Deep Insights"
+      }
+    },
+    {
+      "key": "tech-humanities",
+      "label": {
+        "zh-CN": "技术人文",
+        "zh-TW": "技術人文",
+        "en": "Tech & Humanities"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "headline-2026-03-13",
+      "section": "lead",
+      "category": {
+        "zh-CN": "重大进展",
+        "zh-TW": "重大進展",
+        "en": "Major Development"
+      },
+      "headline": {
+        "zh-CN": "【今日头条】等待AI新闻抓取...",
+        "zh-TW": "【今日頭條】等待AI新聞抓取...",
+        "en": "[Breaking] Waiting for AI news collection..."
+      },
+      "deck": {
+        "zh-CN": "智潮正在自动抓取和整理今天的AI新闻，请稍后查看完整内容。",
+        "zh-TW": "智潮正在自動抓取和整理今天的AI新聞，請稍後查看完整內容。",
+        "en": "Signal Tide is automatically collecting and organizing today's AI news. Please check back later for complete content."
+      }
+    },
+    {
+      "id": "company-2026-03-13-1",
+      "section": "company",
+      "category": {
+        "zh-CN": "公司动态",
+        "zh-TW": "公司動態",
+        "en": "Company News"
+      },
+      "headline": {
+        "zh-CN": "等待今日新闻更新...",
+        "zh-TW": "等待今日新聞更新...",
+        "en": "Waiting for today's news update..."
+      },
+      "deck": {
+        "zh-CN": "内容正在自动生成中",
+        "zh-TW": "內容正在自動生成中",
+        "en": "Content is being automatically generated"
+      }
+    },
+    {
+      "id": "policy-2026-03-13-1",
+      "section": "policy",
+      "category": {
+        "zh-CN": "政策更新",
+        "zh-TW": "政策更新",
+        "en": "Policy Update"
+      },
+      "headline": {
+        "zh-CN": "等待今日新闻更新...",
+        "zh-TW": "等待今日新聞更新...",
+        "en": "Waiting for today's news update..."
+      },
+      "deck": {
+        "zh-CN": "内容正在自动生成中",
+        "zh-TW": "內容正在自動生成中",
+        "en": "Content is being automatically generated"
+      }
+    },
+    {
+      "id": "tools-2026-03-13-1",
+      "section": "tools",
+      "category": {
+        "zh-CN": "工具发布",
+        "zh-TW": "工具發佈",
+        "en": "Tool Release"
+      },
+      "headline": {
+        "zh-CN": "等待今日新闻更新...",
+        "zh-TW": "等待今日新聞更新...",
+        "en": "Waiting for today's news update..."
+      },
+      "deck": {
+        "zh-CN": "内容正在自动生成中",
+        "zh-TW": "內容正在自動生成中",
+        "en": "Content is being automatically generated"
+      }
+    },
+    {
+      "id": "impact-2026-03-13-1",
+      "section": "impact",
+      "category": {
+        "zh-CN": "研究进展",
+        "zh-TW": "研究進展",
+        "en": "Research Progress"
+      },
+      "headline": {
+        "zh-CN": "等待今日新闻更新...",
+        "zh-TW": "等待今日新聞更新...",
+        "en": "Waiting for today's news update..."
+      },
+      "deck": {
+        "zh-CN": "内容正在自动生成中",
+        "zh-TW": "內容正在自動生成中",
+        "en": "Content is being automatically generated"
+      }
+    },
+    {
+      "id": "insight-2026-03-13-1",
+      "section": "insight",
+      "category": {
+        "zh-CN": "行业分析",
+        "zh-TW": "行業分析",
+        "en": "Industry Analysis"
+      },
+      "headline": {
+        "zh-CN": "大模型公司的商业化困局：烧钱速度远超收入增长",
+        "zh-TW": "大模型公司的商業化困局：燒錢速度遠超收入增長",
+        "en": "The Commercialization Dilemma of LLM Companies: Burn Rate Far Outpaces Revenue Growth"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "insight-2026-03-13-2",
+      "section": "insight",
+      "category": {
+        "zh-CN": "市场趋势",
+        "zh-TW": "市場趨勢",
+        "en": "Market Trends"
+      },
+      "headline": {
+        "zh-CN": "开源与闭源的边界正在模糊，商业化模式面临重构",
+        "zh-TW": "開源與閉源的邊界正在模糊，商業化模式面臨重構",
+        "en": "The Boundary Between Open Source and Closed Source is Blurring, Business Models Face Restructuring"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "insight-2026-03-13-3",
+      "section": "insight",
+      "category": {
+        "zh-CN": "技术演进",
+        "zh-TW": "技術演進",
+        "en": "Technology Evolution"
+      },
+      "headline": {
+        "zh-CN": "AI芯片战进入第二回合：定制化vs通用化的新平衡",
+        "zh-TW": "AI芯片戰進入第二回合：定制化vs通用化的新平衡",
+        "en": "AI Chip War Enters Round Two: New Balance Between Customization and Generalization"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "insight-2026-03-13-4",
+      "section": "insight",
+      "category": {
+        "zh-CN": "市场分析",
+        "zh-TW": "市場分析",
+        "en": "Market Analysis"
+      },
+      "headline": {
+        "zh-CN": "数据壁垒成为AI公司最大护城河，技术优势正在减弱",
+        "zh-TW": "數據壁壘成為AI公司最大護城河，技術優勢正在減弱",
+        "en": "Data Barriers Become the Biggest Moat for AI Companies, Technological Advantages Are Diminishing"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "insight-2026-03-13-5",
+      "section": "insight",
+      "category": {
+        "zh-CN": "企业实践",
+        "zh-TW": "企業實踐",
+        "en": "Enterprise Practice"
+      },
+      "headline": {
+        "zh-CN": "企业AI部署的\"最后一公里\"：从POC到生产环境的鸿沟",
+        "zh-TW": "企業AI部署的「最後一公里」：從POC到生產環境的鴻溝",
+        "en": "The \"Last Mile\" of Enterprise AI Deployment: The Gap from POC to Production Environment"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-2026-03-13-1",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "社会影响",
+        "zh-TW": "社會影響",
+        "en": "Social Impact"
+      },
+      "headline": {
+        "zh-CN": "当AI开始理解方言：技术如何保护语言多样性",
+        "zh-TW": "當AI開始理解方言：技術如何保護語言多樣性",
+        "en": "When AI Begins to Understand Dialects: How Technology Protects Linguistic Diversity"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-2026-03-13-2",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "协作模式",
+        "zh-TW": "協作模式",
+        "en": "Collaboration Patterns"
+      },
+      "headline": {
+        "zh-CN": "程序员与AI的协作新范式：从工具使用到思维伙伴",
+        "zh-TW": "程序員與AI的協作新範式：從工具使用到思維夥伴",
+        "en": "New Paradigm for Programmer-AI Collaboration: From Tool Usage to Thinking Partner"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-2026-03-13-3",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "伦理实践",
+        "zh-TW": "倫理實踐",
+        "en": "Ethical Practice"
+      },
+      "headline": {
+        "zh-CN": "AI伦理委员会的日常：在创新与约束之间寻找平衡",
+        "zh-TW": "AI倫理委員會的日常：在創新與約束之間尋找平衡",
+        "en": "The Daily Life of an AI Ethics Committee: Finding Balance Between Innovation and Constraints"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-2026-03-13-4",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "远程协作",
+        "zh-TW": "遠程協作",
+        "en": "Remote Collaboration"
+      },
+      "headline": {
+        "zh-CN": "远程协作时代的AI工具：如何重建办公室的偶然相遇",
+        "zh-TW": "遠程協作時代的AI工具：如何重建辦公室的偶然相遇",
+        "en": "AI Tools in the Era of Remote Collaboration: How to Recreate Office Serendipity"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    },
+    {
+      "id": "tech-humanities-2026-03-13-5",
+      "section": "tech-humanities",
+      "category": {
+        "zh-CN": "决策机制",
+        "zh-TW": "決策機制",
+        "en": "Decision Mechanisms"
+      },
+      "headline": {
+        "zh-CN": "技术决策中的\"人性时刻\"：数据无法告诉你的那些事",
+        "zh-TW": "技術決策中的「人性時刻」：數據無法告訴你的那些事",
+        "en": "The \"Human Moments\" in Technical Decisions: What Data Cannot Tell You"
+      },
+      "deck": {
+        "zh-CN": "仅标题，无简介",
+        "zh-TW": "僅標題，無簡介",
+        "en": "Title only, no description"
+      }
+    }
+  ]
+}

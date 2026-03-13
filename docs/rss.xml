@@ -3,220 +3,206 @@
   <channel>
     <title>智潮 / Signal Tide</title>
     <link>https://example.com/</link>
-    <description>[object Object]</description>
+    <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 12 Mar 2026 16:13:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 02:35:00 GMT</lastBuildDate>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=openai-responses-api-computer-environment</link>
-      <guid>https://example.com/article.html?id=openai-responses-api-computer-environment</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]
+      <title>OpenAI 把“会聊天”的模型往“会干活”的代理推了一大步</title>
+      <link>https://example.com/article.html?id=openai-responses-computer-environment</link>
+      <guid>https://example.com/article.html?id=openai-responses-computer-environment</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>Responses API 接上 shell 工具和托管容器后，模型开始拥有文件系统、执行环境和受限网络访问；这不只是接口更新，而是代理产品从演示走向生产的一次底层补课。
 
-[object Object]</description>
+OpenAI 公开介绍了如何为 Responses API 配置 shell 工具、托管容器工作区、文件读写和受限网络访问，让模型不再只是在提示词里规划步骤，而是能在隔离环境里真正执行命令、生成中间文件，并在多轮任务里保留状态。对于今天的代理系统而言，这类能力比单纯提升模型分数更关键，因为企业真正买单的不是回答，而是能否稳定完成工作流。
+
+这次更新瞄准的是代理落地最现实的摩擦点：大表格不该塞进上下文、文件不能只靠复制粘贴传递、外部 API 访问不能无边界放开、超时重试也不能全靠开发者手搓。OpenAI 等于把一套最常见的代理运行时积木标准化了。它意味着竞争焦点正从“谁的模型更聪明”转向“谁的执行栈更完整、可控、可审计”。
+
+2026 年的代理竞争，开始越来越像云平台和开发平台的竞争：谁能把执行、存储、权限和审计打包成可复用的产品，谁就更接近真实业务入口。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=gemini-spreadsheets</link>
-      <guid>https://example.com/article.html?id=gemini-spreadsheets</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
+      <title>Gemini 想进一步接管电子表格这块硬地</title>
+      <link>https://example.com/article.html?id=google-gemini-sheets-spreadsheetbench</link>
+      <guid>https://example.com/article.html?id=google-gemini-sheets-spreadsheetbench</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>Google 称 Gemini in Sheets 在 SpreadsheetBench 上达到 70.48% 成功率，开始逼近“不是帮你解释表格，而是替你操作表格”的产品方向。
+
+Google 宣布 Gemini in Sheets 新增 beta 能力，并强调其在公开基准 SpreadsheetBench 上取得 70.48% 的成功率。和普通问答式办公助手不同，这条路线更强调模型直接创建、整理、编辑整张电子表，处理真实世界里格式混乱、公式复杂、数据关联密集的表格任务。
+
+电子表格一直是 AI 办公最难啃的场景之一，因为它要求模型同时理解结构化数据、业务逻辑和交互操作。Google 现在试图证明，AI 不只是给表格“加聊天框”，而是在往真正的执行层深入。若这一步站稳，办公 AI 的竞争将更接近生产工具链，而不是搜索框之争。
+
+谁能稳定处理表格，谁就更接近企业最真实也最琐碎的日常工作场景。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=anthropic-governance-debate</link>
-      <guid>https://example.com/article.html?id=anthropic-governance-debate</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
+      <title>Claude 开始把图表和示意图直接塞进对话里</title>
+      <link>https://example.com/article.html?id=anthropic-claude-inline-visuals</link>
+      <guid>https://example.com/article.html?id=anthropic-claude-inline-visuals</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>Anthropic 让 Claude 在聊天过程中按需生成图表、图解和可交互视觉元素，意味着“文本回答”正在被更丰富的解释界面替代。
+
+Anthropic 宣布 Claude 可在对话中直接生成图表、图解等视觉化内容，并按上下文自动判断是否需要插入这些元素。和过去把生成结果放在侧栏的 artifacts 不同，这次更像是把“解释方式”本身改掉：模型不再只吐文字，而是开始把视觉表达当成默认输出之一。
+
+这条更新与 OpenAI 在 ChatGPT 里加入数学和科学交互可视化、Google 推教育图像的方向互相呼应。助手产品正在进入一个新的界面竞争阶段：不只比谁答得快、答得准，也比谁能更自然地把抽象概念转成可理解、可交互、可修改的表现形式。
+
+当视觉化回答成为默认能力后，通用助手的竞争不再只是语言质量，还会落到界面设计和认知负担管理上。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=huggingface-hub-infrastructure</link>
-      <guid>https://example.com/article.html?id=huggingface-hub-infrastructure</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
+      <title>Meta 把 AI 自动回复塞进二手交易聊天框</title>
+      <link>https://example.com/article.html?id=meta-marketplace-auto-replies</link>
+      <guid>https://example.com/article.html?id=meta-marketplace-auto-replies</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>Facebook Marketplace 新增 Meta AI 自动回复、价格建议和资料摘要，说明生成式 AI 正在被拆成一堆很小、但足够高频的交易摩擦修复器。
+
+Meta 为 Facebook Marketplace 推出多项 AI 功能，包括自动回复“还在吗”之类的询问、根据照片补全商品详情、参考附近同类商品建议价格，以及为卖家资料生成摘要。这不是轰动级模型发布，但它很像平台公司最擅长的那种产品推进：把 AI 拆进最容易提高转化率和响应效率的细碎环节。
+
+对生成式 AI 来说，这类场景的价值并不在惊艳，而在于是否能持续减少交易流程里的摩擦。若自动回复、智能定价和卖家信誉摘要都被证明有效，AI 在消费平台中的位置会越来越像一层常驻运营基础设施，而不是单独摆在入口处的聊天机器人。
+
+真正改变日常互联网体验的，往往不是最大模型，而是那些被悄悄嵌入平台默认流程的“小 AI 功能”。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=nvidia-open-source-agent-platform</link>
-      <guid>https://example.com/article.html?id=nvidia-open-source-agent-platform</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description></description>
+      <title>美军把生成式 AI 拉进目标排序想象图，治理难题随之提前到来</title>
+      <link>https://example.com/article.html?id=pentagon-generative-ai-target-ranking</link>
+      <guid>https://example.com/article.html?id=pentagon-generative-ai-target-ranking</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>MIT Technology Review 披露，美方防务官员设想用生成式 AI 对目标列表做优先级建议，再由人工审核；这让“人类在环”不再是抽象原则，而是必须被追问的制度细节。
+
+MIT Technology Review 援引一名美国防务官员说法称，生成式 AI 未来可能被用于分析目标候选列表、考虑飞机位置等因素，并对“先打哪一个”给出建议，最终结果再由人类复核。官员没有确认这是否已在现役流程中使用，但这番表述已经足以说明，生成式 AI 正被认真纳入高风险决策想定。
+
+问题不在于系统会不会直接按按钮，而在于一旦模型进入排序和建议环节，它就开始影响注意力分配、节奏判断和责任链条。所谓 human-in-the-loop 若只是最后点头的人机接口，而没有完整审计、证据保存和可追责设计，治理承诺就很容易沦为空话。
+
+生成式 AI 一旦进入军事决策前链条，真正重要的不是模型会不会“开火”，而是谁定义建议、谁保存证据、谁承担后果。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=localai-unified-framework</link>
-      <guid>https://example.com/article.html?id=localai-unified-framework</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description></description>
+      <title>Anthropic 与五角大楼冲突，争的已不只是生意而是代码边界</title>
+      <link>https://example.com/article.html?id=anthropic-pentagon-surveillance-lawsuit</link>
+      <guid>https://example.com/article.html?id=anthropic-pentagon-surveillance-lawsuit</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>EFF 支持 Anthropic 就“供应链风险” designation 提起诉讼，核心问题是：政府能否逼一家模型公司改写护栏，去适配更强的 AI 监控需求。
+
+EFF 发文支持 Anthropic 与美国国防部之间的法律争议，认为政府若因公司拒绝将模型用于监控用途、进而施压其修改代码和移除护栏，可能构成对言论与表达选择的强制。EFF 的论证并不只是站队某家公司，而是在更早阶段把一个关键问题摊开：模型公司的安全边界，到底有多大程度属于可被强制改写的“商业参数”。
+
+这场冲突之所以重要，是因为前沿模型正越来越深地进入国家安全、基础设施和公共决策场景。一旦政府采购、风险认定与监管工具同时被用来要求更少限制、更高监控能力，模型厂商的“安全承诺”就会承受极强的现实挤压。AI 治理因此不只是规则文本，也将变成围绕代码与默认设置的权力争夺。
+
+未来几年，模型公司的真正红线未必写在发布会上，而会写在合同、法院文件和是否愿意改动默认护栏里。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=mlx-apple-ml-framework</link>
-      <guid>https://example.com/article.html?id=mlx-apple-ml-framework</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description></description>
+      <title>微软把 AI 代理调试这件脏活，开始做成框架和基准</title>
+      <link>https://example.com/article.html?id=microsoft-agentrx-debugging-framework</link>
+      <guid>https://example.com/article.html?id=microsoft-agentrx-debugging-framework</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>AgentRx 试图定位代理轨迹里的“第一处不可恢复失败”，并配套发布 115 条失败轨迹数据集；这类工具意味着代理工程开始进入真正讲 observability 的阶段。
+
+Microsoft Research 发布 AgentRx，目标不是评估代理有没有完成任务，而是追踪一条长轨迹中“最早出现且无法挽回”的关键失败步骤。它会根据工具 schema 和领域策略自动合成约束，逐步检查轨迹并记录证据，再交给 LLM judge 判断 critical failure step 与根因类别。微软同时还发布了包含 115 条人工标注失败轨迹的数据集和九类失败 taxonomy。
+
+这件事之所以重要，是因为代理系统一旦变成长流程、多工具、多角色协作，仅凭“成功率”已经很难指导迭代。真正的工程瓶颈变成了：到底是哪一步错了、为什么错、下次怎么防。AgentRx 这类工作把代理从 demo 工程推进到可诊断、可复盘、可持续改进的软件工程对象。
+
+没有调试与复盘能力，代理系统就很难真正进入生产；AgentRx 代表行业开始认真补齐这块缺口。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=openrlhf-training-framework</link>
-      <guid>https://example.com/article.html?id=openrlhf-training-framework</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description></description>
+      <title>LangChain 想让代理自己决定什么时候“压缩记忆”</title>
+      <link>https://example.com/article.html?id=langchain-autonomous-context-compression</link>
+      <guid>https://example.com/article.html?id=langchain-autonomous-context-compression</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>Deep Agents SDK 和 CLI 新增 autonomous context compression 工具，把原本依赖固定阈值或人工 /compact 的动作交给模型自行触发。
+
+LangChain 在 Deep Agents SDK 与 CLI 中加入了让模型自主触发 context compression 的工具。过去这类压缩通常由框架在上下文接近上限时自动进行，或者由用户手动输入 /compact；现在 LangChain 想把这个时机判断交还给代理本身，让它在任务边界、读入大量新上下文之前、或准备进入复杂流程前主动收缩工作记忆。
+
+这看似只是一个小工具，实际上正碰到代理设计里的核心问题：模型除了会推理和调用工具，还能否管理自己的认知预算。随着超长任务变多，代理能力的上限越来越取决于“什么时候忘、怎么忘、忘到什么程度”，而不只是上下文窗口本身有多长。
+
+下一阶段的代理优化，不只是拼更长上下文，而是拼谁更会管理有限上下文。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=nist-agent-standards-initiative</link>
-      <guid>https://example.com/article.html?id=nist-agent-standards-initiative</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description></description>
+      <title>NVIDIA 在 Hugging Face 讲了一套更像“数据科学家”的代理架构</title>
+      <link>https://example.com/article.html?id=nemo-agent-toolkit-dabstep</link>
+      <guid>https://example.com/article.html?id=nemo-agent-toolkit-dabstep</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>基于 NeMo Agent Toolkit 的 Data Explorer 在 DABStep 上冲到第一，并声称相对 Claude Code baseline 有 30 倍速度提升，显示专用代理正在往垂直工作流里卷。
+
+NVIDIA KGMON 团队在 Hugging Face 博客介绍了基于 NeMo Agent Toolkit 的 Data Explorer 架构，目标是让代理像数据科学家一样处理结构化数据探索、表格问答、可视化和预测建模。团队称该方案在 DABStep 基准上排名第一，并实现相对 Claude Code baseline 的 30 倍速度提升。核心做法是把开放式探索与规则化表格问答拆成不同循环，并为其配备状态化 Python 解释器、检索器、文件结构探测器等工具。
+
+这条信息的重要性在于，代理开始更明确地从“通用助手”分化为“垂直工种”。面向数据分析的代理，不一定要在所有任务上都万能，而是要在特定工作流中拥有更合适的工具、记忆和推理节奏。未来很多代理产品竞争，很可能不是大而全，而是更像一个个职业软件包。
+
+代理赛道开始细分职业场景：谁最懂某个工作流，谁就可能先形成稳定壁垒。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=google-agent-scaling-science</link>
-      <guid>https://example.com/article.html?id=google-agent-scaling-science</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description></description>
+      <title>Google 把 Gemini 用在洪水新闻提数，想补上城市暴洪预警的“数据地基”</title>
+      <link>https://example.com/article.html?id=google-flash-flood-forecasting</link>
+      <guid>https://example.com/article.html?id=google-flash-flood-forecasting</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>Google Research 推出 Groundsource，并在 Flood Hub 上铺开城市暴洪 24 小时预测；关键突破不只是模型本身，而是先把分散新闻转成可训练的事件数据。
+
+Google Research 宣布在 Flood Hub 上推出面向城市暴洪的预测能力，最长可提前 24 小时提示风险。难点不只是建模，而是城市暴洪长期缺少足够细致的历史“地面真值”数据。为此，Google 先提出 Groundsource 方法，用 Gemini 从公开新闻报道中提取洪水发生的时间、地点等结构化信息，进而拼出训练数据集。
+
+这是一条很有代表性的公共 AI 落地路径：与其先夸模型多聪明，不如先补全原本不存在的数据基础设施。对很多公共问题而言，AI 能否见效，往往不取决于前沿模型参数，而取决于能否把散落在文本、表单和地方记录里的现实碎片，整理成可用的数据底板。
+
+如果 Groundsource 这类方法被验证有效，生成式 AI 在公共领域最重要的角色之一，可能是“把零散现实转成机器可用事实”。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=speciesnet-conservation-workflow</link>
-      <guid>https://example.com/article.html?id=speciesnet-conservation-workflow</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description></description>
+      <title>Google 想用地理与健康数据，把偏远地区心脏病预防做得更早一些</title>
+      <link>https://example.com/article.html?id=google-ai-heart-health-australia</link>
+      <guid>https://example.com/article.html?id=google-ai-heart-health-australia</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>Google Australia 投入 100 万澳元，在澳洲偏远社区联合医疗机构测试 Population Health AI；重点不是替代医生，而是更早识别哪些地区正在积累健康风险。
+
+Google 宣布与澳大利亚多家医疗和研究机构合作，在偏远社区推进一项心脏健康项目，并由 Google Australia 的 Digital Future Initiative 投入 100 万澳元支持。项目使用 Google for Health 的 Population Health AI，结合地理、空气质量、花粉、临床记录等去标识化与聚合数据，帮助合作方更早识别社区层面的慢病风险。
+
+这类项目最值得注意的地方，在于它把 AI 的位置放在“预防与资源分配”而非“替医生诊断”。对偏远地区而言，真正稀缺的不一定是某个模型回答得更像专家，而是能否更早知道哪里需要筛查、哪里需要资源、哪里正在被系统性忽视。AI 在公共健康里的价值，可能首先体现在分配逻辑，而不是问诊界面。
+
+医疗 AI 的真实落地，不一定先发生在医院对话框里，也可能先发生在公共健康地图和预算分配表上。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=multimodal-temporal-understanding</link>
-      <guid>https://example.com/article.html?id=multimodal-temporal-understanding</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description></description>
+      <title>Microsoft 也做了“健康 Copilot”，医疗 AI 开始卷数据接口而不只卷回答</title>
+      <link>https://example.com/article.html?id=microsoft-copilot-health</link>
+      <guid>https://example.com/article.html?id=microsoft-copilot-health</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>Copilot Health 可接入病历、化验结果和 50 多种可穿戴设备，强调独立隐私控制与不用于训练；医疗助手竞争正在从会不会答，转向谁能接更多真实数据。
+
+微软宣布推出 Copilot Health，提供一个与普通 Copilot 隔离的健康聊天空间。用户可通过 HealthEx 接入 5 万多家美国医院和医疗机构的病历，通过 Function 导入化验结果，还能连接 50 多种可穿戴设备。微软强调，聊天数据具备额外访问、隐私与安全控制，且不会用于训练 AI 模型。
+
+这说明医疗 AI 的竞争正在发生变化：单靠“能回答健康问题”已经不够，真正壁垒开始来自数据连接能力、隐私承诺、来源可信度和责任边界设计。对用户来说，医疗助手是否有价值，不只是看回答像不像医生，而是看它能否读懂你真实的健康记录，又不把这些记录变成新的风险。
+
+医疗助手下一步的门槛，很可能不是模型本身，而是谁能在可信边界内接住最多真实世界数据。</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=edge-ai-chip-power</link>
-      <guid>https://example.com/article.html?id=edge-ai-chip-power</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description></description>
+      <title>当代理开始拥有“电脑”，应用层竞争会从聊天界面转向执行栈</title>
+      <link>https://example.com/article.html?id=insight-2026-03-13-1</link>
+      <guid>https://example.com/article.html?id=insight-2026-03-13-1</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>仅标题，无简介</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=neuro-symbolic-ai-resurgence</link>
-      <guid>https://example.com/article.html?id=neuro-symbolic-ai-resurgence</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description></description>
+      <title>“图表化回答”正在成为通用助手的新默认交互</title>
+      <link>https://example.com/article.html?id=insight-2026-03-13-2</link>
+      <guid>https://example.com/article.html?id=insight-2026-03-13-2</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>仅标题，无简介</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=deep-insight-1</link>
-      <guid>https://example.com/article.html?id=deep-insight-1</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
+      <title>当 AI 进入医疗与防灾，真正门槛会变成数据接入和责任边界</title>
+      <link>https://example.com/article.html?id=insight-2026-03-13-3</link>
+      <guid>https://example.com/article.html?id=insight-2026-03-13-3</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>仅标题，无简介</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=deep-insight-2</link>
-      <guid>https://example.com/article.html?id=deep-insight-2</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
+      <title>在偏远社区里，AI 的价值不在炫技，而在把公共服务补到最后一公里</title>
+      <link>https://example.com/article.html?id=tech-humanities-2026-03-13-1</link>
+      <guid>https://example.com/article.html?id=tech-humanities-2026-03-13-1</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>仅标题，无简介</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=deep-insight-3</link>
-      <guid>https://example.com/article.html?id=deep-insight-3</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
+      <title>如果聊天机器人开始参与目标排序，人类监督到底该怎样留下证据链</title>
+      <link>https://example.com/article.html?id=tech-humanities-2026-03-13-2</link>
+      <guid>https://example.com/article.html?id=tech-humanities-2026-03-13-2</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>仅标题，无简介</description>
     </item>
     <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=deep-insight-4</link>
-      <guid>https://example.com/article.html?id=deep-insight-4</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=deep-insight-5</link>
-      <guid>https://example.com/article.html?id=deep-insight-5</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=deep-insight-6</link>
-      <guid>https://example.com/article.html?id=deep-insight-6</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=deep-insight-7</link>
-      <guid>https://example.com/article.html?id=deep-insight-7</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=deep-insight-8</link>
-      <guid>https://example.com/article.html?id=deep-insight-8</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=tech-humanities-1</link>
-      <guid>https://example.com/article.html?id=tech-humanities-1</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=tech-humanities-2</link>
-      <guid>https://example.com/article.html?id=tech-humanities-2</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=tech-humanities-3</link>
-      <guid>https://example.com/article.html?id=tech-humanities-3</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=tech-humanities-4</link>
-      <guid>https://example.com/article.html?id=tech-humanities-4</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=tech-humanities-5</link>
-      <guid>https://example.com/article.html?id=tech-humanities-5</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=tech-humanities-6</link>
-      <guid>https://example.com/article.html?id=tech-humanities-6</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=tech-humanities-7</link>
-      <guid>https://example.com/article.html?id=tech-humanities-7</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
-    </item>
-    <item>
-      <title>[object Object]</title>
-      <link>https://example.com/article.html?id=tech-humanities-8</link>
-      <guid>https://example.com/article.html?id=tech-humanities-8</guid>
-      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
-      <description>[object Object]</description>
+      <title>当二手交易也被自动回复接管，人与人之间还剩多少摩擦与信任</title>
+      <link>https://example.com/article.html?id=tech-humanities-2026-03-13-3</link>
+      <guid>https://example.com/article.html?id=tech-humanities-2026-03-13-3</guid>
+      <pubDate>Fri, 13 Mar 2026 02:35:00 GMT</pubDate>
+      <description>仅标题，无简介</description>
     </item>
   </channel>
 </rss>

@@ -69,6 +69,13 @@ function escapeXml(value = '') {
     .replace(/'/g, '&apos;');
 }
 
+function pickLocalizedValue(value, lang = 'zh-CN') {
+  if (value == null) return '';
+  if (Array.isArray(value)) return value.map((item) => pickLocalizedValue(item, lang)).filter(Boolean).join('\n\n');
+  if (typeof value !== 'object') return value;
+  return value[lang] || value['zh-CN'] || Object.values(value)[0] || '';
+}
+
 function articleUrl(article) {
   const base = (process.env.SITE_BASE_URL || 'https://example.com').replace(/\/$/, '');
   return `${base}/article.html?id=${encodeURIComponent(article.id)}`;
@@ -77,11 +84,15 @@ function articleUrl(article) {
 function renderRss(edition) {
   const base = (process.env.SITE_BASE_URL || 'https://example.com').replace(/\/$/, '');
   const siteTitle = '智潮 / Signal Tide';
-  const siteDescription = edition?.site?.description || 'AI daily edition';
+  const siteDescription = pickLocalizedValue(edition?.site?.description, 'zh-CN') || 'AI daily edition';
   const buildDate = new Date(edition?.edition?.generatedAt || Date.now()).toUTCString();
   const items = (edition.articles || []).map((article) => {
-    const title = article.i18n?.['zh-TW']?.headline || article.headline || '';
-    const description = [article.deck, ...(article.summary || []), article.significance].filter(Boolean).join('\n\n');
+    const title = article.i18n?.['zh-CN']?.headline || pickLocalizedValue(article.headline, 'zh-CN') || '';
+    const description = [
+      article.i18n?.['zh-CN']?.deck || pickLocalizedValue(article.deck, 'zh-CN'),
+      ...(article.i18n?.['zh-CN']?.summary || []).map((item) => pickLocalizedValue(item, 'zh-CN')),
+      article.i18n?.['zh-CN']?.significance || pickLocalizedValue(article.significance, 'zh-CN')
+    ].filter(Boolean).join('\n\n');
     const pubDate = new Date(article.updatedAt || article.publishedAt || edition?.edition?.generatedAt || Date.now()).toUTCString();
     const link = articleUrl(article);
     return `    <item>\n      <title>${escapeXml(title)}</title>\n      <link>${escapeXml(link)}</link>\n      <guid>${escapeXml(link)}</guid>\n      <pubDate>${escapeXml(pubDate)}</pubDate>\n      <description>${escapeXml(description)}</description>\n    </item>`;
