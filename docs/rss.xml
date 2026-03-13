@@ -5,58 +5,218 @@
     <link>https://example.com/</link>
     <description>[object Object]</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 12 Mar 2026 01:10:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 16:13:14 GMT</lastBuildDate>
     <item>
       <title>[object Object]</title>
       <link>https://example.com/article.html?id=openai-responses-api-computer-environment</link>
       <guid>https://example.com/article.html?id=openai-responses-api-computer-environment</guid>
-      <pubDate>Thu, 12 Mar 2026 01:10:00 GMT</pubDate>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
       <description>[object Object]
-
-[object Object]
-
-[object Object]
 
 [object Object]</description>
     </item>
     <item>
       <title>[object Object]</title>
-      <link>https://example.com/article.html?id=google-sheets-gemini-sota</link>
-      <guid>https://example.com/article.html?id=google-sheets-gemini-sota</guid>
-      <pubDate>Thu, 12 Mar 2026 01:10:00 GMT</pubDate>
-      <description>[object Object]
-
-[object Object]
-
-[object Object]
-
-[object Object]</description>
+      <link>https://example.com/article.html?id=gemini-spreadsheets</link>
+      <guid>https://example.com/article.html?id=gemini-spreadsheets</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
     </item>
     <item>
       <title>[object Object]</title>
-      <link>https://example.com/article.html?id=nvidia-26b-open-weight-models</link>
-      <guid>https://example.com/article.html?id=nvidia-26b-open-weight-models</guid>
-      <pubDate>Thu, 12 Mar 2026 01:10:00 GMT</pubDate>
-      <description>[object Object]
-
-[object Object]
-
-[object Object]
-
-[object Object]</description>
+      <link>https://example.com/article.html?id=anthropic-governance-debate</link>
+      <guid>https://example.com/article.html?id=anthropic-governance-debate</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
     </item>
     <item>
       <title>[object Object]</title>
-      <link>https://example.com/article.html?id=anthropic-thinktank-pentagon-fight</link>
-      <guid>https://example.com/article.html?id=anthropic-thinktank-pentagon-fight</guid>
-      <pubDate>Thu, 12 Mar 2026 01:10:00 GMT</pubDate>
-      <description>[object Object]
-
-[object Object]
-
-[object Object]
-
-[object Object]</description>
+      <link>https://example.com/article.html?id=huggingface-hub-infrastructure</link>
+      <guid>https://example.com/article.html?id=huggingface-hub-infrastructure</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=nvidia-open-source-agent-platform</link>
+      <guid>https://example.com/article.html?id=nvidia-open-source-agent-platform</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=localai-unified-framework</link>
+      <guid>https://example.com/article.html?id=localai-unified-framework</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=mlx-apple-ml-framework</link>
+      <guid>https://example.com/article.html?id=mlx-apple-ml-framework</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=openrlhf-training-framework</link>
+      <guid>https://example.com/article.html?id=openrlhf-training-framework</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=nist-agent-standards-initiative</link>
+      <guid>https://example.com/article.html?id=nist-agent-standards-initiative</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=google-agent-scaling-science</link>
+      <guid>https://example.com/article.html?id=google-agent-scaling-science</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=speciesnet-conservation-workflow</link>
+      <guid>https://example.com/article.html?id=speciesnet-conservation-workflow</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=multimodal-temporal-understanding</link>
+      <guid>https://example.com/article.html?id=multimodal-temporal-understanding</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=edge-ai-chip-power</link>
+      <guid>https://example.com/article.html?id=edge-ai-chip-power</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=neuro-symbolic-ai-resurgence</link>
+      <guid>https://example.com/article.html?id=neuro-symbolic-ai-resurgence</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=deep-insight-1</link>
+      <guid>https://example.com/article.html?id=deep-insight-1</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=deep-insight-2</link>
+      <guid>https://example.com/article.html?id=deep-insight-2</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=deep-insight-3</link>
+      <guid>https://example.com/article.html?id=deep-insight-3</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=deep-insight-4</link>
+      <guid>https://example.com/article.html?id=deep-insight-4</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=deep-insight-5</link>
+      <guid>https://example.com/article.html?id=deep-insight-5</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=deep-insight-6</link>
+      <guid>https://example.com/article.html?id=deep-insight-6</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=deep-insight-7</link>
+      <guid>https://example.com/article.html?id=deep-insight-7</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=deep-insight-8</link>
+      <guid>https://example.com/article.html?id=deep-insight-8</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=tech-humanities-1</link>
+      <guid>https://example.com/article.html?id=tech-humanities-1</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=tech-humanities-2</link>
+      <guid>https://example.com/article.html?id=tech-humanities-2</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=tech-humanities-3</link>
+      <guid>https://example.com/article.html?id=tech-humanities-3</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=tech-humanities-4</link>
+      <guid>https://example.com/article.html?id=tech-humanities-4</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=tech-humanities-5</link>
+      <guid>https://example.com/article.html?id=tech-humanities-5</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=tech-humanities-6</link>
+      <guid>https://example.com/article.html?id=tech-humanities-6</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=tech-humanities-7</link>
+      <guid>https://example.com/article.html?id=tech-humanities-7</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
+    </item>
+    <item>
+      <title>[object Object]</title>
+      <link>https://example.com/article.html?id=tech-humanities-8</link>
+      <guid>https://example.com/article.html?id=tech-humanities-8</guid>
+      <pubDate>Thu, 12 Mar 2026 16:13:14 GMT</pubDate>
+      <description>[object Object]</description>
     </item>
   </channel>
 </rss>

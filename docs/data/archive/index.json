@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-03-12T02:10:13.521Z",
+  "generatedAt": "2026-03-12T03:30:00.000Z",
   "items": [
     {
       "date": "2026-03-12",
       "displayDate": "2026年3月12日",
-      "articleCount": 4,
+      "articleCount": 8,
       "leadId": "openai-responses-api-computer-environment",
-      "leadHeadline": "OpenAI 让 Responses API 获得计算机环境，从模型到代理的实质性一步",
+      "leadHeadline": "Responses API 往真正的代理系统迈了一步",
       "note": "保存当日首页版面与详情内容。"
     },
     {

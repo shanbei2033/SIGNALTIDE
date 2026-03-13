@@ -183,10 +183,10 @@ function renderEditorRail(container) {
   container.append(el('div', 'section-label', t('ui.projects')));
 
   const projects = [
+    { key: 'ollama', url: 'https://ollama.com/' },
+    { key: 'langchain', url: 'https://www.langchain.com/' },
     { key: 'promptfoo', url: 'https://github.com/promptfoo/promptfoo' },
-    { key: 'openhands', url: 'https://github.com/All-Hands-AI/OpenHands' },
-    { key: 'continue', url: 'https://github.com/continuedev/continue' },
-    { key: 'langfuse', url: 'https://github.com/langfuse/langfuse' }
+    { key: 'huggingface', url: 'https://huggingface.co/' }
   ];
 
   for (const project of projects) {
