@@ -18,17 +18,17 @@
     "i18n": {}
   },
   "edition": {
-    "id": "2026-03-12",
+    "id": "2026-03-13",
     "issueNumber": 5,
-    "date": "2026-03-12",
-    "displayDate": "2026年3月12日",
-    "generatedAt": "2026-03-12T16:13:14.725Z",
-    "mode": "manual",
+    "date": "2026-03-13",
+    "displayDate": "2026年3月13日",
+    "generatedAt": "2026-03-13T02:21:14.218Z",
+    "mode": "auto",
     "lead": "openai-responses-api-computer-environment",
     "editorNote": {
-      "zh-CN": "本期为测试新版配置，包含新增栏目。",
-      "zh-TW": "本期為測試新版配置，包含新增欄目。",
-      "en": "This edition tests the new configuration with additional sections."
+      "zh-CN": "本期为自动化生成的最新AI新闻日报。",
+      "zh-TW": "本期為自動化生成的最新AI新聞日報。",
+      "en": "This edition is automatically generated with the latest AI news."
     },
     "i18n": {}
   },
@@ -92,230 +92,102 @@
   ],
   "articles": [
     {
-      "id": "openai-responses-api-computer-environment",
+      "id": "headline-2026-03-13",
       "section": "lead",
       "category": {
-        "zh-CN": "代理基础设施",
-        "zh-TW": "代理基礎設施",
-        "en": "Agent Infrastructure"
+        "zh-CN": "重大进展",
+        "zh-TW": "重大進展",
+        "en": "Major Development"
       },
       "headline": {
-        "zh-CN": "Responses API 往真正的代理系统迈了一步",
-        "zh-TW": "Responses API 往真正的代理系統邁了一步",
-        "en": "Responses API Takes a Step Towards a True Agent System"
+        "zh-CN": "【今日头条】等待AI新闻抓取...",
+        "zh-TW": "【今日頭條】等待AI新聞抓取...",
+        "en": "[Breaking] Waiting for AI news collection..."
       },
       "deck": {
-        "zh-CN": "OpenAI 将 Responses API 与 shell 工具、托管容器结合，构建可运行安全、可扩展代理的运行时环境。",
-        "zh-TW": "OpenAI 將 Responses API 與 shell 工具、託管容器結合，構建可運行安全、可擴展代理的運行時環境。",
-        "en": "OpenAI combines Responses API with shell tools and hosted containers to build a runtime environment for secure, scalable agents."
-      },
-      "summary": [
-        {
-          "zh-CN": "OpenAI 公布了 Responses API 的新进展：通过集成 shell 工具和托管容器，开发者现在可以构建具有文件访问、工具使用和状态保持能力的代理系统。",
-          "zh-TW": "OpenAI 公佈了 Responses API 的新進展：通過集成 shell 工具和託管容器，開發者現在可以構建具有文件訪問、工具使用和狀態保持能力的代理系統。",
-          "en": "OpenAI announced new progress with Responses API: by integrating shell tools and hosted containers, developers can now build agent systems with file access, tool usage, and state persistence."
-        }
-      ]
+        "zh-CN": "智潮正在自动抓取和整理今天的AI新闻，请稍后查看完整内容。",
+        "zh-TW": "智潮正在自動抓取和整理今天的AI新聞，請稍後查看完整內容。",
+        "en": "Signal Tide is automatically collecting and organizing today's AI news. Please check back later for complete content."
+      }
     },
     {
-      "id": "gemini-spreadsheets",
+      "id": "company-2026-03-13-1",
       "section": "company",
       "category": {
-        "zh-CN": "办公与自动化",
-        "zh-TW": "辦公與自動化",
-        "en": "Office & Automation"
+        "zh-CN": "公司动态",
+        "zh-TW": "公司動態",
+        "en": "Company News"
       },
       "headline": {
-        "zh-CN": "Gemini 想把电子表格也吃下来",
-        "zh-TW": "Gemini 想把電子表格也吃下來",
-        "en": "Gemini Wants to Devour Spreadsheets Too"
+        "zh-CN": "等待今日新闻更新...",
+        "zh-TW": "等待今日新聞更新...",
+        "en": "Waiting for today's news update..."
       },
       "deck": {
-        "zh-CN": "谷歌正在测试 Gemini 与 Google Sheets 的深度集成，目标是让 AI 直接理解表格数据并执行复杂分析。",
-        "zh-TW": "谷歌正在測試 Gemini 與 Google Sheets 的深度集成，目標是讓 AI 直接理解表格數據並執行複雜分析。",
-        "en": "Google is testing deep integration of Gemini with Google Sheets, aiming to let AI directly understand spreadsheet data and perform complex analysis."
+        "zh-CN": "内容正在自动生成中",
+        "zh-TW": "內容正在自動生成中",
+        "en": "Content is being automatically generated"
       }
     },
     {
-      "id": "anthropic-governance-debate",
+      "id": "policy-2026-03-13-1",
       "section": "policy",
       "category": {
-        "zh-CN": "治理与政策",
-        "zh-TW": "治理與政策",
-        "en": "Governance & Policy"
+        "zh-CN": "政策更新",
+        "zh-TW": "政策更新",
+        "en": "Policy Update"
       },
       "headline": {
-        "zh-CN": "Anthropic 把争议推进到治理层",
-        "zh-TW": "Anthropic 把爭議推進到治理層",
-        "en": "Anthropic Pushes Controversy to the Governance Level"
+        "zh-CN": "等待今日新闻更新...",
+        "zh-TW": "等待今日新聞更新...",
+        "en": "Waiting for today's news update..."
       },
       "deck": {
-        "zh-CN": "Anthropic 的最新治理框架引发了关于 AI 公司决策透明度和问责制的讨论。",
-        "zh-TW": "Anthropic 的最新治理框架引發了關於 AI 公司決策透明度和問責制的討論。",
-        "en": "Anthropic's latest governance framework has sparked discussions about decision-making transparency and accountability in AI companies."
+        "zh-CN": "内容正在自动生成中",
+        "zh-TW": "內容正在自動生成中",
+        "en": "Content is being automatically generated"
       }
     },
     {
-      "id": "huggingface-hub-infrastructure",
+      "id": "tools-2026-03-13-1",
       "section": "tools",
       "category": {
-        "zh-CN": "开源生态",
-        "zh-TW": "開源生態",
-        "en": "Open Source Ecosystem"
+        "zh-CN": "工具发布",
+        "zh-TW": "工具發佈",
+        "en": "Tool Release"
       },
       "headline": {
-        "zh-CN": "Hugging Face 正把 Hub 往基础设施做",
-        "zh-TW": "Hugging Face 正把 Hub 往基礎設施做",
-        "en": "Hugging Face is Turning Hub into Infrastructure"
+        "zh-CN": "等待今日新闻更新...",
+        "zh-TW": "等待今日新聞更新...",
+        "en": "Waiting for today's news update..."
       },
       "deck": {
-        "zh-CN": "Hugging Face Hub 正在从模型仓库演变为全面的 MLOps 基础设施。",
-        "zh-TW": "Hugging Face Hub 正在從模型倉庫演變為全面的 MLOps 基礎設施。",
-        "en": "Hugging Face Hub is evolving from a model repository to comprehensive MLOps infrastructure."
+        "zh-CN": "内容正在自动生成中",
+        "zh-TW": "內容正在自動生成中",
+        "en": "Content is being automatically generated"
       }
     },
     {
-      "id": "nvidia-open-source-agent-platform",
-      "section": "tools",
-      "category": {
-        "zh-CN": "开发者生态",
-        "zh-TW": "開發者生態",
-        "en": "Developer Ecosystem"
-      },
-      "headline": {
-        "zh-CN": "NVIDIA 还想做开源 agent 平台",
-        "zh-TW": "NVIDIA 還想做開源 agent 平台",
-        "en": "NVIDIA Still Wants to Build an Open Source Agent Platform"
-      }
-    },
-    {
-      "id": "localai-unified-framework",
-      "section": "tools",
-      "category": {
-        "zh-CN": "开源框架",
-        "zh-TW": "開源框架",
-        "en": "Open Source Framework"
-      },
-      "headline": {
-        "zh-CN": "LocalAI：在本地运行多种开源大模型的统一框架",
-        "zh-TW": "LocalAI：在本地運行多種開源大模型的統一框架",
-        "en": "LocalAI: A Unified Framework for Running Multiple Open Source LLMs Locally"
-      }
-    },
-    {
-      "id": "mlx-apple-ml-framework",
-      "section": "tools",
-      "category": {
-        "zh-CN": "苹果生态",
-        "zh-TW": "蘋果生態",
-        "en": "Apple Ecosystem"
-      },
-      "headline": {
-        "zh-CN": "MLX：苹果的机器学习框架开始在研究社区获得关注",
-        "zh-TW": "MLX：蘋果的機器學習框架開始在研究社區獲得關注",
-        "en": "MLX: Apple's Machine Learning Framework Gains Attention in Research Community"
-      }
-    },
-    {
-      "id": "openrlhf-training-framework",
-      "section": "tools",
-      "category": {
-        "zh-CN": "对齐技术",
-        "zh-TW": "對齊技術",
-        "en": "Alignment Technology"
-      },
-      "headline": {
-        "zh-CN": "OpenRLHF：完全开源的RLHF训练框架，降低对齐成本",
-        "zh-TW": "OpenRLHF：完全開源的RLHF訓練框架，降低對齊成本",
-        "en": "OpenRLHF: Fully Open Source RLHF Training Framework, Reducing Alignment Costs"
-      }
-    },
-    {
-      "id": "nist-agent-standards-initiative",
+      "id": "impact-2026-03-13-1",
       "section": "impact",
       "category": {
-        "zh-CN": "标准与安全",
-        "zh-TW": "標準與安全",
-        "en": "Standards & Security"
+        "zh-CN": "研究进展",
+        "zh-TW": "研究進展",
+        "en": "Research Progress"
       },
       "headline": {
-        "zh-CN": "NIST 开始给 agent system 立规矩",
-        "zh-TW": "NIST 開始給 agent system 立規矩",
-        "en": "NIST Begins Setting Rules for Agent Systems"
+        "zh-CN": "等待今日新闻更新...",
+        "zh-TW": "等待今日新聞更新...",
+        "en": "Waiting for today's news update..."
+      },
+      "deck": {
+        "zh-CN": "内容正在自动生成中",
+        "zh-TW": "內容正在自動生成中",
+        "en": "Content is being automatically generated"
       }
     },
     {
-      "id": "google-agent-scaling-science",
-      "section": "impact",
-      "category": {
-        "zh-CN": "研究与方法",
-        "zh-TW": "研究與方法",
-        "en": "Research & Methods"
-      },
-      "headline": {
-        "zh-CN": "Google 想研究清楚 agent 为什么有用",
-        "zh-TW": "Google 想研究清楚 agent 為什麼有用",
-        "en": "Google Wants to Study Why Agents Are Useful"
-      }
-    },
-    {
-      "id": "speciesnet-conservation-workflow",
-      "section": "impact",
-      "category": {
-        "zh-CN": "应用与开源",
-        "zh-TW": "應用與開源",
-        "en": "Applications & Open Source"
-      },
-      "headline": {
-        "zh-CN": "SpeciesNet 让\"AI for good\"没那么空",
-        "zh-TW": "SpeciesNet 讓「AI for good」沒那麼空",
-        "en": "SpeciesNet Makes \"AI for good\" Feel Less Empty"
-      }
-    },
-    {
-      "id": "multimodal-temporal-understanding",
-      "section": "impact",
-      "category": {
-        "zh-CN": "技术演进",
-        "zh-TW": "技術演進",
-        "en": "Technology Evolution"
-      },
-      "headline": {
-        "zh-CN": "多模态大模型开始理解时间维度，视频生成质量显著提升",
-        "zh-TW": "多模態大模型開始理解時間維度，視頻生成質量顯著提升",
-        "en": "Multimodal LLMs Begin to Understand Time Dimensions, Video Generation Quality Significantly Improves"
-      }
-    },
-    {
-      "id": "edge-ai-chip-power",
-      "section": "impact",
-      "category": {
-        "zh-CN": "硬件突破",
-        "zh-TW": "硬件突破",
-        "en": "Hardware Breakthrough"
-      },
-      "headline": {
-        "zh-CN": "边缘AI芯片功耗降至1W以下，端侧智能迎来爆发前夜",
-        "zh-TW": "邊緣AI芯片功耗降至1W以下，端側智能迎來爆發前夜",
-        "en": "Edge AI Chip Power Consumption Drops Below 1W, On-Device Intelligence Approaches Breakout"
-      }
-    },
-    {
-      "id": "neuro-symbolic-ai-resurgence",
-      "section": "impact",
-      "category": {
-        "zh-CN": "研究方法",
-        "zh-TW": "研究方法",
-        "en": "Research Methods"
-      },
-      "headline": {
-        "zh-CN": "神经符号AI重新受关注，解决大模型的逻辑推理短板",
-        "zh-TW": "神經符號AI重新受關注，解決大模型的邏輯推理短板",
-        "en": "Neuro-Symbolic AI Regains Attention, Addressing LLMs' Logical Reasoning Shortcomings"
-      }
-    },
-    {
-      "id": "deep-insight-1",
+      "id": "insight-2026-03-13-1",
       "section": "insight",
       "category": {
         "zh-CN": "行业分析",
@@ -334,7 +206,7 @@
       }
     },
     {
-      "id": "deep-insight-2",
+      "id": "insight-2026-03-13-2",
       "section": "insight",
       "category": {
         "zh-CN": "市场趋势",
@@ -353,7 +225,7 @@
       }
     },
     {
-      "id": "deep-insight-3",
+      "id": "insight-2026-03-13-3",
       "section": "insight",
       "category": {
         "zh-CN": "技术演进",
@@ -372,7 +244,7 @@
       }
     },
     {
-      "id": "deep-insight-4",
+      "id": "insight-2026-03-13-4",
       "section": "insight",
       "category": {
         "zh-CN": "市场分析",
@@ -391,7 +263,7 @@
       }
     },
     {
-      "id": "deep-insight-5",
+      "id": "insight-2026-03-13-5",
       "section": "insight",
       "category": {
         "zh-CN": "企业实践",
@@ -410,64 +282,7 @@
       }
     },
     {
-      "id": "deep-insight-6",
-      "section": "insight",
-      "category": {
-        "zh-CN": "投资趋势",
-        "zh-TW": "投資趨勢",
-        "en": "Investment Trends"
-      },
-      "headline": {
-        "zh-CN": "VC投资策略转向：从追求技术突破到关注商业落地",
-        "zh-TW": "VC投資策略轉向：從追求技術突破到關注商業落地",
-        "en": "VC Investment Strategy Shifts: From Pursuing Technological Breakthroughs to Focusing on Commercial Implementation"
-      },
-      "deck": {
-        "zh-CN": "仅标题，无简介",
-        "zh-TW": "僅標題，無簡介",
-        "en": "Title only, no description"
-      }
-    },
-    {
-      "id": "deep-insight-7",
-      "section": "insight",
-      "category": {
-        "zh-CN": "人才市场",
-        "zh-TW": "人才市場",
-        "en": "Talent Market"
-      },
-      "headline": {
-        "zh-CN": "AI人才薪酬趋于理性，初级岗位竞争加剧",
-        "zh-TW": "AI人才薪酬趨於理性，初級崗位競爭加劇",
-        "en": "AI Talent Salaries Become More Rational, Competition for Entry-Level Positions Intensifies"
-      },
-      "deck": {
-        "zh-CN": "仅标题，无简介",
-        "zh-TW": "僅標題，無簡介",
-        "en": "Title only, no description"
-      }
-    },
-    {
-      "id": "deep-insight-8",
-      "section": "insight",
-      "category": {
-        "zh-CN": "全球格局",
-        "zh-TW": "全球格局",
-        "en": "Global Landscape"
-      },
-      "headline": {
-        "zh-CN": "中美欧AI监管路径分化，企业面临多轨合规挑战",
-        "zh-TW": "中美歐AI監管路徑分化，企業面臨多軌合規挑戰",
-        "en": "US-China-EU AI Regulatory Paths Diverge, Companies Face Multi-Track Compliance Challenges"
-      },
-      "deck": {
-        "zh-CN": "仅标题，无简介",
-        "zh-TW": "僅標題，無簡介",
-        "en": "Title only, no description"
-      }
-    },
-    {
-      "id": "tech-humanities-1",
+      "id": "tech-humanities-2026-03-13-1",
       "section": "tech-humanities",
       "category": {
         "zh-CN": "社会影响",
@@ -486,7 +301,7 @@
       }
     },
     {
-      "id": "tech-humanities-2",
+      "id": "tech-humanities-2026-03-13-2",
       "section": "tech-humanities",
       "category": {
         "zh-CN": "协作模式",
@@ -505,7 +320,7 @@
       }
     },
     {
-      "id": "tech-humanities-3",
+      "id": "tech-humanities-2026-03-13-3",
       "section": "tech-humanities",
       "category": {
         "zh-CN": "伦理实践",
@@ -524,7 +339,7 @@
       }
     },
     {
-      "id": "tech-humanities-4",
+      "id": "tech-humanities-2026-03-13-4",
       "section": "tech-humanities",
       "category": {
         "zh-CN": "远程协作",
@@ -543,7 +358,7 @@
       }
     },
     {
-      "id": "tech-humanities-5",
+      "id": "tech-humanities-2026-03-13-5",
       "section": "tech-humanities",
       "category": {
         "zh-CN": "决策机制",
@@ -554,63 +369,6 @@
         "zh-CN": "技术决策中的\"人性时刻\"：数据无法告诉你的那些事",
         "zh-TW": "技術決策中的「人性時刻」：數據無法告訴你的那些事",
         "en": "The \"Human Moments\" in Technical Decisions: What Data Cannot Tell You"
-      },
-      "deck": {
-        "zh-CN": "仅标题，无简介",
-        "zh-TW": "僅標題，無簡介",
-        "en": "Title only, no description"
-      }
-    },
-    {
-      "id": "tech-humanities-6",
-      "section": "tech-humanities",
-      "category": {
-        "zh-CN": "教育变革",
-        "zh-TW": "教育變革",
-        "en": "Education Transformation"
-      },
-      "headline": {
-        "zh-CN": "AI编程助手如何改变计算机教育：从语法教学到问题解决",
-        "zh-TW": "AI編程助手如何改變計算機教育：從語法教學到問題解決",
-        "en": "How AI Programming Assistants Change Computer Education: From Syntax Teaching to Problem Solving"
-      },
-      "deck": {
-        "zh-CN": "仅标题，无简介",
-        "zh-TW": "僅標題，無簡介",
-        "en": "Title only, no description"
-      }
-    },
-    {
-      "id": "tech-humanities-7",
-      "section": "tech-humanities",
-      "category": {
-        "zh-CN": "文化遗产",
-        "zh-TW": "文化遺產",
-        "en": "Cultural Heritage"
-      },
-      "headline": {
-        "zh-CN": "用AI修复古籍与艺术品：技术在文化保护中的新角色",
-        "zh-TW": "用AI修復古籍與藝術品：技術在文化保護中的新角色",
-        "en": "Using AI to Restore Ancient Books and Artworks: Technology's New Role in Cultural Preservation"
-      },
-      "deck": {
-        "zh-CN": "仅标题，无简介",
-        "zh-TW": "僅標題，無簡介",
-        "en": "Title only, no description"
-      }
-    },
-    {
-      "id": "tech-humanities-8",
-      "section": "tech-humanities",
-      "category": {
-        "zh-CN": "心理影响",
-        "zh-TW": "心理影響",
-        "en": "Psychological Impact"
-      },
-      "headline": {
-        "zh-CN": "长期与AI协作的程序员：工作满意度的新变化",
-        "zh-TW": "長期與AI協作的程序員：工作滿意度的新變化",
-        "en": "Programmers Working Long-Term with AI: New Changes in Job Satisfaction"
       },
       "deck": {
         "zh-CN": "仅标题，无简介",
