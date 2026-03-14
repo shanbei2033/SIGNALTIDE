@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-03-13T02:40:58Z",
+  "generatedAt": "2026-03-14T02:00:00Z",
   "items": [
+    {
+      "date": "2026-03-14",
+      "displayDate": "2026年3月14日",
+      "articleCount": 17,
+      "leadId": "openai-prompt-injection-defense",
+      "leadHeadline": "OpenAI 把代理安全的重心，从“识别坏提示”改成“限制坏后果”",
+      "note": "保存当日首页版面与详情内容。"
+    },
     {
       "date": "2026-03-13",
       "displayDate": "2026年3月13日",
