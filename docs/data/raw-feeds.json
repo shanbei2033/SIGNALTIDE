@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T02:00:34.760Z",
+  "generatedAt": "2026-03-16T02:00:38.734Z",
   "items": [
     {
       "source": "OpenAI",
@@ -89,24 +89,24 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "How Descript enables multilingual video dubbing at scale",
-      "link": "https://openai.com/index/descript",
-      "publishedAt": "2026-03-06T10:00:00.000Z",
-      "contentSnippet": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
-      "categories": [
-        "API"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
       "title": "Codex Security: now in research preview ",
       "link": "https://openai.com/index/codex-security-now-in-research-preview",
       "publishedAt": "2026-03-06T10:00:00.000Z",
       "contentSnippet": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
       "categories": [
         "Product"
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "How Descript enables multilingual video dubbing at scale",
+      "link": "https://openai.com/index/descript",
+      "publishedAt": "2026-03-06T10:00:00.000Z",
+      "contentSnippet": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages.",
+      "categories": [
+        "API"
       ]
     },
     {
@@ -125,24 +125,24 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "GPT-5.4 Thinking System Card",
-      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
-      "publishedAt": "2026-03-05T10:00:00.000Z",
-      "contentSnippet": "",
-      "categories": [
-        "Publication"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
       "title": "Introducing GPT-5.4",
       "link": "https://openai.com/index/introducing-gpt-5-4",
       "publishedAt": "2026-03-05T10:00:00.000Z",
       "contentSnippet": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
       "categories": [
         "Product"
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "GPT-5.4 Thinking System Card",
+      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "publishedAt": "2026-03-05T10:00:00.000Z",
+      "contentSnippet": "",
+      "categories": [
+        "Publication"
       ]
     },
     {
@@ -707,6 +707,77 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Google, Accel India accelerator choses 5 startups and none are ‘AI wrappers’",
+      "link": "https://techcrunch.com/2026/03/15/google-and-accel-cut-through-wrappers-in-4000-ai-startup-pitches-to-pick-five-tied-to-india/",
+      "publishedAt": "2026-03-16T00:30:00.000Z",
+      "contentSnippet": "Google and Accel say about 70% of AI startup pitches tied to India were \"wrappers\" as they reviewed more than 4,000 applications for their Atoms cohort.",
+      "categories": [
+        "Startups",
+        "Venture",
+        "AI",
+        "Accel",
+        "Google",
+        "Google AI Futures Fund"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "ByteDance reportedly pauses global launch of its Seedance 2.0 video generator",
+      "link": "https://techcrunch.com/2026/03/15/bytedance-reportedly-pauses-global-launch-of-its-seedance-2-0-video-generator/",
+      "publishedAt": "2026-03-15T21:01:51.000Z",
+      "contentSnippet": "The company is reportedly delaying the launch as its engineers and lawyers work to avert further legal issues.",
+      "categories": [
+        "AI",
+        "Media & Entertainment",
+        "bytedance",
+        "seedance"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Lawyer behind AI psychosis cases warns of mass casualty risks",
+      "link": "https://techcrunch.com/2026/03/15/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
+      "publishedAt": "2026-03-15T18:49:32.000Z",
+      "contentSnippet": "AI chatbots have been linked to suicides for years. Now one lawyer says they are showing up in mass casualty cases too, and the technology is moving faster than the safeguards.",
+      "categories": [
+        "AI",
+        "ai delusions",
+        "ai psychosis",
+        "ChatGPT",
+        "Exclusive",
+        "gemini",
+        "Google",
+        "OpenAI"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Wiz investor unpacks Google’s $32B acquisition",
+      "link": "https://techcrunch.com/2026/03/15/wiz-investor-unpacks-googles-32b-acquisition/",
+      "publishedAt": "2026-03-15T15:30:33.000Z",
+      "contentSnippet": "Shardul Shah of Index Ventures walks us through Google's biggest acquisition ever.",
+      "categories": [
+        "AI",
+        "Security",
+        "Startups",
+        "Venture",
+        "Equity podcast",
+        "Google",
+        "Index Ventures",
+        "Shardul Shah",
+        "wiz"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
       "title": "US Army announces contract with Anduril worth up to $20B",
       "link": "https://techcrunch.com/2026/03/14/us-army-announces-contract-with-anduril-worth-up-to-20b/",
       "publishedAt": "2026-03-14T20:47:47.000Z",
@@ -770,25 +841,6 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Lawyer behind AI psychosis cases warns of mass casualty risks",
-      "link": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
-      "publishedAt": "2026-03-14T00:01:02.000Z",
-      "contentSnippet": "AI chatbots have been linked to suicides for years. Now one lawyer says they are showing up in mass casualty cases too, and the technology is moving faster than the safeguards.",
-      "categories": [
-        "AI",
-        "ai delusions",
-        "ai psychosis",
-        "ChatGPT",
-        "Exclusive",
-        "gemini",
-        "Google",
-        "OpenAI"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
       "title": "Nyne, founded by a father-son duo, gives AI agents the human context they’re missing",
       "link": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
       "publishedAt": "2026-03-13T21:37:01.000Z",
@@ -830,16 +882,16 @@
       "publishedAt": "2026-03-13T19:38:11.000Z",
       "contentSnippet": "The AI industry is constantly churning out news, like major acquisitions, indie developer successes, public outcry, and existentially dangerous contract negotiations.",
       "categories": [
-        "Startups",
-        "AI",
-        "Apps",
         "Government & Policy",
-        "nvidia",
-        "Meta",
-        "OpenAI",
-        "evergreens",
+        "Apps",
+        "AI",
+        "Startups",
         "openclaw",
-        "moltbook"
+        "moltbook",
+        "nvidia",
+        "evergreens",
+        "OpenAI",
+        "Meta"
       ]
     },
     {
@@ -851,69 +903,21 @@
       "publishedAt": "2026-03-13T17:09:59.000Z",
       "contentSnippet": "Gavriel Cohen is living an open source developer's dream as his project has achieved acclaim and a partnership with Docker in a matter of weeks.",
       "categories": [
-        "AI",
         "TC",
+        "AI",
         "openclaw",
         "NanoClaw"
       ]
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Spotify will let you edit your Taste Profile to control your recommendations",
-      "link": "https://techcrunch.com/2026/03/13/spotify-will-let-you-edit-your-taste-profile-to-control-your-recommendations/",
-      "publishedAt": "2026-03-13T17:04:12.000Z",
-      "contentSnippet": "When you edit your Taste Profile, you'll impact your personalized playlists like Discover Weekly, recommendations, and Wrapped.",
-      "categories": [
-        "AI",
-        "Apps",
-        "Media & Entertainment",
-        "Social",
-        "Spotify",
-        "streaming",
-        "SXSW"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "The $32B acquisition that one VC is calling the ‘Deal of the Decade’",
-      "link": "https://techcrunch.com/video/the-32b-acquisition-that-one-vc-is-calling-the-deal-of-the-decade/",
-      "publishedAt": "2026-03-13T16:20:23.000Z",
-      "contentSnippet": "According to Index Ventures Partner Shardul Shah, cybersecurity startup Wiz sits “at the center of three tailwinds: AI, cloud, and security spend.” Those tailwinds powered what just became the largest venture-backed acquisition in history — Google’s $32 billion deal, finalized after a declined 2024 offer, antitrust review on both sides of the Atlantic, and an […]",
-      "categories": [
-        "AI",
-        "Startups",
-        "Venture",
-        "doge",
-        "Equity Video",
-        "Google acquisition",
-        "M&A",
-        "Meta",
-        "moltbook",
-        "wiz"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Peacock expands into AI-driven video, mobile-first live sports, and gaming",
-      "link": "https://techcrunch.com/2026/03/13/peacock-expands-into-ai-driven-video-mobile-first-live-sports-and-gaming/",
-      "publishedAt": "2026-03-13T14:00:00.000Z",
-      "contentSnippet": "Peacock is betting on new AI-powered video experiences, vertical clips, and mobile games to help its growth.",
-      "categories": [
-        "AI",
-        "Apps",
-        "Media & Entertainment",
-        "Generative AI",
-        "mobile games",
-        "peacock",
-        "short form video",
-        "tv"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "AI companies want to harvest improv actors’ skills to train AI on human emotion",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
+      "publishedAt": "2026-03-15T14:00:00.000Z",
+      "contentSnippet": "If you've got strong creative instincts, the ability to authentically portray emotion, and are capable of staying true to a character's voice throughout a scene, there's a job listing calling for your experience. The catch: You won't be performing in a theater, a film studio, or an underground performance space. You'd be using your talents to train an AI model for \"one of the leading AI companies,\" according to the open role posted by Handshake, a company that provides training data to OpenAI and other labs. Handshake AI is one of a handful of companies of its kind, scrambling to provide more and more niche or specific training data to A … Read the full story at The Verge.",
+      "categories": []
     },
     {
       "source": "The Verge AI",
@@ -1003,16 +1007,6 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/893536/perplexitys-personal-computer-turns-your-spare-mac-into-an-ai-agent",
       "publishedAt": "2026-03-12T12:00:34.000Z",
       "contentSnippet": "Perplexity wants to be more than just an answer engine. On Wednesday, it launched Personal Computer, a new AI agent tool that can turn a spare Mac into a locally run AI system, pitching it as \"a digital proxy for you.\" Personal Computer will run 24/7 on a dedicated device on your local network, have full access to your files and apps, and be controllable from anywhere and on any device, Perplexity said. That deeper access makes it a more personalized version of a similar product Perplexity launched last month, Perplexity Computer, a cluster of agents it described as a \"general-purpose digital worker.\" Perplexity pitches the system as more … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "One of Grammarly’s ‘experts’ is suing the company over its identity-stealing AI feature",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin",
-      "publishedAt": "2026-03-11T22:51:53.000Z",
-      "contentSnippet": "Journalist Julia Angwin is one of the writers whose likeness was used in Grammarly’s “expert review” feature. | Photo: Eóin Noonan / Sportsfile via Getty Images For months, Grammarly has been using the identities of real people (including us) for its \"Expert Review\" AI suggestions without getting their permission, and now it's facing a lawsuit from one of the journalists included, as previously reported by Wired. The class-action complaint filed by journalist Julia Angwin on Wednesday alleges that Superhuman violated the \"experts'\" privacy and publicity rights by breaking laws against using someone's identity for commercial purposes without their consent. Angwin says she found out her identity was used by way of Casey Newton, who is also one of the experts that The Verge uncovered being used by Gra … Read the full story at The Verge.",
       "categories": []
     },
     {
@@ -1880,6 +1874,16 @@
       "source": "LangChain Blog",
       "sourceType": "opensource",
       "feedTitle": "LangChain Blog",
+      "title": "Febraury 2026: LangChain Newsletter",
+      "link": "https://blog.langchain.com/febraury-2026-langchain-newsletter/",
+      "publishedAt": "2026-03-04T00:05:00.000Z",
+      "contentSnippet": "February gave us only twenty-eight days, but we made them count. From new Agent Builder capabilities to production monitoring insights, here's your monthly roundup of updates from the LangChain team. What’s new for LangChain? LangSmith 🔨 Agent Builder now has a central chat with all",
+      "categories": []
+    },
+    {
+      "source": "LangChain Blog",
+      "sourceType": "opensource",
+      "feedTitle": "LangChain Blog",
       "title": "You don’t know what your agent will do until it’s in production",
       "link": "https://blog.langchain.com/you-dont-know-what-your-agent-will-do-until-its-in-production/",
       "publishedAt": "2026-02-26T04:28:00.000Z",
@@ -1914,16 +1918,6 @@
       "link": "https://blog.langchain.com/how-to-use-memory-in-agent-builder/",
       "publishedAt": "2026-02-19T18:28:14.000Z",
       "contentSnippet": "By Jacob Talbot Agent Builder gets better the more you use it because it remembers your feedback. Every correction you make, preference you share, and approach that works well is something that your agent can hold onto and apply the next time. Memory is one of the things that makes",
-      "categories": []
-    },
-    {
-      "source": "LangChain Blog",
-      "sourceType": "opensource",
-      "feedTitle": "LangChain Blog",
-      "title": "New in Agent Builder: all new agent chat, file uploads + tool registry",
-      "link": "https://blog.langchain.com/new-in-agent-builder-all-new-agent-chat-file-uploads-tool-registry/",
-      "publishedAt": "2026-02-18T15:55:08.000Z",
-      "contentSnippet": "Today, we're expanding what you can do with LangSmith Agent Builder. It’s an big update built around a simple idea: working with an agent should feel like working with a teammate. We rebuilt Agent Builder around this idea. There is now an always available agent (”",
       "categories": []
     },
     {
@@ -2075,6 +2069,23 @@
       "source": "OECD AI",
       "sourceType": "policy",
       "error": "Error: Unexpected close tag\nLine: 2633\nColumn: 414\nChar: >"
+    },
+    {
+      "source": "EFF Deeplinks",
+      "sourceType": "policy",
+      "feedTitle": "Deeplinks",
+      "title": "The Foilies 2026",
+      "link": "https://www.eff.org/deeplinks/2026/03/foilies-2026",
+      "publishedAt": "2026-03-15T15:41:02.000Z",
+      "contentSnippet": "Recognizing the Worst in Government Transparency The Foilies were written by EFF's Beryl Lipton, Dave Maass and Aaron Mackey and MuckRock's Dillon Bergin, Kelly Kauffman and Anna Massoglia. For the last six years, a class of journalism students at the University of Nevada, Reno, has kicked off each semester by filing their first Freedom of Information Act (FOIA) requests. The assignment: Request copies of complaints sent to the Federal Communications Commission (FCC) about their favorite TV show, a local radio station, or a major broadcast event, such as the Grammys or the Super Bowl halftime show. The students are learning that the federal government and every state have laws establishing the public's right to request and receive public records. It's a bedrock principle of democracy: If a government belongs to the people, so do its documents. In the past, the FCC always provided records within a few weeks, if not days. But that changed in September when students requested consumer complaints filed against NPR and PBS stations to see if there was absolutely anything at all to merit defunding public media. Seven months later — crickets. Now the students are learning to persevere even when public officials demonstrate an utter disdain for transparency. And The Foilies are here for it. Established in 2015, The Foilies are an annual project by the Electronic Frontier Foundation and MuckRock to recognize the agencies, officials and contractors that thwart the public's right to know. We give out these tongue-in-cheek \"awards\" during Sunshine Week (March 15-21), a collective effort by media and advocacy organizations to highlight the importance of open government. This year, we've got a few \"winners\" whose behavior defies belief. But it's not all negative. Those same Reno students are also assigned to file public records requests for restaurant health inspections. This semester, the records started to show up in their inboxes within 20 minutes. If every agency followed Northern Nevada Public Health's example, we could sunset this Sunshine Week project. Quick links: The Love Letters Award - Gov. Greg Abbott The Surcharge, Eh? Award - Vancouver, B.C. The Shady Screenshot Award - Department of Homeland Security The Discardment of Government Efficiency Award - DOGE The Secret Eyes in the Sky Award - Chula Vista Police Department, Calif. The City of Darkness Award - Richmond, Va. The Flock You Awards - Multiple Winners The Database Deletion Award - Muneeb and Sohaib Akhter, formerly of Opexus The Love Letters Award - Gov. Greg Abbott Last spring, the office of Texas Gov. Greg Abbott withheld communications between himself and one of the state’s most powerful business figures, Elon Musk. The office claimed that the communications were exempt from public records law because they would reveal confidential legal and policy discussions, including how the state entices private companies to do business in Texas, or “intimate and embarrassing” information. The claims were unelaborated boilerplate language based on exemptions in Texas’ public records law. But if you’re wondering what \"intimate\" and “embarrassing” exchanges Abbott and Elon Musk shared over email, you may be waiting a while. Last fall, the Office of the Texas Attorney General ordered Texas Gov. Greg Abbott’s office to release nearly 1,400 pages of communications between Abbott and Musk. About 1,200 of those pages were fully redacted–just sheets of gray obscuration. The records that were released don’t reveal much more than an invitation to a happy hour or a reminder of the next SpaceX launch. The Surcharge, Eh? Award - Vancouver, B.C. Vancouver residents must now pay twice for public records. Despite taxes already funding the creation and storage of government records, the City Council approved charging people $10 Canadian (about $7.33 in the United States) every time they ask for “non-personal” public records. Officials claim the fee is necessary to deter misuse and cover some administrative costs. The only people abusing anything, however, are the officials who imposed this tax on the public. The message Vancouver is sending is as crisp as a newly minted $10 note: Secrecy is a higher priority than public accountability. The Shady Screenshot Award - Department of Homeland Security The Department of Homeland Security’s banner year of lawlessness included backsliding on its transparency obligations. In response to a request from the nonprofit American Oversight, DHS stated that it was no longer automatically archiving text messages sent between officials. The department clarified that it had a new, and much worse, records retention policy. Instead of archiving officials’ text messages as the agency had done before, DHS now asks officials to take screenshots of any text messages conducting government business on their work phones. It’s hard to see the change as anything more than a giant middle finger to the public, especially because the Federal Records Act requires agencies to retain all records officials create while conducting their public duties, regardless of format. We won’t hold our breath waiting on DHS officials to dutifully press the volume and power button on their phones to record every text message they send and receive. The Discardment of Government Efficiency Award - DOGE As the Trump administration took over last year, there was a looming threat over government transparency: the so-called Department of Government Efficiency, also known as DOGE. Billionaire Elon Musk, soon to be the de facto leader of DOGE, proudly claimed “there should be no need for FOIA requests” and “all government data should be default public for maximum transparency.” What quickly became apparent was there may be no need for FOIA requests, because there may be no FOIA officers to fulfill those requests. DOGE quickly went to work slashing through the federal government, including seizing control of the U.S. Institute of Peace. Part of the takeover included restricting access to the agency’s FOIA system and firing the employees responsible for fulfilling FOIA requests, according to a letter sent to Bloomberg reporter Jason Leopold. Meanwhile, when CNN filed a FOIA request with the Office of Personnel Management (OPM) for information about Musk and DOGE's security clearance, they were told: \"Good luck with that,\" because the FOIA officers had been fired. DOGE also argued that its own records are exempt from FOIA under the Presidential Records Act, meaning records cannot be accessed until five years after President Donald Trump is out of office. While DOGE “doesn’t exist” anymore according to the OPM, there remains a lasting dark mark on the state of FOIA and records management. The Secret Eyes in the Sky Award - Chula Vista Police Department, Calif. In 2021, Arturo Castañares at La Prensa San Diego filed a request with the Chula Vista Police Department for copies of videos taken by drones responding to 911 calls as part of the city's \"drone as first responder\" program. One of the goals was to evaluate the technology’s efficacy and risks to civil liberties. The city worked overtime to maintain the secrecy of the footage at the same time officials publicly touted the drones as a revolution in policing. That’s some impressive trust-us-but-don’t-verify chutzpah. The city argued that every second of every video recorded by its drones was categorically off limits because they were law enforcement investigative records. They even got a trial court to initially buy the argument. But an appellate court ruled that the investigatory records exemption is more limited, shielding only drone footage that is part of a criminal investigation or evidence of a suspected crime. Footage of wildfires, car wrecks, wild animal sightings and the like are not criminal investigations and must be disclosed. The California Supreme Court rejected both of CVPD's appeals and a trial court bench slapped the city for inaccurate and incomplete court filings. In the end, the city had to shell out north of $400,000 to its outside lawyers, and then paid Castañares’ lawyers more than $500,000 when he prevailed. So what were Chula Vista police hiding? A bunch of routine service calls, such as unverified reports of a vehicle fire and a vehicle collision. Now, according to La Prensa's reporting, officials are trying to raid a public safety fund created by voters to reimburse the city for the cost of its ill-advised secrecy. The City of Darkness Award - Richmond, Va. Richmond’s creation of a new FOIA Library may seem like a step toward transparency, but there are questions about the city’s commitment after it left the same officials subject to records requests in charge of curating which records might be released. Faced with a plan to post all of the city’s eligible public records released under Virginia’s “sunshine” law, the Richmond City Council instead opted to go with the mayor’s alternative proposal. That plan lets the mayor’s administration — the same one that might be the subject of those records — decide what’s worth posting to the library. Instead of providing access to all public records that the city released under the Virginia Freedom of Information Act, the library will only contain a subset that officials believe meet certain criteria, including records that the administration deems \"relevant\" to city business or that would aid \"accountability.” The city cites concerns that \"transparency without context\" might be too confusing for the average citizen. Forgive us for having more faith in Richmond residents than its leaders do. The city’s secrecy shenanigans extend beyond the FOIA library. In an ongoing legal battle, attorneys representing Richmond asked a judge to prohibit former city FOIA officer Connie Clay from filing FOIA requests seeking information about her firing, and sought a gag order to prevent her from talking about the case. Clay alleges she was fired for insisting the city comply with public records law, describing what she calls a “chaotic and mismanaged” and illegal FOIA request process. Rather than agree to a $250,000 settlement, Richmond has spent more than $633,000 in taxpayer funds on legal costs. The trial and the FOIA library launch are both slated for the summer of 2026. The Flock You Awards - Multiple Winners If you live in one of the 5,000 cities where surveillance vendor Flock Safety claims to have established relationships with local cops, you may have noticed the sudden installation of little black cameras on poles by the side of the road or at intersections. These are automated license plate readers (ALPRs), which document every vehicle that passes within view, including the license plate, color, make, model and other distinguishing characteristics. The images are fed to Flock's servers, and the company encourages police to share the images collected locally with law enforcement throughout the country. Each year, law enforcement agencies across the country conduct tens of millions of searches of each other's databases. In 2025, journalists and privacy advocates started filing public records requests with agencies to get spreadsheets called a \"Network Audit,\" which shows every search, including who ran it and why. Accessing these audits uncovered abuse of the system including: investigating a woman who received an abortion, targeting immigrants, surveilling protesters, and running racist searches targeting Roma people. In response, some cities have terminated their contracts with Flock Safety. Other law enforcement agencies, and Flock itself, have gone a different direction: Taunton Police Department, Mass.: The police department told the ACLU of Massachusetts to cough up $1.8 million if the organization wanted its network audit logs–the highest public records fee we documented this year. The civil liberties group filed requests with agencies throughout the state for the audits, and most agencies handed over the spreadsheets for free and with little fanfare. Taunton, however, said it would take 20,000 hours to process the request, at $86.57 an hour. Orange County Sheriff's Department, Calif.: The Orange County Sheriff gave a number of reasons it wouldn't release the network audit logs in response to a public records request. The most inane (and misspelled one): It would \"disincentive law enforcement from conducting such research.\" Aren't cops the ones who say if you’re not doing anything wrong, you've got nothing to hide? Well, well, well, how the tables have turned. Flock Safety: The company responded to criticisms of its ALPR network by sending legal threats aimed at trying to silence its critics. First, the company used a bogus trademark claim to threaten DeFlock.me–a crowdsourced map of ALPR. (EFF represented its creator.) Then it hired a company to try to get the hosts of HaveIBeenFlocked.com, which hosts an interface for searching these network audits, to remove the site from the internet. The Database Deletion Award - Muneeb and Sohaib Akhter, formerly of Opexus Brothers Muneeb and Sohaib Akhter are accused of essentially hitting delete on government data, destroying access to information contained in millions of records. The government hired a federal contractor called Opexus, which hosts data and provides services to dozens of federal agencies. The company employed the Akhter siblings, though in February 2025, Opexus learned about the brothers’ previous convictions for wire fraud and obstructing justice. Soon after, the company fired the pair. But, according to prosecutors, the two decided to double down on being wildly unsuited for administrative access to government records systems. The Akhters immediately turned around and retaliated “by accessing computers without authorization, issuing commands to prevent others from modifying the databases before deletion, deleting databases, stealing information, and destroying evidence of their unlawful activities,\" according to the U.S. Department of Justice. The two have been accused of deleting 96 government databases, many of which contained FOIA records and sensitive investigative files. Their indictment alleges that a minute later, one brother queried an artificial intelligence tool for “how to clear system logs following the deletion of databases.” The brothers are also charged with stealing government records and conspiracy to commit computer fraud. The Brothers Akhter allegedly took mere moments to destroy untold amounts of information that belonged to the public. Though they could face decades in prison, the public may never know the extent of the damage. Want more FOIA horror stories? Check out The Foilies archives!",
+      "categories": [
+        {
+          "_": "The Foilies: Recognizing the Worst in Government Transparency",
+          "$": {
+            "domain": "https://www.eff.org/issues/foilies"
+          }
+        }
+      ]
     },
     {
       "source": "EFF Deeplinks",
@@ -2275,41 +2286,6 @@
           "_": "Privacy",
           "$": {
             "domain": "https://www.eff.org/issues/privacy"
-          }
-        }
-      ]
-    },
-    {
-      "source": "EFF Deeplinks",
-      "sourceType": "policy",
-      "feedTitle": "Deeplinks",
-      "title": "Admiring Our Heroes for International Women’s Day: Celebrating Women Who Have Received EFF Awards ",
-      "link": "https://www.eff.org/deeplinks/2026/03/admiring-our-heroes-international-womens-day-celebrating-women-who-have-received",
-      "publishedAt": "2026-03-07T00:57:34.000Z",
-      "contentSnippet": "For the last hundred years, women have had pivotal and far too often unsung roles in building and shaping the technology that we now use every day. Many have heard of Ada Lovelace’s contributions to computer programming, but far fewer know Mary Allen Wilkes, a prominent modern programmer who wrote much of the software for the LINC, one of the world’s first interactive personal computers (it could fit in a single office and cost $40,000, but it was the 60’s). Decades earlier, when the first all-electronic, digital Eniac computer was built in the 40’s, the “software” for it was written by women: Kathleen McNulty, Jean Jennings, Betty Snyder, Marlyn Wescoff, Frances Bilas and Ruth Lichterman. It’s thankfully become more common knowledge that actor and inventor Hedy Lamarr co-created the concept of \"frequency-hopping\" that became a basis for radio systems from cell phones to wireless networking systems. But too few know Laila Ohlgren, who in the 1970’s solved a major problem with the development of mobile networks and phones by recognizing that dialed numbers could be stored and sent all at once with a “call button,” rather than sent one number at a time, which created connection issues before a call was even made. Women in tech deserve more and brighter spotlights. At EFF, we’ve had the honor of celebrating some of our heroes at our annual EFF Awards, including many women who are leading the digital rights community. For International Women’s Day, we’re highlighting the contributions of just a few of these recipients from the last decade, whose work to protect privacy, speech, and creativity online has had a global impact. Carolina Botero (EFF Award Winner, 2024) Carolina Botero is a leader in the fight for digital rights in Latin America. For over a decade, she led the Colombia-based Karisma Foundation and cultivated its regional and international impact. Botero and Karisma helped connect indigenous peoples to the internet and made it possible to contribute content to Wikipedia in their native language, expanding access to both history and modern information. They built alliances to combat disinformation, pushed for legal tools to protect cultural and heritage institutions from digital blackholes, and were, and remain, a necessary voice speaking for human rights in the online world. EFF worked closely with Karisma and Botero to help free Colombian graduate student Diego Gomez, who shared another student’s Master’s thesis with colleagues over the internet. Diego’s story demonstrates what can go wrong when nations enact severe penalties for copyright infringement, and thanks to work from Karisma, many partners, and many EFF supporters, he was cleared of the criminal charges that he faced for this harmless act of sharing scholarly research. Carolina Botero receiving her EFF Award Botero stepped down from the role in 2024, opening the door for a new generation. While her work continues—she’s currently on the advisory board of CELE, the Centro de Estudios en Libertad de Expresión—her EFF Award was well-deserved based on her strong and inspiring legacy for those in Latin America and beyond who advocate for a digital world that enhances rights and empowers the powerless. Learn more about Botero on her EFF Awards page and the recap of the 2024 event. Chelsea Manning (EFF Award Winner, 2017) Chelsea Manning became famous as a whistleblower: In 2010, she disclosed classified Iraq War documents, including a video of the killings of Iraqi civilians and two Reuters reporters by U.S. troops. These documents exposed aspects of U.S. operations in Iraq and Afghanistan that infuriated the public and embarrassed the government. But she is also a transparency and transgender rights advocate, network security expert, author, and former U.S. Army intelligence analyst. Manning joined the military in 2007. Her role as an intelligence analyst to an Army unit in Iraq in 2009 gave her access to classified databases, but more importantly, it gave her a uniquely comprehensive view of the war in Iraq, and she became increasingly disillusioned and frustrated by what she saw, versus what was being shared. In 2010, she approached major news outlets hoping to give information to them that would reveal a new side of the war to the public. Ultimately, she shared the documents with Wikileaks. Manning’s bravery did not end there. When she was arrested a few months later, she endured \"cruel, inhuman and degrading\" treatment, according to the UN Special Rapporteur on torture. She was locked up alone for 23 hours a day over an 11-month period, before her trial. The mistreatment resulted in public outcry and advocacy by organizations like Amnesty International. Even a State Department spokesperson, Philip Crowley, criticized the treatment as \"ridiculous, counterproductive, and stupid,\" and resigned. She was moved to a medium-security facility in April 2011. The government’s charges against Manning were outrageous, but in 2013 she was convicted of 19 of 22 counts as a result of her whistleblowing activities. She became one of fewerthan a dozen people prosecuted for espionage in the entire history of the United States, and she was sentenced to the longest punishment ever imposed on a whistleblower. Then, the day after her conviction, isolated from her community and in all likelihood expecting to remain in prison for years if not decades, she courageously issued a statement identifying herself as a trans woman, which she’d wanted to reveal for years. Over the next several years, while imprisoned, she became an advocate both for government transparency and for transgender rights. Her conviction and sentence pointed to the need for legal reform of both the Computer Fraud and Abuse Act (CFAA) and the Espionage Act. EFF filed an amicus brief to the U.S. Army Court of Criminal Appeals arguing that the CFAA was never meant to criminalize violations of private policies like those of government systems, and EFF also pushed, and continues to fight for, narrower interpretations of the Espionage Act and stronger protections for whistleblowers, particularly to take into account both the motivation of individuals who pass on documents and the disclosure’s ramifications. Even after President Obama commuted her sentence in 2017, and EFF celebrated her work and her release with an EFF award in September, 2017, her fight wasn’t over. She was imprisoned again twice in 2019 and ultimately fined $256,000 for refusing to testify before grand juries investigating WikiLeaks founder Julian Assange. The U.N. Special Rapporteur on torture again criticized Manning’s treatment, writing that \"the practice of coercive detention appears to be incompatible with the international human rights obligations of the United States.\" Manning was released in 2020 after having spent almost a decade in total imprisoned for her courage. She wrote a memoir, README.txt, in 2022, to take back control over her story. EFF Award Winners Mike Masnick, Annie Game, and Chelsea Manning Annie Game (EFF Award Winner, 2017) Annie Game spent over 16 years as the Executive Director of IFEX, a global network of journalism and civil liberties organizations working together to defend freedom of expression. IFEX (formerly International Freedom of Expression Exchange) began in the 1990s, when a group of organizations and the Canadian Committee to Protect Journalists came together to consider how to respond as a single voice to free-expression violations around the world. IFEX now is a global hub for the protection of free speech and journalism. Game recognized early on that digital rights and freedom of expression groups needed one another. Under her leadership, IFEX paired more traditional free-expression organizations with their more digital counterparts, with a focus on building organizational security capacities. IFEX Initiatives under Game’s leadership have been expansive. For example, the International Day to End Impunity for Crimes against Journalists, November 2, has been an annual wake-up call and reminder for UN member states to live up to their commitments to protecting journalists. UNESCO observed more than 1,700 journalists were killed globally between 2006 and 2024, and nearly 90% of these cases went unsolved in the courts. Game and IFEX have also focused on high-profile cases of journalists threatened by governments for their work, such as Bahey eldin Hassan in Egypt. Bahey is the director of the Cairo Institute for Human Rights Studies (CIHRS) and has advocated for freedom of expression and the basic human rights of Egyptians, but has lived in exile since 2014. The charges against him, of “disseminating false information” and “insulting the judiciary,” are common tactics of intimidation and harassment. Bahey’s supposed crimes were sharing social media posts criticising the Egyptian judiciary’s lack of independence, and speaking about the killing in Egypt of Italian researcher Giulio Regeni. Bahey—an IFEX member—is just one of many reporters and human rights workers in danger when they speak. But when journalists and those defending their rights online speak out as one voice, as IFEX helps them do, it makes a difference. Another initiative has been the Faces of Free Expression project, a partnership between IFEX and the International Free Expression Project. If you’re looking for more heroes, this project details the stories of “risk-takers and change-makers – individuals who put their careers, their freedom, their safety, and sometimes even their lives on the line,” while reporting, or defending free expression and the right to information. Wherever authoritarianism and repression of speech have been on the rise, Game has unapologetically called out injustices and made it safer for journalists to do their work, while ensuring accountability when crimes are committed. The work is more critical now than ever, and since leaving IFEX in 2022, she’s remained an activist while focusing increasingly on environmental protection. Twelve More Heroes EFF has honored many more women with awards over the years—from Anita Borg and Hedy Lamarr to Amy Goodman and Beth Givens. This blog from 2012 looks back and acknowledges the important contributions from twelve more EFF Award winners. We’ve also asked five women at EFF about women in digital rights, freedom of expression, technology, and tech activism who have inspired us. You can read that here. Donate to Support EFF's Work Your donations empower EFF to do even more.",
-      "categories": [
-        {
-          "_": "International",
-          "$": {
-            "domain": "https://www.eff.org/issues/international"
-          }
-        },
-        {
-          "_": "Wikileaks",
-          "$": {
-            "domain": "https://www.eff.org/wikileaks"
-          }
-        },
-        {
-          "_": "Privacy",
-          "$": {
-            "domain": "https://www.eff.org/issues/privacy"
-          }
-        },
-        {
-          "_": "Free Speech",
-          "$": {
-            "domain": "https://www.eff.org/issues/free-speech"
           }
         }
       ]
