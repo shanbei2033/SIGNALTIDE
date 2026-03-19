@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-03-17T02:00:00.000Z",
+  "generatedAt": "2026-03-19T02:00:00.000Z",
   "items": [
+    {
+      "date": "2026-03-19",
+      "displayDate": "2026年3月19日",
+      "articleCount": 18,
+      "leadId": "meta-rogue-ai-agents",
+      "leadHeadline": "Meta 的“失控代理”事故，给企业级 AI 自动化补上了一堂最贵的安全课",
+      "note": "保存当日首页版面与详情内容。"
+    },
+    {
+      "date": "2026-03-18",
+      "displayDate": "2026年3月18日",
+      "articleCount": 18,
+      "leadId": "gpt-5-4-mini-nano",
+      "leadHeadline": "OpenAI 推出 GPT-5.4 mini 和 nano：更快、更便宜，目标直指高并发代理工作流",
+      "note": "保存当日首页版面与详情内容。"
+    },
     {
       "date": "2026-03-17",
       "displayDate": "2026年3月17日",
