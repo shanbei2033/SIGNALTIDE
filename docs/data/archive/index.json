@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-03-19T02:00:00.000Z",
+  "generatedAt": "2026-03-20T02:00:00.000Z",
   "items": [
+    {
+      "date": "2026-03-20",
+      "displayDate": "2026年3月20日",
+      "articleCount": 17,
+      "leadId": "openai-acquires-astral",
+      "leadHeadline": "OpenAI 收购 Astral，把 Python 工具链直接并入 Codex 的工作流野心",
+      "note": "保存当日首页版面与详情内容。"
+    },
     {
       "date": "2026-03-19",
       "displayDate": "2026年3月19日",
