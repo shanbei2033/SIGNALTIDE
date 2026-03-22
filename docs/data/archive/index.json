@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-03-21T02:00:00.000Z",
+  "generatedAt": "2026-03-22T02:00:00.000Z",
   "items": [
+    {
+      "date": "2026-03-22",
+      "displayDate": "2026年3月22日",
+      "articleCount": 20,
+      "leadId": "openai-desktop-superapp",
+      "leadHeadline": "OpenAI 准备做桌面“超级应用”，聊天、编程和浏览器开始被收进同一个入口",
+      "note": "保存当日首页版面与详情内容。"
+    },
     {
       "date": "2026-03-21",
       "displayDate": "2026年3月21日",

@@ -5,177 +5,223 @@
     <link>https://www.signaltide.tech/</link>
     <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Mar 2026 02:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 02:00:00 GMT</lastBuildDate>
     <item>
-      <title>OpenAI 把“自动化研究员”定为北极星，代理竞赛开始从写代码外溢到做研究</title>
-      <link>https://www.signaltide.tech/article.html?id=openai-automated-researcher</link>
-      <guid>https://www.signaltide.tech/article.html?id=openai-automated-researcher</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
-      <description>Jakub Pachocki 说，OpenAI 未来几年的核心目标是做出能长期连贯工作的 AI 研究系统。Codex 不再只是单独的编码产品，而被视作更大研究代理路线的早期形态。
+      <title>OpenAI 准备做桌面“超级应用”，聊天、编程和浏览器开始被收进同一个入口</title>
+      <link>https://www.signaltide.tech/article.html?id=openai-desktop-superapp</link>
+      <guid>https://www.signaltide.tech/article.html?id=openai-desktop-superapp</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>据《华尔街日报》和 The Verge，OpenAI 正把 ChatGPT、Codex 和 Atlas 浏览器整合为单一桌面应用。它想解决的不是功能不够多，而是产品线太散，已经拖慢质量和节奏。
 
-MIT Technology Review 采访 OpenAI 首席科学家 Jakub Pachocki 时披露，公司已经把“AI researcher”定为接下来几年的北极星目标。按 OpenAI 的说法，先要在今年 9 月前做出一个能独立接手少量研究任务的“自动化研究实习生”，再逐步推进到 2028 年面向更复杂问题的多代理研究系统。
+The Verge 援引《华尔街日报》称，OpenAI 正筹备一款桌面“超级应用”，把 ChatGPT 应用、Codex 编程工具和 Atlas 浏览器并到同一层体验里。应用平台主管 Fidji Simo 在内部备忘录里把问题说得很直接：产品碎片化已经拖慢团队，也拉低了质量线。
 
-这件事值得当头版，不只是因为 OpenAI 又画了一个更大的饼，而是它把过去分散的几条线重新收束到一起：推理模型、编码代理、可解释性和长时任务执行，都被重新解释成同一条路线。过去大家讨论代理，往往还停留在“能不能帮你点网页、写脚本”，现在最激进的模型公司已经把目标升级成“能不能持续推进真实研究工作”。
+这意味着 OpenAI 的竞争焦点正在从“不断冒出新 app”转向“重新夺回主入口”。过去一年它同时铺开视频、硬件、浏览器和编程代理，声量很大，但也让使用路径越来越分散。现在把聊天、代码和浏览器收回同一个桌面容器，本质上是在押注：未来的 AI 操作系统不是一堆并列工具，而是一个可持续停留的工作台。
 
-如果 OpenAI 真把研究代理做成产品，代理竞争的衡量标准就会从“谁更像助手”升级成“谁更像一个可被委派长期任务的组织单元”。</description>
+如果桌面超级应用成形，AI 平台竞争就会更像浏览器与操作系统竞争：不是比单次回答，而是比谁能成为默认工作界面。</description>
     </item>
     <item>
-      <title>微软开始收回部分 Copilot 入口，Windows 的 AI 堆料阶段终于碰到消费者反弹</title>
-      <link>https://www.signaltide.tech/article.html?id=microsoft-copilot-rolls-back-windows</link>
-      <guid>https://www.signaltide.tech/article.html?id=microsoft-copilot-rolls-back-windows</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
-      <description>微软宣布会减少 Photos、Widgets、Notepad 和截图工具里的部分 Copilot 集成，并强调要只在“真正有意义”的地方放 AI。这个表述很像一次迟到的产品降噪。
+      <title>Gemini 终于开始替人点外卖和叫车，手机代理第一次显出一点“真能干活”的样子</title>
+      <link>https://www.signaltide.tech/article.html?id=gemini-task-automation-phone</link>
+      <guid>https://www.signaltide.tech/article.html?id=gemini-task-automation-phone</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>The Verge 体验了 Gemini 在 Pixel 和 Galaxy 手机上的任务自动化：它依然很慢、很笨拙，但已经能在后台跨应用完成真实步骤。代理能力第一次不再只是发布会演示。
 
-TechCrunch 报道，微软在一篇关于 Windows 质量改进的博文里明确表示，将更有节制地安排 Copilot 在系统和应用中的出现位置，首批缩减会落在 Photos、Widgets、Notepad 和 Snipping Tool。微软还把这套思路概括成“把 AI 放在最有意义的地方”。
+The Verge 试用的是 Gemini 在 Pixel 10 Pro 和 Galaxy S26 Ultra 上的新任务自动化。当前支持的范围还很窄，主要是叫车和外卖等少数服务，而且整个执行过程明显比人手慢得多，但它已经可以在后台自己点开应用、理解页面、选择商品并推进到确认前一步。
 
-这类调整说明，大厂终于开始承认“有 AI”不等于“更好用”。过去一年，Windows 的 Copilot 推进很像一场品牌涂层工程：哪里都想放一点，但每多一个入口，就多一层打扰、多一层信任门槛。现在微软回头做减法，至少说明消费级操作系统里的 AI 竞争，已经从拼曝光位转向拼是否真的值得被留在默认界面里。
+这条新闻重要，不是因为 Google 现在就做出了完美助手，而是因为它第一次把“代理真的在手机上工作”从概念拉进了日常场景。手机代理过去总像演示型功能：看起来惊艳，却难以复现。现在即便还卡顿、还常走弯路，它也已经证明了一件事——移动端代理的门槛不再是有没有能力，而是体验够不够快、够不够稳。
 
-AI 产品接下来拼的不是覆盖面，而是留存资格：哪些入口值得长期保留，哪些只是在透支用户耐心。</description>
+一旦手机代理开始可靠地接管应用层，Android 和 iPhone 的下一轮竞争就不只是系统功能，而是“谁先把代理做成日常习惯”。</description>
     </item>
     <item>
-      <title>WordPress.com 允许 AI 代理写稿、改稿并发布，机器编辑开始直接接管网站后台</title>
-      <link>https://www.signaltide.tech/article.html?id=wordpress-ai-agents-publish-web</link>
-      <guid>https://www.signaltide.tech/article.html?id=wordpress-ai-agents-publish-web</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
-      <description>WordPress.com 新功能让代理不仅能读站点内容，还能起草页面、处理评论、修元数据和整理分类。过去是 AI 写文章，现在是 AI 被放进 CMS 的操作位。
+      <title>微软开始撤回部分 Copilot 入口，Windows 的 AI 堆料期终于碰到真实反弹</title>
+      <link>https://www.signaltide.tech/article.html?id=microsoft-copilot-rolls-back-windows-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=microsoft-copilot-rolls-back-windows-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>微软将减少 Photos、Widgets、Notepad 等应用里的 Copilot 入口，并强调只在真正有意义的地方放 AI。消费级操作系统里的 AI 竞争，开始从“到处出现”回到“值不值得留下”。
 
-TechCrunch 报道，WordPress.com 现在允许 AI 代理通过自然语言指令起草、编辑和发布内容，也能管理评论、修复 alt text 与元数据，并重组分类和标签。所有动作都依托此前的 MCP 接入能力，让 Claude、ChatGPT、Cursor 等客户端可以更深入地接入站点后台。
+TechCrunch 报道，微软在关于 Windows 质量改进的说明中表示，会更克制地安排 Copilot 在系统与应用里的出现位置，首批缩减落在 Photos、Widgets、Notepad 和截图工具等处。微软把这套思路概括为把 AI 放到“真正有意义”的地方。
 
-这比“AI 帮你写篇文章”要再进一层。内容平台一旦把代理放到后台控制面，网站的生产流程就会被重新拆分：人类更多负责授权、审阅和风格约束，代理负责批量执行和日常维护。对独立站和品牌站来说，这会显著降低运维门槛；对整个网页生态来说，它也很可能继续放大机器生成内容的比例。
+这不是小修小补，而是一种产品语气的转向。过去一年，Windows 上的 Copilot 更像一层到处喷涂的品牌漆：多一个入口，就多一次打扰，也多一层信任要求。现在微软主动做减法，至少说明消费级系统里的 AI 已经进入第二阶段——不再比谁出现得更频繁，而是比谁能留下来。
 
-网页不只是会被 AI 生成，也会被 AI 运营；这会重新定义什么叫“网站管理”。</description>
+AI 产品接下来比的不是覆盖面，而是留存资格：哪些入口值得长期存在，哪些只是透支用户耐心。</description>
     </item>
     <item>
-      <title>Amazon 被曝重做手机，但这次它赌的不是 Fire Phone，而是把 Alexa 直接塞进终端入口</title>
-      <link>https://www.signaltide.tech/article.html?id=amazon-alexa-phone-transformer</link>
-      <guid>https://www.signaltide.tech/article.html?id=amazon-alexa-phone-transformer</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
-      <description>据路透和 The Verge 报道，代号 Transformer 的新机由 ZeroOne 团队推进，重点是把 AI 助手变成手机的中心层。Amazon 想补的不是硬件空白，而是助手缺入口的问题。
+      <title>WordPress.com 允许 AI 代理写稿、改稿并发布，网站后台开始真正向机器开放</title>
+      <link>https://www.signaltide.tech/article.html?id=wordpress-ai-agents-publish-web-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=wordpress-ai-agents-publish-web-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>WordPress.com 把 AI 代理从“能读站点”推进到“能发稿、管评论、修 metadata 和整理分类”。这比 AI 写文章更进一步：机器开始被放进 CMS 的操作位。
 
-The Verge 引述路透消息称，Amazon 正在开发一款代号 Transformer 的手机，由 J Allard 领导的 ZeroOne 团队推进。报道说，团队探索过智能机和“傻瓜机”两种方向，而核心思路都是围绕 Alexa 展开，甚至可能弱化传统应用商店，更多依赖类似 ChatGPT 小程序那样的能力层。
+TechCrunch 报道，WordPress.com 现在允许 AI 代理通过自然语言指令起草、编辑和发布内容，也能批准或回复评论、修复 alt text 与元数据，并重组标签与分类。所有变更都接在此前的 MCP 能力之上，用户可用 Claude、ChatGPT、Cursor 等客户端深入访问站点后台。
 
-这说明语音助手和代理助手的竞争，正在重新碰硬件入口。过去 Alexa 更像一个散落在音箱、电视和家居里的服务，但真正高频、可随身携带、可绑定身份与支付的入口依旧是手机。如果 Amazon 真想让 Alexa Plus 变成持续使用的 AI 助手，它迟早得面对一个问题：没有自己的主入口，助手就只能寄居在别人的操作系统里。
+这意味着网页不只会被 AI 生成，也会被 AI 运营。过去说 AI 写博客，还只是内容层的自动化；现在内容平台把代理直接放进后台控制面，人类更像在做授权、审阅与风格约束，代理则负责日常维护与批量执行。对小网站这会大幅降门槛，对整个网络生态则会继续放大机器内容比例。
 
-谁掌握主入口，谁就更可能把助手从功能升级成习惯；手机依然是最硬的一块入口地盘。</description>
+网页世界接下来不只是“被 AI 写出来”，还会越来越多地“被 AI 管起来”。</description>
     </item>
     <item>
-      <title>法院文件显示五角大楼曾称与 Anthropic“几乎谈拢”，禁用风波更像一次突然政治转向</title>
-      <link>https://www.signaltide.tech/article.html?id=pentagon-anthropic-nearly-aligned</link>
-      <guid>https://www.signaltide.tech/article.html?id=pentagon-anthropic-nearly-aligned</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
-      <description>Anthropic 在法庭文件中称，五角大楼此前并未在谈判中提出所谓“战时可中断服务”的担忧，甚至在风险定性后仍邮件表示双方在关键问题上“非常接近”。
+      <title>Amazon 又被曝在做 Alexa 手机，助手竞争重新回到终端入口之争</title>
+      <link>https://www.signaltide.tech/article.html?id=amazon-alexa-phone-transformer-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=amazon-alexa-phone-transformer-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>据路透和 The Verge，Amazon 正在开发代号 Transformer 的手机项目，由 ZeroOne 团队推进，核心目标不是重做 Fire Phone，而是给 Alexa 找到真正的主入口。
 
-TechCrunch 报道，Anthropic 向加州联邦法院提交的两份宣誓声明中称，五角大楼对其“国家安全风险”的指控存在技术误解，也包含在此前数月谈判中从未提出过的新说法。Anthropic 政策负责人 Sarah Heck 还附上邮件称，在 3 月 4 日，也就是风险定性完成后的第二天，负责谈判的 Emil Michael 仍告诉 Dario Amodei，双方在自主武器和美国人大规模监控这两个核心分歧上已经“非常接近”。
+The Verge 引述路透称，Amazon 正在探索一款代号 Transformer 的手机，由 J Allard 领导的 ZeroOne 团队推进。报道提到团队尝试过智能机和功能机思路，而核心始终围绕 Alexa 展开，甚至可能弱化传统应用商店，转向更像小程序或代理能力层的路径。
 
-如果这些说法成立，那么这场纠纷就不只是一次合同谈崩，而更像一次在政治表态与供应链管制之间突然变调的政府动作。AI 公司和国防系统之间的合作，原本就建立在模糊而脆弱的边界上：既想拿到最强模型，又想要求供应商彻底放弃某些限制。一旦谈判过程与公开说法开始明显脱节，国家安全采购本身也会变得更难预测。
+这条新闻说明，助手竞争最终还是会撞上硬件入口。Alexa 长期散落在音箱、电视和家居里，但最高频、最私密、最能绑定支付和身份的入口仍然是手机。若 Amazon 真想让 Alexa Plus 变成日常助手，它迟早都得解决一个问题：没有自己的主界面，就只能寄居在别人的系统里。
 
-国防系统与模型公司的合作不会只取决于技术和合同条款，还会取决于政治风向能否在谈判之外突然改写规则。</description>
+谁掌握主入口，谁才更有机会把助手从功能做成习惯；手机依旧是最硬的一块地盘。</description>
     </item>
     <item>
-      <title>特朗普政府新的 AI 立法蓝图，再次把重点放在压住州监管而不是扩张联邦约束</title>
-      <link>https://www.signaltide.tech/article.html?id=trump-ai-framework-state-preemption</link>
-      <guid>https://www.signaltide.tech/article.html?id=trump-ai-framework-state-preemption</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
-      <description>白宫最新七点建议支持儿童保护和电力议题，但整体倾向是少管模型公司、压制各州各自立法，并把版权训练争议继续丢给法院。
+      <title>法院文件显示五角大楼曾称与 Anthropic“非常接近”，禁用风波更像一次突然政治转向</title>
+      <link>https://www.signaltide.tech/article.html?id=pentagon-anthropic-nearly-aligned-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=pentagon-anthropic-nearly-aligned-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>Anthropic 向法院提交的声明称，五角大楼此前并未在谈判中提出如今的核心指控，甚至在风险定性后仍邮件表示双方在关键问题上“非常接近”。
 
-The Verge 报道，特朗普政府公布新的 AI 立法蓝图，核心思路是联邦层面只在儿童保护、电力负荷、诈骗等少数议题上出手，同时强调不应允许各州以“互相冲突”的标准限制 AI 开发。文件甚至明确写道，各州不应被允许监管 AI 开发，因为这天然具有跨州和国家安全属性。
+TechCrunch 报道，Anthropic 向加州联邦法院提交两份宣誓声明，反驳五角大楼关于其构成“不可接受国家安全风险”的说法。Anthropic 称，政府当前在法庭上强调的一些指控，例如担忧其会在战时中断服务，在此前数月谈判中根本没有出现。
 
-这意味着联邦政策的重点，仍然不是建立更密的行业义务，而是为模型公司清理监管摩擦。对企业来说，这当然更省事；但从治理角度看，它也把很多难题继续往后拖，比如训练版权边界、平台责任和未成年人保护的执行标准。华盛顿现在给出的答案更像是：先别拦路，让产业冲。
+更关键的是，附件邮件显示在 3 月 4 日，也就是风险定性完成后的次日，负责谈判的官员仍告诉 Dario Amodei，双方在自主武器和美国人大规模监控等核心争点上“非常接近”。如果这一时间线成立，那么这场争端就不只是合同崩盘，而更像国防采购在政治表态与真实谈判之间突然变调。
 
-美国 AI 治理的下一阶段，可能不是“怎么管得更细”，而是“谁先拿到定义监管边界的权力”。</description>
+国防系统与模型公司的合作，接下来不会只看技术与合同条款，还要看政治能否随时改写边界。</description>
     </item>
     <item>
-      <title>LangSmith Fleet 把企业代理的重点从“能生成”改成“能管理”，代理平台开始补最缺的组织层</title>
-      <link>https://www.signaltide.tech/article.html?id=langsmith-fleet-agent-governance</link>
-      <guid>https://www.signaltide.tech/article.html?id=langsmith-fleet-agent-governance</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
-      <description>LangChain 说，代理越来越容易生成，真正难的是身份、凭证、权限、审批和审计。Fleet 不是在炫新代理，而是在补企业真正敢用代理前必须有的治理件。
+      <title>特朗普政府新的 AI 蓝图继续压州监管，美国联邦治理重点仍是别挡产业冲锋</title>
+      <link>https://www.signaltide.tech/article.html?id=trump-ai-framework-state-preemption-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=trump-ai-framework-state-preemption-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>白宫公布新的七点 AI 立法建议，支持有限的儿童保护和电力议题，但主基调仍是压制州级监管，并把训练版权等难题继续交给法院。
 
-LangChain 发布 LangSmith Fleet，定位是一个企业代理工作空间。官方重点不是怎么更快造出代理，而是怎么把代理共享给团队、配置谁能运行或编辑、决定代理以谁的身份访问外部工具，以及把整套行为沉淀成可审计记录。
+The Verge 报道，特朗普政府公布新的 AI 立法蓝图，提出联邦层面应避免大范围 AI 限制，同时阻止各州以彼此冲突的标准限制 AI 开发。方案支持儿童安全、诈骗治理和电力负荷等有限议题，但整体方向非常清楚：先保证国家层面的产业推进。
 
-这说明企业代理市场正在越过最浮躁的一段时期。现在的问题已经不是“大家会不会做一个 demo 代理”，而是这些代理进入真实组织后，谁能看它做了什么、谁为它的动作负责、它拿的究竟是共享凭证还是个人权限。只要这些问题没被产品化，企业代理就很难从试验品变成基础设施。
+这说明美国下一阶段的治理冲突，不是“要不要管”，而是“谁来决定怎么管”。对企业来说，联邦优先当然更省事；但从治理角度看，这也把训练版权、平台责任和未成年人保护的执行细节继续往后拖。华盛顿现在给出的答案仍然更像：先别挡路。
 
-企业真正放权给代理的前提，不是代理更聪明，而是责任、权限和身份足够可见。</description>
+美国 AI 治理的下一步，可能不是规则更细，而是先由谁拿到设定规则边界的权力。</description>
     </item>
     <item>
-      <title>NVIDIA 给出“一天内微调领域 embedding”的路线，RAG 的真正门槛正在被继续压低</title>
-      <link>https://www.signaltide.tech/article.html?id=domain-specific-embedding-one-day</link>
-      <guid>https://www.signaltide.tech/article.html?id=domain-specific-embedding-one-day</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
-      <description>Hugging Face 上的新教程主打单卡、合成数据和现成工具链，把以往零碎且昂贵的 embedding 微调流程重新打包成工程配方。RAG 的竞争正越来越像数据和检索质量竞争。
+      <title>OpenAI 把内部 coding agent 监控流程公开，代理安全开始从原则讨论变成运营体系</title>
+      <link>https://www.signaltide.tech/article.html?id=openai-monitor-internal-coding-agents</link>
+      <guid>https://www.signaltide.tech/article.html?id=openai-monitor-internal-coding-agents</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>OpenAI 介绍了其内部 coding agent 监控系统：用高推理强度模型复盘代理的行动与链路，在 30 分钟内标记潜在越权、误对齐和安全问题。
 
-NVIDIA 在 Hugging Face 博客发布新教程，主张用一张 GPU 和不到一天训练时间，就能把通用 embedding 模型改造成更懂特定领域的检索模型。方案结合合成训练数据、hard negative mining、BEIR 评测和部署工具链，还给出了 NVIDIA 文档的现成样例数据集。
+OpenAI 表示，随着内部部署的 coding agent 拥有更多工具权限和长时任务能力，公司过去几个月一直在搭建一套低延迟监控系统。该系统会分析代理的动作和内部推理链路，对可能偏离用户意图、触碰内部安全或合规边界的行为发出告警。官方称最新版本能在会话结束后 30 分钟内完成审查。
 
-这类东西的重要性在于，它解决的是 RAG 项目里最不性感却最常卡住人的环节。大家总把焦点放在上层大模型和回答效果，但很多企业场景里，真正决定体验的其实是底层检索是否懂你的术语、分类和语义边界。当 embedding 的定制成本持续下降，RAG 的护城河就会进一步从“接了哪个模型”转向“谁更懂自己的数据”。
+这件事的价值不在“OpenAI 有一套内部工具”，而在它首次把代理监控从抽象安全原则写成具体运营流程。随着 agent 逐步接触代码库、权限系统和真实工作流，企业真正缺的不是再多一条原则，而是能不能在部署后持续看见、分级、回滚和修补问题。代理安全正在向安全运营中心那套逻辑靠拢。
 
-一旦检索层越来越容易被定制，企业知识产品的差异化就会更多长在数据组织与语义建模，而不是长在聊天界面上。</description>
+如果代理真的会长期接手真实工作，监控、审计和干预能力会比单次对齐测试更关键。</description>
     </item>
     <item>
-      <title>Cloudflare 预计 2027 年机器人流量超过人类，网页世界正在被代理请求重新定价</title>
-      <link>https://www.signaltide.tech/article.html?id=cloudflare-bot-traffic-2027</link>
-      <guid>https://www.signaltide.tech/article.html?id=cloudflare-bot-traffic-2027</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
-      <description>Matthew Prince 说，一个购物代理可能为了回答一个问题访问 5000 个站点。对网站来说，AI 不是多了个新用户，而是来了成批新负载。
+      <title>LangSmith Fleet 把企业代理重点从“会不会造”改成“会不会管”，组织层补丁终于补上了</title>
+      <link>https://www.signaltide.tech/article.html?id=langsmith-fleet-agent-governance-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=langsmith-fleet-agent-governance-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>LangChain 推出 LangSmith Fleet，重点不是再演示一个新代理，而是把身份、凭证、权限、共享、审批和审计做成企业可用的代理工作台。
 
-TechCrunch 报道，Cloudflare CEO Matthew Prince 在 SXSW 预测，到 2027 年互联网机器人流量可能超过人类流量。他的理由很直接：代理替用户完成搜索、购物或信息整合时，会访问远多于人类手动点击的网站，于是把本来一次需求背后的站点请求量放大到数百甚至上千倍。
+LangChain 表示，过去几个月团队看到一种明确模式：造出一个代理已经不难，真正困难的是组织里谁能运行、谁能编辑、它拿谁的身份访问外部工具、它的行为如何被审计。新发布的 LangSmith Fleet 因此把重点放在权限层、共享层、代理身份与凭证模型，以及需要人工批准的 inbox 流程上。
 
-这件事的关键不只是“机器人更多了”，而是网站的成本结构和接口逻辑都要被改写。过去网页主要服务于人类点击、停留和转化；接下来它们还得考虑如何服务代理抓取、临时沙盒、速率控制与机器可调用接口。互联网并不会消失，但它会越来越像同时面对两类访客的双层系统：人类和代理。
+这很像企业代理市场从演示期进入治理期的标志。公司内部真正会扩散的，不是“会聊天”的那一批 agent，而是那些能被安全共享、能追责、能和 Slack、Notion、Linear 等系统接上且不把权限搞乱的 agent。Fleet 卖的不是聪明，而是可组织化。
 
-下一代互联网竞争不只发生在模型层，也会发生在谁来提供代理访问世界的默认基础设施。</description>
+企业真正放权给代理的前提，不是代理更聪明，而是责任、权限和身份足够清晰。</description>
     </item>
     <item>
-      <title>Google Search 开始用 AI 改写新闻标题，搜索入口正在进一步吞掉媒体的最后命名权</title>
-      <link>https://www.signaltide.tech/article.html?id=google-search-ai-headlines</link>
-      <guid>https://www.signaltide.tech/article.html?id=google-search-ai-headlines</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
-      <description>The Verge 发现 Google 正在实验性替换新闻标题，而且有时会改掉原意。搜索平台不只是分发内容，正越来越像在二次命名和再包装内容。
+      <title>NVIDIA 给出“一天微调领域 embedding”配方，RAG 的真正门槛继续往下掉</title>
+      <link>https://www.signaltide.tech/article.html?id=domain-specific-embedding-one-day-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=domain-specific-embedding-one-day-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>Hugging Face 上的新教程主打单卡、合成数据、hard negative 和现成工具链，把原本零碎昂贵的 embedding 微调重新打包成工程配方。
 
-The Verge 报道，Google 正在小范围测试用 AI 改写传统搜索结果中的新闻标题，而不是单纯沿用媒体自己提供的 headline。编辑部举出的例子里，一些标题被压缩、改写后甚至改变了原意，但用户并不会被明确告知标题已经被 Google 替换。
+NVIDIA 在 Hugging Face 博客发布教程，展示如何用一张 GPU 和不到一天的训练，把通用 embedding 模型改造成更懂特定领域的检索模型。流程包括合成训练数据、hard negative mining、BEIR 评测与部署工具链，还提供了可直接使用的样例数据。
 
-这件事看上去只是一个产品实验，实则触到平台与媒体之间最根本的权力关系。标题是新闻机构少数还能主动定义自身作品的地方之一：它决定 framing、语气和点击理由。若搜索平台连这一步都接管，媒体不仅失去流量入口的议价能力，也会失去对自身内容被如何命名和理解的控制。
+这类教程的重要性在于，它针对的是 RAG 里最不性感但常最卡人的部分。很多企业知识系统效果不好，不是聊天模型不够强，而是底层检索不理解术语、分类和语义边界。当 embedding 定制化门槛继续下降，RAG 的差异化就会进一步从“接了哪个大模型”转向“谁更懂自己的语料”。
 
-当平台开始改写标题，新闻机构失去的就不只是流量，而是作品被公众识别的基本语义边界。</description>
+当检索层越来越容易被定制，企业知识产品的护城河就会更多长在数据组织和语义建模上。</description>
     </item>
     <item>
-      <title>Google 调整 Project Mariner 团队，说明浏览器代理正在让位给更通用的代理战略</title>
-      <link>https://www.signaltide.tech/article.html?id=insight-google-mariner-shakeup</link>
-      <guid>https://www.signaltide.tech/article.html?id=insight-google-mariner-shakeup</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
+      <title>Google Search 开始用 AI 改写新闻标题，平台正在吞掉媒体最后一点命名权</title>
+      <link>https://www.signaltide.tech/article.html?id=google-search-ai-headlines-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=google-search-ai-headlines-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>The Verge 发现 Google 正在搜索结果里实验性替换新闻标题，而且有时会改掉原意。搜索平台不只是分发内容，正越来越像在二次命名内容。
+
+The Verge 报道，Google 正在小范围测试用 AI 改写传统搜索结果里的新闻标题，而不是沿用媒体自己提供的 headline。编辑部展示了多个案例，其中一些替换后的标题明显偏离原文语义，但用户并不会被明确告知标题已经被 Google 替换。
+
+这件事看起来像个产品试验，实则触到平台与媒体关系里最根本的一层。标题是新闻机构少数还能主动决定 framing、语气和点击理由的位置之一；如果搜索平台连这一步都接管，媒体失去的就不只是流量议价能力，还包括作品如何被公众命名和理解的控制权。
+
+当平台开始改写标题，新闻机构失去的就不只是流量，而是作品被识别的基本语义边界。</description>
+    </item>
+    <item>
+      <title>Adobe 允许用户拿自己的作品训练 Firefly，生成式创作开始更像“私有风格引擎”</title>
+      <link>https://www.signaltide.tech/article.html?id=adobe-firefly-custom-models-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=adobe-firefly-custom-models-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>Firefly Custom Models 公测后，品牌和创作者可用自有素材训练私有模型，保持角色、色板、光影和笔触的一致性。AI 图像工具开始从通用生成转向品牌化生产。
+
+The Verge 报道，Adobe 正式把 Firefly Custom Models 推向公测，让用户用自己的图片资产训练可复用的私有图像模型，以保证角色设计、色板、光影、笔触和品牌视觉的一致性。Adobe 同时强调，这些训练素材默认不会回流去训练其通用 Firefly 模型。
+
+这意味着生成式图像产品正在从“人人都能生成”进入“团队要稳定地产出同一风格”的阶段。对品牌、设计团队和 IP 持有者来说，价值不再只是出图速度，而是能不能批量产出又不丢掉视觉身份。AI 创作工具正在从灵感玩具转向生产系统。
+
+当风格本身被做成私有模型，未来争的就不只是版权，而是谁能把视觉身份最稳定地转成生产力。</description>
+    </item>
+    <item>
+      <title>Fitbit 的 AI 健康教练将读医疗记录，消费级健康助手开始碰最敏感的数据层</title>
+      <link>https://www.signaltide.tech/article.html?id=fitbit-medical-records-health-coach-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=fitbit-medical-records-health-coach-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>Google 让 Fitbit 用户把病历、药物和就诊记录接入 AI 健康教练，与可穿戴数据一起生成更个性化建议。健康 AI 的价值和风险，都在往更深的数据层移动。
+
+The Verge 报道，Google 宣布 Fitbit 的 AI 健康教练将在美国预览版中支持读取用户医疗记录，包括化验结果、药物和就诊历史，并与可穿戴数据结合，生成更个性化的健康建议。Google 强调这些数据不会用于广告，用户可控制分享和删除方式。
+
+这件事之所以值得看，是因为健康 AI 正在从“读手环数据”走向“读完整病历”。一旦消费级助手能解释化验值、追踪病史并生成摘要，它就会更像用户的医疗解释层，而不只是健身小助手。与此同时，监管、误导风险与隐私治理也会同步抬升。
+
+消费级健康 AI 的下一阶段，不再只是更会聊天，而是更会处理高度敏感、且可能触碰监管红线的数据。</description>
+    </item>
+    <item>
+      <title>Delve 被指用“假合规”说服客户，说明 AI 合规赛道最先会撞上的其实是信任审计</title>
+      <link>https://www.signaltide.tech/article.html?id=insight-delve-fake-compliance</link>
+      <guid>https://www.signaltide.tech/article.html?id=insight-delve-fake-compliance</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
       <description>仅标题，无简介</description>
     </item>
     <item>
-      <title>Jeff Bezos 被传筹 1000 亿美元买旧制造企业再用 AI 改造，说明“工业 + AI”正在吸走新资本想象力</title>
-      <link>https://www.signaltide.tech/article.html?id=insight-bezos-ai-manufacturing</link>
-      <guid>https://www.signaltide.tech/article.html?id=insight-bezos-ai-manufacturing</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
+      <title>Meta 的“失控代理”安全事故提醒人们：内部 agent 最贵的不是模型，而是越权成本</title>
+      <link>https://www.signaltide.tech/article.html?id=insight-meta-rogue-ai-security</link>
+      <guid>https://www.signaltide.tech/article.html?id=insight-meta-rogue-ai-security</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
       <description>仅标题，无简介</description>
     </item>
     <item>
-      <title>Multiverse Computing 把压缩模型推向主流，参数变小正在从研究技巧变成产品卖点</title>
-      <link>https://www.signaltide.tech/article.html?id=insight-multiverse-compressed-models</link>
-      <guid>https://www.signaltide.tech/article.html?id=insight-multiverse-compressed-models</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
+      <title>华尔街没被 Nvidia GTC 打动，说明 AI 资本市场开始从看热闹转向算兑现</title>
+      <link>https://www.signaltide.tech/article.html?id=insight-nvidia-gtc-wall-street</link>
+      <guid>https://www.signaltide.tech/article.html?id=insight-nvidia-gtc-wall-street</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
       <description>仅标题，无简介</description>
     </item>
     <item>
-      <title>《The Vergecast》追问“人们为什么真的讨厌 AI”，说明消费级 AI 的信任缺口已经成了文化问题</title>
-      <link>https://www.signaltide.tech/article.html?id=techhumanities-why-people-hate-ai</link>
-      <guid>https://www.signaltide.tech/article.html?id=techhumanities-why-people-hate-ai</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
+      <title>Hachette 因 AI 争议下架《Shy Girl》，出版业开始把“像不像 AI 写的”变成公共信任问题</title>
+      <link>https://www.signaltide.tech/article.html?id=techhumanities-shy-girl-ai-concerns</link>
+      <guid>https://www.signaltide.tech/article.html?id=techhumanities-shy-girl-ai-concerns</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
+      <description>仅标题，无简介</description>
+    </item>
+    <item>
+      <title>《The gen AI Kool-Aid tastes like eugenics》刺中了生成式热潮里最不愿被正视的价值偏见</title>
+      <link>https://www.signaltide.tech/article.html?id=techhumanities-genai-eugenics</link>
+      <guid>https://www.signaltide.tech/article.html?id=techhumanities-genai-eugenics</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
       <description>仅标题，无简介</description>
     </item>
     <item>
       <title>Signal 创始人帮 Meta AI 做加密，说明“私密 AI”正在从口号变成产品卖点</title>
-      <link>https://www.signaltide.tech/article.html?id=techhumanities-signal-creator-meta-ai</link>
-      <guid>https://www.signaltide.tech/article.html?id=techhumanities-signal-creator-meta-ai</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
+      <link>https://www.signaltide.tech/article.html?id=techhumanities-signal-creator-meta-ai-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=techhumanities-signal-creator-meta-ai-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
       <description>仅标题，无简介</description>
     </item>
     <item>
-      <title>一款把 H-1B 签证系统做成游戏的新作提醒人们：技术产业的未来叙事里，移民焦虑从来没离场</title>
-      <link>https://www.signaltide.tech/article.html?id=techhumanities-h1b-simulation</link>
-      <guid>https://www.signaltide.tech/article.html?id=techhumanities-h1b-simulation</guid>
-      <pubDate>Sat, 21 Mar 2026 02:00:00 GMT</pubDate>
+      <title>《Why people really hate AI》把消费级 AI 的信任裂缝说破了：这已经是文化问题，不只是产品问题</title>
+      <link>https://www.signaltide.tech/article.html?id=techhumanities-why-people-hate-ai-20260322</link>
+      <guid>https://www.signaltide.tech/article.html?id=techhumanities-why-people-hate-ai-20260322</guid>
+      <pubDate>Sun, 22 Mar 2026 02:00:00 GMT</pubDate>
       <description>仅标题，无简介</description>
     </item>
   </channel>
