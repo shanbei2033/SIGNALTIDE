@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T02:10:27.314Z",
+  "generatedAt": "2026-03-23T02:00:44.764Z",
   "items": [
     {
       "source": "OpenAI",
@@ -708,15 +708,46 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Publisher pulls horror novel ‘Shy Girl’ over AI concerns",
-      "link": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
-      "publishedAt": "2026-03-21T19:30:27.000Z",
-      "contentSnippet": "Hachette Book Group said it will not be publishing “Shy Girl” over concerns that artificial intelligence was used to generate the text.",
+      "title": "Do you want to build a robot snowman?",
+      "link": "https://techcrunch.com/2026/03/22/do-you-want-to-build-a-robot-snowman/",
+      "publishedAt": "2026-03-22T19:45:07.000Z",
+      "contentSnippet": "On the latest episode of the Equity podcast, we recapped CEO Jensen Huang’s GTC keynote and debated what it means for Nvidia’s future.",
       "categories": [
         "AI",
-        "Media & Entertainment",
-        "Hachette",
-        "shy girl"
+        "Robotics",
+        "Disney",
+        "GTC",
+        "Jensen Huang",
+        "nvidia"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Cursor admits its new coding model was built on top of Moonshot AI’s Kimi",
+      "link": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
+      "publishedAt": "2026-03-22T18:41:09.000Z",
+      "contentSnippet": "Building on top of a Chinese model feels particularly fraught right now.",
+      "categories": [
+        "AI",
+        "Startups",
+        "cursor",
+        "kimi",
+        "moonshot ai"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Elon Musk unveils chip manufacturing plans for SpaceX and Tesla",
+      "link": "https://techcrunch.com/2026/03/22/elon-musk-unveils-chip-manufacturing-plans-for-spacex-and-tesla/",
+      "publishedAt": "2026-03-22T16:20:00.000Z",
+      "contentSnippet": "Elon Musk recently outlined ambitious plans for a chip-building collaboration Tesla and SpaceX — but he has a history of overpromising.",
+      "categories": [
+        "Hardware",
+        "AI"
       ]
     },
     {
@@ -724,14 +755,61 @@
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
       "title": "Delve accused of misleading customers with ‘fake compliance’",
-      "link": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
-      "publishedAt": "2026-03-21T17:00:05.000Z",
+      "link": "https://techcrunch.com/2026/03/22/delve-accused-of-misleading-customers-with-fake-compliance/",
+      "publishedAt": "2026-03-22T14:43:51.000Z",
       "contentSnippet": "An anonymous Substack post accuses compliance startup Delve of “falsely” convincing “hundreds of customers they were compliant” with privacy and security regulations.",
       "categories": [
         "Startups",
         "Security",
         "AI",
         "Delve"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "An exclusive tour of Amazon’s Trainium lab, the chip that’s won over Anthropic, OpenAI, even Apple ",
+      "link": "https://techcrunch.com/2026/03/22/an-exclusive-tour-of-amazons-trainium-lab-the-chip-thats-won-over-anthropic-openai-even-apple/",
+      "publishedAt": "2026-03-22T12:00:00.000Z",
+      "contentSnippet": "Shortly after Amazon announced its $50 billion investment in OpenAI, AWS invited me on a private tour of the chip lab at the heart of the deal.",
+      "categories": [
+        "Enterprise",
+        "TC",
+        "Hardware",
+        "AI",
+        "Amazon",
+        "AWS",
+        "data center",
+        "trainium"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Are AI tokens the new signing bonus or just a cost of doing business?",
+      "link": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
+      "publishedAt": "2026-03-22T06:20:43.000Z",
+      "contentSnippet": "Maybe tokens really will become the fourth pillar of engineering compensation. But engineers might want to hold the line before embracing this as a straightforward win.",
+      "categories": [
+        "AI",
+        "TC"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Publisher pulls horror novel ‘Shy Girl’ over AI concerns",
+      "link": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
+      "publishedAt": "2026-03-21T19:30:27.000Z",
+      "contentSnippet": "Hachette Book Group said it will not be publishing “Shy Girl” over concerns that artificial intelligence was used to generate the text.",
+      "categories": [
+        "Media & Entertainment",
+        "AI",
+        "Hachette",
+        "shy girl"
       ]
     },
     {
@@ -745,10 +823,10 @@
       "categories": [
         "AI",
         "Enterprise",
-        "AI chips",
-        "artificial intelligence",
         "nvidia",
-        "nvidia gtc"
+        "AI chips",
+        "nvidia gtc",
+        "artificial intelligence"
       ]
     },
     {
@@ -791,12 +869,12 @@
       "categories": [
         "AI",
         "Startups",
-        "Nvidia GTC 2026",
-        "Equity",
-        "Jensen Huang",
-        "Roundup",
+        "nvidia",
         "Travis Kalanick",
-        "nvidia"
+        "Roundup",
+        "Jensen Huang",
+        "Equity",
+        "Nvidia GTC 2026"
       ]
     },
     {
@@ -823,89 +901,44 @@
       ]
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "WordPress.com now lets AI agents write and publish posts, and more",
-      "link": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
-      "publishedAt": "2026-03-20T16:43:09.000Z",
-      "contentSnippet": "New AI agents on WordPress.com could lower barriers to publishing while increasing machine-generated content across the web.",
-      "categories": [
-        "AI",
-        "Publishing",
-        "AI agents",
-        "wordpress.com",
-        "WordPress"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "AI influencer awards season is upon us",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/898781/ai-personality-of-the-year-influencer-contest",
+      "publishedAt": "2026-03-23T00:01:00.000Z",
+      "contentSnippet": "First came the AI beauty pageant. Then the AI music contests. Now, there is an award for AI Personality of the Year - perhaps the inevitable next step for the AI influencer economy as it transforms from quirky novelty into a serious and lucrative industry. The contest, a joint venture between generative AI studio OpenArt and AI-powered creator platform Fanvue, with backing from AI voice company ElevenLabs, opens on Monday and runs for a month. The organizers said it is intended to \"celebrate the creative talent 'behind' AI Influencers\" and recognize their growing commercial and cultural clout. Contestants will compete for a total prize f … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Trump’s AI framework targets state laws, shifts child safety burden to parents",
-      "link": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
-      "publishedAt": "2026-03-20T16:14:04.000Z",
-      "contentSnippet": "Trump’s AI framework pushes federal preemption of state laws, emphasizes innovation, and shifts responsibility for child safety toward parents while laying out lighter-touch rules for tech companies.",
-      "categories": [
-        "AI",
-        "Government & Policy",
-        "AI preemption",
-        "state aI regulation",
-        "Trump",
-        "trump national ai framework"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Crimson Desert dev apologizes for use of AI art",
+      "link": "https://www.theverge.com/games/898771/crimson-desert-dev-apologizes-ai-art",
+      "publishedAt": "2026-03-22T17:34:34.000Z",
+      "contentSnippet": "That’s some sloppy looking slop. | Image: Rex_Spy / Reddit Reviews of Crimson Desert have been mixed, but the bigger issue for the game has been the discovery of what appeared to be AI-generated assets in the final release. Now the developer has acknowledged that AI art was indeed used during the game's creation, but says that it was intended to be replaced before release. In a statement on X, the company said it was conducting a \"comprehensive audit\" to identify and replace any AI-generated content. The company apologized for both its inclusion in the final release and for not being more transparent about its use during development. \"We should have clearly disclosed our use of AI,\" it said. The … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "The best AI investment might be in energy tech",
-      "link": "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/",
-      "publishedAt": "2026-03-20T12:00:00.000Z",
-      "contentSnippet": "Power has become one of the biggest bottlenecks in rolling out new AI data centers. That's creating an opening for investors.",
-      "categories": [
-        "AI",
-        "Climate",
-        "Venture",
-        "Batteries",
-        "energy",
-        "energy storage",
-        "Exclusive",
-        "electrical grid"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Musk says he’s building Terafab chip plant in Austin, Texas",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/898722/musk-terafab-chip-plant",
+      "publishedAt": "2026-03-22T14:06:48.000Z",
+      "contentSnippet": "Grok, how do you make chips? | Image: Laura Normand / The Verge Elon Musk announced plans to build a Terafab plant in Austin, Texas, that will be jointly run by Tesla and SpaceX. The goal is to eventually build chips at scale for robotics, artificial intelligence, and space-based data centers for Musk's various companies. Musk has expressed concern, as have other executives, about the chip industry's ability to keep up with demand as the AI industry has boomed. But building a chip fabrication plant is complex, requires billions of dollars, many years, and a ton of specialized equipment. And, as Bloomberg points out, Musk \"has no background in semiconductor production and a history of over-promising on g … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "These AI notetaking devices can help you record and transcribe your meetings",
-      "link": "https://techcrunch.com/2026/03/20/ai-notetaker-hardware-devices-pins-pendants-record-transcribe/",
-      "publishedAt": "2026-03-20T11:31:38.000Z",
-      "contentSnippet": "These physical notetakers transcribe audio and give users summaries and action items of meetings using AI. Some even offer live translation.",
-      "categories": [
-        "AI",
-        "Gadgets",
-        "AI notetakers",
-        "evergreen",
-        "evergreens",
-        "meeting notes",
-        "plaud"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI",
-      "link": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
-      "publishedAt": "2026-03-19T22:09:24.000Z",
-      "contentSnippet": "The Amazon magnate has a new project centered around acquiring industrial firms and revamping them with AI technology.",
-      "categories": [
-        "AI",
-        "Amazon",
-        "jeff bezos",
-        "project prometheus"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "AI was everywhere at gaming’s big developer conference — except the games",
+      "link": "https://www.theverge.com/games/897982/gdc-2026-ai-game-developer-conference",
+      "publishedAt": "2026-03-22T12:00:00.000Z",
+      "contentSnippet": "AI was everywhere at the GDC Festival of Gaming this year. Vendors at the event pitched generative AI tools for things like making AI-driven NPCs and even entire games from a chat box. On the show floor, I spent 10 minutes playing a demo of a pixel-art fantasy world generated by Tencent's AI tools. In a briefing with Razer, I watched an AI assistant for QA automatically log issues in a shooter game. And there were many talks about AI, including a standing-room only presentation by Google DeepMind researchers about playable AI-generated spaces. But there was one key place where AI was missing: the games themselves. Of the many developers I s … Read the full story at The Verge.",
+      "categories": []
     },
     {
       "source": "The Verge AI",
@@ -965,46 +998,6 @@
       "link": "https://www.theverge.com/podcast/897900/ai-trust-gap-killer-app-vergecast",
       "publishedAt": "2026-03-20T13:27:53.000Z",
       "contentSnippet": "There's a big, and increasing, disconnect in culture right now when it comes to artificial intelligence. Companies of all shapes and sizes are hunting for places to deploy AI and can't stop talking about how this new technology will change everything. But when you ask people about AI, the consistent response is: no thanks. Study after study shows people are worried about the effects of AI and simply don't find the technology worth all the downsides. Verge subscribers, don't forget you get exclusive access to ad-free Vergecast wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. On this episode of The Verge … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "OpenAI is planning a desktop ‘superapp’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/897778/openai-chatgpt-codex-atlas-browser-superapp",
-      "publishedAt": "2026-03-20T00:09:38.000Z",
-      "contentSnippet": "OpenAI is working on a desktop \"superapp\" that merges its ChatGPT app, the Codex AI coding app, and its AI-powered Atlas browser into one app, The Wall Street Journal reports. The company is making the change as part of an effort to simplify its various product efforts, according to a memo cited by the WSJ from Fidji Simo, OpenAI's CEO of Applications. Fragmentation \"has been slowing us down and making it harder to hit the quality bar we want,\" Simo said. OpenAI made waves last year with splashy announcements like the Sora video app and buying Jony Ive's AI hardware company. But it has been facing increased competition from Anthropic as of … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "A rogue AI led to a serious security incident at Meta",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident",
-      "publishedAt": "2026-03-19T18:20:05.000Z",
-      "contentSnippet": "For almost two hours last week, Meta employees had unauthorized access to company and user data thanks to an AI agent that gave an employee inaccurate technical advice, as previously reported by The Information. Meta spokesperson Tracy Clayton said in a statement to The Verge that \"no user data was mishandled\" during the incident. A Meta engineer was using an internal AI agent, which Clayton described as \"similar in nature to OpenClaw within a secure development environment,\" to analyze a technical question another employee posted on an internal company forum. But the agent also independently publicly replied to the question after analyzin … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Adobe’s AI image generator can now be trained on your own art",
-      "link": "https://www.theverge.com/tech/897243/adobe-firefly-ai-custom-models-image-public-beta",
-      "publishedAt": "2026-03-19T13:00:00.000Z",
-      "contentSnippet": "Just feed your images into the bot and it’ll try to mimic specific styles and aesthetics. | Image: Adobe Adobe is launching customizable AI image generators that can mimic specific artistic styles and character designs. The Firefly Custom Models are available in public beta starting today, allowing creators and brands to train a model on their own assets to ensure generated images follow a consistent aesthetic for characters, illustrations, and photography. The tool aims to streamline workflows for teams and creators that need to produce high volumes of content, providing a reusable foundation that preserves visual consistency across multiple projects, instead of having to start from scratch each time. Adobe says that custom models can help pr … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Fitbit&#8217;s AI health coach will soon be able to read your medical records",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/897250/fitbits-ai-health-coach-reads-medical-records",
-      "publishedAt": "2026-03-19T12:27:23.000Z",
-      "contentSnippet": "Would you share your medical records with a personal trainer? How about a virtual one? Google, which this week announced it is giving Fitbit's AI health coach the ability to read your medical records, is hoping the answer is yes, following rivals like Amazon, OpenAI, and Microsoft in betting that users are willing to trade their most sensitive data in exchange for more personalized health advice. Starting next month in preview, US Fitbit users will be able to link their medical records to the Fitbit app. That medical data - such as lab results, medications, and visit history - will, alongside wearable data, help Fitbit's AI-powered health … Read the full story at The Verge.",
       "categories": []
     },
     {
