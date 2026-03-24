@@ -22,20 +22,20 @@
   },
   "projects": {
     "ollama": {
-      "name": "Ollama",
-      "note": "最近在代理、代码与本地模型工作流上动作频繁，适合关注本地部署和开发者入口。"
+      "name": "Vercel AI SDK",
+      "note": "前端与全栈 AI 应用里最活跃的一条工具链之一，更新快、生态接得广，适合盯住应用层玩法怎么继续演化。"
     },
     "langchain": {
-      "name": "LangChain",
-      "note": "继续在 agent harness、记忆系统和工具注册方向迭代，是观察代理工程化的典型项目。"
+      "name": "Zed",
+      "note": "高性能协作编辑器，最近在 AI 编程与多人协作体验上持续冒头，是很典型的下一代开发环境项目。"
     },
     "promptfoo": {
-      "name": "Promptfoo",
-      "note": "依然是做提示注入、防护和评测时很实用的安全测试工具。"
+      "name": "uv",
+      "note": "Astral 的 Python 工具链项目，已经从“更快的包管理器”变成很多现代 Python 工作流的默认底座，势头非常猛。"
     },
     "huggingface": {
-      "name": "Hugging Face Hub",
-      "note": "Storage Buckets 这类更新说明它正越来越像长期项目基础设施，而不只是模型展示台。"
+      "name": "vLLM",
+      "note": "大模型推理基础设施里的关键开源项目，谁在做高吞吐、低成本部署，几乎都会关注它的演进。"
     }
   }
 }

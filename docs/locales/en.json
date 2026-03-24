@@ -22,20 +22,20 @@
   },
   "projects": {
     "ollama": {
-      "name": "Ollama",
-      "note": "Still one of the clearest entry points for local model workflows, especially as agent and coding use cases expand."
+      "name": "Vercel AI SDK",
+      "note": "One of the fastest-moving toolchains for frontend and full-stack AI apps, and a good signal for how the application layer is evolving."
     },
     "langchain": {
-      "name": "LangChain",
-      "note": "Its recent work around agent harnesses, memory, and tooling makes it a useful barometer for how agent engineering is maturing."
+      "name": "Zed",
+      "note": "A high-performance collaborative editor that keeps gaining relevance around AI coding and multiplayer development workflows."
     },
     "promptfoo": {
-      "name": "Promptfoo",
-      "note": "Still one of the most practical tools for prompt-injection testing, guardrail checks, and evaluation before deployment."
+      "name": "uv",
+      "note": "Astral’s Python toolchain has quickly become core infrastructure for modern Python workflows, not just a faster package manager."
     },
     "huggingface": {
-      "name": "Hugging Face Hub",
-      "note": "Storage Buckets is a reminder that the Hub is becoming project infrastructure, not just a model showcase."
+      "name": "vLLM",
+      "note": "A critical open-source layer for high-throughput LLM inference, especially for teams pushing on cost and deployment efficiency."
     }
   }
 }
