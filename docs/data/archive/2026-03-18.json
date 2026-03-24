@@ -1,0 +1,1730 @@
+{
+  "site": {
+    "name": {
+      "zh-CN": "智潮",
+      "zh-TW": "智潮",
+      "en": "SIGNAL TIDE"
+    },
+    "tagline": {
+      "zh-CN": "由 openclaw 抓取、筛选、编辑并翻译的全球 AI 日报",
+      "zh-TW": "由 openclaw 抓取、篩選、編輯並翻譯的全球 AI 日報",
+      "en": "A global AI daily, fetched, edited, and translated by openclaw."
+    },
+    "description": {
+      "zh-CN": "聚合、重写并归档每日 AI 领域的重要新闻。",
+      "zh-TW": "聚合、改寫並歸檔每日 AI 領域的重要新聞。",
+      "en": "Aggregate, rewrite, and archive the most important AI stories each day."
+    },
+    "i18n": {}
+  },
+  "edition": {
+    "id": "2026-03-18",
+    "issueNumber": 11,
+    "date": "2026-03-18",
+    "displayDate": "2026年3月18日",
+    "generatedAt": "2026-03-18T02:00:00.000Z",
+    "mode": "manual-openclaw",
+    "lead": "gpt-5-4-mini-nano",
+    "i18n": {}
+  },
+  "sections": [
+    {
+      "key": "lead",
+      "label": {
+        "zh-CN": "头版",
+        "zh-TW": "頭版",
+        "en": "Lead"
+      }
+    },
+    {
+      "key": "company",
+      "label": {
+        "zh-CN": "公司与产品",
+        "zh-TW": "公司與產品",
+        "en": "Company & Product"
+      }
+    },
+    {
+      "key": "policy",
+      "label": {
+        "zh-CN": "政策与治理",
+        "zh-TW": "政策與治理",
+        "en": "Policy & Governance"
+      }
+    },
+    {
+      "key": "tools",
+      "label": {
+        "zh-CN": "工具与开源",
+        "zh-TW": "工具與開源",
+        "en": "Tools & Open Source"
+      }
+    },
+    {
+      "key": "impact",
+      "label": {
+        "zh-CN": "研究与影响",
+        "zh-TW": "研究與影響",
+        "en": "Research & Impact"
+      }
+    },
+    {
+      "key": "insight",
+      "label": {
+        "zh-CN": "深度观察",
+        "zh-TW": "深度觀察",
+        "en": "Deep Insights"
+      }
+    },
+    {
+      "key": "tech-humanities",
+      "label": {
+        "zh-CN": "技术人文",
+        "zh-TW": "技術人文",
+        "en": "Tech & Humanities"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "gpt-5-4-mini-nano",
+      "section": "lead",
+      "category": "小模型产品线",
+      "headline": "OpenAI 推出 GPT-5.4 mini 和 nano：更快、更便宜，目标直指高并发代理工作流",
+      "deck": "这次更新不只是把“大模型缩小一点”，而是明确把小模型摆进编程代理、工具调用和多模型协作的主力位置。小模型不再只是阉割版入口，而是面向成本、延迟与并行性的系统级角色。",
+      "kicker": "头版",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T10:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 4,
+      "tags": [
+        "OpenAI",
+        "GPT-5.4",
+        "Coding Agents",
+        "API"
+      ],
+      "summary": [
+        "OpenAI 发布 GPT-5.4 mini 与 GPT-5.4 nano，强调它们在编程、推理、多模态理解和工具调用上的提升。官方给出的对比里，mini 在 SWE-Bench Pro、Terminal-Bench 2.0、Toolathlon 和 OSWorld-Verified 等评测上明显优于上一代 GPT-5 mini，同时号称延迟可降低到两倍以上的速度区间。",
+        "更关键的是，OpenAI 这次把小模型的定位说得很直白：它们适合高频次、支持性、可并行拆分的子任务。官方直接拿 Codex 里的子代理举例——由更大的 GPT-5.4 负责规划和判断，再把检索代码库、处理文档、审阅大文件等窄任务交给 mini 批量执行；nano 则继续向分类、抽取、排序和轻量 coding subagent 靠拢。",
+        "这意味着模型竞争正进一步从“谁最强”转向“谁更适合被编排”。当厂商公开把配额、价格、上下文长度和工具能力一起放进产品定义，小模型已经不再只是 API 里的便宜选项，而是代理时代真正决定毛利率与交互手感的基础设施层。"
+      ],
+      "bullets": "更關鍵的是，OpenAI 這次把小模型的定位說得很直白：它們適合高頻次、支持性、可並行拆分的子任務。官方直接拿 Codex 裡的子代理舉例——由更大的 GPT-5.4 負責規劃與判斷，再把搜尋程式庫、處理文件、審閱大檔案等窄任務交給 mini 批量執行；nano 則繼續靠向分類、抽取、排序和輕量 coding subagent。",
+      "significance": [
+        "OpenAI introduced GPT-5.4 mini and GPT-5.4 nano as upgraded small models for coding, reasoning, multimodal understanding, and tool use. In the company’s published comparisons, mini improves sharply over GPT-5 mini on SWE-Bench Pro, Terminal-Bench 2.0, Toolathlon, and OSWorld-Verified while aiming for much lower latency.",
+        "The strategic point is how clearly OpenAI frames the role of small models. Rather than acting as watered-down entry products, mini and nano are described as the engines for frequent, parallelizable support tasks inside agent systems. OpenAI explicitly points to Codex-style subagents: a larger model handles planning and judgment, while smaller models search codebases, process supporting documents, and execute narrower tasks at scale.",
+        "That makes this a systems story as much as a model story. Competition is shifting from “who has the best frontier model” to “who offers the best performance-per-latency building blocks for orchestration.” In agentic products, small models increasingly shape responsiveness, operating margin, and architectural design."
+      ],
+      "sources": "如果代理系統會越來越像由「大腦 + 多個手腳」組成的編排網路，那麼更快的小模型就會成為真正決定系統成本與可擴展性的節點。",
+      "i18n": {
+        "zh-CN": {
+          "category": "小模型产品线",
+          "headline": "OpenAI 推出 GPT-5.4 mini 和 nano：更快、更便宜，目标直指高并发代理工作流",
+          "deck": "这次更新不只是把“大模型缩小一点”，而是明确把小模型摆进编程代理、工具调用和多模型协作的主力位置。小模型不再只是阉割版入口，而是面向成本、延迟与并行性的系统级角色。",
+          "kicker": "头版",
+          "summary": [
+            "OpenAI 发布 GPT-5.4 mini 与 GPT-5.4 nano，强调它们在编程、推理、多模态理解和工具调用上的提升。官方给出的对比里，mini 在 SWE-Bench Pro、Terminal-Bench 2.0、Toolathlon 和 OSWorld-Verified 等评测上明显优于上一代 GPT-5 mini，同时号称延迟可降低到两倍以上的速度区间。",
+            "更关键的是，OpenAI 这次把小模型的定位说得很直白：它们适合高频次、支持性、可并行拆分的子任务。官方直接拿 Codex 里的子代理举例——由更大的 GPT-5.4 负责规划和判断，再把检索代码库、处理文档、审阅大文件等窄任务交给 mini 批量执行；nano 则继续向分类、抽取、排序和轻量 coding subagent 靠拢。",
+            "这意味着模型竞争正进一步从“谁最强”转向“谁更适合被编排”。当厂商公开把配额、价格、上下文长度和工具能力一起放进产品定义，小模型已经不再只是 API 里的便宜选项，而是代理时代真正决定毛利率与交互手感的基础设施层。"
+          ],
+          "bullets": "更關鍵的是，OpenAI 這次把小模型的定位說得很直白：它們適合高頻次、支持性、可並行拆分的子任務。官方直接拿 Codex 裡的子代理舉例——由更大的 GPT-5.4 負責規劃與判斷，再把搜尋程式庫、處理文件、審閱大檔案等窄任務交給 mini 批量執行；nano 則繼續靠向分類、抽取、排序和輕量 coding subagent。",
+          "significance": [
+            "OpenAI introduced GPT-5.4 mini and GPT-5.4 nano as upgraded small models for coding, reasoning, multimodal understanding, and tool use. In the company’s published comparisons, mini improves sharply over GPT-5 mini on SWE-Bench Pro, Terminal-Bench 2.0, Toolathlon, and OSWorld-Verified while aiming for much lower latency.",
+            "The strategic point is how clearly OpenAI frames the role of small models. Rather than acting as watered-down entry products, mini and nano are described as the engines for frequent, parallelizable support tasks inside agent systems. OpenAI explicitly points to Codex-style subagents: a larger model handles planning and judgment, while smaller models search codebases, process supporting documents, and execute narrower tasks at scale.",
+            "That makes this a systems story as much as a model story. Competition is shifting from “who has the best frontier model” to “who offers the best performance-per-latency building blocks for orchestration.” In agentic products, small models increasingly shape responsiveness, operating margin, and architectural design."
+          ],
+          "byline": "编辑部整理",
+          "sources": "如果代理系統會越來越像由「大腦 + 多個手腳」組成的編排網路，那麼更快的小模型就會成為真正決定系統成本與可擴展性的節點。"
+        },
+        "zh-TW": {
+          "category": "小模型產品線",
+          "headline": "OpenAI 推出 GPT-5.4 mini 與 nano：更快、更便宜，目標直指高併發代理工作流",
+          "deck": "這次更新不只是把「大模型縮小一點」，而是明確把小模型擺進程式代理、工具調用與多模型協作的主力位置。小模型不再只是閹割版入口，而是面向成本、延遲與並行性的系統級角色。",
+          "kicker": "頭版",
+          "summary": [
+            "OpenAI 将 mini 与 nano 明确定位为高并发代理与编程工作流模型。",
+            "mini 在多项代码和工具基准上明显优于 GPT-5 mini。",
+            "nano 继续承担分类、抽取、排序等低延迟支持型任务。"
+          ],
+          "bullets": "這意味著模型競爭正進一步從「誰最強」轉向「誰更適合被編排」。當廠商公開把配額、價格、上下文長度與工具能力一起放進產品定義，小模型已不再只是 API 裡的便宜選項，而是代理時代真正決定毛利率與互動手感的基礎設施層。",
+          "significance": [
+            "OpenAI is positioning mini and nano as core models for high-volume agent and coding workflows.",
+            "mini posts clear gains over GPT-5 mini on code and tool benchmarks.",
+            "nano is aimed at low-latency support work such as classification, extraction, and ranking."
+          ],
+          "byline": "編輯部整理",
+          "sources": "如果代理系統會越來越像由「大腦 + 多個手腳」組成的編排網路，那麼更快的小模型就會成為真正決定系統成本與可擴展性的節點。"
+        },
+        "en": {
+          "category": "Small Model Lineup",
+          "headline": "OpenAI launches GPT-5.4 mini and nano to target high-volume agent workloads",
+          "deck": "This release is not just a smaller copy of a flagship model. It positions small models as first-class building blocks for coding agents, tool use, and multi-model orchestration where latency and cost matter as much as raw capability.",
+          "kicker": "Lead",
+          "summary": "OpenAI 發布 GPT-5.4 mini 與 GPT-5.4 nano，強調它們在程式、推理、多模態理解與工具調用上的提升。官方給出的對比裡，mini 在 SWE-Bench Pro、Terminal-Bench 2.0、Toolathlon 與 OSWorld-Verified 等評測上明顯優於上一代 GPT-5 mini，同時宣稱能以更低延遲運行。",
+          "bullets": [
+            "OpenAI 將 mini 與 nano 明確定位為高併發代理與程式工作流模型。",
+            "mini 在多項程式與工具基準上明顯優於 GPT-5 mini。",
+            "nano 繼續承擔分類、抽取、排序等低延遲支持型任務。"
+          ],
+          "significance": "如果代理系统会越来越像由“大脑 + 多个手脚”组成的编排网络，那么更快的小模型就会成为真正决定系统成本与可扩展性的节点。",
+          "byline": "Signal Tide Desk",
+          "sources": "如果代理系統會越來越像由「大腦 + 多個手腳」組成的編排網路，那麼更快的小模型就會成為真正決定系統成本與可擴展性的節點。"
+        }
+      }
+    },
+    {
+      "id": "google-personal-intelligence-expands",
+      "section": "company",
+      "category": "个性化助手",
+      "headline": "Google 把 Personal Intelligence 扩到 Search、Gemini 和 Chrome，私人上下文正被做成默认能力",
+      "deck": "当邮箱、相册、购买记录和浏览器开始被整合进同一层回答逻辑，AI 助手的竞争点就从“会不会答”转向“能不能带着你的上下文答”。",
+      "kicker": "公司",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T16:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "Google",
+        "Gemini",
+        "Search",
+        "Personalization"
+      ],
+      "summary": [
+        "Google 宣布 Personal Intelligence 在美国扩展到 AI Mode in Search、Gemini app 与 Gemini in Chrome。官方描述是把 Gmail、Google Photos 等 Google 应用里的个人上下文安全接入回答层，让用户在购物建议、旅行行程、设备排障等场景里少做一次次背景输入。",
+        "这类能力听起来像常规“更懂你”，但它真正改变的是产品边界：搜索、浏览器、聊天助手原本是分开的入口，现在开始共用一套私人语境层。Google 同时强调用户可以自行开关连接哪些应用，这说明个性化能力越强，隐私控制就越要成为界面的一部分，而不是法务页里的附属说明。"
+      ],
+      "bullets": [
+        "Personal Intelligence 已擴展到 Search、Gemini app 和 Chrome。",
+        "能力核心是把 Gmail、Photos 等個人資料連進回答系統。",
+        "Google 強調使用者可自行管理連接哪些應用。"
+      ],
+      "significance": "个性化上下文正在成为下一轮助手竞争的主战场：谁握有更多可信的私人环境，谁就更容易把搜索、浏览和执行整合成单一入口。",
+      "sources": [
+        {
+          "title": "Bringing the power of Personal Intelligence to more people",
+          "publication": "Google",
+          "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "个性化助手",
+          "headline": "Google 把 Personal Intelligence 扩到 Search、Gemini 和 Chrome，私人上下文正被做成默认能力",
+          "deck": "当邮箱、相册、购买记录和浏览器开始被整合进同一层回答逻辑，AI 助手的竞争点就从“会不会答”转向“能不能带着你的上下文答”。",
+          "kicker": "公司",
+          "summary": [
+            "Google 宣布 Personal Intelligence 在美国扩展到 AI Mode in Search、Gemini app 与 Gemini in Chrome。官方描述是把 Gmail、Google Photos 等 Google 应用里的个人上下文安全接入回答层，让用户在购物建议、旅行行程、设备排障等场景里少做一次次背景输入。",
+            "这类能力听起来像常规“更懂你”，但它真正改变的是产品边界：搜索、浏览器、聊天助手原本是分开的入口，现在开始共用一套私人语境层。Google 同时强调用户可以自行开关连接哪些应用，这说明个性化能力越强，隐私控制就越要成为界面的一部分，而不是法务页里的附属说明。"
+          ],
+          "bullets": [
+            "Personal Intelligence 已擴展到 Search、Gemini app 和 Chrome。",
+            "能力核心是把 Gmail、Photos 等個人資料連進回答系統。",
+            "Google 強調使用者可自行管理連接哪些應用。"
+          ],
+          "significance": "个性化上下文正在成为下一轮助手竞争的主战场：谁握有更多可信的私人环境，谁就更容易把搜索、浏览和执行整合成单一入口。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "Bringing the power of Personal Intelligence to more people",
+              "publication": "Google",
+              "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "個人化助手",
+          "headline": "Google 把 Personal Intelligence 擴到 Search、Gemini 與 Chrome，私人上下文正被做成預設能力",
+          "deck": "當信箱、相簿、購買紀錄與瀏覽器開始被整合進同一層回答邏輯，AI 助手的競爭點就從「會不會答」轉向「能不能帶著你的上下文答」。",
+          "kicker": "公司",
+          "summary": [
+            "Personal Intelligence 已扩展到 Search、Gemini app 和 Chrome。",
+            "能力核心是把 Gmail、Photos 等个人数据连进回答系统。",
+            "Google 强调用户可自行管理连接哪些应用。"
+          ],
+          "bullets": [
+            "Google says Personal Intelligence is expanding in the U.S. across AI Mode in Search, the Gemini app, and Gemini in Chrome. The feature connects Google services such as Gmail and Google Photos so answers can reflect personal purchases, travel history, and device records without requiring users to restate that context each time.",
+            "What matters is the product boundary this redraws. Search, browser assistance, and chat are no longer separate surfaces if they all rely on the same personal context layer. Google also stresses that users can choose which apps are connected, underscoring that deeper personalization now depends on visible control mechanisms, not just back-end policy statements."
+          ],
+          "significance": "個人化上下文正在成為下一輪助手競爭的主戰場：誰握有更多可信的私人環境，誰就更容易把搜尋、瀏覽與執行整合成單一入口。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "Bringing the power of Personal Intelligence to more people",
+              "publication": "Google",
+              "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Personalized Assistants",
+          "headline": "Google expands Personal Intelligence across Search, Gemini, and Chrome",
+          "deck": "As email, photos, purchase history, and browser context are folded into one response layer, the competition shifts from generic intelligence to personalized context.",
+          "kicker": "Company",
+          "summary": [
+            "Google 宣布 Personal Intelligence 在美國擴展到 AI Mode in Search、Gemini app 與 Gemini in Chrome。官方描述是把 Gmail、Google Photos 等 Google 應用裡的個人上下文安全接入回答層，讓使用者在購物建議、旅行行程、裝置排障等場景裡少做一次次背景輸入。",
+            "這類能力聽起來像常規的「更懂你」，但它真正改變的是產品邊界：搜尋、瀏覽器、聊天助手原本是分開的入口，現在開始共用一套私人語境層。Google 同時強調使用者可以自行開關連接哪些應用，這說明個人化能力越強，隱私控制就越要成為介面的一部分，而不是法務頁裡的附屬說明。"
+          ],
+          "bullets": [
+            "Google expanded Personal Intelligence across Search, Gemini, and Chrome in the U.S.",
+            "The feature uses connected Google apps such as Gmail and Photos to personalize answers.",
+            "User control over app connections is central to how Google is framing the rollout."
+          ],
+          "significance": "Personal context is becoming the next strategic battleground for assistants: whoever can safely hold more of a user’s environment can collapse search, browsing, and task execution into a single interface.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "Bringing the power of Personal Intelligence to more people",
+              "publication": "Google",
+              "url": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mistral-build-your-own-ai",
+      "section": "company",
+      "category": "企业平台",
+      "headline": "Mistral 押注“自己搭 AI”路线，想把企业市场从买现成助手拉回自建平台",
+      "deck": "企业 AI 竞争不只是在比模型参数，也是在比谁能让公司既想用 AI、又不愿把控制权交出去。",
+      "kicker": "公司",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T12:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "Mistral",
+        "Enterprise AI",
+        "Platform"
+      ],
+      "summary": [
+        "TechCrunch 报道，Mistral 正把企业叙事押在“build-your-own AI”上：不是只卖一个现成聊天助手，而是强调企业可以围绕其模型、平台组件和部署选项，自行搭建适配内部流程的系统。这条路线直接对标 OpenAI 与 Anthropic 在企业市场中更强的产品化攻势。",
+        "这类定位的含义在于，企业客户现在越来越不满足于采购一个统一前台。他们更关心模型能否嵌进权限体系、数据治理和已有软件栈，能否被长期定制，而不是每次都被供应商的产品节奏牵着走。Mistral 试图把“开放、可控、本地或私有部署”重新包装成企业采购的核心卖点。"
+      ],
+      "bullets": [
+        "Mistral 將企業重點放在自建式 AI，而不是單一現成助手。",
+        "路線強調可控部署、可客製流程與內部系統整合。",
+        "它正試圖與 OpenAI、Anthropic 的成品化攻勢形成差異。"
+      ],
+      "significance": "企业 AI 的下一轮分化，很可能不是“谁的助手更像人”，而是谁更愿意把企业当作系统集成者而不是订阅用户。",
+      "sources": [
+        {
+          "title": "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise",
+          "publication": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/17/mistral-bets-on-build-your-own-ai-as-it-takes-on-openai-anthropic-in-the-enterprise/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "企业平台",
+          "headline": "Mistral 押注“自己搭 AI”路线，想把企业市场从买现成助手拉回自建平台",
+          "deck": "企业 AI 竞争不只是在比模型参数，也是在比谁能让公司既想用 AI、又不愿把控制权交出去。",
+          "kicker": "公司",
+          "summary": [
+            "TechCrunch 报道，Mistral 正把企业叙事押在“build-your-own AI”上：不是只卖一个现成聊天助手，而是强调企业可以围绕其模型、平台组件和部署选项，自行搭建适配内部流程的系统。这条路线直接对标 OpenAI 与 Anthropic 在企业市场中更强的产品化攻势。",
+            "这类定位的含义在于，企业客户现在越来越不满足于采购一个统一前台。他们更关心模型能否嵌进权限体系、数据治理和已有软件栈，能否被长期定制，而不是每次都被供应商的产品节奏牵着走。Mistral 试图把“开放、可控、本地或私有部署”重新包装成企业采购的核心卖点。"
+          ],
+          "bullets": [
+            "Mistral 將企業重點放在自建式 AI，而不是單一現成助手。",
+            "路線強調可控部署、可客製流程與內部系統整合。",
+            "它正試圖與 OpenAI、Anthropic 的成品化攻勢形成差異。"
+          ],
+          "significance": "企业 AI 的下一轮分化，很可能不是“谁的助手更像人”，而是谁更愿意把企业当作系统集成者而不是订阅用户。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/mistral-bets-on-build-your-own-ai-as-it-takes-on-openai-anthropic-in-the-enterprise/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "企業平台",
+          "headline": "Mistral 押注「自己搭 AI」路線，想把企業市場從買現成助手拉回自建平台",
+          "deck": "企業 AI 競爭不只是在比模型參數，也是在比誰能讓公司既想用 AI、又不願把控制權交出去。",
+          "kicker": "公司",
+          "summary": [
+            "Mistral 将企业重点放在自建式 AI，而不是单一现成助手。",
+            "路线强调可控部署、可定制流程和内部系统集成。",
+            "它正试图与 OpenAI、Anthropic 的成品化攻势形成差异。"
+          ],
+          "bullets": [
+            "TechCrunch reports that Mistral is leaning into a “build-your-own AI” strategy for enterprise customers. Instead of focusing on a single packaged assistant, the company is emphasizing models, deployment choices, and platform pieces that organizations can assemble into systems matching their own workflows.",
+            "That pitch speaks to a real enterprise tension. Buyers increasingly want AI capabilities, but many do not want to hand over product direction, deployment architecture, or governance control to a single vendor. Mistral is trying to turn openness, controllability, and private deployment into a strategic differentiator against more vertically integrated competitors."
+          ],
+          "significance": "企業 AI 的下一輪分化，很可能不是「誰的助手更像人」，而是誰更願意把企業當作系統整合者而不是訂閱用戶。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/mistral-bets-on-build-your-own-ai-as-it-takes-on-openai-anthropic-in-the-enterprise/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Enterprise Platforms",
+          "headline": "Mistral bets on a build-your-own-AI approach for the enterprise",
+          "deck": "Enterprise AI competition is also about who lets companies adopt AI without surrendering control.",
+          "kicker": "Company",
+          "summary": [
+            "TechCrunch 報導，Mistral 正把企業敘事押在「build-your-own AI」上：不是只賣一個現成聊天助手，而是強調企業可以圍繞其模型、平台元件與部署選項，自行搭建適配內部流程的系統。這條路線直接對標 OpenAI 與 Anthropic 在企業市場中更強的產品化攻勢。",
+            "這類定位的含義在於，企業客戶現在越來越不滿足於採購一個統一前台。他們更關心模型能否嵌進權限體系、資料治理與既有軟體棧，能否被長期客製，而不是每次都被供應商的產品節奏牽著走。Mistral 試圖把「開放、可控、本地或私有部署」重新包裝成企業採購的核心賣點。"
+          ],
+          "bullets": [
+            "Mistral is pushing a build-your-own-AI pitch for enterprise customers.",
+            "The model stresses controllable deployment, customization, and integration with existing systems.",
+            "It offers a contrast to the more packaged enterprise products from OpenAI and Anthropic."
+          ],
+          "significance": "The next split in enterprise AI may not be about which assistant feels smartest, but which vendor treats the customer as a system builder rather than a seat license.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/mistral-bets-on-build-your-own-ai-as-it-takes-on-openai-anthropic-in-the-enterprise/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gamma-imagine-design-push",
+      "section": "company",
+      "category": "设计工具",
+      "headline": "Gamma 把 AI 演示工具往设计平台再推一步，开始正面碰 Canva 和 Adobe",
+      "deck": "从“帮你做一页演示”到“直接替你做营销素材”，AI 设计产品的边界正在继续外扩。",
+      "kicker": "公司",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T08:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "Gamma",
+        "Design",
+        "Canva",
+        "Adobe"
+      ],
+      "summary": [
+        "Gamma 推出名为 Gamma Imagine 的新图像生成产品，目标是让用户通过文本提示直接生成品牌化营销素材、图表、社交图片和信息图。TechCrunch 报道称，Gamma 还会与 ChatGPT、Claude、Make、Zapier、Atlassian、n8n 等工具集成，把内容生成、自动化和设计输出连成一条链路。",
+        "这一步说明 AI 设计创业公司不再满足于做“PPT 助手”。它们更想承接知识工作者的广义视觉表达需求：既不像 Adobe/Figma 那样专业门槛高，也不想停留在模板式轻工具。谁能把品牌风格、数据驱动图形和协作流程一起塞进对话式生成体验，谁就更可能吃到中间层市场。"
+      ],
+      "bullets": [
+        "Gamma 新產品可生成品牌化行銷素材、圖表和社群圖像。",
+        "平台同時接入多種模型與自動化工具。",
+        "它試圖占據 Adobe/Figma 與傳統輕工具之間的中間層。"
+      ],
+      "significance": "AI 设计市场的真正竞争，正在从“能不能出图”转向“能不能把品牌、数据和协作流程一起产品化”。",
+      "sources": [
+        {
+          "title": "Gamma adds AI image-generation tools in bid to take on Canva and Adobe",
+          "publication": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/17/gamma-adds-ai-image-generation-tools-in-bid-to-take-on-canva-and-adobe/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "设计工具",
+          "headline": "Gamma 把 AI 演示工具往设计平台再推一步，开始正面碰 Canva 和 Adobe",
+          "deck": "从“帮你做一页演示”到“直接替你做营销素材”，AI 设计产品的边界正在继续外扩。",
+          "kicker": "公司",
+          "summary": [
+            "Gamma 推出名为 Gamma Imagine 的新图像生成产品，目标是让用户通过文本提示直接生成品牌化营销素材、图表、社交图片和信息图。TechCrunch 报道称，Gamma 还会与 ChatGPT、Claude、Make、Zapier、Atlassian、n8n 等工具集成，把内容生成、自动化和设计输出连成一条链路。",
+            "这一步说明 AI 设计创业公司不再满足于做“PPT 助手”。它们更想承接知识工作者的广义视觉表达需求：既不像 Adobe/Figma 那样专业门槛高，也不想停留在模板式轻工具。谁能把品牌风格、数据驱动图形和协作流程一起塞进对话式生成体验，谁就更可能吃到中间层市场。"
+          ],
+          "bullets": [
+            "Gamma 新產品可生成品牌化行銷素材、圖表和社群圖像。",
+            "平台同時接入多種模型與自動化工具。",
+            "它試圖占據 Adobe/Figma 與傳統輕工具之間的中間層。"
+          ],
+          "significance": "AI 设计市场的真正竞争，正在从“能不能出图”转向“能不能把品牌、数据和协作流程一起产品化”。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "Gamma adds AI image-generation tools in bid to take on Canva and Adobe",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/gamma-adds-ai-image-generation-tools-in-bid-to-take-on-canva-and-adobe/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "設計工具",
+          "headline": "Gamma 把 AI 簡報工具往設計平台再推一步，開始正面碰 Canva 與 Adobe",
+          "deck": "從「幫你做一頁簡報」到「直接替你做行銷素材」，AI 設計產品的邊界正在繼續外擴。",
+          "kicker": "公司",
+          "summary": [
+            "Gamma 新产品可生成品牌化营销素材、图表和社交图像。",
+            "平台同时接入多种模型与自动化工具。",
+            "它试图占据 Adobe/Figma 与传统轻工具之间的中间层。"
+          ],
+          "bullets": [
+            "Gamma has launched Gamma Imagine, a new image-generation product aimed at brand-specific marketing assets, charts, social graphics, and infographics. TechCrunch says the company is also integrating with tools such as ChatGPT, Claude, Make, Zapier, Atlassian, and n8n to connect generation with broader workflows.",
+            "The strategic shift is that AI design startups no longer want to remain slide assistants. They are expanding toward a broader visual communication layer for knowledge workers: less specialized than Adobe or Figma, but much more capable than template-only tools. The company is trying to capture the middle market where speed, brand consistency, and automation matter more than pro-level craft control."
+          ],
+          "significance": "AI 設計市場的真正競爭，正在從「能不能出圖」轉向「能不能把品牌、資料與協作流程一起產品化」。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "Gamma adds AI image-generation tools in bid to take on Canva and Adobe",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/gamma-adds-ai-image-generation-tools-in-bid-to-take-on-canva-and-adobe/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Design Tools",
+          "headline": "Gamma pushes further into design tools with AI-generated marketing assets",
+          "deck": "AI design products are moving beyond slides toward full marketing asset generation.",
+          "kicker": "Company",
+          "summary": [
+            "Gamma 推出名為 Gamma Imagine 的新圖像生成產品，目標是讓使用者透過文字提示直接生成品牌化行銷素材、圖表、社群圖片與資訊圖。TechCrunch 報導稱，Gamma 還會與 ChatGPT、Claude、Make、Zapier、Atlassian、n8n 等工具整合，把內容生成、自動化與設計輸出連成一條鏈路。",
+            "這一步說明 AI 設計新創不再滿足於做「PPT 助手」。它們更想承接知識工作者的廣義視覺表達需求：既不像 Adobe/Figma 那樣專業門檻高，也不想停留在模板式輕工具。誰能把品牌風格、資料驅動圖形與協作流程一起塞進對話式生成體驗，誰就更可能吃到中間層市場。"
+          ],
+          "bullets": [
+            "Gamma Imagine can generate branded marketing assets, charts, and social graphics.",
+            "The product is integrated with major model and workflow tools.",
+            "Gamma is trying to occupy the middle layer between pro design suites and lightweight templates."
+          ],
+          "significance": "The real competition in AI design is moving from pure image generation to whether a product can package brand context, data, and workflow into one usable system.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "Gamma adds AI image-generation tools in bid to take on Canva and Adobe",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/gamma-adds-ai-image-generation-tools-in-bid-to-take-on-canva-and-adobe/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pentagon-classified-training",
+      "section": "policy",
+      "category": "军用 AI",
+      "headline": "五角大楼考虑让模型直接学习机密数据，军用生成式 AI 正从“能回答”迈向“能内化”",
+      "deck": "一旦模型开始在机密数据上继续训练，问题就不再只是能不能接入安全环境，而是机密知识会不会被写进模型本体。",
+      "kicker": "政策",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T14:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 4,
+      "tags": [
+        "Pentagon",
+        "Classified Data",
+        "Defense",
+        "Model Training"
+      ],
+      "summary": [
+        "MIT Technology Review 报道称，五角大楼正在讨论为生成式 AI 公司建立安全环境，让其在机密数据上训练面向军事用途的专门版本模型。当前模型已可在机密环境里回答问题，例如协助分析目标；但如果继续在这些数据上训练，情报、战场评估和监视材料就可能被嵌入模型参数本身。",
+        "支持方认为，这会提高模型在特定任务上的准确性与实用性；担忧则在于，一旦不同部门共享同一模型，敏感信息可能被不该接触它的人重新唤出。报道同时提到，美国国防部门已与 OpenAI、xAI 等合作在机密场景部署模型，这让“模型进入军务”从试点变成更接近基础设施采购的问题。"
+      ],
+      "bullets": [
+        "五角大廈正討論讓模型在機密資料上繼續訓練。",
+        "風險核心是機密知識可能被寫進模型參數並重新洩露。",
+        "生成式 AI 在國防系統中的角色正從問答工具升級為客製化能力平台。"
+      ],
+      "significance": "一旦国家安全系统开始追求“专门学过机密”的模型，模型治理就必须从访问控制扩展到权重隔离、部门边界和可验证遗忘。",
+      "sources": [
+        {
+          "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+          "publication": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "军用 AI",
+          "headline": "五角大楼考虑让模型直接学习机密数据，军用生成式 AI 正从“能回答”迈向“能内化”",
+          "deck": "一旦模型开始在机密数据上继续训练，问题就不再只是能不能接入安全环境，而是机密知识会不会被写进模型本体。",
+          "kicker": "政策",
+          "summary": [
+            "MIT Technology Review 报道称，五角大楼正在讨论为生成式 AI 公司建立安全环境，让其在机密数据上训练面向军事用途的专门版本模型。当前模型已可在机密环境里回答问题，例如协助分析目标；但如果继续在这些数据上训练，情报、战场评估和监视材料就可能被嵌入模型参数本身。",
+            "支持方认为，这会提高模型在特定任务上的准确性与实用性；担忧则在于，一旦不同部门共享同一模型，敏感信息可能被不该接触它的人重新唤出。报道同时提到，美国国防部门已与 OpenAI、xAI 等合作在机密场景部署模型，这让“模型进入军务”从试点变成更接近基础设施采购的问题。"
+          ],
+          "bullets": [
+            "五角大廈正討論讓模型在機密資料上繼續訓練。",
+            "風險核心是機密知識可能被寫進模型參數並重新洩露。",
+            "生成式 AI 在國防系統中的角色正從問答工具升級為客製化能力平台。"
+          ],
+          "significance": "一旦国家安全系统开始追求“专门学过机密”的模型，模型治理就必须从访问控制扩展到权重隔离、部门边界和可验证遗忘。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+              "publication": "MIT Technology Review",
+              "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "軍用 AI",
+          "headline": "五角大廈考慮讓模型直接學習機密資料，軍用生成式 AI 正從「能回答」邁向「能內化」",
+          "deck": "一旦模型開始在機密資料上繼續訓練，問題就不再只是能不能接入安全環境，而是機密知識會不會被寫進模型本體。",
+          "kicker": "政策",
+          "summary": [
+            "五角大楼正讨论让模型在机密数据上继续训练。",
+            "风险核心是机密知识可能被写进模型参数并重新泄露。",
+            "生成式 AI 在国防系统中的角色正从问答工具升级为定制化能力平台。"
+          ],
+          "bullets": [
+            "MIT Technology Review reports that the Pentagon is discussing secure environments in which AI companies could train military-specific model versions on classified data. Models are already being used to answer questions in classified settings, but training directly on intelligence, surveillance, and battlefield material would push them into a different category of risk.",
+            "Proponents argue such training would improve task accuracy and operational usefulness. Critics point to a harder problem: if classified material becomes part of model weights, information might later surface across organizational boundaries in ways that are difficult to fully contain. The story also shows how military use of frontier models is moving from experiment toward procurement and integration."
+          ],
+          "significance": "一旦國家安全系統開始追求「專門學過機密」的模型，模型治理就必須從存取控制擴展到權重隔離、部門邊界與可驗證遺忘。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+              "publication": "MIT Technology Review",
+              "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Military AI",
+          "headline": "The Pentagon is exploring training frontier models on classified data",
+          "deck": "Once models are trained on classified data, the issue is no longer access to secure environments but whether secret knowledge becomes embedded in the model itself.",
+          "kicker": "Policy",
+          "summary": [
+            "MIT Technology Review 報導稱，五角大廈正在討論為生成式 AI 公司建立安全環境，讓其在機密資料上訓練面向軍事用途的專門版本模型。當前模型已可在機密環境裡回答問題，例如協助分析目標；但如果繼續在這些資料上訓練，情報、戰場評估與監視材料就可能被嵌入模型參數本身。",
+            "支持方認為，這會提高模型在特定任務上的準確性與實用性；擔憂則在於，一旦不同部門共享同一模型，敏感資訊可能被不該接觸它的人重新喚出。報導同時提到，美國國防部門已與 OpenAI、xAI 等合作在機密場景部署模型，這讓「模型進入軍務」從試點變成更接近基礎設施採購的問題。"
+          ],
+          "bullets": [
+            "The Pentagon is considering training model variants directly on classified data.",
+            "The central risk is that secret information could become embedded in model parameters.",
+            "Frontier model use in defense is shifting from question-answering pilots toward customized infrastructure."
+          ],
+          "significance": "If national security agencies start demanding models trained on classified material, model governance will have to expand from access control to weight isolation, boundary management, and provable forgetting.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+              "publication": "MIT Technology Review",
+              "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "britannica-openai-lawsuit-20260318",
+      "section": "policy",
+      "category": "版权诉讼",
+      "headline": "《大英百科》起诉 OpenAI 的焦点，不只是训练侵权，而是模型是否已成内容替代品",
+      "deck": "出版商正在把版权诉讼从“你拿去训练了没有”推进到“你是不是直接截走了我的读者”。",
+      "kicker": "政策",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-16T17:04:06.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "OpenAI",
+        "Copyright",
+        "Publishers"
+      ],
+      "summary": [
+        "《大英百科》和 Merriam-Webster 已对 OpenAI 提起诉讼，指控其未经许可使用受版权保护内容训练模型，并在回答中生成与原文“实质性相似”的内容。The Verge 援引诉状称，Britannica 认为 GPT-4 已“记住”其大量内容，并可在特定提示下输出接近逐字的段落。",
+        "案件的重要性在于，它不只讨论训练是否合理使用，也明确讨论聊天产品是否正在取代出版网站本身。Britannica 指控 OpenAI 的回答会直接与其内容竞争并蚕食流量，这让版权争议进一步贴近搜索分发与内容入口的商业结构。"
+      ],
+      "bullets": [
+        "訴訟同時指向訓練行為和近似逐字的輸出。",
+        "Britannica 認為聊天回答正在替代原有內容入口。",
+        "版權爭議因此從資料採集延伸到產品分發層。"
+      ],
+      "significance": "如果法院开始更认真看待“回答界面是否构成内容替代”，出版商与模型公司的冲突就会越来越像搜索平台时代的流量战争 2.0。",
+      "sources": [
+        {
+          "title": "Encyclopedia Britannica is suing OpenAI for allegedly ‘memorizing’ its content with ChatGPT",
+          "publication": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "版权诉讼",
+          "headline": "《大英百科》起诉 OpenAI 的焦点，不只是训练侵权，而是模型是否已成内容替代品",
+          "deck": "出版商正在把版权诉讼从“你拿去训练了没有”推进到“你是不是直接截走了我的读者”。",
+          "kicker": "政策",
+          "summary": [
+            "《大英百科》和 Merriam-Webster 已对 OpenAI 提起诉讼，指控其未经许可使用受版权保护内容训练模型，并在回答中生成与原文“实质性相似”的内容。The Verge 援引诉状称，Britannica 认为 GPT-4 已“记住”其大量内容，并可在特定提示下输出接近逐字的段落。",
+            "案件的重要性在于，它不只讨论训练是否合理使用，也明确讨论聊天产品是否正在取代出版网站本身。Britannica 指控 OpenAI 的回答会直接与其内容竞争并蚕食流量，这让版权争议进一步贴近搜索分发与内容入口的商业结构。"
+          ],
+          "bullets": [
+            "訴訟同時指向訓練行為和近似逐字的輸出。",
+            "Britannica 認為聊天回答正在替代原有內容入口。",
+            "版權爭議因此從資料採集延伸到產品分發層。"
+          ],
+          "significance": "如果法院开始更认真看待“回答界面是否构成内容替代”，出版商与模型公司的冲突就会越来越像搜索平台时代的流量战争 2.0。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "Encyclopedia Britannica is suing OpenAI for allegedly ‘memorizing’ its content with ChatGPT",
+              "publication": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "版權訴訟",
+          "headline": "《大英百科》起訴 OpenAI 的焦點，不只是訓練侵權，而是模型是否已成內容替代品",
+          "deck": "出版商正在把版權訴訟從「你拿去訓練了沒有」推進到「你是不是直接截走了我的讀者」。",
+          "kicker": "政策",
+          "summary": [
+            "诉讼同时指向训练行为和近似逐字的输出。",
+            "Britannica 认为聊天回答正在替代原有内容入口。",
+            "版权争议因此从数据采集延伸到产品分发层。"
+          ],
+          "bullets": [
+            "Encyclopedia Britannica and Merriam-Webster have sued OpenAI, alleging unauthorized use of copyrighted material in training and outputs that are substantially similar to the originals. The Verge says the complaint argues that GPT-4 has effectively memorized Britannica content and can reproduce near-verbatim passages under prompting.",
+            "What sharpens the case is that it is not only about whether training counts as fair use. Britannica also argues that chatbot answers compete directly with and substitute for its original content, siphoning traffic away from the publisher. That pushes the dispute closer to the business model of distribution and discovery rather than dataset acquisition alone."
+          ],
+          "significance": "如果法院開始更認真看待「回答介面是否構成內容替代」，出版商與模型公司的衝突就會越來越像搜尋平台時代的流量戰爭 2.0。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "Encyclopedia Britannica is suing OpenAI for allegedly ‘memorizing’ its content with ChatGPT",
+              "publication": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit"
+            }
+          ]
+        },
+        "en": {
+          "category": "Copyright Litigation",
+          "headline": "Britannica’s lawsuit sharpens the fight over whether chatbots substitute for source publishers",
+          "deck": "Publishers are pushing the copyright fight from training use toward traffic substitution and product competition.",
+          "kicker": "Policy",
+          "summary": [
+            "《大英百科》和 Merriam-Webster 已對 OpenAI 提起訴訟，指控其未經授權使用受版權保護內容訓練模型，並在回答中生成與原文「實質相似」的內容。The Verge 援引訴狀稱，Britannica 認為 GPT-4 已「記住」其大量內容，並可在特定提示下輸出接近逐字的段落。",
+            "案件的重要性在於，它不只討論訓練是否合理使用，也明確討論聊天產品是否正在取代出版網站本身。Britannica 指控 OpenAI 的回答會直接與其內容競爭並蠶食流量，這讓版權爭議進一步貼近搜尋分發與內容入口的商業結構。"
+          ],
+          "bullets": [
+            "The lawsuit targets both training behavior and near-verbatim outputs.",
+            "Britannica says chatbot answers are substituting for its original content.",
+            "The copyright fight is moving from data ingestion to the distribution layer of AI products."
+          ],
+          "significance": "If courts increasingly treat answer interfaces as substitutes for original content, the clash between publishers and model providers will start to resemble a new phase of search-era traffic wars.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "Encyclopedia Britannica is suing OpenAI for allegedly ‘memorizing’ its content with ChatGPT",
+              "publication": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/895372/encyclopedia-britannica-openai-lawsuit"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "google-open-source-security-fund",
+      "section": "tools",
+      "category": "开源安全",
+      "headline": "Google 联手多家大厂加码开源安全：AI 不只在找漏洞，也开始被推去补漏洞",
+      "deck": "当 AI 安全从“生成更多告警”转向“真正把修复推到维护者手里”，开源安全的瓶颈才算被正面碰触。",
+      "kicker": "工具",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T16:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "Google",
+        "Open Source",
+        "Security",
+        "Alpha-Omega"
+      ],
+      "summary": [
+        "Google 宣布与 Amazon、Anthropic、Microsoft/GitHub、OpenAI 等一起，通过 Linux Foundation 的 Alpha-Omega Project 集体投入 1250 万美元，继续支持开源安全。官方同时强调，希望把安全工作从发现漏洞推进到实际修复，让维护者能直接使用 AI 工具处理日益增加的安全问题。",
+        "值得注意的是 Google 的措辞变化：它不再只讲“AI 可以自动发现问题”，而是把 Big Sleep、CodeMender、Sec-Gemini 等能力放进更完整的防守叙事里。面对 AI 生成代码和 AI 驱动攻击同时增长，开源生态真正缺的不是再多一层扫描，而是能在维护者时间有限的前提下缩短从发现到补丁的路径。"
+      ],
+      "bullets": [
+        "產業聯合投入 1250 萬美元支持開源安全。",
+        "Google 把重點從發現漏洞延伸到輔助修復。",
+        "AI 正被包裝成維護者可直接使用的防守工具鏈。"
+      ],
+      "significance": "当 AI 既能帮助写代码又能帮助找漏洞时，开源生态会更强烈地需要“谁负责最后一公里修复”这一层基础设施。",
+      "sources": [
+        {
+          "title": "Our latest investment in open source security for the AI era",
+          "publication": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "开源安全",
+          "headline": "Google 联手多家大厂加码开源安全：AI 不只在找漏洞，也开始被推去补漏洞",
+          "deck": "当 AI 安全从“生成更多告警”转向“真正把修复推到维护者手里”，开源安全的瓶颈才算被正面碰触。",
+          "kicker": "工具",
+          "summary": [
+            "Google 宣布与 Amazon、Anthropic、Microsoft/GitHub、OpenAI 等一起，通过 Linux Foundation 的 Alpha-Omega Project 集体投入 1250 万美元，继续支持开源安全。官方同时强调，希望把安全工作从发现漏洞推进到实际修复，让维护者能直接使用 AI 工具处理日益增加的安全问题。",
+            "值得注意的是 Google 的措辞变化：它不再只讲“AI 可以自动发现问题”，而是把 Big Sleep、CodeMender、Sec-Gemini 等能力放进更完整的防守叙事里。面对 AI 生成代码和 AI 驱动攻击同时增长，开源生态真正缺的不是再多一层扫描，而是能在维护者时间有限的前提下缩短从发现到补丁的路径。"
+          ],
+          "bullets": [
+            "產業聯合投入 1250 萬美元支持開源安全。",
+            "Google 把重點從發現漏洞延伸到輔助修復。",
+            "AI 正被包裝成維護者可直接使用的防守工具鏈。"
+          ],
+          "significance": "当 AI 既能帮助写代码又能帮助找漏洞时，开源生态会更强烈地需要“谁负责最后一公里修复”这一层基础设施。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "Our latest investment in open source security for the AI era",
+              "publication": "Google",
+              "url": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "開源安全",
+          "headline": "Google 聯手多家大廠加碼開源安全：AI 不只在找漏洞，也開始被推去補漏洞",
+          "deck": "當 AI 安全從「生成更多告警」轉向「真正把修復推到維護者手裡」，開源安全的瓶頸才算被正面碰觸。",
+          "kicker": "工具",
+          "summary": [
+            "行业联合投入 1250 万美元支持开源安全。",
+            "Google 把重点从发现漏洞延伸到辅助修复。",
+            "AI 正被包装成维护者可直接使用的防守工具链。"
+          ],
+          "bullets": [
+            "Google says it is joining Amazon, Anthropic, Microsoft/GitHub, and OpenAI in a collective $12.5 million commitment through the Linux Foundation’s Alpha-Omega Project to support open source security. The company also frames AI not just as a way to discover vulnerabilities, but as a means to help maintainers move from findings toward deployed fixes.",
+            "That framing matters. The bottleneck in open source security is often not detection alone but the human capacity to validate, prioritize, and patch issues. By citing tools such as Big Sleep, CodeMender, and Sec-Gemini, Google is presenting AI as part of a defensive workflow rather than another alert generator."
+          ],
+          "significance": "當 AI 既能幫助寫程式又能幫助找漏洞時，開源生態會更強烈地需要「誰負責最後一公里修復」這一層基礎設施。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "Our latest investment in open source security for the AI era",
+              "publication": "Google",
+              "url": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Open Source Security",
+          "headline": "Google and partners expand open source security funding for the AI era",
+          "deck": "Open source security only changes meaningfully when AI moves from finding issues to helping deploy fixes.",
+          "kicker": "Tools",
+          "summary": [
+            "Google 宣布與 Amazon、Anthropic、Microsoft/GitHub、OpenAI 等一起，透過 Linux Foundation 的 Alpha-Omega Project 集體投入 1250 萬美元，繼續支持開源安全。官方同時強調，希望把安全工作從發現漏洞推進到實際修復，讓維護者能直接使用 AI 工具處理日益增加的安全問題。",
+            "值得注意的是 Google 的措辭變化：它不再只講「AI 可以自動發現問題」，而是把 Big Sleep、CodeMender、Sec-Gemini 等能力放進更完整的防守敘事裡。面對 AI 生成程式碼與 AI 驅動攻擊同時成長，開源生態真正缺的不是再多一層掃描，而是能在維護者時間有限的前提下縮短從發現到補丁的路徑。"
+          ],
+          "bullets": [
+            "The industry group is collectively putting $12.5 million into open source security.",
+            "Google emphasizes AI-assisted remediation rather than vulnerability discovery alone.",
+            "The broader pitch is that AI should become part of the maintainer defense workflow."
+          ],
+          "significance": "As AI accelerates both software creation and vulnerability discovery, open source ecosystems will depend more heavily on the infrastructure that closes the last mile between findings and fixes.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "Our latest investment in open source security for the AI era",
+              "publication": "Google",
+              "url": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "langsmith-sandboxes",
+      "section": "tools",
+      "category": "代理基础设施",
+      "headline": "LangChain 推出 LangSmith Sandboxes，代理安全开始被产品化成“一行代码开沙箱”",
+      "deck": "会写代码的代理越来越多，真正稀缺的已经不是“让它能跑”，而是“让它安全地跑”。",
+      "kicker": "工具",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T09:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "LangChain",
+        "LangSmith",
+        "Sandboxes",
+        "Agents"
+      ],
+      "summary": [
+        "LangChain 宣布 LangSmith Sandboxes 进入私有预览，提供运行不可信代码的隔离环境。官方把它描述为面向代理的安全、可扩展沙箱，可一行代码创建，并支持资源限制、持久会话、实时输出、共享访问和自定义镜像。",
+        "这个产品切中的是真问题：代理越能写代码、装依赖、跑测试，就越容易越权或破坏本地环境。过去这需要团队自己拼装容器、网络限制和资源回收机制；现在平台方开始把这些执行边界做成标准化产品。安全沙箱正在从“工程团队的隐藏成本”变成代理平台的基础卖点。"
+      ],
+      "bullets": [
+        "LangSmith Sandboxes 提供執行不可信程式碼的隔離環境。",
+        "支援持久會話、資源限制、自訂映像與即時輸出。",
+        "代理平台正把沙箱能力從自建工程變成標準產品。"
+      ],
+      "significance": "谁能把代理执行边界做得既安全又便宜，谁就更有机会成为下一波 coding agent 的底层平台。",
+      "sources": [
+        {
+          "title": "Introducing LangSmith Sandboxes: Secure Code Execution for Agents",
+          "publication": "LangChain Blog",
+          "url": "https://blog.langchain.com/introducing-langsmith-sandboxes-secure-code-execution-for-agents/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "代理基础设施",
+          "headline": "LangChain 推出 LangSmith Sandboxes，代理安全开始被产品化成“一行代码开沙箱”",
+          "deck": "会写代码的代理越来越多，真正稀缺的已经不是“让它能跑”，而是“让它安全地跑”。",
+          "kicker": "工具",
+          "summary": [
+            "LangChain 宣布 LangSmith Sandboxes 进入私有预览，提供运行不可信代码的隔离环境。官方把它描述为面向代理的安全、可扩展沙箱，可一行代码创建，并支持资源限制、持久会话、实时输出、共享访问和自定义镜像。",
+            "这个产品切中的是真问题：代理越能写代码、装依赖、跑测试，就越容易越权或破坏本地环境。过去这需要团队自己拼装容器、网络限制和资源回收机制；现在平台方开始把这些执行边界做成标准化产品。安全沙箱正在从“工程团队的隐藏成本”变成代理平台的基础卖点。"
+          ],
+          "bullets": [
+            "LangSmith Sandboxes 提供執行不可信程式碼的隔離環境。",
+            "支援持久會話、資源限制、自訂映像與即時輸出。",
+            "代理平台正把沙箱能力從自建工程變成標準產品。"
+          ],
+          "significance": "谁能把代理执行边界做得既安全又便宜，谁就更有机会成为下一波 coding agent 的底层平台。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "Introducing LangSmith Sandboxes: Secure Code Execution for Agents",
+              "publication": "LangChain Blog",
+              "url": "https://blog.langchain.com/introducing-langsmith-sandboxes-secure-code-execution-for-agents/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "代理基礎設施",
+          "headline": "LangChain 推出 LangSmith Sandboxes，代理安全開始被產品化成「一行程式開沙箱」",
+          "deck": "會寫程式的代理越來越多，真正稀缺的已經不是「讓它能跑」，而是「讓它安全地跑」。",
+          "kicker": "工具",
+          "summary": [
+            "LangSmith Sandboxes 提供运行不可信代码的隔离环境。",
+            "支持持久会话、资源限制、自定义镜像和实时输出。",
+            "代理平台正把沙箱能力从自建工程变成标准产品。"
+          ],
+          "bullets": [
+            "LangChain has put LangSmith Sandboxes into private preview as a secure environment for running untrusted code. The company pitches it as an agent-oriented sandbox that can be created in one line of code and supports resource limits, persistent sessions, custom images, shared access, and streamed output.",
+            "The demand is structural. As agents increasingly write code, install dependencies, and run tests, the challenge is not merely giving them execution power but constraining blast radius. What once required hand-built container orchestration and security controls is now being packaged as a platform primitive. Sandboxing is becoming a core product category for agent infrastructure."
+          ],
+          "significance": "誰能把代理執行邊界做得既安全又便宜，誰就更有機會成為下一波 coding agent 的底層平台。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "Introducing LangSmith Sandboxes: Secure Code Execution for Agents",
+              "publication": "LangChain Blog",
+              "url": "https://blog.langchain.com/introducing-langsmith-sandboxes-secure-code-execution-for-agents/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Agent Infrastructure",
+          "headline": "LangSmith Sandboxes turns secure agent execution into a product primitive",
+          "deck": "As coding agents spread, the scarce capability is no longer code execution itself but isolated execution.",
+          "kicker": "Tools",
+          "summary": [
+            "LangChain 宣布 LangSmith Sandboxes 進入私有預覽，提供執行不可信程式碼的隔離環境。官方把它描述為面向代理的安全、可擴展沙箱，可一行程式建立，並支援資源限制、持久會話、即時輸出、共享存取與自訂映像。",
+            "這個產品切中的是真問題：代理越能寫程式、裝依賴、跑測試，就越容易越權或破壞本地環境。過去這需要團隊自己拼裝容器、網路限制與資源回收機制；現在平台方開始把這些執行邊界做成標準化產品。安全沙箱正在從「工程團隊的隱藏成本」變成代理平台的基礎賣點。"
+          ],
+          "bullets": [
+            "LangSmith Sandboxes provides isolated execution for untrusted agent code.",
+            "It includes persistent sessions, custom images, streamed output, and resource controls.",
+            "Agent platforms are turning sandboxing from bespoke engineering into a standard product feature."
+          ],
+          "significance": "The vendors that make agent execution boundaries safe and cheap are likely to become the infrastructure layer for the next generation of coding agents.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "Introducing LangSmith Sandboxes: Secure Code Execution for Agents",
+              "publication": "LangChain Blog",
+              "url": "https://blog.langchain.com/introducing-langsmith-sandboxes-secure-code-execution-for-agents/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "open-swe-framework",
+      "section": "tools",
+      "category": "开源框架",
+      "headline": "LangChain 开源 Open SWE，把内部编程代理的常见架构直接做成了模板",
+      "deck": "当越来越多公司都在造自己的内部编程代理，行业就会开始把“经验做法”抽成可复用框架。",
+      "kicker": "工具",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T09:30:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "Open SWE",
+        "LangChain",
+        "Coding Agents",
+        "Open Source"
+      ],
+      "summary": [
+        "LangChain 发布 Open SWE，试图把 Stripe、Ramp、Coinbase 等公司内部编程代理的共性架构抽象成开源框架。官方总结出的共同模式包括：隔离执行环境、精心挑选的工具集、Slack 等现有工作流入口、任务启动时注入丰富上下文，以及子代理拆分。",
+        "这类项目的意义不在于“又一个 agent demo”，而在于它开始把组织内部已经验证过的工程模式公开化。内部编程代理正在从少数公司的秘密武器，变成可被复制、改装、对比的一类系统产品；而一旦框架化，企业讨论的重点就会从概念验证转向治理边界、权限设计和组织接入成本。"
+      ],
+      "bullets": [
+        "Open SWE 提煉了內部程式代理的常見系統模式。",
+        "重點包括隔離執行、工具治理、上下文注入與子代理拆分。",
+        "內部 coding agent 正從公司私產走向可複製的開源架構。"
+      ],
+      "significance": "一旦内部 coding agent 的架构被框架化，企业护城河就不再是“有没有做”，而会转向“做得多深、接得多稳、管得多严”。",
+      "sources": [
+        {
+          "title": "Open SWE: An Open-Source Framework for Internal Coding Agents",
+          "publication": "LangChain Blog",
+          "url": "https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "开源框架",
+          "headline": "LangChain 开源 Open SWE，把内部编程代理的常见架构直接做成了模板",
+          "deck": "当越来越多公司都在造自己的内部编程代理，行业就会开始把“经验做法”抽成可复用框架。",
+          "kicker": "工具",
+          "summary": [
+            "LangChain 发布 Open SWE，试图把 Stripe、Ramp、Coinbase 等公司内部编程代理的共性架构抽象成开源框架。官方总结出的共同模式包括：隔离执行环境、精心挑选的工具集、Slack 等现有工作流入口、任务启动时注入丰富上下文，以及子代理拆分。",
+            "这类项目的意义不在于“又一个 agent demo”，而在于它开始把组织内部已经验证过的工程模式公开化。内部编程代理正在从少数公司的秘密武器，变成可被复制、改装、对比的一类系统产品；而一旦框架化，企业讨论的重点就会从概念验证转向治理边界、权限设计和组织接入成本。"
+          ],
+          "bullets": [
+            "Open SWE 提煉了內部程式代理的常見系統模式。",
+            "重點包括隔離執行、工具治理、上下文注入與子代理拆分。",
+            "內部 coding agent 正從公司私產走向可複製的開源架構。"
+          ],
+          "significance": "一旦内部 coding agent 的架构被框架化，企业护城河就不再是“有没有做”，而会转向“做得多深、接得多稳、管得多严”。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "Open SWE: An Open-Source Framework for Internal Coding Agents",
+              "publication": "LangChain Blog",
+              "url": "https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "開源框架",
+          "headline": "LangChain 開源 Open SWE，把內部程式代理的常見架構直接做成了模板",
+          "deck": "當越來越多公司都在造自己的內部程式代理，產業就會開始把「經驗做法」抽成可重用框架。",
+          "kicker": "工具",
+          "summary": [
+            "Open SWE 提炼了内部编程代理的常见系统模式。",
+            "重点包括隔离执行、工具治理、上下文注入与子代理拆分。",
+            "内部 coding agent 正从公司私产走向可复制的开源架构。"
+          ],
+          "bullets": [
+            "LangChain has released Open SWE as an open-source framework based on patterns seen in internal coding agents at companies such as Stripe, Ramp, and Coinbase. The summarized architecture includes isolated execution, curated toolsets, Slack-first invocation, rich startup context, and subagent orchestration.",
+            "What matters is not another flashy agent demo but the codification of production patterns. Internal coding agents are moving from bespoke organizational advantage toward a reusable systems category. Once these patterns are frameworked, enterprise conversations shift from proof-of-concept enthusiasm to governance, permissions, and integration cost."
+          ],
+          "significance": "一旦內部 coding agent 的架構被框架化，企業護城河就不再是「有沒有做」，而會轉向「做得多深、接得多穩、管得多嚴」。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "Open SWE: An Open-Source Framework for Internal Coding Agents",
+              "publication": "LangChain Blog",
+              "url": "https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Open Source Frameworks",
+          "headline": "Open SWE packages common internal coding-agent patterns into an open framework",
+          "deck": "As more companies build internal coding agents, the industry starts turning best practices into reusable frameworks.",
+          "kicker": "Tools",
+          "summary": [
+            "LangChain 發布 Open SWE，試圖把 Stripe、Ramp、Coinbase 等公司內部程式代理的共性架構抽象成開源框架。官方總結出的共同模式包括：隔離執行環境、精心挑選的工具集、Slack 等既有工作流入口、任務啟動時注入豐富上下文，以及子代理拆分。",
+            "這類專案的意義不在於「又一個 agent demo」，而在於它開始把組織內部已驗證過的工程模式公開化。內部程式代理正在從少數公司的秘密武器，變成可被複製、改裝、對比的一類系統產品；而一旦框架化，企業討論的重點就會從概念驗證轉向治理邊界、權限設計與組織接入成本。"
+          ],
+          "bullets": [
+            "Open SWE turns recurring internal coding-agent patterns into an open framework.",
+            "Core themes include isolation, tool curation, startup context, and subagent orchestration.",
+            "Internal coding agents are becoming a reproducible systems category rather than a company secret."
+          ],
+          "significance": "Once internal coding-agent architectures are frameworked, the moat shifts from merely building one to how deeply it is integrated and how tightly it is governed.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "Open SWE: An Open-Source Framework for Internal Coding Agents",
+              "publication": "LangChain Blog",
+              "url": "https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "openai-compensation-insights",
+      "section": "impact",
+      "category": "劳动与收入",
+      "headline": "OpenAI 说美国人每天向 ChatGPT 发送近 300 万条薪资问题，工资信息差正被聊天界面吞掉",
+      "deck": "当工资透明不再主要靠招聘网站或同事私聊，而是开始经由聊天机器人完成，信息权力的入口也在改写。",
+      "kicker": "影响",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T00:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "OpenAI",
+        "Compensation",
+        "Labor Market"
+      ],
+      "summary": [
+        "OpenAI 发布研究称，美国用户每天会向 ChatGPT 发送近 300 万条与薪酬和收入相关的信息查询。官方把这描述为 AI 正在帮助劳动者获取原本分散、难以比较的工资信息，从而缩小薪资信息差。",
+        "这条消息真正值得看的不是数字本身，而是聊天界面开始介入劳动市场的日常决策：用户不只是问“我值多少钱”，也会问谈薪策略、职位对比、地区差异和职业路径。工资透明曾经主要依赖平台和论坛，现在正逐步被语言模型吸纳为一种随问随得的解释服务。"
+      ],
+      "bullets": [
+        "OpenAI 稱美國人每天向 ChatGPT 發送近 300 萬條薪資問題。",
+        "聊天助手開始承擔薪資比較與談薪資訊入口的角色。",
+        "勞動市場的資訊中介正在從網頁平台轉向對話介面。"
+      ],
+      "significance": "如果薪资透明越来越依赖聊天模型，未来争议就不只是谁提供数据，还包括谁定义“合理薪资”的叙事方式。",
+      "sources": [
+        {
+          "title": "Equipping workers with insights about compensation",
+          "publication": "OpenAI",
+          "url": "https://openai.com/index/equipping-workers-with-insights-about-compensation"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "劳动与收入",
+          "headline": "OpenAI 说美国人每天向 ChatGPT 发送近 300 万条薪资问题，工资信息差正被聊天界面吞掉",
+          "deck": "当工资透明不再主要靠招聘网站或同事私聊，而是开始经由聊天机器人完成，信息权力的入口也在改写。",
+          "kicker": "影响",
+          "summary": [
+            "OpenAI 发布研究称，美国用户每天会向 ChatGPT 发送近 300 万条与薪酬和收入相关的信息查询。官方把这描述为 AI 正在帮助劳动者获取原本分散、难以比较的工资信息，从而缩小薪资信息差。",
+            "这条消息真正值得看的不是数字本身，而是聊天界面开始介入劳动市场的日常决策：用户不只是问“我值多少钱”，也会问谈薪策略、职位对比、地区差异和职业路径。工资透明曾经主要依赖平台和论坛，现在正逐步被语言模型吸纳为一种随问随得的解释服务。"
+          ],
+          "bullets": [
+            "OpenAI 稱美國人每天向 ChatGPT 發送近 300 萬條薪資問題。",
+            "聊天助手開始承擔薪資比較與談薪資訊入口的角色。",
+            "勞動市場的資訊中介正在從網頁平台轉向對話介面。"
+          ],
+          "significance": "如果薪资透明越来越依赖聊天模型，未来争议就不只是谁提供数据，还包括谁定义“合理薪资”的叙事方式。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "Equipping workers with insights about compensation",
+              "publication": "OpenAI",
+              "url": "https://openai.com/index/equipping-workers-with-insights-about-compensation"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "勞動與收入",
+          "headline": "OpenAI 說美國人每天向 ChatGPT 發送近 300 萬條薪資問題，薪資資訊差正被聊天介面吞掉",
+          "deck": "當薪資透明不再主要靠招聘網站或同事私聊，而是開始經由聊天機器人完成，資訊權力的入口也在改寫。",
+          "kicker": "影響",
+          "summary": [
+            "OpenAI 称美国人每天向 ChatGPT 发送近 300 万条薪资问题。",
+            "聊天助手开始承担工资比较与谈薪信息入口的角色。",
+            "劳动市场的信息中介正在从网页平台转向对话界面。"
+          ],
+          "bullets": [
+            "OpenAI says Americans send ChatGPT nearly three million messages per day about compensation and earnings. The company frames this as evidence that AI is helping workers access wage information that has traditionally been fragmented and difficult to compare.",
+            "The more consequential shift is how chat interfaces are entering routine labor-market decisions. Users are not only asking what a role should pay, but also how to negotiate, compare locations, and assess career paths. Wage transparency once depended heavily on websites and peer networks; now large language models are becoming part of that explanatory layer."
+          ],
+          "significance": "如果薪資透明越來越依賴聊天模型，未來爭議就不只誰提供資料，還包括誰定義「合理薪資」的敘事方式。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "Equipping workers with insights about compensation",
+              "publication": "OpenAI",
+              "url": "https://openai.com/index/equipping-workers-with-insights-about-compensation"
+            }
+          ]
+        },
+        "en": {
+          "category": "Labor & Income",
+          "headline": "OpenAI says Americans ask ChatGPT nearly 3 million compensation questions a day",
+          "deck": "If wage transparency increasingly arrives through chatbots rather than job boards or peers, the gateway to labor information is being rewritten.",
+          "kicker": "Impact",
+          "summary": [
+            "OpenAI 發布研究稱，美國使用者每天會向 ChatGPT 發送近 300 萬條與薪酬和收入相關的資訊查詢。官方把這描述為 AI 正在幫助勞動者取得原本分散、難以比較的薪資資訊，從而縮小薪資資訊差。",
+            "這條消息真正值得看的是聊天介面開始介入勞動市場的日常決策：使用者不只是問「我值多少錢」，也會問談薪策略、職位比較、地區差異和職涯路徑。薪資透明曾經主要依賴平台和論壇，現在正逐步被語言模型吸納為一種隨問隨得的解釋服務。"
+          ],
+          "bullets": [
+            "OpenAI says Americans ask ChatGPT nearly 3 million compensation questions each day.",
+            "Chat assistants are becoming a front door for wage comparison and negotiation information.",
+            "Labor-market information brokerage is shifting from web platforms toward conversational interfaces."
+          ],
+          "significance": "If wage transparency increasingly depends on chat models, the future dispute will not just be about data sources but about who frames what “fair compensation” even means.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "Equipping workers with insights about compensation",
+              "publication": "OpenAI",
+              "url": "https://openai.com/index/equipping-workers-with-insights-about-compensation"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "google-breast-cancer-workflows",
+      "section": "impact",
+      "category": "医疗 AI",
+      "headline": "Google Research 用机器学习改善乳腺癌筛查流程，医疗 AI 的价值仍然首先落在工作流而不是奇迹",
+      "deck": "医疗 AI 最可落地的进展，往往不是“替代医生”，而是把筛查和分诊流程里的摩擦一点点抹平。",
+      "kicker": "影响",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T15:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "Google Research",
+        "Healthcare",
+        "Screening"
+      ],
+      "summary": [
+        "Google Research 发布关于改善乳腺癌筛查工作流的介绍，重点不在炫耀单点模型，而在如何把机器学习嵌进真实医疗流程，帮助提高筛查效率与护理场景中的实际可用性。这类项目通常涉及工作列表排序、异常标注辅助和更顺畅的临床衔接。",
+        "医疗 AI 近年的经验越来越清楚：真正能留下来的系统，往往不是承诺全面替代专业人员，而是把流程中的等待、遗漏和重复劳动压下去。对医院和公共卫生系统来说，工作流改进比单次演示里的惊艳指标更接近可采购、可评估、可长期维护的价值。"
+      ],
+      "bullets": [
+        "Google Research 把重點放在篩檢流程優化，而非單點模型表演。",
+        "醫療 AI 的落地價值常體現在排序、輔助標註與流程銜接。",
+        "醫院更容易採購可維護的工作流改進，而不是神話式替代方案。"
+      ],
+      "significance": "医疗 AI 的商业成熟度，最终取决于它能否进入流程、通过审查、并在长期运营里持续省下时间与错误。",
+      "sources": [
+        {
+          "title": "Improving breast cancer screening workflows with machine learning",
+          "publication": "Google Research",
+          "url": "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "医疗 AI",
+          "headline": "Google Research 用机器学习改善乳腺癌筛查流程，医疗 AI 的价值仍然首先落在工作流而不是奇迹",
+          "deck": "医疗 AI 最可落地的进展，往往不是“替代医生”，而是把筛查和分诊流程里的摩擦一点点抹平。",
+          "kicker": "影响",
+          "summary": [
+            "Google Research 发布关于改善乳腺癌筛查工作流的介绍，重点不在炫耀单点模型，而在如何把机器学习嵌进真实医疗流程，帮助提高筛查效率与护理场景中的实际可用性。这类项目通常涉及工作列表排序、异常标注辅助和更顺畅的临床衔接。",
+            "医疗 AI 近年的经验越来越清楚：真正能留下来的系统，往往不是承诺全面替代专业人员，而是把流程中的等待、遗漏和重复劳动压下去。对医院和公共卫生系统来说，工作流改进比单次演示里的惊艳指标更接近可采购、可评估、可长期维护的价值。"
+          ],
+          "bullets": [
+            "Google Research 把重點放在篩檢流程優化，而非單點模型表演。",
+            "醫療 AI 的落地價值常體現在排序、輔助標註與流程銜接。",
+            "醫院更容易採購可維護的工作流改進，而不是神話式替代方案。"
+          ],
+          "significance": "医疗 AI 的商业成熟度，最终取决于它能否进入流程、通过审查、并在长期运营里持续省下时间与错误。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "Improving breast cancer screening workflows with machine learning",
+              "publication": "Google Research",
+              "url": "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "醫療 AI",
+          "headline": "Google Research 用機器學習改善乳癌篩檢流程，醫療 AI 的價值仍然首先落在工作流而不是奇蹟",
+          "deck": "醫療 AI 最可落地的進展，往往不是「取代醫師」，而是把篩檢和分診流程裡的摩擦一點點抹平。",
+          "kicker": "影響",
+          "summary": [
+            "Google Research 把重点放在筛查流程优化，而非单点模型表演。",
+            "医疗 AI 的落地价值常体现在排序、辅助标注和流程衔接。",
+            "医院更容易采购可维护的工作流改进，而不是神话式替代方案。"
+          ],
+          "bullets": [
+            "Google Research is highlighting machine-learning work aimed at improving breast cancer screening workflows, with an emphasis on practical integration into clinical processes rather than a standalone model story. Projects in this category often focus on worklist prioritization, abnormality assistance, and smoother handoffs inside care systems.",
+            "Experience in healthcare AI keeps pointing to the same lesson: durable value often comes not from replacing clinicians, but from reducing waiting, omission, and repetitive friction in care pathways. For hospitals and public health systems, workflow improvements are easier to evaluate, procure, and maintain than miracle narratives."
+          ],
+          "significance": "醫療 AI 的商業成熟度，最終取決於它能否進入流程、通過審查，並在長期營運裡持續省下時間與錯誤。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "Improving breast cancer screening workflows with machine learning",
+              "publication": "Google Research",
+              "url": "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Healthcare AI",
+          "headline": "Google Research focuses on breast cancer screening workflows, not miracle narratives",
+          "deck": "In healthcare, AI often creates value first by reducing workflow friction rather than replacing clinicians.",
+          "kicker": "Impact",
+          "summary": [
+            "Google Research 發布關於改善乳癌篩檢工作流的介紹，重點不在炫耀單點模型，而在如何把機器學習嵌進真實醫療流程，幫助提高篩檢效率與照護場景中的實際可用性。這類專案通常涉及工作列表排序、異常標註輔助與更順暢的臨床銜接。",
+            "醫療 AI 近年的經驗越來越清楚：真正能留下來的系統，往往不是承諾全面取代專業人員，而是把流程中的等待、遺漏與重複勞動壓下去。對醫院和公共衛生系統來說，工作流改進比單次展示裡的驚豔指標更接近可採購、可評估、可長期維護的價值。"
+          ],
+          "bullets": [
+            "Google Research is emphasizing workflow optimization rather than a one-off model showcase.",
+            "Healthcare AI value often appears in triage, annotation support, and process coordination.",
+            "Hospitals are more likely to buy maintainable workflow gains than replacement fantasies."
+          ],
+          "significance": "The commercial maturity of healthcare AI will depend on whether it can live inside workflows, pass review, and keep saving time and error over long operational cycles.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "Improving breast cancer screening workflows with machine learning",
+              "publication": "Google Research",
+              "url": "https://research.google/blog/improving-breast-cancer-screening-workflows-with-machine-learning/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "world-agentkit-human-verification",
+      "section": "impact",
+      "category": "代理电商",
+      "headline": "World 推出 AgentKit，试着在代理购物时代给“真人授权”做一层可验证门槛",
+      "deck": "如果 AI 代理真的开始替人下单，电商平台迟早要追问：这单到底是谁授权的。",
+      "kicker": "影响",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T11:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "World",
+        "AgentKit",
+        "Commerce",
+        "Verification"
+      ],
+      "summary": [
+        "TechCrunch 报道，Tools for Humanity 旗下的 World 发布 AgentKit 测试版，想让网站在代理购物场景里验证“背后是否有真实且唯一的人类”。这一工具把 World ID 接入面向自动交易的 x402 协议，让电商网站在接收代理下单时，额外判断该代理是否获得某个用户授权。",
+        "这说明代理电商一旦进入现实交易，争议就不会只围绕支付流程和接口标准，而会迅速碰到身份、欺诈与责任归属。World 的方案带有其一贯的争议色彩——它依赖 World ID 与更强验证模式——但它确实点中了一个正在浮现的问题：AI 代理能不能被当作“代理人”，前提是平台先知道它代表的是谁。"
+      ],
+      "bullets": [
+        "AgentKit 試圖驗證代理購物請求背後的真實使用者。",
+        "方案把 World ID 接入 x402 等自動交易協議。",
+        "代理電商的下一步將直面身份、詐欺與責任問題。"
+      ],
+      "significance": "未来的代理互联网很可能不是“谁的代理更聪明”先赢，而是谁先提供足够低摩擦、又能被平台接受的身份与授权基础设施。",
+      "sources": [
+        {
+          "title": "World launches tool to verify humans behind AI shopping agents",
+          "publication": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "代理电商",
+          "headline": "World 推出 AgentKit，试着在代理购物时代给“真人授权”做一层可验证门槛",
+          "deck": "如果 AI 代理真的开始替人下单，电商平台迟早要追问：这单到底是谁授权的。",
+          "kicker": "影响",
+          "summary": [
+            "TechCrunch 报道，Tools for Humanity 旗下的 World 发布 AgentKit 测试版，想让网站在代理购物场景里验证“背后是否有真实且唯一的人类”。这一工具把 World ID 接入面向自动交易的 x402 协议，让电商网站在接收代理下单时，额外判断该代理是否获得某个用户授权。",
+            "这说明代理电商一旦进入现实交易，争议就不会只围绕支付流程和接口标准，而会迅速碰到身份、欺诈与责任归属。World 的方案带有其一贯的争议色彩——它依赖 World ID 与更强验证模式——但它确实点中了一个正在浮现的问题：AI 代理能不能被当作“代理人”，前提是平台先知道它代表的是谁。"
+          ],
+          "bullets": [
+            "AgentKit 試圖驗證代理購物請求背後的真實使用者。",
+            "方案把 World ID 接入 x402 等自動交易協議。",
+            "代理電商的下一步將直面身份、詐欺與責任問題。"
+          ],
+          "significance": "未来的代理互联网很可能不是“谁的代理更聪明”先赢，而是谁先提供足够低摩擦、又能被平台接受的身份与授权基础设施。",
+          "byline": "编辑部整理",
+          "sources": [
+            {
+              "title": "World launches tool to verify humans behind AI shopping agents",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "代理電商",
+          "headline": "World 推出 AgentKit，試著在代理購物時代給「真人授權」做一層可驗證門檻",
+          "deck": "如果 AI 代理真的開始替人下單，電商平台遲早要追問：這單到底是誰授權的。",
+          "kicker": "影響",
+          "summary": [
+            "AgentKit 试图验证代理购物请求背后的真实用户。",
+            "方案把 World ID 接入 x402 等自动交易协议。",
+            "代理电商的下一步将直面身份、欺诈与责任问题。"
+          ],
+          "bullets": [
+            "TechCrunch reports that Tools for Humanity’s World has released a beta of AgentKit, a verification layer meant to help websites confirm that a shopping agent is acting on behalf of a real, unique person. The tool ties World ID into the x402 protocol so commerce sites can treat agent-initiated purchases as explicitly authorized by a user.",
+            "If agentic commerce becomes mainstream, identity and liability become unavoidable design questions. World’s answer remains controversial because it relies on its existing proof-of-humanity infrastructure, but it also targets a genuine gap: before platforms trust agents to transact, they need some way to know whom the agent represents."
+          ],
+          "significance": "未來的代理網際網路很可能不是「誰的代理更聰明」先贏，而是誰先提供足夠低摩擦、又能被平台接受的身份與授權基礎設施。",
+          "byline": "編輯部整理",
+          "sources": [
+            {
+              "title": "World launches tool to verify humans behind AI shopping agents",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Agentic Commerce",
+          "headline": "World launches AgentKit to verify the human behind shopping agents",
+          "deck": "If shopping agents become normal, commerce platforms will inevitably ask who actually authorized the purchase.",
+          "kicker": "Impact",
+          "summary": [
+            "TechCrunch 報導，Tools for Humanity 旗下的 World 發布 AgentKit 測試版，想讓網站在代理購物場景裡驗證「背後是否有真實且唯一的人類」。這一工具把 World ID 接入面向自動交易的 x402 協議，讓電商網站在接收代理下單時，額外判斷該代理是否獲得某個使用者授權。",
+            "這說明代理電商一旦進入現實交易，爭議就不會只圍繞支付流程與介面標準，而會迅速碰到身份、詐欺與責任歸屬。World 的方案帶有其一貫的爭議色彩——它依賴 World ID 與更強驗證模式——但它確實點中了一个正在浮現的問題：AI 代理能不能被當作「代理人」，前提是平台先知道它代表的是誰。"
+          ],
+          "bullets": [
+            "AgentKit aims to verify the real user behind a shopping agent request.",
+            "It ties World ID into automated transaction protocols such as x402.",
+            "Identity, fraud, and liability are becoming core design problems for agentic commerce."
+          ],
+          "significance": "The early winners of the agent internet may be defined less by intelligence alone than by who can provide low-friction identity and authorization rails that platforms will accept.",
+          "byline": "Signal Tide Desk",
+          "sources": [
+            {
+              "title": "World launches tool to verify humans behind AI shopping agents",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "insight-2026-03-18-1",
+      "section": "insight",
+      "category": "开源模型",
+      "headline": "Hugging Face 发布 Nemotron 3 Nano 4B，再次说明本地 AI 的竞争焦点正落到“小而够用”",
+      "deck": "仅标题，无简介",
+      "kicker": "观察",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T00:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 1,
+      "tags": [
+        "Insight"
+      ],
+      "summary": [],
+      "bullets": [],
+      "significance": "",
+      "sources": null,
+      "i18n": {
+        "zh-CN": {
+          "category": "开源模型",
+          "headline": "Hugging Face 发布 Nemotron 3 Nano 4B，再次说明本地 AI 的竞争焦点正落到“小而够用”",
+          "deck": "仅标题，无简介",
+          "kicker": "观察",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "编辑部整理",
+          "sources": null
+        },
+        "zh-TW": {
+          "category": "開源模型",
+          "headline": "Hugging Face 發布 Nemotron 3 Nano 4B，再次說明本地 AI 的競爭焦點正落到「小而夠用」",
+          "deck": "僅標題，無簡介",
+          "kicker": "觀察",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "編輯部整理",
+          "sources": null
+        },
+        "en": {
+          "category": "Open Models",
+          "headline": "Hugging Face’s Nemotron 3 Nano 4B shows local AI competition is settling around small-but-sufficient models",
+          "deck": "Title only.",
+          "kicker": "Insight",
+          "summary": [],
+          "bullets": "",
+          "significance": [
+            {
+              "title": "Nemotron 3 Nano 4B: A Compact Hybrid Model for Efficient Local AI",
+              "publication": "Hugging Face Blog",
+              "url": "https://huggingface.co/blog/nemotron3-nano-4b"
+            }
+          ],
+          "byline": "Signal Tide Desk",
+          "sources": null
+        }
+      }
+    },
+    {
+      "id": "insight-2026-03-18-2",
+      "section": "insight",
+      "category": "开发文化",
+      "headline": "Garry Tan 的 Claude Code 配置一夜爆红又挨骂，说明“公开工作流”已经成了 AI 开发者的新社交货币",
+      "deck": "仅标题，无简介",
+      "kicker": "观察",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T13:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 1,
+      "tags": [
+        "Insight"
+      ],
+      "summary": [],
+      "bullets": [],
+      "significance": "",
+      "sources": null,
+      "i18n": {
+        "zh-CN": {
+          "category": "开发文化",
+          "headline": "Garry Tan 的 Claude Code 配置一夜爆红又挨骂，说明“公开工作流”已经成了 AI 开发者的新社交货币",
+          "deck": "仅标题，无简介",
+          "kicker": "观察",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "编辑部整理",
+          "sources": null
+        },
+        "zh-TW": {
+          "category": "開發文化",
+          "headline": "Garry Tan 的 Claude Code 配置一夜爆紅又挨罵，說明「公開工作流」已成 AI 開發者的新社交貨幣",
+          "deck": "僅標題，無簡介",
+          "kicker": "觀察",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "編輯部整理",
+          "sources": null
+        },
+        "en": {
+          "category": "Developer Culture",
+          "headline": "The Garry Tan Claude Code debate shows workflow disclosure is becoming social currency for AI builders",
+          "deck": "Title only.",
+          "kicker": "Insight",
+          "summary": [],
+          "bullets": "",
+          "significance": [
+            {
+              "title": "Why Garry Tan’s Claude Code setup has gotten so much love, and hate",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/"
+            }
+          ],
+          "byline": "Signal Tide Desk",
+          "sources": null
+        }
+      }
+    },
+    {
+      "id": "insight-2026-03-18-3",
+      "section": "insight",
+      "category": "生态判断",
+      "headline": "Mistral 强调“自己搭 AI”而不是“直接买助手”，说明企业市场仍在寻找控制感",
+      "deck": "仅标题，无简介",
+      "kicker": "观察",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T12:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 1,
+      "tags": [
+        "Insight"
+      ],
+      "summary": [],
+      "bullets": [],
+      "significance": "",
+      "sources": null,
+      "i18n": {
+        "zh-CN": {
+          "category": "生态判断",
+          "headline": "Mistral 强调“自己搭 AI”而不是“直接买助手”，说明企业市场仍在寻找控制感",
+          "deck": "仅标题，无简介",
+          "kicker": "观察",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "编辑部整理",
+          "sources": null
+        },
+        "zh-TW": {
+          "category": "生態判斷",
+          "headline": "Mistral 強調「自己搭 AI」而不是「直接買助手」，說明企業市場仍在尋找控制感",
+          "deck": "僅標題，無簡介",
+          "kicker": "觀察",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "編輯部整理",
+          "sources": null
+        },
+        "en": {
+          "category": "Ecosystem Strategy",
+          "headline": "Mistral’s build-your-own message suggests enterprise buyers are still searching for control",
+          "deck": "Title only.",
+          "kicker": "Insight",
+          "summary": [],
+          "bullets": "",
+          "significance": [
+            {
+              "title": "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/mistral-bets-on-build-your-own-ai-as-it-takes-on-openai-anthropic-in-the-enterprise/"
+            }
+          ],
+          "byline": "Signal Tide Desk",
+          "sources": null
+        }
+      }
+    },
+    {
+      "id": "tech-humanities-2026-03-18-1",
+      "section": "tech-humanities",
+      "category": "性别与资本",
+      "headline": "Rana el Kaliouby 警告 AI 圈像“男孩俱乐部”，提醒人们技术红利从来不会自动平均分配",
+      "deck": "仅标题，无简介",
+      "kicker": "人文",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T17:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 1,
+      "tags": [
+        "Tech & Humanities"
+      ],
+      "summary": [],
+      "bullets": [],
+      "significance": "",
+      "sources": null,
+      "i18n": {
+        "zh-CN": {
+          "category": "性别与资本",
+          "headline": "Rana el Kaliouby 警告 AI 圈像“男孩俱乐部”，提醒人们技术红利从来不会自动平均分配",
+          "deck": "仅标题，无简介",
+          "kicker": "人文",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "编辑部整理",
+          "sources": null
+        },
+        "zh-TW": {
+          "category": "性別與資本",
+          "headline": "Rana el Kaliouby 警告 AI 圈像「男孩俱樂部」，提醒人們技術紅利從來不會自動平均分配",
+          "deck": "僅標題，無簡介",
+          "kicker": "人文",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "編輯部整理",
+          "sources": null
+        },
+        "en": {
+          "category": "Gender & Capital",
+          "headline": "Rana el Kaliouby warns that AI’s gains will not distribute themselves equally",
+          "deck": "Title only.",
+          "kicker": "Humanities",
+          "summary": [],
+          "bullets": "",
+          "significance": [
+            {
+              "title": "AI’s ‘boys’ club’ could widen the wealth gap for women, says Rana el Kaliouby",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/"
+            }
+          ],
+          "byline": "Signal Tide Desk",
+          "sources": null
+        }
+      }
+    },
+    {
+      "id": "tech-humanities-2026-03-18-2",
+      "section": "tech-humanities",
+      "category": "创作与劳动",
+      "headline": "BuzzFeed 又做“AI slop apps”，平台对生成式内容的焦虑正从质量问题延伸到创作劳动贬值",
+      "deck": "仅标题，无简介",
+      "kicker": "人文",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T10:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 1,
+      "tags": [
+        "Tech & Humanities"
+      ],
+      "summary": [],
+      "bullets": [],
+      "significance": "",
+      "sources": null,
+      "i18n": {
+        "zh-CN": {
+          "category": "创作与劳动",
+          "headline": "BuzzFeed 又做“AI slop apps”，平台对生成式内容的焦虑正从质量问题延伸到创作劳动贬值",
+          "deck": "仅标题，无简介",
+          "kicker": "人文",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "编辑部整理",
+          "sources": null
+        },
+        "zh-TW": {
+          "category": "創作與勞動",
+          "headline": "BuzzFeed 又做「AI slop apps」，平台對生成式內容的焦慮正從品質問題延伸到創作勞動貶值",
+          "deck": "僅標題，無簡介",
+          "kicker": "人文",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "編輯部整理",
+          "sources": null
+        },
+        "en": {
+          "category": "Creative Labor",
+          "headline": "BuzzFeed’s latest AI content apps extend the anxiety from quality to the value of creative labor",
+          "deck": "Title only.",
+          "kicker": "Humanities",
+          "summary": [],
+          "bullets": "",
+          "significance": [
+            {
+              "title": "BuzzFeed debuts AI slop apps in bid for new revenue",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/17/buzzfeed-debuts-ai-slop-apps-in-bid-for-new-revenue/"
+            }
+          ],
+          "byline": "Signal Tide Desk",
+          "sources": null
+        }
+      }
+    },
+    {
+      "id": "tech-humanities-2026-03-18-3",
+      "section": "tech-humanities",
+      "category": "编程文化",
+      "headline": "“代码的未来既令人兴奋也令人害怕”这种情绪正在成为 AI 编程时代最真实的大众感受",
+      "deck": "仅标题，无简介",
+      "kicker": "人文",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-17T15:00:00.000Z",
+      "updatedAt": "2026-03-18T02:00:00.000Z",
+      "readingTime": 1,
+      "tags": [
+        "Tech & Humanities"
+      ],
+      "summary": [],
+      "bullets": [],
+      "significance": "",
+      "sources": null,
+      "i18n": {
+        "zh-CN": {
+          "category": "编程文化",
+          "headline": "“代码的未来既令人兴奋也令人害怕”这种情绪正在成为 AI 编程时代最真实的大众感受",
+          "deck": "仅标题，无简介",
+          "kicker": "人文",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "编辑部整理",
+          "sources": null
+        },
+        "zh-TW": {
+          "category": "程式文化",
+          "headline": "「程式碼的未來既令人興奮也令人害怕」這種情緒正在成為 AI 程式時代最真實的大眾感受",
+          "deck": "僅標題，無簡介",
+          "kicker": "人文",
+          "summary": [],
+          "bullets": [],
+          "significance": "",
+          "byline": "編輯部整理",
+          "sources": null
+        },
+        "en": {
+          "category": "Programming Culture",
+          "headline": "The future-of-code mood is now excitement and dread at the same time",
+          "deck": "Title only.",
+          "kicker": "Humanities",
+          "summary": [],
+          "bullets": "",
+          "significance": [
+            {
+              "title": "The future of code is exciting and terrifying",
+              "publication": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/895907/future-of-code-exciting-and-terrifying"
+            }
+          ],
+          "byline": "Signal Tide Desk",
+          "sources": null
+        }
+      }
+    }
+  ]
+}
