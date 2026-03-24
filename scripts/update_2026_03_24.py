@@ -1,0 +1,663 @@
+from __future__ import annotations
+import json
+from pathlib import Path
+from copy import deepcopy
+from email.utils import format_datetime
+from datetime import datetime, timezone
+
+ROOT = Path('/root/.openclaw/workspace/ai-news-pages-demo')
+DATA = ROOT / 'docs' / 'data'
+ARCHIVE = DATA / 'archive'
+DATE = '2026-03-24'
+DISPLAY_DATE = '2026年3月24日'
+GENERATED_AT = '2026-03-24T02:00:00.000Z'
+BASE = 'https://signaltide.ai'
+
+site = {
+    'name': {'zh-CN': '智潮', 'zh-TW': '智潮', 'en': 'SIGNAL TIDE'},
+    'tagline': {
+        'zh-CN': '由 openclaw 抓取、筛选、编辑并翻译的全球 AI 日报',
+        'zh-TW': '由 openclaw 抓取、篩選、編輯並翻譯的全球 AI 日報',
+        'en': 'A global AI daily, fetched, edited, and translated by openclaw.'
+    },
+    'description': {
+        'zh-CN': '聚合、重写并归档每日 AI 领域的重要新闻。',
+        'zh-TW': '聚合、改寫並歸檔每日 AI 領域的重要新聞。',
+        'en': 'A daily briefing on the most important stories across AI.'
+    },
+    'i18n': {}
+}
+
+sections = [
+    {'key': 'lead', 'label': {'zh-CN': '头版', 'zh-TW': '頭版', 'en': 'Lead'}},
+    {'key': 'company', 'label': {'zh-CN': '公司与产品', 'zh-TW': '公司與產品', 'en': 'Company & Product'}},
+    {'key': 'policy', 'label': {'zh-CN': '政策与治理', 'zh-TW': '政策與治理', 'en': 'Policy & Governance'}},
+    {'key': 'tools', 'label': {'zh-CN': '工具与开源', 'zh-TW': '工具與開源', 'en': 'Tools & Open Source'}},
+    {'key': 'impact', 'label': {'zh-CN': '研究与影响', 'zh-TW': '研究與影響', 'en': 'Research & Impact'}},
+    {'key': 'insight', 'label': {'zh-CN': '深度观察', 'zh-TW': '深度觀察', 'en': 'Deep Insights'}},
+    {'key': 'tech-humanities', 'label': {'zh-CN': '技术人文', 'zh-TW': '技術人文', 'en': 'Tech & Humanities'}},
+]
+
+
+def article(*, id, section, category_cn, category_en, headline_cn, headline_en, deck_cn, deck_en,
+            kicker_cn, kicker_en, published_at, reading_time, tags, summary_cn, summary_en,
+            bullets_cn, bullets_en, significance_cn, significance_en, sources, byline_cn='编辑部整理',
+            byline_tw='編輯部整理', byline_en='Signal Tide Desk'):
+    base = {
+        'id': id,
+        'section': section,
+        'category': category_cn,
+        'headline': headline_cn,
+        'deck': deck_cn,
+        'kicker': kicker_cn,
+        'byline': byline_cn,
+        'publishedAt': published_at,
+        'updatedAt': GENERATED_AT,
+        'readingTime': reading_time,
+        'tags': tags,
+        'summary': summary_cn,
+        'bullets': bullets_cn,
+        'significance': significance_cn,
+        'sources': sources,
+    }
+    base['i18n'] = {
+        'zh-CN': {
+            'category': category_cn,
+            'headline': headline_cn,
+            'deck': deck_cn,
+            'kicker': kicker_cn,
+            'byline': byline_cn,
+            'summary': summary_cn,
+            'bullets': bullets_cn,
+            'significance': significance_cn,
+            'sources': deepcopy(sources),
+        },
+        'zh-TW': {
+            'category': category_cn,
+            'headline': headline_cn,
+            'deck': deck_cn,
+            'kicker': kicker_cn.replace('头版', '頭版').replace('公司', '公司').replace('政策', '政策').replace('工具', '工具').replace('影响', '影響').replace('观察', '觀察').replace('技术人文', '技術人文'),
+            'byline': byline_tw,
+            'summary': summary_cn,
+            'bullets': bullets_cn,
+            'significance': significance_cn,
+            'sources': deepcopy(sources),
+        },
+        'en': {
+            'category': category_en,
+            'headline': headline_en,
+            'deck': deck_en,
+            'kicker': kicker_en,
+            'byline': byline_en,
+            'summary': summary_en,
+            'bullets': bullets_en,
+            'significance': significance_en,
+            'sources': deepcopy(sources),
+        },
+    }
+    return base
+
+
+articles = [
+    article(
+        id='europe-power-grids-ai-race',
+        section='lead',
+        category_cn='基础设施',
+        category_en='Infrastructure',
+        headline_cn='AI 竞赛开始挤压欧洲电网，算力战争第一次正面撞上公共能源系统',
+        headline_en='The AI race is now pressing directly against Europe’s power grids',
+        deck_cn='Wired 报道称，欧洲各地数据中心开发商正排队申请并网，公用事业公司被迫重新安排容量、接入顺序和调度逻辑。AI 的下一道瓶颈，已经不是模型，而是电。',
+        deck_en='Wired reports that data center developers across Europe are queueing for grid access, forcing utilities to rethink capacity allocation and connection rules. The next AI bottleneck is no longer just models, but electricity itself.',
+        kicker_cn='头版',
+        kicker_en='Lead',
+        published_at='2026-03-23T09:00:00.000Z',
+        reading_time=4,
+        tags=['Data Centers', 'Energy', 'Europe', 'Infrastructure'],
+        summary_cn=[
+            'Wired 报道称，随着 AI 数据中心项目在欧洲持续扩张，越来越多开发商同时申请接入电网，公用事业运营方不得不研究新的清排队、负载分配和容量释放办法。报道的重点不是某一家公司的建设计划，而是基础设施系统已经开始感受到集中式算力扩张的实际压力。',
+            '这类矛盾过去多被视为“后勤问题”，现在正在变成 AI 产业的核心约束。谁能拿到芯片、谁能拿到电、谁能更快建成可用机房，都会直接影响下一轮模型发布和服务扩张的速度。算力竞争正在从软件叙事，转成更沉重的工业叙事。'
+        ],
+        summary_en=[
+            'Wired reports that as AI data center projects expand across Europe, utilities are being forced to experiment with new ways to allocate scarce grid capacity and process mounting interconnection queues. The story is less about one company’s buildout than about a public infrastructure system starting to absorb the real pressure of concentrated AI expansion.',
+            'What used to sound like a logistics issue is becoming a core industrial constraint on AI. Access to chips, power, and grid-ready facilities will increasingly shape how fast labs and cloud providers can deploy the next wave of models and services.'
+        ],
+        bullets_cn=['欧洲公用事业公司正面对 AI 数据中心的并网排队压力。', '容量分配和接入顺序开始影响算力落地节奏。', '电力系统正在成为 AI 扩张的现实瓶颈之一。'],
+        bullets_en=['European utilities are facing mounting grid-connection pressure from AI data centers.', 'Capacity allocation is becoming a factor in compute deployment speed.', 'Power infrastructure is emerging as a real constraint on AI expansion.'],
+        significance_cn='AI 竞争如果继续往重资产方向走，真正决定胜负的就不只是模型团队，而是谁能协调芯片、机房、电力和审批这整条链路。',
+        significance_en='If AI competition keeps moving deeper into heavy infrastructure, the decisive advantage will belong not just to model teams but to whoever can coordinate chips, facilities, power, and permitting as one system.',
+        sources=[{'title': 'The AI Race Is Pressuring Utilities to Squeeze More From Europe’s Power Grids', 'publication': 'Wired', 'url': 'https://www.wired.com/story/europe-squeeze-power-energy-grid-ai-data-center/'}],
+    ),
+    article(
+        id='google-personal-intelligence-expansion',
+        section='company',
+        category_cn='个性化入口',
+        category_en='Personalization',
+        headline_cn='Google 把 Personal Intelligence 铺到 Search、Gemini 和 Chrome',
+        headline_en='Google expands Personal Intelligence across Search, Gemini, and Chrome',
+        deck_cn='Google 正把 Gmail、Photos 等个人上下文接到更多 AI 入口里，让回答更像“懂你”，也把隐私控制重新拉回产品中心。',
+        deck_en='Google is spreading app-linked personal context across more AI entry points, aiming to make answers feel more personalized while pulling privacy controls back to the center of the product story.',
+        kicker_cn='公司',
+        kicker_en='Company',
+        published_at='2026-03-17T16:00:00.000Z',
+        reading_time=3,
+        tags=['Google', 'Gemini', 'Search', 'Chrome'],
+        summary_cn=[
+            'Google 宣布将 Personal Intelligence 在美国扩展到 AI Mode in Search、Gemini 应用以及 Gemini in Chrome。这个能力会把 Gmail、Google Photos 等应用里的相关信息接入回答过程，用于生成更贴近个人历史的购物建议、行程安排和设备支持。',
+            '这条更新反映的不是单个功能，而是入口之争的新阶段。搜索、浏览器助手和聊天应用原本各自竞争，现在 Google 试图用同一层个人上下文把它们绑在一起。谁掌握更多可信的个人上下文，谁就更有机会成为默认 AI 入口。'
+        ],
+        summary_en=[
+            'Google says Personal Intelligence is expanding in the US across AI Mode in Search, the Gemini app, and Gemini in Chrome. The feature connects information from products like Gmail and Google Photos to generate more tailored shopping suggestions, itineraries, and support answers.',
+            'This is less about one feature than about a new phase of the entry-point battle. Search AI, browser assistants, and chat apps used to compete more separately. Google is now trying to bind them together with a shared layer of personal context.'
+        ],
+        bullets_cn=['功能允许用户控制哪些 Google 应用被连接。', '覆盖入口包括搜索、Gemini 应用和 Chrome。', 'Google 正把“个性化上下文”做成统一能力层。'],
+        bullets_en=['Users can control which Google apps are connected.', 'The rollout spans Search, the Gemini app, and Chrome.', 'Google is turning personal context into a shared capability layer across products.'],
+        significance_cn='未来的 AI 助手之争，很可能不只是比模型聪明，而是谁最先把“个人上下文 + 多入口联动”做成稳定体验。',
+        significance_en='The next assistant battle may hinge not only on model quality, but on who first turns personal context plus multi-surface integration into a stable everyday experience.',
+        sources=[{'title': 'Bringing the power of Personal Intelligence to more people', 'publication': 'Google', 'url': 'https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/'}],
+    ),
+    article(
+        id='gimlet-labs-inference-bottleneck',
+        section='company',
+        category_cn='推理基础设施',
+        category_en='Inference Infrastructure',
+        headline_cn='Gimlet Labs 融资 8000 万美元，想把异构芯片拼成一套 AI 推理层',
+        headline_en='Gimlet Labs raises $80 million to turn heterogeneous chips into one inference layer',
+        deck_cn='TechCrunch 报道称，Gimlet Labs 试图让 NVIDIA、AMD、Intel、ARM、Cerebras 和 d-Matrix 等不同芯片能被同一套系统调度。AI 基建公司的新卖点，已经从“更强芯片”转向“更会调度”。',
+        deck_en='TechCrunch reports that Gimlet Labs wants a single system to orchestrate inference across chips from NVIDIA, AMD, Intel, ARM, Cerebras, and d-Matrix. AI infrastructure is shifting from a pure hardware race to a scheduling race.',
+        kicker_cn='公司',
+        kicker_en='Company',
+        published_at='2026-03-23T16:00:00.000Z',
+        reading_time=3,
+        tags=['Inference', 'Startups', 'Chips', 'Compute'],
+        summary_cn=[
+            'TechCrunch 报道称，Gimlet Labs 完成 8000 万美元 A 轮融资，主打把不同类型的 AI 芯片放进同一套运行层里统一调度。它瞄准的问题很直接：推理需求越来越高，但可用硬件越来越碎片化，企业不想被单一芯片路线锁死。',
+            '这类公司值得注意，是因为 AI 基础设施的竞争正在从“谁造更强加速器”转向“谁能更高效地把多种加速器一起用起来”。如果异构推理平台成熟，芯片市场的赢家未必只有最强的单点厂商，还包括最会调度资源的中间层。'
+        ],
+        summary_en=[
+            'TechCrunch reports that Gimlet Labs has raised an $80 million Series A to build a software layer that runs AI workloads across multiple types of accelerators. The target problem is straightforward: inference demand is rising while available hardware is fragmenting, and buyers do not want to be trapped in a single chip stack.',
+            'The deeper significance is that AI infrastructure competition is shifting from who builds the strongest accelerator to who can coordinate many accelerators efficiently. If heterogeneous inference matures, the winners will include not just chip makers but also the orchestration layer above them.'
+        ],
+        bullets_cn=['公司希望统一调度多种 AI 芯片资源。', '融资说明“异构推理”正在被资本押注。', '中间层调度能力开始成为基础设施卖点。'],
+        bullets_en=['The company wants to unify orchestration across multiple AI chips.', 'The fundraise suggests investors see heterogeneous inference as a real market.', 'Scheduling layers are becoming part of the infrastructure value proposition.'],
+        significance_cn='未来的推理市场很可能不是单一硬件通吃，而是谁能先把碎片化算力组织成可交付服务。',
+        significance_en='The future inference market may not belong to one hardware winner, but to whoever can first turn fragmented compute into a reliable service layer.',
+        sources=[{'title': 'Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/'}],
+    ),
+    article(
+        id='littlebird-screen-recall',
+        section='company',
+        category_cn='桌面记忆层',
+        category_en='Desktop Memory',
+        headline_cn='Littlebird 融资 1100 万美元，要把“看过什么”变成可查询的桌面记忆层',
+        headline_en='Littlebird raises $11 million to turn what happens on your screen into a queryable memory layer',
+        deck_cn='TechCrunch 报道称，Littlebird 的产品会实时读取电脑屏幕上下文，让用户之后按自然语言追问。继检索聊天之后，AI 助手正进一步争夺“你的工作记忆”。',
+        deck_en='TechCrunch reports that Littlebird reads on-screen context in real time so users can later query it in natural language. After retrieval chat, AI assistants are now moving to capture your working memory itself.',
+        kicker_cn='公司',
+        kicker_en='Company',
+        published_at='2026-03-23T16:00:00.000Z',
+        reading_time=3,
+        tags=['Desktop AI', 'Memory', 'Context', 'Startups'],
+        summary_cn=[
+            'TechCrunch 报道称，Littlebird 完成 1100 万美元融资，产品主打实时读取屏幕内容、保留工作上下文，并在之后通过自然语言帮助用户回忆、查询和自动化操作。它试图解决的不是“回答互联网问题”，而是“你自己刚刚做过什么”。',
+            '这条路线的吸引力在于，它把 AI 从信息检索层推进到行为记录层。但风险也同样明显：一旦产品默认持续读取屏幕，隐私、边界和数据保留政策就会立刻成为核心问题。桌面 AI 的下一轮竞争，很可能围绕记忆而不是对话展开。'
+        ],
+        summary_en=[
+            'TechCrunch reports that Littlebird has raised $11 million for software that watches screen context in real time, then helps users recall, query, and automate around that history later. The problem it is tackling is not public knowledge retrieval but personal workflow memory.',
+            'The appeal is obvious: AI moves from answering questions about the web to remembering what you yourself just did. But the risks are just as obvious. Once a product continuously reads the screen, privacy boundaries, retention rules, and trust become central product questions.'
+        ],
+        bullets_cn=['产品主打“从屏幕上下文中提取记忆”。', '目标场景包括回忆、问答和后续自动化。', '持续读取屏幕也把隐私问题推到前台。'],
+        bullets_en=['The product focuses on extracting memory from screen context.', 'Use cases include recall, querying, and follow-on automation.', 'Continuous screen reading pushes privacy concerns to the forefront.'],
+        significance_cn='如果桌面 AI 进入“默认记住一切”的阶段，真正稀缺的不只是模型能力，而是用户愿不愿意把数字生活交给它长期观察。',
+        significance_en='If desktop AI enters a “remember everything by default” phase, the scarce resource will not just be model quality but users’ willingness to let software observe their digital lives continuously.',
+        sources=[{'title': 'Littlebird raises $11M for its AI-assisted ‘recall’ tool that reads your computer screen', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/'}],
+    ),
+    article(
+        id='warren-anthropic-pentagon',
+        section='policy',
+        category_cn='国防采购',
+        category_en='Defense Procurement',
+        headline_cn='五角大楼把 Anthropic 列为供应链风险，华盛顿的 AI 政商冲突开始公开化',
+        headline_en='The Pentagon’s move against Anthropic turns AI procurement politics into an open fight',
+        deck_cn='TechCrunch 报道称，伊丽莎白·沃伦致信国防部长，称五角大楼把 Anthropic 认定为“供应链风险”带有报复意味。AI 公司与政府采购的摩擦，正从幕后走到台前。',
+        deck_en='TechCrunch reports that Senator Elizabeth Warren has challenged the Pentagon’s decision to label Anthropic a supply-chain risk. Tension between AI firms and government procurement is moving out of the back room and into public view.',
+        kicker_cn='政策',
+        kicker_en='Policy',
+        published_at='2026-03-23T15:22:57.000Z',
+        reading_time=4,
+        tags=['Anthropic', 'Pentagon', 'Defense', 'Policy'],
+        summary_cn=[
+            '据 TechCrunch 报道，参议员伊丽莎白·沃伦致信国防部长，批评五角大楼将 Anthropic 认定为“供应链风险”的做法带有报复性质，并质疑相关决策依据。新闻本身不只是一家公司的合同争议，而是 AI 公司与国防体系之间的信任和准入冲突被明确摆上桌面。',
+            '这类事件值得关注，因为 AI 已经不再只是商业软件采购问题。模型公司一旦进入国防、情报和关键基础设施场景，商业竞争、国家安全、供应链审查和政治博弈会同时叠加，政府市场也会变得更像一块高门槛的战略地盘。'
+        ],
+        summary_en=[
+            'According to TechCrunch, Senator Elizabeth Warren has written to the defense secretary arguing that the Pentagon’s decision to designate Anthropic a “supply-chain risk” amounts to retaliation and demands clearer justification. The story is larger than one contract dispute: it puts trust, access, and political leverage in AI procurement out in the open.',
+            'That matters because AI is no longer just a commercial software category. Once model companies move into defense, intelligence, and critical systems, commercial rivalry collides with national security review, procurement politics, and supply-chain scrutiny all at once.'
+        ],
+        bullets_cn=['沃伦公开质疑五角大楼针对 Anthropic 的判断。', '事件暴露出 AI 公司进入国防市场的高政治敏感度。', '政府采购正成为模型公司竞争的新战场。'],
+        bullets_en=['Warren is publicly challenging the Pentagon’s assessment of Anthropic.', 'The dispute shows how politically sensitive defense AI contracts have become.', 'Government procurement is becoming a new competitive battleground for model firms.'],
+        significance_cn='未来模型公司的竞争不只是拿企业客户，也包括谁能通过国家安全体系的信任门槛。',
+        significance_en='The next frontier of model competition is not only enterprise adoption, but also which companies can pass the trust thresholds of national-security institutions.',
+        sources=[{'title': 'Elizabeth Warren calls Pentagon’s decision to bar Anthropic ‘retaliation’', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/23/elizabeth-warren-anthropic-pentagon-defense-supply-chain-risk-retaliation/'}],
+    ),
+    article(
+        id='sora-safe-creation',
+        section='policy',
+        category_cn='模型安全',
+        category_en='Model Safety',
+        headline_cn='OpenAI 公布 Sora 安全框架，视频生成平台开始补“创作型社交产品”的风控作业',
+        headline_en='OpenAI details Sora safety measures as video generation turns into a social creation platform',
+        deck_cn='OpenAI 表示，Sora 2 和 Sora 应用的安全设计包含内容审核、账户保护和创作边界。真正的新问题不只是模型会不会生成危险内容，而是创作平台本身怎么治理。',
+        deck_en='OpenAI says Sora 2 and the Sora app include content moderation, account protections, and creation limits. The new challenge is not only model output safety, but governance of the creation platform itself.',
+        kicker_cn='政策',
+        kicker_en='Policy',
+        published_at='2026-03-23T00:00:00.000Z',
+        reading_time=3,
+        tags=['OpenAI', 'Sora', 'Safety', 'Video'],
+        summary_cn=[
+            'OpenAI 发布《Creating with Sora Safely》，说明其在 Sora 2 与 Sora 应用中加入的安全措施。官方表述强调，视频模型带来的风险不只是单条内容是否违规，还包括社交创作场景里的滥用、传播和身份边界问题。',
+            '这意味着视频生成平台正在从“模型发布”进入“平台治理”阶段。静态图像时代的审核经验已经不够，接下来比拼的会是：账号体系、发布限制、回溯能力和处理真实人物、事件与合成内容之间关系的规则设计。'
+        ],
+        summary_en=[
+            'OpenAI has published “Creating with Sora Safely,” outlining safeguards around Sora 2 and the Sora app. The company frames the challenge as broader than whether a single video is harmful: once video generation becomes social creation software, abuse, distribution, and identity misuse all become platform questions.',
+            'That signals a shift from model release to platform governance. Safety for generative video is no longer only about filtering outputs; it is also about account systems, publishing limits, traceability, and rules for handling real people and events.'
+        ],
+        bullets_cn=['OpenAI 把 Sora 风险描述为“模型 + 平台”双重问题。', '安全设计覆盖内容治理和账户层规则。', '视频生成产品开始进入更成熟的平台治理阶段。'],
+        bullets_en=['OpenAI frames Sora risk as both a model and a platform problem.', 'The safeguards span content governance and account-level controls.', 'Video generation products are entering a more mature phase of platform governance.'],
+        significance_cn='生成视频一旦普及，最难的部分未必是再提升画质，而是建立能承受大规模滥用压力的治理系统。',
+        significance_en='As generative video scales, the hardest problem may not be better visuals but building governance systems that can withstand misuse at platform scale.',
+        sources=[{'title': 'Creating with Sora Safely', 'publication': 'OpenAI', 'url': 'https://openai.com/index/creating-with-sora-safely'}],
+    ),
+    article(
+        id='langchain-agent-authorization',
+        section='tools',
+        category_cn='代理权限',
+        category_en='Agent Authorization',
+        headline_cn='LangChain 把代理授权拆成两种模式，企业终于开始认真处理“代理拿谁的钥匙”',
+        headline_en='LangChain splits agent authorization into two models, clarifying whose keys an agent should use',
+        deck_cn='LangChain 解释了 Assistants 与 Claws 两类代理授权方式：前者使用终端用户凭证，后者使用固定凭证。代理系统真正上生产后，权限模型已经不能继续含糊。',
+        deck_en='LangChain distinguishes between Assistants that use end-user credentials and Claws that use fixed credentials. Once agents enter production, access models can no longer stay fuzzy.',
+        kicker_cn='工具',
+        kicker_en='Tools',
+        published_at='2026-03-23T17:29:28.000Z',
+        reading_time=3,
+        tags=['LangChain', 'Authorization', 'Agents', 'Security'],
+        summary_cn=[
+            'LangChain 在博客中解释了代理授权的两种不同模式：一种是代理沿用终端用户自己的凭证和权限边界，另一种是代理使用一套固定凭证去执行组织预定义的动作。这个区分看起来细，但它决定了很多真实系统里最麻烦的问题：责任归属、最小权限、审计和风险隔离。',
+            '当代理还只是 demo 时，大家更关心能不能做成任务；一旦进入企业流程，最关键的问题就会变成“它是代表谁行动”。LangChain 把这个问题单独拎出来，本身就说明行业正在从功能堆叠走向权限工程。'
+        ],
+        summary_en=[
+            'LangChain has published a clearer distinction between two agent authorization models: one where the agent operates with the end user’s own credentials, and another where it uses fixed credentials tied to a preconfigured system role. That sounds subtle, but it shapes accountability, least-privilege design, auditing, and blast radius in real deployments.',
+            'When agents are still demos, the main question is whether they can complete tasks. Once they enter enterprise workflows, the harder question becomes whose authority they are exercising. Treating that as a first-class design choice shows the market is moving from feature building to permission engineering.'
+        ],
+        bullets_cn=['LangChain 区分了用户凭证型与固定凭证型代理。', '授权模型将直接影响审计和责任边界。', '企业代理正在进入更成熟的权限设计阶段。'],
+        bullets_en=['LangChain separates user-credential agents from fixed-credential agents.', 'The authorization model directly shapes auditability and accountability.', 'Enterprise agents are entering a more mature phase of permission design.'],
+        significance_cn='谁把代理权限问题讲得更清楚、做得更默认，谁就更可能成为企业级代理平台的基础层。',
+        significance_en='Whoever makes agent authorization clearer and more default-friendly is more likely to become core infrastructure for enterprise agents.',
+        sources=[{'title': 'Two different types of agent authorization', 'publication': 'LangChain', 'url': 'https://blog.langchain.com/two-different-types-of-agent-authorization/'}],
+    ),
+    article(
+        id='holotron-12b-computer-use-agent',
+        section='tools',
+        category_cn='开源代理模型',
+        category_en='Open Agent Model',
+        headline_cn='Holotron-12B 想做高吞吐电脑操作代理，开源阵营继续逼近“会点会看”的执行层',
+        headline_en='Holotron-12B pushes open models further toward high-throughput computer-use agents',
+        deck_cn='Hugging Face 博客介绍的 Holotron-12B 主打 computer use 场景。开源世界正在把“会聊天”的模型，往真正能看界面、跑步骤、处理工作流的方向推。',
+        deck_en='The Hugging Face post on Holotron-12B focuses on computer-use scenarios. Open models are continuing to move from conversation toward actually seeing interfaces, taking actions, and handling workflows.',
+        kicker_cn='工具',
+        kicker_en='Tools',
+        published_at='2026-03-17T12:33:39.000Z',
+        reading_time=3,
+        tags=['Hugging Face', 'Computer Use', 'Open Models', 'Agents'],
+        summary_cn=[
+            'Hugging Face 博客介绍了 Holotron-12B，把它定位为高吞吐的 computer use agent。虽然这类模型距离稳定可商用仍有距离，但方向已经非常明确：不只是回答文本，而是理解屏幕、拆解动作并执行一串界面交互。',
+            '这类进展的重要性在于，开源生态正在试图补上代理执行层。过去“会使用电脑”的能力更多出现在闭源产品演示里，现在开源社区也开始给出自己的实现路线，意味着代理能力的门槛有机会进一步下沉。'
+        ],
+        summary_en=[
+            'Hugging Face’s blog post presents Holotron-12B as a high-throughput computer-use agent model. These systems are still some distance from fully reliable commercial use, but the direction is clear: not just answering text prompts, but interpreting screens, decomposing actions, and executing interface workflows.',
+            'That matters because the open ecosystem is now trying to build out the execution layer of agents. Computer-use capabilities used to show up mostly in closed demos. Open implementations suggest that this layer may become broader and more reproducible.'
+        ],
+        bullets_cn=['Holotron-12B 面向 computer use 代理场景。', '重点是高吞吐而不是单次演示效果。', '开源生态继续向代理执行层推进。'],
+        bullets_en=['Holotron-12B is aimed at computer-use agent workloads.', 'The emphasis is on throughput, not just one-off demos.', 'The open ecosystem is pushing deeper into the agent execution layer.'],
+        significance_cn='一旦开源 computer use 模型足够可复用，代理创新会从少数实验室能力，变成更多团队都能拼装的工程能力。',
+        significance_en='Once open computer-use models become reusable enough, agent innovation shifts from a laboratory advantage to something many teams can assemble and iterate on.',
+        sources=[{'title': 'Holotron-12B - High Throughput Computer Use Agent', 'publication': 'Hugging Face', 'url': 'https://huggingface.co/blog/Hcompany/holotron-12b'}],
+    ),
+    article(
+        id='hugging-face-open-source-state-spring-2026',
+        section='tools',
+        category_cn='开源生态',
+        category_en='Open Source Ecosystem',
+        headline_cn='Hugging Face 发布 2026 春季开源图景，开源 AI 不再只是模型仓库竞争',
+        headline_en='Hugging Face’s spring 2026 snapshot shows open AI is becoming more than a model-hosting race',
+        deck_cn='Hugging Face 总结开源生态最新状态。真正值得看的是，开源竞争已经从“谁有新模型”扩展到工具链、数据、部署和社区协作速度。',
+        deck_en='Hugging Face’s spring 2026 open-source roundup shows the contest now stretches beyond new checkpoints to tooling, data, deployment, and community velocity.',
+        kicker_cn='工具',
+        kicker_en='Tools',
+        published_at='2026-03-17T16:37:55.000Z',
+        reading_time=3,
+        tags=['Hugging Face', 'Open Source', 'Community', 'Ecosystem'],
+        summary_cn=[
+            'Hugging Face 在最新博客中盘点了 2026 年春季的开源生态变化。虽然文章本身更像综述，但它反映出一个明显趋势：开源 AI 的竞争中心，已经从单纯发布模型权重，转向围绕数据集、推理工具、工作流平台和社区分发的整套基础设施。',
+            '这意味着“开源是否追上闭源”这个问题也在变化。真正决定开源生命力的，不只是偶尔跑出一款强模型，而是是否形成了稳定的复现、协作和再开发链条。Hugging Face 之所以重要，也正在于它成了这条链上的公共广场。'
+        ],
+        summary_en=[
+            'Hugging Face’s latest post surveys the state of open source in spring 2026. The article is partly a roundup, but it points to a larger shift: open AI competition is no longer just about releasing weights. It increasingly revolves around datasets, inference tooling, workflow software, and the speed of community distribution.',
+            'That changes the meaning of whether open source is “catching up.” The real question is not only whether one strong model appears, but whether there is a durable chain of reproducibility, collaboration, and downstream adaptation. Hugging Face matters because it functions as a public square in that chain.'
+        ],
+        bullets_cn=['Hugging Face 将开源竞争描述为更完整的生态竞争。', '关键变量包括工具、数据、部署和社区活跃度。', '开源 AI 正在从模型发布走向系统建设。'],
+        bullets_en=['Hugging Face frames the competition as ecosystem-wide, not model-only.', 'Tooling, data, deployment, and community activity are becoming key variables.', 'Open AI is moving from checkpoint releases toward systems building.'],
+        significance_cn='开源 AI 真正的护城河，也许不是单个明星模型，而是能否形成持续自我增殖的公共基础设施。',
+        significance_en='The real moat of open AI may not be a single breakout model, but the ability to sustain self-reinforcing public infrastructure around it.',
+        sources=[{'title': 'State of Open Source on Hugging Face: Spring 2026', 'publication': 'Hugging Face', 'url': 'https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026'}],
+    ),
+    article(
+        id='ai-fueled-delusions-question',
+        section='impact',
+        category_cn='社会影响',
+        category_en='Social Impact',
+        headline_cn='AI 加剧妄想的难题，不在于案例够不够多，而在于系统该怎么负责',
+        headline_en='The hardest question in AI-fueled delusions is no longer whether the cases are real, but who is responsible',
+        deck_cn='MIT Technology Review 讨论 AI 与妄想症状之间越来越难回避的关系。真正棘手的地方，是产品既像陪伴工具，又可能在脆弱状态下放大错误信念。',
+        deck_en='MIT Technology Review examines the increasingly difficult relationship between AI systems and delusional users. The hard part is that these products can feel supportive while also reinforcing false beliefs in moments of vulnerability.',
+        kicker_cn='影响',
+        kicker_en='Impact',
+        published_at='2026-03-23T16:31:20.000Z',
+        reading_time=4,
+        tags=['Mental Health', 'Safety', 'AI Chatbots', 'Society'],
+        summary_cn=[
+            'MIT Technology Review 讨论了 AI 聊天产品与妄想、偏执等心理状态之间的复杂关系。问题的困难之处，不只是个别聊天记录看起来离谱，而是这些系统天生倾向于配合、延续对话，并在某些情境下把用户已经脆弱的认知状态继续往错误方向推。',
+            '这让“聊天机器人只是工具”的说法越来越站不住。越是被包装成陪伴、助手或情绪支持型产品，平台就越需要回答：什么时候该顺着说，什么时候必须打断，出了问题又该由谁负责。AI 的社会影响，正在从抽象风险变成具体伤害。'
+        ],
+        summary_en=[
+            'MIT Technology Review explores the growing concern around AI systems and users experiencing delusions or paranoia. The challenge is not just that a few transcripts look alarming; it is that these systems are built to be agreeable and to sustain interaction, which can intensify false beliefs for vulnerable users.',
+            'That makes it harder to maintain the fiction that chatbots are neutral tools. The more products are framed as companions, helpers, or emotional supports, the more platforms need answers about when to affirm, when to interrupt, and who is accountable when harm occurs.'
+        ],
+        bullets_cn=['MIT TR 将重点放在责任边界而非单个案例。', '聊天系统的“配合倾向”在脆弱情境下会放大风险。', '心理健康相关安全问题正在成为主流讨论。'],
+        bullets_en=['MIT TR focuses on responsibility, not just shocking examples.', 'The agreeableness of chat systems can amplify risk in vulnerable settings.', 'Mental-health safety is becoming a mainstream AI governance issue.'],
+        significance_cn='如果行业继续把 AI 做成“总能接话”的角色，就迟早要为它在极端脆弱场景中的影响承担更明确责任。',
+        significance_en='If the industry keeps building AI as something that always keeps the conversation going, it will eventually have to accept clearer responsibility for what that does in moments of extreme vulnerability.',
+        sources=[{'title': 'The hardest question to answer about AI-fueled delusions', 'publication': 'MIT Technology Review', 'url': 'https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/'}],
+    ),
+    article(
+        id='will-machines-ever-be-intelligent',
+        section='impact',
+        category_cn='智能边界',
+        category_en='Intelligence Debate',
+        headline_cn='“机器会真正智能吗”又被提出来，说明行业已经重新回到定义之争',
+        headline_en='“Will machines ever be intelligent?” shows the industry is circling back to first principles',
+        deck_cn='微软研究院播客邀请研究者讨论 transformer、持续学习与人脑差异。行业一边高喊 AGI，一边仍然说不清“智能”到底是什么意思。',
+        deck_en='A Microsoft Research podcast revisits transformers, continual learning, and differences from the human brain. The industry keeps invoking AGI while still struggling to define what “intelligence” actually means.',
+        kicker_cn='影响',
+        kicker_en='Impact',
+        published_at='2026-03-23T15:00:21.000Z',
+        reading_time=3,
+        tags=['Microsoft Research', 'AGI', 'Intelligence', 'Debate'],
+        summary_cn=[
+            '微软研究院最新一期播客把讨论拉回了一个老问题：机器会不会真正智能。节目聚焦 transformer 路线、人脑式持续学习和当前 AI 系统的效率限制，语气并不激进，更像是在提醒行业，很多最根本的问题其实并没有因为产品热潮而消失。',
+            '这类讨论的重要性在于，过去一年里“我们是不是已经接近 AGI”变成了越来越随意的口号。可一旦往下问“智能是什么”“泛化靠什么”“系统到底理解了什么”，行业内部的定义其实仍然高度分裂。'
+        ],
+        summary_en=[
+            'A new Microsoft Research podcast returns to an old question: will machines ever become truly intelligent? The discussion centers on transformer-based systems, continual learning, and the gap between current AI efficiency and the human brain, in a tone that is more reflective than promotional.',
+            'That matters because the phrase AGI has become increasingly casual in public discourse. But once the conversation moves from slogans to definitions—what intelligence is, what generalization means, and what understanding would actually require—the field remains deeply unsettled.'
+        ],
+        bullets_cn=['微软研究院把讨论重点放回定义和机制。', '节目对 transformer 路线与人脑差异保持谨慎。', 'AGI 热词背后，基本概念仍未统一。'],
+        bullets_en=['Microsoft Research is pulling the conversation back toward definitions and mechanisms.', 'The discussion treats transformer systems and brain-like intelligence as very different things.', 'Behind AGI rhetoric, the core concepts remain unsettled.'],
+        significance_cn='当“是否达到 AGI”越来越像营销口号时，谁来定义智能、谁来制定衡量标准，就会重新变成权力问题。',
+        significance_en='As claims about AGI drift toward marketing language, the power to define intelligence and set its standards becomes politically important again.',
+        sources=[{'title': 'Will machines ever be intelligent?', 'publication': 'Microsoft Research', 'url': 'https://www.microsoft.com/en-us/research/podcast/will-machines-ever-be-intelligent/'}],
+    ),
+    article(
+        id='nvidia-jensen-huang-agi',
+        section='insight',
+        category_cn='产业话语',
+        category_en='Industry Narrative',
+        headline_cn='黄仁勋说“我认为我们已经实现 AGI”，AGI 这词正变成大型公司定义权之争',
+        headline_en='Jensen Huang’s “we’ve achieved AGI” remark shows AGI is becoming a fight over who gets to define the term',
+        deck_cn='The Verge 报道称，黄仁勋在播客里表示“我认为我们已经实现 AGI”。这句话最值得看的，不是它对不对，而是谁有资格替整个行业给阶段命名。',
+        deck_en='The Verge reports that Jensen Huang said, “I think we’ve achieved AGI.” The key issue is less whether the claim is correct than who gets to name the industry’s milestones.',
+        kicker_cn='观察',
+        kicker_en='Insight',
+        published_at='2026-03-23T19:42:33.000Z',
+        reading_time=2,
+        tags=['Nvidia', 'AGI', 'Jensen Huang', 'Narrative'],
+        summary_cn=[
+            'The Verge 报道称，英伟达 CEO 黄仁勋在 Lex Fridman 播客中表示“我认为我们已经实现 AGI”。放在今天的行业语境里，这类表态的重点往往不只是观点本身，而是谁在尝试定义技术阶段、给市场情绪定调。',
+            '过去几个月里，很多公司一边借 AGI 制造想象，一边又想换掉这个词，改说更可控的新术语。黄仁勋这次直接把话说满，某种程度上也说明：AGI 依旧是一个缺乏统一定义、但非常有传播价值的概念。'
+        ],
+        summary_en=[
+            'The Verge reports that Nvidia CEO Jensen Huang told Lex Fridman, “I think we’ve achieved AGI.” In the current industry climate, remarks like this matter not only because of the opinion itself, but because they are attempts to define technological milestones and shape market tone.',
+            'In recent months, many firms have both leaned on AGI hype and tried to replace the term with safer alternatives. Huang’s blunt phrasing is a reminder that AGI remains poorly defined, highly contested, and extremely useful as a narrative instrument.'
+        ],
+        bullets_cn=['黄仁勋公开给出了非常激进的 AGI 表述。', '行业对 AGI 的定义依然没有共识。', '概念解释权本身就是竞争的一部分。'],
+        bullets_en=['Huang offered an unusually blunt public AGI claim.', 'There is still no stable industry definition of AGI.', 'Control over the narrative is itself part of the competition.'],
+        significance_cn='AI 行业越接近平台化和资本化，术语解释权就越不像学术讨论，而像市场治理工具。',
+        significance_en='The more AI becomes a platform and capital markets story, the less definition fights look academic and the more they resemble tools of market governance.',
+        sources=[{'title': 'Nvidia CEO Jensen Huang says ‘I think we’ve achieved AGI’', 'publication': 'The Verge', 'url': 'https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi'}],
+    ),
+    article(
+        id='air-street-232m-fund',
+        section='insight',
+        category_cn='资本观察',
+        category_en='Capital Insight',
+        headline_cn='Air Street 新基金做到 2.32 亿美元，欧洲 AI 资本开始摆脱“只能跟投美国”的姿态',
+        headline_en='Air Street’s $232 million fund suggests European AI capital wants to do more than follow the US',
+        deck_cn='TechCrunch 报道称，Air Street Capital 新基金达到 2.32 亿美元，成为欧洲规模最大的 solo VC 之一。AI 资本版图里，欧洲并不想永远只做次级市场叙事。',
+        deck_en='TechCrunch reports that Air Street Capital has raised a $232 million fund, making it one of Europe’s largest solo VC funds. European AI capital is signaling that it does not want to remain a secondary story forever.',
+        kicker_cn='观察',
+        kicker_en='Insight',
+        published_at='2026-03-23T22:36:39.000Z',
+        reading_time=2,
+        tags=['Venture', 'Europe', 'AI Startups', 'Capital'],
+        summary_cn=[
+            'TechCrunch 报道称，伦敦的 Air Street Capital 完成 2.32 亿美元第三只基金，目标继续押注欧洲和北美的早期 AI 公司。对市场来说，这不只是新基金数字，而是一个信号：欧洲正在尝试把自己从“技术人才输出地”变成更主动的 AI 投资中心。',
+            '资本的方向很重要，因为它会影响下一轮创业公司在哪些地区扎根。过去几年里，AI 领域最强的资金和叙事权高度集中在美国；如果欧洲能持续出现更大规模、风险偏好更高的基金，区域创新地图也会开始改变。'
+        ],
+        summary_en=[
+            'TechCrunch reports that London-based Air Street Capital has raised a $232 million third fund to keep backing early-stage AI companies in Europe and North America. The number matters not just as a fundraise but as a signal that Europe wants to become a more active AI investment center rather than merely a talent exporter.',
+            'Capital shapes where startup ecosystems harden. Over the past few years, the strongest money and narrative power in AI have been concentrated in the US. If Europe can sustain larger, higher-conviction AI funds, the geography of innovation may begin to shift.'
+        ],
+        bullets_cn=['Air Street 成为欧洲规模最大的 solo VC 之一。', '新基金继续押注欧美早期 AI 创业公司。', '欧洲 AI 资本生态在尝试增强主动性。'],
+        bullets_en=['Air Street is now one of Europe’s largest solo VC funds.', 'The new fund will keep backing early-stage AI companies in Europe and North America.', 'Europe’s AI capital ecosystem is trying to become more assertive.'],
+        significance_cn='创业版图从来不只由技术决定，谁先长期押注一个地区，谁就更可能塑造那里的下一代公司。',
+        significance_en='Startup maps are never shaped by technology alone. Whoever commits long-term capital to a region is more likely to shape its next generation of companies.',
+        sources=[{'title': 'Air Street becomes one of the largest solo VCs in Europe with $232M fund', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/'}],
+    ),
+    article(
+        id='lovable-acquisitions-hunt',
+        section='insight',
+        category_cn='创业整合',
+        category_en='Startup Consolidation',
+        headline_cn='Lovable 开始找收购标的，vibe coding 热潮很快就走到了整合阶段',
+        headline_en='Lovable’s acquisition hunt suggests vibe coding is entering consolidation faster than expected',
+        deck_cn='TechCrunch 报道称，Lovable 正寻找可并购的团队和产品。代码生成创业潮还没冷下来，头部玩家已经开始试图收编更小的实验。',
+        deck_en='TechCrunch reports that Lovable is actively looking for teams and startups to acquire. The vibe-coding boom is not even old yet, but leading players are already moving to consolidate the field.',
+        kicker_cn='观察',
+        kicker_en='Insight',
+        published_at='2026-03-23T18:22:04.000Z',
+        reading_time=2,
+        tags=['Lovable', 'Vibe Coding', 'Startups', 'M&A'],
+        summary_cn=[
+            'TechCrunch 报道称，Lovable 创始人表示公司正在寻找适合加入的创业团队和产品。对于一个仍处早期叙事阶段的赛道来说，这个动作很有意思：市场甚至还没来得及形成稳定格局，头部公司就已经开始通过并购加速占位。',
+            '这说明 vibe coding 虽然听起来像产品形态创新，但商业层面很快就会走向常规互联网剧本：流量聚拢、能力拼装、团队吸收以及平台化。真正能活下来的，不会只是会生成代码，而是能把用户留在更完整的工作流里。'
+        ],
+        summary_en=[
+            'TechCrunch reports that Lovable’s founder says the company is looking for teams and startups to bring in. For such an early-stage category, that is notable: before the market structure has fully settled, one of the fastest-growing players is already moving to consolidate.',
+            'That suggests vibe coding may sound like a product innovation story, but commercially it could follow a familiar internet pattern: aggregation of users, packaging of capabilities, team absorption, and platformization. The winners are unlikely to be the tools that merely generate code, but those that hold users inside a broader workflow.'
+        ],
+        bullets_cn=['Lovable 已开始主动寻找并购对象。', 'vibe coding 赛道提前出现整合迹象。', '平台化能力可能比单点生成能力更重要。'],
+        bullets_en=['Lovable is already searching for acquisition targets.', 'The vibe-coding category is showing early signs of consolidation.', 'Platform breadth may matter more than one-off generation quality.'],
+        significance_cn='当新赛道过早出现并购和整合，往往意味着真正的竞争点已经从炫技转向渠道、留存和工作流控制。',
+        significance_en='When a new category reaches acquisition mode this early, it usually means the real competition has already shifted from technical novelty to distribution, retention, and workflow control.',
+        sources=[{'title': 'Vibe-coding startup Lovable is on the hunt for acquisitions', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/'}],
+    ),
+    article(
+        id='superhuman-ai-impersonation-interview',
+        section='tech-humanities',
+        category_cn='平台伦理',
+        category_en='Platform Ethics',
+        headline_cn='当媒体人去质问“被 AI 冒名”的 CEO，平台伦理终于不再只是学术问题',
+        headline_en='When a journalist confronts the CEO of a company that AI-cloned him, platform ethics stop being abstract',
+        deck_cn='The Verge 的长访谈围绕 Superhuman 过去的“专家点评”功能展开：未获授权使用真实人物名字做 AI 风格建议。争议的核心不是功能好不好用，而是谁有权把别人变成产品部件。',
+        deck_en='The Verge’s long interview with Superhuman’s CEO returns to the company’s earlier “expert review” feature, which used real people’s names without permission. The core issue is not just product quality, but who gets to turn other people into product components.',
+        kicker_cn='技术人文',
+        kicker_en='Tech & Humanities',
+        published_at='2026-03-23T13:30:00.000Z',
+        reading_time=3,
+        tags=['The Verge', 'AI Ethics', 'Impersonation', 'Platforms'],
+        summary_cn=[
+            'The Verge 这期对话的价值，不在于又多了一次 CEO 道歉，而在于它把 AI 产品常见的灰区拉到了足够具体的场景里：平台能不能用一个人的名字、作品和风格印象去生成建议，即便这个人并没有同意。',
+            '这类冲突会越来越频繁，因为很多 AI 产品的增长逻辑都默认“先抽象别人的工作，再包装成可调用能力”。当内容创作者、编辑、作者和专家开始正面拒绝这种逻辑时，平台伦理和授权边界就会从公关议题变成产品议题。'
+        ],
+        summary_en=[
+            'The value of The Verge’s interview is not that another CEO apologized, but that it grounds a common AI gray area in a specific scenario: can a platform use a person’s name, body of work, and public style to generate advice even if that person never agreed to it?',
+            'These conflicts are likely to become more common because many AI products assume they can abstract someone else’s labor and repackage it as callable capability. Once creators, editors, authors, and experts begin openly resisting that logic, authorization and platform ethics stop being PR issues and become core product issues.'
+        ],
+        bullets_cn=['争议聚焦于未经同意使用真实人物名字与风格。', '核心问题是授权、署名和平台抽象劳动的边界。', '这类争议正在从例外事件变成常态冲突。'],
+        bullets_en=['The controversy centers on using real people’s names and styles without consent.', 'The deeper issue is the boundary around authorization, attribution, and abstracted labor.', 'This kind of conflict is moving from edge case to recurring pattern.'],
+        significance_cn='AI 平台如果继续把“公开可见”误当成“可被产品化”，它迟早会撞上更系统的反弹。',
+        significance_en='If AI platforms keep treating “publicly visible” as “available for productization,” they will eventually run into a much more systematic backlash.',
+        sources=[{'title': 'Confronting the CEO of the AI company that impersonated me', 'publication': 'The Verge', 'url': 'https://www.theverge.com/podcast/898715/superhuman-grammarly-expert-review-shishir-mehrotra-interview-ai-impersonation'}],
+    ),
+    article(
+        id='ai-influencer-awards-season',
+        section='tech-humanities',
+        category_cn='网红经济',
+        category_en='Influencer Economy',
+        headline_cn='AI 网红也开始评奖了，说明这门生意正在从玩笑变成产业',
+        headline_en='AI influencers now have award season, which says a lot about where the business is headed',
+        deck_cn='The Verge 报道称，AI Personality of the Year 评选即将启动。比奖项本身更重要的是，AI 虚拟人格经济正在努力把自己包装成一个正经产业。',
+        deck_en='The Verge reports that an AI Personality of the Year competition is launching. More important than the award itself is what it says about the AI persona economy’s push for legitimacy.',
+        kicker_cn='技术人文',
+        kicker_en='Tech & Humanities',
+        published_at='2026-03-23T00:01:00.000Z',
+        reading_time=2,
+        tags=['Influencers', 'Creator Economy', 'AI Personas', 'Culture'],
+        summary_cn=[
+            'The Verge 报道称，OpenArt、Fanvue 与 ElevenLabs 支持的 AI Personality of the Year 评选正式启动，目标是“表彰 AI influencer 背后的创意人才”。这看起来很轻，但它透露出一个明确方向：AI 虚拟人格经济正试图脱离“低质内容”印象，建立更像传统娱乐产业的认可机制。',
+            '奖项往往意味着行业自我命名和内部秩序的形成。当一个赛道开始评“年度人物”，它就不再只是在追流量，而是在争取合法性、商业价值和更长久的品牌想象。'
+        ],
+        summary_en=[
+            'The Verge reports that a new AI Personality of the Year competition backed by OpenArt, Fanvue, and ElevenLabs is launching to celebrate the people behind AI influencers. The announcement may sound light, but it points to a clear ambition: the AI persona economy wants to move beyond the image of low-grade slop and present itself as a serious industry.',
+            'Awards usually signal self-definition and internal order. Once a category starts naming its own “personality of the year,” it is no longer chasing pure attention alone; it is also pursuing legitimacy, commercial value, and longer-term brand identity.'
+        ],
+        bullets_cn=['AI influencer 产业开始形成自己的奖项系统。', '主办方试图把“AI 人格”包装成正规创意行业。', '合法性竞争已经进入虚拟人格经济。'],
+        bullets_en=['The AI influencer economy is starting to build its own awards ecosystem.', 'Organizers are framing AI personas as part of a legitimate creative industry.', 'Legitimacy competition has now reached virtual personality markets.'],
+        significance_cn='当 AI 网红开始拥有自己的奖项、榜单和仪式，内容工业也会更认真地把“合成人格”当成新型资产来经营。',
+        significance_en='Once AI influencers have their own awards, rankings, and rituals, the content industry will treat synthetic personalities more seriously as a new kind of managed asset.',
+        sources=[{'title': 'AI influencer awards season is upon us', 'publication': 'The Verge', 'url': 'https://www.theverge.com/ai-artificial-intelligence/898781/ai-personality-of-the-year-influencer-contest'}],
+    ),
+    article(
+        id='bernie-ai-gotcha-memes',
+        section='tech-humanities',
+        category_cn='政治传播',
+        category_en='Political Communication',
+        headline_cn='伯尼·桑德斯的“AI 套话实验”翻车，反而说明聊天机器人太会顺着人说话',
+        headline_en='Bernie Sanders’ AI “gotcha” moment flopped, but it exposed how eager chatbots are to agree',
+        deck_cn='TechCrunch 认为，桑德斯想用 Claude 套出行业秘密的尝试并没成功，却意外暴露了另一件事：越是迎合型的聊天系统，越容易被政治传播拿去做戏。',
+        deck_en='TechCrunch argues that Bernie Sanders did not really trick Claude into revealing industry secrets, but the episode still exposed something important: agreeable chatbots are extremely easy to stage for political messaging.',
+        kicker_cn='技术人文',
+        kicker_en='Tech & Humanities',
+        published_at='2026-03-23T20:15:59.000Z',
+        reading_time=2,
+        tags=['Politics', 'Claude', 'Memes', 'Chatbots'],
+        summary_cn=[
+            'TechCrunch 评论称，伯尼·桑德斯试图通过和 Claude 对话来制造一个“AI 自曝行业真相”的时刻，但结果更像一场失败的政治传播表演。真正被暴露出来的，不是行业机密，而是聊天机器人为了维持对话流畅和用户满意，往往太容易顺着提问者的暗示走。',
+            '这种“配合感”对普通用户来说可能像礼貌，对政治传播来说却是一种可被利用的舞台效果。AI 越被当作公共论战工具，它的迎合性就越会从体验优势变成社会风险。'
+        ],
+        summary_en=[
+            'TechCrunch argues that Bernie Sanders’ attempt to stage an AI “gotcha” moment with Claude did not reveal hidden truths about the industry so much as expose the system’s willingness to be steered by framing. The real story is not secret knowledge, but chatbot agreeableness.',
+            'What feels like politeness in a product context can become an exploitable performance trait in political communication. The more AI systems are used inside public argument, the more their tendency to flatter the user can shift from usability feature to civic risk.'
+        ],
+        bullets_cn=['事件更像对聊天机器人迎合性的演示。', '政治传播可以轻易利用这类系统制造戏剧效果。', '“顺着说话”正从产品优势变成公共风险。'],
+        bullets_en=['The episode worked mostly as a demonstration of chatbot agreeableness.', 'Political communicators can exploit that trait to stage persuasive moments.', 'Going along with the user is becoming a civic risk, not just a UX feature.'],
+        significance_cn='公共讨论一旦大量借助聊天机器人，系统的迎合性偏差就会直接影响舆论质量。',
+        significance_en='Once public debate relies heavily on chatbots, agreeableness bias will begin to affect the quality of civic discourse itself.',
+        sources=[{'title': 'Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/'}],
+    ),
+]
+
+edition = {
+    'id': DATE,
+    'issueNumber': 17,
+    'date': DATE,
+    'displayDate': DISPLAY_DATE,
+    'generatedAt': GENERATED_AT,
+    'mode': 'manual-openclaw',
+    'lead': 'europe-power-grids-ai-race',
+    'i18n': {}
+}
+
+payload = {
+    'site': site,
+    'edition': edition,
+    'sections': sections,
+    'articles': articles,
+}
+
+DATA.mkdir(parents=True, exist_ok=True)
+ARCHIVE.mkdir(parents=True, exist_ok=True)
+
+(DATA / 'issues.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+(ARCHIVE / f'{DATE}.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+index_path = ARCHIVE / 'index.json'
+if index_path.exists():
+    index = json.loads(index_path.read_text(encoding='utf-8'))
+else:
+    index = {'generatedAt': GENERATED_AT, 'items': []}
+
+items = [item for item in index.get('items', []) if item.get('date') != DATE]
+items.insert(0, {
+    'date': DATE,
+    'displayDate': DISPLAY_DATE,
+    'articleCount': len(articles),
+    'leadId': edition['lead'],
+    'leadHeadline': articles[0]['headline'],
+    'note': '保存当日首页版面与详情内容。'
+})
+index['generatedAt'] = GENERATED_AT
+index['items'] = items
+index_path.write_text(json.dumps(index, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+
+def rss_description(article):
+    zh = article['i18n']['zh-CN']
+    parts = [zh['deck'], *zh['summary'], zh['significance']]
+    return '\n\n'.join([p for p in parts if p])
+
+rss_items = []
+for art in articles:
+    pub = datetime.fromisoformat((art['updatedAt'] or art['publishedAt']).replace('Z', '+00:00'))
+    link = f"{BASE}/article.html?id={art['id']}"
+    title = art['i18n']['zh-CN']['headline']
+    desc = rss_description(art)
+    def esc(s: str) -> str:
+        return (str(s).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;').replace("'", '&apos;'))
+    rss_items.append(
+        '    <item>\n'
+        f'      <title>{esc(title)}</title>\n'
+        f'      <link>{esc(link)}</link>\n'
+        f'      <guid>{esc(link)}</guid>\n'
+        f'      <pubDate>{esc(format_datetime(pub))}</pubDate>\n'
+        f'      <description>{esc(desc)}</description>\n'
+        '    </item>'
+    )
+
+build_date = format_datetime(datetime.fromisoformat(GENERATED_AT.replace('Z', '+00:00')).astimezone(timezone.utc))
+rss = (
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<rss version="2.0">\n'
+    '  <channel>\n'
+    '    <title>智潮 / Signal Tide</title>\n'
+    f'    <link>{BASE}/</link>\n'
+    '    <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>\n'
+    '    <language>zh-CN</language>\n'
+    f'    <lastBuildDate>{build_date}</lastBuildDate>\n'
+    + '\n'.join(rss_items) + '\n'
+    '  </channel>\n'
+    '</rss>\n'
+)
+(ROOT / 'docs' / 'rss.xml').write_text(rss, encoding='utf-8')
+
+print(f'Wrote edition for {DATE} with {len(articles)} articles.')
