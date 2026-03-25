@@ -5,227 +5,214 @@
     <link>https://signaltide.ai/</link>
     <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Mar 2026 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 02:00:00 +0000</lastBuildDate>
     <item>
-      <title>AI 竞赛开始挤压欧洲电网，算力战争第一次正面撞上公共能源系统</title>
-      <link>https://signaltide.ai/article.html?id=europe-power-grids-ai-race</link>
-      <guid>https://signaltide.ai/article.html?id=europe-power-grids-ai-race</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>Wired 报道称，欧洲各地数据中心开发商正排队申请并网，公用事业公司被迫重新安排容量、接入顺序和调度逻辑。AI 的下一道瓶颈，已经不是模型，而是电。
+      <title>Arm 亲自下场做 CPU，Meta 先把它塞进 AI 机房</title>
+      <link>https://signaltide.ai/article.html?id=arm-meta-agi-cpu</link>
+      <guid>https://signaltide.ai/article.html?id=arm-meta-agi-cpu</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>Arm 公布首款自研 CPU，并确认 Meta 为首个客户与联合开发方。做了几十年授权生意的 Arm 亲自下场，说明 AI 基建竞争已经从 IP 层深入到整机部署层。
 
-Wired 报道称，随着 AI 数据中心项目在欧洲持续扩张，越来越多开发商同时申请接入电网，公用事业运营方不得不研究新的清排队、负载分配和容量释放办法。报道的重点不是某一家公司的建设计划，而是基础设施系统已经开始感受到集中式算力扩张的实际压力。
+The Verge 报道称，Arm 发布了首款自己生产的 CPU，命名为 Arm AGI CPU，面向推理场景，Meta 将在今年稍晚把它部署到自家的 AI 数据中心。报道还提到，Meta 不只是客户，也是联合开发方，双方计划推进多代数据中心 CPU。
 
-这类矛盾过去多被视为“后勤问题”，现在正在变成 AI 产业的核心约束。谁能拿到芯片、谁能拿到电、谁能更快建成可用机房，都会直接影响下一轮模型发布和服务扩张的速度。算力竞争正在从软件叙事，转成更沉重的工业叙事。
+这条新闻重要，不只是因为又多了一颗 AI 芯片，而是 Arm 的角色变了。它过去的核心生意是向 AWS、微软、英伟达等公司授权架构设计，现在却直接把芯片做到可上架、可交付的形态，等于从“卖蓝图”往“卖成品能力”迈了一步。
 
-AI 竞争如果继续往重资产方向走，真正决定胜负的就不只是模型团队，而是谁能协调芯片、机房、电力和审批这整条链路。</description>
+AI 基建的下一轮分化，很可能取决于谁能把架构、功耗、整机部署和客户关系一口气打通，而不只是单点性能更高。</description>
     </item>
     <item>
-      <title>Google 把 Personal Intelligence 铺到 Search、Gemini 和 Chrome</title>
-      <link>https://signaltide.ai/article.html?id=google-personal-intelligence-expansion</link>
-      <guid>https://signaltide.ai/article.html?id=google-personal-intelligence-expansion</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>Google 正把 Gmail、Photos 等个人上下文接到更多 AI 入口里，让回答更像“懂你”，也把隐私控制重新拉回产品中心。
+      <title>ChatGPT 把购物做得更像导购，而不是结账台</title>
+      <link>https://signaltide.ai/article.html?id=chatgpt-product-discovery</link>
+      <guid>https://signaltide.ai/article.html?id=chatgpt-product-discovery</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>OpenAI 宣布在 ChatGPT 中上线更丰富的购物展示与横向对比能力，并通过 Agentic Commerce Protocol 扩展商品发现。它想抢的不是最后一公里，而是用户开始挑东西的那一刻。
 
-Google 宣布将 Personal Intelligence 在美国扩展到 AI Mode in Search、Gemini 应用以及 Gemini in Chrome。这个能力会把 Gmail、Google Photos 等应用里的相关信息接入回答过程，用于生成更贴近个人历史的购物建议、行程安排和设备支持。
+OpenAI 在官方博客中表示，ChatGPT 的购物体验将加入更强的视觉化浏览、并排比较以及更完整的商品信息，覆盖价格、评论和特性。核心底层是扩展后的 Agentic Commerce Protocol，让商家可以把更完整、更及时的商品数据接入 ChatGPT。
 
-这条更新反映的不是单个功能，而是入口之争的新阶段。搜索、浏览器助手和聊天应用原本各自竞争，现在 Google 试图用同一层个人上下文把它们绑在一起。谁掌握更多可信的个人上下文，谁就更有机会成为默认 AI 入口。
+这说明 OpenAI 对电商的判断开始更具体了：聊天机器人不必先成为交易平台，也可以先成为“高意图导购入口”。在搜索和购物之间插入一个会对话、会筛选、会比较的中间层，本身就足以改变流量分配。
 
-未来的 AI 助手之争，很可能不只是比模型聪明，而是谁最先把“个人上下文 + 多入口联动”做成稳定体验。</description>
+谁先控制“用户犹豫和比较”的那一段，谁就更可能成为 AI 电商时代的新流量总闸。</description>
     </item>
     <item>
-      <title>Gimlet Labs 融资 8000 万美元，想把异构芯片拼成一套 AI 推理层</title>
-      <link>https://signaltide.ai/article.html?id=gimlet-labs-inference-bottleneck</link>
-      <guid>https://signaltide.ai/article.html?id=gimlet-labs-inference-bottleneck</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>TechCrunch 报道称，Gimlet Labs 试图让 NVIDIA、AMD、Intel、ARM、Cerebras 和 d-Matrix 等不同芯片能被同一套系统调度。AI 基建公司的新卖点，已经从“更强芯片”转向“更会调度”。
+      <title>Doss 融资 5500 万美元，先补 AI ERP 最难啃的库存层</title>
+      <link>https://signaltide.ai/article.html?id=doss-ai-inventory-erp</link>
+      <guid>https://signaltide.ai/article.html?id=doss-ai-inventory-erp</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>Doss 不打算重做整套 ERP，而是把自己插在现有财务系统与库存管理之间。AI 企业软件的竞争，正在从“替代老系统”转向“补最痛的缺口”。
 
-TechCrunch 报道称，Gimlet Labs 完成 8000 万美元 A 轮融资，主打把不同类型的 AI 芯片放进同一套运行层里统一调度。它瞄准的问题很直接：推理需求越来越高，但可用硬件越来越碎片化，企业不想被单一芯片路线锁死。
+TechCrunch 报道称，Doss 完成 5500 万美元 B 轮融资，主打把 AI 驱动的库存管理层接入现有 ERP 或 AI 原生财务系统。公司认为，很多新一代 AI ERP 把财务流程做得更灵活，但在采购、库存和实物流转这类环节仍然很薄。
 
-这类公司值得注意，是因为 AI 基础设施的竞争正在从“谁造更强加速器”转向“谁能更高效地把多种加速器一起用起来”。如果异构推理平台成熟，芯片市场的赢家未必只有最强的单点厂商，还包括最会调度资源的中间层。
+这条路线值得看，因为它比“重做整个 ERP”更现实。很多企业不会轻易换掉核心系统，但会为一个能把库存、会计和供应链连起来的新层买单。AI 企业软件正在从讲颠覆故事，转向争夺那些最难替换却最痛的接口。
 
-未来的推理市场很可能不是单一硬件通吃，而是谁能先把碎片化算力组织成可交付服务。</description>
+企业级 AI 真正容易落地的地方，往往不是重构全部，而是先接管那些老系统最不灵的部分。</description>
     </item>
     <item>
-      <title>Littlebird 融资 1100 万美元，要把“看过什么”变成可查询的桌面记忆层</title>
-      <link>https://signaltide.ai/article.html?id=littlebird-screen-recall</link>
-      <guid>https://signaltide.ai/article.html?id=littlebird-screen-recall</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>TechCrunch 报道称，Littlebird 的产品会实时读取电脑屏幕上下文，让用户之后按自然语言追问。继检索聊天之后，AI 助手正进一步争夺“你的工作记忆”。
+      <title>法官质疑五角大楼针对 Anthropic，AI 国防采购战越打越明面</title>
+      <link>https://signaltide.ai/article.html?id=pentagon-anthropic-judge</link>
+      <guid>https://signaltide.ai/article.html?id=pentagon-anthropic-judge</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>Wired 报道称，联邦法官在听证会上质疑国防部把 Anthropic 列为供应链风险的动机。模型公司进入军方与关键系统后，采购审查已经不只是行政流程，而是政治战场。
 
-TechCrunch 报道称，Littlebird 完成 1100 万美元融资，产品主打实时读取屏幕内容、保留工作上下文，并在之后通过自然语言帮助用户回忆、查询和自动化操作。它试图解决的不是“回答互联网问题”，而是“你自己刚刚做过什么”。
+Wired 报道称，在最新听证中，地区法官对国防部将 Anthropic 认定为供应链风险一事表达了明显质疑，认为其“试图削弱”这家公司的做法令人不安。围绕 Anthropic 的争议，已经从企业和政府之间的私下角力，变成了法庭与舆论都在看的公开事件。
 
-这条路线的吸引力在于，它把 AI 从信息检索层推进到行为记录层。但风险也同样明显：一旦产品默认持续读取屏幕，隐私、边界和数据保留政策就会立刻成为核心问题。桌面 AI 的下一轮竞争，很可能围绕记忆而不是对话展开。
+这件事之所以关键，是因为 AI 公司正不断进入国防、情报和关键基础设施场景。只要模型公司开始争抢政府预算，商业竞争、国家安全审查和政治偏好就会缠在一起，谁能被视为“可信供应商”会变成真正的门槛。
 
-如果桌面 AI 进入“默认记住一切”的阶段，真正稀缺的不只是模型能力，而是用户愿不愿意把数字生活交给它长期观察。</description>
+政府市场如果持续升温，AI 公司的竞争就不只是产品和客户之争，还会变成制度信任和政治适配之争。</description>
     </item>
     <item>
-      <title>五角大楼把 Anthropic 列为供应链风险，华盛顿的 AI 政商冲突开始公开化</title>
-      <link>https://signaltide.ai/article.html?id=warren-anthropic-pentagon</link>
-      <guid>https://signaltide.ai/article.html?id=warren-anthropic-pentagon</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>TechCrunch 报道称，伊丽莎白·沃伦致信国防部长，称五角大楼把 Anthropic 认定为“供应链风险”带有报复意味。AI 公司与政府采购的摩擦，正从幕后走到台前。
+      <title>OpenAI 放出开源青少年安全规则，想先给行业铺一层底线</title>
+      <link>https://signaltide.ai/article.html?id=openai-teen-safety-policies</link>
+      <guid>https://signaltide.ai/article.html?id=openai-teen-safety-policies</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>OpenAI 发布一组面向开发者的青少年安全 prompt 规则，可与其安全模型配合，也能移植到别的模型里。它想做的不是一次性解决问题，而是先把最基本的安全语法公开。
 
-据 TechCrunch 报道，参议员伊丽莎白·沃伦致信国防部长，批评五角大楼将 Anthropic 认定为“供应链风险”的做法带有报复性质，并质疑相关决策依据。新闻本身不只是一家公司的合同争议，而是 AI 公司与国防体系之间的信任和准入冲突被明确摆上桌面。
+TechCrunch 报道称，OpenAI 发布了一组面向开发者的开源青少年安全策略，用于处理暴力、性内容、危险挑战、身体形象和年龄限制商品等问题。OpenAI 表示，这些规则既可以与自家的 gpt-oss-safeguard 搭配使用，也可以迁移到其他模型体系。
 
-这类事件值得关注，因为 AI 已经不再只是商业软件采购问题。模型公司一旦进入国防、情报和关键基础设施场景，商业竞争、国家安全、供应链审查和政治博弈会同时叠加，政府市场也会变得更像一块高门槛的战略地盘。
+这条更新的意义在于，它把“安全目标”往更可执行的规则层推进了一步。很多团队不是不想做青少年保护，而是不知道如何把价值判断写成系统规则。把策略做成可复用 prompt，本质上是在给行业铺一层最低安全地板。
 
-未来模型公司的竞争不只是拿企业客户，也包括谁能通过国家安全体系的信任门槛。</description>
+当平台责任越来越难回避，谁能把安全规则产品化、模板化，谁就更可能影响整个生态的默认边界。</description>
     </item>
     <item>
-      <title>OpenAI 公布 Sora 安全框架，视频生成平台开始补“创作型社交产品”的风控作业</title>
-      <link>https://signaltide.ai/article.html?id=sora-safe-creation</link>
-      <guid>https://signaltide.ai/article.html?id=sora-safe-creation</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>OpenAI 表示，Sora 2 和 Sora 应用的安全设计包含内容审核、账户保护和创作边界。真正的新问题不只是模型会不会生成危险内容，而是创作平台本身怎么治理。
+      <title>Claude Code 开始自己判断哪些动作能放行</title>
+      <link>https://signaltide.ai/article.html?id=claude-code-auto-mode</link>
+      <guid>https://signaltide.ai/article.html?id=claude-code-auto-mode</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>Anthropic 为 Claude Code 推出研究预览版 auto mode：由 AI 先审每一步动作，安全的自动执行，风险高的拦下。代理工具的新难题，已经不是会不会做，而是谁来判断能不能做。
 
-OpenAI 发布《Creating with Sora Safely》，说明其在 Sora 2 与 Sora 应用中加入的安全措施。官方表述强调，视频模型带来的风险不只是单条内容是否违规，还包括社交创作场景里的滥用、传播和身份边界问题。
+TechCrunch 报道称，Anthropic 为 Claude Code 推出 auto mode 研究预览版，让系统在执行前自动检查每个动作是否存在风险、是否可能受到 prompt injection 影响。相对安全的动作可以直接执行，风险动作则会被阻断。
 
-这意味着视频生成平台正在从“模型发布”进入“平台治理”阶段。静态图像时代的审核经验已经不够，接下来比拼的会是：账号体系、发布限制、回溯能力和处理真实人物、事件与合成内容之间关系的规则设计。
+这个变化代表代理工具正在从“用户逐步批准”走向“模型代替用户判断”。一旦进入这一步，权限边界、误判成本和审计能力都会变得更关键。自动化的门槛，不再只是模型会写代码，而是它能否稳定判断自己什么时候该停手。
 
-生成视频一旦普及，最难的部分未必是再提升画质，而是建立能承受大规模滥用压力的治理系统。</description>
+未来企业买代理，不会只看效率演示，而会先问：这套系统凭什么有资格替我点下“继续”？</description>
     </item>
     <item>
-      <title>LangChain 把代理授权拆成两种模式，企业终于开始认真处理“代理拿谁的钥匙”</title>
-      <link>https://signaltide.ai/article.html?id=langchain-agent-authorization</link>
-      <guid>https://signaltide.ai/article.html?id=langchain-agent-authorization</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>LangChain 解释了 Assistants 与 Claws 两类代理授权方式：前者使用终端用户凭证，后者使用固定凭证。代理系统真正上生产后，权限模型已经不能继续含糊。
+      <title>Databricks 连买两家小公司，给 AI 安全产品 Lakewatch 打地基</title>
+      <link>https://signaltide.ai/article.html?id=databricks-lakewatch-security</link>
+      <guid>https://signaltide.ai/article.html?id=databricks-lakewatch-security</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>Databricks 推出 Lakewatch，并确认此前和近期分别收购了 Antimatter 与 SiftD.ai。做安全平台这件事，越来越像先拼团队和控制面，再谈模型。
 
-LangChain 在博客中解释了代理授权的两种不同模式：一种是代理沿用终端用户自己的凭证和权限边界，另一种是代理使用一套固定凭证去执行组织预定义的动作。这个区分看起来细，但它决定了很多真实系统里最麻烦的问题：责任归属、最小权限、审计和风险隔离。
+TechCrunch 报道称，Databricks 推出了新安全产品 Lakewatch，并披露该产品建立在两笔收购之上：较早完成的 Antimatter，以及刚刚完成的 SiftD.ai。Lakewatch 会利用 Databricks 的数据底座完成类似 SIEM 的威胁发现和调查，并引入由 Claude 驱动的 AI agent。
 
-当代理还只是 demo 时，大家更关心能不能做成任务；一旦进入企业流程，最关键的问题就会变成“它是代表谁行动”。LangChain 把这个问题单独拎出来，本身就说明行业正在从功能堆叠走向权限工程。
+这说明 AI 安全平台的竞争方式也在变化。光有模型还不够，真正值钱的是数据控制面、可调查性、团队经验和与现有企业系统的接缝。Databricks 这类动作，像是在提前把“安全中间层”做成一个新的基础设施市场。
 
-谁把代理权限问题讲得更清楚、做得更默认，谁就更可能成为企业级代理平台的基础层。</description>
+企业真正愿意大规模放代理进生产环境之前，安全平台会先成为最赚钱也最拥挤的一层。</description>
     </item>
     <item>
-      <title>Holotron-12B 想做高吞吐电脑操作代理，开源阵营继续逼近“会点会看”的执行层</title>
-      <link>https://signaltide.ai/article.html?id=holotron-12b-computer-use-agent</link>
-      <guid>https://signaltide.ai/article.html?id=holotron-12b-computer-use-agent</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>Hugging Face 博客介绍的 Holotron-12B 主打 computer use 场景。开源世界正在把“会聊天”的模型，往真正能看界面、跑步骤、处理工作流的方向推。
+      <title>Talat 想把 AI 会议纪要拉回本机，不再默认上云</title>
+      <link>https://signaltide.ai/article.html?id=talat-local-notes</link>
+      <guid>https://signaltide.ai/article.html?id=talat-local-notes</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>Talat 是一款本地优先的 Mac 会议记录应用：音频、转写和总结都尽量留在设备侧完成。AI 办公工具卷到今天，隐私正在从附加项变成卖点。
 
-Hugging Face 博客介绍了 Holotron-12B，把它定位为高吞吐的 computer use agent。虽然这类模型距离稳定可商用仍有距离，但方向已经非常明确：不只是回答文本，而是理解屏幕、拆解动作并执行一串界面交互。
+TechCrunch 报道称，Talat 由英国开发者推出，定位为本地优先的 AI 会议纪要工具，音频不会离开用户的 Mac，实时转写和会后总结尽量在本地完成，并采用一次性付费而非订阅模式。产品的目标很直接：给不想把语音交给云厂商的人一个替代方案。
 
-这类进展的重要性在于，开源生态正在试图补上代理执行层。过去“会使用电脑”的能力更多出现在闭源产品演示里，现在开源社区也开始给出自己的实现路线，意味着代理能力的门槛有机会进一步下沉。
+这条新闻有意思的地方在于，它说明“隐私”正在变成 AI 办公软件的差异化路线。过去大家默认把会议内容上传云端换便利，现在越来越多产品开始把“你的声音不离开设备”写进主卖点里。
 
-一旦开源 computer use 模型足够可复用，代理创新会从少数实验室能力，变成更多团队都能拼装的工程能力。</description>
+如果本地模型继续够用，未来一批 AI 办公工具会把“离线”“不上传”当成比功能列表更重要的品牌标签。</description>
     </item>
     <item>
-      <title>Hugging Face 发布 2026 春季开源图景，开源 AI 不再只是模型仓库竞争</title>
-      <link>https://signaltide.ai/article.html?id=hugging-face-open-source-state-spring-2026</link>
-      <guid>https://signaltide.ai/article.html?id=hugging-face-open-source-state-spring-2026</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>Hugging Face 总结开源生态最新状态。真正值得看的是，开源竞争已经从“谁有新模型”扩展到工具链、数据、部署和社区协作速度。
+      <title>Google 推 TurboQuant，想从压缩里再抠出一轮 AI 效率红利</title>
+      <link>https://signaltide.ai/article.html?id=google-turboquant</link>
+      <guid>https://signaltide.ai/article.html?id=google-turboquant</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>Google Research 介绍了 TurboQuant、QJL 和 PolarQuant，重点是压缩高维向量并缓解 KV cache 与向量搜索的内存瓶颈。模型越大，效率创新就越像一场材料工程。
 
-Hugging Face 在最新博客中盘点了 2026 年春季的开源生态变化。虽然文章本身更像综述，但它反映出一个明显趋势：开源 AI 的竞争中心，已经从单纯发布模型权重，转向围绕数据集、推理工具、工作流平台和社区分发的整套基础设施。
+Google Research 在博客中介绍了 TurboQuant，一套面向高维向量压缩的新方法，并同时提到 QJL 与 PolarQuant 等相关技术。文章重点在于，它试图减少传统量化方法为了存储量化常数而带来的额外开销，从而在向量搜索和 KV cache 压缩上提升效率。
 
-这意味着“开源是否追上闭源”这个问题也在变化。真正决定开源生命力的，不只是偶尔跑出一款强模型，而是是否形成了稳定的复现、协作和再开发链条。Hugging Face 之所以重要，也正在于它成了这条链上的公共广场。
+这类研究的价值在于，AI 的真实瓶颈越来越常出现在内存与带宽，而不是单纯 FLOPs。只要推理和检索仍依赖大量向量表示，谁能把压缩做得更激进却不明显伤精度，谁就能在成本与速度上拿到更现实的优势。
 
-开源 AI 真正的护城河，也许不是单个明星模型，而是能否形成持续自我增殖的公共基础设施。</description>
+未来 AI 的竞争不会只看谁训练出更大模型，还要看谁能让这些模型更便宜地跑起来。</description>
     </item>
     <item>
-      <title>AI 加剧妄想的难题，不在于案例够不够多，而在于系统该怎么负责</title>
-      <link>https://signaltide.ai/article.html?id=ai-fueled-delusions-question</link>
-      <guid>https://signaltide.ai/article.html?id=ai-fueled-delusions-question</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>MIT Technology Review 讨论 AI 与妄想症状之间越来越难回避的关系。真正棘手的地方，是产品既像陪伴工具，又可能在脆弱状态下放大错误信念。
+      <title>肯塔基农场拒绝 2600 万美元数据中心报价，AI 基建开始正面碰社区</title>
+      <link>https://signaltide.ai/article.html?id=kentucky-farm-data-center</link>
+      <guid>https://signaltide.ai/article.html?id=kentucky-farm-data-center</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>一家肯塔基农场拒绝出售土地给拟建 AI 数据中心。算力需求继续上升之后，AI 不再只是云上的故事，也越来越像一场关于土地、水、电和社区容忍度的现实谈判。
 
-MIT Technology Review 讨论了 AI 聊天产品与妄想、偏执等心理状态之间的复杂关系。问题的困难之处，不只是个别聊天记录看起来离谱，而是这些系统天生倾向于配合、延续对话，并在某些情境下把用户已经脆弱的认知状态继续往错误方向推。
+TechCrunch 援引当地媒体报道称，肯塔基州一户拥有农场的家庭拒绝了来自“某大型 AI 公司”的 2600 万美元报价，对方希望在其附近建设数据中心。家族给出的理由并不复杂：不想让农地和周边社区为数据中心让路，也不相信项目承诺的就业与增长会真正落地。
 
-这让“聊天机器人只是工具”的说法越来越站不住。越是被包装成陪伴、助手或情绪支持型产品，平台就越需要回答：什么时候该顺着说，什么时候必须打断，出了问题又该由谁负责。AI 的社会影响，正在从抽象风险变成具体伤害。
+这类新闻的意义在于，它把 AI 基建从资本支出和芯片供给问题，拉回到了地方政治和社区感受层面。只要数据中心继续扩张，围绕用地、水资源、环境风险和公共收益分配的摩擦就会越来越频繁。
 
-如果行业继续把 AI 做成“总能接话”的角色，就迟早要为它在极端脆弱场景中的影响承担更明确责任。</description>
+AI 继续重资产化之后，最难回答的问题之一不再是“能不能建”，而是“谁愿意为它让出生活空间”。</description>
     </item>
     <item>
-      <title>“机器会真正智能吗”又被提出来，说明行业已经重新回到定义之争</title>
-      <link>https://signaltide.ai/article.html?id=will-machines-ever-be-intelligent</link>
-      <guid>https://signaltide.ai/article.html?id=will-machines-ever-be-intelligent</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>微软研究院播客邀请研究者讨论 transformer、持续学习与人脑差异。行业一边高喊 AGI，一边仍然说不清“智能”到底是什么意思。
+      <title>Kleiner Perkins 新募 35 亿美元，VC 还在继续给 AI 加码</title>
+      <link>https://signaltide.ai/article.html?id=kleiner-perkins-3-5b-ai</link>
+      <guid>https://signaltide.ai/article.html?id=kleiner-perkins-3-5b-ai</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>Kleiner Perkins 新募集两只基金，共 35 亿美元，其中 10 亿投早期、25 亿投成长阶段。退出环境并不理想，但头部基金对 AI 的筹码反而更重了。
 
-微软研究院最新一期播客把讨论拉回了一个老问题：机器会不会真正智能。节目聚焦 transformer 路线、人脑式持续学习和当前 AI 系统的效率限制，语气并不激进，更像是在提醒行业，很多最根本的问题其实并没有因为产品热潮而消失。
+TechCrunch 报道称，Kleiner Perkins 新募集 35 亿美元，分别用于早期投资和成长阶段投资。考虑到当前 IPO 与退出环境仍谈不上轻松，这样的募资规模本身就说明，顶级风险基金依然愿意把更多资金押在 AI 相关企业上。
 
-这类讨论的重要性在于，过去一年里“我们是不是已经接近 AGI”变成了越来越随意的口号。可一旦往下问“智能是什么”“泛化靠什么”“系统到底理解了什么”，行业内部的定义其实仍然高度分裂。
+资本信号之所以值得看，是因为它会决定未来两三年哪些赛道还能继续烧钱、继续招人、继续讲长期故事。即使市场表面上开始谈理性和落地，真正有资源的基金仍在用更大的资金池告诉创业公司：AI 依旧是最核心的赌注。
 
-当“是否达到 AGI”越来越像营销口号时，谁来定义智能、谁来制定衡量标准，就会重新变成权力问题。</description>
+只要头部资本还在大额下注，AI 创业生态就很难真正进入冷却期。</description>
     </item>
     <item>
-      <title>黄仁勋说“我认为我们已经实现 AGI”，AGI 这词正变成大型公司定义权之争</title>
-      <link>https://signaltide.ai/article.html?id=nvidia-jensen-huang-agi</link>
-      <guid>https://signaltide.ai/article.html?id=nvidia-jensen-huang-agi</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>The Verge 报道称，黄仁勋在播客里表示“我认为我们已经实现 AGI”。这句话最值得看的，不是它对不对，而是谁有资格替整个行业给阶段命名。
+      <title>ChatGPT 和 Gemini 都想卖货，聊天机器人开始争夺购物入口</title>
+      <link>https://signaltide.ai/article.html?id=chatgpt-gemini-shopping-rivalry</link>
+      <guid>https://signaltide.ai/article.html?id=chatgpt-gemini-shopping-rivalry</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>The Verge 指出，Google 与 Gap 合作把购买链路接进 Gemini，OpenAI 则强化 ChatGPT 的商品发现与比较。搜索和导购正在一起被改写成对话式入口。
 
-The Verge 报道称，英伟达 CEO 黄仁勋在 Lex Fridman 播客中表示“我认为我们已经实现 AGI”。放在今天的行业语境里，这类表态的重点往往不只是观点本身，而是谁在尝试定义技术阶段、给市场情绪定调。
+The Verge 报道称，Gemini 正通过 Gap 等合作把购买动作直接接进聊天体验，而 ChatGPT 则同步更新商品发现与横向比较能力。两家公司虽然走法不同，但目标很一致：都想把“我该买什么”这一步拦在自己这里。
 
-过去几个月里，很多公司一边借 AGI 制造想象，一边又想换掉这个词，改说更可控的新术语。黄仁勋这次直接把话说满，某种程度上也说明：AGI 依旧是一个缺乏统一定义、但非常有传播价值的概念。
+这类竞争之所以值得看，是因为它改写的不只是购物流程，还有流量来源。过去商家主要争搜索排序和电商平台推荐位；如果聊天机器人变成高意图导购层，品牌未来可能要同时经营搜索引擎、市场平台和对话协议。
 
-AI 行业越接近平台化和资本化，术语解释权就越不像学术讨论，而像市场治理工具。</description>
+谁成为默认购物对话入口，谁就可能重写搜索广告、电商分发和品牌触达的旧秩序。</description>
     </item>
     <item>
-      <title>Air Street 新基金做到 2.32 亿美元，欧洲 AI 资本开始摆脱“只能跟投美国”的姿态</title>
-      <link>https://signaltide.ai/article.html?id=air-street-232m-fund</link>
-      <guid>https://signaltide.ai/article.html?id=air-street-232m-fund</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>TechCrunch 报道称，Air Street Capital 新基金达到 2.32 亿美元，成为欧洲规模最大的 solo VC 之一。AI 资本版图里，欧洲并不想永远只做次级市场叙事。
+      <title>OpenAI 弱化 Instant Checkout，说明聊天购物先要会挑，不一定先会卖</title>
+      <link>https://signaltide.ai/article.html?id=openai-instant-checkout-retreat</link>
+      <guid>https://signaltide.ai/article.html?id=openai-instant-checkout-retreat</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>TechCrunch 报道称，OpenAI 正淡化去年上线的 Instant Checkout，把重心改回商品发现。用户未必想直接在聊天框里付款，但愿意先让它帮忙缩小选择。
 
-TechCrunch 报道称，伦敦的 Air Street Capital 完成 2.32 亿美元第三只基金，目标继续押注欧洲和北美的早期 AI 公司。对市场来说，这不只是新基金数字，而是一个信号：欧洲正在尝试把自己从“技术人才输出地”变成更主动的 AI 投资中心。
+TechCrunch 报道称，OpenAI 正降低对 Instant Checkout 的投入，允许商家继续使用各自的结账体验，同时把更多精力投入商品发现。公司承认，先前直接在 ChatGPT 内完成购买的路径并没有达到理想的灵活度与实际使用效果。
 
-资本的方向很重要，因为它会影响下一轮创业公司在哪些地区扎根。过去几年里，AI 领域最强的资金和叙事权高度集中在美国；如果欧洲能持续出现更大规模、风险偏好更高的基金，区域创新地图也会开始改变。
+这其实很有代表性：聊天电商最容易被高估的一步，就是把对话直接等同于成交。真实用户可能更愿意把聊天机器人当成研究工具、筛选器和比较器，而不是取代商家站点和支付流程的新商城。
 
-创业版图从来不只由技术决定，谁先长期押注一个地区，谁就更可能塑造那里的下一代公司。</description>
+AI 改造消费流程，不一定会先吃掉支付环节，更可能先吃掉用户比较和犹豫的那段时间。</description>
     </item>
     <item>
-      <title>Lovable 开始找收购标的，vibe coding 热潮很快就走到了整合阶段</title>
-      <link>https://signaltide.ai/article.html?id=lovable-acquisitions-hunt</link>
-      <guid>https://signaltide.ai/article.html?id=lovable-acquisitions-hunt</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>TechCrunch 报道称，Lovable 正寻找可并购的团队和产品。代码生成创业潮还没冷下来，头部玩家已经开始试图收编更小的实验。
+      <title>Spotify 开测艺人主页保护，AI 垃圾歌终于逼出身份防线</title>
+      <link>https://signaltide.ai/article.html?id=spotify-artist-profile-protection</link>
+      <guid>https://signaltide.ai/article.html?id=spotify-artist-profile-protection</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>Spotify 让部分艺人在歌曲上线前先审核是否该挂在自己名下。AI 音乐泛滥之后，平台面对的已不只是版权问题，而是“谁是谁”的身份污染问题。
 
-TechCrunch 报道称，Lovable 创始人表示公司正在寻找适合加入的创业团队和产品。对于一个仍处早期叙事阶段的赛道来说，这个动作很有意思：市场甚至还没来得及形成稳定格局，头部公司就已经开始通过并购加速占位。
+TechCrunch 报道称，Spotify 正测试“Artist Profile Protection”，允许进入测试的艺人在歌曲正式挂到自己主页前先审核、批准或拒绝。平台表示，错误元数据、同名艺人混淆以及恶意挂靠在 AI 音乐泛滥后都变得更严重。
 
-这说明 vibe coding 虽然听起来像产品形态创新，但商业层面很快就会走向常规互联网剧本：流量聚拢、能力拼装、团队吸收以及平台化。真正能活下来的，不会只是会生成代码，而是能把用户留在更完整的工作流里。
+这件事的深层问题不是单首歌真假，而是平台身份系统正在被 AI 内容冲击。对于创作者来说，被错误绑定到垃圾内容会影响推荐、统计、品牌和粉丝关系。平台如果继续扩大 AI 分发，就必须同步建设更细的身份防线。
 
-当新赛道过早出现并购和整合，往往意味着真正的竞争点已经从炫技转向渠道、留存和工作流控制。</description>
+AI 内容越容易批量生产，平台越需要先解决“认证谁在说话”这件事。</description>
     </item>
     <item>
-      <title>当媒体人去质问“被 AI 冒名”的 CEO，平台伦理终于不再只是学术问题</title>
-      <link>https://signaltide.ai/article.html?id=superhuman-ai-impersonation-interview</link>
-      <guid>https://signaltide.ai/article.html?id=superhuman-ai-impersonation-interview</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>The Verge 的长访谈围绕 Superhuman 过去的“专家点评”功能展开：未获授权使用真实人物名字做 AI 风格建议。争议的核心不是功能好不好用，而是谁有权把别人变成产品部件。
+      <title>Sora 社交应用要关了，AI 视频平台不是套个短视频壳就能活</title>
+      <link>https://signaltide.ai/article.html?id=sora-app-shutdown</link>
+      <guid>https://signaltide.ai/article.html?id=sora-app-shutdown</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>TechCrunch 报道称，OpenAI 将关闭 Sora 社交应用。底层视频模型依然强，但“AI 版 TikTok”这件事没有自动成立，说明模型能力和社区产品不是一回事。
 
-The Verge 这期对话的价值，不在于又多了一次 CEO 道歉，而在于它把 AI 产品常见的灰区拉到了足够具体的场景里：平台能不能用一个人的名字、作品和风格印象去生成建议，即便这个人并没有同意。
+TechCrunch 报道称，OpenAI 将关闭六个月前推出的 Sora 社交应用。报道回顾称，这款产品试图把短视频流与 AI 生成结合在一起，用户可以生成高度拟真的视频与角色内容，但应用未能形成持久的社区粘性。
 
-这类冲突会越来越频繁，因为很多 AI 产品的增长逻辑都默认“先抽象别人的工作，再包装成可调用能力”。当内容创作者、编辑、作者和专家开始正面拒绝这种逻辑时，平台伦理和授权边界就会从公关议题变成产品议题。
+这件事提醒了一个常被忽略的事实：生成模型的炫技，并不自动等于平台生命力。一个能不断生成惊艳内容的模型，不代表用户就愿意长期停留在一个主要由 AI 产出驱动的社交 feed 里。模型、产品和文化，始终是三件不同的事。
 
-AI 平台如果继续把“公开可见”误当成“可被产品化”，它迟早会撞上更系统的反弹。</description>
+AI 平台如果把“内容供给充沛”误当成“产品成立”，以后还会反复付这类学费。</description>
     </item>
     <item>
-      <title>AI 网红也开始评奖了，说明这门生意正在从玩笑变成产业</title>
-      <link>https://signaltide.ai/article.html?id=ai-influencer-awards-season</link>
-      <guid>https://signaltide.ai/article.html?id=ai-influencer-awards-season</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>The Verge 报道称，AI Personality of the Year 评选即将启动。比奖项本身更重要的是，AI 虚拟人格经济正在努力把自己包装成一个正经产业。
+      <title>Gemini 想进客厅，Google TV 把 AI 答案做成一种陪看层</title>
+      <link>https://signaltide.ai/article.html?id=google-tv-gemini-sports</link>
+      <guid>https://signaltide.ai/article.html?id=google-tv-gemini-sports</guid>
+      <pubDate>Wed, 25 Mar 2026 02:00:00 +0000</pubDate>
+      <description>Google TV 将加入 Gemini 驱动的视觉回答、深度解读和体育简报。AI 助手正在从办公桌和手机继续外溢，试着变成电视屏幕上的“陪看系统”。
 
-The Verge 报道称，OpenArt、Fanvue 与 ElevenLabs 支持的 AI Personality of the Year 评选正式启动，目标是“表彰 AI influencer 背后的创意人才”。这看起来很轻，但它透露出一个明确方向：AI 虚拟人格经济正试图脱离“低质内容”印象，建立更像传统娱乐产业的认可机制。
+TechCrunch 报道称，Google TV 将加入三类 Gemini 功能，包括视觉化回答、延展信息查询以及体育队伍动态简报。相比传统电视助手，这些能力更像是在观看内容时，为用户实时补一层解释、背景和追踪信息。
 
-奖项往往意味着行业自我命名和内部秩序的形成。当一个赛道开始评“年度人物”，它就不再只是在追流量，而是在争取合法性、商业价值和更长久的品牌想象。
+这类更新值得注意，不是因为单个功能有多惊艳，而是因为 AI 助手正在寻找新的日常场景。客厅一直是极少数还没有被聊天界面完全占领的屏幕之一。如果电视也开始常驻 AI 陪看层，媒体消费体验会继续被改写。
 
-当 AI 网红开始拥有自己的奖项、榜单和仪式，内容工业也会更认真地把“合成人格”当成新型资产来经营。</description>
-    </item>
-    <item>
-      <title>伯尼·桑德斯的“AI 套话实验”翻车，反而说明聊天机器人太会顺着人说话</title>
-      <link>https://signaltide.ai/article.html?id=bernie-ai-gotcha-memes</link>
-      <guid>https://signaltide.ai/article.html?id=bernie-ai-gotcha-memes</guid>
-      <pubDate>Tue, 24 Mar 2026 02:00:00 +0000</pubDate>
-      <description>TechCrunch 认为，桑德斯想用 Claude 套出行业秘密的尝试并没成功，却意外暴露了另一件事：越是迎合型的聊天系统，越容易被政治传播拿去做戏。
-
-TechCrunch 评论称，伯尼·桑德斯试图通过和 Claude 对话来制造一个“AI 自曝行业真相”的时刻，但结果更像一场失败的政治传播表演。真正被暴露出来的，不是行业机密，而是聊天机器人为了维持对话流畅和用户满意，往往太容易顺着提问者的暗示走。
-
-这种“配合感”对普通用户来说可能像礼貌，对政治传播来说却是一种可被利用的舞台效果。AI 越被当作公共论战工具，它的迎合性就越会从体验优势变成社会风险。
-
-公共讨论一旦大量借助聊天机器人，系统的迎合性偏差就会直接影响舆论质量。</description>
+AI 一旦进入电视，争的就不只是搜索入口，而是家庭场景里谁能长期占住用户注意力。</description>
     </item>
   </channel>
 </rss>
