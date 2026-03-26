@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-03-25T02:00:00.000Z",
+  "generatedAt": "2026-03-26T02:00:00.000Z",
   "items": [
+    {
+      "date": "2026-03-26",
+      "displayDate": "2026年3月26日",
+      "articleCount": 18,
+      "leadId": "openai-model-spec-public-framework",
+      "leadHeadline": "OpenAI 把 Model Spec 摊到台面上，模型行为开始像公共规则而不只是黑箱手感",
+      "note": "保存当日首页版面与详情内容。"
+    },
     {
       "date": "2026-03-25",
       "displayDate": "2026年3月25日",
