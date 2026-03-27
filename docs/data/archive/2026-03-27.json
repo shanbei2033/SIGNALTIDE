@@ -22,9 +22,9 @@
     "issueNumber": 20,
     "date": "2026-03-27",
     "displayDate": "2026年3月27日",
-    "generatedAt": "2026-03-27T16:20:00.000Z",
+    "generatedAt": "2026-03-27T16:00:00.000Z",
     "mode": "manual-openclaw",
-    "lead": "anthropic-pentagon-ban-injunction",
+    "lead": "anthropic-pentagon-injunction",
     "i18n": {}
   },
   "sections": [
@@ -87,528 +87,528 @@
   ],
   "articles": [
     {
-      "id": "anthropic-pentagon-ban-injunction",
+      "id": "anthropic-pentagon-injunction",
       "section": "lead",
       "category": "国防采购",
-      "headline": "法官暂时拦下五角大楼封杀 Anthropic，AI 国防采购正式打到法庭中央",
-      "deck": "联邦法官裁定暂缓执行国防部针对 Anthropic 的限制措施。模型公司一旦进入军方和关键系统，竞争就不再只是技术与价格，而是“谁能被视为可信供应商”的制度之争。",
+      "headline": "法官暂时叫停五角大楼封杀 Anthropic，AI 军采第一次把“谁有权划红线”摆上桌面",
+      "deck": "联邦法官批准初步禁令，暂缓国防部把 Anthropic 作为“供应链风险”封杀的做法。争议表面上是采购纠纷，实质上却是模型公司能否对军方使用方式坚持底线。",
       "kicker": "头版",
       "byline": "编辑部整理",
       "publishedAt": "2026-03-27T00:33:44.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
       "readingTime": 4,
       "tags": [
         "Anthropic",
         "Pentagon",
-        "Defense",
-        "Procurement"
+        "Procurement",
+        "AI Governance"
       ],
       "summary": [
-        "The Verge 和 Wired 均报道，联邦法官已暂时阻止五角大楼执行针对 Anthropic 的禁令或限制措施，并对其将 Anthropic 视作供应链风险的依据表达怀疑。这意味着围绕 AI 供应商资格的冲突，已经从内部审查升级为公开司法争议。",
-        "这件事的重要性不只是 Anthropic 能不能接单，而是它暴露了模型公司进入政府和军方体系后的新门槛：企业需要的不只是更强模型，还要在政治、合规和制度信任上过关。未来的大客户竞争，很可能越来越像“可信资格战”。"
+        "The Verge 报道称，北加州联邦地区法官 Rita Lin 批准了 Anthropic 请求的初步禁令，暂时阻止五角大楼继续执行针对 Anthropic 的“供应链风险”认定。法官在命令中直指，若政府因为 Anthropic 公开反对其 AI 被用于自主致命武器和国内大规模监控而进行报复，可能构成典型的第一修正案报复。",
+        "这件事真正值得放头版，不只是因为 Anthropic 暂时赢了一回，而是它把 AI 时代最敏感的一层关系公开化了：政府希望采购尽可能顺手的模型能力，模型公司则试图保留对高风险用途的边界控制。一旦这场拉锯进入法院、合同和公开舆论，AI 军采就不再只是商业大单，而会变成制度与价值观的硬碰硬。"
       ],
       "bullets": [
-        "法官已暂缓执行针对 Anthropic 的限制。",
-        "AI 国防采购开始进入公开司法审查。",
-        "“可信供应商”正成为模型公司的新硬门槛。"
+        "法院暂缓执行五角大楼对 Anthropic 的“供应链风险”封杀。",
+        "争议焦点之一是 Anthropic 是否因公开主张使用边界而遭到报复。",
+        "AI 军采竞争开始直接碰到言论权、合同权与用途限制。"
       ],
-      "significance": "如果政府 AI 合同继续升温，模型公司之间的竞争就会越来越像制度信任竞争，而不只是产品竞争。",
+      "significance": "如果模型公司有权拒绝某些军用场景，未来 AI 政策的核心就不只是“谁能做”，还包括“谁能说不”。",
       "sources": [
         {
           "title": "Judge sides with Anthropic to temporarily block the Pentagon’s ban",
           "publication": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/930112/judge-sides-with-anthropic-to-temporarily-block-the-pentagons-ban"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/902149/anthropic-dod-pentagon-lawsuit-supply-chain-risk-injunction"
         },
         {
-          "title": "Anthropic Supply-Chain-Risk Designation Halted by Judge",
-          "publication": "Wired",
-          "url": "https://www.wired.com/story/anthropic-supply-chain-risk-designation-halted-by-judge/"
+          "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
+          "publication": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/"
         }
       ],
       "i18n": {
         "zh-CN": {
           "category": "国防采购",
-          "headline": "法官暂时拦下五角大楼封杀 Anthropic，AI 国防采购正式打到法庭中央",
-          "deck": "联邦法官裁定暂缓执行国防部针对 Anthropic 的限制措施。模型公司一旦进入军方和关键系统，竞争就不再只是技术与价格，而是“谁能被视为可信供应商”的制度之争。",
+          "headline": "法官暂时叫停五角大楼封杀 Anthropic，AI 军采第一次把“谁有权划红线”摆上桌面",
+          "deck": "联邦法官批准初步禁令，暂缓国防部把 Anthropic 作为“供应链风险”封杀的做法。争议表面上是采购纠纷，实质上却是模型公司能否对军方使用方式坚持底线。",
           "kicker": "头版",
           "byline": "编辑部整理",
           "summary": [
-            "The Verge 和 Wired 均报道，联邦法官已暂时阻止五角大楼执行针对 Anthropic 的禁令或限制措施，并对其将 Anthropic 视作供应链风险的依据表达怀疑。这意味着围绕 AI 供应商资格的冲突，已经从内部审查升级为公开司法争议。",
-            "这件事的重要性不只是 Anthropic 能不能接单，而是它暴露了模型公司进入政府和军方体系后的新门槛：企业需要的不只是更强模型，还要在政治、合规和制度信任上过关。未来的大客户竞争，很可能越来越像“可信资格战”。"
+            "The Verge 报道称，北加州联邦地区法官 Rita Lin 批准了 Anthropic 请求的初步禁令，暂时阻止五角大楼继续执行针对 Anthropic 的“供应链风险”认定。法官在命令中直指，若政府因为 Anthropic 公开反对其 AI 被用于自主致命武器和国内大规模监控而进行报复，可能构成典型的第一修正案报复。",
+            "这件事真正值得放头版，不只是因为 Anthropic 暂时赢了一回，而是它把 AI 时代最敏感的一层关系公开化了：政府希望采购尽可能顺手的模型能力，模型公司则试图保留对高风险用途的边界控制。一旦这场拉锯进入法院、合同和公开舆论，AI 军采就不再只是商业大单，而会变成制度与价值观的硬碰硬。"
           ],
           "bullets": [
-            "法官已暂缓执行针对 Anthropic 的限制。",
-            "AI 国防采购开始进入公开司法审查。",
-            "“可信供应商”正成为模型公司的新硬门槛。"
+            "法院暂缓执行五角大楼对 Anthropic 的“供应链风险”封杀。",
+            "争议焦点之一是 Anthropic 是否因公开主张使用边界而遭到报复。",
+            "AI 军采竞争开始直接碰到言论权、合同权与用途限制。"
           ],
-          "significance": "如果政府 AI 合同继续升温，模型公司之间的竞争就会越来越像制度信任竞争，而不只是产品竞争。",
+          "significance": "如果模型公司有权拒绝某些军用场景，未来 AI 政策的核心就不只是“谁能做”，还包括“谁能说不”。",
           "sources": [
             {
               "title": "Judge sides with Anthropic to temporarily block the Pentagon’s ban",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/930112/judge-sides-with-anthropic-to-temporarily-block-the-pentagons-ban"
+              "url": "https://www.theverge.com/ai-artificial-intelligence/902149/anthropic-dod-pentagon-lawsuit-supply-chain-risk-injunction"
             },
             {
-              "title": "Anthropic Supply-Chain-Risk Designation Halted by Judge",
-              "publication": "Wired",
-              "url": "https://www.wired.com/story/anthropic-supply-chain-risk-designation-halted-by-judge/"
+              "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/"
             }
           ]
         },
         "zh-TW": {
           "category": "国防采购",
-          "headline": "法官暂时拦下五角大楼封杀 Anthropic，AI 国防采购正式打到法庭中央",
-          "deck": "联邦法官裁定暂缓执行国防部针对 Anthropic 的限制措施。模型公司一旦进入军方和关键系统，竞争就不再只是技术与价格，而是“谁能被视为可信供应商”的制度之争。",
+          "headline": "法官暂时叫停五角大楼封杀 Anthropic，AI 军采第一次把“谁有权划红线”摆上桌面",
+          "deck": "联邦法官批准初步禁令，暂缓国防部把 Anthropic 作为“供应链风险”封杀的做法。争议表面上是采购纠纷，实质上却是模型公司能否对军方使用方式坚持底线。",
           "kicker": "頭版",
           "byline": "編輯部整理",
           "summary": [
-            "The Verge 和 Wired 均报道，联邦法官已暂时阻止五角大楼执行针对 Anthropic 的禁令或限制措施，并对其将 Anthropic 视作供应链风险的依据表达怀疑。这意味着围绕 AI 供应商资格的冲突，已经从内部审查升级为公开司法争议。",
-            "这件事的重要性不只是 Anthropic 能不能接单，而是它暴露了模型公司进入政府和军方体系后的新门槛：企业需要的不只是更强模型，还要在政治、合规和制度信任上过关。未来的大客户竞争，很可能越来越像“可信资格战”。"
+            "The Verge 报道称，北加州联邦地区法官 Rita Lin 批准了 Anthropic 请求的初步禁令，暂时阻止五角大楼继续执行针对 Anthropic 的“供应链风险”认定。法官在命令中直指，若政府因为 Anthropic 公开反对其 AI 被用于自主致命武器和国内大规模监控而进行报复，可能构成典型的第一修正案报复。",
+            "这件事真正值得放头版，不只是因为 Anthropic 暂时赢了一回，而是它把 AI 时代最敏感的一层关系公开化了：政府希望采购尽可能顺手的模型能力，模型公司则试图保留对高风险用途的边界控制。一旦这场拉锯进入法院、合同和公开舆论，AI 军采就不再只是商业大单，而会变成制度与价值观的硬碰硬。"
           ],
           "bullets": [
-            "法官已暂缓执行针对 Anthropic 的限制。",
-            "AI 国防采购开始进入公开司法审查。",
-            "“可信供应商”正成为模型公司的新硬门槛。"
+            "法院暂缓执行五角大楼对 Anthropic 的“供应链风险”封杀。",
+            "争议焦点之一是 Anthropic 是否因公开主张使用边界而遭到报复。",
+            "AI 军采竞争开始直接碰到言论权、合同权与用途限制。"
           ],
-          "significance": "如果政府 AI 合同继续升温，模型公司之间的竞争就会越来越像制度信任竞争，而不只是产品竞争。",
+          "significance": "如果模型公司有权拒绝某些军用场景，未来 AI 政策的核心就不只是“谁能做”，还包括“谁能说不”。",
           "sources": [
             {
               "title": "Judge sides with Anthropic to temporarily block the Pentagon’s ban",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/930112/judge-sides-with-anthropic-to-temporarily-block-the-pentagons-ban"
+              "url": "https://www.theverge.com/ai-artificial-intelligence/902149/anthropic-dod-pentagon-lawsuit-supply-chain-risk-injunction"
             },
             {
-              "title": "Anthropic Supply-Chain-Risk Designation Halted by Judge",
-              "publication": "Wired",
-              "url": "https://www.wired.com/story/anthropic-supply-chain-risk-designation-halted-by-judge/"
+              "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/"
             }
           ]
         },
         "en": {
           "category": "Defense Procurement",
-          "headline": "A judge temporarily blocked the Pentagon’s Anthropic ban, pushing AI defense procurement into open court",
-          "deck": "A federal judge temporarily halted the Pentagon’s restrictions on Anthropic. Once model companies move into defense and critical systems, competition stops being only about technical merit or price and becomes a fight over who gets treated as a trusted supplier.",
+          "headline": "A judge has temporarily blocked the Pentagon’s move against Anthropic, putting the fight over who sets AI red lines out in the open",
+          "deck": "A federal judge granted a preliminary injunction blocking the Defense Department’s effort to treat Anthropic as a supply-chain risk. On the surface this is a procurement dispute; underneath it is a fight over whether model vendors can impose limits on military use.",
           "kicker": "Lead",
           "byline": "Signal Tide Desk",
           "summary": [
-            "Both The Verge and Wired report that a federal judge has temporarily blocked the Pentagon from enforcing its restrictions on Anthropic while questioning the basis for treating the company as a supply-chain risk. The dispute has now moved from internal review into open litigation.",
-            "The significance goes beyond Anthropic itself. As AI firms move into defense and government systems, success depends not only on model quality but on political legitimacy, compliance posture, and trusted-supplier status."
+            "The Verge reports that Judge Rita Lin granted Anthropic a preliminary injunction that temporarily blocks the Pentagon from enforcing its supply-chain-risk designation against the company. The order suggests the government may have crossed a legal line if it retaliated against Anthropic for publicly opposing the use of its models in lethal autonomous weapons or domestic mass surveillance.",
+            "What makes this a lead story is not simply that Anthropic won a round. It is that one of the central power struggles of the AI era is now explicit: governments want maximum freedom in procurement, while model companies are trying to preserve hard limits on the most sensitive uses. Once that conflict moves into courts, contracts, and public scrutiny, AI defense purchasing becomes a constitutional and governance story, not just a commercial one."
           ],
           "bullets": [
-            "The court has paused enforcement of the Anthropic restrictions.",
-            "AI defense procurement is now entering public judicial review.",
-            "Trusted-supplier status is becoming a hard gate for model vendors."
+            "The court temporarily halted the Pentagon’s supply-chain-risk treatment of Anthropic.",
+            "A central question is whether Anthropic was punished for publicly defending use restrictions.",
+            "AI defense procurement is colliding with speech rights, contracts, and usage limits."
           ],
-          "significance": "If government AI contracts keep growing, competition among model vendors will increasingly become a contest over institutional trust, not only product quality.",
+          "significance": "If model companies can lawfully refuse certain military uses, the core AI policy question will no longer be only who can build, but who gets to say no.",
           "sources": [
             {
               "title": "Judge sides with Anthropic to temporarily block the Pentagon’s ban",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/930112/judge-sides-with-anthropic-to-temporarily-block-the-pentagons-ban"
+              "url": "https://www.theverge.com/ai-artificial-intelligence/902149/anthropic-dod-pentagon-lawsuit-supply-chain-risk-injunction"
             },
             {
-              "title": "Anthropic Supply-Chain-Risk Designation Halted by Judge",
-              "publication": "Wired",
-              "url": "https://www.wired.com/story/anthropic-supply-chain-risk-designation-halted-by-judge/"
+              "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/"
             }
           ]
         }
       }
     },
     {
-      "id": "google-search-live-global",
+      "id": "gemini-import-memory-chat-history",
       "section": "company",
-      "category": "搜索入口",
-      "headline": "Google 把 Search Live 推向更多语言，搜索开始更像一场持续对话",
-      "deck": "Google 宣布 Search Live 全球扩展，并把实时语音搜索带到更多语言环境。搜索入口的下一轮竞争，越来越不是“谁给答案更快”，而是“谁能持续陪着用户把问题问完”。",
+      "category": "助手迁移",
+      "headline": "Google 让 Gemini 直接接管别家聊天记录，AI 助手竞争开始从拉新改成“搬家”",
+      "deck": "Gemini 新增 Import Memory 与 Import Chat History，用户可以把其他聊天机器人的记忆和历史对话整体迁入。大模型产品的护城河，正在从首用体验转向上下文资产。",
       "kicker": "公司",
       "byline": "编辑部整理",
-      "publishedAt": "2026-03-26T15:00:00.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
+      "publishedAt": "2026-03-26T21:44:37.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
       "readingTime": 3,
       "tags": [
         "Google",
-        "Search",
         "Gemini",
-        "Live"
+        "Memory",
+        "Consumer AI"
       ],
       "summary": [
-        "Google AI Blog 和 The Verge 都提到，Search Live 正扩大可用范围，并支持更多语言的实时对话式搜索体验。它不只是把搜索框换成麦克风，而是在把搜索变成一段可追问、可澄清、可继续延展的会话。",
-        "这类升级说明搜索产品正在摆脱传统结果页逻辑。真正有价值的部分不只是模型回答，而是连续交互能否稳、快、自然，以及能否在真实生活场景里承接语音输入。"
+        "Google 本周在 Gemini 桌面端推出 Import Memory 与 Import Chat History。前者通过复制提示词，把其他助手已知的偏好、关系与个人背景转给 Gemini；后者则允许用户上传最多 5GB 的聊天导出压缩包，把旧对话直接导入继续使用。功能面向免费与付费消费者账号开放，但暂不覆盖企业、商业和未成年人账号。",
+        "这类功能看上去只是迁移工具，实则说明 AI 助手竞争已经进入第二阶段。真正让用户不愿离开的，不再只是模型本身，而是它积累下来的记忆、聊天史和个性化上下文。谁能降低迁移成本，谁就更有机会把“换助手”变成像“换邮箱客户端”一样低摩擦。"
       ],
       "bullets": [
-        "Search Live 正在扩大语言和地区覆盖。",
-        "搜索交互从结果页转向连续会话。",
-        "语音搜索的体验质量开始变成产品胜负手。"
+        "Gemini 可导入他家助手的记忆与聊天历史。",
+        "聊天上下文正被当作核心用户资产来争夺。",
+        "AI 助手市场开始出现“号码携转”式竞争。"
       ],
-      "significance": "谁先把“可持续追问的搜索”做成日常习惯，谁就更可能重写搜索入口本身。",
+      "significance": "一旦上下文可以搬家，AI 助手的竞争单位就从“单次回答”升级成“整段数字关系史”。",
       "sources": [
         {
-          "title": "Search Live is expanding globally",
-          "publication": "Google AI Blog",
-          "url": "https://blog.google/products/search/search-live-expanding-globally/"
-        },
-        {
-          "title": "Google’s live AI search assistant can handle conversations in dozens more languages",
+          "title": "Google is making it easier to import another AI’s memory into Gemini",
           "publication": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/929669/google-live-ai-search-assistant-languages"
-        }
-      ],
-      "i18n": {
-        "zh-CN": {
-          "category": "搜索入口",
-          "headline": "Google 把 Search Live 推向更多语言，搜索开始更像一场持续对话",
-          "deck": "Google 宣布 Search Live 全球扩展，并把实时语音搜索带到更多语言环境。搜索入口的下一轮竞争，越来越不是“谁给答案更快”，而是“谁能持续陪着用户把问题问完”。",
-          "kicker": "公司",
-          "byline": "编辑部整理",
-          "summary": [
-            "Google AI Blog 和 The Verge 都提到，Search Live 正扩大可用范围，并支持更多语言的实时对话式搜索体验。它不只是把搜索框换成麦克风，而是在把搜索变成一段可追问、可澄清、可继续延展的会话。",
-            "这类升级说明搜索产品正在摆脱传统结果页逻辑。真正有价值的部分不只是模型回答，而是连续交互能否稳、快、自然，以及能否在真实生活场景里承接语音输入。"
-          ],
-          "bullets": [
-            "Search Live 正在扩大语言和地区覆盖。",
-            "搜索交互从结果页转向连续会话。",
-            "语音搜索的体验质量开始变成产品胜负手。"
-          ],
-          "significance": "谁先把“可持续追问的搜索”做成日常习惯，谁就更可能重写搜索入口本身。",
-          "sources": [
-            {
-              "title": "Search Live is expanding globally",
-              "publication": "Google AI Blog",
-              "url": "https://blog.google/products/search/search-live-expanding-globally/"
-            },
-            {
-              "title": "Google’s live AI search assistant can handle conversations in dozens more languages",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929669/google-live-ai-search-assistant-languages"
-            }
-          ]
+          "url": "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history"
         },
-        "zh-TW": {
-          "category": "搜索入口",
-          "headline": "Google 把 Search Live 推向更多语言，搜索开始更像一场持续对话",
-          "deck": "Google 宣布 Search Live 全球扩展，并把实时语音搜索带到更多语言环境。搜索入口的下一轮竞争，越来越不是“谁给答案更快”，而是“谁能持续陪着用户把问题问完”。",
-          "kicker": "公司",
-          "byline": "編輯部整理",
-          "summary": [
-            "Google AI Blog 和 The Verge 都提到，Search Live 正扩大可用范围，并支持更多语言的实时对话式搜索体验。它不只是把搜索框换成麦克风，而是在把搜索变成一段可追问、可澄清、可继续延展的会话。",
-            "这类升级说明搜索产品正在摆脱传统结果页逻辑。真正有价值的部分不只是模型回答，而是连续交互能否稳、快、自然，以及能否在真实生活场景里承接语音输入。"
-          ],
-          "bullets": [
-            "Search Live 正在扩大语言和地区覆盖。",
-            "搜索交互从结果页转向连续会话。",
-            "语音搜索的体验质量开始变成产品胜负手。"
-          ],
-          "significance": "谁先把“可持续追问的搜索”做成日常习惯，谁就更可能重写搜索入口本身。",
-          "sources": [
-            {
-              "title": "Search Live is expanding globally",
-              "publication": "Google AI Blog",
-              "url": "https://blog.google/products/search/search-live-expanding-globally/"
-            },
-            {
-              "title": "Google’s live AI search assistant can handle conversations in dozens more languages",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929669/google-live-ai-search-assistant-languages"
-            }
-          ]
-        },
-        "en": {
-          "category": "Search Interface",
-          "headline": "Google is expanding Search Live into more languages, making search feel more like a continuous conversation",
-          "deck": "Google says Search Live is expanding globally and bringing live conversational search to many more languages. The next phase of search competition is less about a one-shot answer and more about who can stay with the user through the full question.",
-          "kicker": "Company",
-          "byline": "Signal Tide Desk",
-          "summary": [
-            "Google AI Blog and The Verge say Search Live is expanding globally with support for many more languages in a real-time conversational search mode. This is not just a microphone bolted onto search, but an attempt to make search iterative and dialogue-based.",
-            "The broader signal is that search products are moving away from the classic results-page model. What matters now is whether continuous interaction feels fast, stable, and natural enough to become a default behavior."
-          ],
-          "bullets": [
-            "Search Live is expanding across languages and regions.",
-            "Search interaction is moving from pages to continuous dialogue.",
-            "Voice-search experience quality is becoming a real product differentiator."
-          ],
-          "significance": "Whoever turns follow-up-friendly conversational search into a daily habit may end up redefining the search entry point itself.",
-          "sources": [
-            {
-              "title": "Search Live is expanding globally",
-              "publication": "Google AI Blog",
-              "url": "https://blog.google/products/search/search-live-expanding-globally/"
-            },
-            {
-              "title": "Google’s live AI search assistant can handle conversations in dozens more languages",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929669/google-live-ai-search-assistant-languages"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "google-gemini-chat-import",
-      "section": "company",
-      "category": "个人上下文",
-      "headline": "Google 允许把别家聊天记录导进 Gemini，AI 入口战开始抢“记忆迁移”",
-      "deck": "Gemini 开始支持从其他聊天机器人迁移对话和个人信息。AI 产品不只在比模型效果，也在比谁更容易接管你的历史上下文。",
-      "kicker": "公司",
-      "byline": "编辑部整理",
-      "publishedAt": "2026-03-26T23:47:56.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 3,
-      "tags": [
-        "Google",
-        "Gemini",
-        "Migration",
-        "Context"
-      ],
-      "summary": [
-        "TechCrunch 和 The Verge 报道称，Google 允许用户把其他聊天机器人中的历史对话和个人信息导入 Gemini。这个动作看上去像便利功能，但本质上是在降低用户切换成本，让 Gemini 更快获得“懂你”的起点。",
-        "AI 助手竞争越往后走，护城河越不只是模型参数，而是上下文、习惯和历史。谁能最顺滑地接管这些记忆，谁就更可能拿下长期使用。"
-      ],
-      "bullets": [
-        "Gemini 开始支持跨产品迁移聊天历史。",
-        "迁移功能本质上是在抢用户上下文。",
-        "AI 产品竞争开始更像“记忆归属战”。"
-      ],
-      "significance": "一旦“迁移上下文”成为标配，AI 助手的竞争逻辑会更接近操作系统而不是单次应用。",
-      "sources": [
         {
           "title": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
           "publication": "TechCrunch",
           "url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/"
-        },
-        {
-          "title": "Google is making it easier to import another AI’s memory into Gemini",
-          "publication": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/929811/google-gemini-import-memory"
         }
       ],
       "i18n": {
         "zh-CN": {
-          "category": "个人上下文",
-          "headline": "Google 允许把别家聊天记录导进 Gemini，AI 入口战开始抢“记忆迁移”",
-          "deck": "Gemini 开始支持从其他聊天机器人迁移对话和个人信息。AI 产品不只在比模型效果，也在比谁更容易接管你的历史上下文。",
+          "category": "助手迁移",
+          "headline": "Google 让 Gemini 直接接管别家聊天记录，AI 助手竞争开始从拉新改成“搬家”",
+          "deck": "Gemini 新增 Import Memory 与 Import Chat History，用户可以把其他聊天机器人的记忆和历史对话整体迁入。大模型产品的护城河，正在从首用体验转向上下文资产。",
           "kicker": "公司",
           "byline": "编辑部整理",
           "summary": [
-            "TechCrunch 和 The Verge 报道称，Google 允许用户把其他聊天机器人中的历史对话和个人信息导入 Gemini。这个动作看上去像便利功能，但本质上是在降低用户切换成本，让 Gemini 更快获得“懂你”的起点。",
-            "AI 助手竞争越往后走，护城河越不只是模型参数，而是上下文、习惯和历史。谁能最顺滑地接管这些记忆，谁就更可能拿下长期使用。"
+            "Google 本周在 Gemini 桌面端推出 Import Memory 与 Import Chat History。前者通过复制提示词，把其他助手已知的偏好、关系与个人背景转给 Gemini；后者则允许用户上传最多 5GB 的聊天导出压缩包，把旧对话直接导入继续使用。功能面向免费与付费消费者账号开放，但暂不覆盖企业、商业和未成年人账号。",
+            "这类功能看上去只是迁移工具，实则说明 AI 助手竞争已经进入第二阶段。真正让用户不愿离开的，不再只是模型本身，而是它积累下来的记忆、聊天史和个性化上下文。谁能降低迁移成本，谁就更有机会把“换助手”变成像“换邮箱客户端”一样低摩擦。"
           ],
           "bullets": [
-            "Gemini 开始支持跨产品迁移聊天历史。",
-            "迁移功能本质上是在抢用户上下文。",
-            "AI 产品竞争开始更像“记忆归属战”。"
+            "Gemini 可导入他家助手的记忆与聊天历史。",
+            "聊天上下文正被当作核心用户资产来争夺。",
+            "AI 助手市场开始出现“号码携转”式竞争。"
           ],
-          "significance": "一旦“迁移上下文”成为标配，AI 助手的竞争逻辑会更接近操作系统而不是单次应用。",
+          "significance": "一旦上下文可以搬家，AI 助手的竞争单位就从“单次回答”升级成“整段数字关系史”。",
           "sources": [
+            {
+              "title": "Google is making it easier to import another AI’s memory into Gemini",
+              "publication": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history"
+            },
             {
               "title": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
               "publication": "TechCrunch",
               "url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/"
-            },
-            {
-              "title": "Google is making it easier to import another AI’s memory into Gemini",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929811/google-gemini-import-memory"
             }
           ]
         },
         "zh-TW": {
-          "category": "个人上下文",
-          "headline": "Google 允许把别家聊天记录导进 Gemini，AI 入口战开始抢“记忆迁移”",
-          "deck": "Gemini 开始支持从其他聊天机器人迁移对话和个人信息。AI 产品不只在比模型效果，也在比谁更容易接管你的历史上下文。",
+          "category": "助手迁移",
+          "headline": "Google 让 Gemini 直接接管别家聊天记录，AI 助手竞争开始从拉新改成“搬家”",
+          "deck": "Gemini 新增 Import Memory 与 Import Chat History，用户可以把其他聊天机器人的记忆和历史对话整体迁入。大模型产品的护城河，正在从首用体验转向上下文资产。",
           "kicker": "公司",
           "byline": "編輯部整理",
           "summary": [
-            "TechCrunch 和 The Verge 报道称，Google 允许用户把其他聊天机器人中的历史对话和个人信息导入 Gemini。这个动作看上去像便利功能，但本质上是在降低用户切换成本，让 Gemini 更快获得“懂你”的起点。",
-            "AI 助手竞争越往后走，护城河越不只是模型参数，而是上下文、习惯和历史。谁能最顺滑地接管这些记忆，谁就更可能拿下长期使用。"
+            "Google 本周在 Gemini 桌面端推出 Import Memory 与 Import Chat History。前者通过复制提示词，把其他助手已知的偏好、关系与个人背景转给 Gemini；后者则允许用户上传最多 5GB 的聊天导出压缩包，把旧对话直接导入继续使用。功能面向免费与付费消费者账号开放，但暂不覆盖企业、商业和未成年人账号。",
+            "这类功能看上去只是迁移工具，实则说明 AI 助手竞争已经进入第二阶段。真正让用户不愿离开的，不再只是模型本身，而是它积累下来的记忆、聊天史和个性化上下文。谁能降低迁移成本，谁就更有机会把“换助手”变成像“换邮箱客户端”一样低摩擦。"
           ],
           "bullets": [
-            "Gemini 开始支持跨产品迁移聊天历史。",
-            "迁移功能本质上是在抢用户上下文。",
-            "AI 产品竞争开始更像“记忆归属战”。"
+            "Gemini 可导入他家助手的记忆与聊天历史。",
+            "聊天上下文正被当作核心用户资产来争夺。",
+            "AI 助手市场开始出现“号码携转”式竞争。"
           ],
-          "significance": "一旦“迁移上下文”成为标配，AI 助手的竞争逻辑会更接近操作系统而不是单次应用。",
+          "significance": "一旦上下文可以搬家，AI 助手的竞争单位就从“单次回答”升级成“整段数字关系史”。",
           "sources": [
+            {
+              "title": "Google is making it easier to import another AI’s memory into Gemini",
+              "publication": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history"
+            },
             {
               "title": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
               "publication": "TechCrunch",
               "url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/"
-            },
-            {
-              "title": "Google is making it easier to import another AI’s memory into Gemini",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929811/google-gemini-import-memory"
             }
           ]
         },
         "en": {
-          "category": "Personal Context",
-          "headline": "Google now lets users import other chatbot histories into Gemini, turning memory migration into an AI gateway battle",
-          "deck": "Gemini now supports importing chats and personal information from other chatbots. AI products are no longer competing only on model quality, but on how easily they can absorb a user’s existing context.",
+          "category": "Assistant Migration",
+          "headline": "Google is letting Gemini absorb another chatbot’s memory, turning AI assistant competition from user acquisition into migration",
+          "deck": "Gemini has added Import Memory and Import Chat History, allowing users to bring over personal context and old conversations from competing chatbots. The moat in consumer AI is shifting from onboarding to context portability.",
           "kicker": "Company",
           "byline": "Signal Tide Desk",
           "summary": [
-            "TechCrunch and The Verge report that Google now lets users import chat histories and personal information from other chatbots into Gemini. On the surface it is a convenience feature; underneath, it is a way to reduce switching cost and accelerate personalization.",
-            "As assistant competition matures, the moat is no longer only the model. It is the user’s history, habits, and accumulated context. Memory portability is becoming a strategic lever."
+            "Google rolled out Import Memory and Import Chat History for Gemini on desktop this week. The first helps users copy over personal preferences and context from another assistant, while the second allows up to 5GB of exported chat archives to be uploaded so users can continue old conversations inside Gemini. The features are available to consumer accounts but not yet to enterprise, business, or under-18 users.",
+            "On the surface, this is a migration feature. In reality, it signals the next phase of assistant competition. What keeps people locked in is no longer only model quality but the accumulated memory, preferences, and conversational history around that model. The company that reduces switching friction may gain an advantage that raw benchmark improvements alone cannot buy."
           ],
           "bullets": [
-            "Gemini now supports cross-product chat migration.",
-            "Migration tools are really a battle over user context.",
-            "Assistant competition is starting to look like a fight over memory ownership."
+            "Gemini can now import another assistant’s memory and chat history.",
+            "Conversation context is becoming a core user asset.",
+            "Consumer AI is starting to resemble number portability for assistants."
           ],
-          "significance": "Once context migration becomes standard, assistant competition starts to resemble operating-system competition more than one-off app choice.",
+          "significance": "Once context becomes portable, AI assistant competition shifts from single answers to entire digital relationship histories.",
           "sources": [
+            {
+              "title": "Google is making it easier to import another AI’s memory into Gemini",
+              "publication": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history"
+            },
             {
               "title": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
               "publication": "TechCrunch",
               "url": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/"
-            },
-            {
-              "title": "Google is making it easier to import another AI’s memory into Gemini",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929811/google-gemini-import-memory"
             }
           ]
         }
       }
     },
     {
-      "id": "apple-third-party-chatbots-siri",
+      "id": "apple-siri-third-party-chatbots",
       "section": "company",
       "category": "平台入口",
-      "headline": "Apple 据称准备让更多聊天机器人接入 Siri，系统入口开始走“多模型插槽”",
-      "deck": "Apple 被曝正在考虑让更多第三方 AI 聊天机器人接入 Siri。手机系统入口如果不再绑定单一模型，AI 分发格局也会跟着松动。",
+      "headline": "Apple 据报要把 Siri 开给更多聊天机器人，系统入口开始松手给模型厂商",
+      "deck": "据 Bloomberg 报道，iOS 27 将加入名为 Extensions 的新机制，让用户为 Siri 选择第三方聊天机器人。Apple 想做的，像是“默认路由层”，而不是只押注单一模型。",
       "kicker": "公司",
       "byline": "编辑部整理",
       "publishedAt": "2026-03-26T21:31:27.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
       "readingTime": 3,
       "tags": [
         "Apple",
         "Siri",
-        "Chatbots",
-        "Platform"
+        "Gemini",
+        "Claude"
       ],
       "summary": [
-        "The Verge 报道称，Apple 计划允许更多 AI 聊天机器人与 Siri 集成。这条消息的关键不只是 Siri 又多了几个合作伙伴，而是操作系统可能把 AI 助手从单一绑定关系改成可插拔接口。",
-        "如果平台层开始支持多模型切换，用户对某一家模型的锁定会下降，分发权就会重新回到系统厂商手里。对模型公司来说，能不能进系统入口，会比单纯的跑分更重要。"
+        "The Verge 援引 Bloomberg 称，Apple 正在为 iOS 27 准备一套名为 Extensions 的能力，允许用户把从 App Store 下载的第三方聊天机器人接入 Siri，包括 Gemini、Claude 等，而不再只有当前的 ChatGPT 联动。该机制也将服务于 Apple 传闻中的独立版新 Siri 应用。",
+        "这条消息的关键在于平台角色变化。Apple 不是急着证明自己哪一个模型最强，而是在争夺系统级分发入口：让 Siri 负责调度、调用与结果呈现，把不同模型都收进自己的设备壳里。未来手机厂商的 AI 优势，可能越来越像操作系统的兼容权，而不只是自研模型参数。"
       ],
       "bullets": [
-        "Apple 可能把 Siri 变成可插拔的 AI 接口。",
-        "系统层分发权可能重新变强。",
-        "模型公司未来更需要争夺 OS 入口位置。"
+        "Apple 可能让 Siri 接入 Gemini、Claude 等第三方模型。",
+        "新的 Extensions 机制意味着系统级 AI 入口进一步模块化。",
+        "手机平台正在争夺“调用谁”的总开关。"
       ],
-      "significance": "AI 时代真正稀缺的，可能不是模型本身，而是能触达用户默认动作的系统级入口。",
+      "significance": "如果系统入口握在平台手里，模型公司再强，也仍可能只是设备生态里的“可选引擎”。",
       "sources": [
         {
           "title": "Apple will reportedly allow other AI chatbots to plug into Siri",
           "publication": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/929786/apple-other-ai-chatbots-siri"
+          "url": "https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27"
         }
       ],
       "i18n": {
         "zh-CN": {
           "category": "平台入口",
-          "headline": "Apple 据称准备让更多聊天机器人接入 Siri，系统入口开始走“多模型插槽”",
-          "deck": "Apple 被曝正在考虑让更多第三方 AI 聊天机器人接入 Siri。手机系统入口如果不再绑定单一模型，AI 分发格局也会跟着松动。",
+          "headline": "Apple 据报要把 Siri 开给更多聊天机器人，系统入口开始松手给模型厂商",
+          "deck": "据 Bloomberg 报道，iOS 27 将加入名为 Extensions 的新机制，让用户为 Siri 选择第三方聊天机器人。Apple 想做的，像是“默认路由层”，而不是只押注单一模型。",
           "kicker": "公司",
           "byline": "编辑部整理",
           "summary": [
-            "The Verge 报道称，Apple 计划允许更多 AI 聊天机器人与 Siri 集成。这条消息的关键不只是 Siri 又多了几个合作伙伴，而是操作系统可能把 AI 助手从单一绑定关系改成可插拔接口。",
-            "如果平台层开始支持多模型切换，用户对某一家模型的锁定会下降，分发权就会重新回到系统厂商手里。对模型公司来说，能不能进系统入口，会比单纯的跑分更重要。"
+            "The Verge 援引 Bloomberg 称，Apple 正在为 iOS 27 准备一套名为 Extensions 的能力，允许用户把从 App Store 下载的第三方聊天机器人接入 Siri，包括 Gemini、Claude 等，而不再只有当前的 ChatGPT 联动。该机制也将服务于 Apple 传闻中的独立版新 Siri 应用。",
+            "这条消息的关键在于平台角色变化。Apple 不是急着证明自己哪一个模型最强，而是在争夺系统级分发入口：让 Siri 负责调度、调用与结果呈现，把不同模型都收进自己的设备壳里。未来手机厂商的 AI 优势，可能越来越像操作系统的兼容权，而不只是自研模型参数。"
           ],
           "bullets": [
-            "Apple 可能把 Siri 变成可插拔的 AI 接口。",
-            "系统层分发权可能重新变强。",
-            "模型公司未来更需要争夺 OS 入口位置。"
+            "Apple 可能让 Siri 接入 Gemini、Claude 等第三方模型。",
+            "新的 Extensions 机制意味着系统级 AI 入口进一步模块化。",
+            "手机平台正在争夺“调用谁”的总开关。"
           ],
-          "significance": "AI 时代真正稀缺的，可能不是模型本身，而是能触达用户默认动作的系统级入口。",
+          "significance": "如果系统入口握在平台手里，模型公司再强，也仍可能只是设备生态里的“可选引擎”。",
           "sources": [
             {
               "title": "Apple will reportedly allow other AI chatbots to plug into Siri",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929786/apple-other-ai-chatbots-siri"
+              "url": "https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27"
             }
           ]
         },
         "zh-TW": {
           "category": "平台入口",
-          "headline": "Apple 据称准备让更多聊天机器人接入 Siri，系统入口开始走“多模型插槽”",
-          "deck": "Apple 被曝正在考虑让更多第三方 AI 聊天机器人接入 Siri。手机系统入口如果不再绑定单一模型，AI 分发格局也会跟着松动。",
+          "headline": "Apple 据报要把 Siri 开给更多聊天机器人，系统入口开始松手给模型厂商",
+          "deck": "据 Bloomberg 报道，iOS 27 将加入名为 Extensions 的新机制，让用户为 Siri 选择第三方聊天机器人。Apple 想做的，像是“默认路由层”，而不是只押注单一模型。",
           "kicker": "公司",
           "byline": "編輯部整理",
           "summary": [
-            "The Verge 报道称，Apple 计划允许更多 AI 聊天机器人与 Siri 集成。这条消息的关键不只是 Siri 又多了几个合作伙伴，而是操作系统可能把 AI 助手从单一绑定关系改成可插拔接口。",
-            "如果平台层开始支持多模型切换，用户对某一家模型的锁定会下降，分发权就会重新回到系统厂商手里。对模型公司来说，能不能进系统入口，会比单纯的跑分更重要。"
+            "The Verge 援引 Bloomberg 称，Apple 正在为 iOS 27 准备一套名为 Extensions 的能力，允许用户把从 App Store 下载的第三方聊天机器人接入 Siri，包括 Gemini、Claude 等，而不再只有当前的 ChatGPT 联动。该机制也将服务于 Apple 传闻中的独立版新 Siri 应用。",
+            "这条消息的关键在于平台角色变化。Apple 不是急着证明自己哪一个模型最强，而是在争夺系统级分发入口：让 Siri 负责调度、调用与结果呈现，把不同模型都收进自己的设备壳里。未来手机厂商的 AI 优势，可能越来越像操作系统的兼容权，而不只是自研模型参数。"
           ],
           "bullets": [
-            "Apple 可能把 Siri 变成可插拔的 AI 接口。",
-            "系统层分发权可能重新变强。",
-            "模型公司未来更需要争夺 OS 入口位置。"
+            "Apple 可能让 Siri 接入 Gemini、Claude 等第三方模型。",
+            "新的 Extensions 机制意味着系统级 AI 入口进一步模块化。",
+            "手机平台正在争夺“调用谁”的总开关。"
           ],
-          "significance": "AI 时代真正稀缺的，可能不是模型本身，而是能触达用户默认动作的系统级入口。",
+          "significance": "如果系统入口握在平台手里，模型公司再强，也仍可能只是设备生态里的“可选引擎”。",
           "sources": [
             {
               "title": "Apple will reportedly allow other AI chatbots to plug into Siri",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929786/apple-other-ai-chatbots-siri"
+              "url": "https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27"
             }
           ]
         },
         "en": {
-          "category": "Platform Interface",
-          "headline": "Apple is reportedly preparing to let more chatbots plug into Siri, turning the system layer into a multi-model slot",
-          "deck": "Apple is reportedly considering allowing more third-party AI chatbots to plug into Siri. If the system layer no longer binds users to one model, the distribution map of AI products could loosen considerably.",
+          "category": "Platform Access",
+          "headline": "Apple is reportedly opening Siri to more chatbots, loosening system-level access for AI model providers",
+          "deck": "Bloomberg reports that iOS 27 will introduce a new Extensions system that lets users choose which third-party chatbot works with Siri. Apple appears to be positioning itself as the default routing layer rather than betting on a single model partner.",
           "kicker": "Company",
           "byline": "Signal Tide Desk",
           "summary": [
-            "The Verge reports that Apple plans to let more AI chatbots integrate with Siri. The real significance is not the partnership list itself, but the possibility that the operating system could expose AI as a pluggable layer instead of a single default service.",
-            "If the platform layer supports multi-model choice, user lock-in to any one chatbot weakens and distribution power shifts back toward the OS owner."
+            "The Verge, citing Bloomberg, reports that Apple is developing an Extensions feature for iOS 27 that would let users connect third-party chatbots such as Gemini or Claude to Siri, instead of relying only on the current ChatGPT integration. The system is also expected to work with Apple’s rumored standalone version of its upgraded Siri experience.",
+            "The deeper signal is a platform one. Apple is not necessarily trying to prove it has the single best model. It is trying to own orchestration at the system layer: Siri as the router, multiple models as interchangeable engines, and Apple devices as the shell that mediates the user experience. In that world, operating-system control can matter as much as raw model capability."
           ],
           "bullets": [
-            "Apple may turn Siri into a pluggable AI interface.",
-            "Distribution power at the system layer could strengthen again.",
-            "Model vendors may need OS placement as much as benchmark wins."
+            "Apple may let Siri connect to third-party models like Gemini and Claude.",
+            "The reported Extensions system would modularize system-level AI access.",
+            "Mobile platforms are competing to own the master switch for model invocation."
           ],
-          "significance": "In the AI era, the scarcest asset may not be the model itself but the system-level entry point attached to default user behavior.",
+          "significance": "If the system entry point remains controlled by the platform, even the strongest model makers may still be reduced to optional engines inside someone else’s ecosystem.",
           "sources": [
             {
               "title": "Apple will reportedly allow other AI chatbots to plug into Siri",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929786/apple-other-ai-chatbots-siri"
+              "url": "https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27"
             }
           ]
         }
       }
     },
     {
-      "id": "data-center-power-bills-senate",
+      "id": "bytedance-dreamina-seedance-capcut",
+      "section": "company",
+      "category": "视频生成",
+      "headline": "字节把 Dreamina Seedance 2.0 接进 CapCut，视频生成先在剪辑工作流里找落点",
+      "deck": "Dreamina Seedance 2.0 开始在 CapCut 分阶段上线，支持通过文本、图片和参考视频生成与编辑音视频内容。视频模型竞争正在从“演示惊艳”转向“创作者到底会不会天天用”。",
+      "kicker": "公司",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-26T15:25:13.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "ByteDance",
+        "CapCut",
+        "Dreamina",
+        "AI Video"
+      ],
+      "summary": [
+        "TechCrunch 报道称，ByteDance 已确认将 Dreamina Seedance 2.0 接入 CapCut，并率先在巴西、印尼、马来西亚、墨西哥、菲律宾、泰国和越南等市场分阶段上线。该模型可根据提示词、图片或参考视频生成与编辑内容，首发支持最长 15 秒、六种画幅，同时也会进入 Dreamina 与 Pippit 等平台。",
+        "值得注意的是，字节这次明显收紧了全球节奏。Seedance 2.0 此前曾因版权争议受到好莱坞批评，如今的产品化路径不是全面铺开，而是先落在 CapCut 这类已有创作工作流里，并同步加入真实人脸限制、知识产权拦截和隐形水印。视频 AI 的下一步竞争，正在变成谁能把能力、版权与平台分发一起捏稳。"
+      ],
+      "bullets": [
+        "Dreamina Seedance 2.0 已开始接入 CapCut。",
+        "首发市场有限，反映出版权与合规压力仍在。",
+        "字节把视频模型优先放进创作者现有工作流，而不是单独炫技。"
+      ],
+      "significance": "视频模型真正的商业价值，不在一条爆款演示，而在能否被剪辑、营销和分发链路长期吸收。",
+      "sources": [
+        {
+          "title": "ByteDance’s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
+          "publication": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/"
+        },
+        {
+          "title": "Dreamina Seedance 2.0",
+          "publication": "CapCut",
+          "url": "https://www.capcut.com/newsroom/dreamina-seedance-2"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "视频生成",
+          "headline": "字节把 Dreamina Seedance 2.0 接进 CapCut，视频生成先在剪辑工作流里找落点",
+          "deck": "Dreamina Seedance 2.0 开始在 CapCut 分阶段上线，支持通过文本、图片和参考视频生成与编辑音视频内容。视频模型竞争正在从“演示惊艳”转向“创作者到底会不会天天用”。",
+          "kicker": "公司",
+          "byline": "编辑部整理",
+          "summary": [
+            "TechCrunch 报道称，ByteDance 已确认将 Dreamina Seedance 2.0 接入 CapCut，并率先在巴西、印尼、马来西亚、墨西哥、菲律宾、泰国和越南等市场分阶段上线。该模型可根据提示词、图片或参考视频生成与编辑内容，首发支持最长 15 秒、六种画幅，同时也会进入 Dreamina 与 Pippit 等平台。",
+            "值得注意的是，字节这次明显收紧了全球节奏。Seedance 2.0 此前曾因版权争议受到好莱坞批评，如今的产品化路径不是全面铺开，而是先落在 CapCut 这类已有创作工作流里，并同步加入真实人脸限制、知识产权拦截和隐形水印。视频 AI 的下一步竞争，正在变成谁能把能力、版权与平台分发一起捏稳。"
+          ],
+          "bullets": [
+            "Dreamina Seedance 2.0 已开始接入 CapCut。",
+            "首发市场有限，反映出版权与合规压力仍在。",
+            "字节把视频模型优先放进创作者现有工作流，而不是单独炫技。"
+          ],
+          "significance": "视频模型真正的商业价值，不在一条爆款演示，而在能否被剪辑、营销和分发链路长期吸收。",
+          "sources": [
+            {
+              "title": "ByteDance’s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/"
+            },
+            {
+              "title": "Dreamina Seedance 2.0",
+              "publication": "CapCut",
+              "url": "https://www.capcut.com/newsroom/dreamina-seedance-2"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "视频生成",
+          "headline": "字节把 Dreamina Seedance 2.0 接进 CapCut，视频生成先在剪辑工作流里找落点",
+          "deck": "Dreamina Seedance 2.0 开始在 CapCut 分阶段上线，支持通过文本、图片和参考视频生成与编辑音视频内容。视频模型竞争正在从“演示惊艳”转向“创作者到底会不会天天用”。",
+          "kicker": "公司",
+          "byline": "編輯部整理",
+          "summary": [
+            "TechCrunch 报道称，ByteDance 已确认将 Dreamina Seedance 2.0 接入 CapCut，并率先在巴西、印尼、马来西亚、墨西哥、菲律宾、泰国和越南等市场分阶段上线。该模型可根据提示词、图片或参考视频生成与编辑内容，首发支持最长 15 秒、六种画幅，同时也会进入 Dreamina 与 Pippit 等平台。",
+            "值得注意的是，字节这次明显收紧了全球节奏。Seedance 2.0 此前曾因版权争议受到好莱坞批评，如今的产品化路径不是全面铺开，而是先落在 CapCut 这类已有创作工作流里，并同步加入真实人脸限制、知识产权拦截和隐形水印。视频 AI 的下一步竞争，正在变成谁能把能力、版权与平台分发一起捏稳。"
+          ],
+          "bullets": [
+            "Dreamina Seedance 2.0 已开始接入 CapCut。",
+            "首发市场有限，反映出版权与合规压力仍在。",
+            "字节把视频模型优先放进创作者现有工作流，而不是单独炫技。"
+          ],
+          "significance": "视频模型真正的商业价值，不在一条爆款演示，而在能否被剪辑、营销和分发链路长期吸收。",
+          "sources": [
+            {
+              "title": "ByteDance’s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/"
+            },
+            {
+              "title": "Dreamina Seedance 2.0",
+              "publication": "CapCut",
+              "url": "https://www.capcut.com/newsroom/dreamina-seedance-2"
+            }
+          ]
+        },
+        "en": {
+          "category": "Video Generation",
+          "headline": "ByteDance is bringing Dreamina Seedance 2.0 into CapCut, anchoring video generation inside the editing workflow",
+          "deck": "Dreamina Seedance 2.0 is rolling out in phases inside CapCut, allowing creators to draft and edit audio-video content from prompts, images, and reference clips. The video-model race is moving from dazzling demos to whether creators will use the tool every day.",
+          "kicker": "Company",
+          "byline": "Signal Tide Desk",
+          "summary": [
+            "TechCrunch reports that ByteDance has begun rolling out Dreamina Seedance 2.0 inside CapCut, starting with a phased launch in markets including Brazil, Indonesia, Malaysia, Mexico, the Philippines, Thailand, and Vietnam. The model can generate or edit content from prompts, images, and reference videos, with launch support for clips up to 15 seconds across six aspect ratios. ByteDance is also extending it to Dreamina and Pippit.",
+            "The rollout matters partly because it is cautious. Seedance 2.0 previously drew criticism from Hollywood over copyright concerns, and ByteDance is now productizing it through an existing creator workflow rather than a broad open launch. Safety restrictions around real faces, IP blocking, and invisible watermarking suggest the next phase of video AI competition is about balancing capability, rights management, and distribution all at once."
+          ],
+          "bullets": [
+            "Dreamina Seedance 2.0 is now entering CapCut.",
+            "The limited launch footprint reflects ongoing copyright and compliance pressure.",
+            "ByteDance is prioritizing creator workflow integration over standalone spectacle."
+          ],
+          "significance": "The real commercial value of video models lies not in a viral demo but in whether editing, marketing, and distribution workflows can absorb them for the long term.",
+          "sources": [
+            {
+              "title": "ByteDance’s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/"
+            },
+            {
+              "title": "Dreamina Seedance 2.0",
+              "publication": "CapCut",
+              "url": "https://www.capcut.com/newsroom/dreamina-seedance-2"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "senate-data-center-energy-reporting",
       "section": "policy",
-      "category": "能源监管",
-      "headline": "参议院盯上数据中心电费，AI 基建第一次被要求把账单摊开",
-      "deck": "美国参议员要求调查大型数据中心真实用电和成本转嫁情况。AI 基建越重，电网、账单和公众负担就越难再被当成后台问题。",
+      "category": "算力透明度",
+      "headline": "美国参议员要求数据中心公开电力账单，AI 算力扩张开始被当公共设施来审",
+      "deck": "Warren 与 Hawley 致函美国能源信息署，要求建立数据中心年度强制能耗披露制度。AI 的成本争议，正在从云账单转向电网规划与公众监督。",
       "kicker": "政策",
       "byline": "编辑部整理",
       "publishedAt": "2026-03-26T18:23:31.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
       "readingTime": 3,
       "tags": [
         "Data Centers",
         "Energy",
-        "Senate",
-        "Infrastructure"
+        "Transparency",
+        "Senate"
       ],
       "summary": [
-        "TechCrunch 和 The Verge 报道称，美国参议员正在推动了解大型数据中心到底消耗了多少电，以及电网扩容与成本是否被转嫁给普通用户。随着 AI 机房负载不断上升，电力问题正在从产业配套变成公共政策问题。",
-        "这类追问意味着，AI 的基础设施扩张不再只是企业和公用事业之间的谈判。只要账单会影响居民和地方财政，数据中心就会进入更严格的政治视野。"
+        "据 The Verge 与 TechCrunch 报道，参议员 Elizabeth Warren 与 Josh Hawley 已致函美国能源信息署，要求建立覆盖全国数据中心的年度强制能耗披露制度，并把结果向公众公开。就在前一天，EIA 仅宣布了面向德州、华盛顿州、北弗吉尼亚和华盛顿特区的自愿试点，这与两位议员希望的“全国、强制、可追责”还有明显差距。",
+        "这条政策新闻的重要性在于，它不再把算力当成企业内部指标，而是当成会影响电价、并网、扩建许可和地区规划的公共变量。随着 AI 数据中心越来越像大型工业设施，围绕模型的监管也会越来越多地改写成围绕电、地和基础设施的监管。"
       ],
       "bullets": [
-        "参议员要求看清数据中心真实用电账。",
-        "AI 扩张正把电费问题推向公共视野。",
-        "数据中心开始被视作政治基础设施。"
+        "美国议员要求建立全国性、强制性数据中心能耗披露制度。",
+        "EIA 当前仅启动有限范围的自愿试点。",
+        "AI 监管正向电网和基础设施透明度延伸。"
       ],
-      "significance": "当 AI 的扩张开始要向公众解释电从哪来、钱由谁出，算力竞争就进入了真正的重资产时代。",
+      "significance": "当数据中心必须像公共设施一样解释自己用了多少电，算力扩张就再也不是纯市场行为。",
       "sources": [
         {
           "title": "Data centers get ready — the Senate wants to see your power bills",
@@ -618,26 +618,26 @@
         {
           "title": "Senators are pushing to find out how much electricity data centers actually use",
           "publication": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/929624/data-centers-electricity-use-senate"
+          "url": "https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers"
         }
       ],
       "i18n": {
         "zh-CN": {
-          "category": "能源监管",
-          "headline": "参议院盯上数据中心电费，AI 基建第一次被要求把账单摊开",
-          "deck": "美国参议员要求调查大型数据中心真实用电和成本转嫁情况。AI 基建越重，电网、账单和公众负担就越难再被当成后台问题。",
+          "category": "算力透明度",
+          "headline": "美国参议员要求数据中心公开电力账单，AI 算力扩张开始被当公共设施来审",
+          "deck": "Warren 与 Hawley 致函美国能源信息署，要求建立数据中心年度强制能耗披露制度。AI 的成本争议，正在从云账单转向电网规划与公众监督。",
           "kicker": "政策",
           "byline": "编辑部整理",
           "summary": [
-            "TechCrunch 和 The Verge 报道称，美国参议员正在推动了解大型数据中心到底消耗了多少电，以及电网扩容与成本是否被转嫁给普通用户。随着 AI 机房负载不断上升，电力问题正在从产业配套变成公共政策问题。",
-            "这类追问意味着，AI 的基础设施扩张不再只是企业和公用事业之间的谈判。只要账单会影响居民和地方财政，数据中心就会进入更严格的政治视野。"
+            "据 The Verge 与 TechCrunch 报道，参议员 Elizabeth Warren 与 Josh Hawley 已致函美国能源信息署，要求建立覆盖全国数据中心的年度强制能耗披露制度，并把结果向公众公开。就在前一天，EIA 仅宣布了面向德州、华盛顿州、北弗吉尼亚和华盛顿特区的自愿试点，这与两位议员希望的“全国、强制、可追责”还有明显差距。",
+            "这条政策新闻的重要性在于，它不再把算力当成企业内部指标，而是当成会影响电价、并网、扩建许可和地区规划的公共变量。随着 AI 数据中心越来越像大型工业设施，围绕模型的监管也会越来越多地改写成围绕电、地和基础设施的监管。"
           ],
           "bullets": [
-            "参议员要求看清数据中心真实用电账。",
-            "AI 扩张正把电费问题推向公共视野。",
-            "数据中心开始被视作政治基础设施。"
+            "美国议员要求建立全国性、强制性数据中心能耗披露制度。",
+            "EIA 当前仅启动有限范围的自愿试点。",
+            "AI 监管正向电网和基础设施透明度延伸。"
           ],
-          "significance": "当 AI 的扩张开始要向公众解释电从哪来、钱由谁出，算力竞争就进入了真正的重资产时代。",
+          "significance": "当数据中心必须像公共设施一样解释自己用了多少电，算力扩张就再也不是纯市场行为。",
           "sources": [
             {
               "title": "Data centers get ready — the Senate wants to see your power bills",
@@ -647,26 +647,26 @@
             {
               "title": "Senators are pushing to find out how much electricity data centers actually use",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929624/data-centers-electricity-use-senate"
+              "url": "https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers"
             }
           ]
         },
         "zh-TW": {
-          "category": "能源监管",
-          "headline": "参议院盯上数据中心电费，AI 基建第一次被要求把账单摊开",
-          "deck": "美国参议员要求调查大型数据中心真实用电和成本转嫁情况。AI 基建越重，电网、账单和公众负担就越难再被当成后台问题。",
+          "category": "算力透明度",
+          "headline": "美国参议员要求数据中心公开电力账单，AI 算力扩张开始被当公共设施来审",
+          "deck": "Warren 与 Hawley 致函美国能源信息署，要求建立数据中心年度强制能耗披露制度。AI 的成本争议，正在从云账单转向电网规划与公众监督。",
           "kicker": "政策",
           "byline": "編輯部整理",
           "summary": [
-            "TechCrunch 和 The Verge 报道称，美国参议员正在推动了解大型数据中心到底消耗了多少电，以及电网扩容与成本是否被转嫁给普通用户。随着 AI 机房负载不断上升，电力问题正在从产业配套变成公共政策问题。",
-            "这类追问意味着，AI 的基础设施扩张不再只是企业和公用事业之间的谈判。只要账单会影响居民和地方财政，数据中心就会进入更严格的政治视野。"
+            "据 The Verge 与 TechCrunch 报道，参议员 Elizabeth Warren 与 Josh Hawley 已致函美国能源信息署，要求建立覆盖全国数据中心的年度强制能耗披露制度，并把结果向公众公开。就在前一天，EIA 仅宣布了面向德州、华盛顿州、北弗吉尼亚和华盛顿特区的自愿试点，这与两位议员希望的“全国、强制、可追责”还有明显差距。",
+            "这条政策新闻的重要性在于，它不再把算力当成企业内部指标，而是当成会影响电价、并网、扩建许可和地区规划的公共变量。随着 AI 数据中心越来越像大型工业设施，围绕模型的监管也会越来越多地改写成围绕电、地和基础设施的监管。"
           ],
           "bullets": [
-            "参议员要求看清数据中心真实用电账。",
-            "AI 扩张正把电费问题推向公共视野。",
-            "数据中心开始被视作政治基础设施。"
+            "美国议员要求建立全国性、强制性数据中心能耗披露制度。",
+            "EIA 当前仅启动有限范围的自愿试点。",
+            "AI 监管正向电网和基础设施透明度延伸。"
           ],
-          "significance": "当 AI 的扩张开始要向公众解释电从哪来、钱由谁出，算力竞争就进入了真正的重资产时代。",
+          "significance": "当数据中心必须像公共设施一样解释自己用了多少电，算力扩张就再也不是纯市场行为。",
           "sources": [
             {
               "title": "Data centers get ready — the Senate wants to see your power bills",
@@ -676,26 +676,26 @@
             {
               "title": "Senators are pushing to find out how much electricity data centers actually use",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929624/data-centers-electricity-use-senate"
+              "url": "https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers"
             }
           ]
         },
         "en": {
-          "category": "Energy Oversight",
-          "headline": "The Senate wants to see data-center power bills, forcing AI infrastructure to show its receipts",
-          "deck": "US senators want a closer look at how much electricity large data centers use and how costs are passed on. As AI infrastructure grows heavier, grids, bills, and public burden can no longer be treated as background concerns.",
+          "category": "Compute Transparency",
+          "headline": "US senators want data centers to disclose power use, treating AI compute expansion more like public infrastructure",
+          "deck": "Elizabeth Warren and Josh Hawley are urging the US Energy Information Administration to require annual data-center energy disclosures. The politics of AI cost are moving from cloud bills to grid planning and public oversight.",
           "kicker": "Policy",
           "byline": "Signal Tide Desk",
           "summary": [
-            "TechCrunch and The Verge report that US senators are pushing to quantify how much electricity data centers actually consume and whether related costs are being shifted onto the public. AI infrastructure is turning energy from a technical issue into a policy issue.",
-            "Once power demand affects household bills and local politics, data centers stop being a private operational matter and start becoming an object of public oversight."
+            "According to The Verge and TechCrunch, senators Elizabeth Warren and Josh Hawley have asked the US Energy Information Administration to create a nationwide mandatory annual disclosure regime for data-center electricity use and publish the results. That goes well beyond the EIA’s newly announced voluntary pilot limited to Texas, Washington state, Northern Virginia, and Washington, DC.",
+            "The bigger story is that compute is no longer being treated as a purely internal corporate metric. It is becoming a public variable that affects power prices, grid planning, permitting, and local politics. As AI data centers start to resemble heavy industrial infrastructure, regulation of models increasingly turns into regulation of electricity, land, and build-out."
           ],
           "bullets": [
-            "Senators want a clearer accounting of data-center electricity use.",
-            "AI expansion is pushing power costs into public view.",
-            "Data centers are becoming political infrastructure."
+            "US lawmakers are pushing for nationwide mandatory energy disclosures for data centers.",
+            "The EIA currently has only a limited voluntary pilot.",
+            "AI oversight is expanding into grid and infrastructure transparency."
           ],
-          "significance": "Once AI expansion has to explain where the power comes from and who pays, the compute race has fully entered its heavy-infrastructure era.",
+          "significance": "Once data centers must explain their power use like public infrastructure, compute expansion stops being a purely private market activity.",
           "sources": [
             {
               "title": "Data centers get ready — the Senate wants to see your power bills",
@@ -705,168 +705,168 @@
             {
               "title": "Senators are pushing to find out how much electricity data centers actually use",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929624/data-centers-electricity-use-senate"
+              "url": "https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers"
             }
           ]
         }
       }
     },
     {
-      "id": "david-sacks-steps-down",
+      "id": "david-sacks-steps-down-ai-czar",
       "section": "policy",
-      "category": "白宫 AI 政策",
-      "headline": "David Sacks 退下 AI 沙皇位置，白宫 AI 协调权又回到流动状态",
-      "deck": "David Sacks 不再担任白宫 AI 与加密事务负责人。美国 AI 政策并不只看法案，还看谁在行政系统里实际握着协调权。",
+      "category": "科技政治",
+      "headline": "David Sacks 结束白宫 AI 沙皇身份，硅谷直连华府的窗口先缩了一截",
+      "deck": "由于特殊政府雇员任期耗尽，David Sacks 不再担任白宫 AI 与加密特别顾问，转而联席主持 PCAST。特朗普政府的 AI 政策，少了一个最激进也最具争议的硅谷代言人。",
       "kicker": "政策",
       "byline": "编辑部整理",
       "publishedAt": "2026-03-26T23:40:22.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
       "readingTime": 3,
       "tags": [
-        "White House",
         "David Sacks",
+        "White House",
         "AI Policy",
-        "Governance"
+        "PCAST"
       ],
       "summary": [
-        "TechCrunch 和 The Verge 都确认，David Sacks 已不再担任白宫 AI 与加密事务负责人。这类人事变化表面上像政治新闻，但对 AI 行业来说，它直接影响谁来推动跨部门协调、对外表态和优先级排序。",
-        "行政系统里的 AI 权力从来不只是写在公告里。只要协调位置变动，监管信号、行业关系和政策节奏都可能随之调整。"
+        "The Verge 报道称，David Sacks 本周确认自己已不再是特殊政府雇员，因此也不再担任特朗普政府的 AI 与加密特别顾问。接下来，他将以 PCAST 联席主席身份继续向总统与白宫提供更广泛的科技政策建议，但不再直接协调联邦机构层面的工作。",
+        "Sacks 的离任之所以值得看，不只是人事变动，而是政策风格可能随之转弯。过去一年，Sacks 几乎是硅谷在白宫内部最强势的代言人之一，他推动的联邦抢权、州法抢先、文化战化叙事都极具争议。职位退场后，白宫 AI 政策未必立刻温和，但“由单一科技资本人物主导节奏”的阶段，至少暂时松动了。"
       ],
       "bullets": [
-        "David Sacks 已离开白宫 AI 协调岗位。",
-        "人事变动会直接影响政策节奏与行业预期。",
-        "AI 政策的执行权仍高度依赖行政协调。"
+        "David Sacks 因任期限制离开白宫 AI 与加密顾问职位。",
+        "他将转任 PCAST 联席主席，角色更偏咨询而非执行协调。",
+        "白宫 AI 政策可能失去一个高度个人化的推动中心。"
       ],
-      "significance": "AI 治理不只是规则文本，还是谁有权把分散部门拧成一条线。",
+      "significance": "AI 治理不只看法案文本，也看是谁在写节奏；Sacks 退场后，华府与硅谷的接口方式可能重新洗牌。",
       "sources": [
-        {
-          "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
-          "publication": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/27/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/"
-        },
         {
           "title": "David Sacks is no longer the White House AI and Crypto Czar",
           "publication": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/929870/david-sacks-white-house-ai-crypto-czar"
+          "url": "https://www.theverge.com/policy/902140/david-sacks-out-ai-crypto-czar"
+        },
+        {
+          "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
+          "publication": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/"
         }
       ],
       "i18n": {
         "zh-CN": {
-          "category": "白宫 AI 政策",
-          "headline": "David Sacks 退下 AI 沙皇位置，白宫 AI 协调权又回到流动状态",
-          "deck": "David Sacks 不再担任白宫 AI 与加密事务负责人。美国 AI 政策并不只看法案，还看谁在行政系统里实际握着协调权。",
+          "category": "科技政治",
+          "headline": "David Sacks 结束白宫 AI 沙皇身份，硅谷直连华府的窗口先缩了一截",
+          "deck": "由于特殊政府雇员任期耗尽，David Sacks 不再担任白宫 AI 与加密特别顾问，转而联席主持 PCAST。特朗普政府的 AI 政策，少了一个最激进也最具争议的硅谷代言人。",
           "kicker": "政策",
           "byline": "编辑部整理",
           "summary": [
-            "TechCrunch 和 The Verge 都确认，David Sacks 已不再担任白宫 AI 与加密事务负责人。这类人事变化表面上像政治新闻，但对 AI 行业来说，它直接影响谁来推动跨部门协调、对外表态和优先级排序。",
-            "行政系统里的 AI 权力从来不只是写在公告里。只要协调位置变动，监管信号、行业关系和政策节奏都可能随之调整。"
+            "The Verge 报道称，David Sacks 本周确认自己已不再是特殊政府雇员，因此也不再担任特朗普政府的 AI 与加密特别顾问。接下来，他将以 PCAST 联席主席身份继续向总统与白宫提供更广泛的科技政策建议，但不再直接协调联邦机构层面的工作。",
+            "Sacks 的离任之所以值得看，不只是人事变动，而是政策风格可能随之转弯。过去一年，Sacks 几乎是硅谷在白宫内部最强势的代言人之一，他推动的联邦抢权、州法抢先、文化战化叙事都极具争议。职位退场后，白宫 AI 政策未必立刻温和，但“由单一科技资本人物主导节奏”的阶段，至少暂时松动了。"
           ],
           "bullets": [
-            "David Sacks 已离开白宫 AI 协调岗位。",
-            "人事变动会直接影响政策节奏与行业预期。",
-            "AI 政策的执行权仍高度依赖行政协调。"
+            "David Sacks 因任期限制离开白宫 AI 与加密顾问职位。",
+            "他将转任 PCAST 联席主席，角色更偏咨询而非执行协调。",
+            "白宫 AI 政策可能失去一个高度个人化的推动中心。"
           ],
-          "significance": "AI 治理不只是规则文本，还是谁有权把分散部门拧成一条线。",
+          "significance": "AI 治理不只看法案文本，也看是谁在写节奏；Sacks 退场后，华府与硅谷的接口方式可能重新洗牌。",
           "sources": [
-            {
-              "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
-              "publication": "TechCrunch",
-              "url": "https://techcrunch.com/2026/03/27/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/"
-            },
             {
               "title": "David Sacks is no longer the White House AI and Crypto Czar",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929870/david-sacks-white-house-ai-crypto-czar"
+              "url": "https://www.theverge.com/policy/902140/david-sacks-out-ai-crypto-czar"
+            },
+            {
+              "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/"
             }
           ]
         },
         "zh-TW": {
-          "category": "白宫 AI 政策",
-          "headline": "David Sacks 退下 AI 沙皇位置，白宫 AI 协调权又回到流动状态",
-          "deck": "David Sacks 不再担任白宫 AI 与加密事务负责人。美国 AI 政策并不只看法案，还看谁在行政系统里实际握着协调权。",
+          "category": "科技政治",
+          "headline": "David Sacks 结束白宫 AI 沙皇身份，硅谷直连华府的窗口先缩了一截",
+          "deck": "由于特殊政府雇员任期耗尽，David Sacks 不再担任白宫 AI 与加密特别顾问，转而联席主持 PCAST。特朗普政府的 AI 政策，少了一个最激进也最具争议的硅谷代言人。",
           "kicker": "政策",
           "byline": "編輯部整理",
           "summary": [
-            "TechCrunch 和 The Verge 都确认，David Sacks 已不再担任白宫 AI 与加密事务负责人。这类人事变化表面上像政治新闻，但对 AI 行业来说，它直接影响谁来推动跨部门协调、对外表态和优先级排序。",
-            "行政系统里的 AI 权力从来不只是写在公告里。只要协调位置变动，监管信号、行业关系和政策节奏都可能随之调整。"
+            "The Verge 报道称，David Sacks 本周确认自己已不再是特殊政府雇员，因此也不再担任特朗普政府的 AI 与加密特别顾问。接下来，他将以 PCAST 联席主席身份继续向总统与白宫提供更广泛的科技政策建议，但不再直接协调联邦机构层面的工作。",
+            "Sacks 的离任之所以值得看，不只是人事变动，而是政策风格可能随之转弯。过去一年，Sacks 几乎是硅谷在白宫内部最强势的代言人之一，他推动的联邦抢权、州法抢先、文化战化叙事都极具争议。职位退场后，白宫 AI 政策未必立刻温和，但“由单一科技资本人物主导节奏”的阶段，至少暂时松动了。"
           ],
           "bullets": [
-            "David Sacks 已离开白宫 AI 协调岗位。",
-            "人事变动会直接影响政策节奏与行业预期。",
-            "AI 政策的执行权仍高度依赖行政协调。"
+            "David Sacks 因任期限制离开白宫 AI 与加密顾问职位。",
+            "他将转任 PCAST 联席主席，角色更偏咨询而非执行协调。",
+            "白宫 AI 政策可能失去一个高度个人化的推动中心。"
           ],
-          "significance": "AI 治理不只是规则文本，还是谁有权把分散部门拧成一条线。",
+          "significance": "AI 治理不只看法案文本，也看是谁在写节奏；Sacks 退场后，华府与硅谷的接口方式可能重新洗牌。",
           "sources": [
-            {
-              "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
-              "publication": "TechCrunch",
-              "url": "https://techcrunch.com/2026/03/27/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/"
-            },
             {
               "title": "David Sacks is no longer the White House AI and Crypto Czar",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929870/david-sacks-white-house-ai-crypto-czar"
+              "url": "https://www.theverge.com/policy/902140/david-sacks-out-ai-crypto-czar"
+            },
+            {
+              "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/"
             }
           ]
         },
         "en": {
-          "category": "White House AI Policy",
-          "headline": "David Sacks is stepping down as AI czar, leaving White House AI coordination in flux again",
-          "deck": "David Sacks is no longer serving as the White House AI and crypto czar. US AI policy is shaped not only by legislation, but by who actually holds the coordination power inside the executive system.",
+          "category": "Tech Politics",
+          "headline": "David Sacks is out as White House AI czar, narrowing one of Silicon Valley’s most direct channels into Washington",
+          "deck": "David Sacks is no longer the White House’s special adviser on AI and crypto after exhausting the term limits on his special government employee status, and will instead co-chair PCAST. The administration’s AI agenda loses one of its most aggressive and controversial Silicon Valley champions.",
           "kicker": "Policy",
           "byline": "Signal Tide Desk",
           "summary": [
-            "TechCrunch and The Verge both report that David Sacks is no longer serving as the White House AI and crypto czar. For the AI industry, this is not just a personnel change but a change in who shapes cross-agency coordination and policy tone.",
-            "Administrative power around AI is often informal and personality-driven. When that coordinating role shifts, signals to industry can shift with it."
+            "The Verge reports that David Sacks confirmed he is no longer a special government employee, meaning he is no longer serving as the Trump administration’s special adviser on AI and crypto. He says he will now focus on co-chairing PCAST, advising the president and White House more broadly without directly coordinating federal agencies.",
+            "The importance of the move lies in what it may do to policy style. Over the past year, Sacks was one of Silicon Valley’s most forceful advocates inside the White House, pushing aggressive preemption and culture-war-inflected technology politics. His exit does not automatically soften AI policy, but it does weaken a phase in which one high-profile tech investor had unusually direct influence over the agenda."
           ],
           "bullets": [
-            "David Sacks has left the White House AI coordination role.",
-            "Personnel shifts can change policy rhythm and industry expectations.",
-            "AI governance still depends heavily on executive coordination."
+            "David Sacks has left the White House AI and crypto adviser role due to SGE term limits.",
+            "He will move into a more advisory PCAST co-chair position.",
+            "The administration may lose one of its most personalized drivers of AI policy."
           ],
-          "significance": "AI governance is not only about formal rules, but about who has the authority to align fragmented institutions.",
+          "significance": "AI governance is shaped not only by formal rules but by who sets the tempo; with Sacks out, the Washington–Silicon Valley interface may be reconfigured.",
           "sources": [
-            {
-              "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
-              "publication": "TechCrunch",
-              "url": "https://techcrunch.com/2026/03/27/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/"
-            },
             {
               "title": "David Sacks is no longer the White House AI and Crypto Czar",
               "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929870/david-sacks-white-house-ai-crypto-czar"
+              "url": "https://www.theverge.com/policy/902140/david-sacks-out-ai-crypto-czar"
+            },
+            {
+              "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/"
             }
           ]
         }
       }
     },
     {
-      "id": "cohere-open-voice-transcription",
+      "id": "cohere-transcribe-open-source",
       "section": "tools",
-      "category": "开源语音",
-      "headline": "Cohere 开源转写语音模型，语音基础能力继续往可替换层下沉",
-      "deck": "Cohere 发布面向转写的开源语音模型。语音 AI 的基础能力越来越像公共部件，真正的差异化开始往系统集成和场景体验上移。",
+      "category": "语音转写",
+      "headline": "Cohere 开源转写模型 Transcribe，语音基础层开始往“可自托管”卷",
+      "deck": "Cohere 发布 20 亿参数的自动语音识别模型 Transcribe，主打可在消费级 GPU 自托管、支持 14 种语言，并计划接入其企业编排平台 North。语音赛道又多了一种“够强且便宜”的基础件。",
       "kicker": "工具",
       "byline": "编辑部整理",
       "publishedAt": "2026-03-26T13:30:00.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
       "readingTime": 3,
       "tags": [
         "Cohere",
+        "ASR",
         "Open Source",
-        "Transcription",
-        "Voice"
+        "Speech"
       ],
       "summary": [
-        "TechCrunch 报道称，Cohere 推出了专门用于转写的开源语音模型。它不是一个花哨的全能助手，而是更底层、更实用的语音基础件，适合被开发者直接塞进工作流和产品里。",
-        "这类项目值得看，因为它说明语音能力正在像 OCR、翻译或嵌入一样，被当成标准化组件对待。未来真正的竞争会更少发生在“有没有语音模型”，更多发生在系统怎么接、体验怎么做。"
+        "TechCrunch 报道称，Cohere 本周发布了首个语音模型 Transcribe。这是一个 20 亿参数的开源自动语音识别模型，可用于会议记录、听写和语音分析，支持英语、中文、日语、韩语、阿拉伯语等 14 种语言，并面向消费级 GPU 自托管场景优化。Cohere 还表示，该模型将接入其企业代理编排平台 North，并通过 API 免费提供。",
+        "它的竞争点不只是指标好看，而是部署门槛低。Cohere 声称 Transcribe 在 Hugging Face Open ASR 榜单上拿到 5.42 的平均词错误率，同时具备高吞吐。这种产品意味着语音功能会越来越像通用模块：会议纪要、客服、电话助手和企业语音工作流，不一定要依赖昂贵闭源服务才能做。"
       ],
       "bullets": [
-        "Cohere 选择先开源更基础的转写能力。",
-        "语音模型正逐步标准化为可替换组件。",
-        "竞争焦点在向系统集成层迁移。"
+        "Transcribe 是一个 20 亿参数、可自托管的开源 ASR 模型。",
+        "支持 14 种语言，并面向企业编排平台 North 集成。",
+        "语音能力正在从成品应用回落为通用基础层。"
       ],
-      "significance": "当语音底座越来越开源，产品胜负就会更取决于谁把它接进真实业务流程。",
+      "significance": "当语音转写足够轻、够开源、可私有部署，企业会更愿意把语音输入接到更多内部流程里。",
       "sources": [
         {
           "title": "Cohere launches an open source voice model specifically for transcription",
@@ -876,21 +876,21 @@
       ],
       "i18n": {
         "zh-CN": {
-          "category": "开源语音",
-          "headline": "Cohere 开源转写语音模型，语音基础能力继续往可替换层下沉",
-          "deck": "Cohere 发布面向转写的开源语音模型。语音 AI 的基础能力越来越像公共部件，真正的差异化开始往系统集成和场景体验上移。",
+          "category": "语音转写",
+          "headline": "Cohere 开源转写模型 Transcribe，语音基础层开始往“可自托管”卷",
+          "deck": "Cohere 发布 20 亿参数的自动语音识别模型 Transcribe，主打可在消费级 GPU 自托管、支持 14 种语言，并计划接入其企业编排平台 North。语音赛道又多了一种“够强且便宜”的基础件。",
           "kicker": "工具",
           "byline": "编辑部整理",
           "summary": [
-            "TechCrunch 报道称，Cohere 推出了专门用于转写的开源语音模型。它不是一个花哨的全能助手，而是更底层、更实用的语音基础件，适合被开发者直接塞进工作流和产品里。",
-            "这类项目值得看，因为它说明语音能力正在像 OCR、翻译或嵌入一样，被当成标准化组件对待。未来真正的竞争会更少发生在“有没有语音模型”，更多发生在系统怎么接、体验怎么做。"
+            "TechCrunch 报道称，Cohere 本周发布了首个语音模型 Transcribe。这是一个 20 亿参数的开源自动语音识别模型，可用于会议记录、听写和语音分析，支持英语、中文、日语、韩语、阿拉伯语等 14 种语言，并面向消费级 GPU 自托管场景优化。Cohere 还表示，该模型将接入其企业代理编排平台 North，并通过 API 免费提供。",
+            "它的竞争点不只是指标好看，而是部署门槛低。Cohere 声称 Transcribe 在 Hugging Face Open ASR 榜单上拿到 5.42 的平均词错误率，同时具备高吞吐。这种产品意味着语音功能会越来越像通用模块：会议纪要、客服、电话助手和企业语音工作流，不一定要依赖昂贵闭源服务才能做。"
           ],
           "bullets": [
-            "Cohere 选择先开源更基础的转写能力。",
-            "语音模型正逐步标准化为可替换组件。",
-            "竞争焦点在向系统集成层迁移。"
+            "Transcribe 是一个 20 亿参数、可自托管的开源 ASR 模型。",
+            "支持 14 种语言，并面向企业编排平台 North 集成。",
+            "语音能力正在从成品应用回落为通用基础层。"
           ],
-          "significance": "当语音底座越来越开源，产品胜负就会更取决于谁把它接进真实业务流程。",
+          "significance": "当语音转写足够轻、够开源、可私有部署，企业会更愿意把语音输入接到更多内部流程里。",
           "sources": [
             {
               "title": "Cohere launches an open source voice model specifically for transcription",
@@ -900,21 +900,21 @@
           ]
         },
         "zh-TW": {
-          "category": "开源语音",
-          "headline": "Cohere 开源转写语音模型，语音基础能力继续往可替换层下沉",
-          "deck": "Cohere 发布面向转写的开源语音模型。语音 AI 的基础能力越来越像公共部件，真正的差异化开始往系统集成和场景体验上移。",
+          "category": "语音转写",
+          "headline": "Cohere 开源转写模型 Transcribe，语音基础层开始往“可自托管”卷",
+          "deck": "Cohere 发布 20 亿参数的自动语音识别模型 Transcribe，主打可在消费级 GPU 自托管、支持 14 种语言，并计划接入其企业编排平台 North。语音赛道又多了一种“够强且便宜”的基础件。",
           "kicker": "工具",
           "byline": "編輯部整理",
           "summary": [
-            "TechCrunch 报道称，Cohere 推出了专门用于转写的开源语音模型。它不是一个花哨的全能助手，而是更底层、更实用的语音基础件，适合被开发者直接塞进工作流和产品里。",
-            "这类项目值得看，因为它说明语音能力正在像 OCR、翻译或嵌入一样，被当成标准化组件对待。未来真正的竞争会更少发生在“有没有语音模型”，更多发生在系统怎么接、体验怎么做。"
+            "TechCrunch 报道称，Cohere 本周发布了首个语音模型 Transcribe。这是一个 20 亿参数的开源自动语音识别模型，可用于会议记录、听写和语音分析，支持英语、中文、日语、韩语、阿拉伯语等 14 种语言，并面向消费级 GPU 自托管场景优化。Cohere 还表示，该模型将接入其企业代理编排平台 North，并通过 API 免费提供。",
+            "它的竞争点不只是指标好看，而是部署门槛低。Cohere 声称 Transcribe 在 Hugging Face Open ASR 榜单上拿到 5.42 的平均词错误率，同时具备高吞吐。这种产品意味着语音功能会越来越像通用模块：会议纪要、客服、电话助手和企业语音工作流，不一定要依赖昂贵闭源服务才能做。"
           ],
           "bullets": [
-            "Cohere 选择先开源更基础的转写能力。",
-            "语音模型正逐步标准化为可替换组件。",
-            "竞争焦点在向系统集成层迁移。"
+            "Transcribe 是一个 20 亿参数、可自托管的开源 ASR 模型。",
+            "支持 14 种语言，并面向企业编排平台 North 集成。",
+            "语音能力正在从成品应用回落为通用基础层。"
           ],
-          "significance": "当语音底座越来越开源，产品胜负就会更取决于谁把它接进真实业务流程。",
+          "significance": "当语音转写足够轻、够开源、可私有部署，企业会更愿意把语音输入接到更多内部流程里。",
           "sources": [
             {
               "title": "Cohere launches an open source voice model specifically for transcription",
@@ -924,21 +924,21 @@
           ]
         },
         "en": {
-          "category": "Open Voice Models",
-          "headline": "Cohere released an open-source transcription voice model, pushing speech infrastructure further into the replaceable layer",
-          "deck": "Cohere launched an open-source voice model focused on transcription. Speech AI basics are increasingly becoming interchangeable infrastructure, pushing differentiation upward into integration and end-user experience.",
+          "category": "Speech Transcription",
+          "headline": "Cohere has open-sourced Transcribe, pushing speech infrastructure toward self-hostable deployment",
+          "deck": "Cohere released a 2B-parameter automatic speech recognition model called Transcribe, designed to run on consumer GPUs, support 14 languages, and plug into its North enterprise orchestration platform. Speech is getting another “good enough and affordable” infrastructure layer.",
           "kicker": "Tools",
           "byline": "Signal Tide Desk",
           "summary": [
-            "TechCrunch reports that Cohere has launched an open-source voice model specifically for transcription. It is less a flashy assistant than a practical lower-layer component developers can embed in workflows and products.",
-            "That matters because speech capability is starting to look like a standardized building block, similar to OCR or embeddings. Differentiation moves upward from the model itself into how systems are assembled around it."
+            "TechCrunch reports that Cohere has launched its first voice model, Transcribe, a 2-billion-parameter open-source ASR model for note-taking, dictation, and speech analysis. It supports 14 languages including English, Chinese, Japanese, Korean, and Arabic, and is designed to self-host on consumer-grade GPUs. Cohere says it will also integrate the model into its enterprise agent platform, North, while offering it for free through its API.",
+            "The strategic value is not only performance but accessibility. Cohere claims strong results on the Hugging Face Open ASR leaderboard alongside high throughput, which points toward a future where speech becomes a broadly deployable module rather than an expensive black-box service. That matters for meeting tools, call centers, phone agents, and enterprise voice workflows alike."
           ],
           "bullets": [
-            "Cohere is open-sourcing a lower-layer transcription capability first.",
-            "Speech models are becoming more standardized and interchangeable.",
-            "Competitive advantage is moving toward integration layers."
+            "Transcribe is a 2B-parameter open-source ASR model that can be self-hosted.",
+            "It supports 14 languages and is headed into Cohere’s North platform.",
+            "Speech capability is becoming a general infrastructure layer rather than only a finished app."
           ],
-          "significance": "As voice foundations become more open, product winners will be determined more by workflow integration than by owning the base model alone.",
+          "significance": "When speech transcription becomes lightweight, open, and privately deployable, enterprises have more reason to wire voice into internal workflows.",
           "sources": [
             {
               "title": "Cohere launches an open source voice model specifically for transcription",
@@ -950,825 +950,141 @@
       }
     },
     {
-      "id": "langchain-evals-deep-agents",
+      "id": "langchain-deep-agents-evals",
       "section": "tools",
-      "category": "代理评测",
-      "headline": "LangChain 开始讲 Deep Agents 怎么做 eval，代理工程慢慢补上“可测”这块短板",
-      "deck": "LangChain 发布关于 Deep Agents 评测方法的文章。代理系统越复杂，行业就越需要能复现、能比较、能持续追踪的评测框架。",
+      "category": "评测工程",
+      "headline": "LangChain 公开 Deep Agents 的评测方法，代理产品开始把“怎么测”当核心能力",
+      "deck": "LangChain 解释了其如何围绕真实行为、生产失败样本和有标签分类来构建 Deep Agents 的评测体系。代理系统的瓶颈，越来越像评测工程而不是单次模型发布。",
       "kicker": "工具",
       "byline": "编辑部整理",
       "publishedAt": "2026-03-26T15:18:56.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
       "readingTime": 3,
       "tags": [
         "LangChain",
-        "Agents",
+        "Deep Agents",
         "Evals",
-        "LangGraph"
+        "Agent Engineering"
       ],
       "summary": [
-        "LangChain Blog 介绍了其 Deep Agents 的评测思路，重点不在单轮问答，而在更长流程里的任务完成、稳定性和行为表现。代理系统最难的问题之一，正是“它到底有没有变好”。",
-        "这类分享虽然不如新模型发布吸睛，但很关键。没有稳定评测，代理工程就很容易陷入 demo 漂亮、线上失控的循环。"
+        "LangChain 在新博文中公开了 Deep Agents 的评测方法：不是堆几百上千个泛化 benchmark，而是先定义生产中真正重要的行为，再从 dogfooding 失败、外部基准和手工设计测试中抽取针对性样本。团队把每个评测都写成带解释的用例，并通过 LangSmith 追踪运行轨迹，方便定位失败模式与持续回归。",
+        "这类内容看似偏工程博客，实际上很说明行业阶段。代理现在最难的地方已经不是“能不能做一次演示”，而是怎样稳定地跨文件、跨工具、跨多步任务工作。评测不再只是验收环节，而是会持续塑造系统行为的反馈回路。"
       ],
       "bullets": [
-        "代理评测正在从单轮问答转向长流程任务。",
-        "LangChain 在补足代理工程的测量层。",
-        "没有 eval，代理很难真正工程化。"
+        "LangChain 强调针对行为构建评测，而不是盲目堆 benchmark。",
+        "失败样本与 trace 被直接转化成新的评测资产。",
+        "代理系统的优化重心正在向持续评测回路移动。"
       ],
-      "significance": "代理时代真正稀缺的不是“再多一个 demo”，而是能证明系统稳定进步的测量方法。",
+      "significance": "谁先把评测做成持续资产，谁就更可能把代理从“能演示”推进到“能托付”。",
       "sources": [
         {
           "title": "How we build evals for Deep Agents",
-          "publication": "LangChain Blog",
-          "url": "https://blog.langchain.dev/how-we-build-evals-for-deep-agents/"
+          "publication": "LangChain",
+          "url": "https://blog.langchain.com/how-we-build-evals-for-deep-agents/"
         }
       ],
       "i18n": {
         "zh-CN": {
-          "category": "代理评测",
-          "headline": "LangChain 开始讲 Deep Agents 怎么做 eval，代理工程慢慢补上“可测”这块短板",
-          "deck": "LangChain 发布关于 Deep Agents 评测方法的文章。代理系统越复杂，行业就越需要能复现、能比较、能持续追踪的评测框架。",
+          "category": "评测工程",
+          "headline": "LangChain 公开 Deep Agents 的评测方法，代理产品开始把“怎么测”当核心能力",
+          "deck": "LangChain 解释了其如何围绕真实行为、生产失败样本和有标签分类来构建 Deep Agents 的评测体系。代理系统的瓶颈，越来越像评测工程而不是单次模型发布。",
           "kicker": "工具",
           "byline": "编辑部整理",
           "summary": [
-            "LangChain Blog 介绍了其 Deep Agents 的评测思路，重点不在单轮问答，而在更长流程里的任务完成、稳定性和行为表现。代理系统最难的问题之一，正是“它到底有没有变好”。",
-            "这类分享虽然不如新模型发布吸睛，但很关键。没有稳定评测，代理工程就很容易陷入 demo 漂亮、线上失控的循环。"
+            "LangChain 在新博文中公开了 Deep Agents 的评测方法：不是堆几百上千个泛化 benchmark，而是先定义生产中真正重要的行为，再从 dogfooding 失败、外部基准和手工设计测试中抽取针对性样本。团队把每个评测都写成带解释的用例，并通过 LangSmith 追踪运行轨迹，方便定位失败模式与持续回归。",
+            "这类内容看似偏工程博客，实际上很说明行业阶段。代理现在最难的地方已经不是“能不能做一次演示”，而是怎样稳定地跨文件、跨工具、跨多步任务工作。评测不再只是验收环节，而是会持续塑造系统行为的反馈回路。"
           ],
           "bullets": [
-            "代理评测正在从单轮问答转向长流程任务。",
-            "LangChain 在补足代理工程的测量层。",
-            "没有 eval，代理很难真正工程化。"
+            "LangChain 强调针对行为构建评测，而不是盲目堆 benchmark。",
+            "失败样本与 trace 被直接转化成新的评测资产。",
+            "代理系统的优化重心正在向持续评测回路移动。"
           ],
-          "significance": "代理时代真正稀缺的不是“再多一个 demo”，而是能证明系统稳定进步的测量方法。",
+          "significance": "谁先把评测做成持续资产，谁就更可能把代理从“能演示”推进到“能托付”。",
           "sources": [
             {
               "title": "How we build evals for Deep Agents",
-              "publication": "LangChain Blog",
-              "url": "https://blog.langchain.dev/how-we-build-evals-for-deep-agents/"
+              "publication": "LangChain",
+              "url": "https://blog.langchain.com/how-we-build-evals-for-deep-agents/"
             }
           ]
         },
         "zh-TW": {
-          "category": "代理评测",
-          "headline": "LangChain 开始讲 Deep Agents 怎么做 eval，代理工程慢慢补上“可测”这块短板",
-          "deck": "LangChain 发布关于 Deep Agents 评测方法的文章。代理系统越复杂，行业就越需要能复现、能比较、能持续追踪的评测框架。",
+          "category": "评测工程",
+          "headline": "LangChain 公开 Deep Agents 的评测方法，代理产品开始把“怎么测”当核心能力",
+          "deck": "LangChain 解释了其如何围绕真实行为、生产失败样本和有标签分类来构建 Deep Agents 的评测体系。代理系统的瓶颈，越来越像评测工程而不是单次模型发布。",
           "kicker": "工具",
           "byline": "編輯部整理",
           "summary": [
-            "LangChain Blog 介绍了其 Deep Agents 的评测思路，重点不在单轮问答，而在更长流程里的任务完成、稳定性和行为表现。代理系统最难的问题之一，正是“它到底有没有变好”。",
-            "这类分享虽然不如新模型发布吸睛，但很关键。没有稳定评测，代理工程就很容易陷入 demo 漂亮、线上失控的循环。"
+            "LangChain 在新博文中公开了 Deep Agents 的评测方法：不是堆几百上千个泛化 benchmark，而是先定义生产中真正重要的行为，再从 dogfooding 失败、外部基准和手工设计测试中抽取针对性样本。团队把每个评测都写成带解释的用例，并通过 LangSmith 追踪运行轨迹，方便定位失败模式与持续回归。",
+            "这类内容看似偏工程博客，实际上很说明行业阶段。代理现在最难的地方已经不是“能不能做一次演示”，而是怎样稳定地跨文件、跨工具、跨多步任务工作。评测不再只是验收环节，而是会持续塑造系统行为的反馈回路。"
           ],
           "bullets": [
-            "代理评测正在从单轮问答转向长流程任务。",
-            "LangChain 在补足代理工程的测量层。",
-            "没有 eval，代理很难真正工程化。"
+            "LangChain 强调针对行为构建评测，而不是盲目堆 benchmark。",
+            "失败样本与 trace 被直接转化成新的评测资产。",
+            "代理系统的优化重心正在向持续评测回路移动。"
           ],
-          "significance": "代理时代真正稀缺的不是“再多一个 demo”，而是能证明系统稳定进步的测量方法。",
+          "significance": "谁先把评测做成持续资产，谁就更可能把代理从“能演示”推进到“能托付”。",
           "sources": [
             {
               "title": "How we build evals for Deep Agents",
-              "publication": "LangChain Blog",
-              "url": "https://blog.langchain.dev/how-we-build-evals-for-deep-agents/"
+              "publication": "LangChain",
+              "url": "https://blog.langchain.com/how-we-build-evals-for-deep-agents/"
             }
           ]
         },
         "en": {
-          "category": "Agent Evaluation",
-          "headline": "LangChain is explaining how it evaluates deep agents, helping agent engineering fill in the missing measurement layer",
-          "deck": "LangChain published a post on how it builds evaluations for deep agents. The more complex agent systems become, the more the industry needs reproducible and trackable evaluation frameworks.",
+          "category": "Evaluation Engineering",
+          "headline": "LangChain has detailed how it evaluates Deep Agents, treating measurement itself as a core product capability",
+          "deck": "LangChain has explained how it curates Deep Agents evaluations around real-world behaviors, production failures, and behavior-based taxonomies. The bottleneck in agent systems increasingly looks like evaluation engineering rather than one-off model launches.",
           "kicker": "Tools",
           "byline": "Signal Tide Desk",
           "summary": [
-            "The LangChain Blog outlines how the team evaluates Deep Agents, focusing less on single-turn answers and more on long-horizon task completion, stability, and behavior. One of the hardest questions in agent systems is whether they are actually improving in a measurable way.",
-            "Posts like this may be less flashy than a model launch, but they are critical. Without reliable evaluation, agent engineering easily falls into the trap of good demos and unstable production behavior."
+            "In a new post, LangChain described how it evaluates Deep Agents: not by blindly accumulating hundreds of benchmarks, but by identifying the behaviors that matter in production and then sourcing focused tests from dogfooding failures, external benchmarks, and hand-built cases. Each evaluation is documented, tagged by behavior, and traced through LangSmith so the team can inspect failure modes and regressions over time.",
+            "That may sound like an engineering diary, but it says a lot about where the industry is. The hardest part of agents is no longer whether they can produce a good demo once. It is whether they can reliably read files, chain tools, recover from mistakes, and behave consistently across environments. Evaluation has become part of the product itself, not just a final checkpoint."
           ],
           "bullets": [
-            "Agent evaluation is shifting from single turns to longer workflows.",
-            "LangChain is helping build the missing measurement layer for agents.",
-            "Without evals, agent systems remain hard to engineer reliably."
+            "LangChain emphasizes behavior-targeted evals instead of benchmark sprawl.",
+            "Failure traces are converted directly into new evaluation assets.",
+            "Agent improvement is shifting toward continuous evaluation loops."
           ],
-          "significance": "What is scarce in the agent era is not another demo, but a way to prove that systems are improving reliably over time.",
+          "significance": "The teams that turn evaluation into a durable asset are more likely to move agents from demo-worthy to trustworthy.",
           "sources": [
             {
               "title": "How we build evals for Deep Agents",
-              "publication": "LangChain Blog",
-              "url": "https://blog.langchain.dev/how-we-build-evals-for-deep-agents/"
+              "publication": "LangChain",
+              "url": "https://blog.langchain.com/how-we-build-evals-for-deep-agents/"
             }
           ]
         }
       }
     },
     {
-      "id": "asgardbench-visual-planning",
+      "id": "google-vibe-coding-xr",
       "section": "tools",
-      "category": "机器人基准",
-      "headline": "微软研究院做 AsgardBench，想把“看着环境做计划”这件事真正测出来",
-      "deck": "AsgardBench 面向视觉落地的交互式规划能力评测。代理和机器人如果真的要进现实世界，就不能只会说方案，还得会基于环境做行动计划。",
+      "category": "XR 开发",
+      "headline": "Google 想把 XR 也变成一句话原型，Vibe Coding XR 直接把 Gemini 塞进头显开发",
+      "deck": "Google Research 发布 Vibe Coding XR，把 Gemini 与 XR Blocks 结合，用自然语言在 60 秒内生成 Android XR 原型。空间计算的门槛，正被模型重新切开。",
       "kicker": "工具",
       "byline": "编辑部整理",
-      "publishedAt": "2026-03-26T19:02:53.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 3,
-      "tags": [
-        "Microsoft Research",
-        "Benchmark",
-        "Planning",
-        "Robotics"
-      ],
-      "summary": [
-        "微软研究院发布 AsgardBench，聚焦视觉约束下的交互式规划能力。它想测的不是模型会不会写出一串看似正确的步骤，而是这些步骤是否真正对应环境、目标与可执行动作。",
-        "这类 benchmark 的价值在于，它逼着行业承认“会说”和“会做”不是一回事。代理能否进入机器人、制造或真实操作场景，很大程度上取决于这种能力能否被测清。"
-      ],
-      "bullets": [
-        "AsgardBench 关注基于环境的规划能力。",
-        "它试图区分“会描述计划”和“会执行计划”。",
-        "真实世界代理更需要这种测量工具。"
-      ],
-      "significance": "只要“看懂现场再行动”还测不清，代理进入物理世界就仍然会停留在演示阶段。",
-      "sources": [
-        {
-          "title": "AsgardBench: A benchmark for visually grounded interactive planning",
-          "publication": "Microsoft Research",
-          "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/"
-        }
-      ],
-      "i18n": {
-        "zh-CN": {
-          "category": "机器人基准",
-          "headline": "微软研究院做 AsgardBench，想把“看着环境做计划”这件事真正测出来",
-          "deck": "AsgardBench 面向视觉落地的交互式规划能力评测。代理和机器人如果真的要进现实世界，就不能只会说方案，还得会基于环境做行动计划。",
-          "kicker": "工具",
-          "byline": "编辑部整理",
-          "summary": [
-            "微软研究院发布 AsgardBench，聚焦视觉约束下的交互式规划能力。它想测的不是模型会不会写出一串看似正确的步骤，而是这些步骤是否真正对应环境、目标与可执行动作。",
-            "这类 benchmark 的价值在于，它逼着行业承认“会说”和“会做”不是一回事。代理能否进入机器人、制造或真实操作场景，很大程度上取决于这种能力能否被测清。"
-          ],
-          "bullets": [
-            "AsgardBench 关注基于环境的规划能力。",
-            "它试图区分“会描述计划”和“会执行计划”。",
-            "真实世界代理更需要这种测量工具。"
-          ],
-          "significance": "只要“看懂现场再行动”还测不清，代理进入物理世界就仍然会停留在演示阶段。",
-          "sources": [
-            {
-              "title": "AsgardBench: A benchmark for visually grounded interactive planning",
-              "publication": "Microsoft Research",
-              "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/"
-            }
-          ]
-        },
-        "zh-TW": {
-          "category": "机器人基准",
-          "headline": "微软研究院做 AsgardBench，想把“看着环境做计划”这件事真正测出来",
-          "deck": "AsgardBench 面向视觉落地的交互式规划能力评测。代理和机器人如果真的要进现实世界，就不能只会说方案，还得会基于环境做行动计划。",
-          "kicker": "工具",
-          "byline": "編輯部整理",
-          "summary": [
-            "微软研究院发布 AsgardBench，聚焦视觉约束下的交互式规划能力。它想测的不是模型会不会写出一串看似正确的步骤，而是这些步骤是否真正对应环境、目标与可执行动作。",
-            "这类 benchmark 的价值在于，它逼着行业承认“会说”和“会做”不是一回事。代理能否进入机器人、制造或真实操作场景，很大程度上取决于这种能力能否被测清。"
-          ],
-          "bullets": [
-            "AsgardBench 关注基于环境的规划能力。",
-            "它试图区分“会描述计划”和“会执行计划”。",
-            "真实世界代理更需要这种测量工具。"
-          ],
-          "significance": "只要“看懂现场再行动”还测不清，代理进入物理世界就仍然会停留在演示阶段。",
-          "sources": [
-            {
-              "title": "AsgardBench: A benchmark for visually grounded interactive planning",
-              "publication": "Microsoft Research",
-              "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/"
-            }
-          ]
-        },
-        "en": {
-          "category": "Robotics Benchmark",
-          "headline": "Microsoft Research built AsgardBench to measure visually grounded planning instead of assuming it",
-          "deck": "AsgardBench is a benchmark for visually grounded interactive planning. If agents and robots are going to work in the physical world, they cannot just describe plans — they have to plan from the environment itself.",
-          "kicker": "Tools",
-          "byline": "Signal Tide Desk",
-          "summary": [
-            "Microsoft Research introduced AsgardBench to evaluate interactive planning under visual grounding constraints. The benchmark is less about whether a model can produce plausible steps and more about whether those steps actually correspond to the environment and executable actions.",
-            "Its importance is that it forces the industry to separate talking from doing. Whether agents can move into robotics and real-world operations depends on making this gap measurable."
-          ],
-          "bullets": [
-            "AsgardBench focuses on planning grounded in the environment.",
-            "It separates describing a plan from being able to execute one.",
-            "Real-world agents need this kind of measurement far more than chat systems do."
-          ],
-          "significance": "Until the industry can measure “understand the scene, then act,” agents in the physical world will remain stuck in the demo phase.",
-          "sources": [
-            {
-              "title": "AsgardBench: A benchmark for visually grounded interactive planning",
-              "publication": "Microsoft Research",
-              "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "wikipedia-bans-ai-articles",
-      "section": "impact",
-      "category": "知识治理",
-      "headline": "维基百科开始封堵 AI 代写词条，知识平台先给生成内容画红线",
-      "deck": "维基百科开始加强对 AI 生成条目的限制。开放知识平台最担心的，不是没有内容，而是低成本内容把可验证性和共同编辑规则一起冲垮。",
-      "kicker": "影响",
-      "byline": "编辑部整理",
-      "publishedAt": "2026-03-26T21:50:10.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 3,
-      "tags": [
-        "Wikipedia",
-        "AI Writing",
-        "Knowledge",
-        "Governance"
-      ],
-      "summary": [
-        "TechCrunch 和 The Verge 都报道了维基百科对 AI 生成词条的收紧态度。对维基这类依赖社区共识与可验证来源的系统来说，问题不只是文字是不是流畅，而是内容来源、责任归属和可审查性会不会一起失守。",
-        "这件事说明，生成式 AI 的主战场之一已经变成知识机构内部规则。平台真正要防的，往往不是一篇明显的假文，而是大量“看起来还行”的低成本内容慢慢稀释标准。"
-      ],
-      "bullets": [
-        "维基百科在收紧 AI 代写词条。",
-        "知识平台更在意可验证性与责任链。",
-        "生成内容的真正冲击是长期稀释标准。"
-      ],
-      "significance": "如果连维基百科都开始把 AI 写作当成治理问题，其他内容平台也迟早会跟进。",
-      "sources": [
-        {
-          "title": "Wikipedia cracks down on the use of AI in article writing",
-          "publication": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/"
-        },
-        {
-          "title": "Wikipedia bans AI-generated articles",
-          "publication": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/929693/wikipedia-bans-ai-generated-articles"
-        }
-      ],
-      "i18n": {
-        "zh-CN": {
-          "category": "知识治理",
-          "headline": "维基百科开始封堵 AI 代写词条，知识平台先给生成内容画红线",
-          "deck": "维基百科开始加强对 AI 生成条目的限制。开放知识平台最担心的，不是没有内容，而是低成本内容把可验证性和共同编辑规则一起冲垮。",
-          "kicker": "影响",
-          "byline": "编辑部整理",
-          "summary": [
-            "TechCrunch 和 The Verge 都报道了维基百科对 AI 生成词条的收紧态度。对维基这类依赖社区共识与可验证来源的系统来说，问题不只是文字是不是流畅，而是内容来源、责任归属和可审查性会不会一起失守。",
-            "这件事说明，生成式 AI 的主战场之一已经变成知识机构内部规则。平台真正要防的，往往不是一篇明显的假文，而是大量“看起来还行”的低成本内容慢慢稀释标准。"
-          ],
-          "bullets": [
-            "维基百科在收紧 AI 代写词条。",
-            "知识平台更在意可验证性与责任链。",
-            "生成内容的真正冲击是长期稀释标准。"
-          ],
-          "significance": "如果连维基百科都开始把 AI 写作当成治理问题，其他内容平台也迟早会跟进。",
-          "sources": [
-            {
-              "title": "Wikipedia cracks down on the use of AI in article writing",
-              "publication": "TechCrunch",
-              "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/"
-            },
-            {
-              "title": "Wikipedia bans AI-generated articles",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929693/wikipedia-bans-ai-generated-articles"
-            }
-          ]
-        },
-        "zh-TW": {
-          "category": "知识治理",
-          "headline": "维基百科开始封堵 AI 代写词条，知识平台先给生成内容画红线",
-          "deck": "维基百科开始加强对 AI 生成条目的限制。开放知识平台最担心的，不是没有内容，而是低成本内容把可验证性和共同编辑规则一起冲垮。",
-          "kicker": "影響",
-          "byline": "編輯部整理",
-          "summary": [
-            "TechCrunch 和 The Verge 都报道了维基百科对 AI 生成词条的收紧态度。对维基这类依赖社区共识与可验证来源的系统来说，问题不只是文字是不是流畅，而是内容来源、责任归属和可审查性会不会一起失守。",
-            "这件事说明，生成式 AI 的主战场之一已经变成知识机构内部规则。平台真正要防的，往往不是一篇明显的假文，而是大量“看起来还行”的低成本内容慢慢稀释标准。"
-          ],
-          "bullets": [
-            "维基百科在收紧 AI 代写词条。",
-            "知识平台更在意可验证性与责任链。",
-            "生成内容的真正冲击是长期稀释标准。"
-          ],
-          "significance": "如果连维基百科都开始把 AI 写作当成治理问题，其他内容平台也迟早会跟进。",
-          "sources": [
-            {
-              "title": "Wikipedia cracks down on the use of AI in article writing",
-              "publication": "TechCrunch",
-              "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/"
-            },
-            {
-              "title": "Wikipedia bans AI-generated articles",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929693/wikipedia-bans-ai-generated-articles"
-            }
-          ]
-        },
-        "en": {
-          "category": "Knowledge Governance",
-          "headline": "Wikipedia is cracking down on AI-written articles, drawing a hard line around machine-generated knowledge",
-          "deck": "Wikipedia is tightening restrictions on AI-generated articles. For open knowledge platforms, the bigger risk is not a lack of content but cheap synthetic content overwhelming verification and collaborative norms.",
-          "kicker": "Impact",
-          "byline": "Signal Tide Desk",
-          "summary": [
-            "Both TechCrunch and The Verge report that Wikipedia is tightening its stance on AI-generated article writing. For a system built on community review and verifiable sourcing, the issue is not just prose quality but traceability, responsibility, and editorial control.",
-            "This shows that one of generative AI’s key battlegrounds is now institutional rulemaking. The danger is often not one obviously fake article, but a flood of plausible, cheap content that gradually weakens standards."
-          ],
-          "bullets": [
-            "Wikipedia is tightening restrictions on AI-written entries.",
-            "Knowledge platforms care most about verifiability and responsibility chains.",
-            "The real risk of synthetic content is long-term dilution of standards."
-          ],
-          "significance": "If even Wikipedia is treating AI writing as a governance problem, other content platforms will likely follow.",
-          "sources": [
-            {
-              "title": "Wikipedia cracks down on the use of AI in article writing",
-              "publication": "TechCrunch",
-              "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/"
-            },
-            {
-              "title": "Wikipedia bans AI-generated articles",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929693/wikipedia-bans-ai-generated-articles"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "gemini-flash-live-audio",
-      "section": "impact",
-      "category": "多模态交互",
-      "headline": "Gemini 3.1 Flash Live 想把语音交互做得更自然，AI 助手继续往“陪伴式接口”靠",
-      "deck": "Google 推出 Gemini 3.1 Flash Live，强调更自然、更可靠的音频 AI。语音助手的下一步竞争，越来越依赖节奏、延迟和打断处理这种“像人说话”的细节。",
-      "kicker": "影响",
-      "byline": "编辑部整理",
-      "publishedAt": "2026-03-26T15:21:00.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 3,
-      "tags": [
-        "Google",
-        "Gemini",
-        "Audio",
-        "Multimodal"
-      ],
-      "summary": [
-        "Google AI Blog 和 DeepMind 同步介绍了 Gemini 3.1 Flash Live，重点放在更自然、更可靠的实时音频能力上。和传统语音助手不同，这类系统追求的不只是听懂和答对，还包括打断衔接、语气节奏和持续交流的自然度。",
-        "这意味着语音产品正在进入更细腻的体验竞争。真正拉开差距的，不是“能不能听”，而是“听起来像不像一个可持续交互的对象”。"
-      ],
-      "bullets": [
-        "Gemini 3.1 Flash Live 主打更自然的音频交互。",
-        "语音体验竞争开始关注节奏和打断处理。",
-        "助手产品正在向持续陪伴式接口演化。"
-      ],
-      "significance": "语音 AI 一旦足够自然，它争夺的就不只是功能入口，而是用户注意力里更长的一段时间。",
-      "sources": [
-        {
-          "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-          "publication": "Google AI Blog",
-          "url": "https://blog.google/technology/google-deepmind/gemini-3-1-flash-live-audio/"
-        },
-        {
-          "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-          "publication": "Google DeepMind",
-          "url": "https://deepmind.google/discover/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/"
-        }
-      ],
-      "i18n": {
-        "zh-CN": {
-          "category": "多模态交互",
-          "headline": "Gemini 3.1 Flash Live 想把语音交互做得更自然，AI 助手继续往“陪伴式接口”靠",
-          "deck": "Google 推出 Gemini 3.1 Flash Live，强调更自然、更可靠的音频 AI。语音助手的下一步竞争，越来越依赖节奏、延迟和打断处理这种“像人说话”的细节。",
-          "kicker": "影响",
-          "byline": "编辑部整理",
-          "summary": [
-            "Google AI Blog 和 DeepMind 同步介绍了 Gemini 3.1 Flash Live，重点放在更自然、更可靠的实时音频能力上。和传统语音助手不同，这类系统追求的不只是听懂和答对，还包括打断衔接、语气节奏和持续交流的自然度。",
-            "这意味着语音产品正在进入更细腻的体验竞争。真正拉开差距的，不是“能不能听”，而是“听起来像不像一个可持续交互的对象”。"
-          ],
-          "bullets": [
-            "Gemini 3.1 Flash Live 主打更自然的音频交互。",
-            "语音体验竞争开始关注节奏和打断处理。",
-            "助手产品正在向持续陪伴式接口演化。"
-          ],
-          "significance": "语音 AI 一旦足够自然，它争夺的就不只是功能入口，而是用户注意力里更长的一段时间。",
-          "sources": [
-            {
-              "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-              "publication": "Google AI Blog",
-              "url": "https://blog.google/technology/google-deepmind/gemini-3-1-flash-live-audio/"
-            },
-            {
-              "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-              "publication": "Google DeepMind",
-              "url": "https://deepmind.google/discover/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/"
-            }
-          ]
-        },
-        "zh-TW": {
-          "category": "多模态交互",
-          "headline": "Gemini 3.1 Flash Live 想把语音交互做得更自然，AI 助手继续往“陪伴式接口”靠",
-          "deck": "Google 推出 Gemini 3.1 Flash Live，强调更自然、更可靠的音频 AI。语音助手的下一步竞争，越来越依赖节奏、延迟和打断处理这种“像人说话”的细节。",
-          "kicker": "影響",
-          "byline": "編輯部整理",
-          "summary": [
-            "Google AI Blog 和 DeepMind 同步介绍了 Gemini 3.1 Flash Live，重点放在更自然、更可靠的实时音频能力上。和传统语音助手不同，这类系统追求的不只是听懂和答对，还包括打断衔接、语气节奏和持续交流的自然度。",
-            "这意味着语音产品正在进入更细腻的体验竞争。真正拉开差距的，不是“能不能听”，而是“听起来像不像一个可持续交互的对象”。"
-          ],
-          "bullets": [
-            "Gemini 3.1 Flash Live 主打更自然的音频交互。",
-            "语音体验竞争开始关注节奏和打断处理。",
-            "助手产品正在向持续陪伴式接口演化。"
-          ],
-          "significance": "语音 AI 一旦足够自然，它争夺的就不只是功能入口，而是用户注意力里更长的一段时间。",
-          "sources": [
-            {
-              "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-              "publication": "Google AI Blog",
-              "url": "https://blog.google/technology/google-deepmind/gemini-3-1-flash-live-audio/"
-            },
-            {
-              "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-              "publication": "Google DeepMind",
-              "url": "https://deepmind.google/discover/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/"
-            }
-          ]
-        },
-        "en": {
-          "category": "Multimodal Interaction",
-          "headline": "Gemini 3.1 Flash Live is trying to make audio interaction feel more natural, pushing assistants toward companionship-style interfaces",
-          "deck": "Google introduced Gemini 3.1 Flash Live with a focus on more natural and reliable audio interaction. The next stage of voice-assistant competition increasingly depends on rhythm, latency, and interruption handling — the details that make systems feel more human.",
-          "kicker": "Impact",
-          "byline": "Signal Tide Desk",
-          "summary": [
-            "Google AI Blog and DeepMind both highlighted Gemini 3.1 Flash Live as a step toward more natural and reliable real-time audio interaction. Unlike older voice assistants, these systems are now judged on interruption handling, pacing, and conversational continuity as much as recognition accuracy.",
-            "That marks a shift toward a subtler experience competition, where what matters is not simply whether a system can hear, but whether it feels viable as an ongoing interaction partner."
-          ],
-          "bullets": [
-            "Gemini 3.1 Flash Live emphasizes more natural audio interaction.",
-            "Voice competition is focusing on pacing and interruption handling.",
-            "Assistant products are evolving toward persistent companionship interfaces."
-          ],
-          "significance": "Once voice AI becomes natural enough, it starts competing not just for function but for longer stretches of user attention.",
-          "sources": [
-            {
-              "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-              "publication": "Google AI Blog",
-              "url": "https://blog.google/technology/google-deepmind/gemini-3-1-flash-live-audio/"
-            },
-            {
-              "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-              "publication": "Google DeepMind",
-              "url": "https://deepmind.google/discover/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "webtoon-ai-localization",
-      "section": "impact",
-      "category": "文化分发",
-      "headline": "Webtoon 上线 AI 本地化工具，内容平台开始把翻译变成增长引擎",
-      "deck": "Webtoon 将 AI 本地化工具接入漫画平台。对全球内容平台来说，翻译不再只是后期修补，而是直接决定作品能否跨语言扩散。",
-      "kicker": "影响",
-      "byline": "编辑部整理",
-      "publishedAt": "2026-03-26T13:00:00.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 3,
-      "tags": [
-        "Webtoon",
-        "Localization",
-        "AI Translation",
-        "Comics"
-      ],
-      "summary": [
-        "The Verge 报道称，Webtoon 正把 AI 本地化工具加进自家漫画平台。对内容平台而言，这并不只是提升翻译效率，而是在尝试把跨语言分发做成内建能力，让作品更快触达不同市场。",
-        "AI 翻译一旦深入内容生产链，平台逻辑也会变。谁能更低成本地把作品跨市场传播，谁就更可能放大内容库存的价值。"
-      ],
-      "bullets": [
-        "Webtoon 把 AI 翻译接进内容平台。",
-        "翻译开始直接影响内容分发效率。",
-        "AI 本地化正在变成平台增长能力。"
-      ],
-      "significance": "当翻译成本持续下降，内容平台真正竞争的会是“谁先把全球发行做成默认能力”。",
-      "sources": [
-        {
-          "title": "Webtoon is adding AI localization tools to its comics platform",
-          "publication": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/929544/webtoon-ai-localization-tools"
-        }
-      ],
-      "i18n": {
-        "zh-CN": {
-          "category": "文化分发",
-          "headline": "Webtoon 上线 AI 本地化工具，内容平台开始把翻译变成增长引擎",
-          "deck": "Webtoon 将 AI 本地化工具接入漫画平台。对全球内容平台来说，翻译不再只是后期修补，而是直接决定作品能否跨语言扩散。",
-          "kicker": "影响",
-          "byline": "编辑部整理",
-          "summary": [
-            "The Verge 报道称，Webtoon 正把 AI 本地化工具加进自家漫画平台。对内容平台而言，这并不只是提升翻译效率，而是在尝试把跨语言分发做成内建能力，让作品更快触达不同市场。",
-            "AI 翻译一旦深入内容生产链，平台逻辑也会变。谁能更低成本地把作品跨市场传播，谁就更可能放大内容库存的价值。"
-          ],
-          "bullets": [
-            "Webtoon 把 AI 翻译接进内容平台。",
-            "翻译开始直接影响内容分发效率。",
-            "AI 本地化正在变成平台增长能力。"
-          ],
-          "significance": "当翻译成本持续下降，内容平台真正竞争的会是“谁先把全球发行做成默认能力”。",
-          "sources": [
-            {
-              "title": "Webtoon is adding AI localization tools to its comics platform",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929544/webtoon-ai-localization-tools"
-            }
-          ]
-        },
-        "zh-TW": {
-          "category": "文化分发",
-          "headline": "Webtoon 上线 AI 本地化工具，内容平台开始把翻译变成增长引擎",
-          "deck": "Webtoon 将 AI 本地化工具接入漫画平台。对全球内容平台来说，翻译不再只是后期修补，而是直接决定作品能否跨语言扩散。",
-          "kicker": "影響",
-          "byline": "編輯部整理",
-          "summary": [
-            "The Verge 报道称，Webtoon 正把 AI 本地化工具加进自家漫画平台。对内容平台而言，这并不只是提升翻译效率，而是在尝试把跨语言分发做成内建能力，让作品更快触达不同市场。",
-            "AI 翻译一旦深入内容生产链，平台逻辑也会变。谁能更低成本地把作品跨市场传播，谁就更可能放大内容库存的价值。"
-          ],
-          "bullets": [
-            "Webtoon 把 AI 翻译接进内容平台。",
-            "翻译开始直接影响内容分发效率。",
-            "AI 本地化正在变成平台增长能力。"
-          ],
-          "significance": "当翻译成本持续下降，内容平台真正竞争的会是“谁先把全球发行做成默认能力”。",
-          "sources": [
-            {
-              "title": "Webtoon is adding AI localization tools to its comics platform",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929544/webtoon-ai-localization-tools"
-            }
-          ]
-        },
-        "en": {
-          "category": "Cultural Distribution",
-          "headline": "Webtoon is adding AI localization tools, turning translation into a growth engine for content platforms",
-          "deck": "Webtoon is adding AI localization tools to its comics platform. For global content platforms, translation is no longer a post-production step but a core lever that determines whether a work can travel across languages.",
-          "kicker": "Impact",
-          "byline": "Signal Tide Desk",
-          "summary": [
-            "The Verge reports that Webtoon is adding AI localization tools to its comics platform. This is not just about saving translation labor but about making cross-language distribution an internal platform capability.",
-            "Once AI translation becomes embedded in the content pipeline, platform economics change. The companies that can spread works across markets cheaply can extract more value from their catalogs."
-          ],
-          "bullets": [
-            "Webtoon is integrating AI translation into the content platform.",
-            "Translation is becoming a direct factor in content distribution efficiency.",
-            "AI localization is turning into a platform growth capability."
-          ],
-          "significance": "As translation costs keep falling, content platforms will compete on who turns global distribution into a default capability first.",
-          "sources": [
-            {
-              "title": "Webtoon is adding AI localization tools to its comics platform",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929544/webtoon-ai-localization-tools"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "meta-rayban-ai-glasses",
-      "section": "insight",
-      "category": "可穿戴入口",
-      "headline": "Meta 准备再发两款 Ray-Ban AI 眼镜，可穿戴入口还在找下一次爆发点",
-      "deck": "The Verge 报道称，Meta 正准备推出两款新的 Ray-Ban AI 眼镜。智能眼镜仍在验证：AI 如果真正贴身，入口究竟该长成什么样。",
-      "kicker": "观察",
-      "byline": "编辑部整理",
-      "publishedAt": "2026-03-26T16:30:00.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 2,
-      "tags": [
-        "Meta",
-        "Ray-Ban",
-        "Wearables"
-      ],
-      "summary": [
-        "智能眼镜这条线还没结束，平台公司依旧在押注“看见世界”的 AI 入口。"
-      ],
-      "bullets": [
-        "智能眼镜仍是重点赛道。"
-      ],
-      "significance": "AI 入口越贴身，系统级分发权就越重要。",
-      "sources": [
-        {
-          "title": "Meta gets ready to launch two new Ray-Ban AI glasses",
-          "publication": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/929701/meta-ray-ban-ai-glasses"
-        }
-      ],
-      "i18n": {
-        "zh-CN": {
-          "category": "可穿戴入口",
-          "headline": "Meta 准备再发两款 Ray-Ban AI 眼镜，可穿戴入口还在找下一次爆发点",
-          "deck": "The Verge 报道称，Meta 正准备推出两款新的 Ray-Ban AI 眼镜。智能眼镜仍在验证：AI 如果真正贴身，入口究竟该长成什么样。",
-          "kicker": "观察",
-          "byline": "编辑部整理",
-          "summary": [
-            "智能眼镜这条线还没结束，平台公司依旧在押注“看见世界”的 AI 入口。"
-          ],
-          "bullets": [
-            "智能眼镜仍是重点赛道。"
-          ],
-          "significance": "AI 入口越贴身，系统级分发权就越重要。",
-          "sources": [
-            {
-              "title": "Meta gets ready to launch two new Ray-Ban AI glasses",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929701/meta-ray-ban-ai-glasses"
-            }
-          ]
-        },
-        "zh-TW": {
-          "category": "可穿戴入口",
-          "headline": "Meta 准备再发两款 Ray-Ban AI 眼镜，可穿戴入口还在找下一次爆发点",
-          "deck": "The Verge 报道称，Meta 正准备推出两款新的 Ray-Ban AI 眼镜。智能眼镜仍在验证：AI 如果真正贴身，入口究竟该长成什么样。",
-          "kicker": "觀察",
-          "byline": "編輯部整理",
-          "summary": [
-            "智能眼镜这条线还没结束，平台公司依旧在押注“看见世界”的 AI 入口。"
-          ],
-          "bullets": [
-            "智能眼镜仍是重点赛道。"
-          ],
-          "significance": "AI 入口越贴身，系统级分发权就越重要。",
-          "sources": [
-            {
-              "title": "Meta gets ready to launch two new Ray-Ban AI glasses",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929701/meta-ray-ban-ai-glasses"
-            }
-          ]
-        },
-        "en": {
-          "category": "Wearable Interface",
-          "headline": "Meta is preparing two new Ray-Ban AI glasses, showing wearables are still searching for the next breakout moment",
-          "deck": "The Verge reports that Meta is getting ready to launch two new Ray-Ban AI glasses. Smart glasses are still testing what an always-on, body-adjacent AI interface should actually look like.",
-          "kicker": "Observation",
-          "byline": "Signal Tide Desk",
-          "summary": [
-            "The smart-glasses bet is still alive, with platform companies continuing to push for a visual, always-on AI interface."
-          ],
-          "bullets": [
-            "Smart glasses remain a key battleground."
-          ],
-          "significance": "The more intimate the AI interface becomes, the more system-level distribution matters.",
-          "sources": [
-            {
-              "title": "Meta gets ready to launch two new Ray-Ban AI glasses",
-              "publication": "The Verge",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/929701/meta-ray-ban-ai-glasses"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "openai-kills-sora",
-      "section": "insight",
-      "category": "产品收缩",
-      "headline": "OpenAI 继续砍掉 Sora 侧线，注意力开始明显回流到主战场",
-      "deck": "TechCrunch 和 Wired 都在讨论 OpenAI 对 Sora 的收缩。生成式视频不再是“做了再说”的扩张区，而成了需要重新证明投入产出的边角业务。",
-      "kicker": "观察",
-      "byline": "编辑部整理",
-      "publishedAt": "2026-03-27T13:30:00.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 2,
-      "tags": [
-        "OpenAI",
-        "Sora",
-        "Strategy"
-      ],
-      "summary": [
-        "OpenAI 的产品线开始更聚焦，外围实验项目越来越要为资源占用给出理由。"
-      ],
-      "bullets": [
-        "Sora 代表外围业务收缩信号。"
-      ],
-      "significance": "AI 公司进入重资产阶段后，战略收缩也会成为常态。",
-      "sources": [
-        {
-          "title": "OpenAI shuts down Sora while Meta gets shut out in court",
-          "publication": "TechCrunch",
-          "url": "https://techcrunch.com/2026/03/27/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/"
-        },
-        {
-          "title": "OpenAI Enters Its Focus Era by Killing Sora",
-          "publication": "Wired",
-          "url": "https://www.wired.com/story/openai-enters-its-focus-era-by-killing-sora/"
-        }
-      ],
-      "i18n": {
-        "zh-CN": {
-          "category": "产品收缩",
-          "headline": "OpenAI 继续砍掉 Sora 侧线，注意力开始明显回流到主战场",
-          "deck": "TechCrunch 和 Wired 都在讨论 OpenAI 对 Sora 的收缩。生成式视频不再是“做了再说”的扩张区，而成了需要重新证明投入产出的边角业务。",
-          "kicker": "观察",
-          "byline": "编辑部整理",
-          "summary": [
-            "OpenAI 的产品线开始更聚焦，外围实验项目越来越要为资源占用给出理由。"
-          ],
-          "bullets": [
-            "Sora 代表外围业务收缩信号。"
-          ],
-          "significance": "AI 公司进入重资产阶段后，战略收缩也会成为常态。",
-          "sources": [
-            {
-              "title": "OpenAI shuts down Sora while Meta gets shut out in court",
-              "publication": "TechCrunch",
-              "url": "https://techcrunch.com/2026/03/27/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/"
-            },
-            {
-              "title": "OpenAI Enters Its Focus Era by Killing Sora",
-              "publication": "Wired",
-              "url": "https://www.wired.com/story/openai-enters-its-focus-era-by-killing-sora/"
-            }
-          ]
-        },
-        "zh-TW": {
-          "category": "产品收缩",
-          "headline": "OpenAI 继续砍掉 Sora 侧线，注意力开始明显回流到主战场",
-          "deck": "TechCrunch 和 Wired 都在讨论 OpenAI 对 Sora 的收缩。生成式视频不再是“做了再说”的扩张区，而成了需要重新证明投入产出的边角业务。",
-          "kicker": "觀察",
-          "byline": "編輯部整理",
-          "summary": [
-            "OpenAI 的产品线开始更聚焦，外围实验项目越来越要为资源占用给出理由。"
-          ],
-          "bullets": [
-            "Sora 代表外围业务收缩信号。"
-          ],
-          "significance": "AI 公司进入重资产阶段后，战略收缩也会成为常态。",
-          "sources": [
-            {
-              "title": "OpenAI shuts down Sora while Meta gets shut out in court",
-              "publication": "TechCrunch",
-              "url": "https://techcrunch.com/2026/03/27/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/"
-            },
-            {
-              "title": "OpenAI Enters Its Focus Era by Killing Sora",
-              "publication": "Wired",
-              "url": "https://www.wired.com/story/openai-enters-its-focus-era-by-killing-sora/"
-            }
-          ]
-        },
-        "en": {
-          "category": "Product Retrenchment",
-          "headline": "OpenAI is cutting back Sora again, signaling a stronger return to core priorities",
-          "deck": "Both TechCrunch and Wired are discussing OpenAI’s retreat from Sora. Generative video is no longer a default expansion zone but a business line that now has to justify itself more clearly.",
-          "kicker": "Observation",
-          "byline": "Signal Tide Desk",
-          "summary": [
-            "OpenAI’s portfolio is becoming more focused, and side projects increasingly need to justify their resource use."
-          ],
-          "bullets": [
-            "Sora signals retrenchment around side businesses."
-          ],
-          "significance": "As AI companies become more infrastructure-heavy, strategic retrenchment becomes a normal part of the cycle.",
-          "sources": [
-            {
-              "title": "OpenAI shuts down Sora while Meta gets shut out in court",
-              "publication": "TechCrunch",
-              "url": "https://techcrunch.com/2026/03/27/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/"
-            },
-            {
-              "title": "OpenAI Enters Its Focus Era by Killing Sora",
-              "publication": "Wired",
-              "url": "https://www.wired.com/story/openai-enters-its-focus-era-by-killing-sora/"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "vibe-coding-xr",
-      "section": "insight",
-      "category": "原型工作流",
-      "headline": "Google Research 在推 Vibe Coding XR，XR 原型也开始被自然语言工作流接管",
-      "deck": "Google Research 介绍 Vibe Coding XR，希望加速 AI + XR 原型制作。自然语言工具正在把“先会工具”改成“先会表达意图”。",
-      "kicker": "观察",
-      "byline": "编辑部整理",
       "publishedAt": "2026-03-25T09:14:00.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 2,
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 3,
       "tags": [
         "Google Research",
+        "Gemini",
         "XR",
         "Prototyping"
       ],
       "summary": [
-        "从网页到 XR，原型工具都在被 AI 重写，表达能力本身正在变成开发入口。"
+        "Google Research 发布了 Vibe Coding XR 工作流，把 Gemini 的长上下文推理与 XR Blocks 框架结合起来，帮助开发者通过自然语言生成 Android XR 应用原型。官方称，这套流程可在 60 秒内完成从场景设定、交互逻辑到代码生成的主要工作，并支持桌面模拟器和头显端快速迭代。",
+        "如果这类工具继续成熟，XR 的开发路径可能会被显著改写。空间计算长期被高门槛感拖住：感知管线、交互设计、三维逻辑和设备适配都很碎。Vibe Coding XR 的意义，在于它试图把这些复杂度收进一层 prompt 与模板里，让更多创意先被验证，再决定要不要投入真正的重开发。"
       ],
       "bullets": [
-        "AI 原型工具在向 XR 延伸。"
+        "Gemini 与 XR Blocks 被打包成一条自然语言 XR 原型流程。",
+        "Google 把目标定在 60 秒级的快速生成与迭代。",
+        "XR 开发门槛有望从底层引擎问题转向创意验证问题。"
       ],
-      "significance": "“会描述需求”可能会越来越接近“会做产品”。",
+      "significance": "一旦 XR 原型制作像网页原型一样快，空间计算的创新节奏就可能第一次真正提速。",
       "sources": [
         {
           "title": "Vibe Coding XR: Accelerating AI + XR prototyping with XR Blocks and Gemini",
@@ -1778,257 +1094,986 @@
       ],
       "i18n": {
         "zh-CN": {
-          "category": "原型工作流",
-          "headline": "Google Research 在推 Vibe Coding XR，XR 原型也开始被自然语言工作流接管",
-          "deck": "Google Research 介绍 Vibe Coding XR，希望加速 AI + XR 原型制作。自然语言工具正在把“先会工具”改成“先会表达意图”。",
+          "category": "XR 开发",
+          "headline": "Google 想把 XR 也变成一句话原型，Vibe Coding XR 直接把 Gemini 塞进头显开发",
+          "deck": "Google Research 发布 Vibe Coding XR，把 Gemini 与 XR Blocks 结合，用自然语言在 60 秒内生成 Android XR 原型。空间计算的门槛，正被模型重新切开。",
+          "kicker": "工具",
+          "byline": "编辑部整理",
+          "summary": [
+            "Google Research 发布了 Vibe Coding XR 工作流，把 Gemini 的长上下文推理与 XR Blocks 框架结合起来，帮助开发者通过自然语言生成 Android XR 应用原型。官方称，这套流程可在 60 秒内完成从场景设定、交互逻辑到代码生成的主要工作，并支持桌面模拟器和头显端快速迭代。",
+            "如果这类工具继续成熟，XR 的开发路径可能会被显著改写。空间计算长期被高门槛感拖住：感知管线、交互设计、三维逻辑和设备适配都很碎。Vibe Coding XR 的意义，在于它试图把这些复杂度收进一层 prompt 与模板里，让更多创意先被验证，再决定要不要投入真正的重开发。"
+          ],
+          "bullets": [
+            "Gemini 与 XR Blocks 被打包成一条自然语言 XR 原型流程。",
+            "Google 把目标定在 60 秒级的快速生成与迭代。",
+            "XR 开发门槛有望从底层引擎问题转向创意验证问题。"
+          ],
+          "significance": "一旦 XR 原型制作像网页原型一样快，空间计算的创新节奏就可能第一次真正提速。",
+          "sources": [
+            {
+              "title": "Vibe Coding XR: Accelerating AI + XR prototyping with XR Blocks and Gemini",
+              "publication": "Google Research",
+              "url": "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "XR 开发",
+          "headline": "Google 想把 XR 也变成一句话原型，Vibe Coding XR 直接把 Gemini 塞进头显开发",
+          "deck": "Google Research 发布 Vibe Coding XR，把 Gemini 与 XR Blocks 结合，用自然语言在 60 秒内生成 Android XR 原型。空间计算的门槛，正被模型重新切开。",
+          "kicker": "工具",
+          "byline": "編輯部整理",
+          "summary": [
+            "Google Research 发布了 Vibe Coding XR 工作流，把 Gemini 的长上下文推理与 XR Blocks 框架结合起来，帮助开发者通过自然语言生成 Android XR 应用原型。官方称，这套流程可在 60 秒内完成从场景设定、交互逻辑到代码生成的主要工作，并支持桌面模拟器和头显端快速迭代。",
+            "如果这类工具继续成熟，XR 的开发路径可能会被显著改写。空间计算长期被高门槛感拖住：感知管线、交互设计、三维逻辑和设备适配都很碎。Vibe Coding XR 的意义，在于它试图把这些复杂度收进一层 prompt 与模板里，让更多创意先被验证，再决定要不要投入真正的重开发。"
+          ],
+          "bullets": [
+            "Gemini 与 XR Blocks 被打包成一条自然语言 XR 原型流程。",
+            "Google 把目标定在 60 秒级的快速生成与迭代。",
+            "XR 开发门槛有望从底层引擎问题转向创意验证问题。"
+          ],
+          "significance": "一旦 XR 原型制作像网页原型一样快，空间计算的创新节奏就可能第一次真正提速。",
+          "sources": [
+            {
+              "title": "Vibe Coding XR: Accelerating AI + XR prototyping with XR Blocks and Gemini",
+              "publication": "Google Research",
+              "url": "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/"
+            }
+          ]
+        },
+        "en": {
+          "category": "XR Development",
+          "headline": "Google wants XR prototyping to happen from a prompt, pushing Gemini directly into headset-era development",
+          "deck": "Google Research introduced Vibe Coding XR, combining Gemini with XR Blocks to generate Android XR prototypes from natural language in under a minute. Models are starting to cut through one of spatial computing’s biggest barriers: complexity.",
+          "kicker": "Tools",
+          "byline": "Signal Tide Desk",
+          "summary": [
+            "Google Research has unveiled Vibe Coding XR, a workflow that combines Gemini’s long-context reasoning with XR Blocks to generate Android XR prototypes from natural-language prompts. Google says the system can turn a user idea into a functional, physics-aware XR app in under 60 seconds, with both desktop simulation and headset-based iteration available.",
+            "If tools like this hold up, they could materially change how XR gets built. Spatial computing has long suffered from a high-complexity tax: perception stacks, 3D interaction logic, engine setup, and device integration all raise the barrier. Vibe Coding XR is notable because it tries to compress that overhead into prompts, templates, and guided generation, allowing more ideas to be validated before teams commit to heavy engineering."
+          ],
+          "bullets": [
+            "Gemini and XR Blocks are being packaged into a prompt-driven XR workflow.",
+            "Google is targeting minute-scale generation and iteration.",
+            "XR development barriers may shift from engine complexity toward idea validation."
+          ],
+          "significance": "If XR prototypes become as fast to make as web prototypes, spatial computing may speed up in a way it never has before.",
+          "sources": [
+            {
+              "title": "Vibe Coding XR: Accelerating AI + XR prototyping with XR Blocks and Gemini",
+              "publication": "Google Research",
+              "url": "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gemini-3-1-flash-live",
+      "section": "impact",
+      "category": "实时语音",
+      "headline": "Gemini 3.1 Flash Live 把语音对话往更自然推进了一步，实时音频 AI 开始像产品底座",
+      "deck": "Google 推出 Gemini 3.1 Flash Live，强调更低延迟、更好语调理解和更强多步音频推理，并同步进入 Search Live、Gemini Live、开发者 API 与企业客服。语音模型正在跨产品面铺开。",
+      "kicker": "影响",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-26T15:21:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "Google",
+        "Gemini",
+        "Voice AI",
+        "Search Live"
+      ],
+      "summary": [
+        "Google 宣布 Gemini 3.1 Flash Live 正式上线，作为其目前质量最高的实时音频与语音模型。官方称，该模型在 ComplexFuncBench Audio 和 Scale AI 的 Audio MultiChallenge 等基准上取得领先成绩，并增强了对语调、停顿和情绪线索的理解能力。它已同时进入 Gemini Live、Search Live、Google AI Studio 的 Gemini Live API，以及企业客服方案 Gemini Enterprise for Customer Experience。",
+        "这次发布的意义，不只是又一代语音模型，而是 Google 把语音能力直接嵌进搜索、消费者助手、开发者平台和企业服务四条线。语音 AI 不再只是单点 demo，而越来越像一个横跨多个产品层的公共底座。谁先把实时音频做稳，谁就更可能占住下一轮“人机交互默认方式”的位置。"
+      ],
+      "bullets": [
+        "Gemini 3.1 Flash Live 强调更低延迟与更自然的对话节奏。",
+        "同一能力已横跨搜索、助手、API 与企业客服。",
+        "实时语音正在成为 AI 产品的通用底层。"
+      ],
+      "significance": "语音一旦同时成为搜索入口、助手界面和企业服务层，AI 的主交互形态就会更快从键盘滑向口语。",
+      "sources": [
+        {
+          "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+          "publication": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
+        },
+        {
+          "title": "Search Live is expanding globally",
+          "publication": "Google",
+          "url": "https://blog.google/products-and-platforms/products/search/search-live-global-expansion/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "实时语音",
+          "headline": "Gemini 3.1 Flash Live 把语音对话往更自然推进了一步，实时音频 AI 开始像产品底座",
+          "deck": "Google 推出 Gemini 3.1 Flash Live，强调更低延迟、更好语调理解和更强多步音频推理，并同步进入 Search Live、Gemini Live、开发者 API 与企业客服。语音模型正在跨产品面铺开。",
+          "kicker": "影响",
+          "byline": "编辑部整理",
+          "summary": [
+            "Google 宣布 Gemini 3.1 Flash Live 正式上线，作为其目前质量最高的实时音频与语音模型。官方称，该模型在 ComplexFuncBench Audio 和 Scale AI 的 Audio MultiChallenge 等基准上取得领先成绩，并增强了对语调、停顿和情绪线索的理解能力。它已同时进入 Gemini Live、Search Live、Google AI Studio 的 Gemini Live API，以及企业客服方案 Gemini Enterprise for Customer Experience。",
+            "这次发布的意义，不只是又一代语音模型，而是 Google 把语音能力直接嵌进搜索、消费者助手、开发者平台和企业服务四条线。语音 AI 不再只是单点 demo，而越来越像一个横跨多个产品层的公共底座。谁先把实时音频做稳，谁就更可能占住下一轮“人机交互默认方式”的位置。"
+          ],
+          "bullets": [
+            "Gemini 3.1 Flash Live 强调更低延迟与更自然的对话节奏。",
+            "同一能力已横跨搜索、助手、API 与企业客服。",
+            "实时语音正在成为 AI 产品的通用底层。"
+          ],
+          "significance": "语音一旦同时成为搜索入口、助手界面和企业服务层，AI 的主交互形态就会更快从键盘滑向口语。",
+          "sources": [
+            {
+              "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+              "publication": "Google",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
+            },
+            {
+              "title": "Search Live is expanding globally",
+              "publication": "Google",
+              "url": "https://blog.google/products-and-platforms/products/search/search-live-global-expansion/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "实时语音",
+          "headline": "Gemini 3.1 Flash Live 把语音对话往更自然推进了一步，实时音频 AI 开始像产品底座",
+          "deck": "Google 推出 Gemini 3.1 Flash Live，强调更低延迟、更好语调理解和更强多步音频推理，并同步进入 Search Live、Gemini Live、开发者 API 与企业客服。语音模型正在跨产品面铺开。",
+          "kicker": "影響",
+          "byline": "編輯部整理",
+          "summary": [
+            "Google 宣布 Gemini 3.1 Flash Live 正式上线，作为其目前质量最高的实时音频与语音模型。官方称，该模型在 ComplexFuncBench Audio 和 Scale AI 的 Audio MultiChallenge 等基准上取得领先成绩，并增强了对语调、停顿和情绪线索的理解能力。它已同时进入 Gemini Live、Search Live、Google AI Studio 的 Gemini Live API，以及企业客服方案 Gemini Enterprise for Customer Experience。",
+            "这次发布的意义，不只是又一代语音模型，而是 Google 把语音能力直接嵌进搜索、消费者助手、开发者平台和企业服务四条线。语音 AI 不再只是单点 demo，而越来越像一个横跨多个产品层的公共底座。谁先把实时音频做稳，谁就更可能占住下一轮“人机交互默认方式”的位置。"
+          ],
+          "bullets": [
+            "Gemini 3.1 Flash Live 强调更低延迟与更自然的对话节奏。",
+            "同一能力已横跨搜索、助手、API 与企业客服。",
+            "实时语音正在成为 AI 产品的通用底层。"
+          ],
+          "significance": "语音一旦同时成为搜索入口、助手界面和企业服务层，AI 的主交互形态就会更快从键盘滑向口语。",
+          "sources": [
+            {
+              "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+              "publication": "Google",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
+            },
+            {
+              "title": "Search Live is expanding globally",
+              "publication": "Google",
+              "url": "https://blog.google/products-and-platforms/products/search/search-live-global-expansion/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Realtime Voice",
+          "headline": "Gemini 3.1 Flash Live pushes voice interaction closer to natural conversation, making real-time audio AI look like core product infrastructure",
+          "deck": "Google has introduced Gemini 3.1 Flash Live with lower latency, better tonal understanding, and stronger multi-step audio reasoning, and is deploying it across Search Live, Gemini Live, developer APIs, and enterprise customer support. Voice models are spreading across the product stack.",
+          "kicker": "Impact",
+          "byline": "Signal Tide Desk",
+          "summary": [
+            "Google has launched Gemini 3.1 Flash Live as its highest-quality real-time audio and voice model so far. The company says it improves latency, tonal understanding, and long-horizon instruction following, and points to strong results on benchmarks such as ComplexFuncBench Audio and Scale AI’s Audio MultiChallenge. It is now available through Gemini Live, Search Live, Google AI Studio’s live API, and Gemini Enterprise for Customer Experience.",
+            "What matters is not simply another voice model release. Google is wiring the same capability into consumer search, consumer assistants, developer tooling, and enterprise service flows at once. That makes voice AI look less like an isolated feature and more like a shared substrate for the next interface layer. The company that stabilizes real-time audio across these surfaces may shape how people expect to talk to software more broadly."
+          ],
+          "bullets": [
+            "Gemini 3.1 Flash Live focuses on lower latency and more natural dialogue rhythm.",
+            "The same capability now spans search, assistants, APIs, and enterprise CX.",
+            "Real-time voice is becoming a general AI product layer."
+          ],
+          "significance": "Once voice becomes the interface for search, assistants, and enterprise service at the same time, AI’s dominant interaction mode can shift from keyboard to speech much faster.",
+          "sources": [
+            {
+              "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+              "publication": "Google",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/"
+            },
+            {
+              "title": "Search Live is expanding globally",
+              "publication": "Google",
+              "url": "https://blog.google/products-and-platforms/products/search/search-live-global-expansion/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wikipedia-bans-ai-generated-articles",
+      "section": "impact",
+      "category": "知识生产",
+      "headline": "Wikipedia 禁止用 AI 写或重写条目，公共知识库给生成式写作画了一道硬线",
+      "deck": "英文维基百科更新编辑规范，不再允许使用 AI 撰写或重写条目，但保留基础校对与受限翻译等少数用途。面对 AI 生成内容，知识共同体选择先保住可核查性。",
+      "kicker": "影响",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-26T15:02:52.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "Wikipedia",
+        "Generative AI",
+        "Editing",
+        "Knowledge"
+      ],
+      "summary": [
+        "The Verge 报道称，英文维基百科已更新指南，明确不再允许编辑者使用 AI 来撰写或重写条目，理由是这类内容经常违反维基百科的核心内容政策。新规仍然允许有限范围内的使用，例如不引入新内容的基础 copyedit，或在满足既有校验要求的前提下用 AI 辅助翻译其他语言版本条目。",
+        "这项变化的重要性在于，Wikipedia 并没有简单反对 AI，而是试图把“哪里可以碰、哪里不能碰”说清楚。对一个依赖社区共识与可验证来源维持运转的知识系统来说，语言流畅并不等于可信。公共知识库这次给出的答案很直接：在事实核查与署名责任还无法自动化之前，生成式写作不能直接上桌。"
+      ],
+      "bullets": [
+        "英文维基百科已禁止用 AI 撰写或重写条目。",
+        "基础校对与受限翻译等小范围用途仍被保留。",
+        "公共知识平台正优先保住可验证性，而不是追求生成效率。"
+      ],
+      "significance": "Wikipedia 的选择很可能会成为其他公共知识机构和教育平台的参照线。",
+      "sources": [
+        {
+          "title": "Wikipedia bans AI-generated articles",
+          "publication": "The Verge",
+          "url": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban"
+        },
+        {
+          "title": "Wikipedia cracks down on the use of AI in article writing",
+          "publication": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "知识生产",
+          "headline": "Wikipedia 禁止用 AI 写或重写条目，公共知识库给生成式写作画了一道硬线",
+          "deck": "英文维基百科更新编辑规范，不再允许使用 AI 撰写或重写条目，但保留基础校对与受限翻译等少数用途。面对 AI 生成内容，知识共同体选择先保住可核查性。",
+          "kicker": "影响",
+          "byline": "编辑部整理",
+          "summary": [
+            "The Verge 报道称，英文维基百科已更新指南，明确不再允许编辑者使用 AI 来撰写或重写条目，理由是这类内容经常违反维基百科的核心内容政策。新规仍然允许有限范围内的使用，例如不引入新内容的基础 copyedit，或在满足既有校验要求的前提下用 AI 辅助翻译其他语言版本条目。",
+            "这项变化的重要性在于，Wikipedia 并没有简单反对 AI，而是试图把“哪里可以碰、哪里不能碰”说清楚。对一个依赖社区共识与可验证来源维持运转的知识系统来说，语言流畅并不等于可信。公共知识库这次给出的答案很直接：在事实核查与署名责任还无法自动化之前，生成式写作不能直接上桌。"
+          ],
+          "bullets": [
+            "英文维基百科已禁止用 AI 撰写或重写条目。",
+            "基础校对与受限翻译等小范围用途仍被保留。",
+            "公共知识平台正优先保住可验证性，而不是追求生成效率。"
+          ],
+          "significance": "Wikipedia 的选择很可能会成为其他公共知识机构和教育平台的参照线。",
+          "sources": [
+            {
+              "title": "Wikipedia bans AI-generated articles",
+              "publication": "The Verge",
+              "url": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban"
+            },
+            {
+              "title": "Wikipedia cracks down on the use of AI in article writing",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "知识生产",
+          "headline": "Wikipedia 禁止用 AI 写或重写条目，公共知识库给生成式写作画了一道硬线",
+          "deck": "英文维基百科更新编辑规范，不再允许使用 AI 撰写或重写条目，但保留基础校对与受限翻译等少数用途。面对 AI 生成内容，知识共同体选择先保住可核查性。",
+          "kicker": "影響",
+          "byline": "編輯部整理",
+          "summary": [
+            "The Verge 报道称，英文维基百科已更新指南，明确不再允许编辑者使用 AI 来撰写或重写条目，理由是这类内容经常违反维基百科的核心内容政策。新规仍然允许有限范围内的使用，例如不引入新内容的基础 copyedit，或在满足既有校验要求的前提下用 AI 辅助翻译其他语言版本条目。",
+            "这项变化的重要性在于，Wikipedia 并没有简单反对 AI，而是试图把“哪里可以碰、哪里不能碰”说清楚。对一个依赖社区共识与可验证来源维持运转的知识系统来说，语言流畅并不等于可信。公共知识库这次给出的答案很直接：在事实核查与署名责任还无法自动化之前，生成式写作不能直接上桌。"
+          ],
+          "bullets": [
+            "英文维基百科已禁止用 AI 撰写或重写条目。",
+            "基础校对与受限翻译等小范围用途仍被保留。",
+            "公共知识平台正优先保住可验证性，而不是追求生成效率。"
+          ],
+          "significance": "Wikipedia 的选择很可能会成为其他公共知识机构和教育平台的参照线。",
+          "sources": [
+            {
+              "title": "Wikipedia bans AI-generated articles",
+              "publication": "The Verge",
+              "url": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban"
+            },
+            {
+              "title": "Wikipedia cracks down on the use of AI in article writing",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Knowledge Production",
+          "headline": "Wikipedia has banned AI-written or AI-rewritten articles, drawing a hard line around generative writing in public knowledge systems",
+          "deck": "English Wikipedia has updated its editing rules to prohibit writing or rewriting articles with AI, while still allowing narrow uses such as basic copyedits and constrained translation. Faced with generative text, the knowledge commons is choosing verifiability first.",
+          "kicker": "Impact",
+          "byline": "Signal Tide Desk",
+          "summary": [
+            "The Verge reports that English Wikipedia has updated its guidelines to prohibit editors from using AI to write or rewrite articles, citing repeated conflicts with the site’s core content policies. Narrow exceptions remain, including basic copyedits that do not introduce new content and AI-assisted translations that still satisfy existing verification rules.",
+            "The significance is that Wikipedia is not rejecting AI wholesale. It is trying to state clearly where AI can and cannot touch the editorial process. In a system built on consensus, sourcing, and verifiability, fluent language is not the same as trustworthy knowledge. The message from the world’s most important public encyclopedia is that until accountability and fact verification can be preserved, generative writing does not get a direct seat at the table."
+          ],
+          "bullets": [
+            "English Wikipedia now bans AI-written or AI-rewritten articles.",
+            "Limited uses such as basic copyedits and constrained translation remain allowed.",
+            "Public knowledge platforms are prioritizing verifiability over generation speed."
+          ],
+          "significance": "Wikipedia’s choice is likely to become a reference point for other public knowledge institutions and educational platforms.",
+          "sources": [
+            {
+              "title": "Wikipedia bans AI-generated articles",
+              "publication": "The Verge",
+              "url": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban"
+            },
+            {
+              "title": "Wikipedia cracks down on the use of AI in article writing",
+              "publication": "TechCrunch",
+              "url": "https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "asgardbench-visual-planning",
+      "section": "impact",
+      "category": "具身智能评测",
+      "headline": "AsgardBench 逼机器人边看边改计划，具身智能终于被拿去测“会不会临场反应”",
+      "deck": "Microsoft Research 发布 AsgardBench，用 108 个受控任务专门评估具身智能体能否根据视觉反馈持续更新动作计划。机器人难题开始被拆回最核心的一层：看见之后会不会改主意。",
+      "kicker": "影响",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-26T19:02:53.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "Microsoft Research",
+        "Embodied AI",
+        "Benchmark",
+        "Planning"
+      ],
+      "summary": [
+        "Microsoft Research 推出 AsgardBench，面向具身智能中的“视觉驱动交互式规划”问题。该基准建立在 AI2-THOR 环境上，覆盖 12 类任务、108 个实例，让智能体通过图像、动作历史和简单成败信号不断重新规划下一步，而不是提前写好一整段固定脚本。官方强调，它要测的不是导航能力，而是智能体在看到新证据后是否会及时调整行动。",
+        "这很重要，因为过去很多机器人 benchmark 把感知、导航和操控搅在一起，导致系统到底是“真的看懂了”，还是“恰好背熟了套路”，很难分辨。AsgardBench 把问题拆开后，反而更清楚地暴露了今天模型的短板：看不准细节、容易循环动作、也常常记不住自己做到哪一步。"
+      ],
+      "bullets": [
+        "AsgardBench 专门测的是“看见变化后会不会改计划”。",
+        "它把导航问题尽量剥离，聚焦视觉驱动的决策修正。",
+        "当前具身模型仍普遍卡在细节识别、循环动作与进度记忆。"
+      ],
+      "significance": "机器人离真实世界越近，评测就越不能只看“做没做成”，还要看“为什么改得过来”。",
+      "sources": [
+        {
+          "title": "AsgardBench: A benchmark for visually grounded interactive planning",
+          "publication": "Microsoft Research",
+          "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "具身智能评测",
+          "headline": "AsgardBench 逼机器人边看边改计划，具身智能终于被拿去测“会不会临场反应”",
+          "deck": "Microsoft Research 发布 AsgardBench，用 108 个受控任务专门评估具身智能体能否根据视觉反馈持续更新动作计划。机器人难题开始被拆回最核心的一层：看见之后会不会改主意。",
+          "kicker": "影响",
+          "byline": "编辑部整理",
+          "summary": [
+            "Microsoft Research 推出 AsgardBench，面向具身智能中的“视觉驱动交互式规划”问题。该基准建立在 AI2-THOR 环境上，覆盖 12 类任务、108 个实例，让智能体通过图像、动作历史和简单成败信号不断重新规划下一步，而不是提前写好一整段固定脚本。官方强调，它要测的不是导航能力，而是智能体在看到新证据后是否会及时调整行动。",
+            "这很重要，因为过去很多机器人 benchmark 把感知、导航和操控搅在一起，导致系统到底是“真的看懂了”，还是“恰好背熟了套路”，很难分辨。AsgardBench 把问题拆开后，反而更清楚地暴露了今天模型的短板：看不准细节、容易循环动作、也常常记不住自己做到哪一步。"
+          ],
+          "bullets": [
+            "AsgardBench 专门测的是“看见变化后会不会改计划”。",
+            "它把导航问题尽量剥离，聚焦视觉驱动的决策修正。",
+            "当前具身模型仍普遍卡在细节识别、循环动作与进度记忆。"
+          ],
+          "significance": "机器人离真实世界越近，评测就越不能只看“做没做成”，还要看“为什么改得过来”。",
+          "sources": [
+            {
+              "title": "AsgardBench: A benchmark for visually grounded interactive planning",
+              "publication": "Microsoft Research",
+              "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "具身智能评测",
+          "headline": "AsgardBench 逼机器人边看边改计划，具身智能终于被拿去测“会不会临场反应”",
+          "deck": "Microsoft Research 发布 AsgardBench，用 108 个受控任务专门评估具身智能体能否根据视觉反馈持续更新动作计划。机器人难题开始被拆回最核心的一层：看见之后会不会改主意。",
+          "kicker": "影響",
+          "byline": "編輯部整理",
+          "summary": [
+            "Microsoft Research 推出 AsgardBench，面向具身智能中的“视觉驱动交互式规划”问题。该基准建立在 AI2-THOR 环境上，覆盖 12 类任务、108 个实例，让智能体通过图像、动作历史和简单成败信号不断重新规划下一步，而不是提前写好一整段固定脚本。官方强调，它要测的不是导航能力，而是智能体在看到新证据后是否会及时调整行动。",
+            "这很重要，因为过去很多机器人 benchmark 把感知、导航和操控搅在一起，导致系统到底是“真的看懂了”，还是“恰好背熟了套路”，很难分辨。AsgardBench 把问题拆开后，反而更清楚地暴露了今天模型的短板：看不准细节、容易循环动作、也常常记不住自己做到哪一步。"
+          ],
+          "bullets": [
+            "AsgardBench 专门测的是“看见变化后会不会改计划”。",
+            "它把导航问题尽量剥离，聚焦视觉驱动的决策修正。",
+            "当前具身模型仍普遍卡在细节识别、循环动作与进度记忆。"
+          ],
+          "significance": "机器人离真实世界越近，评测就越不能只看“做没做成”，还要看“为什么改得过来”。",
+          "sources": [
+            {
+              "title": "AsgardBench: A benchmark for visually grounded interactive planning",
+              "publication": "Microsoft Research",
+              "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Embodied AI Evaluation",
+          "headline": "AsgardBench tests whether embodied agents can revise plans from what they see, not just follow scripts",
+          "deck": "Microsoft Research has introduced AsgardBench, a 108-instance benchmark focused on whether embodied agents can update plans from visual feedback as tasks unfold. The core question for robotics is being isolated again: after seeing the world, can the system actually change its mind?",
+          "kicker": "Impact",
+          "byline": "Signal Tide Desk",
+          "summary": [
+            "Microsoft Research has released AsgardBench, a benchmark aimed at visually grounded interactive planning in embodied AI. Built on AI2-THOR, it spans 12 task types and 108 instances, requiring agents to continually update their next action based on images, action history, and simple success-or-failure feedback rather than following a fixed script from the start. Microsoft stresses that the benchmark is designed to isolate planning adaptation, not navigation skill.",
+            "That matters because many robotics benchmarks bundle perception, navigation, and manipulation together, making it hard to tell whether an agent is actually using what it sees or simply succeeding through predictable routines. By isolating plan revision, AsgardBench highlights current weaknesses more clearly: subtle visual details are missed, agents get trapped in loops, and they often lose track of task progress over time."
+          ],
+          "bullets": [
+            "AsgardBench asks whether agents change plans after seeing new evidence.",
+            "It strips away navigation complexity to focus on visually grounded plan revision.",
+            "Today’s embodied models still struggle with detail recognition, loops, and progress tracking."
+          ],
+          "significance": "The closer robotics gets to the real world, the less evaluation can rely on success alone; it must also test whether agents can adapt for the right reasons.",
+          "sources": [
+            {
+              "title": "AsgardBench: A benchmark for visually grounded interactive planning",
+              "publication": "Microsoft Research",
+              "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "arc-agi-3-agentic-benchmark",
+      "section": "insight",
+      "category": "能力边界",
+      "headline": "ARC-AGI-3 把“会不会自主摸清规则”重新抬上台，前沿代理还远没到会玩新游戏",
+      "deck": "Francois Chollet 发布 ARC-AGI-3，聚焦抽象、交互、无明确说明的新环境探索。作者称人类可解率为 100%，而截至 2026 年 3 月的前沿 AI 仍低于 1%。",
+      "kicker": "观察",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-27T04:00:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "ARC-AGI",
+        "Benchmark",
+        "Agents",
+        "Generalization"
+      ],
+      "summary": [
+        "新论文提出 ARC-AGI-3，继续沿着 ARC 系列去测“面对完全陌生的抽象任务，智能体能否自行探索、推断目标、建立环境模型并规划动作”。与传统依赖语言和知识储备的 benchmark 不同，ARC-AGI-3 刻意剥离外部知识，专注流体适应效率。作者称，经过人类测试校准后，这些环境人类可 100% 解出，而截至 2026 年 3 月的前沿 AI 得分仍低于 1%。",
+        "它带来的观察并不新潮，却很刺耳：当行业把注意力大量放在工具调用、长上下文和工作流自动化时，真正的“陌生环境适应力”可能依然没有明显突破。代理系统今天看起来很会做事，很多时候是因为世界已经被预先格式化；一旦环境不再贴着说明书走，通用智能的缺口就重新露出来了。"
+      ],
+      "bullets": [
+        "ARC-AGI-3 刻意测试陌生环境中的探索与规则发现。",
+        "作者称人类可解率为 100%，前沿 AI 仍低于 1%。",
+        "很多代理能力可能仍严重依赖环境被预先整理过。"
+      ],
+      "significance": "如果最强代理还不会在陌生世界里快速摸清规则，那么“离 AGI 还差什么”这个问题就并没有被产品热度盖过去。",
+      "sources": [
+        {
+          "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+          "publication": "arXiv",
+          "url": "https://arxiv.org/abs/2603.24621"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "能力边界",
+          "headline": "ARC-AGI-3 把“会不会自主摸清规则”重新抬上台，前沿代理还远没到会玩新游戏",
+          "deck": "Francois Chollet 发布 ARC-AGI-3，聚焦抽象、交互、无明确说明的新环境探索。作者称人类可解率为 100%，而截至 2026 年 3 月的前沿 AI 仍低于 1%。",
           "kicker": "观察",
           "byline": "编辑部整理",
           "summary": [
-            "从网页到 XR，原型工具都在被 AI 重写，表达能力本身正在变成开发入口。"
+            "新论文提出 ARC-AGI-3，继续沿着 ARC 系列去测“面对完全陌生的抽象任务，智能体能否自行探索、推断目标、建立环境模型并规划动作”。与传统依赖语言和知识储备的 benchmark 不同，ARC-AGI-3 刻意剥离外部知识，专注流体适应效率。作者称，经过人类测试校准后，这些环境人类可 100% 解出，而截至 2026 年 3 月的前沿 AI 得分仍低于 1%。",
+            "它带来的观察并不新潮，却很刺耳：当行业把注意力大量放在工具调用、长上下文和工作流自动化时，真正的“陌生环境适应力”可能依然没有明显突破。代理系统今天看起来很会做事，很多时候是因为世界已经被预先格式化；一旦环境不再贴着说明书走，通用智能的缺口就重新露出来了。"
           ],
           "bullets": [
-            "AI 原型工具在向 XR 延伸。"
+            "ARC-AGI-3 刻意测试陌生环境中的探索与规则发现。",
+            "作者称人类可解率为 100%，前沿 AI 仍低于 1%。",
+            "很多代理能力可能仍严重依赖环境被预先整理过。"
           ],
-          "significance": "“会描述需求”可能会越来越接近“会做产品”。",
+          "significance": "如果最强代理还不会在陌生世界里快速摸清规则，那么“离 AGI 还差什么”这个问题就并没有被产品热度盖过去。",
           "sources": [
             {
-              "title": "Vibe Coding XR: Accelerating AI + XR prototyping with XR Blocks and Gemini",
-              "publication": "Google Research",
-              "url": "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/"
+              "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+              "publication": "arXiv",
+              "url": "https://arxiv.org/abs/2603.24621"
             }
           ]
         },
         "zh-TW": {
-          "category": "原型工作流",
-          "headline": "Google Research 在推 Vibe Coding XR，XR 原型也开始被自然语言工作流接管",
-          "deck": "Google Research 介绍 Vibe Coding XR，希望加速 AI + XR 原型制作。自然语言工具正在把“先会工具”改成“先会表达意图”。",
+          "category": "能力边界",
+          "headline": "ARC-AGI-3 把“会不会自主摸清规则”重新抬上台，前沿代理还远没到会玩新游戏",
+          "deck": "Francois Chollet 发布 ARC-AGI-3，聚焦抽象、交互、无明确说明的新环境探索。作者称人类可解率为 100%，而截至 2026 年 3 月的前沿 AI 仍低于 1%。",
           "kicker": "觀察",
           "byline": "編輯部整理",
           "summary": [
-            "从网页到 XR，原型工具都在被 AI 重写，表达能力本身正在变成开发入口。"
+            "新论文提出 ARC-AGI-3，继续沿着 ARC 系列去测“面对完全陌生的抽象任务，智能体能否自行探索、推断目标、建立环境模型并规划动作”。与传统依赖语言和知识储备的 benchmark 不同，ARC-AGI-3 刻意剥离外部知识，专注流体适应效率。作者称，经过人类测试校准后，这些环境人类可 100% 解出，而截至 2026 年 3 月的前沿 AI 得分仍低于 1%。",
+            "它带来的观察并不新潮，却很刺耳：当行业把注意力大量放在工具调用、长上下文和工作流自动化时，真正的“陌生环境适应力”可能依然没有明显突破。代理系统今天看起来很会做事，很多时候是因为世界已经被预先格式化；一旦环境不再贴着说明书走，通用智能的缺口就重新露出来了。"
           ],
           "bullets": [
-            "AI 原型工具在向 XR 延伸。"
+            "ARC-AGI-3 刻意测试陌生环境中的探索与规则发现。",
+            "作者称人类可解率为 100%，前沿 AI 仍低于 1%。",
+            "很多代理能力可能仍严重依赖环境被预先整理过。"
           ],
-          "significance": "“会描述需求”可能会越来越接近“会做产品”。",
+          "significance": "如果最强代理还不会在陌生世界里快速摸清规则，那么“离 AGI 还差什么”这个问题就并没有被产品热度盖过去。",
           "sources": [
             {
-              "title": "Vibe Coding XR: Accelerating AI + XR prototyping with XR Blocks and Gemini",
-              "publication": "Google Research",
-              "url": "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/"
+              "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+              "publication": "arXiv",
+              "url": "https://arxiv.org/abs/2603.24621"
             }
           ]
         },
         "en": {
-          "category": "Prototyping Workflow",
-          "headline": "Google Research is pushing Vibe Coding XR, bringing natural-language workflows into XR prototyping",
-          "deck": "Google Research introduced Vibe Coding XR as a way to accelerate AI-plus-XR prototyping. Natural-language tools are turning product creation from “know the tool first” into “express the intent first.”",
-          "kicker": "Observation",
+          "category": "Capability Frontier",
+          "headline": "ARC-AGI-3 puts rule discovery back at center stage, suggesting frontier agents are still far from playing truly new games well",
+          "deck": "Francois Chollet has introduced ARC-AGI-3, an abstract interactive benchmark focused on exploring unfamiliar environments without explicit instructions. The paper says humans solve 100 percent of the tasks, while frontier AI systems remain below 1 percent as of March 2026.",
+          "kicker": "Insight",
           "byline": "Signal Tide Desk",
           "summary": [
-            "From web apps to XR, prototyping tools are being rewritten by AI, making expression itself a development interface."
+            "A new paper introduces ARC-AGI-3, extending the ARC line of benchmarks to test whether agents can explore unfamiliar abstract environments, infer goals, build internal models, and plan actions without explicit instructions. Unlike benchmarks that reward language priors or external knowledge, ARC-AGI-3 is designed to focus on fluid adaptive efficiency. The authors say humans solve all of the environments, while frontier AI systems remain below 1 percent as of March 2026.",
+            "The uncomfortable takeaway is not fashionable but important: while the industry is fixated on tool use, long context, and workflow automation, genuine adaptation to unfamiliar environments may still be largely unsolved. Today’s agents often look competent because the world has already been preformatted for them. Once the instruction manual disappears, the gap between polished productivity and general intelligence becomes visible again."
           ],
           "bullets": [
-            "AI prototyping tools are extending into XR."
+            "ARC-AGI-3 explicitly tests exploration and rule discovery in novel environments.",
+            "The paper claims humans solve all tasks while frontier AI stays below 1 percent.",
+            "Many current agent capabilities may still depend on heavily structured environments."
           ],
-          "significance": "Being able to describe what you want may get closer and closer to being able to build it.",
+          "significance": "If the strongest agents still cannot rapidly infer rules in unfamiliar worlds, the question of what remains between today’s systems and AGI has not been buried by product excitement.",
           "sources": [
             {
-              "title": "Vibe Coding XR: Accelerating AI + XR prototyping with XR Blocks and Gemini",
-              "publication": "Google Research",
-              "url": "https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/"
+              "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+              "publication": "arXiv",
+              "url": "https://arxiv.org/abs/2603.24621"
             }
           ]
         }
       }
     },
     {
-      "id": "ll-cool-j-james-manyika-creativity",
-      "section": "tech-humanities",
-      "category": "创作与 AI",
-      "headline": "James Manyika 和 LL COOL J 谈 AI 与创作，技术公司的“创意叙事”还在继续往文化圈伸",
-      "deck": "Google AI Blog 发布 James Manyika 与 LL COOL J 关于 AI 与创作的对谈。技术公司越来越需要用文化语言解释 AI，而不仅是用参数和基准。",
-      "kicker": "技术人文",
+      "id": "multi-agent-memetic-drift",
+      "section": "insight",
+      "category": "群体行为",
+      "headline": "多代理不一定更聪明，论文提醒：有时只是一起把随机答案越说越真",
+      "deck": "一篇新论文把多代理共识解释为“模因漂移”：代理彼此把对方的采样输出当证据，随机选择会被层层放大。集体智能有时更像抽奖，而不是协作。",
+      "kicker": "观察",
       "byline": "编辑部整理",
-      "publishedAt": "2026-03-26T17:00:00.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 2,
+      "publishedAt": "2026-03-27T04:00:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 3,
       "tags": [
-        "Google",
-        "Creativity",
-        "Culture"
+        "Multi-Agent",
+        "LLMs",
+        "Collective Intelligence",
+        "Memetic Drift"
       ],
       "summary": [
-        "AI 的公共叙事正在越来越依赖艺术、创作和文化场景来解释自身。"
+        "论文《When Is Collective Intelligence a Lottery?》研究了由大模型驱动的多代理系统为何会快速形成共识。作者提出 Quantized Simplex Gossip 模型，认为代理在互动中会把彼此的输出当作新的证据，哪怕最开始没有任何标签偏好，也可能因为采样偶然性一路滚成稳定共识。研究把这种现象类比为“模因漂移”，并给出了与群体规模、通信带宽、适应率和内部不确定性相关的标度规律。",
+        "这篇工作最值得记住的，不是具体公式，而是它拆穿了一种常见直觉：代理越多，未必越接近真相。多代理系统当然可能带来纠错，但也可能更快把无根据的初始偏差变成看似坚实的集体判断。未来评估 agent swarm，不能只看它们最后是否达成一致，还要看一致是怎么来的。"
       ],
       "bullets": [
-        "文化话语正在进入 AI 主叙事。"
+        "论文把多代理共识机制解释成“模因漂移”。",
+        "随机早期输出可能被群体互动不断放大。",
+        "评估群体代理时，过程来源和共识质量同样关键。"
       ],
-      "significance": "技术一旦走向大众，就必须学会用人文语言说话。",
+      "significance": "未来的群体代理如果要承担高风险决策，就必须证明自己不是“更高级的传话游戏”。",
       "sources": [
         {
-          "title": "Watch James Manyika talk AI and creativity with LL COOL J",
-          "publication": "Google AI Blog",
-          "url": "https://blog.google/technology/ai/james-manyika-ll-cool-j-ai-creativity/"
+          "title": "When Is Collective Intelligence a Lottery? Multi-Agent Scaling Laws for Memetic Drift in LLMs",
+          "publication": "arXiv",
+          "url": "https://arxiv.org/abs/2603.24676"
         }
       ],
       "i18n": {
         "zh-CN": {
-          "category": "创作与 AI",
-          "headline": "James Manyika 和 LL COOL J 谈 AI 与创作，技术公司的“创意叙事”还在继续往文化圈伸",
-          "deck": "Google AI Blog 发布 James Manyika 与 LL COOL J 关于 AI 与创作的对谈。技术公司越来越需要用文化语言解释 AI，而不仅是用参数和基准。",
-          "kicker": "技术人文",
+          "category": "群体行为",
+          "headline": "多代理不一定更聪明，论文提醒：有时只是一起把随机答案越说越真",
+          "deck": "一篇新论文把多代理共识解释为“模因漂移”：代理彼此把对方的采样输出当证据，随机选择会被层层放大。集体智能有时更像抽奖，而不是协作。",
+          "kicker": "观察",
           "byline": "编辑部整理",
           "summary": [
-            "AI 的公共叙事正在越来越依赖艺术、创作和文化场景来解释自身。"
+            "论文《When Is Collective Intelligence a Lottery?》研究了由大模型驱动的多代理系统为何会快速形成共识。作者提出 Quantized Simplex Gossip 模型，认为代理在互动中会把彼此的输出当作新的证据，哪怕最开始没有任何标签偏好，也可能因为采样偶然性一路滚成稳定共识。研究把这种现象类比为“模因漂移”，并给出了与群体规模、通信带宽、适应率和内部不确定性相关的标度规律。",
+            "这篇工作最值得记住的，不是具体公式，而是它拆穿了一种常见直觉：代理越多，未必越接近真相。多代理系统当然可能带来纠错，但也可能更快把无根据的初始偏差变成看似坚实的集体判断。未来评估 agent swarm，不能只看它们最后是否达成一致，还要看一致是怎么来的。"
           ],
           "bullets": [
-            "文化话语正在进入 AI 主叙事。"
+            "论文把多代理共识机制解释成“模因漂移”。",
+            "随机早期输出可能被群体互动不断放大。",
+            "评估群体代理时，过程来源和共识质量同样关键。"
           ],
-          "significance": "技术一旦走向大众，就必须学会用人文语言说话。",
+          "significance": "未来的群体代理如果要承担高风险决策，就必须证明自己不是“更高级的传话游戏”。",
           "sources": [
             {
-              "title": "Watch James Manyika talk AI and creativity with LL COOL J",
-              "publication": "Google AI Blog",
-              "url": "https://blog.google/technology/ai/james-manyika-ll-cool-j-ai-creativity/"
+              "title": "When Is Collective Intelligence a Lottery? Multi-Agent Scaling Laws for Memetic Drift in LLMs",
+              "publication": "arXiv",
+              "url": "https://arxiv.org/abs/2603.24676"
             }
           ]
         },
         "zh-TW": {
-          "category": "创作与 AI",
-          "headline": "James Manyika 和 LL COOL J 谈 AI 与创作，技术公司的“创意叙事”还在继续往文化圈伸",
-          "deck": "Google AI Blog 发布 James Manyika 与 LL COOL J 关于 AI 与创作的对谈。技术公司越来越需要用文化语言解释 AI，而不仅是用参数和基准。",
-          "kicker": "技術人文",
+          "category": "群体行为",
+          "headline": "多代理不一定更聪明，论文提醒：有时只是一起把随机答案越说越真",
+          "deck": "一篇新论文把多代理共识解释为“模因漂移”：代理彼此把对方的采样输出当证据，随机选择会被层层放大。集体智能有时更像抽奖，而不是协作。",
+          "kicker": "觀察",
           "byline": "編輯部整理",
           "summary": [
-            "AI 的公共叙事正在越来越依赖艺术、创作和文化场景来解释自身。"
+            "论文《When Is Collective Intelligence a Lottery?》研究了由大模型驱动的多代理系统为何会快速形成共识。作者提出 Quantized Simplex Gossip 模型，认为代理在互动中会把彼此的输出当作新的证据，哪怕最开始没有任何标签偏好，也可能因为采样偶然性一路滚成稳定共识。研究把这种现象类比为“模因漂移”，并给出了与群体规模、通信带宽、适应率和内部不确定性相关的标度规律。",
+            "这篇工作最值得记住的，不是具体公式，而是它拆穿了一种常见直觉：代理越多，未必越接近真相。多代理系统当然可能带来纠错，但也可能更快把无根据的初始偏差变成看似坚实的集体判断。未来评估 agent swarm，不能只看它们最后是否达成一致，还要看一致是怎么来的。"
           ],
           "bullets": [
-            "文化话语正在进入 AI 主叙事。"
+            "论文把多代理共识机制解释成“模因漂移”。",
+            "随机早期输出可能被群体互动不断放大。",
+            "评估群体代理时，过程来源和共识质量同样关键。"
           ],
-          "significance": "技术一旦走向大众，就必须学会用人文语言说话。",
+          "significance": "未来的群体代理如果要承担高风险决策，就必须证明自己不是“更高级的传话游戏”。",
           "sources": [
             {
-              "title": "Watch James Manyika talk AI and creativity with LL COOL J",
-              "publication": "Google AI Blog",
-              "url": "https://blog.google/technology/ai/james-manyika-ll-cool-j-ai-creativity/"
+              "title": "When Is Collective Intelligence a Lottery? Multi-Agent Scaling Laws for Memetic Drift in LLMs",
+              "publication": "arXiv",
+              "url": "https://arxiv.org/abs/2603.24676"
             }
           ]
         },
         "en": {
-          "category": "Creativity and AI",
-          "headline": "James Manyika and LL COOL J are talking about AI and creativity, extending tech’s creative narrative further into culture",
-          "deck": "Google AI Blog published a conversation between James Manyika and LL COOL J on AI and creativity. Tech companies increasingly need cultural language, not just benchmarks and parameters, to explain AI.",
-          "kicker": "Humanities",
+          "category": "Collective Behavior",
+          "headline": "Multi-agent systems are not always becoming smarter together; sometimes they are just amplifying a random answer until it looks true",
+          "deck": "A new paper frames multi-agent consensus as memetic drift: agents treat one another’s sampled outputs as evidence, allowing arbitrary choices to compound over time. Collective intelligence can sometimes look more like a lottery than collaboration.",
+          "kicker": "Insight",
           "byline": "Signal Tide Desk",
           "summary": [
-            "Public narratives around AI increasingly rely on art, creativity, and culture to explain themselves."
+            "The paper “When Is Collective Intelligence a Lottery?” studies why LLM-based multi-agent systems often reach consensus so quickly. The authors introduce a model called Quantized Simplex Gossip and argue that agents repeatedly treat one another’s outputs as fresh evidence, so an arbitrary early choice can snowball into stable agreement even when no agent initially prefers one label over another. They call this regime memetic drift and derive scaling laws tied to population size, bandwidth, adaptation rate, and internal uncertainty.",
+            "The most useful lesson is not the math but the warning it carries. Adding more agents does not automatically move a system closer to truth. Multi-agent setups can support error correction, but they can also amplify arbitrary noise into apparently robust social judgment. Future evaluations of agent swarms will need to ask not just whether they agree, but how that agreement emerged."
           ],
           "bullets": [
-            "Cultural discourse is entering AI’s core narrative."
+            "The paper interprets multi-agent consensus through the lens of memetic drift.",
+            "Random early outputs can be amplified through repeated interaction.",
+            "When evaluating agent collectives, the path to agreement matters as much as agreement itself."
           ],
-          "significance": "Once technology moves into the mainstream, it has to learn how to speak in humanistic language.",
+          "significance": "If multi-agent systems are going to handle high-stakes decisions, they will need to prove they are not just sophisticated telephone games.",
           "sources": [
             {
-              "title": "Watch James Manyika talk AI and creativity with LL COOL J",
-              "publication": "Google AI Blog",
-              "url": "https://blog.google/technology/ai/james-manyika-ll-cool-j-ai-creativity/"
+              "title": "When Is Collective Intelligence a Lottery? Multi-Agent Scaling Laws for Memetic Drift in LLMs",
+              "publication": "arXiv",
+              "url": "https://arxiv.org/abs/2603.24676"
             }
           ]
         }
       }
     },
     {
-      "id": "ai-reporters-writing-editing",
+      "id": "trust-as-monitoring-paper",
+      "section": "insight",
+      "category": "治理机制",
+      "headline": "“信任”不是态度而是少检查一次，研究把 AI 治理问题写成了监控成本问题",
+      "deck": "新研究用演化博弈建模用户与开发者关系，认为只有当违规惩罚高于安全成本、且用户仍负担得起偶尔监控时，安全且广泛采用的均衡才稳定。",
+      "kicker": "观察",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-27T04:00:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 3,
+      "tags": [
+        "AI Governance",
+        "Trust",
+        "Monitoring",
+        "Safety"
+      ],
+      "summary": [
+        "论文《Trust as Monitoring》把用户信任重新定义为“减少检查行为”，并用演化博弈分析用户与 AI 开发者在重复互动中的共演。研究指出，在监控成本较高、处罚较弱的情况下，系统很容易滑向两种糟糕状态：要么用户干脆不采用，要么不安全的系统却被广泛采用。只有在违规处罚足够重、且用户仍能承担偶尔监督的条件下，安全且高采用率的平衡才最稳。",
+        "这篇研究的价值在于它把“提升公众信任”这种口号翻译成了更冷静的制度语言：透明度是不是足够高，审计是不是足够便宜，违规是不是足够疼。很多 AI 公司口中的“建立信任”，如果对应到现实只是让用户少看、少问、少审，那其实不是治理进步，而可能是更高明的放松警戒。"
+      ],
+      "bullets": [
+        "论文把信任理解为“减少监控”的策略选择。",
+        "安全采用的理想均衡依赖低成本监督与高强度处罚。",
+        "“建立信任”必须落实成透明度、审计成本和问责强度。"
+      ],
+      "significance": "AI 治理若只谈信任而不谈检查成本，最后很可能只是把风险外包给更少提问的用户。",
+      "sources": [
+        {
+          "title": "Trust as Monitoring: Evolutionary Dynamics of User Trust and AI Developer Behaviour",
+          "publication": "arXiv",
+          "url": "https://arxiv.org/abs/2603.24742"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "治理机制",
+          "headline": "“信任”不是态度而是少检查一次，研究把 AI 治理问题写成了监控成本问题",
+          "deck": "新研究用演化博弈建模用户与开发者关系，认为只有当违规惩罚高于安全成本、且用户仍负担得起偶尔监控时，安全且广泛采用的均衡才稳定。",
+          "kicker": "观察",
+          "byline": "编辑部整理",
+          "summary": [
+            "论文《Trust as Monitoring》把用户信任重新定义为“减少检查行为”，并用演化博弈分析用户与 AI 开发者在重复互动中的共演。研究指出，在监控成本较高、处罚较弱的情况下，系统很容易滑向两种糟糕状态：要么用户干脆不采用，要么不安全的系统却被广泛采用。只有在违规处罚足够重、且用户仍能承担偶尔监督的条件下，安全且高采用率的平衡才最稳。",
+            "这篇研究的价值在于它把“提升公众信任”这种口号翻译成了更冷静的制度语言：透明度是不是足够高，审计是不是足够便宜，违规是不是足够疼。很多 AI 公司口中的“建立信任”，如果对应到现实只是让用户少看、少问、少审，那其实不是治理进步，而可能是更高明的放松警戒。"
+          ],
+          "bullets": [
+            "论文把信任理解为“减少监控”的策略选择。",
+            "安全采用的理想均衡依赖低成本监督与高强度处罚。",
+            "“建立信任”必须落实成透明度、审计成本和问责强度。"
+          ],
+          "significance": "AI 治理若只谈信任而不谈检查成本，最后很可能只是把风险外包给更少提问的用户。",
+          "sources": [
+            {
+              "title": "Trust as Monitoring: Evolutionary Dynamics of User Trust and AI Developer Behaviour",
+              "publication": "arXiv",
+              "url": "https://arxiv.org/abs/2603.24742"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "治理机制",
+          "headline": "“信任”不是态度而是少检查一次，研究把 AI 治理问题写成了监控成本问题",
+          "deck": "新研究用演化博弈建模用户与开发者关系，认为只有当违规惩罚高于安全成本、且用户仍负担得起偶尔监控时，安全且广泛采用的均衡才稳定。",
+          "kicker": "觀察",
+          "byline": "編輯部整理",
+          "summary": [
+            "论文《Trust as Monitoring》把用户信任重新定义为“减少检查行为”，并用演化博弈分析用户与 AI 开发者在重复互动中的共演。研究指出，在监控成本较高、处罚较弱的情况下，系统很容易滑向两种糟糕状态：要么用户干脆不采用，要么不安全的系统却被广泛采用。只有在违规处罚足够重、且用户仍能承担偶尔监督的条件下，安全且高采用率的平衡才最稳。",
+            "这篇研究的价值在于它把“提升公众信任”这种口号翻译成了更冷静的制度语言：透明度是不是足够高，审计是不是足够便宜，违规是不是足够疼。很多 AI 公司口中的“建立信任”，如果对应到现实只是让用户少看、少问、少审，那其实不是治理进步，而可能是更高明的放松警戒。"
+          ],
+          "bullets": [
+            "论文把信任理解为“减少监控”的策略选择。",
+            "安全采用的理想均衡依赖低成本监督与高强度处罚。",
+            "“建立信任”必须落实成透明度、审计成本和问责强度。"
+          ],
+          "significance": "AI 治理若只谈信任而不谈检查成本，最后很可能只是把风险外包给更少提问的用户。",
+          "sources": [
+            {
+              "title": "Trust as Monitoring: Evolutionary Dynamics of User Trust and AI Developer Behaviour",
+              "publication": "arXiv",
+              "url": "https://arxiv.org/abs/2603.24742"
+            }
+          ]
+        },
+        "en": {
+          "category": "Governance Mechanisms",
+          "headline": "A new paper argues that trust is not a feeling but a decision to monitor less, reframing AI governance around the cost of checking",
+          "deck": "A new evolutionary game-theory study models trust between users and AI developers and finds that safe, widely adopted systems are stable only when penalties for unsafe behavior exceed the cost of safety and users can still afford occasional monitoring.",
+          "kicker": "Insight",
+          "byline": "Signal Tide Desk",
+          "summary": [
+            "The paper “Trust as Monitoring” reframes user trust as a choice to check less often and uses evolutionary game theory to model repeated interactions between users and AI developers. The authors find that when monitoring is expensive and penalties are weak, systems tend to drift toward two bad equilibria: either users stop adopting the technology or unsafe systems become widely adopted. The desirable outcome—safe systems that are broadly used—emerges only when sanctions outweigh the extra cost of safety and users can still afford occasional oversight.",
+            "Its real contribution is to translate the vague slogan of “building trust” into institutional terms: Is transparency high enough? Is auditing cheap enough? Are penalties meaningful enough? If what companies call trust-building mainly results in users checking less, asking less, and auditing less, that is not governance progress. It may simply be a more polished form of lowered vigilance."
+          ],
+          "bullets": [
+            "The paper treats trust as a strategic decision to monitor less.",
+            "The desirable equilibrium depends on cheap oversight and strong penalties.",
+            "Trust-building must be grounded in transparency, auditing cost, and accountability."
+          ],
+          "significance": "If AI governance talks about trust without talking about the cost of checking, it risks outsourcing safety to users who simply ask fewer questions.",
+          "sources": [
+            {
+              "title": "Trust as Monitoring: Evolutionary Dynamics of User Trust and AI Developer Behaviour",
+              "publication": "arXiv",
+              "url": "https://arxiv.org/abs/2603.24742"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ai-reporters-rewrite-desk",
       "section": "tech-humanities",
-      "category": "新闻生产",
-      "headline": "记者开始用 AI 写和改稿，媒体行业真正难的是边用边守住风格与责任",
-      "deck": "Wired 报道一批科技记者如何借助 AI 写稿与改稿。媒体工作并没有被简单自动化，而是在重谈什么能交给机器、什么必须由人负责。",
+      "category": "媒体劳动",
+      "headline": "独立科技记者开始把 AI 当“重写台”，新闻行业先改的可能不是报道而是写作分工",
+      "deck": "WIRED 采访了一批将 Claude 等工具接入采访、整理和改稿流程的独立记者。AI 没有消失写作者，而是在重新划分谁负责获取信息、谁负责把它写出来。",
       "kicker": "技术人文",
       "byline": "编辑部整理",
       "publishedAt": "2026-03-26T18:00:00.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 2,
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 3,
       "tags": [
-        "Media",
         "Journalism",
-        "AI Writing"
+        "Wired",
+        "Claude",
+        "Writing"
       ],
       "summary": [
-        "AI 进入新闻业后，真正难的不是提速，而是如何不把判断力和责任一并外包。"
+        "WIRED 报道了一批独立科技记者如何把 Claude、Wispr Flow 等工具接入自己的工作流：有人把想法口述给 AI，由其先写第一稿；有人把过去文章和风格说明喂给模型，让它扮演“只提反馈、不替写”的编辑。对独立作者来说，AI 最诱人的地方并不是代替采访，而是填补没有编辑、事实核查和重写台之后留下的生产空缺。",
+        "这类变化耐人寻味，因为它没有立刻把新闻行业变成“机器写稿”，反而更像把旧报业时代的重写台、编辑台和助理职能重新软件化。人类记者的价值于是被重新逼问：是文风？判断？采访关系？还是抢独家？AI 进入写作之后，媒体行业先要回答的，可能不是“能不能用”，而是“哪些劳动仍然必须由人承担”。"
       ],
       "bullets": [
-        "媒体行业正在重划 AI 使用边界。"
+        "独立记者正在把 AI 接进起草、修改与整理流程。",
+        "AI 被用来重建缺席的编辑与重写台资源。",
+        "新闻业的下一个问题是重新定义哪些劳动必须保留为“人做”。"
       ],
-      "significance": "凡是需要公共信任的行业，都会先遇到这个问题。",
+      "significance": "生成式 AI 真正改变媒体的方式，也许不是代替记者，而是悄悄重组记者身边整套协作系统。",
       "sources": [
         {
           "title": "Meet the Tech Reporters Using AI to Help Write and Edit Their Stories",
-          "publication": "Wired",
-          "url": "https://www.wired.com/story/tech-reporters-using-ai-to-help-write-and-edit-their-stories/"
+          "publication": "WIRED",
+          "url": "https://www.wired.com/story/tech-reporters-using-ai-write-edit-stories/"
         }
       ],
       "i18n": {
         "zh-CN": {
-          "category": "新闻生产",
-          "headline": "记者开始用 AI 写和改稿，媒体行业真正难的是边用边守住风格与责任",
-          "deck": "Wired 报道一批科技记者如何借助 AI 写稿与改稿。媒体工作并没有被简单自动化，而是在重谈什么能交给机器、什么必须由人负责。",
+          "category": "媒体劳动",
+          "headline": "独立科技记者开始把 AI 当“重写台”，新闻行业先改的可能不是报道而是写作分工",
+          "deck": "WIRED 采访了一批将 Claude 等工具接入采访、整理和改稿流程的独立记者。AI 没有消失写作者，而是在重新划分谁负责获取信息、谁负责把它写出来。",
           "kicker": "技术人文",
           "byline": "编辑部整理",
           "summary": [
-            "AI 进入新闻业后，真正难的不是提速，而是如何不把判断力和责任一并外包。"
+            "WIRED 报道了一批独立科技记者如何把 Claude、Wispr Flow 等工具接入自己的工作流：有人把想法口述给 AI，由其先写第一稿；有人把过去文章和风格说明喂给模型，让它扮演“只提反馈、不替写”的编辑。对独立作者来说，AI 最诱人的地方并不是代替采访，而是填补没有编辑、事实核查和重写台之后留下的生产空缺。",
+            "这类变化耐人寻味，因为它没有立刻把新闻行业变成“机器写稿”，反而更像把旧报业时代的重写台、编辑台和助理职能重新软件化。人类记者的价值于是被重新逼问：是文风？判断？采访关系？还是抢独家？AI 进入写作之后，媒体行业先要回答的，可能不是“能不能用”，而是“哪些劳动仍然必须由人承担”。"
           ],
           "bullets": [
-            "媒体行业正在重划 AI 使用边界。"
+            "独立记者正在把 AI 接进起草、修改与整理流程。",
+            "AI 被用来重建缺席的编辑与重写台资源。",
+            "新闻业的下一个问题是重新定义哪些劳动必须保留为“人做”。"
           ],
-          "significance": "凡是需要公共信任的行业，都会先遇到这个问题。",
+          "significance": "生成式 AI 真正改变媒体的方式，也许不是代替记者，而是悄悄重组记者身边整套协作系统。",
           "sources": [
             {
               "title": "Meet the Tech Reporters Using AI to Help Write and Edit Their Stories",
-              "publication": "Wired",
-              "url": "https://www.wired.com/story/tech-reporters-using-ai-to-help-write-and-edit-their-stories/"
+              "publication": "WIRED",
+              "url": "https://www.wired.com/story/tech-reporters-using-ai-write-edit-stories/"
             }
           ]
         },
         "zh-TW": {
-          "category": "新闻生产",
-          "headline": "记者开始用 AI 写和改稿，媒体行业真正难的是边用边守住风格与责任",
-          "deck": "Wired 报道一批科技记者如何借助 AI 写稿与改稿。媒体工作并没有被简单自动化，而是在重谈什么能交给机器、什么必须由人负责。",
+          "category": "媒体劳动",
+          "headline": "独立科技记者开始把 AI 当“重写台”，新闻行业先改的可能不是报道而是写作分工",
+          "deck": "WIRED 采访了一批将 Claude 等工具接入采访、整理和改稿流程的独立记者。AI 没有消失写作者，而是在重新划分谁负责获取信息、谁负责把它写出来。",
           "kicker": "技術人文",
           "byline": "編輯部整理",
           "summary": [
-            "AI 进入新闻业后，真正难的不是提速，而是如何不把判断力和责任一并外包。"
+            "WIRED 报道了一批独立科技记者如何把 Claude、Wispr Flow 等工具接入自己的工作流：有人把想法口述给 AI，由其先写第一稿；有人把过去文章和风格说明喂给模型，让它扮演“只提反馈、不替写”的编辑。对独立作者来说，AI 最诱人的地方并不是代替采访，而是填补没有编辑、事实核查和重写台之后留下的生产空缺。",
+            "这类变化耐人寻味，因为它没有立刻把新闻行业变成“机器写稿”，反而更像把旧报业时代的重写台、编辑台和助理职能重新软件化。人类记者的价值于是被重新逼问：是文风？判断？采访关系？还是抢独家？AI 进入写作之后，媒体行业先要回答的，可能不是“能不能用”，而是“哪些劳动仍然必须由人承担”。"
           ],
           "bullets": [
-            "媒体行业正在重划 AI 使用边界。"
+            "独立记者正在把 AI 接进起草、修改与整理流程。",
+            "AI 被用来重建缺席的编辑与重写台资源。",
+            "新闻业的下一个问题是重新定义哪些劳动必须保留为“人做”。"
           ],
-          "significance": "凡是需要公共信任的行业，都会先遇到这个问题。",
+          "significance": "生成式 AI 真正改变媒体的方式，也许不是代替记者，而是悄悄重组记者身边整套协作系统。",
           "sources": [
             {
               "title": "Meet the Tech Reporters Using AI to Help Write and Edit Their Stories",
-              "publication": "Wired",
-              "url": "https://www.wired.com/story/tech-reporters-using-ai-to-help-write-and-edit-their-stories/"
+              "publication": "WIRED",
+              "url": "https://www.wired.com/story/tech-reporters-using-ai-write-edit-stories/"
             }
           ]
         },
         "en": {
-          "category": "News Production",
-          "headline": "Reporters are using AI to write and edit, but media’s harder task is preserving style and responsibility while doing so",
-          "deck": "Wired reports on how tech journalists are using AI to help write and edit stories. Journalism is not being simply automated; it is renegotiating what can be delegated to machines and what must remain accountable to humans.",
-          "kicker": "Humanities",
+          "category": "Media Labor",
+          "headline": "Independent tech reporters are treating AI as a rewrite desk, suggesting journalism may change its division of labor before it changes reporting itself",
+          "deck": "WIRED spoke with independent reporters who now weave tools like Claude into transcription, drafting, and editing workflows. AI has not erased the writer so much as it has begun to redistribute who gathers information and who shapes it into text.",
+          "kicker": "Tech & Humanities",
           "byline": "Signal Tide Desk",
           "summary": [
-            "Once AI enters journalism, the hard part is not speed but making sure judgment and responsibility are not outsourced with it."
+            "WIRED reports that a growing set of independent tech reporters are integrating tools like Claude and Wispr Flow into their workflow. Some dictate ideas and let an AI produce a first draft; others feed prior work and style notes into the model so it can act as an editor without actually writing sentences for them. For independent journalists, the attraction is less about replacing reporting than about recreating lost editorial infrastructure such as rewrite desks, copyeditors, and fact-check support.",
+            "That makes the story more interesting than a simple “AI writes articles now” headline. In some ways, these tools resemble a software version of older newsroom labor structures. The pressure point becomes defining the human journalist’s value more clearly: voice, judgment, source relationships, verification, or scoops. As AI enters writing, journalism may first have to renegotiate its labor boundaries before it decides its moral boundaries."
           ],
           "bullets": [
-            "Newsrooms are redrawing the boundaries of AI use."
+            "Independent reporters are using AI in drafting, editing, and synthesis workflows.",
+            "AI is being used to rebuild editorial support functions that independents lack.",
+            "Journalism’s next challenge may be redefining which kinds of labor must remain human."
           ],
-          "significance": "Any profession that depends on public trust will run into this question early.",
+          "significance": "Generative AI may change media less by replacing reporters than by quietly reorganizing the support system around them.",
           "sources": [
             {
               "title": "Meet the Tech Reporters Using AI to Help Write and Edit Their Stories",
-              "publication": "Wired",
-              "url": "https://www.wired.com/story/tech-reporters-using-ai-to-help-write-and-edit-their-stories/"
+              "publication": "WIRED",
+              "url": "https://www.wired.com/story/tech-reporters-using-ai-write-edit-stories/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ll-cool-j-manyika-creativity-dialogue",
+      "section": "tech-humanities",
+      "category": "创作观念",
+      "headline": "LL COOL J 说 AI 能放大创作机会，但“神来一笔”还得留给人",
+      "deck": "在 Google 的一场对谈中，LL COOL J 与 James Manyika 讨论 AI 与创造力的关系：技术可以降低门槛，但不能替代决定作品灵魂的那一下。",
+      "kicker": "技术人文",
+      "byline": "编辑部整理",
+      "publishedAt": "2026-03-26T17:00:00.000Z",
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 2,
+      "tags": [
+        "Creativity",
+        "Google",
+        "LL COOL J",
+        "AI Culture"
+      ],
+      "summary": [
+        "Google 发布了 James Manyika 与 LL COOL J 的最新对谈。LL 回顾自己从鼓机时代一路走到生成式 AI 的创作经验，认为新工具确实能让更多人进入创作现场、降低表达门槛，但也强调真正让作品成立的，仍是人的感受力、判断和那种无法完全程式化的“divine spark”。",
+        "这类讨论常被当作公关软内容，但其实反映了一个很真实的文化分水岭：当 AI 让制作更便宜、更快、更普及，社会到底还会把什么视为“作者性”？创作的门槛下降是好消息，可一旦所有人都能轻松生产形式完整的作品，人们反而会更在意作品里是否还有不可替代的人味。"
+      ],
+      "bullets": [
+        "LL COOL J 认为 AI 能扩大创作入口，但不能取代人的火花。",
+        "讨论核心不是技术能不能做，而是作者性会如何被重估。",
+        "当生成门槛下降，观众可能更在意作品里的“人味”。"
+      ],
+      "significance": "未来最难的文化谈判，可能不是“AI 能不能创作”，而是“我们还把什么算作人的创作”。",
+      "sources": [
+        {
+          "title": "Watch James Manyika talk AI and creativity with LL COOL J.",
+          "publication": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/"
+        }
+      ],
+      "i18n": {
+        "zh-CN": {
+          "category": "创作观念",
+          "headline": "LL COOL J 说 AI 能放大创作机会，但“神来一笔”还得留给人",
+          "deck": "在 Google 的一场对谈中，LL COOL J 与 James Manyika 讨论 AI 与创造力的关系：技术可以降低门槛，但不能替代决定作品灵魂的那一下。",
+          "kicker": "技术人文",
+          "byline": "编辑部整理",
+          "summary": [
+            "Google 发布了 James Manyika 与 LL COOL J 的最新对谈。LL 回顾自己从鼓机时代一路走到生成式 AI 的创作经验，认为新工具确实能让更多人进入创作现场、降低表达门槛，但也强调真正让作品成立的，仍是人的感受力、判断和那种无法完全程式化的“divine spark”。",
+            "这类讨论常被当作公关软内容，但其实反映了一个很真实的文化分水岭：当 AI 让制作更便宜、更快、更普及，社会到底还会把什么视为“作者性”？创作的门槛下降是好消息，可一旦所有人都能轻松生产形式完整的作品，人们反而会更在意作品里是否还有不可替代的人味。"
+          ],
+          "bullets": [
+            "LL COOL J 认为 AI 能扩大创作入口，但不能取代人的火花。",
+            "讨论核心不是技术能不能做，而是作者性会如何被重估。",
+            "当生成门槛下降，观众可能更在意作品里的“人味”。"
+          ],
+          "significance": "未来最难的文化谈判，可能不是“AI 能不能创作”，而是“我们还把什么算作人的创作”。",
+          "sources": [
+            {
+              "title": "Watch James Manyika talk AI and creativity with LL COOL J.",
+              "publication": "Google",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/"
+            }
+          ]
+        },
+        "zh-TW": {
+          "category": "创作观念",
+          "headline": "LL COOL J 说 AI 能放大创作机会，但“神来一笔”还得留给人",
+          "deck": "在 Google 的一场对谈中，LL COOL J 与 James Manyika 讨论 AI 与创造力的关系：技术可以降低门槛，但不能替代决定作品灵魂的那一下。",
+          "kicker": "技術人文",
+          "byline": "編輯部整理",
+          "summary": [
+            "Google 发布了 James Manyika 与 LL COOL J 的最新对谈。LL 回顾自己从鼓机时代一路走到生成式 AI 的创作经验，认为新工具确实能让更多人进入创作现场、降低表达门槛，但也强调真正让作品成立的，仍是人的感受力、判断和那种无法完全程式化的“divine spark”。",
+            "这类讨论常被当作公关软内容，但其实反映了一个很真实的文化分水岭：当 AI 让制作更便宜、更快、更普及，社会到底还会把什么视为“作者性”？创作的门槛下降是好消息，可一旦所有人都能轻松生产形式完整的作品，人们反而会更在意作品里是否还有不可替代的人味。"
+          ],
+          "bullets": [
+            "LL COOL J 认为 AI 能扩大创作入口，但不能取代人的火花。",
+            "讨论核心不是技术能不能做，而是作者性会如何被重估。",
+            "当生成门槛下降，观众可能更在意作品里的“人味”。"
+          ],
+          "significance": "未来最难的文化谈判，可能不是“AI 能不能创作”，而是“我们还把什么算作人的创作”。",
+          "sources": [
+            {
+              "title": "Watch James Manyika talk AI and creativity with LL COOL J.",
+              "publication": "Google",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/"
+            }
+          ]
+        },
+        "en": {
+          "category": "Creative Culture",
+          "headline": "LL COOL J says AI can widen creative access, but the spark still has to remain human",
+          "deck": "In a Google conversation, LL COOL J and James Manyika discuss AI and creativity as a relationship of expanded access rather than replacement. Technology can lower barriers, but it does not substitute for the moment that gives art its soul.",
+          "kicker": "Tech & Humanities",
+          "byline": "Signal Tide Desk",
+          "summary": [
+            "Google has published a new conversation between James Manyika and LL COOL J about technology and creativity. Reflecting on a career that stretches from the era of drum machines to generative AI, LL argues that new tools can democratize creative access and help more people make things, while insisting that the “divine spark” behind meaningful work still comes from human perception and judgment.",
+            "It would be easy to dismiss the exchange as soft thought leadership, but it points to a real cultural fault line. As AI makes production cheaper, faster, and more accessible, society will have to decide what still counts as authorship. Lower barriers are a genuine gain, yet once everyone can generate polished forms with ease, audiences may care even more about whether a work still carries an irreducibly human voice."
+          ],
+          "bullets": [
+            "LL COOL J argues that AI can widen access without replacing the human spark.",
+            "The key question is not whether AI can create, but how authorship will be revalued.",
+            "As generation gets cheaper, audiences may care more about a work’s human signature."
+          ],
+          "significance": "The hardest cultural negotiation ahead may not be whether AI can create, but what we still choose to recognize as human creation.",
+          "sources": [
+            {
+              "title": "Watch James Manyika talk AI and creativity with LL COOL J.",
+              "publication": "Google",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/"
             }
           ]
         }
@@ -2038,93 +2083,106 @@
       "id": "resisting-humanization-sensitive-ai",
       "section": "tech-humanities",
       "category": "界面伦理",
-      "headline": "有论文开始讨论“别把 AI 做得太像人”，敏感场景里的前端设计也要克制",
-      "deck": "arXiv 新论文讨论在敏感场景中避免把 AI 设计得过度拟人。模型越来越会说话之后，界面该不该故意“像人”，已经不是审美问题，而是伦理问题。",
+      "headline": "不是所有 AI 都该装得像人，论文提醒高敏场景里“少拟人”本身就是伦理设计",
+      "deck": "论文《Resisting Humanization》指出，在暴力幸存者支持等敏感场景中，拟人化界面可能误导信任、扭曲用户预期并削弱自主性。前端设计不是装饰，而是价值判断。",
       "kicker": "技术人文",
       "byline": "编辑部整理",
       "publishedAt": "2026-03-27T04:00:00.000Z",
-      "updatedAt": "2026-03-27T16:20:00.000Z",
-      "readingTime": 2,
+      "updatedAt": "2026-03-27T16:00:00.000Z",
+      "readingTime": 3,
       "tags": [
+        "HCI",
         "Ethics",
-        "Design",
-        "HCI"
+        "Interface Design",
+        "Trust"
       ],
       "summary": [
-        "AI 越像人，用户越容易投射情感与信任；这正是界面设计需要更克制的地方。"
+        "新论文《Resisting Humanization》把注意力从后端模型与数据治理拉到前端界面设计。作者指出，在对话式 AI 中，带情绪色彩的语言、人格设定、拟人化比喻和“像朋友一样”的交互，会深刻影响用户如何理解系统能力、如何分配信任、以及在脆弱情境里是否把 AI 当成可以依赖的人。论文以支持性别暴力幸存者的非营利组织 Chayn 为案例，强调其刻意避免过度拟人的创伤知情设计。",
+        "这提醒我们，很多 AI 产品的问题并不只来自模型输出，还来自它故意营造的“像人”体验。越是在心理支持、医疗、法律、危机求助等高敏场景，过度拟人化越可能不是贴心，而是误导。所谓好的 AI 设计，有时恰恰不是更会陪你说话，而是知道何时该克制。"
       ],
       "bullets": [
-        "拟人化不只是产品风格问题。"
+        "论文把界面拟人化视为重要的伦理决策，而非风格问题。",
+        "敏感场景里，过度拟人可能带来错误信任与自主性受损。",
+        "“少装得像人”有时正是更负责任的 AI 设计。"
       ],
-      "significance": "真正成熟的 AI 设计，不一定是更会演人，而是更清楚自己不是人。",
+      "significance": "AI 产品真正的责任边界，往往在界面那一层最先被用户感受到。",
       "sources": [
         {
           "title": "Resisting Humanization: Ethical Front-End Design Choices in AI for Sensitive Contexts",
           "publication": "arXiv",
-          "url": "https://arxiv.org/search/?query=Resisting+Humanization%3A+Ethical+Front-End+Design+Choices+in+AI+for+Sensitive+Contexts&searchtype=all"
+          "url": "https://arxiv.org/abs/2603.24853"
         }
       ],
       "i18n": {
         "zh-CN": {
           "category": "界面伦理",
-          "headline": "有论文开始讨论“别把 AI 做得太像人”，敏感场景里的前端设计也要克制",
-          "deck": "arXiv 新论文讨论在敏感场景中避免把 AI 设计得过度拟人。模型越来越会说话之后，界面该不该故意“像人”，已经不是审美问题，而是伦理问题。",
+          "headline": "不是所有 AI 都该装得像人，论文提醒高敏场景里“少拟人”本身就是伦理设计",
+          "deck": "论文《Resisting Humanization》指出，在暴力幸存者支持等敏感场景中，拟人化界面可能误导信任、扭曲用户预期并削弱自主性。前端设计不是装饰，而是价值判断。",
           "kicker": "技术人文",
           "byline": "编辑部整理",
           "summary": [
-            "AI 越像人，用户越容易投射情感与信任；这正是界面设计需要更克制的地方。"
+            "新论文《Resisting Humanization》把注意力从后端模型与数据治理拉到前端界面设计。作者指出，在对话式 AI 中，带情绪色彩的语言、人格设定、拟人化比喻和“像朋友一样”的交互，会深刻影响用户如何理解系统能力、如何分配信任、以及在脆弱情境里是否把 AI 当成可以依赖的人。论文以支持性别暴力幸存者的非营利组织 Chayn 为案例，强调其刻意避免过度拟人的创伤知情设计。",
+            "这提醒我们，很多 AI 产品的问题并不只来自模型输出，还来自它故意营造的“像人”体验。越是在心理支持、医疗、法律、危机求助等高敏场景，过度拟人化越可能不是贴心，而是误导。所谓好的 AI 设计，有时恰恰不是更会陪你说话，而是知道何时该克制。"
           ],
           "bullets": [
-            "拟人化不只是产品风格问题。"
+            "论文把界面拟人化视为重要的伦理决策，而非风格问题。",
+            "敏感场景里，过度拟人可能带来错误信任与自主性受损。",
+            "“少装得像人”有时正是更负责任的 AI 设计。"
           ],
-          "significance": "真正成熟的 AI 设计，不一定是更会演人，而是更清楚自己不是人。",
+          "significance": "AI 产品真正的责任边界，往往在界面那一层最先被用户感受到。",
           "sources": [
             {
               "title": "Resisting Humanization: Ethical Front-End Design Choices in AI for Sensitive Contexts",
               "publication": "arXiv",
-              "url": "https://arxiv.org/search/?query=Resisting+Humanization%3A+Ethical+Front-End+Design+Choices+in+AI+for+Sensitive+Contexts&searchtype=all"
+              "url": "https://arxiv.org/abs/2603.24853"
             }
           ]
         },
         "zh-TW": {
           "category": "界面伦理",
-          "headline": "有论文开始讨论“别把 AI 做得太像人”，敏感场景里的前端设计也要克制",
-          "deck": "arXiv 新论文讨论在敏感场景中避免把 AI 设计得过度拟人。模型越来越会说话之后，界面该不该故意“像人”，已经不是审美问题，而是伦理问题。",
+          "headline": "不是所有 AI 都该装得像人，论文提醒高敏场景里“少拟人”本身就是伦理设计",
+          "deck": "论文《Resisting Humanization》指出，在暴力幸存者支持等敏感场景中，拟人化界面可能误导信任、扭曲用户预期并削弱自主性。前端设计不是装饰，而是价值判断。",
           "kicker": "技術人文",
           "byline": "編輯部整理",
           "summary": [
-            "AI 越像人，用户越容易投射情感与信任；这正是界面设计需要更克制的地方。"
+            "新论文《Resisting Humanization》把注意力从后端模型与数据治理拉到前端界面设计。作者指出，在对话式 AI 中，带情绪色彩的语言、人格设定、拟人化比喻和“像朋友一样”的交互，会深刻影响用户如何理解系统能力、如何分配信任、以及在脆弱情境里是否把 AI 当成可以依赖的人。论文以支持性别暴力幸存者的非营利组织 Chayn 为案例，强调其刻意避免过度拟人的创伤知情设计。",
+            "这提醒我们，很多 AI 产品的问题并不只来自模型输出，还来自它故意营造的“像人”体验。越是在心理支持、医疗、法律、危机求助等高敏场景，过度拟人化越可能不是贴心，而是误导。所谓好的 AI 设计，有时恰恰不是更会陪你说话，而是知道何时该克制。"
           ],
           "bullets": [
-            "拟人化不只是产品风格问题。"
+            "论文把界面拟人化视为重要的伦理决策，而非风格问题。",
+            "敏感场景里，过度拟人可能带来错误信任与自主性受损。",
+            "“少装得像人”有时正是更负责任的 AI 设计。"
           ],
-          "significance": "真正成熟的 AI 设计，不一定是更会演人，而是更清楚自己不是人。",
+          "significance": "AI 产品真正的责任边界，往往在界面那一层最先被用户感受到。",
           "sources": [
             {
               "title": "Resisting Humanization: Ethical Front-End Design Choices in AI for Sensitive Contexts",
               "publication": "arXiv",
-              "url": "https://arxiv.org/search/?query=Resisting+Humanization%3A+Ethical+Front-End+Design+Choices+in+AI+for+Sensitive+Contexts&searchtype=all"
+              "url": "https://arxiv.org/abs/2603.24853"
             }
           ]
         },
         "en": {
           "category": "Interface Ethics",
-          "headline": "A new paper argues against over-humanizing AI, suggesting restraint in front-end design for sensitive contexts",
-          "deck": "A new arXiv paper examines front-end design choices that resist over-humanizing AI in sensitive settings. As models become more conversational, the question of whether interfaces should feel human is no longer aesthetic alone, but ethical.",
-          "kicker": "Humanities",
+          "headline": "Not every AI should act human; a new paper argues that restraint itself is an ethical design choice in sensitive contexts",
+          "deck": "The paper “Resisting Humanization” argues that in sensitive settings such as support for survivors of violence, anthropomorphic interfaces can miscalibrate trust, distort expectations, and weaken user autonomy. Front-end design is not decoration; it is a value choice.",
+          "kicker": "Tech & Humanities",
           "byline": "Signal Tide Desk",
           "summary": [
-            "The more human AI feels, the more users project trust and emotion onto it — which is exactly why interface design may need restraint."
+            "The new paper “Resisting Humanization” shifts attention from model training and data governance to front-end design. It argues that in conversational AI, emotive language, personality framing, and anthropomorphic metaphors strongly shape users’ mental models, trust calibration, and sense of agency—especially in vulnerable contexts. Using the nonprofit Chayn as a case study, the authors highlight trauma-informed design choices that deliberately avoid excessive humanization.",
+            "The paper is useful because it reminds us that many harms in AI products do not come only from what the model outputs, but from the atmosphere the interface creates around those outputs. In mental-health, legal, medical, or crisis-support settings, a highly human-like interface may be less compassionate than misleading. Good AI design is not always the design that sounds most alive; sometimes it is the design that knows when to hold back."
           ],
           "bullets": [
-            "Humanization is not merely a product-style choice."
+            "The paper treats interface humanization as an ethical choice, not a stylistic one.",
+            "In sensitive contexts, anthropomorphism can produce misplaced trust and reduced autonomy.",
+            "Sometimes the more responsible AI design is the one that feels less human."
           ],
-          "significance": "Mature AI design may not be the one that performs humanity best, but the one that most clearly knows it is not human.",
+          "significance": "The real boundary of responsibility in AI products is often felt first at the interface layer.",
           "sources": [
             {
               "title": "Resisting Humanization: Ethical Front-End Design Choices in AI for Sensitive Contexts",
               "publication": "arXiv",
-              "url": "https://arxiv.org/search/?query=Resisting+Humanization%3A+Ethical+Front-End+Design+Choices+in+AI+for+Sensitive+Contexts&searchtype=all"
+              "url": "https://arxiv.org/abs/2603.24853"
             }
           ]
         }
