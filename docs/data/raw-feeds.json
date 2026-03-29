@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-03-27T16:01:39.398Z",
+  "generatedAt": "2026-03-29T02:06:44.993Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "STADLER reshapes knowledge work at a 230-year-old company",
+      "link": "https://openai.com/index/stadler",
+      "publishedAt": "2026-03-27T22:00:00.000Z",
+      "contentSnippet": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
+      "categories": [
+        "B2B Story"
+      ]
+    },
     {
       "source": "OpenAI",
       "sourceType": "official",
@@ -101,18 +113,6 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "Introducing GPT-5.4 mini and nano",
-      "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
-      "publishedAt": "2026-03-17T10:00:00.000Z",
-      "contentSnippet": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
-      "categories": [
-        "Company"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
       "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
       "link": "https://openai.com/index/japan-teen-safety-blueprint",
       "publishedAt": "2026-03-17T10:00:00.000Z",
@@ -125,24 +125,24 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "Equipping workers with insights about compensation",
-      "link": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
-      "publishedAt": "2026-03-17T00:00:00.000Z",
-      "contentSnippet": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "publishedAt": "2026-03-17T10:00:00.000Z",
+      "contentSnippet": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
       "categories": [
-        "Global Affairs"
+        "Company"
       ]
     },
     {
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "Why Codex Security Doesn’t Include a SAST Report",
-      "link": "https://openai.com/index/why-codex-security-doesnt-include-sast",
-      "publishedAt": "2026-03-16T00:00:00.000Z",
-      "contentSnippet": "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.",
+      "title": "Equipping workers with insights about compensation",
+      "link": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
+      "publishedAt": "2026-03-17T00:00:00.000Z",
+      "contentSnippet": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
       "categories": [
-        "Product"
+        "Global Affairs"
       ]
     },
     {
@@ -441,6 +441,16 @@
       "source": "Hugging Face Blog",
       "sourceType": "official",
       "feedTitle": "Hugging Face - Blog",
+      "title": "Liberate your OpenClaw",
+      "link": "https://huggingface.co/blog/liberate-your-openclaw",
+      "publishedAt": "2026-03-27T00:00:00.000Z",
+      "contentSnippet": "",
+      "categories": []
+    },
+    {
+      "source": "Hugging Face Blog",
+      "sourceType": "official",
+      "feedTitle": "Hugging Face - Blog",
       "title": "A New Framework for Evaluating Voice Agents (EVA)",
       "link": "https://huggingface.co/blog/ServiceNow-AI/eva",
       "publishedAt": "2026-03-24T02:01:52.000Z",
@@ -544,16 +554,6 @@
       "title": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
       "link": "https://huggingface.co/blog/modular-diffusers",
       "publishedAt": "2026-03-05T00:00:00.000Z",
-      "contentSnippet": "",
-      "categories": []
-    },
-    {
-      "source": "Hugging Face Blog",
-      "sourceType": "official",
-      "feedTitle": "Hugging Face - Blog",
-      "title": "PRX Part 3 — Training a Text-to-Image Model in 24h!",
-      "link": "https://huggingface.co/blog/Photoroom/prx-part3",
-      "publishedAt": "2026-03-03T16:50:49.000Z",
       "contentSnippet": "",
       "categories": []
     },
@@ -696,6 +696,104 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+      "link": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+      "publishedAt": "2026-03-28T23:00:00.000Z",
+      "contentSnippet": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.",
+      "categories": [
+        "TC",
+        "AI",
+        "Apps",
+        "Social",
+        "social media",
+        "Bluesky",
+        "ai apps"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+      "link": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+      "publishedAt": "2026-03-28T20:45:54.000Z",
+      "contentSnippet": "While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.",
+      "categories": [
+        "AI",
+        "stanford"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Elon Musk’s last co-founder reportedly leaves xAI",
+      "link": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+      "publishedAt": "2026-03-28T16:11:16.000Z",
+      "contentSnippet": "All but two of Musk's 11 xAI co-founders departed before this week.",
+      "categories": [
+        "AI",
+        "Startups",
+        "Elon Musk",
+        "SpaceX",
+        "xAI",
+        "ross nordeen",
+        "manuel kroiss"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Anthropic’s Claude popularity with paying consumers is skyrocketing",
+      "link": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "publishedAt": "2026-03-28T14:15:00.000Z",
+      "contentSnippet": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.",
+      "categories": [
+        "TC",
+        "AI"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO",
+      "link": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
+      "publishedAt": "2026-03-27T21:44:45.000Z",
+      "contentSnippet": "Wall Street giants JPMorgan and Goldman Sachs are extending a 12-month, unsecured loan to the Japanese conglomerate.",
+      "categories": [
+        "AI",
+        "Venture",
+        "Goldman Sachs",
+        "IPO",
+        "jp morgan",
+        "OpenAI",
+        "SoftBank Group International",
+        "In Brief"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO",
+      "link": "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/",
+      "publishedAt": "2026-03-27T19:11:28.000Z",
+      "contentSnippet": "SK hynix’s potential U.S. listing could raise $10-$14 billion to help it build more capacity, encourage others to follow, and end the 'RAMmageddon' memory shortage.",
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Hardware",
+        "IPOs",
+        "memory",
+        "SK Hynix"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
       "title": "VCs are betting billions on AI’s next wave, so why is OpenAI killing Sora?",
       "link": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
       "publishedAt": "2026-03-27T15:40:19.000Z",
@@ -747,9 +845,9 @@
       "publishedAt": "2026-03-27T01:26:40.000Z",
       "contentSnippet": "Sacks will be much further from the power center in Washington than since the outset of this second Trump administration.",
       "categories": [
+        "TC",
         "AI",
         "Government & Policy",
-        "TC",
         "david sacks"
       ]
     },
@@ -800,104 +898,44 @@
       ]
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "OpenAI abandons yet another side quest: ChatGPT’s erotic mode",
-      "link": "https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/",
-      "publishedAt": "2026-03-26T18:34:02.000Z",
-      "contentSnippet": "It's only the latest of several side projects that the AI startup has ditched over the past week.",
-      "categories": [
-        "AI",
-        "sam altman",
-        "OpenAI",
-        "ChatGPT"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Suno leans into customization with v5.5",
+      "link": "https://www.theverge.com/entertainment/903056/suno-ai-music-v5-5-model",
+      "publishedAt": "2026-03-28T18:33:10.000Z",
+      "contentSnippet": "Slop yourself. | Image: Suno Suno just released one of its biggest updates yet with v5.5 of its AI music model. Where previous updates focused mostly on improving fidelity and creating more natural vocals, v5.5 is about giving users more control. It includes three new features: Voices, My Taste, and Custom Models. In the release notes, Suno says that Voices is its most requested feature. It lets users train the vocal model on their own voice. They can upload clean accapellas, finished tracks with backing music, or just sing directly into the mic on their phone or laptop. The cleaner and higher quality the recording, the less data is required. And to prevent someone fro … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Data centers get ready — the Senate wants to see your power bills",
-      "link": "https://techcrunch.com/2026/03/26/data-centers-get-ready-the-senate-wants-to-see-your-power-bills/",
-      "publishedAt": "2026-03-26T18:23:31.000Z",
-      "contentSnippet": "Senators Josh Hawley and Elizabeth Warren want the Energy Information Administration to gather more details about how data centers use power — and how that affects the grid.",
-      "categories": [
-        "Climate",
-        "AI",
-        "Government & Policy",
-        "data centers",
-        "electrical grid",
-        "elizabeth warren",
-        "Josh Hawley"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Why can’t TikTok identify AI generated ads when I can?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure",
+      "publishedAt": "2026-03-28T14:00:00.000Z",
+      "contentSnippet": "Samsung, like many companies using generative AI in their advertising, hasn’t placed an AI label on several videos shared through its TikTok accounts, and the fine print doesn’t always contain the answers. | Image by Samsung I've been struggling to tell whether the ads appearing in my TikTok feeds have been made with generative AI tools. As someone who spends a great deal of time scrutinizing images and videos for the usual \"tells\" that something was synthetically generated, some of the promotions I've seen have definitely sparked suspicion. For several weeks, I didn't see any examples with the AI disclosure required by TikTok's advertising policies, however, so I had no way of knowing for sure. What irks me is that someone knows for sure if the content is AI-generated. They're just not telling the rest of us. And if companies that claim to support AI-labelling … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "ByteDance’s new AI video generation model, Dreamina Seedance 2.0, comes to CapCut",
-      "link": "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
-      "publishedAt": "2026-03-26T15:25:13.000Z",
-      "contentSnippet": "The new model in CapCut will have built-in protections for making video from real faces or unauthorized intellectual property.",
-      "categories": [
-        "AI",
-        "Apps",
-        "bytedance",
-        "capcut",
-        "seedance 2.0"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Why OpenAI killed Sora",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/902368/openai-sora-dead-ai-video-generation-competition",
+      "publishedAt": "2026-03-28T12:00:00.000Z",
+      "contentSnippet": "On Tuesday morning, everything was business as usual at OpenAI. By the end of the day, the company had announced that it would scrap its video-generation app, Sora, and reverse plans for video generation inside ChatGPT; it would wind down a $1 billion Disney deal; it would shuffle the role of a high-level executive; and it would raise an additional $10 billion from investors, adding up to more than $120 billion total for its latest funding round. OpenAI is now in a frenzy to turn a profit, or at least lose less money. Since its launch, Sora seems to have taken up a massive amount of compute without the financial return to justify it. Indus … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
-      "link": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
-      "publishedAt": "2026-03-26T13:41:00.000Z",
-      "contentSnippet": "Conntour uses AI models to let security teams query camera feeds using natural language to find any object, person, or situation.",
-      "categories": [
-        "AI",
-        "Security",
-        "Startups",
-        "General Catalyst",
-        "Y Combinator",
-        "Conntour"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Cohere launches an open source voice model specifically for transcription",
-      "link": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
-      "publishedAt": "2026-03-26T13:30:00.000Z",
-      "contentSnippet": "Relatively light at just 2 billion parameters, the model is meant for use with consumer-grade GPUs for those who want to self-host it. It currently supports 14 languages.",
-      "categories": [
-        "AI",
-        "Automatic speech recognition",
-        "Cohere",
-        "text to speech",
-        "voice AI"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "A ‘pound of flesh’ from data centers: one senator’s answer to AI job losses",
-      "link": "https://techcrunch.com/2026/03/26/a-pound-of-flesh-from-data-centers-one-senators-answer-to-ai-job-losses/",
-      "publishedAt": "2026-03-26T12:00:00.000Z",
-      "contentSnippet": "Fears of AI-driven job loss are growing fast, and they’re fueling backlash against data centers. Sen. Mark Warner suggests taxing them to help workers survive the transition.",
-      "categories": [
-        "AI",
-        "Government & Policy",
-        "Exclusive",
-        "mark warner",
-        "ai data centers",
-        "axios ai summit",
-        "ai job loss"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "The latest in data centers, AI, and energy ",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "publishedAt": "2026-03-27T18:35:53.000Z",
+      "contentSnippet": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. From audacious plans to launch data centers into space to the latest legal battles over pollution, The Verge has the biggest news and reporting surrounding data centers. Senators are pushing to find out how much electricity data centers actually use How the spiraling Iran conflict could affect data centers and electricity costs Seven tech giants signed Trump’s pledge to keep electricity costs from spiking around data centers Trump claims tech companies will sign deals next week to pay for their own power supply Anthropic says it’ll try to keep its data centers from raising electricity costs How an ‘icepocalypse’ raises more questions about Meta’s biggest data center project Microsoft wants to rewire data centers to save space New York is considering two bills to rein in the AI industry Elon Musk is merging SpaceX and xAI to build data centers in space — or so he says It’s a new heyday for gas thanks to data centers Meta is spending millions to convince people that data centers are cool and you like them The winter storm tested power grids straining to accommodate AI data centers OpenAI says its data centers will pay for their own energy and limit water usage Microsoft scrambles to quell fury around its new AI data centers Communities are rising up against data centers — and winning Billionaires want data centers everywhere, including space AI’s water and electricity use soars in 2025 Racks of AI chips are too damn heavy The scramble to launch data centers into space is heating up Data center construction moratorium is gaining steam Data centers in Oregon might be helping to drive an increase in cancer and miscarriages Google is turning on the gas for its data centers Tech companies ‘be on alert,’ NAACP says with new guiding principles for data centers",
+      "categories": []
     },
     {
       "source": "The Verge AI",
@@ -957,46 +995,6 @@
       "link": "https://www.theverge.com/tech/901816/google-search-live-ai-assistant-expansion",
       "publishedAt": "2026-03-26T18:47:51.000Z",
       "contentSnippet": "Google is expanding access to Search Live, a feature that lets you search for information using your voice and camera. The AI search assistant is now available in more than 200 countries and territories, as well as dozens of languages, according to an announcement on Thursday. Search Live rolled out broadly in the US last September, allowing you to point your phone's camera at something and ask about it aloud, such as how to install a shelving unit. The AI assistant will then offer an audio response, along with links to information it finds on the web. Video: Google Google says it's powering the global expansion of Search Live with its new … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Meta gets ready to launch two new Ray-Ban AI glasses",
-      "link": "https://www.theverge.com/column/901314/meta-new-ray-ban-ai-glasses",
-      "publishedAt": "2026-03-26T16:30:00.000Z",
-      "contentSnippet": "Second-generation Ray-Ban Meta glasses. | Photo by Amelia Holowaty Krales / The Verge This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. Meta and its AI glasses hardware partner EssilorLuxottica are getting ready to launch the next generation of their Ray-Ban AI glasses. That's according to a series of FCC filings for two new Meta Ray-Ban models that were published by the agency earlier this month. The filings describe the tested devices as production units, suggesting that Meta may launch them soon. When the company unveiled its second-generation Ray-Bans in late 2023, it did so a little over a month after the … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Wikipedia bans AI-generated articles",
-      "link": "https://www.theverge.com/tech/901461/wikipedia-ai-generated-article-ban",
-      "publishedAt": "2026-03-26T15:02:52.000Z",
-      "contentSnippet": "Wikipedia will no longer allow editors to write or rewrite articles using AI. The update, which was added to Wikipedia's guidelines late last week, cites the tendency for AI-written articles to violate \"several of Wikipedia's core content policies\" as the reason for the ban. The change applies to the English version of Wikipedia and will still allow editors to use AI in certain scenarios. That includes using large language models to \"suggest basic copyedits\" to their writing, but only if it \"does not introduce content of its own.\" Editors can also use AI to translate articles from another language's Wikipedia into English. However, they sti … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Senators are pushing to find out how much electricity data centers actually use",
-      "link": "https://www.theverge.com/policy/901404/senators-warren-hawley-eia-letter-data-centers",
-      "publishedAt": "2026-03-26T14:25:32.000Z",
-      "contentSnippet": "An Amazon data center in Oregon. | Image: Amazon On Thursday, senators Elizabeth Warren (D-MA) and Josh Hawley (R-MO) sent a letter to the Energy Information Administration (EIA) asking it to collect \"comprehensive, annual energy-use disclosures\" on data centers and make that information publicly available, as first reported by Wired. They're urging the agency to \"establish a mandatory annual reporting requirement for data centers,\" saying the data is \"essential for accurate grid planning,\" and ensuring the seven tech companies that signed the Ratepayer Protection Pledge earlier this month adhere to their commitments. The EIA announced Wednesday that it's launching a voluntary pilot progr … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Webtoon is adding AI localization tools to its comics platform",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/899108/webtoon-canvas-ai-translation-localization-yongsoo-kim",
-      "publishedAt": "2026-03-26T13:00:00.000Z",
-      "contentSnippet": "Canvas, Webtoon's platform for user-uploaded comics, is about to get a major overhaul that's designed to help creators make more money and share their art with a wider audience. Today, Webtoon announced its plans to roll out a number of new features for Canvas that will make it easier for artists to build global followings and gain a deeper understanding of who's engaging with their work. Soon, manga creators who upload their work to Canvas will be able to use an AI-powered translation tool to localize their scripts into English, Spanish, French, Indonesian, Thai, Traditional Chinese, and German. A beta version of the translation feature - … Read the full story at The Verge.",
       "categories": []
     },
     {
@@ -1349,6 +1347,18 @@
       "source": "Wired Business",
       "sourceType": "media",
       "feedTitle": "Business Latest",
+      "title": "AI Research Is Getting Harder to Separate From Geopolitics",
+      "link": "https://www.wired.com/story/made-in-china-ai-research-is-starting-to-split-along-geopolitical-lines/",
+      "publishedAt": "2026-03-27T21:46:39.000Z",
+      "contentSnippet": "A policy change announced by NeurIPS, the world’s leading AI research conference, drew widespread backlash from Chinese researchers this week and then was quickly reversed.",
+      "categories": [
+        "Business"
+      ]
+    },
+    {
+      "source": "Wired Business",
+      "sourceType": "media",
+      "feedTitle": "Business Latest",
       "title": "Apple Still Plans to Sell iPhones When It Turns 100",
       "link": "https://www.wired.com/story/apple-50-year-anniversary-artificial-intelligence-iphone/",
       "publishedAt": "2026-03-27T15:00:00.000Z",
@@ -1484,496 +1494,6 @@
       "categories": [
         "Business",
         "Business / Artificial Intelligence"
-      ]
-    },
-    {
-      "source": "Wired Business",
-      "sourceType": "media",
-      "feedTitle": "Business Latest",
-      "title": "‘A Rigged and Dangerous Product’: The Wildest Week for Prediction Markets Yet",
-      "link": "https://www.wired.com/story/why-this-was-the-wildest-week-for-prediction-markets-yet/",
-      "publishedAt": "2026-03-20T21:07:04.000Z",
-      "contentSnippet": "As the prediction market boom continues, backlash is growing, too, with Arizona filing criminal charges against Kalshi and public outcry after Polymarket traders threatened a journalist.",
-      "categories": [
-        "Business",
-        "Business / Regulation",
-        "Business / Startups"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
-      "link": "https://arxiv.org/abs/2603.24621",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24621v1 Announce Type: new Abstract: We introduce ARC-AGI-3, an interactive benchmark for studying agentic intelligence through novel, abstract, turn-based environments in which agents must explore, infer goals, build internal models of environment dynamics, and plan effective action sequences without explicit instructions. Like its predecessors ARC-AGI-1 and 2, ARC-AGI-3 focuses entirely on evaluating fluid adaptive efficiency on novel tasks, while avoiding language and external knowledge. ARC-AGI-3 environments only leverage Core Knowledge priors and are difficulty-calibrated via extensive testing with human test-takers. Our testing shows humans can solve 100% of the environments, in contrast to frontier AI systems which, as of March 2026, score below 1%. In this paper, we present the benchmark design, its efficiency-based scoring framework grounded in human action baselines, and the methodology used to construct, validate, and calibrate the environments.",
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "When Is Collective Intelligence a Lottery? Multi-Agent Scaling Laws for Memetic Drift in LLMs",
-      "link": "https://arxiv.org/abs/2603.24676",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24676v1 Announce Type: new Abstract: Multi-agent systems powered by large language models (LLMs) are increasingly deployed in settings that shape consequential decisions, both directly and indirectly. Yet it remains unclear whether their outcomes reflect collective reasoning, systematic bias, or mere chance. Recent work has sharpened this question with naming games, showing that even when no individual agent favors any label a priori, populations rapidly break symmetry and reach consensus. Here, we reveal the mechanism by introducing a minimal model, Quantized Simplex Gossip (QSG), and trace the microscopic origin of this agreement to mutual in-context learning. In QSG, agents maintain internal belief states but learn from one another's sampled outputs, so one agent's arbitrary choice becomes the next agent's evidence and can compound toward agreement. By analogy with neutral evolution, we call this sampling-driven regime memetic drift. QSG predicts a crossover from a drift-dominated regime, where consensus is effectively a lottery, to a selection regime, where weak biases are amplified and shape the outcome. We derive scaling laws for drift-induced polarization as a function of population size, communication bandwidth, in-context adaptation rate, and agents' internal uncertainty, and we validate them in both QSG simulations and naming-game experiments with LLM populations. Together, these results provide a framework for studying the collective mechanisms of social representation formation in multi-agent systems.",
-      "categories": [
-        "cs.AI",
-        "cond-mat.dis-nn",
-        "cond-mat.stat-mech",
-        "physics.bio-ph",
-        "physics.soc-ph"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "AutoSAM: an Agentic Framework for Automating Input File Generation for the SAM Code with Multi-Modal Retrieval-Augmented Generation",
-      "link": "https://arxiv.org/abs/2603.24736",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24736v1 Announce Type: new Abstract: In the design and safety analysis of advanced reactor systems, constructing input files for system-level thermal-hydraulics codes such as the System Analysis Module (SAM) remains a labor-intensive task. Analysts must extract and reconcile design data from heterogeneous engineering documents and manually translate it into solver-specific syntax. In this paper, we present AutoSAM, an agentic framework that automates SAM input file generation. The framework combines a large language model agent with retrieval-augmented generation over the solver's user guide and theory manual, together with specialized tools for analyzing PDFs, images, spreadsheets, and text files. AutoSAM ingests unstructured engineering documents, including system diagrams, design reports, and data tables, extracts simulation-relevant parameters into a human-auditable intermediate representation, and synthesizes validated, solver-compatible input decks. Its multimodal retrieval pipeline integrates scientific text extraction, vision-based figure interpretation, semantic embedding, and query answering. We evaluate AutoSAM on four case studies of increasing complexity: a single-pipe steady-state model, a solid-fuel channel with temperature reactivity feedback, the Advanced Burner Test Reactor core, and the Molten Salt Reactor Experiment primary loop. Across all cases, the agent produces runnable SAM models consistent with expected thermal-hydraulic behavior while explicitly identifying missing data and labeling assumed values. The framework achieves 100% utilization of structured inputs, about 88% extraction from PDF text, and 100% completeness in vision-based geometric extraction. These results demonstrate a practical path toward prompt-driven reactor modeling, in which analysts provide system descriptions and supporting documentation while the agent translates them into transparent, and executable, SAM simulations.",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Trust as Monitoring: Evolutionary Dynamics of User Trust and AI Developer Behaviour",
-      "link": "https://arxiv.org/abs/2603.24742",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24742v1 Announce Type: new Abstract: AI safety is an increasingly urgent concern as the capabilities and adoption of AI systems grow. Existing evolutionary models of AI governance have primarily examined incentives for safe development and effective regulation, typically representing users' trust as a one-shot adoption choice rather than as a dynamic, evolving process shaped by repeated interactions. We instead model trust as reduced monitoring in a repeated, asymmetric interaction between users and AI developers, where checking AI behaviour is costly. Using evolutionary game theory, we study how user trust strategies and developer choices between safe (compliant) and unsafe (non-compliant) AI co-evolve under different levels of monitoring cost and institutional regimes. We complement the infinite-population replicator analysis with stochastic finite-population dynamics and reinforcement learning (Q-learning) simulations. Across these approaches, we find three robust long-run regimes: no adoption with unsafe development, unsafe but widely adopted systems, and safe systems that are widely adopted. Only the last is desirable, and it arises when penalties for unsafe behaviour exceed the extra cost of safety and users can still afford to monitor at least occasionally. Our results formally support governance proposals that emphasise transparency, low-cost monitoring, and meaningful sanctions, and they show that neither regulation alone nor blind user trust is sufficient to prevent evolutionary drift towards unsafe or low-adoption outcomes.",
-      "categories": [
-        "cs.AI",
-        "cs.LG",
-        "cs.MA",
-        "nlin.AO"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Formal Semantics for Agentic Tool Protocols: A Process Calculus Approach",
-      "link": "https://arxiv.org/abs/2603.24747",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24747v1 Announce Type: new Abstract: The emergence of large language model agents capable of invoking external tools has created urgent need for formal verification of agent protocols. Two paradigms dominate this space: Schema-Guided Dialogue (SGD), a research framework for zero-shot API generalization, and the Model Context Protocol (MCP), an industry standard for agent-tool integration. While both enable dynamic service discovery through schema descriptions, their formal relationship remains unexplored. Building on prior work establishing the conceptual convergence of these paradigms, we present the first process calculus formalization of SGD and MCP, proving they are structurally bisimilar under a well-defined mapping Phi. However, we demonstrate that the reverse mapping Phi^{-1} is partial and lossy, revealing critical gaps in MCP's expressivity. Through bidirectional analysis, we identify five principles -- semantic completeness, explicit action boundaries, failure mode documentation, progressive disclosure compatibility, and inter-tool relationship declaration -- as necessary and sufficient conditions for full behavioral equivalence. We formalize these principles as type-system extensions MCP+, proving MCP+ is isomorphic to SGD. Our work provides the first formal foundation for verified agent systems and establishes schema quality as a provable safety property.",
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Supervising Ralph Wiggum: Exploring a Metacognitive Co-Regulation Agentic AI Loop for Engineering Design",
-      "link": "https://arxiv.org/abs/2603.24768",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24768v1 Announce Type: new Abstract: The engineering design research community has studied agentic AI systems that use Large Language Model (LLM) agents to automate the engineering design process. However, these systems are prone to some of the same pathologies that plague humans. Just as human designers, LLM design agents can fixate on existing paradigms and fail to explore alternatives when solving design challenges, potentially leading to suboptimal solutions. In this work, we propose (1) a novel Self-Regulation Loop (SRL), in which the Design Agent self-regulates and explicitly monitors its own metacognition, and (2) a novel Co-Regulation Design Agentic Loop (CRDAL), in which a Metacognitive Co-Regulation Agent assists the Design Agent in metacognition to mitigate design fixation, thereby improving system performance for engineering design tasks. In the battery pack design problem examined here, we found that the novel CRDAL system generates designs with better performance, without significantly increasing the computational cost, compared to a plain Ralph Wiggum Loop (RWL) and the metacognitively self-assessing Self-Regulation Loop (SRL). Also, we found that the CRDAL system navigated through the latent design space more effectively than both SRL and RWL. However, the SRL did not generate designs with significantly better performance than RWL, even though it explored a different region of the design space. The proposed system architectures and findings of this work provide practical implications for future development of agentic AI systems for engineering design.",
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "ReLope: KL-Regularized LoRA Probes for Multimodal LLM Routing",
-      "link": "https://arxiv.org/abs/2603.24787",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24787v1 Announce Type: new Abstract: Routing has emerged as a promising strategy for balancing performance and cost in large language model (LLM) systems that combine lightweight models with powerful but expensive large models. Recent studies show that \\emph{probe routing}, which predicts the correctness of a small model using its hidden states, provides an effective solution in text-only LLMs. However, we observe that these probes degrade substantially when applied to multimodal LLMs (MLLMs). Through empirical analysis, we find that the presence of visual inputs weakens the separability of correctness signals in hidden states, making them harder to extract using standard probe designs. To address this challenge, we introduce two complementary approaches for improving probe routing in MLLMs. First, we propose the \\emph{Attention Probe}, which aggregates hidden states from the preceding layer based on attention scores to recover distributed correctness signals. Second, we present the \\emph{KL-Regularized LoRA Probe (ReLope)}, which inserts a lightweight LoRA adapter and applies a KL regularizer to learn routing-aware representations. Comprehensive experiments show that our methods consistently outperform baselines, suggesting that improving the quality of hidden states is key to effective routing in MLLMs. Our code is available at https://github.com/Spinozaaa/ReLope.",
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Resisting Humanization: Ethical Front-End Design Choices in AI for Sensitive Contexts",
-      "link": "https://arxiv.org/abs/2603.24853",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24853v1 Announce Type: new Abstract: Ethical debates in AI have primarily focused on back-end issues such as data governance, model training, and algorithmic decision-making. Less attention has been paid to the ethical significance of front-end design choices, such as the interaction and representation-based elements through which users interact with AI systems. This gap is particularly significant for Conversational User Interfaces (CUI) based on Natural Language Processing (NLP) systems, where humanizing design elements such as dialogue-based interaction, emotive language, personality modes, and anthropomorphic metaphors are increasingly prevalent. This work argues that humanization in AI front-end design is a value-driven choice that profoundly shapes users' mental models, trust calibration, and behavioral responses. Drawing on research in human-computer interaction (HCI), conversational AI, and value-sensitive design, we examine how interfaces can play a central role in misaligning user expectations, fostering misplaced trust, and subtly undermining user autonomy, especially in vulnerable contexts. To ground this analysis, we discuss two AI systems developed by Chayn, a nonprofit organization supporting survivors of gender-based violence. Chayn is extremely cautious when building AI that interacts with or impacts survivors by operationalizing their trauma-informed design principles. This Chayn case study illustrates how ethical considerations can motivate principled restraint in interface design, challenging engagement-based norms in contemporary AI products. We argue that ethical front-end AI design is a form of procedural ethics, enacted through interaction choices rather than embedded solely in system logic.",
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "SentinelAI: A Multi-Agent Framework for Structuring and Linking NG9-1-1 Emergency Incident Data",
-      "link": "https://arxiv.org/abs/2603.24856",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24856v1 Announce Type: new Abstract: Emergency response systems generate data from many agencies and systems. In practice, correlating and updating this information across sources in a way that aligns with Next Generation 9-1-1 data standards remains challenging. Ideally, this data should be treated as a continuous stream of operational updates, where new facts are integrated immediately to provide a timely and unified view of an evolving incident. This paper presents SentinelAI, a data integration and standardization framework for transforming emergency communications into standardized, machine-readable datasets that support integration, composite incident construction, and cross-source reasoning. SentinelAI implements a scalable processing pipeline composed of specialized agents. The EIDO Agent ingests raw communications and produces NENA-compliant Emergency Incident Data Object JSON.",
-      "categories": [
-        "cs.AI",
-        "cs.CY",
-        "cs.ET",
-        "cs.MA"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "How Far Are Vision-Language Models from Constructing the Real World? A Benchmark for Physical Generative Reasoning",
-      "link": "https://arxiv.org/abs/2603.24866",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24866v1 Announce Type: new Abstract: The physical world is not merely visual; it is governed by rigorous structural and procedural constraints. Yet, the evaluation of vision-language models (VLMs) remains heavily skewed toward perceptual realism, prioritizing the generation of visually plausible 3D layouts, shapes, and appearances. Current benchmarks rarely test whether models grasp the step-by-step processes and physical dependencies required to actually build these artifacts, a capability essential for automating design-to-construction pipelines. To address this, we introduce DreamHouse, a novel benchmark for physical generative reasoning: the capacity to synthesize artifacts that concurrently satisfy geometric, structural, constructability, and code-compliance constraints. We ground this benchmark in residential timber-frame construction, a domain with fully codified engineering standards and objectively verifiable correctness. We curate over 26,000 structures spanning 13 architectural styles, ach verified to construction-document standards (LOD 350) and develop a deterministic 10-test structural validation framework. Unlike static benchmarks that assess only final outputs, DreamHouse supports iterative agentic interaction. Models observe intermediate build states, generate construction actions, and receive structured environmental feedback, enabling a fine-grained evaluation of planning, structural reasoning, and self-correction. Extensive experiments with state-of-the-art VLMs reveal substantial capability gaps that are largely invisible on existing leaderboards. These findings establish physical validity as a critical evaluation axis orthogonal to visual realism, highlighting physical generative reasoning as a distinct and underdeveloped frontier in multimodal intelligence. Available at https://luluyuyuyang.github.io/dreamhouse",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.CV"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "On the Foundations of Trustworthy Artificial Intelligence",
-      "link": "https://arxiv.org/abs/2603.24904",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24904v1 Announce Type: new Abstract: We prove that platform-deterministic inference is necessary and sufficient for trustworthy AI. We formalize this as the Determinism Thesis and introduce trust entropy to quantify the cost of non-determinism, proving that verification failure probability equals 1 - 2^{-H_T} exactly. We prove a Determinism-Verification Collapse: verification under determinism requires O(1) hash comparison; without it, the verifier faces an intractable membership problem. IEEE 754 floating-point arithmetic fundamentally violates the determinism requirement. We resolve this by constructing a pure integer inference engine that achieves bitwise identical output across ARM and x86. In 82 cross-architecture tests on models up to 6.7B parameters, we observe zero hash mismatches. Four geographically distributed nodes produce identical outputs, verified by 356 on-chain attestation transactions. Every major trust property of AI systems (fairness, robustness, privacy, safety, alignment) presupposes platform determinism. Our system, 99,000 lines of Rust deployed across three continents, establishes that AI trust is a question of arithmetic.",
-      "categories": [
-        "cs.AI",
-        "cs.CR"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "LogitScope: A Framework for Analyzing LLM Uncertainty Through Information Metrics",
-      "link": "https://arxiv.org/abs/2603.24929",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24929v1 Announce Type: new Abstract: Understanding and quantifying uncertainty in large language model (LLM) outputs is critical for reliable deployment. However, traditional evaluation approaches provide limited insight into model confidence at individual token positions during generation. To address this issue, we introduce LogitScope, a lightweight framework for analyzing LLM uncertainty through token-level information metrics computed from probability distributions. By measuring metrics such as entropy and varentropy at each generation step, LogitScope reveals patterns in model confidence, identifies potential hallucinations, and exposes decision points where models exhibit high uncertainty, all without requiring labeled data or semantic interpretation. We demonstrate LogitScope's utility across diverse applications including uncertainty quantification, model behavior analysis, and production monitoring. The framework is model-agnostic, computationally efficient through lazy evaluation, and compatible with any HuggingFace model, enabling both researchers and practitioners to inspect LLM behavior during inference.",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.IT",
-        "math.IT"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "When Consistency Becomes Bias: Interviewer Effects in Semi-Structured Clinical Interviews",
-      "link": "https://arxiv.org/abs/2603.24651",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24651v1 Announce Type: new Abstract: Automatic depression detection from doctor-patient conversations has gained momentum thanks to the availability of public corpora and advances in language modeling. However, interpretability remains limited: strong performance is often reported without revealing what drives predictions. We analyze three datasets: ANDROIDS, DAIC-WOZ, E-DAIC and identify a systematic bias from interviewer prompts in semi-structured interviews. Models trained on interviewer turns exploit fixed prompts and positions to distinguish depressed from control subjects, often achieving high classification scores without using participant language. Restricting models to participant utterances distributes decision evidence more broadly and reflects genuine linguistic cues. While semi-structured protocols ensure consistency, including interviewer prompts inflates performance by leveraging script artifacts. Our results highlight a cross-dataset, architecture-agnostic bias and emphasize the need for analyses that localize decision evidence by time and speaker to ensure models learn from participants' language.",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.SD",
-        "eess.AS"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Demystifying When Pruning Works via Representation Hierarchies",
-      "link": "https://arxiv.org/abs/2603.24652",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24652v1 Announce Type: new Abstract: Network pruning, which removes less important parameters or architectures, is often expected to improve efficiency while preserving performance. However, this expectation does not consistently hold across language tasks: pruned models can perform well on non-generative tasks but frequently fail in generative settings. To understand this discrepancy, we analyze network pruning from a representation-hierarchy perspective, decomposing the internal computation of language models into three sequential spaces: embedding (hidden representations), logit (pre-softmax outputs), and probability (post-softmax distributions). We find that representations in the embedding and logit spaces are largely robust to pruning-induced perturbations. However, the nonlinear transformation from logits to probabilities amplifies these deviations, which accumulate across time steps and lead to substantial degradation during generation. In contrast, the stability of the categorical-token probability subspace, together with the robustness of the embedding space, supports the effectiveness of pruning for non-generative tasks such as retrieval and multiple-choice selection. Our analysis disentangles the effects of pruning across tasks and provides practical guidance for its application. Code is available at https://github.com/CASE-Lab-UMD/Pruning-on-Representations",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Fine-Tuning A Large Language Model for Systematic Review Screening",
-      "link": "https://arxiv.org/abs/2603.24767",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24767v1 Announce Type: new Abstract: Systematic reviews traditionally have taken considerable amounts of human time and energy to complete, in part due to the extensive number of titles and abstracts that must be reviewed for potential inclusion. Recently, researchers have begun to explore how to use large language models (LLMs) to make this process more efficient. However, research to date has shown inconsistent results. We posit this is because prompting alone may not provide sufficient context for the model(s) to perform well. In this study, we fine-tune a small 1.2 billion parameter open-weight LLM specifically for study screening in the context of a systematic review in which humans rated more than 8500 titles and abstracts for potential inclusion. Our results showed strong performance improvements from the fine-tuned model, with the weighted F1 score improving 80.79% compared to the base model. When run on the full dataset of 8,277 studies, the fine-tuned model had 86.40% agreement with the human coder, a 91.18% true positive rate, a 86.38% true negative rate, and perfect agreement across multiple inference runs. Taken together, our results show that there is promise for fine-tuning LLMs for title and abstract screening in large-scale systematic reviews.",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Evaluating Fine-Tuned LLM Model For Medical Transcription With Small Low-Resource Languages Validated Dataset",
-      "link": "https://arxiv.org/abs/2603.24772",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24772v1 Announce Type: new Abstract: Clinical documentation is a critical factor for patient safety, diagnosis, and continuity of care. The administrative burden of EHRs is a significant factor in physician burnout. This is a critical issue for low-resource languages, including Finnish. This study aims to investigate the effectiveness of a domain-aligned natural language processing (NLP); large language model for medical transcription in Finnish by fine-tuning LLaMA 3.1-8B on a small validated corpus of simulated clinical conversations by students at Metropolia University of Applied Sciences. The fine-tuning process for medical transcription used a controlled preprocessing and optimization approach. The fine-tuning effectiveness was evaluated by sevenfold cross-validation. The evaluation metrics for fine-tuned LLaMA 3.1-8B were BLEU = 0.1214, ROUGE-L = 0.4982, and BERTScore F1 = 0.8230. The results showed a low n-gram overlap but a strong semantic similarity with reference transcripts. This study indicate that fine-tuning can be an effective approach for translation of medical discourse in spoken Finnish and support the feasibility of fine-tuning a privacy-oriented domain-specific large language model for clinical documentation in Finnish. Beside that provide directions for future work.",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Enhancing Structured Meaning Representations with Aspect Classification",
-      "link": "https://arxiv.org/abs/2603.24797",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24797v1 Announce Type: new Abstract: To fully capture the meaning of a sentence, semantic representations should encode aspect, which describes the internal temporal structure of events. In graph-based meaning representation frameworks such as Uniform Meaning Representations (UMR), aspect lets one know how events unfold over time, including distinctions such as states, activities, and completed events. Despite its importance, aspect remains sparsely annotated across semantic meaning representation frameworks. This has, in turn, hindered not only current manual annotation, but also the development of automatic systems capable of predicting aspectual information. In this paper, we introduce a new dataset of English sentences annotated with UMR aspect labels over Abstract Meaning Representation (AMR) graphs that lack the feature. We describe the annotation scheme and guidelines used to label eventive predicates according to the UMR aspect lattice, as well as the annotation pipeline used to ensure consistency and quality across annotators through a multi-step adjudication process. To demonstrate the utility of our dataset for future automation, we present baseline experiments using three modeling approaches. Our results establish initial benchmarks for automatic UMR aspect prediction and provide a foundation for integrating aspect into semantic meaning representations more broadly.",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Synthetic Rewriting as a Quality Multiplier: Evidence from Portuguese Continued Pretraining",
-      "link": "https://arxiv.org/abs/2603.24826",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24826v1 Announce Type: new Abstract: Synthetic data generation through document rewriting has emerged as a promising technique for improving language model pretraining, yet most studies focus on English and do not systematically control for the quality of the source data being rewritten. We present a controlled study of how synthetic rewriting interacts with source data quality in the context of Portuguese continued pretraining. Starting from ClassiCC-PT, a Portuguese corpus annotated with STEM and Educational quality scores, we construct two 10B-token subsets at different quality levels and rewrite each into four styles using a 7B instruction-tuned model, producing approximately 40B tokens of synthetic data per condition. We train two English-centric base models (1.1B and 7B parameters) on each condition and evaluate on PoETa V2, a comprehensive 44-task Portuguese benchmark. At the 7B scale, rewriting high-quality data yields a +3.4 NPM gain over the same data unmodified, while rewriting low-quality data provides only +0.5 NPM. At the 1.1B scale, this interaction is weaker, with unmodified low-quality data performing comparably to rewritten high-quality data. Our results demonstrate that synthetic rewriting acts primarily as a quality multiplier rather than a substitute for data curation, and that this effect is scale-dependent.",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Prune as You Generate: Online Rollout Pruning for Faster and Better RLVR",
-      "link": "https://arxiv.org/abs/2603.24840",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24840v1 Announce Type: new Abstract: Reinforcement Learning with Verifiable Rewards (RLVR) has significantly advanced the reasoning capabilities of Large Language Models (LLMs). However, methods such as GRPO and DAPO suffer from substantial computational cost, since they rely on sampling many rollouts for each prompt. Moreover, in RLVR the relative advantage is often sparse: many samples become nearly all-correct or all-incorrect, yielding low within-group reward variance and thus weak learning signals. In this paper, we introduce arrol (Accelerating RLVR via online Rollout Pruning), an online rollout pruning method that prunes rollouts during generation while explicitly steering the surviving ones more correctness-balanced to enhance learning signals. Specifically, arrol trains a lightweight quality head on-the-fly to predict the success probability of partial rollouts and uses it to make early pruning decisions. The learned quality head can further weigh candidates to improve inference accuracy during test-time scaling. To improve efficiency, we present a system design that prunes rollouts inside the inference engine and re-batches the remaining ones for log-probability computation and policy updates. Across GRPO and DAPO on Qwen-3 and LLaMA-3.2 models (1B-8B), arrol improves average accuracy by +2.30 to +2.99 while achieving up to 1.7x training speedup, and yielding up to +8.33 additional gains in average accuracy in test-time scaling. The code is available at https://github.com/Hsu1023/ARRoL.",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "LogSigma at SemEval-2026 Task 3: Uncertainty-Weighted Multitask Learning for Dimensional Aspect-Based Sentiment Analysis",
-      "link": "https://arxiv.org/abs/2603.24896",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24896v1 Announce Type: new Abstract: This paper describes LogSigma, our system for SemEval-2026 Task 3: Dimensional Aspect-Based Sentiment Analysis (DimABSA). Unlike traditional Aspect-Based Sentiment Analysis (ABSA), which predicts discrete sentiment labels, DimABSA requires predicting continuous Valence and Arousal (VA) scores on a 1-9 scale. A central challenge is that Valence and Arousal differ in prediction difficulty across languages and domains. We address this using learned homoscedastic uncertainty, where the model learns task-specific log-variance parameters to automatically balance each regression objective during training. Combined with language-specific encoders and multi-seed ensembling, LogSigma achieves 1st place on five datasets across both tracks. The learned variance weights vary substantially across languages due to differing Valence-Arousal difficulty profiles-from 0.66x for German to 2.18x for English-demonstrating that optimal task balancing is language-dependent and cannot be determined a priori.",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Estimating near-verbatim extraction risk in language models with decoding-constrained beam search",
-      "link": "https://arxiv.org/abs/2603.24917",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24917v1 Announce Type: new Abstract: Recent work shows that standard greedy-decoding extraction methods for quantifying memorization in LLMs miss how extraction risk varies across sequences. Probabilistic extraction -- computing the probability of generating a target suffix given a prefix under a decoding scheme -- addresses this, but is tractable only for verbatim memorization, missing near-verbatim instances that pose similar privacy and copyright risks. Quantifying near-verbatim extraction risk is expensive: the set of near-verbatim suffixes is combinatorially large, and reliable Monte Carlo (MC) estimation can require ~100,000 samples per sequence. To mitigate this cost, we introduce decoding-constrained beam search, which yields deterministic lower bounds on near-verbatim extraction risk at a cost comparable to ~20 MC samples per sequence. Across experiments, our approach surfaces information invisible to verbatim methods: many more extractable sequences, substantially larger per-sequence extraction mass, and patterns in how near-verbatim extraction risk manifests across model sizes and types of text.",
-      "categories": [
-        "cs.CL",
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Toward domain-specific machine translation and quality estimation systems",
-      "link": "https://arxiv.org/abs/2603.24955",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24955v1 Announce Type: new Abstract: Machine Translation (MT) and Quality Estimation (QE) perform well in general domains but degrade under domain mismatch. This dissertation studies how to adapt MT and QE systems to specialized domains through a set of data-focused contributions. Chapter 2 presents a similarity-based data selection method for MT. Small, targeted in-domain subsets outperform much larger generic datasets and reach strong translation quality at lower computational cost. Chapter 3 introduces a staged QE training pipeline that combines domain adaptation with lightweight data augmentation. The method improves performance across domains, languages, and resource settings, including zero-shot and cross-lingual cases. Chapter 4 studies the role of subword tokenization and vocabulary in fine-tuning. Aligned tokenization-vocabulary setups lead to stable training and better translation quality, while mismatched configurations reduce performance. Chapter 5 proposes a QE-guided in-context learning method for large language models. QE models select examples that improve translation quality without parameter updates and outperform standard retrieval methods. The approach also supports a reference-free setup, reducing reliance on a single reference set. These results show that domain adaptation depends on data selection, representation, and efficient adaptation strategies. The dissertation provides methods for building MT and QE systems that perform reliably in domain-specific settings.",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "LLM-Driven Reasoning for Constraint-Aware Feature Selection in Industrial Systems",
-      "link": "https://arxiv.org/abs/2603.24979",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24979v1 Announce Type: new Abstract: Feature selection is a crucial step in large-scale industrial machine learning systems, directly affecting model accuracy, efficiency, and maintainability. Traditional feature selection methods rely on labeled data and statistical heuristics, making them difficult to apply in production environments where labeled data are limited and multiple operational constraints must be satisfied. To address this, we propose Model Feature Agent (MoFA), a model-driven framework that performs sequential, reasoning-based feature selection using both semantic and quantitative feature information. MoFA incorporates feature definitions, importance scores, correlations, and metadata (e.g., feature groups or types) into structured prompts and selects features through interpretable, constraint-aware reasoning. We evaluate MoFA in three real-world industrial applications: (1) True Interest and Time-Worthiness Prediction, where it improves accuracy while reducing feature group complexity, (2) Value Model Enhancement, where it discovers high-order interaction terms that yield substantial engagement gains in online experiments, and (3) Notification Behavior Prediction, where it selects compact, high-value feature subsets that improve both model accuracy and inference efficiency. Together, these results demonstrate the practicality and effectiveness of LLM-based reasoning for feature selection in real production systems.",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Exons-Detect: Identifying and Amplifying Exonic Tokens via Hidden-State Discrepancy for Robust AI-Generated Text Detection",
-      "link": "https://arxiv.org/abs/2603.24981",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24981v1 Announce Type: new Abstract: The rapid advancement of large language models has increasingly blurred the boundary between human-written and AI-generated text, raising societal risks such as misinformation dissemination, authorship ambiguity, and threats to intellectual property rights. These concerns highlight the urgent need for effective and reliable detection methods. While existing training-free approaches often achieve strong performance by aggregating token-level signals into a global score, they typically assume uniform token contributions, making them less robust under short sequences or localized token modifications. To address these limitations, we propose Exons-Detect, a training-free method for AI-generated text detection based on an exon-aware token reweighting perspective. Exons-Detect identifies and amplifies informative exonic tokens by measuring hidden-state discrepancy under a dual-model setting, and computes an interpretable translation score from the resulting importance-weighted token sequence. Empirical evaluations demonstrate that Exons-Detect achieves state-of-the-art detection performance and exhibits strong robustness to adversarial attacks and varying input lengths. In particular, it attains a 2.2\\% relative improvement in average AUROC over the strongest prior baseline on DetectRL.",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "DyMRL: Dynamic Multispace Representation Learning for Multimodal Event Forecasting in Knowledge Graph",
-      "link": "https://arxiv.org/abs/2603.24636",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24636v1 Announce Type: new Abstract: Accurate representation of multimodal knowledge is crucial for event forecasting in real-world scenarios. However, existing studies have largely focused on static settings, overlooking the dynamic acquisition and fusion of multimodal knowledge. 1) At the knowledge acquisition level, how to learn time-sensitive information of different modalities, especially the dynamic structural modality. Existing dynamic learning methods are often limited to shallow structures across heterogeneous spaces or simple unispaces, making it difficult to capture deep relation-aware geometric features. 2) At the knowledge fusion level, how to learn evolving multimodal fusion features. Existing knowledge fusion methods based on static coattention struggle to capture the varying historical contributions of different modalities to future events. To this end, we propose DyMRL, a Dynamic Multispace Representation Learning approach to efficiently acquire and fuse multimodal temporal knowledge. 1) For the former issue, DyMRL integrates time-specific structural features from Euclidean, hyperbolic, and complex spaces into a relational message-passing framework to learn deep representations, reflecting human intelligences in associative thinking, high-order abstracting, and logical reasoning. Pretrained models endow DyMRL with time-sensitive visual and linguistic intelligences. 2) For the latter concern, DyMRL incorporates advanced dual fusion-evolution attention mechanisms that assign dynamic learning emphases equally to different modalities at different timestamps in a symmetric manner. To evaluate DyMRL's event forecasting performance through leveraging its learned multimodal temporal knowledge in history, we construct four multimodal temporal knowledge graph benchmarks. Extensive experiments demonstrate that DyMRL outperforms state-of-the-art dynamic unimodal and static multimodal baseline methods.",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "How unconstrained machine-learning models learn physical symmetries",
-      "link": "https://arxiv.org/abs/2603.24638",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24638v1 Announce Type: new Abstract: The requirement of generating predictions that exactly fulfill the fundamental symmetry of the corresponding physical quantities has profoundly shaped the development of machine-learning models for physical simulations. In many cases, models are built using constrained mathematical forms that ensure that symmetries are enforced exactly. However, unconstrained models that do not obey rotational symmetries are often found to have competitive performance, and to be able to \\emph{learn} to a high level of accuracy an approximate equivariant behavior with a simple data augmentation strategy. In this paper, we introduce rigorous metrics to measure the symmetry content of the learned representations in such models, and assess the accuracy by which the outputs fulfill the equivariant condition. We apply these metrics to two unconstrained, transformer-based models operating on decorated point clouds (a graph neural network for atomistic simulations and a PointNet-style architecture for particle physics) to investigate how symmetry information is processed across architectural layers and is learned during training. Based on these insights, we establish a rigorous framework for diagnosing spectral failure modes in ML models. Enabled by this analysis, we demonstrate that one can achieve superior stability and accuracy by strategically injecting the minimum required inductive biases, preserving the high expressivity and scalability of unconstrained architectures while guaranteeing physical fidelity.",
-      "categories": [
-        "cs.LG",
-        "cond-mat.mtrl-sci",
-        "physics.chem-ph",
-        "physics.comp-ph",
-        "stat.ML"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Experiential Reflective Learning for Self-Improving LLM Agents",
-      "link": "https://arxiv.org/abs/2603.24639",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24639v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) have enabled the development of autonomous agents capable of complex reasoning and multi-step problem solving. However, these agents struggle to adapt to specialized environments and do not leverage past interactions, approaching each new task from scratch regardless of their accumulated experience. We introduce Experiential Reflective Learning (ERL), a simple self-improvement framework that enables rapid environment adaptation through experiential learning. ERL reflects on task trajectories and outcomes to generate heuristics, capturing actionable lessons that transfer across tasks. At test time, relevant heuristics are retrieved based on the current task and injected into the agent's context to guide execution. On the Gaia2 benchmark, ERL improves success rate by 7.8% over a ReAct baseline, with large gains in task completion reliability, and outperforms prior experiential learning methods. Through systematic ablations, we find that selective retrieval is essential and that heuristics provide more transferable abstractions than few-shot trajectory prompting. These results demonstrate that reflecting on single-attempt experiences to extract transferable heuristics enables effective agent self-improvement.",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Learning Mesh-Free Discrete Differential Operators with Self-Supervised Graph Neural Networks",
-      "link": "https://arxiv.org/abs/2603.24641",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24641v1 Announce Type: new Abstract: Mesh-free numerical methods provide flexible discretisations for complex geometries; however, classical meshless discrete differential operators typically trade low computational cost for limited accuracy or high accuracy for substantial per-stencil computation. We introduce a parametrised framework for learning mesh-free discrete differential operators using a graph neural network trained via polynomial moment constraints derived from truncated Taylor expansions. The model maps local stencils relative positions directly to discrete operator weights. The current work demonstrates that neural networks can learn classical polynomial consistency while retaining robustness to irregular neighbourhood geometry. The learned operators depend only on local geometry, are resolution-agnostic, and can be reused across particle configurations and governing equations. We evaluate the framework using standard numerical analysis diagnostics, showing improved accuracy over Smoothed Particle Hydrodynamics, and a favourable accuracy-cost trade-off relative to a representative high-order consistent mesh-free method in the moderate-accuracy regime. Applicability is demonstrated by solving the weakly compressible Navier-Stokes equations using the learned operators.",
-      "categories": [
-        "cs.LG",
-        "cs.NA",
-        "math.NA",
-        "physics.flu-dyn"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Physics-Informed Neural Network Digital Twin for Dynamic Tray-Wise Modeling of Distillation Columns under Transient Operating Conditions",
-      "link": "https://arxiv.org/abs/2603.24644",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24644v1 Announce Type: new Abstract: Digital twin technology, when combined with physics-informed machine learning with simulation results of Aspen, offers transformative capabilities for industrial process monitoring, control, and optimization. In this work, the proposed model presents a Physics-Informed Neural Network (PINN) digital twin framework for the dynamic, tray-wise modeling of binary distillation columns operating under transient conditions. The architecture of the proposed model embeds fundamental thermodynamic constraints, including vapor-liquid equilibrium (VLE) described by modified Raoult's law, tray-level mass and energy balances, and the McCabe-Thiele graphical methodology directly into the neural network loss function via physics residual terms. The model is trained and evaluated on a high-fidelity synthetic dataset of 961 timestamped measurements spanning 8 hours of transient operation, generated in Aspen HYSYS for a binary HX/TX distillation system comprising 16 sensor streams. An adaptive loss-weighting scheme balances the data fidelity and physics consistency objectives during training. Compared to five data-driven baselines (LSTM, vanilla MLP, GRU, Transformer, DeepONet), the proposed PINN achieves an RMSE of 0.00143 for HX mole fraction prediction (R^2 = 0.9887), representing a 44.6% reduction over the best data-only baseline, while strictly satisfying thermodynamic constraints. Tray-wise temperature and composition profiles predicted under transient perturbations demonstrate that the digital twin accurately captures column dynamics including feed tray responses, reflux ratio variations, and pressure transients. These results establish the proposed PINN digital twin as a robust foundation for real-time soft sensing, model-predictive control, and anomaly detection in industrial distillation processes.",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms? A Study on autoresearch",
-      "link": "https://arxiv.org/abs/2603.24647",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24647v1 Announce Type: new Abstract: The autoresearch repository enables an LLM agent to search for optimal hyperparameter configurations on an unconstrained search space by editing the training code directly. Given a fixed compute budget and constraints, we use \\emph{autoresearch} as a testbed to compare classical hyperparameter optimization (HPO) algorithms against LLM-based methods on tuning the hyperparameters of a small language model. Within a fixed hyperparameter search space, classical HPO methods such as CMA-ES and TPE consistently outperform LLM-based agents. However, an LLM agent that directly edits training source code in an unconstrained search space narrows the gap to classical methods substantially despite using only a self-hosted open-weight 27B model. Methods that avoid out-of-memory failures outperform those with higher search diversity, suggesting that reliability matters more than exploration breadth. While small and mid-sized LLMs struggle to track optimization state across trials, classical methods lack domain knowledge. To bridge this gap, we introduce Centaur, a hybrid that shares CMA-ES's internal state, including mean vector, step-size, and covariance matrix, with an LLM. Centaur achieves the best result in our experiments, with its 0.8B variant outperforming the 27B variant, suggesting that a cheap LLM suffices when paired with a strong classical optimizer. The 0.8B model is insufficient for unconstrained code editing but sufficient for hybrid optimization, while scaling to 27B provides no advantage for fixed search space methods with the open-weight models tested. Code is available at https://github.com/ferreirafabio/autoresearch-automl.",
-      "categories": [
-        "cs.LG",
-        "stat.ML"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Energy-Efficient Hierarchical Federated Anomaly Detection for the Internet of Underwater Things via Selective Cooperative Aggregation",
-      "link": "https://arxiv.org/abs/2603.24648",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24648v1 Announce Type: new Abstract: Anomaly detection is a core service in the Internet of Underwater Things, yet training accurate distributed models underwater is difficult because acoustic links are low-bandwidth, energy-intensive, and often unable to support direct sensor-to-surface communication. Standard flat federated learning therefore faces two coupled limitations in underwater deployments: expensive long-range transmissions and reduced participation when only a subset of sensors can reach the gateway. This paper proposes an energy-efficient hierarchical federated learning framework for underwater anomaly detection based on three components: feasibility-aware sensor-to-fog association, compressed model-update transmission, and selective cooperative aggregation among fog nodes. The proposed three-tier architecture localises most communication within short-range clusters while activating fog-to-fog exchange only when smaller clusters can benefit from nearby larger neighbours. A physics-grounded underwater acoustic model is used to evaluate detection quality, communication energy, and network participation jointly. In large synthetic deployments, only about 48% of sensors can directly reach the gateway in the 200-sensor case, whereas hierarchical learning preserves full participation through feasible fog paths. Selective cooperation matches the detection accuracy of always-on inter-fog exchange while reducing its energy by 31-33%, and compressed uploads reduce total energy by 71-95% in matched sensitivity tests. Experiments on three real benchmarks further show that low-overhead hierarchical methods remain competitive in detection quality, while flat federated learning defines the minimum-energy operating point. These results provide practical design guidance for underwater deployments operating under severe acoustic communication constraints.",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Amplified Patch-Level Differential Privacy for Free via Random Cropping",
-      "link": "https://arxiv.org/abs/2603.24695",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24695v1 Announce Type: new Abstract: Random cropping is one of the most common data augmentation techniques in computer vision, yet the role of its inherent randomness in training differentially private machine learning models has thus far gone unexplored. We observe that when sensitive content in an image is spatially localized, such as a face or license plate, random cropping can probabilistically exclude that content from the model's input. This introduces a third source of stochasticity in differentially private training with stochastic gradient descent, in addition to gradient noise and minibatch sampling. This additional randomness amplifies differential privacy without requiring changes to model architecture or training procedure. We formalize this effect by introducing a patch-level neighboring relation for vision data and deriving tight privacy bounds for differentially private stochastic gradient descent (DP-SGD) when combined with random cropping. Our analysis quantifies the patch inclusion probability and shows how it composes with minibatch sampling to yield a lower effective sampling rate. Empirically, we validate that patch-level amplification improves the privacy-utility trade-off across multiple segmentation architectures and datasets. Our results demonstrate that aligning privacy accounting with domain structure and additional existing sources of randomness can yield stronger guarantees at no additional cost.",
-      "categories": [
-        "cs.LG",
-        "cs.CR",
-        "cs.CV"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Training LLMs for Multi-Step Tool Orchestration with Constrained Data Synthesis and Graduated Rewards",
-      "link": "https://arxiv.org/abs/2603.24709",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24709v1 Announce Type: new Abstract: Multi-step tool orchestration, where LLMs must invoke multiple dependent APIs in the correct order while propagating intermediate outputs, remains challenging. State-of-the-art models frequently fail on full sequence execution, with parameter value errors accounting for a significant portion of failures. Training models to handle such workflows faces two obstacles: existing environments focus on simple per-turn function calls with simulated data, and binary rewards provide no signal for partial correctness. We present a framework addressing both challenges. First, we construct a reinforcement learning environment backed by a large-scale cache of real API responses, enabling a data synthesis pipeline that samples valid multi-step orchestration traces with controllable complexity and significantly higher generation efficiency than unconstrained methods. Second, we propose a graduated reward design that decomposes correctness into atomic validity (individual function call correctness at increasing granularity) and orchestration (correct tool sequencing with dependency respect). On ComplexFuncBench, our approach demonstrates substantial improvements in turn accuracy. Ablation studies confirm both reward components are essential: using either alone significantly degrades performance.",
-      "categories": [
-        "cs.LG",
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Can an Actor-Critic Optimization Framework Improve Analog Design Optimization?",
-      "link": "https://arxiv.org/abs/2603.24714",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24714v1 Announce Type: new Abstract: Analog design often slows down because even small changes to device sizes or biases require expensive simulation cycles, and high-quality solutions typically occupy only a narrow part of a very large search space. While existing optimizers reduce some of this burden, they largely operate without the kind of judgment designers use when deciding where to search next. This paper presents an actor-critic optimization framework (ACOF) for analog sizing that brings that form of guidance into the loop. Rather than treating optimization as a purely black-box search problem, ACOF separates the roles of proposal and evaluation: an actor suggests promising regions of the design space, while a critic reviews those choices, enforces design legality, and redirects the search when progress is hampered. This structure preserves compatibility with standard simulator-based flows while making the search process more deliberate, stable, and interpretable. Across our test circuits, ACOF improves the top-10 figure of merit by an average of 38.9% over the strongest competing baseline and reduces regret by an average of 24.7%, with peak gains of 70.5% in FoM and 42.2% lower regret on individual circuits. By combining iterative reasoning with simulation-driven search, the framework offers a more transparent path toward automated analog sizing across challenging design spaces.",
-      "categories": [
-        "cs.LG",
-        "cs.SY",
-        "eess.SY"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Contrastive Learning Boosts Deterministic and Generative Models for Weather Data",
-      "link": "https://arxiv.org/abs/2603.24744",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24744v1 Announce Type: new Abstract: Weather data, comprising multiple variables, poses significant challenges due to its high dimensionality and multimodal nature. Creating low-dimensional embeddings requires compressing this data into a compact, shared latent space. This compression is required to improve the efficiency and performance of downstream tasks, such as forecasting or extreme-weather detection. Self-supervised learning, particularly contrastive learning, offers a way to generate low-dimensional, robust embeddings from unlabelled data, enabling downstream tasks when labelled data is scarce. Despite initial exploration of contrastive learning in weather data, particularly with the ERA5 dataset, the current literature does not extensively examine its benefits relative to alternative compression methods, notably autoencoders. Moreover, current work on contrastive learning does not investigate how these models can incorporate sparse data, which is more common in real-world data collection. It is critical to explore and understand how contrastive learning contributes to creating more robust embeddings for sparse weather data, thereby improving performance on downstream tasks. Our work extensively explores contrastive learning on the ERA5 dataset, aligning sparse samples with complete ones via a contrastive loss term to create SPARse-data augmented conTRAstive spatiotemporal embeddings (SPARTA). We introduce a temporally aware batch sampling strategy and a cycle-consistency loss to improve the structure of the latent space. Furthermore, we propose a novel graph neural network fusion technique to inject domain-specific physical knowledge. Ultimately, our results demonstrate that contrastive learning is a feasible and advantageous compression method for sparse geoscience data, thereby enhancing performance in downstream tasks.",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Grokking as a Falsifiable Finite-Size Transition",
-      "link": "https://arxiv.org/abs/2603.24746",
-      "publishedAt": "2026-03-27T04:00:00.000Z",
-      "contentSnippet": "arXiv:2603.24746v1 Announce Type: new Abstract: Grokking -- the delayed onset of generalization after early memorization -- is often described with phase-transition language, but that claim has lacked falsifiable finite-size inputs. Here we supply those inputs by treating the group order $p$ of $\\mathbb{Z}_p$ as an admissible extensive variable and a held-out spectral head-tail contrast as a representation-level order parameter, then apply a condensed-matter-style diagnostic chain to coarse-grid sweeps and a dense near-critical addition audit. Binder-like crossings reveal a shared finite-size boundary, and susceptibility comparison strongly disfavors a smooth-crossover interpretation ($\\Delta\\mathrm{AIC}=16.8$ in the near-critical audit). Phase-transition language in grokking can therefore be tested as a quantitative finite-size claim rather than invoked as analogy alone, although the transition order remains unresolved at present.",
-      "categories": [
-        "cs.LG",
-        "cond-mat.stat-mech",
-        "cs.AI"
       ]
     },
     {
@@ -2268,6 +1788,16 @@
       "source": "LangChain Blog",
       "sourceType": "opensource",
       "feedTitle": "LangChain Blog",
+      "title": "Agent Evaluation Readiness Checklist",
+      "link": "https://blog.langchain.com/agent-evaluation-readiness-checklist/",
+      "publishedAt": "2026-03-27T14:00:00.000Z",
+      "contentSnippet": "A practical checklist for agent evaluation: error analysis, dataset construction, grader design, offline & online evals, and production readiness.",
+      "categories": []
+    },
+    {
+      "source": "LangChain Blog",
+      "sourceType": "opensource",
+      "feedTitle": "LangChain Blog",
       "title": "How Kensho built a multi-agent framework with LangGraph to solve trusted financial data retrieval",
       "link": "https://blog.langchain.com/customers-kensho/",
       "publishedAt": "2026-03-26T19:39:21.000Z",
@@ -2376,16 +1906,6 @@
       "link": "https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/",
       "publishedAt": "2026-03-17T15:30:00.000Z",
       "contentSnippet": "Built on Deep Agents and LangGraph, Open SWE provides the core architectural components for internal coding agents.",
-      "categories": []
-    },
-    {
-      "source": "LangChain Blog",
-      "sourceType": "opensource",
-      "feedTitle": "LangChain Blog",
-      "title": "LangChain Announces Enterprise Agentic AI Platform Built with NVIDIA",
-      "link": "https://blog.langchain.com/nvidia-enterprise/",
-      "publishedAt": "2026-03-16T21:31:28.000Z",
-      "contentSnippet": "Comprehensive agent engineering platform combined with NVIDIA AI enables enterprises to build, deploy, and monitor production-grade AI agents at scale Press Release SAN FRANCISCO, March 16, 2026 /PRNewswire/ — LangChain, the agent engineering company behind LangSmith and open-source frameworks that have surpassed 1 billion downloads, today announced a comprehensive integration",
       "categories": []
     },
     {
@@ -2537,6 +2057,16 @@
       "source": "OECD AI",
       "sourceType": "policy",
       "error": "Error: Status code 404"
+    },
+    {
+      "source": "EFF Deeplinks",
+      "sourceType": "policy",
+      "feedTitle": "Deeplinks",
+      "title": "US Tech Companies Must be Accountable in US Courts for Facilitating Persecution and Torture Abroad, EFF Urges US Supreme Court",
+      "link": "https://www.eff.org/press/releases/us-tech-companies-must-be-accountable-us-courts-facilitating-persecution-and-torture",
+      "publishedAt": "2026-03-27T22:07:56.000Z",
+      "contentSnippet": "Cisco Systems Case Has Major Implications for Global Human Rights SAN FRANCISCO – U.S. technology companies should be legally accountable in U.S. courts for building tools that purposefully and actively facilitate human rights abuses by foreign governments, the Electronic Frontier Foundation argued in a brief filed Friday to the U.S. Supreme Court. The brief filed in the case of Cisco Systems, Inc., et al., v. Doe I, et al. urges the high court to uphold the U.S. Court of Appeals for the 9th Circuit’s 2023 ruling that U.S. corporations can be held liable under the Alien Tort Statute (ATS) – a law that lets noncitizens bring claims in U.S. federal court for international law violations – for taking actions in the U.S. that aided and abetted persecution and torture abroad. “This is not a case about a company that merely provided routers or other general-purpose technologies to a foreign government. It is about a company that purposefully and actively assisted in the persecution of a religious group,” the brief says. “There is a growing set of companies—including American companies—that provide surveillance technologies that are vulnerable to, and indeed are being used to, support gross human rights abuses. Because of this, the outcome of this case will have profound implications for millions of people who rely on digital technologies in their everyday lives, including to practice their religion.” The “Golden Shield” system that Cisco custom-built for the Chinese government was an essential component of persecution against the Falun Gong religious group—persecution that included online spying and tracking, detention, and torture. Victims reported that intercepted communications were used during torture sessions aimed at forcing them to renounce their religion. Falun Gong victims and their families sued Cisco in 2011 and a federal district judge dismissed the case in 2014. The case was delayed three times as the Supreme Court considered three prior ATS cases. The 9th Circuit appeals court – after proceedings including an amicus brief from EFF – reversed that lower decision, holding that U.S. corporations can be held liable under the ATS for aiding and abetting human rights abuses abroad. It also held that a company does not need to have the “purpose” to facilitate human rights abuses in order to be held liable; it only needs to have “knowledge” that its assistance helped in such abuses. It then held that the plaintiffs’ allegations showed that Cisco’s actions met both standards. The court also held that the fact that a technology has legitimate uses does not shield a company from liability for other uses that led to human rights abuses when the standards of international law are met. Taken cumulatively, Cisco’s actions in the U.S. were sufficient to allow the case to proceed, the 9th Circuit ruled. Cisco appealed to the Supreme Court, which granted review in January. The case, No. 24-856, is scheduled for argument on April 28. Cisco Systems is just one of many U.S. companies that make surveillance systems, spyware, and other products used by governments to violate people’s human rights. “This Court must not shut the courthouse door to victims of human rights abuses that are actively powered by American corporations,” the brief says. “In the digital age, repressive governments rarely act alone to violate human rights. They have accomplices—including technology companies that have the sophistication and technical know-how that those repressive governments lack.” For EFF’s amicus brief to the U.S. Supreme Court: https://www.eff.org/document/2026-03-27-eff-amicus-brief-cisco-v-doe-scotus For EFF’s Doe I v. Cisco case page: https://www.eff.org/cases/doe-i-v-cisco For the U.S. Supreme Court docket: https://www.supremecourt.gov/docket/docketfiles/html/public/24-856.html Contact: Sophia Cope Senior Staff Attorney sophia@eff.org Cindy Cohn Executive Director cindy@eff.org",
+      "categories": []
     },
     {
       "source": "EFF Deeplinks",
@@ -2759,23 +2289,6 @@
           "_": "Creativity & Innovation",
           "$": {
             "domain": "https://www.eff.org/issues/innovation"
-          }
-        }
-      ]
-    },
-    {
-      "source": "EFF Deeplinks",
-      "sourceType": "policy",
-      "feedTitle": "Deeplinks",
-      "title": "The Foilies 2026",
-      "link": "https://www.eff.org/deeplinks/2026/03/foilies-2026",
-      "publishedAt": "2026-03-15T15:41:02.000Z",
-      "contentSnippet": "Recognizing the Worst in Government Transparency The Foilies were written by EFF's Beryl Lipton, Dave Maass and Aaron Mackey and MuckRock's Dillon Bergin, Kelly Kauffman and Anna Massoglia. Art by Shelby Criswell. For the last six years, a class of journalism students at the University of Nevada, Reno, has kicked off each semester by filing their first Freedom of Information Act (FOIA) requests. The assignment: Request copies of complaints sent to the Federal Communications Commission (FCC) about their favorite TV show, a local radio station, or a major broadcast event, such as the Grammys or the Super Bowl halftime show. The students are learning that the federal government and every state have laws establishing the public's right to request and receive public records. It's a bedrock principle of democracy: If a government belongs to the people, so do its documents. In the past, the FCC always provided records within a few weeks, if not days. But that changed in September when students requested consumer complaints filed against NPR and PBS stations to see if there was absolutely anything at all to merit defunding public media. Seven months later — crickets. Now the students are learning to persevere even when public officials demonstrate an utter disdain for transparency. And The Foilies are here for it. Established in 2015, The Foilies are an annual project by the Electronic Frontier Foundation and MuckRock to recognize the agencies, officials and contractors that thwart the public's right to know. We give out these tongue-in-cheek \"awards\" during Sunshine Week (March 15-21), a collective effort by media and advocacy organizations to highlight the importance of open government. This year, we've got a few \"winners\" whose behavior defies belief. But it's not all negative. Those same Reno students are also assigned to file public records requests for restaurant health inspections. This semester, the records started to show up in their inboxes within 20 minutes. If every agency followed Northern Nevada Public Health's example, we could sunset this Sunshine Week project. Quick links: The Love Letters Award - Gov. Greg Abbott The Surcharge, Eh? Award - Vancouver, B.C. The Shady Screenshot Award - Department of Homeland Security The Discardment of Government Efficiency Award - DOGE The Secret Eyes in the Sky Award - Chula Vista Police Department, Calif. The City of Darkness Award - Richmond, Va. The Flock You Awards - Multiple Winners The Database Deletion Award - Muneeb and Sohaib Akhter, formerly of Opexus The Love Letters Award - Gov. Greg Abbott Last spring, the office of Texas Gov. Greg Abbott withheld communications between himself and one of the state’s most powerful business figures, Elon Musk. The office claimed that the communications were exempt from public records law because they would reveal confidential legal and policy discussions, including how the state entices private companies to do business in Texas, or “intimate and embarrassing” information. The claims were unelaborated boilerplate language based on exemptions in Texas’ public records law. But if you’re wondering what \"intimate\" and “embarrassing” exchanges Abbott and Elon Musk shared over email, you may be waiting a while. Last fall, the Office of the Texas Attorney General ordered Texas Gov. Greg Abbott’s office to release nearly 1,400 pages of communications between Abbott and Musk. About 1,200 of those pages were fully redacted–just sheets of gray obscuration. The records that were released don’t reveal much more than an invitation to a happy hour or a reminder of the next SpaceX launch. The Surcharge, Eh? Award - Vancouver, B.C. Vancouver residents must now pay twice for public records. Despite taxes already funding the creation and storage of government records, the City Council approved charging people $10 Canadian (about $7.33 in the United States) every time they ask for “non-personal” public records. Officials claim the fee is necessary to deter misuse and cover some administrative costs. The only people abusing anything, however, are the officials who imposed this tax on the public. The message Vancouver is sending is as crisp as a newly minted $10 note: Secrecy is a higher priority than public accountability. The Shady Screenshot Award - Department of Homeland Security The Department of Homeland Security’s banner year of lawlessness included backsliding on its transparency obligations. In response to a request from the nonprofit American Oversight, DHS stated that it was no longer automatically archiving text messages sent between officials. The department clarified that it had a new, and much worse, records retention policy. Instead of archiving officials’ text messages as the agency had done before, DHS now asks officials to take screenshots of any text messages conducting government business on their work phones. It’s hard to see the change as anything more than a giant middle finger to the public, especially because the Federal Records Act requires agencies to retain all records officials create while conducting their public duties, regardless of format. We won’t hold our breath waiting on DHS officials to dutifully press the volume and power button on their phones to record every text message they send and receive. The Discardment of Government Efficiency Award - DOGE As the Trump administration took over last year, there was a looming threat over government transparency: the so-called Department of Government Efficiency, also known as DOGE. Billionaire Elon Musk, soon to be the de facto leader of DOGE, proudly claimed “there should be no need for FOIA requests” and “all government data should be default public for maximum transparency.” What quickly became apparent was there may be no need for FOIA requests, because there may be no FOIA officers to fulfill those requests. DOGE quickly went to work slashing through the federal government, including seizing control of the U.S. Institute of Peace. Part of the takeover included restricting access to the agency’s FOIA system and firing the employees responsible for fulfilling FOIA requests, according to a letter sent to Bloomberg reporter Jason Leopold. Meanwhile, when CNN filed a FOIA request with the Office of Personnel Management (OPM) for information about Musk and DOGE's security clearance, they were told: \"Good luck with that,\" because the FOIA officers had been fired. DOGE also argued that its own records are exempt from FOIA under the Presidential Records Act, meaning records cannot be accessed until five years after President Donald Trump is out of office. While DOGE “doesn’t exist” anymore according to the OPM, there remains a lasting dark mark on the state of FOIA and records management. The Secret Eyes in the Sky Award - Chula Vista Police Department, Calif. In 2021, Arturo Castañares at La Prensa San Diego filed a request with the Chula Vista Police Department for copies of videos taken by drones responding to 911 calls as part of the city's \"drone as first responder\" program. One of the goals was to evaluate the technology’s efficacy and risks to civil liberties. The city worked overtime to maintain the secrecy of the footage at the same time officials publicly touted the drones as a revolution in policing. That’s some impressive trust-us-but-don’t-verify chutzpah. The city argued that every second of every video recorded by its drones was categorically off limits because they were law enforcement investigative records. They even got a trial court to initially buy the argument. But an appellate court ruled that the investigatory records exemption is more limited, shielding only drone footage that is part of a criminal investigation or evidence of a suspected crime. Footage of wildfires, car wrecks, wild animal sightings and the like are not criminal investigations and must be disclosed. The California Supreme Court rejected both of CVPD's appeals and a trial court bench slapped the city for inaccurate and incomplete court filings. In the end, the city had to shell out north of $400,000 to its outside lawyers, and then paid Castañares’ lawyers more than $500,000 when he prevailed. So what were Chula Vista police hiding? A bunch of routine service calls, such as unverified reports of a vehicle fire and a vehicle collision. Now, according to La Prensa's reporting, officials are trying to raid a public safety fund created by voters to reimburse the city for the cost of its ill-advised secrecy. The City of Darkness Award - Richmond, Va. Richmond’s creation of a new FOIA Library may seem like a step toward transparency, but there are questions about the city’s commitment after it left the same officials subject to records requests in charge of curating which records might be released. Faced with a plan to post all of the city’s eligible public records released under Virginia’s “sunshine” law, the Richmond City Council instead opted to go with the mayor’s alternative proposal. That plan lets the mayor’s administration — the same one that might be the subject of those records — decide what’s worth posting to the library. Instead of providing access to all public records that the city released under the Virginia Freedom of Information Act, the library will only contain a subset that officials believe meet certain criteria, including records that the administration deems \"relevant\" to city business or that would aid \"accountability.” The city cites concerns that \"transparency without context\" might be too confusing for the average citizen. Forgive us for having more faith in Richmond residents than its leaders do. The city’s secrecy shenanigans extend beyond the FOIA library. In an ongoing legal battle, attorneys representing Richmond asked a judge to prohibit former city FOIA officer Connie Clay from filing FOIA requests seeking information about her firing, and sought a gag order to prevent her from talking about the case. Clay alleges she was fired for insisting the city comply with public records law, describing what she calls a “chaotic and mismanaged” and illegal FOIA request process. Rather than agree to a $250,000 settlement, Richmond has spent more than $633,000 in taxpayer funds on legal costs. The trial and the FOIA library launch are both slated for the summer of 2026. The Flock You Awards - Multiple Winners If you live in one of the 5,000 cities where surveillance vendor Flock Safety claims to have established relationships with local cops, you may have noticed the sudden installation of little black cameras on poles by the side of the road or at intersections. These are automated license plate readers (ALPRs), which document every vehicle that passes within view, including the license plate, color, make, model and other distinguishing characteristics. The images are fed to Flock's servers, and the company encourages police to share the images collected locally with law enforcement throughout the country. Each year, law enforcement agencies across the country conduct tens of millions of searches of each other's databases. In 2025, journalists and privacy advocates started filing public records requests with agencies to get spreadsheets called a \"Network Audit,\" which shows every search, including who ran it and why. Accessing these audits uncovered abuse of the system including: investigating a woman who received an abortion, targeting immigrants, surveilling protesters, and running racist searches targeting Roma people. In response, some cities have terminated their contracts with Flock Safety. Other law enforcement agencies, and Flock itself, have gone a different direction: Taunton Police Department, Mass.: The police department told the ACLU of Massachusetts to cough up $1.8 million if the organization wanted its network audit logs–the highest public records fee we documented this year. The civil liberties group filed requests with agencies throughout the state for the audits, and most agencies handed over the spreadsheets for free and with little fanfare. Taunton, however, said it would take 20,000 hours to process the request, at $86.57 an hour. Orange County Sheriff's Department, Calif.: The Orange County Sheriff gave a number of reasons it wouldn't release the network audit logs in response to a public records request. The most inane (and misspelled one): It would \"disincentive law enforcement from conducting such research.\" Aren't cops the ones who say if you’re not doing anything wrong, you've got nothing to hide? Well, well, well, how the tables have turned. Flock Safety: The company responded to criticisms of its ALPR network by sending legal threats aimed at trying to silence its critics. First, the company used a bogus trademark claim to threaten DeFlock.me–a crowdsourced map of ALPR. (EFF represented its creator.) Then it hired a company to try to get the hosts of HaveIBeenFlocked.com, which hosts an interface for searching these network audits, to remove the site from the internet. The Database Deletion Award - Muneeb and Sohaib Akhter, formerly of Opexus Brothers Muneeb and Sohaib Akhter are accused of essentially hitting delete on government data, destroying access to information contained in millions of records. The government hired a federal contractor called Opexus, which hosts data and provides services to dozens of federal agencies. The company employed the Akhter siblings, though in February 2025, Opexus learned about the brothers’ previous convictions for wire fraud and obstructing justice. Soon after, the company fired the pair. But, according to prosecutors, the two decided to double down on being wildly unsuited for administrative access to government records systems. The Akhters immediately turned around and retaliated “by accessing computers without authorization, issuing commands to prevent others from modifying the databases before deletion, deleting databases, stealing information, and destroying evidence of their unlawful activities,\" according to the U.S. Department of Justice. The two have been accused of deleting 96 government databases, many of which contained FOIA records and sensitive investigative files. Their indictment alleges that a minute later, one brother queried an artificial intelligence tool for “how to clear system logs following the deletion of databases.” The brothers are also charged with stealing government records and conspiracy to commit computer fraud. The Brothers Akhter allegedly took mere moments to destroy untold amounts of information that belonged to the public. Though they could face decades in prison, the public may never know the extent of the damage. Want more FOIA horror stories? Check out The Foilies archives!",
-      "categories": [
-        {
-          "_": "The Foilies: Recognizing the Worst in Government Transparency",
-          "$": {
-            "domain": "https://www.eff.org/issues/foilies"
           }
         }
       ]
