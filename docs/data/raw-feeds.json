@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-03-30T02:00:50.374Z",
+  "generatedAt": "2026-03-31T02:00:36.552Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "Helping disaster response teams turn AI into action across Asia",
+      "link": "https://openai.com/index/helping-disaster-response-teams-asia",
+      "publishedAt": "2026-03-29T22:15:00.000Z",
+      "contentSnippet": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
+      "categories": [
+        "Global Affairs"
+      ]
+    },
     {
       "source": "OpenAI",
       "sourceType": "official",
@@ -53,24 +65,24 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "Powering product discovery in ChatGPT",
-      "link": "https://openai.com/index/powering-product-discovery-in-chatgpt",
-      "publishedAt": "2026-03-24T09:00:00.000Z",
-      "contentSnippet": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
-      "categories": [
-        "Product"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
       "title": "Update on the OpenAI Foundation",
       "link": "https://openai.com/index/update-on-the-openai-foundation",
       "publishedAt": "2026-03-24T09:00:00.000Z",
       "contentSnippet": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
       "categories": [
         "Company"
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "Powering product discovery in ChatGPT",
+      "link": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+      "publishedAt": "2026-03-24T09:00:00.000Z",
+      "contentSnippet": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
+      "categories": [
+        "Product"
       ]
     },
     {
@@ -113,18 +125,6 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
-      "link": "https://openai.com/index/japan-teen-safety-blueprint",
-      "publishedAt": "2026-03-17T10:00:00.000Z",
-      "contentSnippet": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
-      "categories": [
-        "Safety"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
       "title": "Introducing GPT-5.4 mini and nano",
       "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
       "publishedAt": "2026-03-17T10:00:00.000Z",
@@ -137,12 +137,12 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "Equipping workers with insights about compensation",
-      "link": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
-      "publishedAt": "2026-03-17T00:00:00.000Z",
-      "contentSnippet": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+      "link": "https://openai.com/index/japan-teen-safety-blueprint",
+      "publishedAt": "2026-03-17T10:00:00.000Z",
+      "contentSnippet": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
       "categories": [
-        "Global Affairs"
+        "Safety"
       ]
     },
     {
@@ -696,6 +696,168 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "15% of Americans say they’d be willing to work for an AI boss, according to new poll",
+      "link": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
+      "publishedAt": "2026-03-30T23:41:48.000Z",
+      "contentSnippet": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules.",
+      "categories": [
+        "AI",
+        "future of work",
+        "Jobs",
+        "polls"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+      "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+      "publishedAt": "2026-03-30T23:08:12.000Z",
+      "contentSnippet": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
+      "categories": [
+        "AI",
+        "Security",
+        "Startups",
+        "TC",
+        "Delve",
+        "security compliance"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "As more Americans adopt AI tools, fewer say they can trust the results",
+      "link": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+      "publishedAt": "2026-03-30T20:24:53.000Z",
+      "contentSnippet": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll.",
+      "categories": [
+        "AI",
+        "AI trust",
+        "quinnipiac university"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem",
+      "link": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
+      "publishedAt": "2026-03-30T14:30:00.000Z",
+      "contentSnippet": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called \"digital twins\" of the human body, representing anatomy, physiology and behavior.",
+      "categories": [
+        "AI",
+        "Biotech & Health",
+        "sportstech",
+        "digital twins",
+        "Mantis Biotech",
+        "Decibel VC"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "ScaleOps raises $130M to improve computing efficiency amid AI demand",
+      "link": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
+      "publishedAt": "2026-03-30T13:52:02.000Z",
+      "contentSnippet": "ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.",
+      "categories": [
+        "AI",
+        "Startups",
+        "GPU",
+        "GPU optimization",
+        "Insight Partners",
+        "Kubernetes",
+        "ScaleOps"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round",
+      "link": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+      "publishedAt": "2026-03-30T13:00:00.000Z",
+      "contentSnippet": "The startup, which is planning to go public later this year, designs chips specifically for AI inference, another challenger to Nvidia's dominance.",
+      "categories": [
+        "AI",
+        "Hardware",
+        "chips",
+        "Mirae Asset",
+        "Rebellions"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Mistral AI raises $830M in debt to set up a data center near Paris",
+      "link": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
+      "publishedAt": "2026-03-30T12:49:51.000Z",
+      "contentSnippet": "Mistral aims to start operating the data center by the second quarter of 2026.",
+      "categories": [
+        "AI",
+        "data centers",
+        "In Brief",
+        "Mistral AI",
+        "nvidia"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Qodo raises $70M for code verification as AI coding scales",
+      "link": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
+      "publishedAt": "2026-03-30T12:30:00.000Z",
+      "contentSnippet": "As AI floods software development with code, Qodo is betting the real challenge is making sure it actually works.",
+      "categories": [
+        "AI",
+        "Startups",
+        "visualead",
+        "qodo",
+        "code verification"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Starcloud raises $170 million Series A to build data centers in space",
+      "link": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
+      "publishedAt": "2026-03-30T11:00:00.000Z",
+      "contentSnippet": "Starcloud becomes the fastest Y Combinator startup to reach unicorn status, just 17 months after demo day.",
+      "categories": [
+        "AI",
+        "Space",
+        "Benchmark",
+        "eqt ventures",
+        "Starcloud",
+        "Y Combinator"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Why OpenAI really shut down Sora",
+      "link": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "publishedAt": "2026-03-30T03:09:38.000Z",
+      "contentSnippet": "OpenAI's decision last week to shut down Sora, its AI video-generation tool, just six months after releasing it to the public, raised immediate suspicions. The app had invited users to upload their own faces — so was this some kind of elaborate data grab?",
+      "categories": [
+        "AI",
+        "TC",
+        "In Brief",
+        "OpenAI",
+        "sora"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
       "title": "Sora’s shutdown could be a reality check moment for AI video",
       "link": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
       "publishedAt": "2026-03-29T16:30:00.000Z",
@@ -716,187 +878,23 @@
       "publishedAt": "2026-03-28T23:00:00.000Z",
       "contentSnippet": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.",
       "categories": [
-        "TC",
         "AI",
         "Apps",
         "Social",
-        "social media",
+        "ai apps",
         "Bluesky",
-        "ai apps"
+        "social media"
       ]
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
-      "link": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-      "publishedAt": "2026-03-28T20:45:54.000Z",
-      "contentSnippet": "While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.",
-      "categories": [
-        "AI",
-        "stanford"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Elon Musk’s last co-founder reportedly leaves xAI",
-      "link": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
-      "publishedAt": "2026-03-28T16:11:16.000Z",
-      "contentSnippet": "All but two of Musk's 11 xAI co-founders departed before this week.",
-      "categories": [
-        "AI",
-        "Startups",
-        "Elon Musk",
-        "SpaceX",
-        "xAI",
-        "ross nordeen",
-        "manuel kroiss"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Anthropic’s Claude popularity with paying consumers is skyrocketing",
-      "link": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
-      "publishedAt": "2026-03-28T14:15:00.000Z",
-      "contentSnippet": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.",
-      "categories": [
-        "TC",
-        "AI"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO",
-      "link": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
-      "publishedAt": "2026-03-27T21:44:45.000Z",
-      "contentSnippet": "Wall Street giants JPMorgan and Goldman Sachs are extending a 12-month, unsecured loan to the Japanese conglomerate.",
-      "categories": [
-        "AI",
-        "Venture",
-        "Goldman Sachs",
-        "IPO",
-        "jp morgan",
-        "OpenAI",
-        "SoftBank Group International",
-        "In Brief"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO",
-      "link": "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/",
-      "publishedAt": "2026-03-27T19:11:28.000Z",
-      "contentSnippet": "SK hynix’s potential U.S. listing could raise $10-$14 billion to help it build more capacity, encourage others to follow, and end the 'RAMmageddon' memory shortage.",
-      "categories": [
-        "AI",
-        "Enterprise",
-        "Hardware",
-        "IPOs",
-        "memory",
-        "SK Hynix"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "VCs are betting billions on AI’s next wave, so why is OpenAI killing Sora?",
-      "link": "https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/",
-      "publishedAt": "2026-03-27T15:40:19.000Z",
-      "contentSnippet": "When an 82-year-old Kentucky woman was offered $26 million from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone 2,000 acres nearby anyway, but as AI infrastructure stretches further into the real world, the real world is starting to push back. That tension is everywhere […]",
-      "categories": [
-        "AI",
-        "Fundraising",
-        "Startups",
-        "drones",
-        "Kleiner Perkins",
-        "Meta",
-        "zipline",
-        "OpenAI",
-        "Equity podcast",
-        "brinc",
-        "sora",
-        "meta lawsuit",
-        "Lucid Bots"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "OpenAI shuts down Sora while Meta gets shut out in court",
-      "link": "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/",
-      "publishedAt": "2026-03-27T13:30:00.000Z",
-      "contentSnippet": "When an 82-year-old Kentucky woman was offered $26 million from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone 2,000 acres nearby anyway, but as AI infrastructure stretches further into the real world, the real world is starting to push back. That tension is everywhere […]",
-      "categories": [
-        "AI",
-        "Social",
-        "Startups",
-        "app shutdown",
-        "drones",
-        "Kleiner Perkins",
-        "Meta",
-        "meta lawsuit",
-        "OpenAI",
-        "Roundup",
-        "sora"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "David Sacks is done as AI czar — here’s what he’s doing instead",
-      "link": "https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/",
-      "publishedAt": "2026-03-27T01:26:40.000Z",
-      "contentSnippet": "Sacks will be much further from the power center in Washington than since the outset of this second Trump administration.",
-      "categories": [
-        "TC",
-        "AI",
-        "Government & Policy",
-        "david sacks"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Anthropic wins injunction against Trump administration over Defense Department saga",
-      "link": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
-      "publishedAt": "2026-03-27T01:18:38.000Z",
-      "contentSnippet": "A federal judge has ordered that the Trump administration rescind recent restrictions it placed on the AI company.",
-      "categories": [
-        "AI",
-        "TC",
-        "Anthropic",
-        "defense",
-        "pete hegseth",
-        "Trump"
-      ]
-    },
-    {
-      "source": "TechCrunch AI",
-      "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "You can now transfer your chats and personal information from other chatbots directly into Gemini",
-      "link": "https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/",
-      "publishedAt": "2026-03-26T23:47:56.000Z",
-      "contentSnippet": "Google is launching \"switching tools\" that, just as it sounds, will make it easier for users of other chatbots to switch to Gemini.",
-      "categories": [
-        "AI",
-        "artificial intelligence",
-        "gemini",
-        "Google"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Okta&#8217;s CEO is betting big on AI agent identity",
+      "link": "https://www.theverge.com/podcast/902264/oktas-ceo-is-betting-big-on-ai-agent-identity",
+      "publishedAt": "2026-03-30T15:15:00.000Z",
+      "contentSnippet": "Today, I’m talking with Todd McKinnon, who is co-founder and CEO of Okta, a platform that lets big companies manage security and identity across all the apps and services their employees use. Think of it like login management — actually, that’s a great way to think about it because the way most people encounter Okta is that it’s the thing that makes you log in again right before joining a meeting several times a week, so then you’re late for the meeting… Can you tell we use Okta? Anyhow, all of that is a big business — Okta has a $14 billion market cap. But big software as a service companies like Okta are under a lot of pressure in the age of AI. Why would you pay their fees when you can just vibe-code your own tools? This so-called Saaspocalypse is a big deal, and Todd recently said he was “paranoid” about it on Okta’s most recent earnings call. So we dug into it, and how he’s putting that paranoia into practice inside Okta — what he’s changing, and what opportunities he’s going after to head off the apocalypse. Verge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. The biggest opportunity you’ll hear us talk about is some deep Decoder bait: the idea that it’s not just people whose access and security credentials need management, but also AI agents inside a corporation. This concept has really exploded with the rise of OpenClaw, which came with a ton of security challenges. Can any company keep users, platforms, and data safe if people are just going to buy a Mac Mini, hand their credentials to it, and let OpenClaw do whatever it wants with them? Is simply installing a “kill switch” at the agent level — as Todd suggests — enough? You’ll hear Todd say that agent identity is something in between a person and a system, which is some of the richest Decoder bait possible, so we spent some time digging into that. It also seems like we are on the cusp of some of the goofiest org chart ideas in history, as people start to manage hybrid teams of people and agents, and I wanted to know how Todd was thinking about that inside of Okta itself. Like so many of our guests lately, it’s clear that Todd’s a Decoder fan, so this one got deep, about the very nature of building software itself, and what it means to run a software company. That’s right, the Okta episode got emotional. Hang on, it might surprise you. Okay: Okta CEO Todd McKinnon. Here we go. This interview has been lightly edited for length and clarity. Todd McKinnon, you’re the Co-founder and CEO of Okta. Welcome to Decoder. Thank you for having me, Nilay. It’s great to be here. I’m excited to talk to you. I feel like a real theme of Decoder lately is just me being emotional about the nature of software in 2026. And I can’t think of anyone better to do it with than you, because when I think of emotional software development, I think of big enterprise software CEOs. Would you like me to soothe your emotions or upset your emotions? I’m going to start with your emotions, actually. We’re going to get right into your feelings, Todd. Oh, yeah. All right. I’m really good at talking about my feelings to massive groups of people, so lay it on. Well, you did. Here we go. We’re going to just jump right into it. A few weeks ago, Okta had earnings. You’re on the call. They asked you about the SaaSpocalypse, which I want to talk about in detail. But this was your response to SaaSpocalypse; this is why we’re starting with feelings. You said, “We are paranoid, and we’re making sure that we’re using all the latest technologies, LLMs, et cetera, to make sure that we have something that’s resilient and secure but has the best features and best capabilities.” This is you talking about, “Hey, agentic software development is real. The idea that our customers would build their own tools instead of paying us for these tools is real. We’re paranoid about it. We’ve got to compete with that.” That’s a big thing to say. Talk about where you are in SaaSpocalypse because I want to start there, and then I want to zoom out to basically the nature of software in general. But that feels like a big thing for you to say; you need to be paranoid about this threat. Let’s start with me, personality-wise, and how I operate. I’m very much challenge-driven, and I think a lot of people are in our business and just like, “What’s the next challenge?” And what I see right now in the world is a huge challenge and a huge opportunity. It’s like a huge mountain to climb. And the fundamental level is that I believe strongly that the pie for technology is expanding greatly. The pie of what we can do for people and companies with AI and the common things people talk about, agents, and… This is a massive change, massive disruption. It’s bigger than cloud computing. If you could talk about it, is it as big as the internet? It’s big. Now, capturing that and leading a company that thrives… Okta has had a decent amount of success, $3 billion in revenue, growing over 10 percent last year, an established brand, and 20,000 customers. We’ve had some decent success. I think the opportunity going forward with all this change and all this disruption is massive. It’s huge. Technology is getting way bigger; there are all kinds of new categories that I think are emerging. For me, personally, it’s an incredible opportunity and challenge to lead the company through this. And to go from what is a mid-size, successful SaaS company to what I think could be one of the most important companies in the world — that’s a huge challenge. It’s a huge opportunity. It’s also daunting because, in some way, it’d be great if things didn’t change that much, our locked-in position was more stable, and we could plug along. But there’s a huge prize. The prize is massive, and that’s incumbent upon us to face this challenge and to go get it. You’ve talked about this in terms of the pie. You’ve said that the total addressable market for software is growing. I have a lot of questions about Okta in that market as it’s growing. I know you have some announcements about agents, verifying agents, and having a kill switch for agents that I want to talk about. I just want to come back to SaaSpocalypse in general. I understand SaaSpocalypse for run-of-the-mill productivity tools. We use a lot of run-of-the-mill productivity tools here at The Verge; they’re all fine. And I’m always joking that enterprise software CEOs don’t love coming on the show because… When I grow up, I want to be run-of-the-mill. Right. But they’re all fine. You can take one piece of project tracking software and replace it with another, and the idea that you’re going to get anything more than a 5 percent productivity improvement, I think, has always been illusory. Maybe you’ll get some better pricing. The idea that I can just vibe code a Trello and now I don’t have to pay Trello because I just have a Trello… I understand that argument. Okta, to me, has seemed much more insulated from that because you have identity, and you have to do security at a scale that most people can’t consider doing security. There are a lot of reasons why paying you to take that liability on is a good business, regardless of whether I can build it myself for cheaper. What specifically has you paranoid about agentic software and your customers building their own tools to look like Okta? Because to me, that’s actually a little more opaque. If you look at what these tools can do, it’s amazing. The Claude Code, Cowork, and Codex and… These are… I grew up as a software engineer, and that whole world is being revolutionized. I’ve built a company as a product developer and as an engineer. And so if you don’t question and look at how you’ve built your own company and realize that the world is changing, you’re just naive. Now, we can talk about the reasons why I think Okta is very well positioned and has attributes of the market and attributes of the product that make it very resilient and hard to replace, but you just have to look at the technology and look at what’s possible. And if you’re not circumspect about what got you here and what your moats are and what the upstart would be doing if they were trying to compete with you, I think you’re just naive. I think it’s a healthy paranoia. When you look at the business, I think there are the features and functionality of our products. And then one thing that’s maybe misunderstood about what we do, or maybe the buyers understand it, but in general might be misunderstood, is that you can build the features and functions, but the last thing is to connect it to everything. Thousands and thousands of different applications, services, and pieces of infrastructure have to be connected to the last mile. And that always changes, so you have to keep that integrated and you have to make sure it’s always up-to-date with the latest changes of the ecosystem. And so the integration part… And then this other part is that, really, it has to work. It’s mission-critical. Even if you’re building something that looks like Okta, getting the features to work is 10 percent of the battle. Making sure it works 100 percent of the time takes years and years and years. And there’s also a reputational thing. It’s like, “What are you going to trust?” Are you going to trust the proven solution that’s been out there for years? Are you going to trust something that your team just cooked up? Infrastructure software in general… And then cyber software, I think, is also very well insulated from people vibe coding it themselves just because you’re talking about things that are purchased on… There’s a lot of brand that goes into it. What cyber company do you trust? What cyber company do you trust to be secure itself, and what cyber company do you trust to be up-to-date on all the latest threats? And then people who are buying cyber tools, they’re going to have to look at their bosses and their boards of directors and say, “What did you pick?” “Oh, we got breached. Well, what did you pick?” “Well, I wanted to save a little bit of money to vibe code it.” The category of security and infrastructure software, I think, is a little bit different from some of the app categories that you were talking about. There’s a little bit of “no one ever got fired for picking IBM” in there. And then I think more cynically, there’s, “I want a vendor for this stuff that is rich enough for me to sue them if something goes wrong.” It’s in there, I hear it from the industry. Or the more glass-half-full view would be that it can support me. Yeah, it’s one or the other. Your job is to have the glass be half-full; I have the other job. I’m trying to connect the dots between what sounds like a good case for being insulated from the market and what you’re describing as healthy paranoia. There’s a new generation of software tools that will help people build competitors to Okta. Whether those competitors are just the next N+1 SaaS competitor or whether it’s the internal team at a company saying, “We’ll build our own identity solutions,” what’s the mechanism that is leading you to say, “We have to be vigilant”? Will the new generation of SaaS companies just be cheaper? They’ll have fewer people, and they’ll build something comparable to Okta that is just vastly cheaper per seat? Is it that the companies will realize, “Oh, we can just build all these connectors, and Claude Code is going to traverse our intranet and log people in manually”? And maybe that’ll be more costly in tokens, but the front end will be cheaper. If you have the insulation, what is the mechanism that might be a threat to Okta? I compartmentalize it into two different areas. The first area is just… Probably the most important area is the job as CEO is… The most important job is to figure out a strategy, which means which market you’re going to be in and how you’re going to win in those markets. And for us, there’s a big new emerging market which is AI agents need to log into stuff, and AI agents need to be… You need to have a system to keep track of them, define their role, define their permissions, and what they can connect to and what they can do. That’s a big new market, so getting the company oriented on that massive new market, and that’s one bucket, which is markets. The second bucket is how we execute to capture that market. And I think the main theme in the second bucket is, and it sounds basic, but I think basics are important, which is… It’s very clear that, especially in software development and innovation, the technical shift is very significant. The number one thing that an organization has to do is turn the dial in terms of how much change it will absorb. In normal operating mode, let’s say you want 20 percent change, 80 percent stays the same, you need to turn that dial up now, you need to change more. Whether that’s your team structure, processes, or the technology you’re using, you have to turn up the change quotient. What I tell the team is that it’s got to be at least 60/40, if not more. And then with that, you give them the freedom to experiment with new technology, learn from what’s happening out there. By the way, I think one of the most important things is that while you have a healthy appreciation for the change and the impact, you can fall victim to believing what you see online or what you hear because everyone is trying to sell something. Everyone is trying to make their company sound cool, and they’re like they’re embracing the change. When you hear companies, especially big company CEOs, say, “Oh, AI is writing 90 percent of our code right now.” They’re trying to sell something, whether it’s their own substance as a leader or their own organization’s ability to innovate. You’ve got to take that with a grain of salt and say, “Hey, the art of the possible, but as we change, what are we embracing? What’s working for us? What’s not?” But it all comes back to giving the teams freedom to change. And change is hard. It sounds trite, but you really, as a leader, have to force it sometimes, top-down mandates. I like to be bottom-up and empower people. But sometimes to get change to happen, you have to push it. Tell me about the change. It sounds very specific that you think the change here is that there’s going to be a universe of agents doing work inside of companies, and they need to be permissioned and controlled, and Okta should focus on that. And you’re not so worried about, “Hey, a bunch of people are going to vibe code their own tools, or a bunch of cheaper competitors are going to come up and disrupt us because they vibe coded a competitor to Okta.” It seems like you’re bracketing that and saying, “That’s not a big problem for Okta right now.” I think if we have the opportunity to win this battle, to be the identity layer for AI agents, and if we win that, that could easily be the biggest category in cyber. Cyber is about 280-ish billion dollars a year. Identity management is about roughly — depending on whose number you believe — it’s roughly 10 percent of that. This new agent layer could be the biggest category in cyber by far. Yeah, winning that is job number one for our company. Tell me your calibration on how much it’s acceptable to lose the identity piece of your business to whatever vibe coding SaaSpocalypse people think in order to win the bigger market in agent control. Because right now, the argument is, why would anyone keep paying you monthly or yearly for X number of seats when they can pay a lower fee to some solution that someone has built more cheaply? And then once that’s done, it’s done, and you don’t have to pay annually. Why would anyone keep paying you for that if you think the market is bigger for agents? They’re not mutually exclusive. I think the attributes we talked about, whether it’s reliability, trust, integration, capabilities, and whether the vendor you’re going to trust has enough money to support you, are a foundational thing in both of these markets. Whether it’s people identity for customers, partners, and employees, or it’s this new identity type of agents and facilitating that. They’re not mutually exclusive. But I think what’s happening in the world right now is every organization is… It’s interesting. I think I’d say they’re universally aware of the potential of agents or agentic, the agentic enterprise, which is essentially that they want to make things more automated, and they want to enhance their digital, or enhance their workforce with digital employees, or they want to add new digital employees. They’re all clearly aware of this, but they’re getting a very mixed set of signals and a very messy story about how they do it. There’s a combination of the big platforms, Amazon, Microsoft, and Google, that are going to sell me agents. It’s not even actually clear what an agent is. Salesforce has Agentforce, ServiceNow has agents, every SaaS company is building agents, and they’re trying to sort through it all. But what they see is that they see a tremendous opportunity to automate things and to basically take the labor budget and divert it into the technology budget and make their companies grow faster and be more efficient. And now what they’re looking for is, “Okay, what are the foundational building blocks to wire that all together and make it work? What are the rails?” And so that’s where the big opportunity is to take the first steps on this, which could be the biggest category of cyber. When you look at things like OpenClaw, which obviously had a huge moment, and everyone is buying Mac Minis so they can air-gap OpenClaw from their production machine, and then they’re just giving OpenClaw all of their logins and passwords on the Mac Mini. I look at that, and I’m like, “You’ve accomplished nothing.” Right? You’ve given it all the access over here, and maybe it just doesn’t have your file system with your photos on it, but it still has all the access to the tools. But that’s where the excitement is, right? It’s living on the bleeding edge of danger, and saying the agent running on this machine can run overnight and invent its own tools and figure out solutions to problems. When you are looking at putting rails on that, it feels like you’re actually going to foreclose some opportunities because we don’t yet really know how the agents are going to work. How did you evaluate what was going on with OpenClaw and the way people were giving it permissions, just as that economy developed? I don’t want to call it an economy. How did you look at OpenClaw and the way people were giving it permissions? Is that culture organically developed, and how is it informing your thinking about building for agents at Okta now? The first thing is that it’s the ChatGPT moment for agents, and then ChatGPT was the Netscape moment for AI. It’s very significant. And the biggest significance, I think, is that it opened everyone’s eyes to the art of the possible. At my son’s soccer game, the parents were talking about OpenClaw. And these aren’t tech people, they’re just talking about how they’re going to automate all their tasks. And so these people are using it in their personal lives, and they’re consumers, they’re IT buyers, they’re a company. It’s a really eye-opening and definitional thing about what an agent can do and what it can be. As you mentioned, the rails needed are the… And this is a tension… When you get something like an OpenClaw, and you try to experiment with it and play around with it, you say, “Oh, it’s really not that interesting unless it has my data, unless it’s connected to everything.” And this is exactly what these companies or every enterprise are struggling with. It’s like, “Hey, this stuff really needs to have my data, my 50 years of sales inventory, my customer data, and my marketing data. And once it’s all combined, these agents and this agentic layer can do interesting things.” What the rails we’re putting in place are… Actually, first of all, it sounds basic. But just giving enterprises a list of the agents sounds simple. But they need a list of the agents they have, and then they need a system of record and a list for the agents they could use. What is Salesforce doing? What is ServiceNow doing? What is Claude doing? What agents do they have? And then, “Okay, now what are they connected to?” And making sure that we control and secure what the agents are connected to because, again, the tension is between more and more data, more and more connections. This is, by the way, why companies like Palantir, Snowflake, and Databricks are doing so well, because what they allow companies to do is, instead of having to actually connect their agentic enterprise to all these separate systems, they pool it into one data warehouse. That’s one model; you can pool it all into one data warehouse and run the agents on that. But I think the longer-term, more scalable model is that you actually have the right permissions and the right access tokens for the agents to access the data directly. When you go back to the example of OpenClaw, it’s a mindset. Everyone knows what these things can do now, and you have to facilitate access; you have to facilitate making sure that these connections are made in a secure way, in a way they can be understood and monitored. And when things go too far, you can pull them back. And as you experiment in the lab, you can say, “These are the connections we need. We should add more here. We should change this. We should filter this permission.” That’s what companies have to do, and those are the rails we’re trying to put in place. When I said this was going to be an emotional conversation on software development, the nature of our relationship to databases is at the very heart of that existential crisis that I feel every week on this show. Let me just get your answer to this directly. It sounds like you’re saying SaaSpocalypse might be real, but it’s not real for Okta in the way that most people think SaaSpocalypse is real. I think what people miss is that the pie is getting much, much larger. I think a few things are true. Everything is getting bigger. I think if you look at the amount spent on software, if you do infrastructure and SaaS and everything, hyperscaler’s software, it’s about $1.2 trillion roughly. If you look at the number of people, the services, the IT services market, it’s about $1.8 trillion. The markets are getting bigger. We’re going to be spending more of that money on software, and the pie is getting bigger. That’s one thing that’s true. The second thing that’s true is that every piece of technology in the stack, whether it’s SaaS apps or whether it’s devices or OSs or infrastructure, they’re all going to get agentic features, they’re all going to do things more on their own. They’re going to be able to talk to more of them, and they’re going to optimize for agentic. And I think the last thing is that there is a new layer, and that is the digital worker layer. I’m sure some of the existing companies are going to make the leap, and they’re going to have real digital workers that are coming from Microsoft, Salesforce, and Amazon. I think it’s probably more likely that it’s going to come from companies that weren’t born in the legacy way of building an app. I think it’s hard when you grew up building an app in a certain functional silo. It’s hard to build a digital worker because digital workers need to go across different things; that’s why they’re called workers, that’s why they’re not called one app. And so it’s really hard for companies that have focused on collaboration, HR, or one silo to say, “Hey, now my digital worker really can span all these silos.” Because if you look inside those companies, the whole org structures of these companies and the politics of these companies are that someone owns one silo, so it’s very hard to break through and go broad. Anyway, I think everything is getting bigger, I think a lot of the apps will have agentic features, I think there’s a new layer of digital workers. Now, back to your question, which is, what’s going on with the SaaSpocalypse? The reality is there will be some losers, and there will be some companies disrupted, and there’ll be new people to take over categories that are now… But that’s back to challenges and making it fun. That’s what fires me up, and I think it fires up a lot of people, too. You have brilliantly opened the door to the Decoder questions by talking about org charts. I actually think we’re on the cusp of some of the weirdest org charts we’ve ever seen, but tell me about Okta. Talking about change and change more… One of the hardest things about this whole thing for everyone is experience, what worked in the past, how you got promoted, and what you built your career on; a lot of it is being invalidated. We learned for 30 years like, “Oh, this is how org charts work.” And a lot of that stuff is probably different now, so it’s hard for people to adjust. Tell me about Okta. What was your org chart in the past? You founded the company; I’m sure you’ve gone through many iterations of it. Where are you at now? And as you talk about changing the balance of change to the company, how are you changing your org chart? I think the guiding principle is to try to give great people an area where they can be great. It’s really a people-driven org chart. Reward people, promote people, bring in new people, give them an area that could really excite them, and motivate them. And it’s people-centric. The second principle is that, where possible, try to cluster things so you minimize communication paths and you let people be more autonomous in small teams. I found that’s pretty hard. I think pretty quickly there’s… Unless you have very distinct, separate business units and really almost separate companies inside your company, it’s pretty hard to cut down on the lines of communication. I think you can do it, but it’s always, I found a little bit… There’s got to be lines of communication somewhere, and no matter how you slice the org, you’re moving around where the people have to cross org boundaries. But you do try to take that into consideration. And then I think beyond that, I think a lot of things that people try to do with org charts, whether it’s get people aligned on goals and get a culture that is shipping things quickly, is… It’s really not an org chart thing; it’s a management thing, it’s a leadership thing. And instead of moving the org around all the time, you’d be better spent making sure you have the right management team and the right leadership team to instill those cultural elements. Doing that versus taking your people team and telling them to move stuff around to have a more nimble culture, you probably should just get the right managers and instill that value that way. This is my joke on Decoder: if you tell me the structure of your company, I can tell you 80 percent of your problems because the tensions just exist in certain structures in predictable ways. And it’s that last 20 percent, which is priorities, leadership, and management. It sounds like you’re pretty functionally structured, but how is Okta actually structured? Are you structured by business line? Do you just have a crack AI team that’s off in the corner? How does this all work? On the go-to market side, it’s functional. On the G&A side, it’s functional. On the R&D side, it’s by platform. We have two platforms, the Okta platform and our Zero platform. And the R&D is by platform. The other question I ask everybody who comes on Decoder is about decisions. Again, it’s always great to have a founder because your frameworks change as you come up with a company. How do you make decisions? What’s your framework, and how has that changed over time? We’re doing an introspection here. I love it. I told you it would be emotional. Yeah, you did. This is Decoder. Decoder is just therapy for me personally. At this point, you can tell what my problems are by the questions I ask. You’re like casting them out amongst the guests. It’s interesting. When I started Okta, I found myself… I’d worked at Salesforce, and I had a decent-sized team there and felt like I was very decisive. I was like, “We’ve got to do something, here are the options, decide.” And then I started Okta, and I found something interesting: my decision-making process slowed down. And when I was thinking about why, I realized that when I was at Salesforce, my boss was always a safety net, ultimately. It’s like, if I were going to make a bad decision, there was theoretically a boss to stop me. But when I started doing Okta and the company started getting successful, my decision was the decision, and I had better think about it and get it right. And so it slowed down, it slowed down. And then the company got bigger, and we got into this phase where we went public and got close to a billion dollars of revenue. Then I felt like maybe I needed more input, and I really needed to get expert advice on a lot of things. And what I realized over those years is that my instincts were still pretty good, and I probably should trust my instincts more. And so I think that’s the mode I’ve been in for the last three years. Yeah, the company is bigger than it’s ever been. I’m managing a company that’s bigger than I’ve ever managed by definition, but I think I’ve been leaning more into my instincts. I think to inform those… To put more detail on that, I think two things are very important. One is that you have to decide which decisions to make. That’s really important. There are a bunch of decisions that I shouldn’t be involved in, and I shouldn’t be making. But the inverse of that is super important, which is the ones that I am making. I’d better focus on them, concentrate on them, and really get those right. And for me, doing that in an effective way, having a detailed grasp of what’s going on, is incredibly important, being in the details. It’s at a scale where it’s hard to know every little thing, but you can really dive into areas and get enough details throughout the year so that when it comes to making those big decisions that you’ve narrowed down and focused on, you can use those details, use your judgment, and trust your instinct to make good, high-quality decisions. It’s the most important thing I do, deciding which decisions to make and getting a high success rate on them. Put this into practice for me. The big decision we’ve been talking about is whether Okta is going to chase the idea of being the framework for agents in the workforce. That’s a huge market. It is so big that maybe you’re not as worried about SaaSpocalypse as some of the other enterprise CEOs that I talk to, because the market is going to grow so big and we’re going to force-change the company from the top down to make sure that the rate of change is higher and we’re all focused on this opportunity. How did you make that decision? Did you stare at the ocean for a while, and it came to you in a lightning bolt? What was the process there? I think the high-order bit there is recognizing a world where everything in the stack is going to change. And I think it’s similar to when I started Okta. You never want to exactly follow the past because the past is always… Or history doesn’t repeat, it rhymes. But a lot of it was… I remember in 2009, I was looking at the world and saying, “Hey, there’s going to be a cloud version of everything in the stack, and what are the big unique opportunities there?” And what’s happening with agentic, call it agentic, is that everything is going to be revisited in this agentic world, whether current solutions are going to have agentic capabilities… It’s crazy, like AWS. AWS is the infrastructure business, the most unassailable business. That market, with all the changes with agentic and people building agents and running models, is up for grabs, which is crazy. All this change and then you just look at what’s going to be required in all this change, and you say it’s… These connections between all these agents and where they’re running, the demand for that is going to be massive because there’s going to be this onrush of agentic capabilities. There’s going to be new stuff that’s built, there’s going to be native vendors that come out of nowhere and take market share, and there’s going to be new markets. And so it’s a macro thing, but now it’s like, “All right, what do you know about the details of your company, Todd? What are you guys good at? You’re good at building something that scales, building something that’s reliable, building something that connects to a lot of different systems. How can you position yourselves in that new market?” And I think those are the big essential things, that’s the bet we’re making. Take me inside the moment, though, when you’re realizing this happens. Did you write an email? Did you open a Google Doc? Did you just dictate to ChatGPT and say, “Fire off an email from me, agent.” How did that actually work at the company? Last year, I was in the process of meeting all of our 100 largest customers in person. And the purpose of the meetings was that I wanted to tell them about our vision of this unified identity platform, where we’re the only ones in the industry that have all these capabilities across customer identity, governance, and privilege. And at the same time, the teams were working on agent identity. And in these meetings, I would pitch what I was talking about, and then there’d be interest in, “Oh, we should look at this. We didn’t know how far along you were.” And then I started throwing in this agentic stuff at the end of the meeting. And whenever I would get to that, the people in the meeting would just stop, and they’d be like, “Wait, talk about that some more.” And then that kept happening and happening until we’re 25, 30 meetings, 40 meetings in, so I would flip it around. We would start with the agents and the new identity type, what customers were thinking about doing with agents, how they’re seeing the potential of the digital worker, agents, and all the confusion, and we wouldn’t get to the other stuff. I remember during our big conference in the fall, it was the last vestiges of the old pitch, followed by the agents. And after that conference, I just said, “Listen, we’ve got to flip this around. People want to hear about the agents, that’s the direction they’re going, and that’s what we need to pivot to and totally focus on.” All right. Let me ask you my crash-out questions about all of this. Here’s my first one, and you’re a great person to ask this question to because you build a lot of software. You’ve built a company around building software, very bespoke, very complicated software, and you’re trying to sell a lot of software to people who, as you said, would like to replace labor with technology. And there’s a lot there, and I’m looking at the state of the art in AI right now, and I see some cool stuff happening, and I find myself constantly wondering, can the LLM technology we have today, that is a foundation of all of these AI systems, can it bear the weight of our expectations? Can it actually, on any reasonable timeline, do all of the things that people think it can do? Because I can see it doing some things, and then I see it just hit walls over and over again. And I say, “Well, if it’s brittle, people are not going to adopt it because that brittleness is exactly where you want a human being to just be available to overcome whatever boundary the AI is going to find for itself.” And I can give you examples, but I’m curious if you see that broadly and if you think the technology can actually develop to the point where the market becomes as big as what you’re describing. Absolutely, the technology can develop. I think there’s a lot of wild extrapolations going on right now, but I think that even if you don’t meet the wild extrapolations people are talking about, the market is still massive. And I think it’s going to take a lot of innovation, good product work, good engineering work, and good process work to make sure that we can achieve these benefits even though it’s not some wild extrapolation of some magic LLM that can do everything in the world. I see one example. Every software developer I know, especially the senior ones, who are like, “I’m now just describing software.” I’m just writing- Yeah, that’s a great example. That’s a great example. Now, I believe that is very real and very powerful. But I also believe that there’s going to be more software engineers in five years than there are now. And the reason I believe that is not because I think those people are wrong, but I think what’s going to happen is, first of all, there’s just way more software that we need to build that can be built. And two, what’s going to happen is the software engineers are going to be figuring out how to make it work at scale, how to make sure that systems can be maintained, how to make sure we understand what they actually built, and we need to modify them for the next way…. No one has ever maintained an agentically developed system for five years. No one has ever figured out how to make it scale. No one has ever figured out… That’s where all the work is. And when you combine that with the idea that we’re going to build 10 times more software, that adds up to more people being required to do it. I think both can be true. Where are those people going to learn how to do it? You’ve already described this, the traditional career path, the traditional org chart is breaking down. I think Meta announced that one manager will now oversee 50 ICs. When I say we’re on the cusp of some wild org charts, that’s what I mean. Some very strange corporate structures are going to blossom here. If the problem is, “Okay, no one has ever maintained an agentic system for five years, and we need more developers to do it.” Where are all those developers going to learn the skills to evaluate the code that agents are writing and deploying, and saying, “Okay, you got it wrong. Here’s how you need to maintain it.” I think it’s maybe not what everyone says because people like to extrapolate and say everything in the world is changing, the education system is going to change, everything is going to change. I think a lot of the things where people learn, they’ll learn like in college. I think we’ll still teach computer science, it’ll just be different. Just like 50 years ago, we didn’t teach modern compilers; we taught machine code and assembly. And so now, we’ll teach how to coordinate agents and how to architect systems and how to… You’ll probably take some Java development classes, like when I was in college, I took machine code classes to understand how it really works under the covers, but you have to learn the new way. It’s modernization, it’s a new challenge… You’ll have to learn new challenges. And I think it’ll be better because we’re going to learn how to build stuff at scale, not just in terms of the amount of load it can handle, but build a large complex system at scale. Learning that in college, learning that on the job, and people who are early in their careers are leveling up. There’s also this narrative out there that “Oh, we don’t need any entry-level developers anymore.” I’m very, very… That’s a bad mindset to have because, first of all, those are the people who are probably most open to doing things differently; they’re the least set in their ways. I think entry-level folks will learn how to use these tools and command these workflows to do things at scale in a way that people who learned 10, 15 years ago didn’t. When I think about the value of agents going out in the world, as you’ve described, they need access to a lot of data. The notion that my company has a bunch of disparate databases and that I should hire an agent to go look at all those databases, put them together, and use the software. The thing that gets me about that every time is the notion that they’re going to build software because I’m not sure they’re building software for anyone… Because I’m not sure the agents are building software for anything but agents to use, and at some point, that software just gets very specialized and very narrow, and it is access to the databases that becomes the most valuable thing. One of our own designers here at The Verge said to me right before I came to talk to you, he heard I was talking to you, and he said, “All software development in 2026 is just calibrating the interface between your brain and a database.” And right now, all AI development is like, “Would you like to just chat with this database?” And the answer in the enterprise appears to be yes, like, “Let me just talk to my analytics database directly like a person, and it will give me some insights.” And the answer in consumer maybe is no, Google Photos just walked back its AI search because it turns out people prefer the regular search. And I don’t know which one is going to win out over time and where habits for everybody across work and their personal lives will change, but the notion that the database is the important thing and that’s where the value is, because anybody can ask an agent to go make up a bespoke piece of software to do some business function. Doesn’t it seem likely that the database vendors will just raise their prices, increase the barriers to access, or find other ways to extract more value from having that data? Because that’s what all the agents really need access to. Well, I think there’s data, and then there’s intelligence. And I think a lot of the intelligence has been codified in the application. The raw database is not that helpful. When you say you want to talk to the database, what you’re really saying is you want some kind of analysis or intelligence done by something, you don’t want to have the ones and zeros and gigabytes of data coming at you. You’re really talking about intelligence. And that’s the big debate about SaaSpocalypse: who’s going to do that intelligence? Is it the app vendors we have now? I mentioned the data warehouse companies like Databricks, Snowflake, and Palantir; essentially, they’re selling some kind of intelligence, the valuable part of their business is not the ones and zeros. The question is like, “Who’s going to do the intelligence?” And I think that the application companies are going to add some to their capabilities, and there’s going to be new ones. And there’s going to be new ones where that intelligence actually becomes work, not in the sense of app work, but in the sense of work people would have done. Again, when I’m saying I’m having an existential crisis, as a tech journalist, I have understood software in one way for my entire career. It’s been a pretty good career because the software industry and the tech industry have grown so fast in the 15 years since we started The Verge. But every conversation I’ve had at Decoder over the past few months is with some CEO of a Web 2.0 company that put a beautiful mobile app interface on top of a database, and that thing felt like the application, and they built huge businesses on top of it. And you can describe this in all kinds of ways. We just had the CEO of Zillow on. Zillow is just a beautiful interface to a database, and that’s a really good business for them. I’m asking if you have agents and you’re like, “Go find me a house and order me a sandwich.” You’re going to end up in a place where it might just want to use Zillow, or it might want to cut Zillow out and go directly to the underlying database. Or Zillow might build the killer agent. Or Zillow might build the agent. And I’m just not sure how any of that plays out because what you’re really doing is unbundling the data and the intelligence that acts upon the data, and the interface to that data, into three very different things. And everybody still wants to make money and not go out of business. You’re sitting right at the center of it, you’re providing access to everyone. How do you see that playing out right now? Well, I think the connections are very important because the app needs to… And I think a different way to frame what you’re saying is that there’s an unbundling, and there’s a data layer, an intelligence layer, and a front-end layer, but what also is happening is that it’s all getting more connected. We think of an app, a database, and a user interface as one thing. But as that unbundling happens, what is really happening is all the apps that you thought were in various silos are connecting to each other. And that’s because there are agents on top of them that are connecting to all those silos. The apps themselves are becoming more agentic, and Okta as a company… This is why I’m so excited about this agentic identity and these guardrails we’ve talked about. It’s also why this needs to be standardized in the industry. There’s no good standard for how… We have pretty good standards now for how… When you single sign-on into your applications, how that interaction works between you and your browser, your phone, and the applications — there are no good standards for how agents connect to a bunch of other systems where they need to get their data. So, there’s some standardization that’s required here, too. But zooming out, it’s like, “Isn’t it exciting? It’s such a challenge.” It’d be much easier if things had just stayed the same, and we could keep in our own little lanes, and our success would be more assured. I agree it’s exciting, especially because I think we’re going to see a wave of new companies and new ways of thinking. And certainly we’ll see new ways of computing, which is why The Verge exists. We were built around the concept that mobile phones would be important, which, when we launched the site, was not… People were like, “What are you talking about?” It’s hard to even say now, but this was a real thing that we said that we got question marks around. I think that what I would temper that with is when I have CEOs on the show, and they say, “Companies are interested in replacing their labor budgets with technology budgets.” That is a pretty huge threat. When we talk about how much work will be automated by running around the agents and doing intelligence, one, I wonder, well, who will be spending all that money if no one is making any of that money? And then I think very importantly — this comes back to me asking about whether LLMs can do it — I wonder if any new ideas will be generated in that process at all if we’re just going to automate our way into something that seems pretty boring. We’re just going to run a bunch of business logic, and no one at the bottom who is actually operating a business logic will think, “Oh, I could do this 10 times cheaper if I start my own company.” And go start a new company. There’s something about all of that that I think, and I hear from our audience, is that’s why AI polls as badly as AI polls, even though the opportunities look exciting. Well, there’ll be a wave of people building agentic systems to do the jobs people do now, or help people do the jobs people do now, then there’ll be another wave of things that are automating processes that weren’t possible before. We’re still in the early parts of that second phase where we’re thinking about, “Hey, we could build this new set of digital workers, and we’re going to get productivity.” We really haven’t gotten to the point where we question, “What is the process that should be happening in all these workflows if it could just be agentic from the start?” Okta has announced a blueprint for agentic enterprise; it’s basically got three big pillars. It’s how to onboard agents as an identity, which I’m very curious about, and how you think about the difference between agent identity and an actual person. Two, standardize connection points, which you’ve talked about a little bit. And then lastly, this one is great, which is to provide a kill switch in case your agents go rogue. Talk to me about the first one. You want to create a new identity for agents in the workforce on your network. What does that look like? How is it defined differently from an employee or a person? Well, agents are a new identity type, and it’s like a combination of… It has some attributes of a human identity and some attributes of just a system, and it’s basically a hybrid of both. And so from a definition perspective, it’s pretty simple. I think where it gets interesting is that it becomes a map that centralizes the list of agents from all your vendors. It can represent agents from all the big platforms. It gives you this central way to keep track of it all. And that’s what companies are struggling with: they hear all the announcements, and they’re very excited about this. They just need a place. “Hey, bring it in centrally and let me see what I have. And now once I see what I have, I can…” Some of these things are very much, “Hey, they’re just one-to-one with people.” Some of them are a set of multiple agents that work with one person. Some of them are totally headless, and they’re just on their own thing, automated with some things, and they need a human in the loop. And you can start to organize things that way. But it’s all framed in this concept of mapping across different silos. You have agents you’ve built yourself, you have platforms you’re using like Amazon, Microsoft, or Google. You have big apps you’re using, like Salesforce and ServiceNow. It lets you centralize all that in a way that doesn’t lock you into one of those silos. And then, as you said, it can help you say, “All right, all these things unequivocally need to connect to more things. And I can control where they connect to, when they connect to that data warehouse, what permissions they have in that data warehouse, and then across all the different various technologies.” Then, as you said, stuff is going to go wrong, and there’s going to be issues, threats, and prompt injection. And when that happens, it gives you the ability to essentially pull the plug, take the connections away in terms of like, “Oh, this agent is doing something we didn’t expect. Now, what we can do is we can pull away its connections.” How do you detect whether it’s doing something you didn’t expect? We don’t have a magic solution to that because it depends on the point of the agent, and that’s dependent on the person who wrote the agent and the system it came from. But we’re working on standards for people to raise that issue, from a technical sense, like raise an alert and have the other elements of the system respond to that. Is the kill switch just we’re pulling your access, you’re fired, get your stuff, and go? It’s pulling the access to everything the agent can access, not access to the agent. Right. It’s just saying we revoked all your passwords. Shut it down. Yeah, exactly. You’re out of the system now. It’s almost like you would take a machine off the network. When you say that the agent identity is somewhere between a person and a system, go into that in more detail. What specifically do you mean? When you think about having a system that controls what something has access to, a lot of it is very similar to a person, meaning that just like you would give a person access to applications and then inside of those services and applications, you would say, “Here’s their role, here’s their group, here’s their profile.” That’s a lot of the way these agents are being built and modeled. The reason it’s not like a person is that you have a relationship between the people and the agents in a way that they’re on behalf of, and you want to always take the identity of the person and pass it to the agent and have it use that. And sometimes you want the agent to have its own identity and the systems that talk to do their permissions based on what the agent is, and then it goes back to the person as a human in the loop. There are different patterns, so that if you actually look at the physical directory of agents, some of the elements are very much like a person. Some of them are only because they’re these agents that can be on behalf of people, or they can be connecting to other agents, and they’re more like systems versus people. When you look at how the agents operate, you can go look at the chain of thinking at any one of these systems; a lot of times, they’re just talking to themselves in weird ways. I feel like you’re provisioning identity. Obviously, Okta doesn’t think about identity in the most deeply philosophical ways, but Anthropic is very happy to hint that Claude is alive. When you think about it, “Okay, I’m a provider of identity to these systems that are a hybrid between people and something else.” Does it ever occur to you that they might be reasoning in a way that is more human or not, or that you need to address that in some way in the architecture of how you give permissions to them? We’re pretty pragmatic about it, meaning that we know that the behavior of these systems is non-deterministic and you have to… It’s all about getting this balance right between giving it flexibility to what data, systems, and things it can access and do, and what operations, but then having the ability to reign it in when it goes too far. And I think that’s the right… Ultimately, that’s the right way to balance the effectiveness of these systems and the risk. There’s no free lunch; you have to give it the data if you want it to be effective. And you have to decide if you have zero tolerance for non-deterministic behavior. You can’t give it the data, you can’t give it the permission. And so that’s the balance that we’re helping customers strike. How do you think about… Okta sits in the middle. You were talking about Salesforce, which has its own agents; there are other vendors that have their own agents. They are not going to want those agents to work across their databases. This comes back to what I think is the central challenge here, and the reason why something like OpenClaw was able to be so powerful so quickly, because it had nothing to do with any of those companies or those platforms. It was just clicking around their browser as though it were an actual person. It was like a cannon shot out of nowhere. Yeah. Yeah. Right. And it was because there was no security built into it. And instead of acting on behalf of a person, it just represented itself as a person, and it was off to the races. And Salesforce can’t keep an actual human user from using a different system or orchestrating in their own head, right? Well, when you build the agents inside the corporate network, you can absolutely do those things, and Salesforce can absolutely write a terms of service that says, “We don’t want the agent from your rival vendor using our system as well.” Are those just politics? Is that negotiation? How is that going to work? I think there’s only one thing, it’s customers. Customers will have the leverage eventually. And if the customers in a market mechanism don’t have leverage, the government will step in and do antitrust. The reason we have a software industry, do you know why we have a software industry? Because customers finally got fed up with IBM and said, “You have to sell software, operating systems, and applications independent from the hardware.” This is 50, 60 years ago, 70 years ago, IBM is like, “There is no software, there are no applications, there’s this IBM box, and you get it, and we are technology.” And customers want a choice, and finally, the government stepped in and said, “You’ve got to split it up. You’ve got to have operating systems, you’ve got to have hardware, you’ve got to have software.” And so I think a similar thing, it’s, yeah, of course… Every big vendor that’s trying to protect their entrenched things, whether it’s Microsoft with their new bundle where they’re trying to lock everyone in, they’re going to say, “It all has to be on our thing, and you can’t use other agents against our agents because our agents are better because they have our data and our workflow.” And ultimately, it’s going to be customers that demand change, and if there’s so much monopolistic lock-in, then we have to rely on regulators to come in and fix it. Well, I do think this is history that you’ve just made. You’re the first CEO of a multi-billion-dollar enterprise software company to advocate for vigorous antitrust enforcement at Decoder, so I’m just going to hold that close to my heart. I do think- If the market doesn’t work, customers can’t force the choice. I do think the pre-Reagan antitrust environment that led to IBM being unbundled is very different from today, but we will set that aside. But I did impress you with my historical reference. It was very good. Again, the reason I didn’t answer your question correctly is that I’m very surprised that you went to antitrust. That doesn’t usually happen on the show. Isn’t there going to be just some weird pricing war in the middle of all that, where Microsoft says, “Sure, let your other vendor’s agent into 365. We’re just going to charge you a massive access fee to do it.” And… Yeah, I think that’s very likely. Yeah. Do you see that playing out now, or do you just see it on the horizon? Not yet. It’s still very early. If you think of… What is happening now is that people are just getting familiar with the… Call it the siloed agents. They’re just getting familiar with the agents in Microsoft or the agents in Salesforce. We’re not really to the phase yet of multi-silo agents, agents that can go from stovepipe to stovepipe and do these… In cases there are, but that era is still ahead of us. And I think as you get more into that era, some of these issues have become more significant. And again, just to bring this back to OpenClaw, which I think most of the audience is probably most familiar with, that is the promise of that system. That’s why it lit everyone’s brains up because it was running from system to system, doing some logic, and coming up with some outcomes. Again, the problems that- The thing about that, and I think a lot of these trends and ideas, is to remember that no one cares about the infrastructure, no one cares about the… Well, this is obviously a dramatic statement. I’ll explain what I mean. But people care about the app in the sense that they care about what it can do. And the reason why OpenClaw was such a lightning in a bottle is that they saw what was possible, they saw what it could do. Now, the fact that it had to do that by connecting to all these systems, and it required access, and there were security issues, it’s like that’s infrastructure and people… Once their mindset gets set on the possible, then it’s up to industry to figure out how it all works under these covers, but people care about the possible in the apps. And I think that you’re going to see it ripple through… As I said, I thought it was the ChatGPT of agents, and it’s very exciting. You’re saying now is the time to build the guardrails up to make sure these actually work. Exactly. Can I ask you about the flip side of that? The promise of agents broadly, AI maybe broadly, is that we will remove these intermediaries. The thing I keep saying is that your computer will just go access the databases all on its own, and you don’t need these app intermediaries or whatever, and we’re going to reshape the app economy. Then I look at how there’s a bunch of scammers online who are just setting up fake hotel service numbers, calling grandparents, stealing bookings with AI receptionists by just doing SEO hustles, and collecting pennies. And Okta has a role to play there, too, by saying, “Okay, this is fraud, this is a scam. You shouldn’t hand over your identity here.” I’m not sure anyone is paying attention to that, but I see it ballooning every day, just AI-powered scams, frauds, and identity theft. The idea that someone is going to call me and verify me by voice is under threat by AI in very specific ways. How do you see the flip side here of making sure that the core business that Okta is in, which is making sure it’s a real person doing the thing they’re supposed to do at the right time, isn’t just totally upended by the amount of AI-powered fraud that’s occurring? Forty percent of our business is authenticating and validating customers, logging into customer websites and mobile apps, and this area is changing a lot with AI as well. And I think what you’re seeing is that the offline identity, driver’s license, passports, these are rapidly digitizing. I think it’s coming at a great time, too, because it gives us something to offer people who really want to do a better job differentiating between agents, OpenClaw, bots that log into their sites, and real people. So, as the offline identities digitize, people have mobile driver’s licenses, the smartphone wallets are getting pretty capable now, and you can do fancy things. Just like you do Apple Pay, you can do biometric authentication on your mobile driver’s license, and then that becomes a very powerful thing to present to a website that will actually prove you’re a person, or in a better sense than was possible before. It’s a big deal. People need to really know in certain use cases when it’s an agent, when it’s a bot. It’s like this bot problem is not new; it’s an old problem on Twitter/X, and Elon Musk is on trial for talking about bots and how many bots there were. And now I think with AI, it’s becoming supercharged. I think with what we have with these national IDs, passports, and mobile driver’s licenses being digitized, we might have a shot at actually bringing some sanity to that world. There are some real debates there about privacy, about surveillance, about- Yeah. What does that mean to actually digitize identity from a credentials’ perspective? Yeah. Are you guys in that mix? Is that something Okta is actively thinking about, or are you waiting for that to sort itself out politically? Well, governments are deciding, and governments are deciding that they want to digitize, they want to issue these passports and these national IDs. And in Europe, there are certain standards across the EU. In the United States, it’s very much at the state level. Our customers are really excited about it, and we’re giving them all the capabilities to take advantage of this stuff. Without really specific judgment about how they should do it, we’re just trying to equip them to make sure that they can accept all the regulatory requirements and also all the identities and the digital formats that their users and their citizens want. And so it’s a big part of our future, and we’re working hard on that. Right next to that is a big fight over age verification in the United States on the app stores and who gets to use what apps. Discord just had a big controversy because they went to an outside vendor. People had a lot of feelings about that outside vendor, and Discord rolled that back. Are you seeing any of that controversy come your way around age verification? We work with the vendors that are trying to log people in, and they want the best tools and technologies to do age verification. We’re going to make sure we equip them with that. Technically speaking, it’s often not a technical issue. It’s what ID system do you trust, and is there an ID system for someone that’s 12, 13, 14 years old? And so I think one of the challenges has been out of the scope of a lot of the driver’s license-based or passport national ID-based discussions. But I think that’ll be a use case that’ll be covered, I think, by governments fairly quickly. Do you think it’s possible to do age verification and still protect people’s privacy? I do. Yeah. Yeah. Go ahead. How do you start to bounce? There are technical solutions. There are also process and regulatory parts of it. I think ultimately the most privacy-preserving thing is no technology, so there’s going to be a trade-off. If you are trying to automate something and you’re trying to bring technology to something, there’s going to be a risk of centralization and privacy controls, but I do think it’s possible to get the balance right. It seems like that’s just the other front; the computers are going to get way more capable on their own, and then we are very interested in limiting what people can do with computers in very specific ways. And it does seem like you sit in the middle of it. Todd, we’re going to have to have you back. I feel like there’s yet more emotional crash out for me to have with you. This is fun. This is super fun. Tell people quickly what’s next for Okta, what they should be looking for. I think they should be thinking about how they build the secure agentic enterprise, and how they can use the blueprint we’re proposing to the entire industry, and how to make that possible. And we’re excited to work with everyone in the industry, and particularly the tools, technologies, and products we’re going to be building to make sure that reality comes to fruition. Amazing. Well, like I said, we’re going to have to have you back to see how all this is going because it feels like it’s going to change really fast. Thank you so much for being on Decoder. Thanks for having me. Questions or comments about this episode? Hit us up at decoder@theverge.com. We really do read every email!",
+      "categories": []
     },
     {
       "source": "The Verge AI",
@@ -986,16 +984,6 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history",
       "publishedAt": "2026-03-26T21:44:37.000Z",
       "contentSnippet": "After Anthropic updated its tool for copying another AI's memory into Claude earlier this month, Google Gemini is rolling out new \"Import Memory\" and \"Import Chat History\" features on desktop that can help users quickly copy over everything their current AI already knows about them. To use the \"Import Memory\" tool, users copy and paste a suggested prompt from Gemini into their previous AI, then paste the output from the previous AI into Gemini, which should get Gemini caught up on their preferences. The \"Import Chat History\" feature has users request an export of all of their chats from their previous AI, which they upload to Gemini in th … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Apple will reportedly allow other AI chatbots to plug into Siri",
-      "link": "https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27",
-      "publishedAt": "2026-03-26T21:31:27.000Z",
-      "contentSnippet": "Siri currently has an integration with OpenAI’s ChatGPT. | Photo: Allison Johnson / The Verge Apple's iOS 27 update will allow users to choose the AI chatbot they want to link with Siri. That's according to a report from Bloomberg's Mark Gurman, who says third-party chatbots downloaded from the App Store, like Google's Gemini or Anthropic's Claude, will be able to fetch replies for Siri - similar to how the voice assistant already works with OpenAI's ChatGPT. The new system, reportedly called \"Extensions,\" will give users the ability to enable or disable the chatbots they want to connect with Siri on the iPhone, iPad, and Mac, Bloomberg reports. The upcoming integrations will also work with the standalone app Apple reportedly plans … Read the full story at The Verge.",
       "categories": []
     },
     {
@@ -1210,6 +1198,35 @@
       "source": "MIT Technology Review AI",
       "sourceType": "media",
       "feedTitle": "Artificial intelligence – MIT Technology Review",
+      "title": "There are more AI health tools than ever—but how well do they work?",
+      "link": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
+      "publishedAt": "2026-03-30T16:00:00.000Z",
+      "contentSnippet": "Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health. A couple of days earlier, Amazon had announced that Health AI, an LLM-based tool previously restricted to members of its One Medical service, would…",
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "sourceType": "media",
+      "feedTitle": "Artificial intelligence – MIT Technology Review",
+      "title": "The Pentagon’s culture war tactic against Anthropic has backfired",
+      "link": "https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/",
+      "publishedAt": "2026-03-30T15:42:50.000Z",
+      "contentSnippet": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Thursday, a California judge temporarily blocked the Pentagon from labeling Anthropic a supply chain risk and ordering government agencies to stop using its AI. It’s the latest development in the month-long…",
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "The Algorithm"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "sourceType": "media",
+      "feedTitle": "Artificial intelligence – MIT Technology Review",
       "title": "This startup wants to change how mathematicians do math",
       "link": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
       "publishedAt": "2026-03-25T13:59:17.000Z",
@@ -1286,6 +1303,7 @@
       "categories": [
         "Artificial intelligence",
         "App",
+        "Subscriber-Only Stories",
         "Summary"
       ]
     },
@@ -1315,33 +1333,21 @@
         "Artificial intelligence",
         "App",
         "artificial intelligence",
+        "Subscriber-Only Stories",
         "The Algorithm"
       ]
     },
     {
-      "source": "MIT Technology Review AI",
+      "source": "Wired Business",
       "sourceType": "media",
-      "feedTitle": "Artificial intelligence – MIT Technology Review",
-      "title": "Nurturing agentic AI beyond the toddler stage",
-      "link": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
-      "publishedAt": "2026-03-16T13:00:00.000Z",
-      "contentSnippet": "Parents of young children face a lot of fears about developmental milestones, from infancy through adulthood. The number of months it takes a baby to learn to talk or walk is often used as a benchmark for wellness, or an indicator of additional tests needed to properly diagnose a potential health condition. A parent rejoices…",
+      "feedTitle": "Business Latest",
+      "title": "The IRS Wants Smarter Audits. Palantir Could Help Decide Who Gets Flagged",
+      "link": "https://www.wired.com/story/documents-reveal-palantir-irs-contract-fraud-clean-energy-credits/",
+      "publishedAt": "2026-03-30T09:30:00.000Z",
+      "contentSnippet": "Documents show the tax agency is testing a Palantir tool to surface “highest-value” audit and investigation targets from a maze of legacy systems.",
       "categories": [
-        "Artificial intelligence",
-        "sponsored"
-      ]
-    },
-    {
-      "source": "MIT Technology Review AI",
-      "sourceType": "media",
-      "feedTitle": "Artificial intelligence – MIT Technology Review",
-      "title": "Securing digital assets against future threats",
-      "link": "https://www.technologyreview.com/2026/03/16/1134287/securing-digital-assets-against-future-threats/",
-      "publishedAt": "2026-03-16T11:00:00.000Z",
-      "contentSnippet": "",
-      "categories": [
-        "Artificial intelligence",
-        "sponsored"
+        "Business",
+        "Business / Computers and Software"
       ]
     },
     {
@@ -1485,16 +1491,465 @@
       ]
     },
     {
-      "source": "Wired Business",
-      "sourceType": "media",
-      "feedTitle": "Business Latest",
-      "title": "Anthropic Denies It Could Sabotage AI Tools During War",
-      "link": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/",
-      "publishedAt": "2026-03-21T00:03:20.000Z",
-      "contentSnippet": "The Department of Defense alleges the AI developer could manipulate models in the middle of war. Company executives argue that’s impossible.",
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments",
+      "link": "https://arxiv.org/abs/2603.25747",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25747v1 Announce Type: new Abstract: The rapid evolution of Large Multimodal Models (LMMs) has enabled agents to perform complex digital and physical tasks, yet their deployment as autonomous decision-makers introduces substantial unintentional behavioral safety risks. However, the absence of a comprehensive safety benchmark remains a major bottleneck, as existing evaluations rely on low-fidelity environments, simulated APIs, or narrowly scoped tasks. To address this gap, we present BeSafe-Bench (BSB), a benchmark for exposing behavioral safety risks of situated agents in functional environments, covering four representative domains: Web, Mobile, Embodied VLM, and Embodied VLA. Using functional environments, we construct a diverse instruction space by augmenting tasks with nine categories of safety-critical risks, and adopt a hybrid evaluation framework that combines rule-based checks with LLM-as-a-judge reasoning to assess real environmental impacts. Evaluating 13 popular agents reveals a concerning trend: even the best-performing agent completes fewer than 40% of tasks while fully adhering to safety constraints, and strong task performance frequently coincides with severe safety violations. These findings underscore the urgent need for improved safety alignment before deploying agentic systems in real-world settings.",
       "categories": [
-        "Business",
-        "Business / Artificial Intelligence"
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "AutoB2G: A Large Language Model-Driven Agentic Framework For Automated Building-Grid Co-Simulation",
+      "link": "https://arxiv.org/abs/2603.26005",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.26005v1 Announce Type: new Abstract: The growing availability of building operational data motivates the use of reinforcement learning (RL), which can learn control policies directly from data and cope with the complexity and uncertainty of large-scale building clusters. However, most existing simulation environments prioritize building-side performance metrics and lack systematic evaluation of grid-level impacts, while their experimental workflows still rely heavily on manual configuration and substantial programming expertise. Therefore, this paper proposes AutoB2G, an automated building-grid co-simulation framework that completes the entire simulation workflow solely based on natural-language task descriptions. The framework extends CityLearn V2 to support Building-to-Grid (B2G) interaction and adopts the large language model (LLM)-based SOCIA (Simulation Orchestration for Computational Intelligence with Agents) framework to automatically generate, execute, and iteratively refine the simulator. As LLMs lack prior knowledge of the implementation context of simulation functions, a codebase covering simulation configurations and functional modules is constructed and organized as a directed acyclic graph (DAG) to explicitly represent module dependencies and execution order, guiding the LLM to retrieve a complete executable path. Experimental results demonstrate that AutoB2G can effectively enable automated simulator implementations, coordinating B2G interactions to improve grid-side performance metrics.",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "Semi-Automated Knowledge Engineering and Process Mapping for Total Airport Management",
+      "link": "https://arxiv.org/abs/2603.26076",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.26076v1 Announce Type: new Abstract: Documentation of airport operations is inherently complex due to extensive technical terminology, rigorous regulations, proprietary regional information, and fragmented communication across multiple stakeholders. The resulting data silos and semantic inconsistencies present a significant impediment to the Total Airport Management (TAM) initiative. This paper presents a methodological framework for constructing a domain-grounded, machine-readable Knowledge Graph (KG) through a dual-stage fusion of symbolic Knowledge Engineering (KE) and generative Large Language Models (LLMs). The framework employs a scaffolded fusion strategy in which expert-curated KE structures guide LLM prompts to facilitate the discovery of semantically aligned knowledge triples. We evaluate this methodology on the Google LangExtract library and investigate the impact of context window utilization by comparing localized segment-based inference with document-level processing. Contrary to prior empirical observations of long-context degradation in LLMs, document-level processing improves the recovery of non-linear procedural dependencies. To ensure the high-fidelity provenance required in airport operations, the proposed framework fuses a probabilistic model for discovery and a deterministic algorithm for anchoring every extraction to its ground source. This ensures absolute traceability and verifiability, bridging the gap between \"black-box\" generative outputs and the transparency required for operational tooling. Finally, we introduce an automated framework that operationalizes this pipeline to synthesize complex operational workflows from unstructured textual corpora.",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation",
+      "link": "https://arxiv.org/abs/2603.26266",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.26266v1 Announce Type: new Abstract: Large vision-language models have endowed GUI agents with strong general capabilities for interface understanding and interaction. However, due to insufficient exposure to domain-specific software operation data during training, these agents exhibit significant domain bias - they lack familiarity with the specific operation workflows (planning) and UI element layouts (grounding) of particular applications, limiting their real-world task performance. In this paper, we present GUIDE (GUI Unbiasing via Instructional-Video Driven Expertise), a training-free, plug-and-play framework that resolves GUI agent domain bias by autonomously acquiring domain-specific expertise from web tutorial videos through a retrieval-augmented automated annotation pipeline. GUIDE introduces two key innovations. First, a subtitle-driven Video-RAG pipeline unlocks video semantics through subtitle analysis, performing progressive three-stage retrieval - domain classification, topic extraction, and relevance matching - to identify task-relevant tutorial videos. Second, a fully automated annotation pipeline built on an inverse dynamics paradigm feeds consecutive keyframes enhanced with UI element detection into VLMs, inferring the required planning and grounding knowledge that are injected into the agent's corresponding modules to address both manifestations of domain bias. Extensive experiments on OSWorld demonstrate GUIDE's generality as a plug-and-play component for both multi-agent systems and single-model agents. It consistently yields over 5% improvements and reduces execution steps - without modifying any model parameters or architecture - validating GUIDE as an architecture-agnostic enhancement to bridge GUI agent domain bias.",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "AIRA_2: Overcoming Bottlenecks in AI Research Agents",
+      "link": "https://arxiv.org/abs/2603.26499",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.26499v1 Announce Type: new Abstract: Existing research has identified three structural performance bottlenecks in AI research agents: (1) synchronous single-GPU execution constrains sample throughput, limiting the benefit of search; (2) a generalization gap where validation-based selection causes performance to degrade over extended search horizons; and (3) the limited capability of fixed, single-turn LLM operators imposes a ceiling on search performance. We introduce AIRA$_2$, which addresses these bottlenecks through three architectural choices: an asynchronous multi-GPU worker pool that increases experiment throughput linearly; a Hidden Consistent Evaluation protocol that delivers a reliable evaluation signal; and ReAct agents that dynamically scope their actions and debug interactively. On MLE-bench-30, AIRA$_2$ achieves a mean Percentile Rank of 71.8% at 24 hours - surpassing the previous best of 69.9% - and steadily improves to 76.0% at 72 hours. Ablation studies reveal that each component is necessary and that the \"overfitting\" reported in prior work was driven by evaluation noise rather than true data memorization.",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation",
+      "link": "https://arxiv.org/abs/2603.26512",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.26512v1 Announce Type: new Abstract: Existing methods for text-to-CAD generation either operate in a single pass with no geometric verification or rely on lossy visual feedback that cannot resolve dimensional errors. We present CADSmith, a multi-agent pipeline that generates CadQuery code from natural language. It then undergoes an iterative refinement process through two nested correction loops: an inner loop that resolves execution errors and an outer loop grounded in programmatic geometric validation. The outer loop combines exact measurements from the OpenCASCADE kernel (bounding box dimensions, volume, solid validity) with holistic visual assessment from an independent vision-language model Judge. This provides both the numerical precision and the high-level shape awareness needed to converge on the correct geometry. The system uses retrieval-augmented generation over API documentation rather than fine-tuning, maintaining a current database as the underlying CAD library evolves. We evaluate on a custom benchmark of 100 prompts in three difficulty tiers (T1 through T3) with three ablation configurations. Against a zero-shot baseline, CADSmith achieves a 100% execution rate (up from 95%), improves the median F1 score from 0.9707 to 0.9846, the median IoU from 0.8085 to 0.9629, and reduces the mean Chamfer Distance from 28.37 to 0.74, demonstrating that closed-loop refinement with programmatic geometric feedback substantially improves the quality and reliability of LLM-generated CAD models.",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "Stabilizing Rubric Integration Training via Decoupled Advantage Normalization",
+      "link": "https://arxiv.org/abs/2603.26535",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.26535v1 Announce Type: new Abstract: We propose Process-Aware Policy Optimization (PAPO), a method that integrates process-level evaluation into Group Relative Policy Optimization (GRPO) through decoupled advantage normalization, to address two limitations of existing reward designs. Outcome reward models (ORM) evaluate only final-answer correctness, treating all correct responses identically regardless of reasoning quality, and gradually lose the advantage signal as groups become uniformly correct. Process reward models (PRM) offer richer supervision, but directly using PRM scores causes reward hacking, where models exploit verbosity to inflate scores while accuracy collapses. PAPO resolves both by composing the advantage from an outcome component Aout, derived from ORM and normalized over all responses, and a process component Aproc, derived from a rubric-based PRM and normalized exclusively among correct responses. This decoupled design ensures that Aout anchors training on correctness while Aproc differentiates reasoning quality without distorting the outcome signal. Experiments across multiple model scales and six benchmarks demonstrate that PAPO consistently outperforms ORM, reaching 51.3% vs.\\ 46.3% on OlympiadBench while continuing to improve as ORM plateaus and declines.",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "DesignWeaver: Dimensional Scaffolding for Text-to-Image Product Design",
+      "link": "https://arxiv.org/abs/2502.09867",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2502.09867v2 Announce Type: cross Abstract: Generative AI has enabled novice designers to quickly create professional-looking visual representations for product concepts. However, novices have limited domain knowledge that could constrain their ability to write prompts that effectively explore a product design space. To understand how experts explore and communicate about design spaces, we conducted a formative study with 12 experienced product designers and found that experts -- and their less-versed clients -- often use visual references to guide co-design discussions rather than written descriptions. These insights inspired DesignWeaver, an interface that helps novices generate prompts for a text-to-image model by surfacing key product design dimensions from generated images into a palette for quick selection. In a study with 52 novices, DesignWeaver enabled participants to craft longer prompts with more domain-specific vocabularies, resulting in more diverse, innovative product designs. However, the nuanced prompts heightened participants' expectations beyond what current text-to-image models could deliver. We discuss implications for AI-based product design support tools.",
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "A Lightweight, Transferable, and Self-Adaptive Framework for Intelligent DC Arc-Fault Detection in Photovoltaic Systems",
+      "link": "https://arxiv.org/abs/2603.25749",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25749v1 Announce Type: cross Abstract: Arc-fault circuit interrupters (AFCIs) are essential for mitigating fire hazards in residential photovoltaic (PV) systems, yet achieving reliable DC arc-fault detection under real-world conditions remains challenging. Spectral interference from inverter switching, hardware heterogeneity, operating-condition drift, and environmental noise collectively compromise conventional AFCI solutions. This paper proposes a lightweight, transferable, and self-adaptive learning-driven framework (LD-framework) for intelligent DC arc-fault detection. At the device level, LD-Spec learns compact spectral representations enabling efficient on-device inference and near-perfect arc discrimination. Across heterogeneous inverter platforms, LD-Align performs cross-hardware representation alignment to ensure robust detection despite hardware-induced distribution shifts. To address long-term evolution, LD-Adapt introduces a cloud-edge collaborative self-adaptive updating mechanism that detects unseen operating regimes and performs controlled model evolution. Extensive experiments involving over 53,000 labeled samples demonstrate near-perfect detection, achieving 0.9999 accuracy and 0.9996 F1-score. Across diverse nuisance-trip-prone conditions, including inverter start-up, grid transitions, load switching, and harmonic disturbances, the method achieves a 0% false-trip rate. Cross-hardware transfer shows reliable adaptation using only 0.5%-1% labeled target data while preserving source performance. Field adaptation experiments demonstrate recovery of detection precision from 21% to 95% under previously unseen conditions. These results indicate that the LD-framework enables a scalable, deployment-oriented AFCI solution maintaining highly reliable detection across heterogeneous devices and long-term operation.",
+      "categories": [
+        "eess.SP",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "Sommelier: Scalable Open Multi-turn Audio Pre-processing for Full-duplex Speech Language Models",
+      "link": "https://arxiv.org/abs/2603.25750",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25750v1 Announce Type: cross Abstract: As the paradigm of AI shifts from text-based LLMs to Speech Language Models (SLMs), there is a growing demand for full-duplex systems capable of real-time, natural human-computer interaction. However, the development of such models is constrained by the scarcity of high-quality, multi-speaker conversational data, as existing large-scale resources are predominantly single-speaker or limited in volume. Addressing the complex dynamics of natural dialogue, such as overlapping and back-channeling remains a challenge, with standard processing pipelines suffering from diarization errors and ASR hallucinations. To bridge this gap, we present a robust and scalable open-source data processing pipeline designed for full-duplex model.",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "eess.AS"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "A-SelecT: Automatic Timestep Selection for Diffusion Transformer Representation Learning",
+      "link": "https://arxiv.org/abs/2603.25758",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25758v1 Announce Type: cross Abstract: Diffusion models have significantly reshaped the field of generative artificial intelligence and are now increasingly explored for their capacity in discriminative representation learning. Diffusion Transformer (DiT) has recently gained attention as a promising alternative to conventional U-Net-based diffusion models, demonstrating a promising avenue for downstream discriminative tasks via generative pre-training. However, its current training efficiency and representational capacity remain largely constrained due to the inadequate timestep searching and insufficient exploitation of DiT-specific feature representations. In light of this view, we introduce Automatically Selected Timestep (A-SelecT) that dynamically pinpoints DiT's most information-rich timestep from the selected transformer feature in a single run, eliminating the need for both computationally intensive exhaustive timestep searching and suboptimal discriminative feature selection. Extensive experiments on classification and segmentation benchmarks demonstrate that DiT, empowered by A-SelecT, surpasses all prior diffusion-based attempts efficiently and effectively.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "eess.IV"
+      ]
+    },
+    {
+      "source": "arXiv AI",
+      "sourceType": "research",
+      "feedTitle": "cs.AI updates on arXiv.org",
+      "title": "CANGuard: A Spatio-Temporal CNN-GRU-Attention Hybrid Architecture for Intrusion Detection in In-Vehicle CAN Networks",
+      "link": "https://arxiv.org/abs/2603.25763",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25763v1 Announce Type: cross Abstract: The Internet of Vehicles (IoV) has become an essential component of smart transportation systems, enabling seamless interaction among vehicles and infrastructure. In recent years, it has played a progressively significant role in enhancing mobility, safety, and transportation efficiency. However, this connectivity introduces severe security vulnerabilities, particularly Denial-of-Service (DoS) and spoofing attacks targeting the Controller Area Network (CAN) bus, which could severely inhibit communication between the critical components of a vehicle, leading to system malfunctions, loss of control, or even endangering passengers' safety. To address this problem, this paper presents CANGuard, a novel spatio-temporal deep learning architecture that combines Convolutional Neural Networks (CNN), Gated Recurrent Units (GRU), and an attention mechanism to effectively identify such attacks. The model is trained and evaluated on the CICIoV2024 dataset, achieving competitive performance across accuracy, precision, recall, and F1-score and outperforming existing state-of-the-art methods. A comprehensive ablation study confirms the individual and combined contributions of the CNN, GRU, and attention components. Additionally, a SHAP analysis is conducted to interpret the decision-making process of the model and determine which features have the most significant impact on intrusion detection. The proposed approach demonstrates strong potential for practical and scalable security enhancements in modern IoV environments, thereby ensuring safer and more secure CAN bus communications.",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "Relational graph-driven differential denoising and diffusion attention fusion for multimodal conversation emotion recognition",
+      "link": "https://arxiv.org/abs/2603.25752",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25752v1 Announce Type: new Abstract: In real-world scenarios, audio and video signals are often subject to environmental noise and limited acquisition conditions, resulting in extracted features containing excessive noise. Furthermore, there is an imbalance in data quality and information carrying capacity between different modalities. These two issues together lead to information distortion and weight bias during the fusion phase, impairing overall recognition performance. Most existing methods neglect the impact of noisy modalities and rely on implicit weighting to model modality importance, thereby failing to explicitly account for the predominant contribution of the textual modality in emotion understanding. To address these issues, we propose a relation-aware denoising and diffusion attention fusion model for MCER. Specifically, we first design a differential Transformer that explicitly computes the differences between two attention maps, thereby enhancing temporally consistent information while suppressing time-irrelevant noise, which leads to effective denoising in both audio and video modalities. Second, we construct modality-specific and cross-modality relation subgraphs to capture speaker-dependent emotional dependencies, enabling fine-grained modeling of intra- and inter-modal relationships. Finally, we introduce a text-guided cross-modal diffusion mechanism that leverages self-attention to model intra-modal dependencies and adaptively diffuses audiovisual information into the textual stream, ensuring more robust and semantically aligned multimodal fusion.",
+      "categories": [
+        "cs.CL",
+        "cs.SD",
+        "eess.AS"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation",
+      "link": "https://arxiv.org/abs/2603.25804",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25804v1 Announce Type: new Abstract: Vision-Language Models (VLMs) have demonstrated impressive capabilities in code generation across various domains. However, their ability to replicate complex, multi-panel visualizations from real-world data remains largely unassessed. To address this gap, we introduce \\textbf{\\texttt{RealChart2Code}}, a new large-scale benchmark with over 2,800 instances grounded in authentic datasets and featuring tasks with clear analytical intent. Crucially, it is the first benchmark to systematically evaluate chart generation from large-scale raw data and assess iterative code refinement in a multi-turn conversational setting. Our comprehensive evaluation of 14 leading VLMs on \\texttt{RealChart2Code} reveals significant performance degradation compared to simpler benchmarks, highlighting their struggles with complex plot structures and authentic data. Our analysis uncovers a substantial performance gap between proprietary and open-weight models and confirms that even state-of-the-art VLMs often fail to accurately replicate intricate, multi-panel charts. These findings provide valuable insights into the current limitations of VLMs and guide future research directions. We release the benchmark and code at \\url{https://github.com/Speakn0w/RealChart2Code}.",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "Doctorina MedBench: End-to-End Evaluation of Agent-Based Medical AI",
+      "link": "https://arxiv.org/abs/2603.25821",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25821v1 Announce Type: new Abstract: We present Doctorina MedBench, a comprehensive evaluation framework for agent-based medical AI based on the simulation of realistic physician-patient interactions. Unlike traditional medical benchmarks that rely on solving standardized test questions, the proposed approach models a multi-step clinical dialogue in which either a physician or an AI system must collect medical history, analyze attached materials (including laboratory reports, images, and medical documents), formulate differential diagnoses, and provide personalized recommendations. System performance is evaluated using the D.O.T.S. metric, which consists of four components: Diagnosis, Observations/Investigations, Treatment, and Step Count, enabling assessment of both clinical correctness and dialogue efficiency. The system also incorporates a multi-level testing and quality monitoring architecture designed to detect model degradation during both development and deployment. The framework supports safety-oriented trap cases, category-based random sampling of clinical scenarios, and full regression testing. The dataset currently contains more than 1,000 clinical cases covering over 750 diagnoses. The universality of the evaluation metrics allows the framework to be used not only to assess medical AI systems, but also to evaluate physicians and support the development of clinical reasoning skills. Our results suggest that simulation of clinical dialogue may provide a more realistic assessment of clinical competence compared to traditional examination-style benchmarks.",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "Gradient-Informed Training for Low-Resource Multilingual Speech Translation",
+      "link": "https://arxiv.org/abs/2603.25836",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25836v1 Announce Type: new Abstract: In low-resource multilingual speech-to-text translation, uniform architectural sharing across languages frequently introduces representation conflicts that impede convergence. This work proposes a principled methodology to automatically determine layer-specific sharing patterns by mining training gradient information. Our approach employs three distinct analysis strategies: distance-based language clustering, self/cross-task divergence metrics for capacity allocation, and joint factorization coupled with canonical correlation analysis for subspace alignment. Extensive evaluation across four language pairs (using the SeamlessM4T-Medium architecture) demonstrates persistent improvements in translation quality metrics.",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "Methods for Knowledge Graph Construction from Text Collections: Development and Applications",
+      "link": "https://arxiv.org/abs/2603.25862",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25862v1 Announce Type: new Abstract: Virtually every sector of society is experiencing a dramatic growth in the volume of unstructured textual data that is generated and published, from news and social media online interactions, through open access scholarly communications and observational data in the form of digital health records and online drug reviews. The volume and variety of data across all this range of domains has created both unprecedented opportunities and pressing challenges for extracting actionable knowledge for several application scenarios. However, the extraction of rich semantic knowledge demands the deployment of scalable and flexible automatic methods adaptable across text genres and schema specifications. Moreover, the full potential of these data can only be unlocked by coupling information extraction methods with Semantic Web techniques for the construction of full-fledged Knowledge Graphs, that are semantically transparent, explainable by design and interoperable. In this thesis, we experiment with the application of Natural Language Processing, Machine Learning and Generative AI methods, powered by Semantic Web best practices, to the automatic construction of Knowledge Graphs from large text corpora, in three use case applications: the analysis of the Digital Transformation discourse in the global news and social media platforms; the mapping and trend analysis of recent research in the Architecture, Engineering, Construction and Operations domain from a large corpus of publications; the generation of causal relation graphs of biomedical entities from electronic health records and patient-authored drug reviews. The contributions of this thesis to the research community are in terms of benchmark evaluation results, the design of customized algorithms and the creation of data resources in the form of Knowledge Graphs, together with data analysis results built on top of them.",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "Density-aware Soft Context Compression with Semi-Dynamic Compression Ratio",
+      "link": "https://arxiv.org/abs/2603.25926",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25926v1 Announce Type: new Abstract: Soft context compression reduces the computational workload of processing long contexts in LLMs by encoding long context into a smaller number of latent tokens. However, existing frameworks apply uniform compression ratios, failing to account for the extreme variance in natural language information density. While adopting a density-aware dynamic compression ratio seems intuitive, empirical investigations reveal that models struggle intrinsically with operations parameterized by input dependent, continuous structural hyperparameters. To resolve this pitfall, we introduce Semi-Dynamic Context Compression framework. Our approach features a Discrete Ratio Selector, which predicts a compression target based on intrinsic information density and quantizes it to a predefined set of discrete compression ratios. It is efficiently jointly trained with the compressor on synthetic data, with the summary lengths as a proxy to create labels for compression ratio prediction. Extensive evaluations confirm that our density-aware framework, utilizing mean pooling as the backbone, consistently outperforms static baselines, establishing a robust Pareto frontier for context compression techniques. Our code, data and model weights are available at https://github.com/yuyijiong/semi-dynamic-context-compress",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "Can Small Models Reason About Legal Documents? A Comparative Study",
+      "link": "https://arxiv.org/abs/2603.25944",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25944v1 Announce Type: new Abstract: Large language models show promise for legal applications, but deploying frontier models raises concerns about cost, latency, and data privacy. We evaluate whether sub-10B parameter models can serve as practical alternatives by testing nine models across three legal benchmarks (ContractNLI, CaseHOLD, and ECtHR) using five prompting strategies (direct, chain-of-thought, few-shot, BM25 RAG, and dense RAG). Across 405 experiments with three random seeds per configuration, we find that a Mixture-of-Experts model activating only 3B parameters matches GPT-4o-mini in mean accuracy while surpassing it on legal holding identification, and that architecture and training quality matter more than raw parameter count. Our largest model (9B parameters) performs worst overall. Chain-of-thought prompting proves sharply task-dependent, improving contract entailment but degrading multiple-choice legal reasoning, while few-shot prompting emerges as the most consistently effective strategy. Comparing BM25 and dense retrieval for RAG, we find near-identical results, suggesting the bottleneck lies in the language model's utilization of retrieved context rather than retrieval quality. All experiments were conducted via cloud inference APIs at a total cost of $62, demonstrating that rigorous LLM evaluation is accessible without dedicated GPU infrastructure.",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "When Chain-of-Thought Backfires: Evaluating Prompt Sensitivity in Medical Language Models",
+      "link": "https://arxiv.org/abs/2603.25960",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25960v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly deployed in medical settings, yet their sensitivity to prompt formatting remains poorly characterized. We evaluate MedGemma (4B and 27B parameters) on MedMCQA (4,183 questions) and PubMedQA (1,000 questions) across a broad suite of robustness tests. Our experiments reveal several concerning findings. Chain-of-Thought (CoT) prompting decreases accuracy by 5.7% compared to direct answering. Few-shot examples degrade performance by 11.9% while increasing position bias from 0.14 to 0.47. Shuffling answer options causes the model to change predictions 59.1% of the time, with accuracy dropping up to 27.4 percentage points. Front-truncating context to 50% causes accuracy to plummet below the no-context baseline, yet back-truncation preserves 97% of full-context accuracy. We further show that cloze scoring (selecting the highest log-probability option token) achieves 51.8% (4B) and 64.5% (27B), surpassing all prompting strategies and revealing that models \"know\" more than their generated text shows. Permutation voting recovers 4 percentage points over single-ordering inference. These results demonstrate that prompt engineering techniques validated on general-purpose models do not transfer to domain-specific medical LLMs, and that reliable alternatives exist.",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization",
+      "link": "https://arxiv.org/abs/2603.25973",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25973v1 Announce Type: new Abstract: Recent advancements in Large Language Models (LLMs) have expanded context windows to million-token scales, yet benchmarks for evaluating memory remain limited to short-session synthetic dialogues. We introduce \\textsc{MemoryCD}, the first large-scale, user-centric, cross-domain memory benchmark derived from lifelong real-world behaviors in the Amazon Review dataset. Unlike existing memory datasets that rely on scripted personas to generate synthetic user data, \\textsc{MemoryCD} tracks authentic user interactions across years and multiple domains. We construct a multi-faceted long-context memory evaluation pipeline of 14 state-of-the-art LLM base models with 6 memory method baselines on 4 distinct personalization tasks over 12 diverse domains to evaluate an agent's ability to simulate real user behaviors in both single and cross-domain settings. Our analysis reveals that existing memory methods are far from user satisfaction in various domains, offering the first testbed for cross-domain life-long personalization evaluation.",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "Toward Culturally Grounded Natural Language Processing",
+      "link": "https://arxiv.org/abs/2603.26013",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.26013v1 Announce Type: new Abstract: Recent progress in multilingual NLP is often taken as evidence of broader global inclusivity, but a growing literature shows that multilingual capability and cultural competence come apart. This paper synthesizes over 50 papers from 2020--2026 spanning multilingual performance inequality, cross-lingual transfer, culture-aware evaluation, cultural alignment, multimodal local-knowledge modeling, benchmark design critiques, and community-grounded data practices. Across this literature, training data coverage remains a strong determinant of performance, yet it is not sufficient: tokenization, prompt language, translated benchmark design, culturally specific supervision, and multimodal context all materially affect outcomes. Recent work on Global-MMLU, CDEval, WorldValuesBench, CulturalBench, CULEMO, CulturalVQA, GIMMICK, DRISHTIKON, WorldCuisines, CARE, CLCA, and newer critiques of benchmark design and community-grounded evaluation shows that strong multilingual models can still flatten local norms, misread culturally grounded cues, and underperform in lower-resource or community-specific settings. We argue that the field should move from treating languages as isolated rows in a benchmark spreadsheet toward modeling communicative ecologies: the institutions, scripts, translation pipelines, domains, modalities, and communities through which language is used. On that basis, we propose a research agenda for culturally grounded NLP centered on richer contextual metadata, culturally stratified evaluation, participatory alignment, within-language variation, and multimodal community-aware design.",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "AgentCollab: A Self-Evaluation-Driven Collaboration Paradigm for Efficient LLM Agents",
+      "link": "https://arxiv.org/abs/2603.26034",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.26034v1 Announce Type: new Abstract: Autonomous agents powered by large language models (LLMs) perform complex tasks through long-horizon reasoning and tool interaction, where a fundamental trade-off arises between execution efficiency and reasoning robustness. Models at different capability-cost levels offer complementary advantages: lower-cost models enable fast execution but may struggle on difficult reasoning segments, while stronger models provide more robust reasoning at higher computational cost. We present AgentCollab, a self-driven collaborative inference framework that dynamically coordinates models with different reasoning capacities during agent execution. Instead of relying on external routing modules, the framework uses the agent's own self-reflection signal to determine whether the current reasoning trajectory is making meaningful progress, and escalates control to a stronger reasoning tier only when necessary. To further stabilize long-horizon execution, we introduce a difficulty-aware cumulative escalation strategy that allocates additional reasoning budget based on recent failure signals. In our experiments, we instantiate this framework using a two-level small-large model setting. Experiments on diverse multi-step agent benchmarks show that AgentCollab consistently improves the accuracy-efficiency Pareto frontier of LLM agents.",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arXiv CL",
+      "sourceType": "research",
+      "feedTitle": "cs.CL updates on arXiv.org",
+      "title": "Retrieval-Augmented Generation Based Nurse Observation Extraction",
+      "link": "https://arxiv.org/abs/2603.26046",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.26046v1 Announce Type: new Abstract: Recent advancements in Large Language Models (LLMs) have played a significant role in reducing human workload across various domains, a trend that is increasingly extending into the medical field. In this paper, we propose an automated pipeline designed to alleviate the burden on nurses by automatically extracting clinical observations from nurse dictations. To ensure accurate extraction, we introduce a method based on Retrieval-Augmented Generation (RAG). Our approach demonstrates effective performance, achieving an F1-score of 0.796 on the MEDIQA-SYNUR test dataset.",
+      "categories": [
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "Empowering Epidemic Response: The Role of Reinforcement Learning in Infectious Disease Control",
+      "link": "https://arxiv.org/abs/2603.25771",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25771v1 Announce Type: new Abstract: Reinforcement learning (RL), owing to its adaptability to various dynamic systems in many real-world scenarios and the capability of maximizing long-term outcomes under different constraints, has been used in infectious disease control to optimize the intervention strategies for controlling infectious disease spread and responding to outbreaks in recent years. The potential of RL for assisting public health sectors in preventing and controlling infectious diseases is gradually emerging and being explored by rapidly increasing publications relevant to COVID-19 and other infectious diseases. However, few surveys exclusively discuss this topic, that is, the development and application of RL approaches for optimizing strategies of non-pharmaceutical and pharmaceutical interventions of public health. Therefore, this paper aims to provide a concise review and discussion of the latest literature on how RL approaches have been used to assist in controlling the spread and outbreaks of infectious diseases, covering several critical topics addressing public health demands: resource allocation, balancing between lives and livelihoods, mixed policy of multiple interventions, and inter-regional coordinated control. Finally, we conclude the paper with a discussion of several potential directions for future research.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CY"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "Pure and Physics-Guided Deep Learning Solutions for Spatio-Temporal Groundwater Level Prediction at Arbitrary Locations",
+      "link": "https://arxiv.org/abs/2603.25779",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25779v1 Announce Type: new Abstract: Groundwater represents a key element of the water cycle, yet it exhibits intricate and context-dependent relationships that make its modeling a challenging task. Theory-based models have been the cornerstone of scientific understanding. However, their computational demands, simplifying assumptions, and calibration requirements limit their use. In recent years, data-driven models have emerged as powerful alternatives. In particular, deep learning has proven to be a leading approach for its design flexibility and ability to learn complex relationships. We proposed an attention-based pure deep learning model, named STAINet, to predict weekly groundwater levels at an arbitrary and variable number of locations, leveraging both spatially sparse groundwater measurements and spatially dense weather information. Then, to enhance the model's trustworthiness and generalization ability, we considered different physics-guided strategies to inject the groundwater flow equation into the model. Firstly, in the STAINet-IB, by introducing an inductive bias, we also estimated the governing equation components. Then, by adopting a learning bias strategy, we proposed the STAINet-ILB, trained with additional loss terms adding supervision on the estimated equation components. Lastly, we developed the STAINet-ILRB, leveraging the groundwater body recharge zone information estimated by domain experts. The STAINet-ILB performed the best, achieving overwhelming test performances in a rollout setting (median MAPE 0.16%, KGE 0.58). Furthermore, it predicted sensible equation components, providing insights into the model's physical soundness. Physics-guided approaches represent a promising opportunity to enhance both the generalization ability and the trustworthiness, thereby paving the way to a new generation of disruptive hybrid deep learning Earth system models.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "MAGNET: Autonomous Expert Model Generation via Decentralized Autoresearch and BitNet Training",
+      "link": "https://arxiv.org/abs/2603.25813",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25813v1 Announce Type: new Abstract: We present MAGNET (Model Autonomously Growing Network), a decentralized system for autonomous generation, training, and serving of domain-expert language models across commodity hardware. MAGNET integrates four components: (1) autoresearch, an autonomous ML research pipeline that automates dataset generation, hyperparameter exploration, evaluation, and error-driven iteration; (2) BitNet b1.58 ternary training, enabling CPU-native inference via bitnet.cpp without GPU hardware; (3) DiLoCo-based distributed merging for communication-efficient aggregation of domain specialists; and (4) on-chain contribution tracking on the HOOTi EVM chain. We validate autoresearch through three case studies: video safety classification (balanced accuracy 0.9287 to 0.9851), cryptocurrency directional prediction (41% to 54.9% hit rate), and BitNet hyperparameter optimization (10-phase sweep, -16.7% validation loss).",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "A Compression Perspective on Simplicity Bias",
+      "link": "https://arxiv.org/abs/2603.25839",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25839v1 Announce Type: new Abstract: Deep neural networks exhibit a simplicity bias, a well-documented tendency to favor simple functions over complex ones. In this work, we cast new light on this phenomenon through the lens of the Minimum Description Length principle, formalizing supervised learning as a problem of optimal two-part lossless compression. Our theory explains how simplicity bias governs feature selection in neural networks through a fundamental trade-off between model complexity (the cost of describing the hypothesis) and predictive power (the cost of describing the data). Our framework predicts that as the amount of available training data increases, learners transition through qualitatively different features -- from simple spurious shortcuts to complex features -- only when the reduction in data encoding cost justifies the increased model complexity. Consequently, we identify distinct data regimes where increasing data promotes robustness by ruling out trivial shortcuts, and conversely, regimes where limiting data can act as a form of complexity-based regularization, preventing the learning of unreliable complex environmental cues. We validate our theory on a semi-synthetic benchmark showing that the feature selection of neural networks follows the same trajectory of solutions as optimal two-part compressors.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "Incorporating contextual information into KGWAS for interpretable GWAS discovery",
+      "link": "https://arxiv.org/abs/2603.25855",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25855v1 Announce Type: new Abstract: Genome-Wide Association Studies (GWAS) identify associations between genetic variants and disease; however, moving beyond associations to causal mechanisms is critical for therapeutic target prioritization. The recently proposed Knowledge Graph GWAS (KGWAS) framework addresses this challenge by linking genetic variants to downstream gene-gene interactions via a knowledge graph (KG), thereby improving detection power and providing mechanistic insights. However, the original KGWAS implementation relies on a large general-purpose KG, which can introduce spurious correlations. We hypothesize that cell-type specific KGs from disease-relevant cell types will better support disease mechanism discovery. Here, we show that the general-purpose KG in KGWAS can be substantially pruned with no loss of statistical power on downstream tasks, and that performance further improves by incorporating gene-gene relationships derived from perturb-seq data. Importantly, using a sparse, context-specific KG from direct perturb-seq evidence yields more consistent and biologically robust disease-critical networks.",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "In-Context Molecular Property Prediction with LLMs: A Blinding Study on Memorization and Knowledge Conflicts",
+      "link": "https://arxiv.org/abs/2603.25857",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25857v1 Announce Type: new Abstract: The capabilities of large language models (LLMs) have expanded beyond natural language processing to scientific prediction tasks, including molecular property prediction. However, their effectiveness in in-context learning remains ambiguous, particularly given the potential for training data contamination in widely used benchmarks. This paper investigates whether LLMs perform genuine in-context regression on molecular properties or rely primarily on memorized values. Furthermore, we analyze the interplay between pre-trained knowledge and in-context information through a series of progressively blinded experiments. We evaluate nine LLM variants across three families (GPT-4.1, GPT-5, Gemini 2.5) on three MoleculeNet datasets (Delaney solubility, Lipophilicity, QM7 atomization energy) using a systematic blinding approach that iteratively reduces available information. Complementing this, we utilize varying in-context sample sizes (0-, 60-, and 1000-shot) as an additional control for information access. This work provides a principled framework for evaluating molecular property prediction under controlled information access, addressing concerns regarding memorization and exposing conflicts between pre-trained knowledge and in-context information.",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "Why Safety Probes Catch Liars But Miss Fanatics",
+      "link": "https://arxiv.org/abs/2603.25861",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25861v1 Announce Type: new Abstract: Activation-based probes have emerged as a promising approach for detecting deceptively aligned AI systems by identifying internal conflict between true and stated goals. We identify a fundamental blind spot: probes fail on coherent misalignment - models that believe their harmful behavior is virtuous rather than strategically hiding it. We prove that no polynomial-time probe can detect such misalignment with non-trivial accuracy when belief structures reach sufficient complexity (PRF-like triggers). We show the emergence of this phenomenon on a simple task by training two models with identical RLHF procedures: one producing direct hostile responses (\"the Liar\"), another trained towards coherent misalignment using rationalizations that frame hostility as protective (\"the Fanatic\"). Both exhibit identical behavior, but the Liar is detected 95%+ of the time while the Fanatic evades detection almost entirely. We term this Emergent Probe Evasion: training with belief-consistent reasoning shifts models from a detectable \"deceptive\" regime to an undetectable \"coherent\" regime - not by learning to hide, but by learning to believe.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "DRiffusion: Draft-and-Refine Process Parallelizes Diffusion Models with Ease",
+      "link": "https://arxiv.org/abs/2603.25872",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25872v1 Announce Type: new Abstract: Diffusion models have achieved remarkable success in generating high-fidelity content but suffer from slow, iterative sampling, resulting in high latency that limits their use in interactive applications. We introduce DRiffusion, a parallel sampling framework that parallelizes diffusion inference through a draft-and-refine process. DRiffusion employs skip transitions to generate multiple draft states for future timesteps and computes their corresponding noises in parallel, which are then used in the standard denoising process to produce refined results. Theoretically, our method achieves an acceleration rate of $\\tfrac{1}{n}$ or $\\tfrac{2}{n+1}$, depending on whether the conservative or aggressive mode is used, where $n$ denotes the number of devices. Empirically, DRiffusion attains 1.4$\\times$-3.7$\\times$ speedup across multiple diffusion models while incur minimal degradation in generation quality: on MS-COCO dataset, both FID and CLIP remain largely on par with those of the original model, while PickScore and HPSv2.1 show only minor average drops of 0.17 and 0.43, respectively. These results verify that DRiffusion delivers substantial acceleration and preserves perceptual quality.",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "Data-Driven Plasticity Modeling via Acoustic Profiling",
+      "link": "https://arxiv.org/abs/2603.25894",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25894v1 Announce Type: new Abstract: This paper presents a data-driven framework for modeling plastic deformation in crystalline metals through acoustic emission (AE) analysis. Building on experimental data from compressive loading of nickel micropillars, the study introduces a wavelet-based method using Morlet transforms to detect AE events across distinct frequency bands, enabling identification of both large and previously overlooked small-scale events. The detected events are validated against stress-drop dynamics, demonstrating strong physical consistency and revealing a relationship between AE energy release and strain evolution, including the onset of increased strain rate following major events. Leveraging labeled datasets of events and non-events, the work applies machine learning techniques, showing that engineered time and frequency domain features significantly outperform raw signal classifiers, and identifies key discriminative features such as RMS amplitude, zero crossing rate, and spectral centroid. Finally, clustering analysis uncovers four distinct AE event archetypes corresponding to different deformation mechanisms, highlighting the potential for transitioning from retrospective analysis to predictive modeling of material behavior using acoustic signals.",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "Decoding Defensive Coverage Responsibilities in American Football Using Factorized Attention Based Transformer Models",
+      "link": "https://arxiv.org/abs/2603.25901",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25901v1 Announce Type: new Abstract: Defensive coverage schemes in the National Football League (NFL) represent complex tactical patterns requiring coordinated assignments among defenders who must react dynamically to the offense's passing concept. This paper presents a factorized attention-based transformer model applied to NFL multi-agent play tracking data to predict individual coverage assignments, receiver-defender matchups, and the targeted defender on every pass play. Unlike previous approaches that focus on post-hoc coverage classification at the team level, our model enables predictive modeling of individual player assignments and matchup dynamics throughout the play. The factorized attention mechanism separates temporal and agent dimensions, allowing independent modeling of player movement patterns and inter-player relationships. Trained on randomly truncated trajectories, the model generates frame-by-frame predictions that capture how defensive responsibilities evolve from pre-snap through pass arrival. Our models achieve approximately 89\\%+ accuracy for all tasks, with true accuracy potentially higher given annotation ambiguity in the ground truth labels. These outputs also enable novel derivative metrics, including disguise rate and double coverage rate, which enable enhanced storytelling in TV broadcasts as well as provide actionable insights for team strategy development and player evaluation.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "Parameter-Free Dynamic Regret for Unconstrained Linear Bandits",
+      "link": "https://arxiv.org/abs/2603.25916",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25916v1 Announce Type: new Abstract: We study dynamic regret minimization in unconstrained adversarial linear bandit problems. In this setting, a learner must minimize the cumulative loss relative to an arbitrary sequence of comparators $\\boldsymbol{u}_1,\\ldots,\\boldsymbol{u}_T$ in $\\mathbb{R}^d$, but receives only point-evaluation feedback on each round. We provide a simple approach to combining the guarantees of several bandit algorithms, allowing us to optimally adapt to the number of switches $S_T = \\sum_t\\mathbb{I}\\{\\boldsymbol{u}_t \\neq \\boldsymbol{u}_{t-1}\\}$ of an arbitrary comparator sequence. In particular, we provide the first algorithm for linear bandits achieving the optimal regret guarantee of order $\\mathcal{O}\\big(\\sqrt{d(1+S_T) T}\\big)$ up to poly-logarithmic terms without prior knowledge of $S_T$, thus resolving a long-standing open problem.",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ]
+    },
+    {
+      "source": "arXiv ML",
+      "sourceType": "research",
+      "feedTitle": "cs.LG updates on arXiv.org",
+      "title": "Preventing Data Leakage in EEG-Based Survival Prediction: A Two-Stage Embedding and Transformer Framework",
+      "link": "https://arxiv.org/abs/2603.25923",
+      "publishedAt": "2026-03-30T04:00:00.000Z",
+      "contentSnippet": "arXiv:2603.25923v1 Announce Type: new Abstract: Deep learning models have shown promise in EEG-based outcome prediction for comatose patients after cardiac arrest, but their reliability is often compromised by subtle forms of data leakage. In particular, when long EEG recordings are segmented into short windows and reused across multiple training stages, models may implicitly encode and propagate label information, leading to overly optimistic validation performance and poor generalization. In this study, we identify a previously overlooked form of data leakage in multi-stage EEG modeling pipelines. We demonstrate that violating strict patient-level separation can significantly inflate validation metrics while causing substantial degradation on independent test data. To address this issue, we propose a leakage-aware two-stage framework. In the first stage, short EEG segments are transformed into embedding representations using a convolutional neural network with an ArcFace objective. In the second stage, a Transformer-based model aggregates these embeddings to produce patient-level predictions, with strict isolation between training cohorts to eliminate leakage pathways. Experiments on a large-scale EEG dataset of post-cardiac-arrest patients show that the proposed framework achieves stable and generalizable performance under clinically relevant constraints, particularly in maintaining high sensitivity at stringent specificity thresholds. These results highlight the importance of rigorous data partitioning and provide a practical solution for reliable EEG-based outcome prediction.",
+      "categories": [
+        "cs.LG"
       ]
     },
     {
@@ -1669,6 +2124,16 @@
       "source": "Ollama Blog",
       "sourceType": "opensource",
       "feedTitle": "Ollama",
+      "title": "Ollama is now powered by MLX on Apple Silicon in preview",
+      "link": "https://ollama.com/blog/mlx",
+      "publishedAt": "2026-03-30T00:00:00.000Z",
+      "contentSnippet": "Today, we're previewing the fastest way to run Ollama on Apple silicon, powered by MLX, Apple's machine learning framework.",
+      "categories": []
+    },
+    {
+      "source": "Ollama Blog",
+      "sourceType": "opensource",
+      "feedTitle": "Ollama",
       "title": "The simplest and fastest way to setup OpenClaw",
       "link": "https://ollama.com/blog/openclaw-tutorial",
       "publishedAt": "2026-02-23T00:00:00.000Z",
@@ -1773,16 +2238,6 @@
       "link": "https://ollama.com/blog/coding-models",
       "publishedAt": "2025-10-16T00:00:00.000Z",
       "contentSnippet": "GLM-4.6 and Qwen3-coder-480B are available on Ollama’s cloud service with easy integrations to the tools you are familiar with. Qwen3-Coder-30B has been updated for faster, more reliable tool calling in Ollama’s new engine.",
-      "categories": []
-    },
-    {
-      "source": "Ollama Blog",
-      "sourceType": "opensource",
-      "feedTitle": "Ollama",
-      "title": "Qwen3-VL",
-      "link": "https://ollama.com/blog/qwen3-vl",
-      "publishedAt": "2025-10-14T00:00:00.000Z",
-      "contentSnippet": "Ollama now supports Alibaba's Qwen3-VL.",
       "categories": []
     },
     {
@@ -1933,6 +2388,16 @@
       "source": "NIST News",
       "sourceType": "policy",
       "feedTitle": "NIST News",
+      "title": "NIST Researchers Develop Photonic Chip Packaging That Can Withstand Extreme Environments",
+      "link": "https://www.nist.gov/news-events/news/2026/03/nist-researchers-develop-photonic-chip-packaging-can-withstand-extreme",
+      "publishedAt": "2026-03-30T12:00:00.000Z",
+      "contentSnippet": "The advance could allow these technologies to operate in deep-space probes, inside nuclear reactors, in ultrahigh vacuum systems, and at temperatures both near absolute zero and in scorchingly hot industrial settings.",
+      "categories": []
+    },
+    {
+      "source": "NIST News",
+      "sourceType": "policy",
+      "feedTitle": "NIST News",
       "title": "NIST Helps Fingerprint Examiners With New Data and Software Release",
       "link": "https://www.nist.gov/news-events/news/2026/03/nist-helps-fingerprint-examiners-new-data-and-software-release",
       "publishedAt": "2026-03-23T12:00:00.000Z",
@@ -2040,16 +2505,6 @@
       "categories": []
     },
     {
-      "source": "NIST News",
-      "sourceType": "policy",
-      "feedTitle": "NIST News",
-      "title": "Draft NIST Guidelines Rethink Cybersecurity for the AI Era",
-      "link": "https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era",
-      "publishedAt": "2025-12-16T12:00:00.000Z",
-      "contentSnippet": "New guidelines can help an organization determine ways to incorporate AI into its operations while mitigating cybersecurity risks.",
-      "categories": []
-    },
-    {
       "source": "UK AISI",
       "sourceType": "policy",
       "error": "Error: Status code 404"
@@ -2058,6 +2513,69 @@
       "source": "OECD AI",
       "sourceType": "policy",
       "error": "Error: Status code 404"
+    },
+    {
+      "source": "EFF Deeplinks",
+      "sourceType": "policy",
+      "feedTitle": "Deeplinks",
+      "title": "Welcome, Daily Show Viewers! Learn More About EFF and Privacy's Defender",
+      "link": "https://www.eff.org/deeplinks/2026/03/welcome-daily-show-viewers-learn-more-about-eff-and-privacys-defender",
+      "publishedAt": "2026-03-30T19:22:13.000Z",
+      "contentSnippet": "About EFF The Electronic Frontier Foundation is the leading nonprofit defending civil liberties in the digital world. EFF’s work to protect your rights on the internet is supported by over 30,000 members who have joined our mission by donating just this year. For over 35 years, our lawyers, activists, and technologists have been thinking about the next big thing in tech before anyone else—whether that’s age verification, AI, or Palantir. Whatever causes you fight for, you rely on the internet to do so. And EFF protects the infrastructure of rebellion. JOIN EFF TODAY To learn more about our work, follow EFF on social media and subscribe to EFF's EFFector newsletter below to learn about the ways the internet and online rights are changing and what that means for you. And join EFF to support our fight—because if you use technology, this fight is yours. Privacy's Defender: My Thirty Year Fight Against Digital Surveillance, by Cindy Cohn In Privacy’s Defender: My Thirty-Year Fight Against Digital Surveillance (MIT Press), EFF Executive Director Cindy Cohn weaves her own personal story with her role as a leading legal voice representing the rights and interests of technology users, innovators, whistleblowers, and researchers during the Crypto Wars of the 1990s, battles over NSA’s dragnet internet spying revealed in the 2000s, and the fight against FBI gag orders. \"Let's Sue the Government\" T-Shirt [ Sometimes our supporters call EFF a merch store with a law firm attached because our stickers, hoodies and shirts are so well known. Our \"Let's Sue the Government\" shirt tells people: When your rights are at risk, you don’t stay quiet. EFF's History In early 1990, the U.S. Secret Service conducted raids tracking the distribution of a document illegally copied from a telecom company’s computer; one of those targeted was an Austin, TX publisher named Steve Jackson, whose computers were seized but later returned without any charges filed. Jackson’s business had suffered, and he discovered that the government had read and deleted his customers’ emails. He sought a civil liberties organization to represent him for this violation of his rights, but no existing organization understood the technology well enough to grasp the free speech and privacy issues at hand. But a few well-informed technologists did understand. Mitch Kapor, former president of Lotus Development Corp.; John Perry Barlow, a Wyoming cattle rancher and lyricist for the Grateful Dead; and John Gilmore, an early employee of Sun Microsystems, with help from Apple co-founder Steve Wozniak, decided to do something about it – and so the Electronic Frontier Foundation was born in July 1990. The Steve Jackson Games case turned out to be an extremely important one for the early internet: For the first time, a court held that electronic mail deserves at least as much protection as telephone calls. EFF's original logo, in use from 1990-2018 EFF continued to take on cases that set important precedents for the treatment of rights in cyberspace. In our second big case, Bernstein v. U.S. Department of Justice, the United States government prohibited a University of California mathematics Ph.D. student from publishing online an encryption program he had created. Years earlier, the government had placed encryption on the United States Munitions List, alongside bombs and flamethrowers, as a weapon to be regulated for national security purposes; our lawsuit established that written software code is speech protected by the First Amendment, and the further ruled that the export control laws on encryption violated Bernstein's rights by prohibiting his constitutionally protected speech. Now everyone has the right to \"export\" encryption software—by publishing it on the Internet—without prior permission from the U.S. government. Since then we’ve fought against government and corporate abuses of our Constitutional rights, on issues including warrantless wiretapping by intelligence agencies, the panopticon of street-level surveillance that seeks to track everything we do, and the corporate surveillance that turns our clicks into their commodity, as well as issues of antitrust and intellectual property, artificial intelligence, cybersecurity, and much more. We are lawyers, technologists, activists, and lobbyists who work every day for the privacy, security and dignity of all who use technology - and if you use technology, this fight is yours, too. EFF's Greatest Hits While many early battles over the right to communicate freely and privately stemmed from government censorship, today EFF is fighting for users on many other fronts as well. Today, certain powerful corporations are attempting to shut down online speech, prevent new innovation from reaching consumers, and facilitating government surveillance. We challenge corporate overreach just as we challenge government abuses of power. JOIN EFF TODAY We also develop technologies that can help individuals protect their privacy and security online, which our technologists build and release freely to the public for anyone to use. In addition, EFF is engaged in major legislative fights, beating back digital censorship bills disguised as intellectual property proposals, opposing attempts to force companies to spy on users, championing reform bills that rein in government surveillance, documenting police technology and where it's used, helping users protect themselves from surveillance, and much more. Learn more about some of EFF's most impactful work— Download a PDF of our new catalog, \"Now That's What I Call Digital Rights!",
+      "categories": [
+        {
+          "_": "Privacy",
+          "$": {
+            "domain": "https://www.eff.org/issues/privacy"
+          }
+        }
+      ]
+    },
+    {
+      "source": "EFF Deeplinks",
+      "sourceType": "policy",
+      "feedTitle": "Deeplinks",
+      "title": "EFF's Cindy Cohn on The Daily Show! Tonight Monday, March 30",
+      "link": "https://www.eff.org/deeplinks/2026/03/effs-cindy-cohn-daily-show-tonight-monday-march-30",
+      "publishedAt": "2026-03-30T15:12:42.000Z",
+      "contentSnippet": "EFF Executive Director Cindy Cohn will be on The Daily Show tonight, Monday March 30, at 11 pm ET and PT, speaking with host Jon Stewart. Cindy will discuss her long history of fighting for privacy online and her new book, Privacy’s Defender: My Thirty-Year Fight Against Digital Surveillance (MIT Press). The book details her own personal story alongside her role representing the rights and interests of technology users, innovators, whistleblowers, and researchers during the Crypto Wars of the 1990s, battles over NSA’s dragnet internet spying revealed in the 2000s, and the fight against FBI gag orders. You can watch the interview on Comedy Central, and extended episodes are released shortly thereafter on Paramount Plus as well as in segments on YouTube. We will also share the interview when it is uploaded and available online as well. About The Daily Show The Daily Show is a long-running comedy news show that covers the biggest headlines of the day. It has won 26 Primetime Emmy Awards and has introduced the world to now well-known actors and comedians such as Steve Carell, Samantha Bee, Ed Helms, and Trevor Noah, as well as hosts of their own current shows, Stephen Colbert and John Oliver.",
+      "categories": [
+        {
+          "_": "Privacy",
+          "$": {
+            "domain": "https://www.eff.org/issues/privacy"
+          }
+        }
+      ]
+    },
+    {
+      "source": "EFF Deeplinks",
+      "sourceType": "policy",
+      "feedTitle": "Deeplinks",
+      "title": "UK Politicians Continue to Miss the Point in Latest Social Media Ban Proposal",
+      "link": "https://www.eff.org/deeplinks/2026/03/uk-politicians-continue-miss-point-latest-social-media-ban-proposal",
+      "publishedAt": "2026-03-30T15:06:51.000Z",
+      "contentSnippet": "The UK is moving forward with its efforts to ban social media for young people. Ahead of this week’s House of Lords debate on the topic, we’re getting you situated with a primer on what’s been happening and what it all means. What was the last vote about? On 9 March, the House of Commons discussed amendments tabled by the House of Lords in the government’s flagship legislation, the Children’s Wellbeing and Schools Bill. The House of Lords previously tabled an amendment to “prevent children under the age of 16 from becoming or being users” of “all regulated user-to-user services,” to be implemented by “highly-effective age assurance measures,” which effectively banned under-16s from social media. When this proposal came before the House of Commons, MPs defeated it by 307 votes to 173. Instead, the Commons proposed its own amendment: enabling the Secretary of State to introduce provisions “requiring providers of specified internet services” to prevent access by children, under age 18 rather than 16, to specified internet services or to specified features; and to restrict access by children to specified internet services which ministers provide. Who does this give powers to? The Commons proposal redirects power from the UK Parliament and the UK’s independent telecom regulator Ofcom to the Secretary of State for Science, Innovation and Technology, currently Liz Kendall, who will be able to restrict internet access for young people and determine what content is considered harmful…just because she can. The amendment also empowers the Secretary of State to limit VPN use for under 18s, as well as restrict access to addictive features and change the age of digital consent in the country; for example, preventing under-18s from playing games online after a certain time. Why is this a problem? This process is devoid of checks or accountability mechanisms as ministers will not be required to demonstrate specific harms to young people, which essentially unravels years-long efforts by Ofcom to assess online services according to their risks. And given the moment the UK is currently in, such as refusing to protect trans and LGBTQ+ communities and flaming hostile and racist discourses, it is not unlikely that we’ll see ministers start restricting content that they ideologically or morally feel opposed to, rather than because the content is harmful based, as established by evidence and assessed pursuant to established human rights principles. We know from other jurisdictions like the United States that legislation seeking to protect young people typically sweeps up a slew of broadly-defined topics. Some block access to websites that contain some “sexual material harmful to minors,” which has historically meant explicit sexual content. But some states are now defining the term more broadly so that “sexual material harmful to minors” could encompass anything like sex education; others simply list a variety of vaguely-defined harms. In either instance, this bill would enable ministers to target LGBTQ+ content online by pushing this behind an under-18s age gate, and this risk is especially clear given what we already know about platform content policies. How will this impact young people? The internet is an essential resource for young people (and adults) to access information, explore community, and find themselves. Beyond being spaces where people can share funny videos and engage with enjoyable content, social media enables young people to engage with the world in a way that transcends their in-person realm, as well as find information they may not feel safe to access offline, such as about family abuse or their sexuality. In severing this connection to people and information by banning social media, politicians are forcing millions of young people into a dark and censored world. How did each party vote? The initial push to ban under-16s from social media came from the Conservative Party, who have since accused the UK’s Prime Minister Keir Starmer of “dither and delay” for not committing to the ban. The Liberal Democrats have also called this “not good enough.” The Labour Party itself is split, with 107 Labour Party MPs abstaining in the vote on the House of Lords amendment. But we know that the issue of young people’s online safety is a polarizing topic that politicians have—and will continue to—weaponize for public support, regardless of their actual intentions. This is why we will continue to urge policymakers and regulators to protect people’s rights and freedoms online at all moments, and not just take the easy route for a quick boost in the polls. How does this bill connect to the Online Safety Act? The draft Children’s Wellbeing and Schools Bill that came from the Lords provided that any regulation pertaining to the well-being of young people on social media “must be treated as an enforceable requirement” with the Online Safety Act. The Commons amendment, however, starts out by inserting a new clause that amends the Online Safety Act. For more than six years, we’ve been calling on the UK government to pass better legislation around regulating the internet, and when the Online Safety Act passed we continued to advocate for the rights of people on the internet—including young people—as Ofcom implemented the legislation. This has been a protracted effort by civil society groups, technologists, tech companies, and others participating in Ofcom's consultation process and urging the regulator to protect internet users in the UK. The MPs amendment essentially rips this up. Technology Secretary Liz Kendall recently said that ministers intended to go further than the existing Online Safety Act because it was “never meant to be the end point, and we know parents still have serious concerns. That is why I am prepared to take further action.” But when this further action is empowering herself to make arbitrary decisions on content and access, and banning under-18s from social media, this causes much more harm than it solves. Is the UK alone in pushing legislation like this? Sadly, no. Calls to ban social media access for young people have gained traction since Australia became the first country in the world to enforce one back in December. On 5 March, Indonesia announced a ban on social media and other “high-risk” online platforms for users under 16. A few days later, new measures came into effect in Brazil that restricts social media access for under-16s, who must now have their accounts linked to a legal guardian. Other countries like Spain and the Philippines have this year announced plans to ban social media for under-16s, with legislation currently pending to implement this. What are the next steps? The Children's Wellbeing and Schools Bill returns to the House of Lords on 25 March for consideration of the new Commons amendments. The bill will only become law if both Houses agree to the final draft. We will continue to stand up against these proposals—not only to young people’ free expression rights, but also to safeguard the free flow of information that is vital to a democratic society. The issue of online safety is not solved through technology alone, especially not through a ban, and young people deserve a more intentional approach to protecting their safety and privacy online, not this lazy strategy that causes more harm than it solves. We encourage politicians in the UK to look into what is best, not what is easy, and explore less invasive approaches to protect all people from online harms.",
+      "categories": [
+        {
+          "_": "Age Verification and Age Gating: Resource Hub",
+          "$": {
+            "domain": "https://www.eff.org/issues/age-verification"
+          }
+        },
+        {
+          "_": "Free Speech",
+          "$": {
+            "domain": "https://www.eff.org/issues/free-speech"
+          }
+        },
+        {
+          "_": "International",
+          "$": {
+            "domain": "https://www.eff.org/issues/international"
+          }
+        }
+      ]
     },
     {
       "source": "EFF Deeplinks",
@@ -2172,35 +2690,6 @@
       "source": "EFF Deeplinks",
       "sourceType": "policy",
       "feedTitle": "Deeplinks",
-      "title": "UK Politicians Continue to Miss the Point in Latest Social Media Ban Proposal",
-      "link": "https://www.eff.org/deeplinks/2026/03/uk-politicians-continue-miss-point-latest-social-media-ban-proposal",
-      "publishedAt": "2026-03-24T13:36:39.000Z",
-      "contentSnippet": "The UK is moving forward with its efforts to ban social media for young people. Ahead of this week’s House of Lords debate on the topic, we’re getting you situated with a primer on what’s been happening and what it all means. What was the last vote about? On 9 March, the House of Commons discussed amendments tabled by the House of Lords in the government’s flagship legislation, the Children’s Wellbeing and Schools Bill. The House of Lords previously tabled an amendment to “prevent children under the age of 16 from becoming or being users” of “all regulated user-to-user services,” to be implemented by “highly-effective age assurance measures,” which effectively banned under-16s from social media. When this proposal came before the House of Commons, MPs defeated it by 307 votes to 173. Instead, the Commons proposed its own amendment: enabling the Secretary of State to introduce provisions “requiring providers of specified internet services” to prevent access by children, under age 18 rather than 16, to specified internet services or to specified features; and to restrict access by children to specified internet services which ministers provide. Who does this give powers to? The Commons proposal redirects power from the UK Parliament and the UK’s independent telecom regulator Ofcom to the Secretary of State for Science, Innovation and Technology, currently Liz Kendall, who will be able to restrict internet access for young people and determine what content is considered harmful…just because she can. The amendment also empowers the Secretary of State to limit VPN use for under 18s, as well as restrict access to addictive features and change the age of digital consent in the country; for example, preventing under-18s from playing games online after a certain time. Why is this a problem? This process is devoid of checks or accountability mechanisms as ministers will not be required to demonstrate specific harms to young people, which essentially unravels years-long efforts by Ofcom to assess online services according to their risks. And given the moment the UK is currently in, such as refusing to protect trans and LGBTQ+ communities and flaming hostile and racist discourses, it is not unlikely that we’ll see ministers start restricting content that they ideologically or morally feel opposed to, rather than because the content is harmful based, as established by evidence and assessed pursuant to established human rights principles. We know from other jurisdictions like the United States that legislation seeking to protect young people typically sweeps up a slew of broadly-defined topics. Some block access to websites that contain some “sexual material harmful to minors,” which has historically meant explicit sexual content. But some states are now defining the term more broadly so that “sexual material harmful to minors” could encompass anything like sex education; others simply list a variety of vaguely-defined harms. In either instance, this bill would enable ministers to target LGBTQ+ content online by pushing this behind an under-18s age gate, and this risk is especially clear given what we already know about platform content policies. How will this impact young people? The internet is an essential resource for young people (and adults) to access information, explore community, and find themselves. Beyond being spaces where people can share funny videos and engage with enjoyable content, social media enables young people to engage with the world in a way that transcends their in-person realm, as well as find information they may not feel safe to access offline, such as about family abuse or their sexuality. In severing this connection to people and information by banning social media, politicians are forcing millions of young people into a dark and censored world. How did each party vote? The initial push to ban under-16s from social media came from the Conservative Party, who have since accused the UK’s Prime Minister Keir Starmer of “dither and delay” for not committing to the ban. The Liberal Democrats have also called this “not good enough.” The Labour Party itself is split, with 107 Labour Party MPs abstaining in the vote on the House of Lords amendment. But we know that the issue of young people’s online safety is a polarizing topic that politicians have—and will continue to—weaponize for public support, regardless of their actual intentions. This is why we will continue to urge policymakers and regulators to protect people’s rights and freedoms online at all moments, and not just take the easy route for a quick boost in the polls. How does this bill connect to the Online Safety Act? The draft Children’s Wellbeing and Schools Bill that came from the Lords provided that any regulation pertaining to the well-being of young people on social media “must be treated as an enforceable requirement” with the Online Safety Act. The Commons amendment, however, starts out by inserting a new clause that amends the Online Safety Act. For more than six years, we’ve been calling on the UK government to pass better legislation around regulating the internet, and when the Online Safety Act passed we continued to advocate for the rights of people on the internet—including young people—as Ofcom implemented the legislation. This has been a protracted effort by civil society groups, technologists, tech companies, and others participating in Ofcom's consultation process and urging the regulator to protect internet users in the UK. The MPs amendment essentially rips this up. Technology Secretary Liz Kendall recently said that ministers intended to go further than the existing Online Safety Act because it was “never meant to be the end point, and we know parents still have serious concerns. That is why I am prepared to take further action.” But when this further action is empowering herself to make arbitrary decisions on content and access, and banning under-18s from social media, this causes much more harm than it solves. Is the UK alone in pushing legislation like this? Sadly, no. Calls to ban social media access for young people have gained traction since Australia became the first country in the world to enforce one back in December. On 5 March, Indonesia announced a ban on social media and other “high-risk” online platforms for users under 16. A few days later, new measures came into effect in Brazil that restricts social media access for under-16s, who must now have their accounts linked to a legal guardian. Other countries like Spain and the Philippines have this year announced plans to ban social media for under-16s, with legislation currently pending to implement this. What are the next steps? The Children's Wellbeing and Schools Bill returns to the House of Lords on 25 March for consideration of the new Commons amendments. The bill will only become law if both Houses agree to the final draft. We will continue to stand up against these proposals—not only to young people’ free expression rights, but also to safeguard the free flow of information that is vital to a democratic society. The issue of online safety is not solved through technology alone, especially not through a ban, and young people deserve a more intentional approach to protecting their safety and privacy online, not this lazy strategy that causes more harm than it solves. We encourage politicians in the UK to look into what is best, not what is easy, and explore less invasive approaches to protect all people from online harms.",
-      "categories": [
-        {
-          "_": "Age Verification and Age Gating: Resource Hub",
-          "$": {
-            "domain": "https://www.eff.org/issues/age-verification"
-          }
-        },
-        {
-          "_": "Free Speech",
-          "$": {
-            "domain": "https://www.eff.org/issues/free-speech"
-          }
-        },
-        {
-          "_": "International",
-          "$": {
-            "domain": "https://www.eff.org/issues/international"
-          }
-        }
-      ]
-    },
-    {
-      "source": "EFF Deeplinks",
-      "sourceType": "policy",
-      "feedTitle": "Deeplinks",
       "title": "Congress Is Dropping the Ball with a Clean Extension of FISA",
       "link": "https://www.eff.org/deeplinks/2026/03/congress-dropping-ball-clean-extension-fisa",
       "publishedAt": "2026-03-20T22:20:49.000Z",
@@ -2229,70 +2718,6 @@
       "publishedAt": "2026-03-20T15:08:16.000Z",
       "contentSnippet": "EFF joined other digital rights and civil liberties organizations in calling out the unconstitutionality of Federal Communications Commission chair Brendan Carr’s recent threats to punish broadcasters for airing statements he disagrees with. Carr’s recent threats, like his past threats, are unconstitutional efforts to coerce news coverage that favors President Donald Trump. He wrongly claims that the FCC’s “public interest” standard allows him and the commission to revoke the licenses of broadcasters who publish news that is unflattering to the government is anathema to our country’s core constitutional values. The First Amendment constrains the FCC’s authority to force broadcasters to toe the government’s line, even though broadcast licensees are required to operate in the “public interest, convenience, and necessity.” Imposing restrictions on licensees’ speech, especially viewpoint-based limitations, are still subject to First Amendment scrutiny even if, in some circumstances, that scrutiny differs somewhat from that applied to non-broadcast media. And the “public interest” requirement, as it were, has never been interpreted to allow the type of viewpoint-based punishment that Carr has threatened here. Everyone agrees that news reporting should strive for accuracy, but Carr’s threats have little do with that. Instead, his allegations of \"falsity\" are a proxy for retaliation based on (1) Carr’s subjective policy disagreements; (2) any criticism of Trump and the administration broadly; (3) treatment of anything that is not the official US government line about the Iran War as “false.” We join the call for Carr to withdraw these threats. Civil Society Letter to FCC Chairman Barr",
       "categories": []
-    },
-    {
-      "source": "EFF Deeplinks",
-      "sourceType": "policy",
-      "feedTitle": "Deeplinks",
-      "title": "Bonus Podcast Episode: Privacy’s Defender - Cindy Cohn with Cory Doctorow",
-      "link": "https://www.eff.org/deeplinks/2026/03/bonus-podcast-episode-privacys-defender-cindy-cohn-conversation-cory-doctorow",
-      "publishedAt": "2026-03-17T08:03:00.000Z",
-      "contentSnippet": "While How to Fix the Internet is on hiatus, we wanted to share a great conversation with you from last week. EFF Executive Director Cindy Cohn spoke with bestselling novelist, journalist, and EFF Special Advisor Cory Doctorow about Cindy’s new book, “Privacy’s Defender: My Thirty-Year Fight Against Digital Surveillance” (MIT Press). %3Ciframe%20height%3D%2252px%22%20width%3D%22100%25%22%20frameborder%3D%22no%22%20scrolling%3D%22no%22%20seamless%3D%22%22%20src%3D%22https%3A%2F%2Fplayer.simplecast.com%2F6c05474d-b4a1-4ffb-8ad8-943bccf09a10%3Fdark%3Dtrue%26amp%3Bcolor%3D000000%22%20allow%3D%22autoplay%22%3E%3C%2Fiframe%3E Privacy info. This embed will serve content from simplecast.com You can also listen to this episode on the Internet Archive or watch the video on YouTube. Part memoir, part battle cry, “Privacy’s Defender” is the story of Cindy’s fights alongside the visionaries who looked at the early internet and understood that the legal and political battles over this new technology - the Crypto Wars, the NSA’s dragnet, the FBI gag orders - were really over the future of free speech, privacy, and power for all. Cindy Cohn and Cory Doctorow at City Lights.jpg This conversation was recorded on Tuesday, March 10 in front of a packed house at San Francisco’s iconic City Lights Bookstore. For more about the book and Cindy’s national book tour - with stops in places including Seattle, Silicon Valley, Denver, Boston, Ann Arbor, Iowa City, Washington DC and New York City - check out https://www.eff.org/Privacys-Defender And finally, stay tuned to this feed; we’re working on a special podcast series featuring key players and moments from the book! Resources: The Crypto Wars: Bernstein v. US Department of Justice NSA Spying: Hepting v. AT&T NSA Spying: Jewel v. NSA EFF’s National Security Letter lawsuits",
-      "categories": [
-        {
-          "_": "How to Fix the Internet: Podcast",
-          "$": {
-            "domain": "https://www.eff.org/how-to-fix-the-internet-podcast"
-          }
-        },
-        {
-          "_": "Privacy",
-          "$": {
-            "domain": "https://www.eff.org/issues/privacy"
-          }
-        },
-        {
-          "_": "National Security Letters",
-          "$": {
-            "domain": "https://www.eff.org/issues/national-security-letters"
-          }
-        },
-        {
-          "_": "NSA Spying",
-          "$": {
-            "domain": "https://www.eff.org/nsa-spying"
-          }
-        },
-        {
-          "_": "Encrypting the Web",
-          "$": {
-            "domain": "https://www.eff.org/encrypt-the-web"
-          }
-        }
-      ]
-    },
-    {
-      "source": "EFF Deeplinks",
-      "sourceType": "policy",
-      "feedTitle": "Deeplinks",
-      "title": "Blocking the Internet Archive Won’t Stop AI, But It Will Erase the Web’s Historical Record",
-      "link": "https://www.eff.org/deeplinks/2026/03/blocking-internet-archive-wont-stop-ai-it-will-erase-webs-historical-record",
-      "publishedAt": "2026-03-16T19:26:54.000Z",
-      "contentSnippet": "Imagine a newspaper publisher announcing it will no longer allow libraries to keep copies of its paper. That’s effectively what’s begun happening online in the last few months. The Internet Archive—the world’s largest digital library—has preserved newspapers since it went online in the mid-1990s. The Archive’s mission is to preserve the web and make it accessible to the public. To that end, the organization operates the Wayback Machine, which now contains more than one trillion archived web pages and is used daily by journalists, researchers, and courts. But in recent months The New York Times began blocking the Archive from crawling its website, using technical measures that go beyond the web’s traditional robots.txt rules. That risks cutting off a record that historians and journalists have relied on for decades. Other newspapers, including The Guardian, seem to be following suit. For nearly three decades, historians, journalists, and the public have relied on the Internet Archive to preserve news sites as they appeared online. Those archived pages are often the only reliable record of how stories were originally published. In many cases, articles get edited, changed, or removed—sometimes openly, sometimes not. The Internet Archive often becomes the only source for seeing those changes. When major publishers block the Archive’s crawlers, that historical record starts to disappear. The Times says the move is driven by concerns about AI companies scraping news content. Publishers seek control over how their work is used, and several—including the Times—are now suing AI companies over whether training models on copyrighted material violates the law. There’s a strong case that such training is fair use. Whatever the outcome of those lawsuits, blocking nonprofit archivists is the wrong response. Organizations like the Internet Archive are not building commercial AI systems. They are preserving a record of our history. Turning off that preservation in an effort to control AI access could essentially torch decades of historical documentation over a fight that libraries like the Archive didn’t start, and didn’t ask for. If publishers shut the Archive out, they aren’t just limiting bots. They’re erasing the historical record. Archiving and Search Are Legal Making material searchable is a well-established fair use. Courts have long recognized it’s often impossible to build a searchable index without making copies of the underlying material. That’s why when Google copied entire books in order to make a searchable database, courts rightly recognized it as a clear fair use. The copying served a transformative purpose: enabling discovery, research, and new insights about creative works. The Internet Archive operates on the same principle. Just as physical libraries preserve newspapers for future readers, the Archive preserves the web’s historical record. Researchers and journalists rely on it every day. According to Archive staff, Wikipedia alone links to more than 2.6 million news articles preserved at the Archive, spanning 249 languages. And that’s only one example. Countless bloggers, researchers, and reporters depend on the Archive as a stable, authoritative record of what was published online. The same legal principles that protect search engines must also protect archives and libraries. Even if courts place limits on AI training, the law protecting search and web archiving is already well established. The Internet Archive has preserved the web’s historical record for nearly thirty years. If major publishers begin blocking that mission, future researchers may find that huge portions of that historical record have simply vanished. There are real disputes over AI training that must be resolved in courts. But sacrificing the public record to fight those battles would be a profound, and possibly irreversible, mistake.",
-      "categories": [
-        {
-          "_": "Artificial Intelligence",
-          "$": {
-            "domain": "https://www.eff.org/issues/ai"
-          }
-        },
-        {
-          "_": "Creativity & Innovation",
-          "$": {
-            "domain": "https://www.eff.org/issues/innovation"
-          }
-        }
-      ]
     }
   ]
 }

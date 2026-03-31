@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-03-30T02:00:00.000Z",
+  "generatedAt": "2026-03-31T02:00:00.000Z",
   "items": [
+    {
+      "date": "2026-03-31",
+      "displayDate": "2026年3月31日",
+      "articleCount": 18,
+      "leadId": "mistral-paris-data-center-debt",
+      "leadHeadline": "Mistral 为巴黎数据中心举债 8.3 亿美元，欧洲 AI 终于开始为“自己造算力”真掏钱",
+      "note": "保存当日首页版面与详情内容。"
+    },
     {
       "date": "2026-03-30",
       "displayDate": "2026年3月30日",
