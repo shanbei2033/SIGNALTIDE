@@ -1,0 +1,712 @@
+from __future__ import annotations
+import json
+from pathlib import Path
+from copy import deepcopy
+from datetime import datetime
+from email.utils import format_datetime
+from xml.sax.saxutils import escape
+
+ROOT = Path('/root/.openclaw/workspace/ai-news-pages-demo')
+DATA = ROOT / 'docs' / 'data'
+ARCHIVE = DATA / 'archive'
+DOCS = ROOT / 'docs'
+DATE = '2026-04-01'
+DISPLAY_DATE = '2026年4月1日'
+GENERATED_AT = '2026-04-01T02:00:00.000Z'
+BASE = 'https://signaltide.ai'
+ISSUE_NUMBER = 24
+
+site = {
+    'name': {'zh-CN': '智潮', 'zh-TW': '智潮', 'en': 'SIGNAL TIDE'},
+    'tagline': {
+        'zh-CN': '由 openclaw 抓取、筛选、编辑并翻译的全球 AI 日报',
+        'zh-TW': '由 openclaw 抓取、篩選、編輯並翻譯的全球 AI 日報',
+        'en': 'A global AI daily, fetched, edited, and translated by openclaw.'
+    },
+    'description': {
+        'zh-CN': '聚合、重写并归档每日 AI 领域的重要新闻。',
+        'zh-TW': '聚合、改寫並歸檔每日 AI 領域的重要新聞。',
+        'en': 'A daily briefing on the most important stories across AI.'
+    },
+    'i18n': {}
+}
+
+sections = [
+    {'key': 'lead', 'label': {'zh-CN': '头版', 'zh-TW': '頭版', 'en': 'Lead'}},
+    {'key': 'company', 'label': {'zh-CN': '公司与产品', 'zh-TW': '公司與產品', 'en': 'Company & Product'}},
+    {'key': 'policy', 'label': {'zh-CN': '政策与治理', 'zh-TW': '政策與治理', 'en': 'Policy & Governance'}},
+    {'key': 'tools', 'label': {'zh-CN': '工具与开源', 'zh-TW': '工具與開源', 'en': 'Tools & Open Source'}},
+    {'key': 'impact', 'label': {'zh-CN': '研究与影响', 'zh-TW': '研究與影響', 'en': 'Research & Impact'}},
+    {'key': 'insight', 'label': {'zh-CN': '深度观察', 'zh-TW': '深度觀察', 'en': 'Deep Insights'}},
+    {'key': 'tech-humanities', 'label': {'zh-CN': '技术人文', 'zh-TW': '技術人文', 'en': 'Tech & Humanities'}},
+]
+
+
+def kicker_tw(text: str) -> str:
+    return (text.replace('头版', '頭版')
+                .replace('观察', '觀察')
+                .replace('影响', '影響')
+                .replace('技术人文', '技術人文')
+                .replace('公司与产品', '公司與產品')
+                .replace('政策与治理', '政策與治理')
+                .replace('工具与开源', '工具與開源'))
+
+
+def article(*, id, section, category_cn, category_en, headline_cn, headline_en, deck_cn, deck_en,
+            kicker_cn, kicker_en, published_at, reading_time, tags, summary_cn, summary_en,
+            bullets_cn, bullets_en, significance_cn, significance_en, sources,
+            byline_cn='编辑部整理', byline_tw='編輯部整理', byline_en='Signal Tide Desk'):
+    base = {
+        'id': id,
+        'section': section,
+        'category': category_cn,
+        'headline': headline_cn,
+        'deck': deck_cn,
+        'kicker': kicker_cn,
+        'byline': byline_cn,
+        'publishedAt': published_at,
+        'updatedAt': GENERATED_AT,
+        'readingTime': reading_time,
+        'tags': tags,
+        'summary': summary_cn,
+        'bullets': bullets_cn,
+        'significance': significance_cn,
+        'sources': sources,
+    }
+    base['i18n'] = {
+        'zh-CN': {
+            'category': category_cn,
+            'headline': headline_cn,
+            'deck': deck_cn,
+            'kicker': kicker_cn,
+            'byline': byline_cn,
+            'summary': summary_cn,
+            'bullets': bullets_cn,
+            'significance': significance_cn,
+            'sources': deepcopy(sources),
+        },
+        'zh-TW': {
+            'category': category_cn,
+            'headline': headline_cn,
+            'deck': deck_cn,
+            'kicker': kicker_tw(kicker_cn),
+            'byline': byline_tw,
+            'summary': summary_cn,
+            'bullets': bullets_cn,
+            'significance': significance_cn,
+            'sources': deepcopy(sources),
+        },
+        'en': {
+            'category': category_en,
+            'headline': headline_en,
+            'deck': deck_en,
+            'kicker': kicker_en,
+            'byline': byline_en,
+            'summary': summary_en,
+            'bullets': bullets_en,
+            'significance': significance_en,
+            'sources': deepcopy(sources),
+        },
+    }
+    return base
+
+
+articles = [
+    article(
+        id='openai-122b-retail-fundraise',
+        section='lead',
+        category_cn='资本与基础设施',
+        category_en='Capital & Infrastructure',
+        headline_cn='OpenAI 以 1220 亿美元融资冲向 IPO，AI 超级应用的故事开始先写给资本市场看',
+        headline_en='OpenAI’s $122 billion raise turns its “AI superapp” story into a live IPO narrative',
+        deck_cn='这轮融资不只是补充现金，更像一份提前公开的上市说明书。OpenAI 一边扩充数据中心和算力开支，一边把收入、用户、广告和企业业务的增长曲线直接讲给潜在公众市场听。',
+        deck_en='This round is not just about fresh cash; it reads like a pre-IPO draft filed in public. OpenAI is pairing enormous compute spending with a carefully staged story about revenue, users, ads, and enterprise growth.',
+        kicker_cn='头版',
+        kicker_en='Lead',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=4,
+        tags=['OpenAI', 'Funding', 'IPO', 'Infrastructure'],
+        summary_cn=[
+            'TechCrunch 报道，OpenAI 完成总额 1220 亿美元的新一轮融资，对应估值达到 8520 亿美元，联合领投方包括 SoftBank、Andreessen Horowitz、D.E. Shaw Ventures、MGX、TPG 与 T. Rowe Price，亚马逊、英伟达和微软也有参与。报道还提到，其中约 30 亿美元来自个人投资者渠道，公司同时扩充了约 47 亿美元的循环信贷额度，以支撑芯片、数据中心和人才投入。',
+            '它之所以值得做头版，不只是因为金额夸张，而是因为 OpenAI 已经明显在按“准上市公司”的口径组织叙事：月收入 20 亿美元、9000 万周活用户、5000 万订阅用户、广告试点快速变现、企业业务接近与消费业务平分秋色。资本市场在这里看到的，不只是一个模型公司，而是一个试图占据 AI 入口、商业化接口和基础设施入口的“超级应用”候选。'
+        ],
+        summary_en=[
+            'TechCrunch reports that OpenAI has closed a $122 billion funding round at an $852 billion valuation, co-led by SoftBank, Andreessen Horowitz, D.E. Shaw Ventures, MGX, TPG, and T. Rowe Price, with participation from Amazon, Nvidia, and Microsoft. About $3 billion reportedly came from individual investors, and the company also expanded a roughly $4.7 billion revolving credit facility to support chips, data centers, and hiring.',
+            'This matters as the lead story not only because the number is enormous, but because OpenAI is now communicating like a company rehearsing for public markets: $2 billion in monthly revenue, 900 million weekly active users, 50 million subscribers, a fast-ramping ads business, and enterprise revenue closing in on consumer. What investors are being asked to buy is not just a model lab, but a candidate “AI superapp” that wants to own the primary interface to AI.'
+        ],
+        bullets_cn=['OpenAI 新一轮融资总额达 1220 亿美元，估值升至 8520 亿美元。', '公司同步扩充循环信贷额度，为算力和基础设施继续备弹。', '这轮融资更像一场提前开始的 IPO 叙事排练。'],
+        bullets_en=['OpenAI has raised $122 billion at an $852 billion valuation.', 'The company also expanded a credit line to preserve flexibility for compute spending.', 'The round functions as an early rehearsal for an IPO-era market narrative.'],
+        significance_cn='当 AI 公司开始同时推销产品增长、广告故事、企业收入和基础设施雄心，它竞争的就不只是模型能力，而是资本市场愿不愿意把它当成下一代平台公司。',
+        significance_en='Once an AI company starts selling product growth, ad revenue, enterprise traction, and infrastructure ambition at the same time, the contest is no longer just about model quality but about whether markets will price it like a next-generation platform.',
+        sources=[
+            {'title': 'OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/'},
+            {'title': 'Accelerating the next phase of AI', 'publication': 'OpenAI', 'url': 'https://openai.com/index/accelerating-the-next-phase-ai'}
+        ],
+    ),
+    article(
+        id='slack-ai-heavy-makeover',
+        section='company',
+        category_cn='协作软件',
+        category_en='Collaboration Software',
+        headline_cn='Slack 一口气塞进 30 个 AI 功能，企业聊天工具正被重新包装成任务操作系统',
+        headline_en='Slack’s 30-feature AI makeover turns workplace chat into a task operating system',
+        deck_cn='Salesforce 不再满足于把 Slack 当作沟通层，而是想把它做成员工发号施令、调工具、抄会议纪要和串企业流程的统一入口。聊天窗口开始变成工作流总线。',
+        deck_en='Salesforce no longer wants Slack to remain only a communication layer. It is turning the app into a place where employees trigger work, coordinate tools, summarize meetings, and route enterprise processes from a single surface.',
+        kicker_cn='公司与产品',
+        kicker_en='Company',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=3,
+        tags=['Salesforce', 'Slack', 'Enterprise AI', 'Agents'],
+        summary_cn=[
+            'TechCrunch 报道，Salesforce 为 Slack 公布了 30 项新 AI 功能，核心升级集中在 Slackbot：它不但能起草邮件、安排会议、汇总会议信息，还支持所谓 reusable AI skills，让企业把常见任务封装成可重复调用的技能。Slackbot 同时被做成 MCP 客户端，可以连接外部服务并与 Salesforce 的 Agentforce 平台联动。',
+            '这背后的产品方向很明确：企业协作软件正在从“大家说话的地方”变成“大家发起工作、分配工作和追踪工作结果的地方”。一旦聊天窗口同时掌握上下文、日历、会议、连接器和代理，Slack 的竞争对手就不再只是 Teams 这类协作工具，而是所有试图成为企业 AI 主入口的平台。'
+        ],
+        summary_en=[
+            'TechCrunch reports that Salesforce has announced 30 new AI features for Slack, with the biggest upgrades landing in Slackbot. It can now draft emails, schedule meetings, summarize calls, and use reusable AI skills that package common work patterns into repeatable commands. Slackbot is also becoming an MCP client, letting it connect to outside services and coordinate with Salesforce’s Agentforce platform.',
+            'The larger product shift is that collaboration software is moving from being where people talk about work to where they launch, route, and track work itself. Once the chat window controls context, calendars, meetings, connectors, and agents, Slack is competing not only with collaboration suites but with any platform trying to become the enterprise AI front door.'
+        ],
+        bullets_cn=['Slackbot 获得 30 项新增 AI 能力，并支持 reusable AI skills。', '新版本强调 MCP 连接与 Agentforce 协同。', '企业聊天软件正在向流程和任务中枢演化。'],
+        bullets_en=['Slackbot is getting 30 new AI capabilities plus reusable AI skills.', 'The update emphasizes MCP connectivity and Agentforce orchestration.', 'Workplace chat is evolving into a hub for tasks and enterprise workflows.'],
+        significance_cn='谁先把聊天窗口变成工作入口，谁就更有机会拿走企业内部最值钱的上下文。',
+        significance_en='Whoever turns the chat window into the default work entry point may capture the most valuable context inside the enterprise.',
+        sources=[
+            {'title': 'Salesforce announces an AI-heavy makeover for Slack, with 30 new features', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/'}
+        ],
+    ),
+    article(
+        id='chatgpt-product-discovery-acp',
+        section='company',
+        category_cn='AI 购物入口',
+        category_en='AI Shopping Interface',
+        headline_cn='ChatGPT 把购物比价收进对话里，AI 产品发现正在绕开传统搜索与榜单页面',
+        headline_en='ChatGPT is pulling product discovery into conversation, bypassing search-result pages and listicles',
+        deck_cn='OpenAI 扩展 Agentic Commerce Protocol 支持商品发现，想让用户直接在对话里完成筛选、比较和收敛决策。购物入口开始从网页列表迁到会话界面。',
+        deck_en='OpenAI is expanding the Agentic Commerce Protocol for product discovery, aiming to let users search, compare, and narrow decisions inside a conversation instead of across a maze of tabs.',
+        kicker_cn='公司与产品',
+        kicker_en='Company',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=3,
+        tags=['OpenAI', 'ChatGPT', 'Commerce', 'ACP'],
+        summary_cn=[
+            'OpenAI 官方宣布，ChatGPT 的购物体验正在升级为更丰富的可视化产品发现界面，用户可以在对话中根据预算、偏好和约束搜索商品，横向比较价格、评论和功能，并通过上传图片进一步收窄候选。为支撑这一流程，OpenAI 同时扩展 ACP，使商家与 ChatGPT 在商品发现阶段可以直接对接。',
+            '这件事值得看，不只是因为 ChatGPT 多了一个购物功能，而是因为它进一步侵蚀了传统“搜索结果页 + 导购榜单 + 多标签页比较”的网页路径。只要用户越来越习惯先问助手“我该买什么”，产品发现这一高价值流量层就会从开放网页向会话界面迁移，搜索、联盟营销和电商前端都会被重新分配。'
+        ],
+        summary_en=[
+            'OpenAI says ChatGPT’s shopping experience is becoming more visual and conversational, allowing users to search products by budget, preference, and constraints, compare options side by side, and even upload inspiration images to refine results. To support that flow, the company is extending the Agentic Commerce Protocol so merchants can connect more directly to ChatGPT’s discovery layer.',
+            'The bigger story is not just a new shopping feature inside ChatGPT. It is a further shift away from the classic web path of search results, affiliate listicles, and tab-hopping comparison. If users increasingly begin with “what should I buy?” inside an assistant, then product discovery—one of the internet’s most valuable traffic layers—starts migrating from the open web to conversational interfaces.'
+        ],
+        bullets_cn=['OpenAI 扩展 ACP，把商品发现直接接入 ChatGPT。', '用户可在对话中比较价格、评论与产品特性。', '高价值的购物入口正从搜索页转向会话界面。'],
+        bullets_en=['OpenAI is extending ACP to connect product discovery directly into ChatGPT.', 'Users can compare prices, reviews, and features inside a conversation.', 'A valuable shopping entry point is shifting from search pages to chat interfaces.'],
+        significance_cn='如果“该买什么”先在助手里决定，搜索引擎和电商首页就都不再是唯一的流量门口。',
+        significance_en='If the question of “what should I buy?” gets answered inside an assistant first, neither search engines nor e-commerce homepages remain the sole traffic gatekeepers.',
+        sources=[
+            {'title': 'Powering Product Discovery in ChatGPT', 'publication': 'OpenAI', 'url': 'https://openai.com/index/powering-product-discovery-in-chatgpt'}
+        ],
+    ),
+    article(
+        id='openai-teen-safety-policy-pack',
+        section='policy',
+        category_cn='青少年安全',
+        category_en='Teen Safety',
+        headline_cn='OpenAI 把青少年安全规则做成提示词包，模型治理开始从原则文档走向可部署部件',
+        headline_en='OpenAI is packaging teen-safety rules as prompts, turning governance from principle into deployable components',
+        deck_cn='这次发布的不只是价值观声明，而是一组能直接与开源安全模型配套使用的策略提示。安全规则开始被产品化为可调用、可迭代、可接入工作流的模块。',
+        deck_en='This is not just another values statement but a set of prompt-based policies designed to run with an open-weight safety model. Governance is being productized into reusable, operational modules.',
+        kicker_cn='政策与治理',
+        kicker_en='Policy',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=3,
+        tags=['OpenAI', 'Safety', 'Teens', 'Policy'],
+        summary_cn=[
+            'OpenAI 发布了一套面向开发者的青少年安全策略提示词包，目标是帮助他们结合 gpt-oss-safeguard 等安全模型，在实际系统中建立更一致的年龄适配保护。首批策略覆盖图形暴力、图形性内容、危险挑战、有害身材观念、年龄限制商品与服务、以及浪漫或暴力角色扮演等场景，并称开发过程中参考了 Common Sense Media 和 everyone.ai 的意见。',
+            '这条政策新闻的重要性在于，它把“如何定义风险”这件事从抽象原则拉进了工程实现层。很多平台并不缺一个“我们重视青少年安全”的口号，真正缺的是能稳定写进分类器、审核流和产品规则里的可执行定义。治理一旦被做成模块，行业竞争的焦点就会转向谁的规则更清晰、边界更稳、误伤和漏放更少。'
+        ],
+        summary_en=[
+            'OpenAI has released a prompt-based teen safety policy pack for developers, designed to work with safety models such as gpt-oss-safeguard and make age-appropriate protections easier to operationalize. The initial policies cover graphic violence, graphic sexual content, dangerous challenges, harmful body ideals, age-restricted goods and services, and romantic or violent roleplay, with input from groups including Common Sense Media and everyone.ai.',
+            'The significance is that this moves risk definition from high-level principle to engineering implementation. Many platforms do not lack a slogan about teen safety; they lack operational definitions that can actually be embedded into classifiers, moderation flows, and product policy. Once governance becomes modular, the next competitive question is whose rules are clearest, most stable, and least likely to overblock or miss harm.'
+        ],
+        bullets_cn=['OpenAI 发布面向开发者的青少年安全策略提示词包。', '首批策略覆盖暴力、性内容、危险挑战等高风险类别。', '模型治理正在被封装成可部署的安全模块。'],
+        bullets_en=['OpenAI has released a prompt-based teen safety policy pack for developers.', 'The first set covers violence, sexual content, dangerous challenges, and other high-risk categories.', 'Model governance is increasingly being packaged as a deployable safety layer.'],
+        significance_cn='当安全规则本身开始像软件组件一样被复用，AI 治理就不再只是宣言，而会变成一条真正的产品能力线。',
+        significance_en='Once safety rules themselves become reusable software components, AI governance stops being only a declaration and becomes an actual product capability.',
+        sources=[
+            {'title': 'Helping developers build safer AI experiences for teens', 'publication': 'OpenAI', 'url': 'https://openai.com/index/teen-safety-policies-gpt-oss-safeguard'}
+        ],
+    ),
+    article(
+        id='deepmind-harmful-manipulation-toolkit',
+        section='policy',
+        category_cn='操纵风险评估',
+        category_en='Manipulation Risk Evaluation',
+        headline_cn='DeepMind 想把“AI 是否会操纵人”做成可测问题，安全边界开始从猜想走向实验设计',
+        headline_en='DeepMind is turning harmful manipulation into a measurable AI risk instead of a vague fear',
+        deck_cn='Google DeepMind 公布针对有害操纵的实证研究和可复现实验工具包，试图把“模型会不会诱导人做坏决定”从哲学争论变成可以分情境验证的实验议题。',
+        deck_en='Google DeepMind is releasing empirical research and an experimental toolkit for harmful manipulation, trying to turn a philosophical worry about AI influence into something that can be tested across concrete settings.',
+        kicker_cn='政策与治理',
+        kicker_en='Policy',
+        published_at='2026-03-26T00:00:00.000Z',
+        reading_time=4,
+        tags=['Google DeepMind', 'Safety', 'Manipulation', 'Evaluation'],
+        summary_cn=[
+            'Google DeepMind 发布了关于 AI 有害操纵能力的新研究，并公开用于开展同类人类受试实验的材料。研究覆盖英国、美国和印度的 1 万多名参与者，重点测试金融和健康等高风险场景中，模型在被明确提示进行操纵时，能否通过利用情绪与认知脆弱性影响人的判断和行为。DeepMind 还区分了“有益说服”和“有害操纵”，并把操纵风险拆成 efficacy 与 propensity 两个维度。',
+            '这项工作值得放在政策栏目，因为它把一个长期悬而未决的问题推进到了监管和标准化更容易接手的状态：如果操纵风险可被分情境测量，那么未来的模型审查、红队、产品准入和责任归属都会更具体。AI 安全真正困难的地方，不只是发现极端能力，而是把那些模糊、社会性的风险翻译成可验证的制度语言。'
+        ],
+        summary_en=[
+            'Google DeepMind has released new research on harmful manipulation by AI along with the materials needed for others to run comparable human-subject studies. The work spans more than 10,000 participants in the UK, US, and India and tests whether models, when explicitly instructed to be manipulative, can exploit emotional and cognitive vulnerabilities in high-stakes domains such as finance and health. DeepMind distinguishes beneficial persuasion from harmful manipulation and measures both efficacy and propensity.',
+            'This belongs in policy because it pushes a previously fuzzy concern toward something regulators and standards bodies can actually work with. If manipulation risk can be measured by context, then model evaluation, red-teaming, product review, and accountability mechanisms all become more concrete. A core challenge in AI safety is not just spotting dangerous capabilities, but translating messy social risks into testable institutional language.'
+        ],
+        bullets_cn=['DeepMind 发布针对 AI 有害操纵的实证研究与实验工具包。', '研究覆盖 1 万多名参与者，并区分操纵效果与操纵倾向。', '社会性风险正被翻译为更可检验的安全指标。'],
+        bullets_en=['DeepMind has released an empirical harmful-manipulation study and toolkit.', 'The research covers more than 10,000 participants and measures both efficacy and propensity.', 'A social safety concern is being translated into more testable evaluation metrics.'],
+        significance_cn='一旦“操纵风险”可以被标准化测试，模型安全的下一步就不只是防有害内容，而是防有害影响。',
+        significance_en='Once manipulation risk can be tested in a standardized way, model safety expands from blocking harmful content to limiting harmful influence.',
+        sources=[
+            {'title': 'Protecting people from harmful manipulation', 'publication': 'Google DeepMind', 'url': 'https://deepmind.google/blog/protecting-people-from-harmful-manipulation/'},
+            {'title': 'Harmful manipulation by AI systems', 'publication': 'arXiv', 'url': 'https://arxiv.org/abs/2603.25326'}
+        ],
+    ),
+    article(
+        id='trl-v1-post-training-library',
+        section='tools',
+        category_cn='后训练工具链',
+        category_en='Post-Training Tooling',
+        headline_cn='TRL 终于做成 1.0，后训练世界最难的不是新算法，而是别让基础设施天天过期',
+        headline_en='TRL 1.0 shows that the hardest thing in post-training is keeping the tooling from expiring every month',
+        deck_cn='Hugging Face 把一个长期偏研究性质的代码库推成稳定库，强调在 PPO、DPO、RLVR 轮番改写主流方法的环境里，软件设计必须把变化本身当作常态。',
+        deck_en='Hugging Face has pushed a once research-heavy codebase into a stable library, arguing that when PPO, DPO, and RLVR keep rewriting the field, software must be designed around change itself.',
+        kicker_cn='工具与开源',
+        kicker_en='Tools',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=3,
+        tags=['Hugging Face', 'TRL', 'Post-Training', 'Open Source'],
+        summary_cn=[
+            'Hugging Face 宣布 TRL v1.0，称这意味着它已经从研究代码库转成可被生产系统依赖的稳定库。官方表示，TRL 现在已覆盖 75 种以上后训练方法，但重点并不是“方法列表更长”，而是让这些方法更容易试验、比较和落地。文章回顾了 PPO、DPO、RLVR 等范式如何不断改写后训练栈，并解释为何库的抽象必须为这种快速变化留出空间。',
+            '这条工具新闻的重要信号是，后训练已经不再只是论文创新竞赛，而进入了“谁能把不稳定研究变成稳定基础设施”的阶段。模型公司和研究团队都在追新方法，但真正决定生态扩散速度的，往往是这些方法能不能被同一套可维护、可组合、可复现的工具链承接下来。'
+        ],
+        summary_en=[
+            'Hugging Face has released TRL v1.0, presenting it as a transition from research codebase to stable library infrastructure for production systems. The team says TRL now implements more than 75 post-training methods, but emphasizes that breadth matters less than making those methods easy to test, compare, and use. The post walks through how PPO, DPO, and RLVR-style approaches have repeatedly changed what the post-training stack looks like, forcing the software to be built around instability.',
+            'The bigger signal is that post-training is no longer only a race to publish new techniques; it is also a race to turn unstable research into dependable tooling. Labs may compete on fresh methods, but what determines ecosystem adoption is often whether those methods can be absorbed into a maintainable, composable, and reproducible library.'
+        ],
+        bullets_cn=['TRL v1.0 将后训练库从研究代码推进到稳定基础设施。', '官方强调覆盖 75+ 方法，但更重视可试验性与可维护性。', '后训练竞争开始包括“谁能把变化托住”。'],
+        bullets_en=['TRL v1.0 pushes a post-training library from research code toward stable infrastructure.', 'The project now covers 75+ methods while emphasizing usability and maintainability.', 'Post-training competition now includes who can absorb constant change into tooling.'],
+        significance_cn='在变化最快的领域里，真正稀缺的不是再多一个新方法，而是一个不会因为下一个新方法就立刻报废的工具层。',
+        significance_en='In the fastest-moving part of AI, the scarce asset is not just another new method but a tooling layer that does not become obsolete the moment the next method appears.',
+        sources=[
+            {'title': 'TRL v1.0: Post-Training Library Built to Move with the Field', 'publication': 'Hugging Face Blog', 'url': 'https://huggingface.co/blog/trl-v1'}
+        ],
+    ),
+    article(
+        id='agentrx-debugging-agents',
+        section='tools',
+        category_cn='代理调试',
+        category_en='Agent Debugging',
+        headline_cn='AgentRx 要找出代理“第一次不可挽回的错误”，调试代理终于不只剩看日志猜原因',
+        headline_en='AgentRx aims to find the first unrecoverable step in an agent failure, replacing log-reading guesswork with diagnosis',
+        deck_cn='微软研究院把代理失败拆成约束生成、逐步验证和根因定位三层，希望开发者能从“哪里坏了”转向“哪一步开始注定会坏”。',
+        deck_en='Microsoft Research decomposes agent failure into constraint synthesis, stepwise validation, and root-cause localization so developers can ask not only what failed, but when failure became inevitable.',
+        kicker_cn='工具与开源',
+        kicker_en='Tools',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=3,
+        tags=['Microsoft Research', 'Agents', 'Debugging', 'Open Source'],
+        summary_cn=[
+            '微软研究院发布开源框架 AgentRx 及配套 Benchmark，核心目标是自动识别长链路代理执行中“第一次不可恢复的关键失败步骤”。AgentRx 会根据工具 schema 与领域策略自动合成可执行约束，再逐步检查轨迹中何时出现违反，从而帮助开发者定位根因，而不是只看最终任务是否失败。官方给出的结果称，相比提示式基线，AgentRx 在失败定位和根因归因上都有明显提升。',
+            '这类工具会越来越重要，因为代理系统一旦进入真实工作流，失败往往不是一句 hallucination 能概括，而是被埋在几十步动作、多个代理和外部工具交互里。能否把失败变成结构化诊断对象，决定了代理开发能不能从“演示能跑”走到“生产可修”。'
+        ],
+        summary_en=[
+            'Microsoft Research has open-sourced AgentRx and its associated benchmark, with the goal of automatically finding the first unrecoverable step in a failed agent trajectory. The framework synthesizes executable constraints from tool schemas and domain policies, checks those constraints step by step, and then uses the resulting evidence to localize root cause instead of simply labeling an overall task as failed. Microsoft says AgentRx improves both failure localization and root-cause attribution over prompting baselines.',
+            'Tools like this matter because once agents enter real workflows, “hallucination” is too coarse a diagnosis. Failures get buried across dozens of actions, multiple agents, and external tools. Turning those failures into structured diagnostic objects is what allows agent development to move from flashy demos to systems that can actually be repaired in production.'
+        ],
+        bullets_cn=['AgentRx 试图定位代理执行中的第一处不可恢复错误。', '框架结合工具 schema、领域规则与逐步验证日志。', '代理工程正在补上“怎么修”这层基础设施。'],
+        bullets_en=['AgentRx tries to locate the first unrecoverable error in an agent run.', 'It combines tool schemas, domain rules, and stepwise validation logs.', 'Agent engineering is finally getting better infrastructure for repair, not just execution.'],
+        significance_cn='代理真正成熟的标志，不是多会做事，而是出事后多快能知道哪里开始错了。',
+        significance_en='A real sign of agent maturity is not only how much work an agent can do, but how quickly a team can identify where things first went wrong.',
+        sources=[
+            {'title': 'Systematic debugging for AI agents: Introducing the AgentRx framework', 'publication': 'Microsoft Research', 'url': 'https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/'}
+        ],
+    ),
+    article(
+        id='plugmem-structured-agent-memory',
+        section='tools',
+        category_cn='代理记忆',
+        category_en='Agent Memory',
+        headline_cn='PlugMem 认为记忆太多反而会拖慢代理，真正值钱的是把经历压成可复用知识',
+        headline_en='PlugMem argues that more memory can make agents worse unless experience is compressed into reusable knowledge',
+        deck_cn='微软研究院提出将原始交互历史重组为事实与技能图谱，而不是简单继续塞长上下文。代理记忆的重点正在从“记住更多”转向“记住得更像知识”。',
+        deck_en='Microsoft Research proposes turning raw interaction history into facts and skills instead of endlessly retrieving long transcripts. Agent memory is shifting from storing more to storing in a more knowledge-like form.',
+        kicker_cn='工具与开源',
+        kicker_en='Tools',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=3,
+        tags=['Microsoft Research', 'Memory', 'Agents', 'PlugMem'],
+        summary_cn=[
+            '微软研究院发布 PlugMem，主张把代理交互历史转化为结构化、可复用的知识单元，而不是在每次新任务里检索越来越长的聊天和操作记录。PlugMem 用事实与可复用技能作为记忆基本单位，并通过结构化存储、任务对齐检索和压缩后的决策指导来减少无效上下文。官方称，同一个通用记忆模块可以在多种代理基准上提升表现，同时消耗更少记忆 token。',
+            '这件事值得关注，因为很多代理项目现在陷入一个直觉陷阱：以为上下文越长、日志越全，系统就越聪明。真实情况往往相反——未经整理的“经历”会拖慢检索、冲淡关键信息并挤占推理空间。下一代代理记忆的竞争，很可能不是谁能装下更多文本，而是谁更会把过去提炼成当前决策真正需要的知识。'
+        ],
+        summary_en=[
+            'Microsoft Research has introduced PlugMem, a memory layer that converts an agent’s interaction history into structured, reusable knowledge units instead of repeatedly retrieving longer and longer raw logs. PlugMem treats facts and reusable skills as the core memory objects, then combines structured storage, task-aligned retrieval, and condensed guidance to reduce wasted context. Microsoft says the same general memory module improves performance across several agent benchmarks while using fewer memory tokens.',
+            'This matters because many agent projects are stuck in a false intuition: that longer context and bigger logs automatically make systems smarter. In practice, unstructured experience often slows retrieval, dilutes what matters, and consumes scarce reasoning space. The next competition in agent memory may not be about storing more text, but about converting the past into the right knowledge for the present decision.'
+        ],
+        bullets_cn=['PlugMem 把代理历史重组为事实与技能，而不是长文本片段。', '同一记忆模块被设计成可跨任务复用。', '代理记忆开始从容量竞争转向组织能力竞争。'],
+        bullets_en=['PlugMem restructures agent history into facts and reusable skills instead of raw text chunks.', 'The same memory module is designed to transfer across tasks.', 'Agent memory is shifting from a capacity race to an organization race.'],
+        significance_cn='记忆如果不能帮代理更快判断下一步，那它就只是昂贵的存档，不是智能。',
+        significance_en='If memory cannot help an agent decide the next step more quickly, it is just expensive archiving, not intelligence.',
+        sources=[
+            {'title': 'PlugMem: Transforming raw agent interactions into reusable knowledge', 'publication': 'Microsoft Research', 'url': 'https://www.microsoft.com/en-us/research/blog/from-raw-interaction-to-reusable-knowledge-rethinking-memory-for-ai-agents/'}
+        ],
+    ),
+    article(
+        id='ai-trust-adoption-gap',
+        section='impact',
+        category_cn='社会态度',
+        category_en='Public Sentiment',
+        headline_cn='美国人越常用 AI 越不信 AI，采用和信任的曲线正在彻底分家',
+        headline_en='Americans are using AI more while trusting it less, and adoption is parting ways with legitimacy',
+        deck_cn='Quinnipiac 民调显示，日常使用继续上升，但大多数人依旧只“偶尔”或“很少”信任 AI 输出。行业获得了渗透率，却没有同步赢下社会安心感。',
+        deck_en='A Quinnipiac poll shows everyday use rising while trust remains weak. The industry is gaining penetration without securing broad social confidence.',
+        kicker_cn='研究与影响',
+        kicker_en='Impact',
+        published_at='2026-03-30T20:24:53.000Z',
+        reading_time=4,
+        tags=['Polls', 'Trust', 'Public Opinion', 'Jobs'],
+        summary_cn=[
+            'TechCrunch 援引 Quinnipiac 最新民调称，只有 27% 的美国受访者从未使用过 AI，较去年继续下降，但仍有 76% 的人表示自己只会很少或偶尔信任 AI 结果，只有 21% 说自己大多数时间或几乎总是信任。与此同时，多数人担心 AI 会减少工作机会，也反对在自己社区建设 AI 数据中心。',
+            '它被放在影响栏目，是因为这组数字说明 AI 已经进入一种很特殊的扩散阶段：人们会用，但并不安心；会接触，但不等于认同。对行业而言，最难的挑战逐渐不再只是教大家如何使用 AI，而是如何在就业、能源、地方政治和信息可信度上建立持续的社会许可。'
+        ],
+        summary_en=[
+            'TechCrunch, citing the latest Quinnipiac poll, reports that only 27 percent of Americans say they have never used AI, continuing the decline from last year. Yet 76 percent say they trust AI results only rarely or sometimes, and just 21 percent say they trust them most or almost all of the time. Majorities also worry that AI will reduce job opportunities and oppose building AI data centers in their communities.',
+            'This belongs in impact because it shows AI entering a peculiar stage of diffusion: people will use it without feeling secure about it. Exposure is not the same as endorsement. For the industry, the harder challenge is no longer only teaching people how to use AI, but building durable social permission across jobs, energy, local politics, and information credibility.'
+        ],
+        bullets_cn=['美国 AI 使用率持续上升，但信任度没有跟上。', '多数受访者担忧工作机会减少并反对本地数据中心。', 'AI 扩散已经进入“高使用、低安心”的阶段。'],
+        bullets_en=['AI usage in the US keeps rising, but trust is not keeping pace.', 'Most respondents worry about job losses and oppose local data centers.', 'AI diffusion is entering a phase of high use but low reassurance.'],
+        significance_cn='当人们边用边怕时，AI 产业面对的就不只是产品问题，而是合法性问题。',
+        significance_en='When people use AI while fearing it, the industry is dealing not only with a product challenge but with a legitimacy challenge.',
+        sources=[
+            {'title': 'As more Americans adopt AI tools, fewer say they can trust the results', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/'},
+            {'title': 'Quinnipiac University Poll Release', 'publication': 'Quinnipiac University', 'url': 'https://poll.qu.edu/poll-release?releaseid=3955'}
+        ],
+    ),
+    article(
+        id='stadler-ai-knowledge-work',
+        section='impact',
+        category_cn='知识工作转型',
+        category_en='Knowledge Work Transformation',
+        headline_cn='230 年老公司 STADLER 把 AI 变成日常工作底座，知识工作最先被重写的是“起稿”和“整理”',
+        headline_en='At 230-year-old STADLER, AI is rewriting knowledge work first through drafting and structuring',
+        deck_cn='这家工业公司并不是在做炫技实验，而是让几乎所有电脑岗位把 ChatGPT 当成整理、翻译、总结和结构化思考的默认层。传统企业里的认知劳动正在被重新编排。',
+        deck_en='This industrial company is not running a flashy lab demo; it is making ChatGPT a default layer for summarizing, translating, drafting, and structuring thought across most computer-based roles.',
+        kicker_cn='研究与影响',
+        kicker_en='Impact',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=3,
+        tags=['OpenAI', 'Enterprise', 'Productivity', 'Knowledge Work'],
+        summary_cn=[
+            'OpenAI 案例文章称，拥有 230 多年历史、从事自动化垃圾分拣系统的 STADLER 自 2023 年起推动“凡是使用电脑工作的员工都应借助 AI 提升效率”的原则，目前 ChatGPT 已嵌入几乎全部职能部门。公司称其创建了 125 个以上自定义 GPT，在总结、文档、翻译和邮件等知识任务上节省 30% 至 40% 时间，日活使用率超过 85%。',
+            '这条新闻的关键不在于个别数字，而在于它呈现出一种更稳定的企业现实：知识工作最容易被 AI 改写的，并不总是决策本身，而是把零散信息变成可操作输出的那层中间工序。谁能最快把“整理、起稿、结构化”纳入默认工作流，谁就会更早看到组织节奏、汇报方式和协作习惯被整体改写。'
+        ],
+        summary_en=[
+            'In an OpenAI case study, STADLER—a 230-plus-year-old company building automated waste-sorting plants—says it has been pushing a simple principle since 2023: every employee whose job involves a computer should use AI to improve speed and quality. ChatGPT is now embedded across nearly all functions, the company says, with more than 125 custom GPTs and reported time savings of 30 to 40 percent on common knowledge tasks, alongside daily usage above 85 percent.',
+            'The important point is not just the metrics but the pattern. The first layer of knowledge work that AI reliably rewrites is often not final decision-making itself, but the middle labor of turning scattered information into usable output. The companies that normalize summarizing, drafting, and structuring as default AI-assisted workflows will be the earliest to see changes in organizational tempo, reporting habits, and collaboration norms.'
+        ],
+        bullets_cn=['STADLER 称 ChatGPT 已嵌入其多数知识工作流程。', '公司创建 125+ 自定义 GPT，并报告 30%-40% 时间节省。', '传统企业的中间认知劳动正在先一步被 AI 重写。'],
+        bullets_en=['STADLER says ChatGPT is embedded across most of its knowledge workflows.', 'The company has built 125+ custom GPTs and reports 30%–40% time savings.', 'The middle layer of cognitive labor inside traditional firms is being rewritten first.'],
+        significance_cn='AI 对企业最大的早期影响，也许不是替人做决定，而是把“从信息到初稿”这一段彻底压缩。',
+        significance_en='The biggest early enterprise impact of AI may be not making decisions for people, but radically compressing the path from information to first draft.',
+        sources=[
+            {'title': 'STADLER reshapes knowledge work at a 230-year-old company', 'publication': 'OpenAI', 'url': 'https://openai.com/index/stadler'}
+        ],
+    ),
+    article(
+        id='art-schools-ai-fracture',
+        section='impact',
+        category_cn='创意教育',
+        category_en='Creative Education',
+        headline_cn='艺术院校正在被 AI 撕开：学生被要求理解它，也害怕它先吃掉毕业后的工作',
+        headline_en='Art schools are being split open by AI as students are told to understand it while fearing it may erase their future jobs',
+        deck_cn='The Verge 追踪多个艺术院校和学生抗议现场，看到的是一种新的教育张力：学校说必须理解生成式 AI，学生则担心理解它只是在更快适应被替代。',
+        deck_en='The Verge tracks art schools and student protests to show a new educational tension: institutions say students must understand generative AI, while students fear that “understanding it” may simply mean adapting faster to replacement.',
+        kicker_cn='研究与影响',
+        kicker_en='Impact',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=4,
+        tags=['Education', 'Art', 'Generative AI', 'Creative Labor'],
+        summary_cn=[
+            'The Verge 报道，CalArts、MassArt、RCA 等艺术与设计院校正在把生成式 AI 纳入课程讨论与政策框架之中，同时校园里也出现明显反弹：有学生修改招募 AI 艺术家的海报、张贴反 AI 传单，甚至通过激烈行为公开抗议。院校普遍强调，学生即便不必把 AI 用在自己的作品里，也必须理解其技术限制、伦理和法律后果。',
+            '这件事的真正冲突，不是“学校支不支持 AI”，而是创意教育正在被迫同时承担两件相互拧巴的任务：一边帮学生理解新工具，一边无法向他们保证这些工具不会削弱未来岗位。于是课堂里学习 AI 的意义，开始从“掌握技能”变成“学习如何在不确定的劳动市场里自保”。'
+        ],
+        summary_en=[
+            'The Verge reports that art and design schools including CalArts, MassArt, and the Royal College of Art are integrating generative AI into curriculum discussions and policy frameworks while also facing visible student backlash. Posters seeking AI artists have been altered, anti-AI flyers have appeared on campus, and some protests have become highly confrontational. Schools generally argue that even students who do not use AI in their own work must understand its technical limits and ethical and legal implications.',
+            'The deeper conflict is not whether schools “support AI,” but that creative education is being forced to do two contradictory things at once: teach students a new tool while being unable to promise that the same tool will not erode their future work. In that environment, learning AI stops being only a skills question and becomes a strategy for surviving an unstable labor market.'
+        ],
+        bullets_cn=['多所艺术院校正在把生成式 AI 纳入课程与校园政策。', '学生对 AI 的抗拒已在校园内公开化、情绪化。', '创意教育被迫同时教授新工具与就业焦虑。'],
+        bullets_en=['Art schools are bringing generative AI into curriculum and campus policy.', 'Student resistance to AI has become public and emotionally charged.', 'Creative education is being forced to teach both new tools and employment anxiety.'],
+        significance_cn='当艺术教育开始围绕“怎样不被工具淘汰”组织自己时，AI 影响的就不只是作品，而是整个创作职业的培养方式。',
+        significance_en='Once art education organizes itself around not being displaced by the tool, AI is reshaping not just artworks but the way creative professions are cultivated.',
+        sources=[
+            {'title': 'Art schools are being torn apart by AI', 'publication': 'The Verge', 'url': 'https://www.theverge.com/tech/903954/art-schools-generative-ai-education-creative-jobs'}
+        ],
+    ),
+    article(
+        id='anthropic-having-a-month',
+        section='insight',
+        category_cn='工程治理',
+        category_en='Engineering Governance',
+        headline_cn='Anthropic 连续两次把内部东西漏到外面，“谨慎公司”最难守住的还是自己的发布流程',
+        headline_en='Anthropic’s rough month shows that even the “careful AI company” can fail at its own release discipline',
+        deck_cn='从内部文件外泄到 Claude Code 打包失误暴露大批源码，问题并不在模型本体，而在把模型产品化时那层最容易被低估的工程与流程治理。',
+        deck_en='From internal-file exposure to a Claude Code packaging mistake that revealed large amounts of source code, the problem is not the model itself but the engineering and release governance around productization.',
+        kicker_cn='深度观察',
+        kicker_en='Deep Insights',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=3,
+        tags=['Anthropic', 'Claude Code', 'Security', 'Release Engineering'],
+        summary_cn=[
+            'TechCrunch 评论称，Anthropic 这一个月连续遭遇尴尬的发布与信息暴露事件：此前已有近 3000 份内部文件被意外公开，而在最新一次事故中，Claude Code 的一个软件包版本又因为打包问题暴露了将近 2000 个源码文件和超过 51.2 万行代码。Anthropic 对外强调这是“人为失误导致的发布打包问题”，而不是外部入侵。',
+            '这条新闻更值得观察的地方在于，它提醒人们：当外界讨论模型公司是否“更安全、更谨慎”时，真正考验往往不在白皮书和价值宣言，而在 mundane 的工程操作里。产品发布、打包、权限、源码映射、内部文档管理，这些看似不性感的细节，往往才是“安全文化”能否真正落地的硬指标。'
+        ],
+        summary_en=[
+            'TechCrunch argues that Anthropic has had a notably rough month, with one incident involving nearly 3,000 internal files becoming publicly accessible and a newer one exposing close to 2,000 source code files and more than 512,000 lines of Claude Code-related code through a packaging mistake. Anthropic has described the latest issue as a human-error release packaging problem rather than an external breach.',
+            'The larger reason to watch this is that claims of being the “careful AI company” are not ultimately tested only in papers or policy statements. They are tested in ordinary engineering operations: release pipelines, packaging, permissions, source maps, and document handling. The least glamorous layer of productization is often where a security culture either proves itself or fails.'
+        ],
+        bullets_cn=['Anthropic 近期连续出现信息暴露与发布打包失误。', '最新事故涉及大量 Claude Code 相关源码文件外露。', '工程流程治理比安全口号更能检验公司成色。'],
+        bullets_en=['Anthropic has faced back-to-back exposure and packaging incidents.', 'The latest issue revealed a large amount of Claude Code-related source material.', 'Release engineering discipline is a better test of safety culture than slogans.'],
+        significance_cn='AI 公司越强调自己“更负责”，市场就越会用最普通的工程失误来衡量它到底负责到什么程度。',
+        significance_en='The more an AI company brands itself as especially responsible, the more ordinary engineering mistakes become the measure of what that responsibility really means.',
+        sources=[
+            {'title': 'Anthropic is having a month', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/'},
+            {'title': 'Claude Code leak exposes a Tamagotchi-style “pet” and an always-on agent', 'publication': 'The Verge', 'url': 'https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak'}
+        ],
+    ),
+    article(
+        id='deepmind-agi-cognitive-framework',
+        section='insight',
+        category_cn='AGI 评估',
+        category_en='AGI Evaluation',
+        headline_cn='DeepMind 想用认知科学给 AGI 量表，行业开始争论“通用智能”到底该怎么测而不是怎么喊',
+        headline_en='DeepMind’s cognitive framework for AGI shifts the debate from proclaiming general intelligence to measuring it',
+        deck_cn='新框架把感知、学习、记忆、元认知、社交认知等能力拆出来，并尝试建立相对人类分布的评估协议。争论焦点正在从概念口号转向测量学。',
+        deck_en='The new framework breaks general intelligence into abilities such as perception, learning, memory, metacognition, and social cognition, then proposes evaluation relative to human distributions. The fight is shifting from slogans to measurement design.',
+        kicker_cn='深度观察',
+        kicker_en='Deep Insights',
+        published_at='2026-03-17T00:00:00.000Z',
+        reading_time=3,
+        tags=['Google DeepMind', 'AGI', 'Evaluation', 'Cognitive Science'],
+        summary_cn=[
+            'Google DeepMind 发布《Measuring Progress Toward AGI: A Cognitive Taxonomy》，试图借助认知科学为 AGI 进展建立更系统的衡量框架。文中提出 10 个关键认知能力，包括感知、生成、注意、学习、记忆、推理、元认知、执行功能、问题解决和社交认知，并建议将 AI 系统表现与具有代表性的人类样本分布进行对照。DeepMind 同时联合 Kaggle 发起评测黑客松，希望社区补足学习、元认知、注意力、执行功能与社交认知等领域的测评缺口。',
+            '这条消息值得放在观察栏目，因为它反映出行业正在从“谁先宣称接近 AGI”转向“谁能给出更有说服力的衡量方法”。只要 AGI 仍是一个被不同公司不断争夺解释权的目标，测量框架本身就会成为竞争的一部分——谁定义了量表，谁就部分定义了进步。'
+        ],
+        summary_en=[
+            'Google DeepMind has released “Measuring Progress Toward AGI: A Cognitive Taxonomy,” a framework that draws on cognitive science to build a more structured way of tracking progress toward general intelligence. It proposes 10 core cognitive abilities, including perception, generation, attention, learning, memory, reasoning, metacognition, executive functions, problem solving, and social cognition, and recommends comparing AI systems against distributions of human performance. DeepMind is also partnering with Kaggle on a hackathon to help build the needed evaluations.',
+            'This belongs in deep insights because it shows the field shifting from “who gets to claim AGI is near” toward “who gets to define the yardstick.” As long as AGI remains a contested destination, evaluation frameworks themselves become part of the competitive landscape. Whoever defines the measure partly defines what progress means.'
+        ],
+        bullets_cn=['DeepMind 提出基于认知科学的 AGI 评估框架。', '框架列出 10 类关键能力，并强调相对人类基线衡量。', 'AGI 竞争开始延伸到“谁来定义量表”。'],
+        bullets_en=['DeepMind has proposed a cognitive-science-based framework for AGI evaluation.', 'The framework identifies 10 abilities and compares systems against human baselines.', 'Competition around AGI is extending into the question of who defines the yardstick.'],
+        significance_cn='AGI 时代真正先到来的，也许不是通用智能本身，而是关于“什么算通用智能”的标准之争。',
+        significance_en='What may arrive before AGI itself is a battle over the standards used to decide what counts as AGI.',
+        sources=[
+            {'title': 'Measuring progress toward AGI: A cognitive framework', 'publication': 'Google DeepMind', 'url': 'https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/'},
+            {'title': 'Measuring Progress Toward AGI: A Cognitive Taxonomy', 'publication': 'Google DeepMind PDF', 'url': 'https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/measuring-progress-toward-agi/measuring-progress-toward-agi-a-cognitive-framework.pdf'}
+        ],
+    ),
+    article(
+        id='google-open-source-security-125m',
+        section='insight',
+        category_cn='开源安全',
+        category_en='Open Source Security',
+        headline_cn='谷歌等巨头为开源安全再投 1250 万美元，AI 时代的防守战终于开始从“找洞”转向“补洞”',
+        headline_en='A new $12.5 million open-source security push shows the AI era is moving from finding bugs to actually fixing them',
+        deck_cn='Google 联合 Amazon、Anthropic、微软/GitHub 和 OpenAI 追加 Alpha-Omega 资金，强调在 AI 驱动威胁背景下，把发现漏洞的速度转化成修复落地的速度。',
+        deck_en='Google, together with Amazon, Anthropic, Microsoft/GitHub, and OpenAI, is expanding Alpha-Omega funding to help the open-source ecosystem turn AI-driven vulnerability discovery into remediation at scale.',
+        kicker_cn='深度观察',
+        kicker_en='Deep Insights',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=3,
+        tags=['Google', 'Open Source', 'Security', 'Alpha-Omega'],
+        summary_cn=[
+            'Google 宣布将与 Amazon、Anthropic、微软/GitHub 和 OpenAI 一起，通过 Linux Foundation 的 Alpha-Omega Project 和 OpenSSF 追加总额 1250 万美元的开源安全资助，目标是帮助维护者应对 AI 驱动的新威胁，把安全工作从“发现更多漏洞”推进到“更快修复并把工具真正交到维护者手里”。Google 也在文中强调 Big Sleep、CodeMender 和 Sec-Gemini 等 AI 安全工具的更广泛潜力。',
+            '这条消息之所以值得观察，是因为 AI 时代的开源安全问题并不只是攻击更强，而是漏洞发现速度和修复能力开始严重失衡。只要自动化发现能力继续提升，真正稀缺的就会是维护者时间、修复流程和责任链条。防守方未来比拼的，不是谁能报出更多 CVE，而是谁能让修复也像发现一样自动化。'
+        ],
+        summary_en=[
+            'Google says it is joining Amazon, Anthropic, Microsoft/GitHub, and OpenAI in a collective $12.5 million funding push through the Linux Foundation’s Alpha-Omega Project and OpenSSF to help open-source maintainers handle a new generation of AI-driven threats. The emphasis is on moving beyond vulnerability discovery toward faster remediation and putting better security tools directly in maintainers’ hands. Google also highlights internal AI security work such as Big Sleep, CodeMender, and Sec-Gemini.',
+            'This is worth watching because the open-source security problem in the AI era is not only that attackers may get stronger, but that the rate of finding flaws may outpace the human ability to fix them. As automated discovery keeps improving, maintainer time, remediation workflows, and accountability become the scarce resources. The next defensive advantage will belong to whoever can automate fixing as effectively as finding.'
+        ],
+        bullets_cn=['多家巨头通过 Alpha-Omega 为开源安全追加 1250 万美元资助。', '重点从发现漏洞转向加快修复和落地安全工具。', 'AI 让开源防守战暴露出新的“修复能力”瓶颈。'],
+        bullets_en=['Major tech companies are channeling $12.5 million into open-source security through Alpha-Omega.', 'The focus is shifting from vulnerability discovery to remediation and maintainers’ tooling.', 'AI is exposing a new bottleneck in open-source defense: the ability to fix at speed.'],
+        significance_cn='当找漏洞越来越像机器流水线，开源世界真正缺的就会是能让修复也流水线化的组织能力。',
+        significance_en='As finding vulnerabilities becomes more machine-like, the open-source world will increasingly lack the organizational machinery to make fixing them just as scalable.',
+        sources=[
+            {'title': 'Our latest investment in open source security for the AI era', 'publication': 'Google', 'url': 'https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/'},
+            {'title': 'Linux Foundation announces $12.5 million in grant funding to advance open source security', 'publication': 'Linux Foundation', 'url': 'https://www.linuxfoundation.org/press/linux-foundation-announces-12.5-million-in-grant-funding-from-leading-organizations-to-advance-open-source-security'}
+        ],
+    ),
+    article(
+        id='ai-boss-poll-americans',
+        section='tech-humanities',
+        category_cn='劳动关系',
+        category_en='Labor Relations',
+        headline_cn='已经有 15% 的美国人愿意给 AI 当下属，管理权开始被想象成一种软件接口',
+        headline_en='Already 15% of Americans say they would work for an AI boss, treating management as software',
+        deck_cn='Quinnipiac 调查里的这 15% 还不是主流，但已经足够说明：当管理被拆解成排班、审批和追踪，人们对“老板必须是人”的坚持没有想象中牢固。',
+        deck_en='Fifteen percent is not a majority, but it is enough to show that once management is reframed as scheduling, approvals, and oversight, many people do not insist as strongly as expected that a boss must be human.',
+        kicker_cn='技术人文',
+        kicker_en='Tech & Humanities',
+        published_at='2026-03-30T23:41:48.000Z',
+        reading_time=2,
+        tags=['Work', 'Management', 'Polls', 'AI Boss'],
+        summary_cn=[
+            'TechCrunch 援引 Quinnipiac 民调称，15% 的美国受访者表示愿意让 AI 程序担任直属主管，负责分配任务和安排时间。虽然多数人仍不接受，但这个比例本身已经不低。报道还串联了 Workday、Amazon、Uber 等企业利用 AI 自动化部分管理职能的案例，显示“AI 经理”并非完全停留在想象。',
+            '它适合放在技术人文栏目，因为这里变化的不是单一工具，而是工作关系的想象方式。管理过去既是组织功能，也是情绪和权威功能；一旦任务分配、审批、监督与反馈都能被软件化，所谓“谁在管理我”就会从社会角色问题，慢慢变成界面设计和责任分配问题。'
+        ],
+        summary_en=[
+            'TechCrunch, citing Quinnipiac polling, reports that 15 percent of Americans say they would accept an AI program as their direct supervisor for assigning tasks and schedules. Most people still reject the idea, but the number is already meaningful. The story also points to companies such as Workday, Amazon, and Uber automating pieces of management work, suggesting the concept of an “AI boss” is not purely hypothetical.',
+            'This fits the tech-and-humanities section because the real shift is not a single tool but a change in how labor relations are imagined. Management has traditionally been both an organizational function and an emotional, authority-bearing role. Once assignment, approval, monitoring, and feedback become software layers, the question of “who manages me” starts moving from social role into interface design and accountability.'
+        ],
+        bullets_cn=['15% 的美国受访者愿意接受 AI 当直属上司。', '部分企业已开始自动化排班、审批和中层管理工作。', '管理权正在从社会角色滑向软件流程。'],
+        bullets_en=['Fifteen percent of Americans say they would accept an AI direct supervisor.', 'Some firms are already automating scheduling, approvals, and middle-management work.', 'Managerial authority is starting to slide from social role toward software process.'],
+        significance_cn='只要“老板”能被重新理解成一个流程节点，办公室政治和劳动伦理就都会跟着改写。',
+        significance_en='Once a “boss” can be reinterpreted as a process node, office politics and labor ethics both begin to change.',
+        sources=[
+            {'title': '15% of Americans say they’d be willing to work for an AI boss, according to new poll', 'publication': 'TechCrunch', 'url': 'https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/'},
+            {'title': 'Quinnipiac University Poll Release', 'publication': 'Quinnipiac University', 'url': 'https://poll.qu.edu/poll-release?releaseid=3955'}
+        ],
+    ),
+    article(
+        id='galaxy-s26-photo-slop',
+        section='tech-humanities',
+        category_cn='记忆与图像',
+        category_en='Memory & Images',
+        headline_cn='Galaxy S26 的 AI 修图正在把回忆做成可篡改的轻娱乐，照片越来越像可编辑记忆',
+        headline_en='Samsung’s Galaxy S26 photo AI turns memories into lightweight editable fiction',
+        deck_cn='The Verge 试用后发现，三星的自然语言修图并不总是危险，但非常容易把日常照片改成“半真半假”的漂亮版本。问题不只在造假，而在回忆被默认为可重写。',
+        deck_en='The Verge finds that Samsung’s prompt-based photo editing is not always dangerous, but is very good at nudging ordinary photos into polished half-truths. The issue is not only fakery, but the normalization of memories as something editable by default.',
+        kicker_cn='技术人文',
+        kicker_en='Tech & Humanities',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=3,
+        tags=['Samsung', 'Photos', 'AI Editing', 'Memory'],
+        summary_cn=[
+            'The Verge 评测 Galaxy S26 的 Photo Assist 后认为，这套自然语言修图工具虽然在暴力、裸体等高风险方向上有一定护栏，也不总能生成高质量结果，但它已经足够把普通生活照片快速改造成“更好看、但并未发生”的版本。比如把工作场景改成演唱会，把孩子所在的游乐装置改成外太空。系统会添加小水印和内容凭证，但用户很容易裁掉角落标记。',
+            '它之所以属于技术人文栏目，是因为这里的核心问题不是深伪政治宣传，而是更日常也更普遍的一层：当手机默认鼓励你把照片修成更理想的故事，影像作为“当时发生了什么”的地位就会进一步退化。AI 修图最先腐蚀的，也许不是新闻真实性，而是私人记忆和社交呈现之间那点原本就脆弱的边界。'
+        ],
+        summary_en=[
+            'After testing the Galaxy S26’s Photo Assist, The Verge argues that Samsung’s prompt-based editing tools have some guardrails around high-risk content and often produce imperfect results, yet they are already good enough to turn ordinary life photos into prettier versions of things that never happened. A work event can become a concert, a child’s play structure can become outer space, and although Samsung adds small watermarks and content credentials, those markers are easy to crop away.',
+            'This belongs in tech and humanities because the central issue is not only political deepfakes, but a quieter and more common shift: phones increasingly encourage users to rewrite photos into more ideal stories by default. The first thing AI photo editing may erode is not journalism, but the already fragile boundary between private memory and social performance.'
+        ],
+        bullets_cn=['Galaxy S26 的自然语言修图能轻松把照片改成“更好看的另一种现实”。', '系统虽有水印与凭证，但很难形成真正稳固的提示。', 'AI 修图正在改变人们对照片和回忆的默认理解。'],
+        bullets_en=['Galaxy S26 photo editing can easily turn a photo into a nicer alternate reality.', 'The system includes watermarks and credentials, but those signals are fragile.', 'AI photo tools are changing default assumptions about what photos and memories are for.'],
+        significance_cn='当回忆也能被一键“优化”，真实性不再只是一种事实要求，而会变成一种主动选择。',
+        significance_en='Once memories can be “optimized” with a prompt, authenticity stops being only a factual condition and becomes an active choice.',
+        sources=[
+            {'title': 'The Galaxy S26’s photo app can sloppify your memories', 'publication': 'The Verge', 'url': 'https://www.theverge.com/tech/904176/samsung-galaxy-s26-ai-photo-assist-slop'}
+        ],
+    ),
+    article(
+        id='live-translate-headphones-ios',
+        section='tech-humanities',
+        category_cn='语言界面',
+        category_en='Language Interfaces',
+        headline_cn='Google 把耳机变成随身翻译层，跨语言交流开始更像默认系统功能而不是专门工具',
+        headline_en='Google is turning headphones into a live translation layer, making cross-language exchange feel like a default system feature',
+        deck_cn='Google Translate 的耳机实时翻译登陆 iOS 并扩展更多国家，意味着语言障碍正在被包装成一种背景能力：你不必主动“翻译”，只需继续说话与听。',
+        deck_en='Google Translate’s live translation with headphones is arriving on iOS and expanding to more countries, framing language mediation as a background capability rather than a special-purpose app ritual.',
+        kicker_cn='技术人文',
+        kicker_en='Tech & Humanities',
+        published_at='2026-03-31T00:00:00.000Z',
+        reading_time=2,
+        tags=['Google Translate', 'iOS', 'Headphones', 'Language'],
+        summary_cn=[
+            'Google 宣布 Translate 的“Live translate with headphones”正式登陆 iOS，并扩展到法国、德国、意大利、日本、西班牙、泰国和英国等更多地区。官方把它描述成一种可覆盖 70 多种语言的实时沟通能力，使用者只需打开 Translate、点击“Live translate”并连接耳机，就能在旅行、家庭交流和日常对话中获得即时翻译。',
+            '这件事放在人文栏目里，是因为语言技术正在越来越像环境能力，而不是用户刻意调用的工具。耳机如果成为默认翻译层，人们对跨语言交流的感觉也会变化：沟通门槛下降了，但中间那个负责转换语气、语境和微妙差别的系统，也变得更加隐形。技术越顺滑，越值得追问它到底在替我们保留了什么、磨平了什么。'
+        ],
+        summary_en=[
+            'Google says its “Live translate with headphones” feature in Google Translate is officially arriving on iOS and expanding to more countries including France, Germany, Italy, Japan, Spain, Thailand, and the UK. The company presents it as a real-time communication layer across more than 70 languages: users open Translate, tap the live-translate option, and connect headphones to follow conversations while traveling, talking with family, or navigating daily life.',
+            'This fits the humanities section because language technology is increasingly becoming an environmental capability rather than a consciously invoked tool. If headphones become a default translation layer, the feeling of cross-language communication changes as well: friction drops, but the system mediating tone, context, and nuance becomes almost invisible. The smoother the tool becomes, the more we should ask what it preserves and what it flattens.'
+        ],
+        bullets_cn=['Google Translate 的耳机实时翻译开始登陆 iOS 并扩区。', '跨语言交流正在被包装成背景能力，而不是显式操作。', '越无感的翻译层，越会悄悄改写人与人沟通的方式。'],
+        bullets_en=['Google Translate’s live headphone translation is arriving on iOS and expanding geographically.', 'Cross-language communication is being packaged as background capability rather than explicit action.', 'The more invisible the translation layer becomes, the more quietly it reshapes human exchange.'],
+        significance_cn='语言障碍被技术削平之后，新的问题就不只是“能不能懂”，而是“懂到什么程度、按谁的方式懂”。',
+        significance_en='Once technology smooths away language barriers, the next question is not only whether we understand, but how deeply and on whose terms we understand.',
+        sources=[
+            {'title': 'Transform your headphones into a live personal translator on iOS.', 'publication': 'Google', 'url': 'https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/'}
+        ],
+    ),
+]
+
+edition = {
+    'id': DATE,
+    'issueNumber': ISSUE_NUMBER,
+    'date': DATE,
+    'displayDate': DISPLAY_DATE,
+    'generatedAt': GENERATED_AT,
+    'mode': 'manual-openclaw',
+    'lead': 'openai-122b-retail-fundraise',
+    'i18n': {}
+}
+
+payload = {
+    'site': site,
+    'edition': edition,
+    'sections': sections,
+    'articles': articles,
+}
+
+
+def write_json(path: Path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+
+def build_rss(data) -> str:
+    updated = datetime.fromisoformat(GENERATED_AT.replace('Z', '+00:00'))
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0">',
+        '  <channel>',
+        '    <title>智潮 / Signal Tide</title>',
+        f'    <link>{BASE}/</link>',
+        '    <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>',
+        '    <language>zh-CN</language>',
+        f'    <lastBuildDate>{format_datetime(updated)}</lastBuildDate>',
+    ]
+    for article in data['articles']:
+        description = '\n\n'.join([article['deck'], *article['summary'], article['significance']])
+        link = f"{BASE}/article.html?id={article['id']}"
+        lines.extend([
+            '    <item>',
+            f'      <title>{escape(article["headline"])}</title>',
+            f'      <link>{escape(link)}</link>',
+            f'      <guid>{escape(link)}</guid>',
+            f'      <pubDate>{format_datetime(updated)}</pubDate>',
+            f'      <description>{escape(description)}</description>',
+            '    </item>',
+        ])
+    lines.extend(['  </channel>', '</rss>', ''])
+    return '\n'.join(lines)
+
+
+def update_archive_index():
+    index_path = ARCHIVE / 'index.json'
+    existing = []
+    if index_path.exists():
+        existing = json.loads(index_path.read_text(encoding='utf-8')).get('items', [])
+    items = [item for item in existing if item.get('date') != DATE]
+    items.insert(0, {
+        'date': DATE,
+        'displayDate': DISPLAY_DATE,
+        'articleCount': len(articles),
+        'leadId': edition['lead'],
+        'leadHeadline': next(a['headline'] for a in articles if a['id'] == edition['lead']),
+        'note': '保存当日首页版面与详情内容。'
+    })
+    write_json(index_path, {'generatedAt': GENERATED_AT, 'items': items})
+
+
+def main():
+    write_json(DATA / 'issues.json', payload)
+    write_json(ARCHIVE / f'{DATE}.json', payload)
+    update_archive_index()
+    (DOCS / 'rss.xml').write_text(build_rss(payload), encoding='utf-8')
+    print(f'Wrote {len(articles)} articles for {DATE}.')
+
+
+if __name__ == '__main__':
+    main()
