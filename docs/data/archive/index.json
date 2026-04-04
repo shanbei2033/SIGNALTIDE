@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-04-01T02:00:00.000Z",
+  "generatedAt": "2026-04-04T02:00:00.000Z",
   "items": [
+    {
+      "date": "2026-04-04",
+      "displayDate": "2026年4月4日",
+      "articleCount": 15,
+      "leadId": "gemma-4-open-models-threshold",
+      "leadHeadline": "Gemma 4 把“开放模型够不够强”这件事往前推了一大步，本地与边缘 AI 开始拿到真正像样的前沿能力",
+      "note": "保存当日首页版面与详情内容。"
+    },
     {
       "date": "2026-04-01",
       "displayDate": "2026年4月1日",

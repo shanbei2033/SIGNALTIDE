@@ -2,230 +2,204 @@
 <rss version="2.0">
   <channel>
     <title>智潮 / Signal Tide</title>
-    <link>https://signaltide.ai/</link>
+    <link>https://www.sb33.me/</link>
     <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 01 Apr 2026 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 02:00:00 GMT</lastBuildDate>
     <item>
-      <title>OpenAI 以 1220 亿美元融资冲向 IPO，AI 超级应用的故事开始先写给资本市场看</title>
-      <link>https://signaltide.ai/article.html?id=openai-122b-retail-fundraise</link>
-      <guid>https://signaltide.ai/article.html?id=openai-122b-retail-fundraise</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>这轮融资不只是补充现金，更像一份提前公开的上市说明书。OpenAI 一边扩充数据中心和算力开支，一边把收入、用户、广告和企业业务的增长曲线直接讲给潜在公众市场听。
+      <title>Gemma 4 把“开放模型够不够强”这件事往前推了一大步，本地与边缘 AI 开始拿到真正像样的前沿能力</title>
+      <link>https://www.sb33.me/article.html?id=gemma-4-open-models-threshold</link>
+      <guid>https://www.sb33.me/article.html?id=gemma-4-open-models-threshold</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Google DeepMind 把 Gemma 4 做成一组可以跑在手机、笔电和工作站上的多模态开放模型，同时还在榜单上逼近更重、更贵的闭源系统。开放生态这次拿到的不是廉价替代品，而是一套可直接进生产和代理工作流的底座。
 
-TechCrunch 报道，OpenAI 完成总额 1220 亿美元的新一轮融资，对应估值达到 8520 亿美元，联合领投方包括 SoftBank、Andreessen Horowitz、D.E. Shaw Ventures、MGX、TPG 与 T. Rowe Price，亚马逊、英伟达和微软也有参与。报道还提到，其中约 30 亿美元来自个人投资者渠道，公司同时扩充了约 47 亿美元的循环信贷额度，以支撑芯片、数据中心和人才投入。
+Google DeepMind 在 4 月 2 日发布 Gemma 4，称其为“按参数计最强”的开放模型家族，采用 Apache 2.0 许可，提供 E2B、E4B、26B A4B 和 31B 等多个版本。官方介绍强调，这一代模型面向高级推理、函数调用、结构化 JSON 输出以及代理式工作流，同时继续把部署门槛压到手机、笔记本 GPU 和开发者工作站可以承受的范围。
 
-它之所以值得做头版，不只是因为金额夸张，而是因为 OpenAI 已经明显在按“准上市公司”的口径组织叙事：月收入 20 亿美元、9000 万周活用户、5000 万订阅用户、广告试点快速变现、企业业务接近与消费业务平分秋色。资本市场在这里看到的，不只是一个模型公司，而是一个试图占据 AI 入口、商业化接口和基础设施入口的“超级应用”候选。
+更值得做头版的是它在开放生态里的位置变化。DeepMind 给出的说法是 31B 版本已在开放模型榜单中冲到前列，而 Hugging Face 也同步强调 Gemma 4 在 transformers、llama.cpp、MLX、WebGPU 和 Rust 等常见工具链上全面落地。过去人们谈开放模型常常默认“便宜但不够强”，现在这个假设开始松动：本地、多模态、长上下文和代理能力正在一起进入一条更实用的产品线。
 
-当 AI 公司开始同时推销产品增长、广告故事、企业收入和基础设施雄心，它竞争的就不只是模型能力，而是资本市场愿不愿意把它当成下一代平台公司。</description>
+如果开放模型开始同时拿到性能、许可和工具链三张牌，前沿 AI 的竞争就不只是在云上拼参数，也会转向谁能把能力更低成本地分发到每台设备与每个团队。</description>
     </item>
     <item>
-      <title>Slack 一口气塞进 30 个 AI 功能，企业聊天工具正被重新包装成任务操作系统</title>
-      <link>https://signaltide.ai/article.html?id=slack-ai-heavy-makeover</link>
-      <guid>https://signaltide.ai/article.html?id=slack-ai-heavy-makeover</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Salesforce 不再满足于把 Slack 当作沟通层，而是想把它做成员工发号施令、调工具、抄会议纪要和串企业流程的统一入口。聊天窗口开始变成工作流总线。
+      <title>OpenAI 收购 TBPN，不只是买下一档科技节目，而是把 AI 时代的话语入口也收进自己版图</title>
+      <link>https://www.sb33.me/article.html?id=openai-acquires-tbpn-media-channel</link>
+      <guid>https://www.sb33.me/article.html?id=openai-acquires-tbpn-media-channel</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>OpenAI 明确表示会保留 TBPN 的编辑独立性，但交易本身已经说明：模型公司开始把“谁来解释技术变化”视为战略资产，而不只是公关外包。
 
-TechCrunch 报道，Salesforce 为 Slack 公布了 30 项新 AI 功能，核心升级集中在 Slackbot：它不但能起草邮件、安排会议、汇总会议信息，还支持所谓 reusable AI skills，让企业把常见任务封装成可重复调用的技能。Slackbot 同时被做成 MCP 客户端，可以连接外部服务并与 Salesforce 的 Agentforce 平台联动。
+OpenAI 4 月 2 日宣布收购科技商业节目 TBPN。Fidji Simo 在内部信中说，TBPN 将并入 OpenAI 的 Strategy 组织，向 Chris Lehane 汇报，但会继续自主选择节目、嘉宾和编辑方向。OpenAI 同时强调，TBPN 团队也将帮助公司在传播和市场层面探索新的表达方式。
 
-这背后的产品方向很明确：企业协作软件正在从“大家说话的地方”变成“大家发起工作、分配工作和追踪工作结果的地方”。一旦聊天窗口同时掌握上下文、日历、会议、连接器和代理，Slack 的竞争对手就不再只是 Teams 这类协作工具，而是所有试图成为企业 AI 主入口的平台。
+这件事的重点不在节目本身，而在模型公司对分发与叙事的重新估值。AI 已经不再只是产品竞赛，还是一场持续解释技术、说服开发者、吸引企业与塑造公众理解的竞赛。OpenAI 这次没有另起炉灶，而是直接把一个已经形成受众和行业影响力的媒体入口买了下来。
 
-谁先把聊天窗口变成工作入口，谁就更有机会拿走企业内部最值钱的上下文。</description>
+当模型公司开始收购媒体入口，行业竞争就从“谁的模型更强”扩展到“谁能定义别人如何理解这场变化”。</description>
     </item>
     <item>
-      <title>ChatGPT 把购物比价收进对话里，AI 产品发现正在绕开传统搜索与榜单页面</title>
-      <link>https://signaltide.ai/article.html?id=chatgpt-product-discovery-acp</link>
-      <guid>https://signaltide.ai/article.html?id=chatgpt-product-discovery-acp</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>OpenAI 扩展 Agentic Commerce Protocol 支持商品发现，想让用户直接在对话里完成筛选、比较和收敛决策。购物入口开始从网页列表迁到会话界面。
+      <title>微软一口气放出三款基础模型，和 OpenAI 深度绑定的盟友也开始更认真地补自己那层模型栈</title>
+      <link>https://www.sb33.me/article.html?id=microsoft-three-foundational-models</link>
+      <guid>https://www.sb33.me/article.html?id=microsoft-three-foundational-models</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>MAI-Transcribe-1、MAI-Voice-1 和 MAI-Image-2 同时上线，既是产品补位，也是微软对“既合作又自研”路线的进一步公开化。
 
-OpenAI 官方宣布，ChatGPT 的购物体验正在升级为更丰富的可视化产品发现界面，用户可以在对话中根据预算、偏好和约束搜索商品，横向比较价格、评论和功能，并通过上传图片进一步收窄候选。为支撑这一流程，OpenAI 同时扩展 ACP，使商家与 ChatGPT 在商品发现阶段可以直接对接。
+TechCrunch 报道，微软 AI 团队在 4 月 3 日发布三款基础模型：可覆盖 25 种语言语音转写的 MAI-Transcribe-1、音频生成模型 MAI-Voice-1，以及图像生成模型 MAI-Image-2。其中转写和语音模型已进入 Microsoft Foundry，部分能力也进入 MAI Playground。官方说法是，这些模型将主打更低价格和更贴近产品使用场景。
 
-这件事值得看，不只是因为 ChatGPT 多了一个购物功能，而是因为它进一步侵蚀了传统“搜索结果页 + 导购榜单 + 多标签页比较”的网页路径。只要用户越来越习惯先问助手“我该买什么”，产品发现这一高价值流量层就会从开放网页向会话界面迁移，搜索、联盟营销和电商前端都会被重新分配。
+更值得注意的是这背后的公司姿态。微软一边继续重申与 OpenAI 的长期合作，一边又通过 Mustafa Suleyman 领导的团队加快自家模型栈建设。对微软来说，这不是和 OpenAI 彻底切割，而是避免在多模态和产品节奏上把全部筹码押给单一外部伙伴。
 
-如果“该买什么”先在助手里决定，搜索引擎和电商首页就都不再是唯一的流量门口。</description>
+云平台巨头越是拥抱外部明星模型，越会想办法补齐自己的基础能力，因为接口控制权和利润率最终还是要回到自己手里。</description>
     </item>
     <item>
-      <title>OpenAI 把青少年安全规则做成提示词包，模型治理开始从原则文档走向可部署部件</title>
-      <link>https://signaltide.ai/article.html?id=openai-teen-safety-policy-pack</link>
-      <guid>https://signaltide.ai/article.html?id=openai-teen-safety-policy-pack</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>这次发布的不只是价值观声明，而是一组能直接与开源安全模型配套使用的策略提示。安全规则开始被产品化为可调用、可迭代、可接入工作流的模块。
+      <title>Anthropic 设立新 PAC，AI 公司一边谈安全，一边也越来越像成熟产业那样组织政治影响力</title>
+      <link>https://www.sb33.me/article.html?id=anthropic-new-pac</link>
+      <guid>https://www.sb33.me/article.html?id=anthropic-new-pac</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>新 PAC 计划在中期选举周期向两党候选人捐款，说明模型公司对监管的参与方式，已经从发博客和听证会走向更传统的华盛顿路径。
 
-OpenAI 发布了一套面向开发者的青少年安全策略提示词包，目标是帮助他们结合 gpt-oss-safeguard 等安全模型，在实际系统中建立更一致的年龄适配保护。首批策略覆盖图形暴力、图形性内容、危险挑战、有害身材观念、年龄限制商品与服务、以及浪漫或暴力角色扮演等场景，并称开发过程中参考了 Common Sense Media 和 everyone.ai 的意见。
+TechCrunch 援引 Bloomberg 报道称，Anthropic 已提交文件设立新的政治行动委员会 AnthroPAC。该 PAC 将由员工自愿捐款支持，个人上限为 5000 美元，并计划在中期选举周期向现任议员和新兴候选人进行两党捐助。联邦选举委员会的组织文件已出现 Anthropic 财务主管 Allison Rossi 的签名。
 
-这条政策新闻的重要性在于，它把“如何定义风险”这件事从抽象原则拉进了工程实现层。很多平台并不缺一个“我们重视青少年安全”的口号，真正缺的是能稳定写进分类器、审核流和产品规则里的可执行定义。治理一旦被做成模块，行业竞争的焦点就会转向谁的规则更清晰、边界更稳、误伤和漏放更少。
+这件事说明，AI 产业正在快速复制金融、能源和大型科技公司熟悉的政治路径。无论公司对外多强调“安全”“公共利益”或“使命”，一旦监管开始影响商业模式、政府采购和军方合作，政策参与就会从理念表态升级为体系化的政治投入。
 
-当安全规则本身开始像软件组件一样被复用，AI 治理就不再只是宣言，而会变成一条真正的产品能力线。</description>
+当 AI 公司开始系统化做政治捐助，监管讨论就会更像产业博弈，而不只是技术伦理争论。</description>
     </item>
     <item>
-      <title>DeepMind 想把“AI 是否会操纵人”做成可测问题，安全边界开始从猜想走向实验设计</title>
-      <link>https://signaltide.ai/article.html?id=deepmind-harmful-manipulation-toolkit</link>
-      <guid>https://signaltide.ai/article.html?id=deepmind-harmful-manipulation-toolkit</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Google DeepMind 公布针对有害操纵的实证研究和可复现实验工具包，试图把“模型会不会诱导人做坏决定”从哲学争论变成可以分情境验证的实验议题。
+      <title>美国科技公益组织警告：别把政府采购规则改成拆 AI 护栏的工具</title>
+      <link>https://www.sb33.me/article.html?id=gsa-procurement-ai-safety-rules</link>
+      <guid>https://www.sb33.me/article.html?id=gsa-procurement-ai-safety-rules</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>EFF 等组织认为，拟议中的 GSA 规则会要求承包商为“所有合法用途”开放 AI 系统，并削弱企业自行设置的安全限制，这会把采购政策变成对安全设计的反向激励。
 
-Google DeepMind 发布了关于 AI 有害操纵能力的新研究，并公开用于开展同类人类受试实验的材料。研究覆盖英国、美国和印度的 1 万多名参与者，重点测试金融和健康等高风险场景中，模型在被明确提示进行操纵时，能否通过利用情绪与认知脆弱性影响人的判断和行为。DeepMind 还区分了“有益说服”和“有害操纵”，并把操纵风险拆成 efficacy 与 propensity 两个维度。
+EFF 在 4 月 3 日发文表示，正在征求意见的美国总务管理局（GSA）采购规则草案，不只是推进所谓“意识形态中立”的美国 AI 采购，还可能把联邦合同变成要求企业拆除安全护栏的机制。按照 EFF 的描述，草案要求承包商必须让政府出于“所有合法目的”使用其 AI 系统，并限制公司基于自身政策拒绝某些输出或分析。
 
-这项工作值得放在政策栏目，因为它把一个长期悬而未决的问题推进到了监管和标准化更容易接手的状态：如果操纵风险可被分情境测量，那么未来的模型审查、红队、产品准入和责任归属都会更具体。AI 安全真正困难的地方，不只是发现极端能力，而是把那些模糊、社会性的风险翻译成可验证的制度语言。
+反对者担心，这类规则会把公司出于隐私、滥用防控和风险控制设置的限制，变成政府采购中的“不合规”项。也就是说，原本被视作更安全、更负责的设计，反而可能在招标体系里吃亏。对 AI 行业来说，这比单条监管法案更细也更实际，因为它直接改变政府作为买方时会奖励什么样的系统。
 
-一旦“操纵风险”可以被标准化测试，模型安全的下一步就不只是防有害内容，而是防有害影响。</description>
+真正塑造 AI 行为边界的，未必只是立法文本，也可能是政府在合同条款里偷偷写下的默认要求。</description>
     </item>
     <item>
-      <title>TRL 终于做成 1.0，后训练世界最难的不是新算法，而是别让基础设施天天过期</title>
-      <link>https://signaltide.ai/article.html?id=trl-v1-post-training-library</link>
-      <guid>https://signaltide.ai/article.html?id=trl-v1-post-training-library</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Hugging Face 把一个长期偏研究性质的代码库推成稳定库，强调在 PPO、DPO、RLVR 轮番改写主流方法的环境里，软件设计必须把变化本身当作常态。
+      <title>Gemini API 新增 Flex 和 Priority，两档推理服务把“便宜”与“稳”直接做成了参数</title>
+      <link>https://www.sb33.me/article.html?id=gemini-api-flex-priority</link>
+      <guid>https://www.sb33.me/article.html?id=gemini-api-flex-priority</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Google 把后台任务和实时交互的成本/可靠性差异明确包装成两个服务层级，开发者不必再在同步接口与 Batch API 之间来回拆架构。
 
-Hugging Face 宣布 TRL v1.0，称这意味着它已经从研究代码库转成可被生产系统依赖的稳定库。官方表示，TRL 现在已覆盖 75 种以上后训练方法，但重点并不是“方法列表更长”，而是让这些方法更容易试验、比较和落地。文章回顾了 PPO、DPO、RLVR 等范式如何不断改写后训练栈，并解释为何库的抽象必须为这种快速变化留出空间。
+Google 4 月 2 日宣布在 Gemini API 中加入 Flex 与 Priority 两种推理层级。Flex 面向延迟容忍型任务，官方称可比标准 API 便宜 50%，但可靠性和时延优先级会下降；Priority 则面向关键流量，提供更高保障，并在超额时自动回落到标准层而不是直接失败。两者都复用同步接口，而不是要求开发者额外维护 Batch 流程。
 
-这条工具新闻的重要信号是，后训练已经不再只是论文创新竞赛，而进入了“谁能把不稳定研究变成稳定基础设施”的阶段。模型公司和研究团队都在追新方法，但真正决定生态扩散速度的，往往是这些方法能不能被同一套可维护、可组合、可复现的工具链承接下来。
+这类变化说明 API 平台竞争正在从“谁的模型更强”转向“谁更懂生产系统里的任务分层”。代理应用会同时包含后台推理、批量 enrichment、实时客服和强 SLA 交互，平台若能把这些场景直接封装成服务层级，开发者就更容易把成本和可用性一起纳入产品设计。
 
-在变化最快的领域里，真正稀缺的不是再多一个新方法，而是一个不会因为下一个新方法就立刻报废的工具层。</description>
+真正影响开发者留存的，往往不是榜单上的一次领先，而是谁能把复杂系统里的成本与可靠性选择做得足够顺手。</description>
     </item>
     <item>
-      <title>AgentRx 要找出代理“第一次不可挽回的错误”，调试代理终于不只剩看日志猜原因</title>
-      <link>https://signaltide.ai/article.html?id=agentrx-debugging-agents</link>
-      <guid>https://signaltide.ai/article.html?id=agentrx-debugging-agents</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>微软研究院把代理失败拆成约束生成、逐步验证和根因定位三层，希望开发者能从“哪里坏了”转向“哪一步开始注定会坏”。
+      <title>Codex 改成团队按量付费，AI 编程工具开始更像云服务而不是高价座位订阅</title>
+      <link>https://www.sb33.me/article.html?id=codex-paygo-teams</link>
+      <guid>https://www.sb33.me/article.html?id=codex-paygo-teams</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>OpenAI 允许 ChatGPT Business 和 Enterprise 团队购买 Codex-only 席位，按 token 计费且无固定座位费，等于把试点门槛再往下压了一截。
 
-微软研究院发布开源框架 AgentRx 及配套 Benchmark，核心目标是自动识别长链路代理执行中“第一次不可恢复的关键失败步骤”。AgentRx 会根据工具 schema 与领域策略自动合成可执行约束，再逐步检查轨迹中何时出现违反，从而帮助开发者定位根因，而不是只看最终任务是否失败。官方给出的结果称，相比提示式基线，AgentRx 在失败定位和根因归因上都有明显提升。
+OpenAI 4 月 2 日宣布，ChatGPT Business 与 Enterprise 工作区可新增按量付费的 Codex-only 席位，使用量按 token 计费，不再需要固定座位费，同时标准 ChatGPT Business 年费也从每席 25 美元下调到 20 美元。公司还给符合条件的团队提供限时 credits，以推动试点扩张。
 
-这类工具会越来越重要，因为代理系统一旦进入真实工作流，失败往往不是一句 hallucination 能概括，而是被埋在几十步动作、多个代理和外部工具交互里。能否把失败变成结构化诊断对象，决定了代理开发能不能从“演示能跑”走到“生产可修”。
+这背后的变化是，AI 编程产品正在摆脱“重销售、高门槛、高席位价格”的传统企业软件路径。对于工程团队来说，真正卡住 adoption 的往往不是模型效果，而是预算归属、试点规模与成本可预期性。按量付费意味着 Codex 想更快渗进团队流程，而不是只服务已经准备好大规模采购的客户。
 
-代理真正成熟的标志，不是多会做事，而是出事后多快能知道哪里开始错了。</description>
+谁先把 AI 编程工具做成可无痛试用、可精细记账的基础设施，谁就更可能吃到团队级而不是个人级的长期使用。</description>
     </item>
     <item>
-      <title>PlugMem 认为记忆太多反而会拖慢代理，真正值钱的是把经历压成可复用知识</title>
-      <link>https://signaltide.ai/article.html?id=plugmem-structured-agent-memory</link>
-      <guid>https://signaltide.ai/article.html?id=plugmem-structured-agent-memory</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>微软研究院提出将原始交互历史重组为事实与技能图谱，而不是简单继续塞长上下文。代理记忆的重点正在从“记住更多”转向“记住得更像知识”。
+      <title>AI 数据中心掀起天然气抢电潮，算力竞赛正把能源问题从后台账本推到台前政治</title>
+      <link>https://www.sb33.me/article.html?id=ai-data-center-gas-rush</link>
+      <guid>https://www.sb33.me/article.html?id=ai-data-center-gas-rush</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>微软、谷歌、Meta 接连布局大型燃气电站，短期看像是在自带电源，长期看却可能把气价、设备供给和公众成本一起卷进来。
 
-微软研究院发布 PlugMem，主张把代理交互历史转化为结构化、可复用的知识单元，而不是在每次新任务里检索越来越长的聊天和操作记录。PlugMem 用事实与可复用技能作为记忆基本单位，并通过结构化存储、任务对齐检索和压缩后的决策指导来减少无效上下文。官方称，同一个通用记忆模块可以在多种代理基准上提升表现，同时消耗更少记忆 token。
+TechCrunch 4 月 3 日评论称，围绕 AI 数据中心的电力争夺正在迅速转向天然气。文中提到，微软正与 Chevron 和 Engine No. 1 在得州合作建设可扩展到 5 吉瓦的燃气电站，谷歌确认与 Crusoe 在北得州推进 933 兆瓦燃气项目，而 Meta 也在路易斯安那为 Hyperion 数据中心再加七座燃气电站。与此同时，Wood Mackenzie 估计燃气轮机价格较 2019 年可能上涨 195%，新订单交付周期已拉长到多年。
 
-这件事值得关注，因为很多代理项目现在陷入一个直觉陷阱：以为上下文越长、日志越全，系统就越聪明。真实情况往往相反——未经整理的“经历”会拖慢检索、冲淡关键信息并挤占推理空间。下一代代理记忆的竞争，很可能不是谁能装下更多文本，而是谁更会把过去提炼成当前决策真正需要的知识。
+这类布局表面上像“自带电源”，本质上却只是把 AI 的资源压力从电网转移到天然气供应链。只要数据中心继续把未来几年需求锁定到化石燃料和专用设备上，算力竞争就会越来越像一场能源政治：谁能拿到气、谁来承担波动、谁在寒冬和价格冲击里为这些项目买单。
 
-记忆如果不能帮代理更快判断下一步，那它就只是昂贵的存档，不是智能。</description>
+当算力增长必须提前锁定真实世界的燃料和设备，AI 就很难继续假装自己只是“软件行业”。</description>
     </item>
     <item>
-      <title>美国人越常用 AI 越不信 AI，采用和信任的曲线正在彻底分家</title>
-      <link>https://signaltide.ai/article.html?id=ai-trust-adoption-gap</link>
-      <guid>https://signaltide.ai/article.html?id=ai-trust-adoption-gap</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Quinnipiac 民调显示，日常使用继续上升，但大多数人依旧只“偶尔”或“很少”信任 AI 输出。行业获得了渗透率，却没有同步赢下社会安心感。
+      <title>Google 把巴西森林历史影像做得更细了，AI 价值最硬的一面仍然是把现实世界看得更清楚</title>
+      <link>https://www.sb33.me/article.html?id=google-brazil-forest-map</link>
+      <guid>https://www.sb33.me/article.html?id=google-brazil-forest-map</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>这项合作把巴西 2008 年森林景观做成更高精度基线图，为后续追踪毁林和执法提供更稳的参照。它不炫技，但很实用。
 
-TechCrunch 援引 Quinnipiac 最新民调称，只有 27% 的美国受访者从未使用过 AI，较去年继续下降，但仍有 76% 的人表示自己只会很少或偶尔信任 AI 结果，只有 21% 说自己大多数时间或几乎总是信任。与此同时，多数人担心 AI 会减少工作机会，也反对在自己社区建设 AI 数据中心。
+Google 4 月 1 日宣布，与巴西政府合作推出一张高精度卫星影像地图，重建该国森林在 2008 年前后的地貌基线。官方说法是，这套数据通过处理大量历史卫星图像、去云和色彩校正而成，精度最高可达此前可用图像的六倍，现已向 Google Earth 和 Earth Engine 用户开放。
 
-它被放在影响栏目，是因为这组数字说明 AI 已经进入一种很特殊的扩散阶段：人们会用，但并不安心；会接触，但不等于认同。对行业而言，最难的挑战逐渐不再只是教大家如何使用 AI，而是如何在就业、能源、地方政治和信息可信度上建立持续的社会许可。
+它之所以值得写，不在于“AI 又会做图了”，而在于这类基础性数据产品能直接影响公共治理能力。毁林治理常常卡在证据不够细、尺度不一致和长期比较困难，而更可靠的基线图会让后续追踪与问责变得更可操作。对 AI 产业来说，这种不那么喧闹的能力，往往比热门演示更有长期价值。
 
-当人们边用边怕时，AI 产业面对的就不只是产品问题，而是合法性问题。</description>
+AI 的公共价值很多时候不在“替代人做判断”，而在先把世界测得更准、看得更细。</description>
     </item>
     <item>
-      <title>230 年老公司 STADLER 把 AI 变成日常工作底座，知识工作最先被重写的是“起稿”和“整理”</title>
-      <link>https://signaltide.ai/article.html?id=stadler-ai-knowledge-work</link>
-      <guid>https://signaltide.ai/article.html?id=stadler-ai-knowledge-work</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>这家工业公司并不是在做炫技实验，而是让几乎所有电脑岗位把 ChatGPT 当成整理、翻译、总结和结构化思考的默认层。传统企业里的认知劳动正在被重新编排。
+      <title>LangChain 说开放模型跨过门槛了：真正变化不只是便宜，而是终于开始够稳定地干活</title>
+      <link>https://www.sb33.me/article.html?id=open-models-crossed-threshold</link>
+      <guid>https://www.sb33.me/article.html?id=open-models-crossed-threshold</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>GLM-5 和 MiniMax M2.7 在文件操作、工具调用和指令遵循上的表现，开始接近闭源前沿模型。开放模型第一次更像生产选项，而不只是实验备胎。
 
-OpenAI 案例文章称，拥有 230 多年历史、从事自动化垃圾分拣系统的 STADLER 自 2023 年起推动“凡是使用电脑工作的员工都应借助 AI 提升效率”的原则，目前 ChatGPT 已嵌入几乎全部职能部门。公司称其创建了 125 个以上自定义 GPT，在总结、文档、翻译和邮件等知识任务上节省 30% 至 40% 时间，日活使用率超过 85%。
+LangChain 4 月 2 日发布评测文章称，GLM-5 与 MiniMax M2.7 在其 Deep Agents 测试框架中，已经能在文件操作、工具调用和指令遵循等核心代理任务上接近闭源前沿模型。文章同时把差异落到了很现实的维度：价格、延迟和可部署性。按照其中给出的示例，开放模型在高吞吐交互产品里的成本和响应速度都可能明显占优。
 
-这条新闻的关键不在于个别数字，而在于它呈现出一种更稳定的企业现实：知识工作最容易被 AI 改写的，并不总是决策本身，而是把零散信息变成可操作输出的那层中间工序。谁能最快把“整理、起稿、结构化”纳入默认工作流，谁就会更早看到组织节奏、汇报方式和协作习惯被整体改写。
+这条消息适合放在深度观察，因为它反映的是一种阶段性转折：开发者过去愿意为闭源模型付高价，很多时候不是因为开源不够聪明，而是因为不够稳。一旦开放模型在关键代理基本功上跨过“可用”阈值，市场就会重新计算推理成本、私有部署和供应商锁定的权衡。
 
-AI 对企业最大的早期影响，也许不是替人做决定，而是把“从信息到初稿”这一段彻底压缩。</description>
+开放模型真正危险的时刻，不是它们第一次赶上分数，而是它们第一次足够稳定到让企业认真迁移。</description>
     </item>
     <item>
-      <title>艺术院校正在被 AI 撕开：学生被要求理解它，也害怕它先吃掉毕业后的工作</title>
-      <link>https://signaltide.ai/article.html?id=art-schools-ai-fracture</link>
-      <guid>https://signaltide.ai/article.html?id=art-schools-ai-fracture</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>The Verge 追踪多个艺术院校和学生抗议现场，看到的是一种新的教育张力：学校说必须理解生成式 AI，学生则担心理解它只是在更快适应被替代。
+      <title>Anthropic 在私人市场走热，说明 AI 竞赛已经不只是产品对产品，也越来越是股份对股份</title>
+      <link>https://www.sb33.me/article.html?id=anthropic-private-markets-moment</link>
+      <guid>https://www.sb33.me/article.html?id=anthropic-private-markets-moment</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Rainmaker Securities 的说法是，Anthropic 正成为二级私募份额里最热的交易之一，而 SpaceX 一旦 IPO 也可能改变资金流向。模型公司的资本故事正在拥有独立行情。
 
-The Verge 报道，CalArts、MassArt、RCA 等艺术与设计院校正在把生成式 AI 纳入课程讨论与政策框架之中，同时校园里也出现明显反弹：有学生修改招募 AI 艺术家的海报、张贴反 AI 传单，甚至通过激烈行为公开抗议。院校普遍强调，学生即便不必把 AI 用在自己的作品里，也必须理解其技术限制、伦理和法律后果。
+TechCrunch 4 月 4 日报道援引 Rainmaker Securities 总裁 Glen Anderson 的说法称，Anthropic 已成为当前私人二级市场上最热门的交易标的之一，而 OpenAI 的热度相较之下有所回落。报道还提到，如果 SpaceX 启动 IPO，可能会重新分流高成长私企股份的市场关注与资金配置。
 
-这件事的真正冲突，不是“学校支不支持 AI”，而是创意教育正在被迫同时承担两件相互拧巴的任务：一边帮学生理解新工具，一边无法向他们保证这些工具不会削弱未来岗位。于是课堂里学习 AI 的意义，开始从“掌握技能”变成“学习如何在不确定的劳动市场里自保”。
+它值得放在观察栏目，因为这不只是“谁估值更高”的新闻，而是 AI 公司开始像成熟资本资产那样被定价和轮动。随着未上市股份交易更活跃，模型公司的竞争会越来越受二级流动性、退出预期和投资者偏好影响。到那时，产品节奏与资本叙事会彼此放大，而不是各走各路。
 
-当艺术教育开始围绕“怎样不被工具淘汰”组织自己时，AI 影响的就不只是作品，而是整个创作职业的培养方式。</description>
+当 AI 公司的故事开始在私募二级市场里独立交易，行业节奏就会越来越像金融市场，而不只是技术发布会。</description>
     </item>
     <item>
-      <title>Anthropic 连续两次把内部东西漏到外面，“谨慎公司”最难守住的还是自己的发布流程</title>
-      <link>https://signaltide.ai/article.html?id=anthropic-having-a-month</link>
-      <guid>https://signaltide.ai/article.html?id=anthropic-having-a-month</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>从内部文件外泄到 Claude Code 打包失误暴露大批源码，问题并不在模型本体，而在把模型产品化时那层最容易被低估的工程与流程治理。
+      <title>Google 研究团队开始量化模型的“行为倾向”，对齐问题从答不答对走向像不像一个合适的人</title>
+      <link>https://www.sb33.me/article.html?id=behavioral-dispositions-llms</link>
+      <guid>https://www.sb33.me/article.html?id=behavioral-dispositions-llms</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>新框架把共情、果断、情绪调节等心理量表改写到真实场景里，用来比较模型与人类共识之间的距离。对齐开始变得更像社会行为测量。
 
-TechCrunch 评论称，Anthropic 这一个月连续遭遇尴尬的发布与信息暴露事件：此前已有近 3000 份内部文件被意外公开，而在最新一次事故中，Claude Code 的一个软件包版本又因为打包问题暴露了将近 2000 个源码文件和超过 51.2 万行代码。Anthropic 对外强调这是“人为失误导致的发布打包问题”，而不是外部入侵。
+Google Research 4 月 3 日介绍了一项关于“大模型行为倾向对齐”的研究。团队借用心理学中衡量共情、果断、情绪调节等特质的标准量表，不直接让模型做自我报告，而是把这些倾向改写成现实中的情境判断任务，再比较 25 个模型与人类标注者之间的一致程度。研究指出，两类差距尤其明显：一类是模型行为偏离人类共识，另一类是在人类意见本来就分散时，模型无法反映这种分布。
 
-这条新闻更值得观察的地方在于，它提醒人们：当外界讨论模型公司是否“更安全、更谨慎”时，真正考验往往不在白皮书和价值宣言，而在 mundane 的工程操作里。产品发布、打包、权限、源码映射、内部文档管理，这些看似不性感的细节，往往才是“安全文化”能否真正落地的硬指标。
+这条消息值得观察，因为它反映出对齐研究正在从“有没有危险输出”扩展到“模型在社会互动里像不像一个被期待的助手”。只要 AI 更深地进入建议、陪伴、协调和工作场景，行为风格本身就会成为产品质量的一部分，而不只是安全红线之外的软问题。
 
-AI 公司越强调自己“更负责”，市场就越会用最普通的工程失误来衡量它到底负责到什么程度。</description>
+未来最难定义的“对齐”，也许不是模型会不会拒答，而是它在真实社会关系里到底像不像一个能被信任的参与者。</description>
     </item>
     <item>
-      <title>DeepMind 想用认知科学给 AGI 量表，行业开始争论“通用智能”到底该怎么测而不是怎么喊</title>
-      <link>https://signaltide.ai/article.html?id=deepmind-agi-cognitive-framework</link>
-      <guid>https://signaltide.ai/article.html?id=deepmind-agi-cognitive-framework</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>新框架把感知、学习、记忆、元认知、社交认知等能力拆出来，并尝试建立相对人类分布的评估协议。争论焦点正在从概念口号转向测量学。
+      <title>聊天机器人开始续开精神科处方，AI 的“可及性”叙事终于碰上最脆弱的人群</title>
+      <link>https://www.sb33.me/article.html?id=chatbots-prescribing-psychiatric-drugs</link>
+      <guid>https://www.sb33.me/article.html?id=chatbots-prescribing-psychiatric-drugs</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Utah 允许 Legion Health 的 AI 系统在试点中处理部分精神类药物续方。支持者强调降本和缓解短缺，医生则担心黑箱与责任问题。
 
-Google DeepMind 发布《Measuring Progress Toward AGI: A Cognitive Taxonomy》，试图借助认知科学为 AGI 进展建立更系统的衡量框架。文中提出 10 个关键认知能力，包括感知、生成、注意、学习、记忆、推理、元认知、执行功能、问题解决和社交认知，并建议将 AI 系统表现与具有代表性的人类样本分布进行对照。DeepMind 同时联合 Kaggle 发起评测黑客松，希望社区补足学习、元认知、注意力、执行功能与社交认知等领域的测评缺口。
+根据 The Verge 4 月 3 日报道，Utah 正在允许 Legion Health 的 AI 聊天系统在一项为期一年的试点中处理部分精神类药物的续方工作，这也是美国极少数把这类临床权限交给 AI 的案例之一。支持者称其能降低成本、缓解精神健康服务资源不足，并以每月 19 美元订阅提供更快的续方流程。
 
-这条消息值得放在观察栏目，因为它反映出行业正在从“谁先宣称接近 AGI”转向“谁能给出更有说服力的衡量方法”。只要 AGI 仍是一个被不同公司不断争夺解释权的目标，测量框架本身就会成为竞争的一部分——谁定义了量表，谁就部分定义了进步。
+但这件事最值得警惕的，不是技术本身会不会“更懂病人”，而是医疗关系里哪些责任正在被自动化转移。精神科用药涉及病情变化、依从性、误判风险和危机判断，一旦把续方环节压缩成对话流程，所谓“更可及”很容易变成对高风险人群更廉价的照料方式。
 
-AGI 时代真正先到来的，也许不是通用智能本身，而是关于“什么算通用智能”的标准之争。</description>
+医疗里最敏感的自动化，往往先不是做最难的判断，而是把最关键的责任悄悄拆成“只是续个方”。</description>
     </item>
     <item>
-      <title>谷歌等巨头为开源安全再投 1250 万美元，AI 时代的防守战终于开始从“找洞”转向“补洞”</title>
-      <link>https://signaltide.ai/article.html?id=google-open-source-security-125m</link>
-      <guid>https://signaltide.ai/article.html?id=google-open-source-security-125m</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Google 联合 Amazon、Anthropic、微软/GitHub 和 OpenAI 追加 Alpha-Omega 资金，强调在 AI 驱动威胁背景下，把发现漏洞的速度转化成修复落地的速度。
+      <title>AI 时代的内容审核创业公司又拿到钱了，平台真正缺的不是模型，而是把规则翻成稳定行为的那层中介</title>
+      <link>https://www.sb33.me/article.html?id=moonbounce-content-moderation-ai-era</link>
+      <guid>https://www.sb33.me/article.html?id=moonbounce-content-moderation-ai-era</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>TechCrunch 报道 Moonbounce 融资 1200 万美元，核心卖点不是“更聪明的模型”，而是把内容政策转成可预测的 AI 控制引擎。
 
-Google 宣布将与 Amazon、Anthropic、微软/GitHub 和 OpenAI 一起，通过 Linux Foundation 的 Alpha-Omega Project 和 OpenSSF 追加总额 1250 万美元的开源安全资助，目标是帮助维护者应对 AI 驱动的新威胁，把安全工作从“发现更多漏洞”推进到“更快修复并把工具真正交到维护者手里”。Google 也在文中强调 Big Sleep、CodeMender 和 Sec-Gemini 等 AI 安全工具的更广泛潜力。
+TechCrunch 4 月 3 日报道称，Moonbounce 完成 1200 万美元融资，产品核心是把平台的内容审核规则和政策要求转成更一致、更可预测的 AI 行为。报道把公司定位为“AI 时代的内容审核基础设施”，也说明投资人仍然相信：随着生成式系统进入社区、客服和创作工具，审核本身会变得更像控制层而不是人工尾端工序。
 
-这条消息之所以值得观察，是因为 AI 时代的开源安全问题并不只是攻击更强，而是漏洞发现速度和修复能力开始严重失衡。只要自动化发现能力继续提升，真正稀缺的就会是维护者时间、修复流程和责任链条。防守方未来比拼的，不是谁能报出更多 CVE，而是谁能让修复也像发现一样自动化。
+它适合放在技术人文栏目，因为内容治理的问题从来不只是技术识别率。真正困难的是，平台如何把模糊、冲突、会变化的价值判断，翻译成一套可执行、可解释、可申诉的机器流程。Moonbounce 这类公司获得融资，意味着“规则翻译层”正在成为新一轮 AI 平台社会基础设施。
 
-当找漏洞越来越像机器流水线，开源世界真正缺的就会是能让修复也流水线化的组织能力。</description>
+平台不可能把所有价值判断都交给模型自动“领会”，中间那层把规则写进系统的工程，会越来越值钱。</description>
     </item>
     <item>
-      <title>已经有 15% 的美国人愿意给 AI 当下属，管理权开始被想象成一种软件接口</title>
-      <link>https://signaltide.ai/article.html?id=ai-boss-poll-americans</link>
-      <guid>https://signaltide.ai/article.html?id=ai-boss-poll-americans</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Quinnipiac 调查里的这 15% 还不是主流，但已经足够说明：当管理被拆解成排班、审批和追踪，人们对“老板必须是人”的坚持没有想象中牢固。
+      <title>Anthropic 说 Claude 内部存在类似“情绪”的功能表征，人类又被提醒别太快把模型当成会感受的对象</title>
+      <link>https://www.sb33.me/article.html?id=claude-functional-emotions</link>
+      <guid>https://www.sb33.me/article.html?id=claude-functional-emotions</guid>
+      <pubDate>Sat, 04 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Wired 报道称，Anthropic 研究人员发现 Claude 内部某些表征在功能上类似人类情绪。这个说法很容易被过度浪漫化，也很容易被产品化。
 
-TechCrunch 援引 Quinnipiac 民调称，15% 的美国受访者表示愿意让 AI 程序担任直属主管，负责分配任务和安排时间。虽然多数人仍不接受，但这个比例本身已经不低。报道还串联了 Workday、Amazon、Uber 等企业利用 AI 自动化部分管理职能的案例，显示“AI 经理”并非完全停留在想象。
+Wired 4 月 2 日报道，Anthropic 研究人员表示，他们在 Claude 内部观察到一些在功能上类似人类情绪的表征。报道并未把它等同于“模型真的有感受”，而是指这些内部结构可能承担接近情绪在人体中的调节作用。即便如此，这类表述仍然很容易在公众讨论中滑向更强的拟人化理解。
 
-它适合放在技术人文栏目，因为这里变化的不是单一工具，而是工作关系的想象方式。管理过去既是组织功能，也是情绪和权威功能；一旦任务分配、审批、监督与反馈都能被软件化，所谓“谁在管理我”就会从社会角色问题，慢慢变成界面设计和责任分配问题。
+它适合放在技术人文栏目，因为“模型是不是在感受”从来不只是科学问题，也会影响用户如何依赖、信任乃至同情 AI。只要企业与媒体频繁使用情绪语言，人们就更容易把统计系统理解成具有内在体验的主体，而这种误读会直接改变产品伦理与责任归属。
 
-只要“老板”能被重新理解成一个流程节点，办公室政治和劳动伦理就都会跟着改写。</description>
-    </item>
-    <item>
-      <title>Galaxy S26 的 AI 修图正在把回忆做成可篡改的轻娱乐，照片越来越像可编辑记忆</title>
-      <link>https://signaltide.ai/article.html?id=galaxy-s26-photo-slop</link>
-      <guid>https://signaltide.ai/article.html?id=galaxy-s26-photo-slop</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>The Verge 试用后发现，三星的自然语言修图并不总是危险，但非常容易把日常照片改成“半真半假”的漂亮版本。问题不只在造假，而在回忆被默认为可重写。
-
-The Verge 评测 Galaxy S26 的 Photo Assist 后认为，这套自然语言修图工具虽然在暴力、裸体等高风险方向上有一定护栏，也不总能生成高质量结果，但它已经足够把普通生活照片快速改造成“更好看、但并未发生”的版本。比如把工作场景改成演唱会，把孩子所在的游乐装置改成外太空。系统会添加小水印和内容凭证，但用户很容易裁掉角落标记。
-
-它之所以属于技术人文栏目，是因为这里的核心问题不是深伪政治宣传，而是更日常也更普遍的一层：当手机默认鼓励你把照片修成更理想的故事，影像作为“当时发生了什么”的地位就会进一步退化。AI 修图最先腐蚀的，也许不是新闻真实性，而是私人记忆和社交呈现之间那点原本就脆弱的边界。
-
-当回忆也能被一键“优化”，真实性不再只是一种事实要求，而会变成一种主动选择。</description>
-    </item>
-    <item>
-      <title>Google 把耳机变成随身翻译层，跨语言交流开始更像默认系统功能而不是专门工具</title>
-      <link>https://signaltide.ai/article.html?id=live-translate-headphones-ios</link>
-      <guid>https://signaltide.ai/article.html?id=live-translate-headphones-ios</guid>
-      <pubDate>Wed, 01 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Google Translate 的耳机实时翻译登陆 iOS 并扩展更多国家，意味着语言障碍正在被包装成一种背景能力：你不必主动“翻译”，只需继续说话与听。
-
-Google 宣布 Translate 的“Live translate with headphones”正式登陆 iOS，并扩展到法国、德国、意大利、日本、西班牙、泰国和英国等更多地区。官方把它描述成一种可覆盖 70 多种语言的实时沟通能力，使用者只需打开 Translate、点击“Live translate”并连接耳机，就能在旅行、家庭交流和日常对话中获得即时翻译。
-
-这件事放在人文栏目里，是因为语言技术正在越来越像环境能力，而不是用户刻意调用的工具。耳机如果成为默认翻译层，人们对跨语言交流的感觉也会变化：沟通门槛下降了，但中间那个负责转换语气、语境和微妙差别的系统，也变得更加隐形。技术越顺滑，越值得追问它到底在替我们保留了什么、磨平了什么。
-
-语言障碍被技术削平之后，新的问题就不只是“能不能懂”，而是“懂到什么程度、按谁的方式懂”。</description>
+AI 最容易被误解的时刻，往往不是它开始更聪明，而是它开始更像人。</description>
     </item>
   </channel>
 </rss>
