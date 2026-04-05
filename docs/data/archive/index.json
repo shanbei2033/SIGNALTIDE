@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-04-04T02:00:00.000Z",
+  "generatedAt": "2026-04-05T02:00:00.000Z",
   "items": [
+    {
+      "date": "2026-04-05",
+      "displayDate": "2026年4月5日",
+      "articleCount": 16,
+      "leadId": "anthropic-openclaw-pricing-break",
+      "leadHeadline": "Anthropic 把 OpenClaw 等第三方 harness 的 Claude 用量改成单独收费，AI 编程竞赛开始正面撞上容量与入口控制",
+      "note": "保存当日首页版面与详情内容。"
+    },
     {
       "date": "2026-04-04",
       "displayDate": "2026年4月4日",

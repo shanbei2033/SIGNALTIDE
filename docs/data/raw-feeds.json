@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T02:00:28.732Z",
+  "generatedAt": "2026-04-05T02:00:35.928Z",
   "items": [
     {
       "source": "OpenAI",
@@ -704,6 +704,23 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
+      "link": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
+      "publishedAt": "2026-04-04T16:32:22.000Z",
+      "contentSnippet": "It’s about to become more expensive for Claude Code subscribers to use Anthropic’s coding assistant with OpenClaw and other third-party tools.",
+      "categories": [
+        "AI",
+        "Startups",
+        "Anthropic",
+        "claude code",
+        "openclaw",
+        "Peter Steinberger"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
       "title": "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
       "link": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
       "publishedAt": "2026-04-04T01:31:00.000Z",
@@ -711,10 +728,10 @@
       "categories": [
         "AI",
         "TC",
-        "Anthropic",
+        "SpaceX",
         "Exclusive",
         "OpenAI",
-        "SpaceX"
+        "Anthropic"
       ]
     },
     {
@@ -746,9 +763,9 @@
         "Privacy",
         "Startups",
         "Venture",
-        "Mergers and Acquisitions",
+        "In Brief",
         "Claude",
-        "In Brief"
+        "Mergers and Acquisitions"
       ]
     },
     {
@@ -761,11 +778,11 @@
       "contentSnippet": "With the midterms right around the corner, the new group is positioned to back candidates who support the AI company's policy agenda.",
       "categories": [
         "AI",
-        "government",
-        "Anthropic",
         "In Brief",
+        "AnthroPAC",
         "artificial intelligence",
-        "AnthroPAC"
+        "Anthropic",
+        "government"
       ]
     },
     {
@@ -780,11 +797,11 @@
         "AI",
         "Climate",
         "Enterprise",
-        "data centers",
-        "Google",
-        "Microsoft",
+        "Meta",
         "natural gas",
-        "Meta"
+        "data centers",
+        "Microsoft",
+        "Google"
       ]
     },
     {
@@ -799,8 +816,8 @@
         "AI",
         "Enterprise",
         "data centers",
-        "In Brief",
-        "polling"
+        "polling",
+        "In Brief"
       ]
     },
     {
@@ -812,9 +829,9 @@
       "publishedAt": "2026-04-03T14:00:15.000Z",
       "contentSnippet": "Moonbounce has raised $12 million to grow its AI control engine that converts content moderation policies into consistent, predictable AI behavior.",
       "categories": [
+        "Startups",
         "AI",
         "Fundraising",
-        "Startups",
         "ai safety",
         "Amplify Partners",
         "content moderation",
@@ -849,8 +866,8 @@
       "publishedAt": "2026-04-02T16:48:16.000Z",
       "contentSnippet": "MAI released models that can transcribe voice into text as well as generate audio and images after the group's formation six months ago.",
       "categories": [
-        "AI",
         "Enterprise",
+        "AI",
         "artificial intelligence",
         "Microsoft",
         "Mustafa Suleyman",
@@ -889,22 +906,24 @@
       ]
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Meta’s natural gas binge could power South Dakota",
-      "link": "https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/",
-      "publishedAt": "2026-04-01T18:35:36.000Z",
-      "contentSnippet": "Meta's upcoming Hyperion AI data center will be powered by 10 new natural gas plants.",
-      "categories": [
-        "Climate",
-        "AI",
-        "data centers",
-        "Exclusive",
-        "Facebook",
-        "Meta",
-        "natural gas"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "A folk musician became a target for AI fakes and a copyright troll",
+      "link": "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
+      "publishedAt": "2026-04-04T17:52:10.000Z",
+      "contentSnippet": "Murphy Campbell is at the center of a brewing storm around AI and a broken copyright system. | Image: Murphy Campbell In January, folk artist Murphy Campbell discovered several songs on her Spotify profile that did not belong there. They were songs that she had recorded, but she'd never uploaded them to Spotify, and something was off about the vocals. She quickly surmised that someone had pulled performances of the songs she posted to YouTube, created AI covers, and uploaded them to streaming platforms under her name. I ran one of the songs, \"Four Marys\", through two different AI detectors, and it seemed to support her suspicions with both saying it was probably AI-generated. Campbell was shocked, \"I was kind of under the impression that we had a little b … Read the full story at The Verge.",
+      "categories": []
+    },
+    {
+      "source": "The Verge AI",
+      "sourceType": "media",
+      "feedTitle": "AI | The Verge",
+      "title": "Really, you made this without AI? Prove it",
+      "link": "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
+      "publishedAt": "2026-04-04T13:00:00.000Z",
+      "contentSnippet": "\"This looks like AI.\" It's a phrase I dread seeing as a writer who dabbles in illustration and amateur photography. In a world where generative AI technology is increasingly adept at mimicking the work of humans, people are naturally skeptical when online platforms refuse to label even obvious AI content. This leads me to one conclusion: maybe we should start labeling human-made text, images, audio, and video with something akin to a universally recognized Fair Trade logo. The machines sure as hell aren't motivated to label their work, but the creators at risk of being displaced most definitely are. Fortunately, I'm not alone in my thinki … Read the full story at The Verge.",
+      "categories": []
     },
     {
       "source": "The Verge AI",
@@ -984,26 +1003,6 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down",
       "publishedAt": "2026-04-02T15:33:23.000Z",
       "contentSnippet": "For the past seven years, the California-based startup Kintsugi has been developing AI designed to detect signs of depression and anxiety from a person's speech. But after failing to secure FDA clearance in time, the company is shutting down and releasing most of its technology as open-source. Some elements may even find a second life beyond healthcare, like detecting deepfake audio. Mental health assessments still largely rely on patient questionnaires and clinical interviews, rather than the lab tests or scans common in physical medicine. Instead of focusing on what someone is saying, Kintsugi's software analyzes how it is being said. Th … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Microsoft’s new ‘superintelligence’ game plan is all about business",
-      "link": "https://www.theverge.com/report/905791/mustafa-suleyman-microsoft-ai-transcription-model",
-      "publishedAt": "2026-04-02T14:00:00.000Z",
-      "contentSnippet": "Mustafa Suleyman has been preparing for his new job description for a long time. Suleyman is Microsoft's inaugural CEO of AI, but after the company underwent a large-scale restructuring in mid-March, he's handed off some duties and shifted focus to chasing superintelligence. Though the news was only made public last month, he tells The Verge, he'd been preparing for the transition for as many as nine months - and though renegotiating Microsoft's contract with OpenAI is the thing that officially \"unlocked [Microsoft's] ability to pursue superintelligence,\" he'd been planning even before the ink was dry. \"This has been a long-held plan,\" he … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Google Home’s latest update makes Gemini better at understanding your commands",
-      "link": "https://www.theverge.com/tech/905805/google-home-gemini-temperature-controls-lighting",
-      "publishedAt": "2026-04-02T13:30:12.000Z",
-      "contentSnippet": "Google is launching another update to its Home app, which is supposed to make controlling your smart home with its Gemini AI assistant \"more natural and reliable,\" according to this week's release notes. With the update, you can describe the type of lighting you want, such as \"the color of the ocean,\" and Gemini will pick the color based on your prompt. You can also use more natural and precise language when asking Gemini to control your appliances or climate. That means you can now tell Gemini to \"preheat the smart oven to 350 degrees\" or set specific humidity levels. Google has improved Gemini's ability to identify your devices, too - lik … Read the full story at The Verge.",
       "categories": []
     },
     {
@@ -1509,474 +1508,6 @@
       "categories": [
         "Business",
         "Business / Computers and Software"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study",
-      "link": "https://arxiv.org/abs/2604.00005",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00005v1 Announce Type: new Abstract: Emotion plays an important role in human cognition and performance. Motivated by this, we investigate whether analogous emotional signals can shape the behavior of large language models (LLMs) and agents. Existing emotion-aware studies mainly treat emotion as a surface-level style factor or a perception target, overlooking its mechanistic role in task processing. To address this limitation, we propose E-STEER, an interpretable emotion steering framework that enables direct representation-level intervention in LLMs and agents. It embeds emotion as a structured, controllable variable in hidden states, and with it, we examine the impact of emotion on objective reasoning, subjective generation, safety, and multi-step agent behaviors. The results reveal non-monotonic emotion-behavior relations consistent with established psychological theories, and show that specific emotions not only enhance LLM capability but also improve safety, and systematically shape multi-step agent behaviors.",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction",
-      "link": "https://arxiv.org/abs/2604.00085",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00085v1 Announce Type: new Abstract: Large language models applied to clinical prediction exhibit case-level heterogeneity: simple cases yield consistent outputs, while complex cases produce divergent predictions under minor prompt changes. Existing single-agent strategies sample from one role-conditioned distribution, and multi-agent frameworks use fixed roles with flat majority voting, discarding the diagnostic signal in disagreement. We propose CAMP (Case-Adaptive Multi-agent Panel), where an attending-physician agent dynamically assembles a specialist panel tailored to each case's diagnostic uncertainty. Each specialist evaluates candidates via three-valued voting (KEEP/REFUSE/NEUTRAL), enabling principled abstention outside one's expertise. A hybrid router directs each diagnosis through strong consensus, fallback to the attending physician's judgment, or evidence-based arbitration that weighs argument quality over vote counts. On diagnostic prediction and brief hospital course generation from MIMIC-IV across four LLM backbones, CAMP consistently outperforms strong baselines while consuming fewer tokens than most competing multi-agent methods, with voting records and arbitration traces offering transparent decision audits.",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.MA"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents",
-      "link": "https://arxiv.org/abs/2604.00137",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00137v1 Announce Type: new Abstract: Tool-integrated LLMs can retrieve, compute, and take real-world actions via external tools, but reliability remains a key bottleneck. We argue that failures stem from both tool-use accuracy (how well an agent invokes a tool) and intrinsic tool accuracy (the tool's own correctness), while most prior work emphasizes the former. We introduce OpenTools, a community-driven toolbox that standardizes tool schemas, provides lightweight plug-and-play wrappers, and evaluates tools with automated test suites and continuous monitoring. We also release a public web demo where users can run predefined agents and tools and contribute test cases, enabling reliability reports to evolve as tools change. OpenTools includes the core framework, an initial tool set, evaluation pipelines, and a contribution protocol. Experiments and evaluations show improved end-to-end reproducibility and task performance; community-contributed, higher-quality task-specific tools deliver 6%-22% relative gains over an existing toolbox across multiple agent architectures on downstream tasks and benchmarks, highlighting the importance of intrinsic tool accuracy.",
-      "categories": [
-        "cs.AI",
-        "cs.SE"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "A Safety-Aware Role-Orchestrated Multi-Agent LLM Framework for Behavioral Health Communication Simulation",
-      "link": "https://arxiv.org/abs/2604.00249",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00249v1 Announce Type: new Abstract: Single-agent large language model (LLM) systems struggle to simultaneously support diverse conversational functions and maintain safety in behavioral health communication. We propose a safety-aware, role-orchestrated multi-agent LLM framework designed to simulate supportive behavioral health dialogue through coordinated, role-differentiated agents. Conversational responsibilities are decomposed across specialized agents, including empathy-focused, action-oriented, and supervisory roles, while a prompt-based controller dynamically activates relevant agents and enforces continuous safety auditing. Using semi-structured interview transcripts from the DAIC-WOZ corpus, we evaluate the framework with scalable proxy metrics capturing structural quality, functional diversity, and computational characteristics. Results illustrate clear role differentiation, coherent inter-agent coordination, and predictable trade-offs between modular orchestration, safety oversight, and response latency when compared to a single-agent baseline. This work emphasizes system design, interpretability, and safety, positioning the framework as a simulation and analysis tool for behavioral health informatics and decision-support research rather than a clinical intervention.",
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Human-in-the-Loop Control of Objective Drift in LLM-Assisted Computer Science Education",
-      "link": "https://arxiv.org/abs/2604.00281",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00281v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly embedded in computer science education through AI-assisted programming tools, yet such workflows often exhibit objective drift, in which locally plausible outputs diverge from stated task specifications. Existing instructional responses frequently emphasize tool-specific prompting practices, limiting durability as AI platforms evolve. This paper adopts a human-centered stance, treating human-in-the-loop (HITL) control as a stable educational problem rather than a transitional step toward AI autonomy. Drawing on systems engineering and control-theoretic concepts, we frame objectives and world models as operational artifacts that students configure to stabilize AI-assisted work. We propose a pilot undergraduate CS laboratory curriculum that explicitly separates planning from execution and trains students to specify acceptance criteria and architectural constraints prior to code generation. In selected labs, the curriculum also introduces deliberate, concept-aligned drift to support diagnosis and recovery from specification violations. We report a sensitivity power analysis for a three-arm pilot design comparing unstructured AI use, structured planning, and structured planning with injected drift, establishing detectable effect sizes under realistic section-level constraints. The contribution is a theory-driven, methodologically explicit foundation for HITL pedagogy that renders control competencies teachable across evolving AI tools.",
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections",
-      "link": "https://arxiv.org/abs/2604.00284",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00284v1 Announce Type: new Abstract: We formally introduce a improvisational wordplay game called Connections to explore reasoning capabilities of AI agents. Playing Connections combines skills in knowledge retrieval, summarization and awareness of cognitive states of other agents. We show how the game serves as a good benchmark for social intelligence abilities of language model based agents that go beyond the agents' own memory and deductive reasoning and also involve gauging the understanding capabilities of other agents. Finally, we show how through communication with other agents in a constrained environment, AI agents must demonstrate social awareness and intelligence in games involving collaboration.",
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry",
-      "link": "https://arxiv.org/abs/2604.00319",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00319v1 Announce Type: new Abstract: We develop algorithms for collaborative control of AI agents and critics in a multi-actor, multi-critic federated multi-agent system. Each AI agent and critic has access to classical machine learning or generative AI foundation models. The AI agents and critics collaborate with a central server to complete multimodal tasks such as fault detection, severity, and cause analysis in a network telemetry system, text-to-image generation, video generation, healthcare diagnostics from medical images and patient records, etcetera. The AI agents complete their tasks and send them to AI critics for evaluation. The critics then send feedback to agents to improve their responses. Collaboratively, they minimize the overall cost to the system with no inter-agent or inter-critic communication. AI agents and critics keep their cost functions or derivatives of cost functions private. Using multi-time scale stochastic approximation techniques, we provide convergence guarantees on the time-average active states of AI agents and critics. The communication overhead is a little on the system, of the order of $\\mathcal{O}(m)$, for $m$ modalities and is independent of the number of AI agents and critics. Finally, we present an example of fault detection, severity, and cause analysis in network telemetry and thorough evaluation to check the algorithm's efficacy.",
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Signals: Trajectory Sampling and Triage for Agentic Interactions",
-      "link": "https://arxiv.org/abs/2604.00356",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00356v1 Announce Type: new Abstract: Agentic applications based on large language models increasingly rely on multi-step interaction loops involving planning, action execution, and environment feedback. While such systems are now deployed at scale, improving them post-deployment remains challenging. Agent trajectories are voluminous and non-deterministic, and reviewing each one, whether through human review or auxiliary LLMs, is slow and cost-prohibitive. We propose a lightweight, signal-based framework for triaging agentic interaction trajectories. Our approach computes cheap, broadly applicable signals from live interactions and attaches them as structured attributes for trajectory triage, identifying interactions likely to be informative without affecting online agent behavior. We organize signals into a coarse-grained taxonomy spanning interaction (misalignment, stagnation, disengagement, satisfaction), execution (failure, loop), and environment (exhaustion), designed for computation without model calls. In a controlled annotation study on $\\tau$-bench, a widely used benchmark for tool-augmented agent evaluation, we show that signal-based sampling achieves an 82\\% informativeness rate compared to 74\\% for heuristic filtering and 54\\% for random sampling, with a 1.52x efficiency gain per informative trajectory. The advantage is robust across reward strata and task domains, confirming that signals provide genuine per-trajectory informativeness gains rather than merely oversampling obvious failures. These results show that lightweight signals can serve as practical sampling infrastructure for agentic systems, and suggest a path toward preference data construction and post-deployment optimization.",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "In harmony with gpt-oss",
-      "link": "https://arxiv.org/abs/2604.00362",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00362v1 Announce Type: new Abstract: No one has independently reproduced OpenAI's published scores for gpt-oss-20b with tools, because the original paper discloses neither the tools nor the agent harness. We reverse-engineered the model's in-distribution tools: when prompted without tool definitions, gpt-oss still calls tools from its training distribution with high statistical confidence -- a strong prior, not a hallucination. We then built a native harmony agent harness (https://github.com/borislavmavrin/harmonyagent.git) that encodes messages in the model's native format, bypassing the lossy Chat Completions conversion. Together, these yield the first independent reproduction of OpenAI's published scores: 60.4% on SWE Verified HIGH (published 60.7%), 53.3% MEDIUM (53.2%), and 91.7% on AIME25 with tools (90.4%).",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Decision-Centric Design for LLM Systems",
-      "link": "https://arxiv.org/abs/2604.00414",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00414v1 Announce Type: new Abstract: LLM systems must make control decisions in addition to generating outputs: whether to answer, clarify, retrieve, call tools, repair, or escalate. In many current architectures, these decisions remain implicit within generation, entangling assessment and action in a single model call and making failures hard to inspect, constrain, or repair. We propose a decision-centric framework that separates decision-relevant signals from the policy that maps them to actions, turning control into an explicit and inspectable layer of the system. This separation supports attribution of failures to signal estimation, decision policy, or execution, and enables modular improvement of each component. It unifies familiar single-step settings such as routing and adaptive inference, and extends naturally to sequential settings in which actions alter the information available before acting. Across three controlled experiments, the framework reduces futile actions, improves task success, and reveals interpretable failure modes. More broadly, it offers a general architectural principle for building more reliable, controllable, and diagnosable LLM systems.",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Self-Routing: Parameter-Free Expert Routing from Hidden States",
-      "link": "https://arxiv.org/abs/2604.00421",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00421v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) layers increase model capacity by activating only a small subset of experts per token, and typically rely on a learned router to map hidden states to expert assignments. In this work, we ask whether a dedicated learned router is strictly necessary in the MoE settings we study. We propose Self-Routing, a parameter-free routing mechanism that uses a designated subspace of the token hidden state directly as expert logits, eliminating the router projection entirely while leaving the rest of the MoE layer unchanged. We evaluate Self-Routing on GPT-2-scale language modeling and ImageNet-1K classification by comparing it against a standard learned router, random-routing baselines, and dense non-MoE baselines. Our results show that Self-Routing remains competitive with the learned-router baseline while removing all dedicated routing parameters, and yields more balanced expert utilization, with about 17 % higher average normalized routing entropy and no explicit load-balancing loss. On ImageNet-1K with DeiT-S/16, Self-Routing also slightly improves over the corresponding learned-router MoE. These findings suggest that effective MoE routing can emerge from the hidden representation itself without requiring a separate learned router module.",
-      "categories": [
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv AI",
-      "sourceType": "research",
-      "feedTitle": "cs.AI updates on arXiv.org",
-      "title": "Execution-Verified Reinforcement Learning for Optimization Modeling",
-      "link": "https://arxiv.org/abs/2604.00442",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00442v1 Announce Type: new Abstract: Automating optimization modeling with LLMs is a promising path toward scalable decision intelligence, but existing approaches either rely on agentic pipelines built on closed-source LLMs with high inference latency, or fine-tune smaller LLMs using costly process supervision that often overfits to a single solver API. Inspired by reinforcement learning with verifiable rewards, we propose Execution-Verified Optimization Modeling (EVOM), an execution-verified learning framework that treats a mathematical programming solver as a deterministic, interactive verifier. Given a natural-language problem and a target solver, EVOM generates solver-specific code, executes it in a sandboxed harness, and converts execution outcomes into scalar rewards, optimized with GRPO and DAPO in a closed-loop generate-execute-feedback-update process. This outcome-only formulation removes the need for process-level supervision, and enables cross-solver generalization by switching the verification environment rather than reconstructing solver-specific datasets. Experiments on NL4OPT, MAMO, IndustryOR, and OptiBench across Gurobi, OR-Tools, and COPT show that EVOM matches or outperforms process-supervised SFT, supports zero-shot solver transfer, and achieves effective low-cost solver adaptation by continuing training under the target solver backend.",
-      "categories": [
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Benchmark for Assessing Olfactory Perception of Large Language Models",
-      "link": "https://arxiv.org/abs/2604.00002",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00002v1 Announce Type: new Abstract: Here we introduce the Olfactory Perception (OP) benchmark, designed to assess the capability of large language models (LLMs) to reason about smell. The benchmark contains 1,010 questions across eight task categories spanning odor classification, odor primary descriptor identification, intensity and pleasantness judgments, multi-descriptor prediction, mixture similarity, olfactory receptor activation, and smell identification from real-world odor sources. Each question is presented in two prompt formats, compound names and isomeric SMILES, to evaluate the effect of molecular representations. Evaluating 21 model configurations across major model families, we find that compound-name prompts consistently outperform isomeric SMILES, with gains ranging from +2.4 to +18.9 percentage points (mean approx +7 points), suggesting current LLMs access olfactory knowledge primarily through lexical associations rather than structural molecular reasoning. The best-performing model reaches 64.4\\% overall accuracy, which highlights both emerging capabilities and substantial remaining gaps in olfactory reasoning. We further evaluate a subset of the OP across 21 languages and find that aggregating predictions across languages improves olfactory prediction, with AUROC = 0.86 for the best performing language ensemble model. LLMs should be able to handle olfactory and not just visual or aural information.",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "A Reliability Evaluation of Hybrid Deterministic-LLM Based Approaches for Academic Course Registration PDF Information Extraction",
-      "link": "https://arxiv.org/abs/2604.00003",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00003v1 Announce Type: new Abstract: This study evaluates the reliability of information extraction approaches from KRS documents using three strategies: LLM only, Hybrid Deterministic - LLM (regex + LLM), and a Camelot based pipeline with LLM fallback. Experiments were conducted on 140 documents for the LLM based test and 860 documents for the Camelot based pipeline evaluation, covering four study programs with varying data in tables and metadata. Three 12 - 14B LLM models (Gemma 3, Phi 4, and Qwen 2.5) were run locally using Ollama and a consumer grade CPU without a GPU. Evaluations used exact match (EM) and Levenshtein similarity (LS) metrics with a threshold of 0.7. Although not applicable to all models, the results show that the hybrid approach can improve efficiency compared to LLM only, especially for deterministic metadata. The Camelot based pipeline with LLM fallback produced the best combination of accuracy (EM and LS up to 0.99 - 1.00) and computational efficiency (less than 1 second per PDF in most cases). The Qwen 2.5:14b model demonstrated the most consistent performance across all scenarios. These findings confirm that integrating deterministic and LLM methods is increasingly reliable and efficient for information extraction from text based academic documents in computationally constrained environments.",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.IR"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "LinearARD: Linear-Memory Attention Distillation for RoPE Restoration",
-      "link": "https://arxiv.org/abs/2604.00004",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00004v1 Announce Type: new Abstract: The extension of context windows in Large Language Models is typically facilitated by scaling positional encodings followed by lightweight Continual Pre-Training (CPT). While effective for processing long sequences, this paradigm often disrupts original model capabilities, leading to performance degradation on standard short-text benchmarks. We propose LinearARD, a self-distillation method that restores Rotary Position Embeddings (RoPE)-scaled students through attention-structure consistency with a frozen native-RoPE teacher. Rather than matching opaque hidden states, LinearARD aligns the row-wise distributions of dense $Q/Q$, $K/K$, and $V/V$ self-relation matrices to directly supervise attention dynamics. To overcome the quadratic memory bottleneck of $n \\times n$ relation maps, we introduce a linear-memory kernel. This kernel leverages per-token log-sum-exp statistics and fuses logit recomputation into the backward pass to compute exact Kullback-Leibler divergence and gradients. On LLaMA2-7B extended from 4K to 32K, LinearARD recovers 98.3\\% of the short-text performance of state-of-the-art baselines while surpassing them on long-context benchmarks. Notably, our method achieves these results using only \\textbf{4.25M} training tokens compared to the \\textbf{256M} tokens required by LongReD and CPT. Our code is available at https://github.com/gracefulning/LinearARD.",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Scalable Identification and Prioritization of Requisition-Specific Personal Competencies Using Large Language Models",
-      "link": "https://arxiv.org/abs/2604.00006",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00006v1 Announce Type: new Abstract: AI-powered recruitment tools are increasingly adopted in personnel selection, yet they struggle to capture the requisition (req)-specific personal competencies (PCs) that distinguish successful candidates beyond job categories. We propose a large language model (LLM)-based approach to identify and prioritize req-specific PCs from reqs. Our approach integrates dynamic few-shot prompting, reflection-based self-improvement, similarity-based filtering, and multi-stage validation. Applied to a dataset of Program Manager reqs, our approach correctly identifies the highest-priority req-specific PCs with an average accuracy of 0.76, approaching human expert inter-rater reliability, and maintains a low out-of-scope rate of 0.07.",
-      "categories": [
-        "cs.CL",
-        "cs.CY",
-        "cs.IR",
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Dynin-Omni: Omnimodal Unified Large Diffusion Language Model",
-      "link": "https://arxiv.org/abs/2604.00007",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00007v1 Announce Type: new Abstract: We present Dynin-Omni, the first masked-diffusion-based omnimodal foundation model that unifies text, image, and speech understanding and generation, together with video understanding, within a single architecture. Unlike autoregressive unified models that serialize heterogeneous modalities, or compositional unified models that require orchestration with external modality-specific decoders, Dynin-Omni natively formulates omnimodal modeling as masked diffusion over a shared discrete token space, enabling iterative refinement under bidirectional context. Dynin-Omni adopts a multi-stage training strategy with model-merging-based modality expansion and omnimodal alignment. We evaluate Dynin-Omni across 19 multimodal benchmarks spanning language reasoning, image generation and editing, video understanding, and speech recognition and synthesis. Dynin-Omni achieves 87.6 on GSM8K, 1733.6 on MME-P, 61.4 on VideoMME, 0.87 on GenEval, and 2.1 WER on LibriSpeech test-clean, consistently outperforming existing open-source unified models while remaining competitive with strong modality-specific expert systems. These results demonstrate the potential of masked diffusion as a unified paradigm for any-to-any modeling, providing a flexible foundation for real-time omnimodal systems, unified cross-modal retrieval and generation, and embodied multimodal agents.",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "How Trustworthy Are LLM-as-Judge Ratings for Interpretive Responses? Implications for Qualitative Research Workflows",
-      "link": "https://arxiv.org/abs/2604.00008",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00008v1 Announce Type: new Abstract: As qualitative researchers show growing interest in using automated tools to support interpretive analysis, a large language model (LLM) is often introduced into an analytic workflow as is, without systematic evaluation of interpretive quality or comparison across models. This practice leaves model selection largely unexamined despite its potential influence on interpretive outcomes. To address this gap, this study examines whether LLM-as-judge evaluations meaningfully align with human judgments of interpretive quality and can inform model-level decision making. Using 712 conversational excerpts from semi-structured interviews with K-12 mathematics teachers, we generated one-sentence interpretive responses using five widely adopted inference models: Command R+ (Cohere), Gemini 2.5 Pro (Google), GPT-5.1 (OpenAI), Llama 4 Scout-17B Instruct (Meta), and Qwen 3-32B Dense (Alibaba). Automated evaluations were conducted using AWS Bedrock's LLM-as-judge framework across five metrics, and a stratified subset of responses was independently rated by trained human evaluators on interpretive accuracy, nuance preservation, and interpretive coherence. Results show that LLM-as-judge scores capture broad directional trends in human evaluations at the model level but diverge substantially in score magnitude. Among automated metrics, Coherence showed the strongest alignment with aggregated human ratings, whereas Faithfulness and Correctness revealed systematic misalignment at the excerpt level, particularly for non-literal and nuanced interpretations. Safety-related metrics were largely irrelevant to interpretive quality. These findings suggest that LLM-as-judge methods are better suited for screening or eliminating underperforming models than for replacing human judgment, offering practical guidance for systematic comparison and selection of LLMs in qualitative research workflows.",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Eyla: Toward an Identity-Anchored LLM Architecture with Integrated Biological Priors -- Vision, Implementation Attempt, and Lessons from AI-Assisted Development",
-      "link": "https://arxiv.org/abs/2604.00009",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00009v1 Announce Type: new Abstract: We present the design rationale, implementation attempt, and failure analysis of Eyla, a proposed identity-anchored LLM architecture that integrates biologically-inspired subsystems -- including HiPPO-initialized state-space models, zero-initialized adapters, episodic memory retrieval, and calibrated uncertainty training -- into a unified agent operating system running on consumer hardware. Unlike existing approaches that optimize models for generic helpfulness, Eyla targets identity consistency: the ability to maintain a coherent self-model under adversarial pressure, admit uncertainty, and resist manipulation. We propose the Identity Consistency Score (ICS), a novel benchmark for evaluating this property across LLMs. We then present an honest account of attempting to implement this architecture using AI coding assistants (Claude Code, Cursor) as a non-programmer, documenting a $1,000+ failure that produced a 1.27B parameter model with 86 brain subsystems contributing less than 2% to output. Our analysis identifies five systematic failure modes of AI-assisted development for novel architectures and offers concrete recommendations. To our knowledge, this is the first paper to combine an architectural vision with a documented first-person failure analysis of AI-assisted LLM development, providing lessons for both the AI systems and AI-assisted software engineering communities.",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Can LLMs Perceive Time? An Empirical Investigation",
-      "link": "https://arxiv.org/abs/2604.00010",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00010v1 Announce Type: new Abstract: Large language models cannot estimate how long their own tasks take. We investigate this limitation through four experiments across 68 tasks and four model families. Pre-task estimates overshoot actual duration by 4--7$\\times$ ($p < 0.001$), with models predicting human-scale minutes for tasks completing in seconds. Relative ordering fares no better: on task pairs designed to expose heuristic reliance, models score at or below chance (GPT-5: 18\\% on counter-intuitive pairs, $p = 0.033$), systematically failing when complexity labels mislead. Post-hoc recall is disconnected from reality -- estimates diverge from actuals by an order of magnitude in either direction. These failures persist in multi-step agentic settings, with errors of 5--10$\\times$. The models possess propositional knowledge about duration from training but lack experiential grounding in their own inference time, with practical implications for agent scheduling, planning and time-critical scenarios.",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Finding and Reactivating Post-Trained LLMs' Hidden Safety Mechanisms",
-      "link": "https://arxiv.org/abs/2604.00012",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00012v1 Announce Type: new Abstract: Despite the impressive performance of general-purpose large language models (LLMs), they often require fine-tuning or post-training to excel at specific tasks. For instance, large reasoning models (LRMs), such as the DeepSeek-R1 series, demonstrate strong reasoning capabilities after post-training different general large language models on diverse chain-of-thought (CoT) datasets. However, this additional training frequently comes at the cost of reduced safety, as the fine-tuned or post-trained models tend to exhibit more harmful behaviors compared with the regular LLMs before post-training or fine-tuning, potentially leading to harmful outcomes due to their enhanced capabilities. Taking LRMs as an example, we first investigate the underlying cause of this safety degradation in this paper. Our analysis reveals that post-training can mask the original safety mechanisms of the base LLM, while over-amplifying representations related to their post-training ability. But luckily, we also find that LRMs' safety mechanisms still exist instead of being removed during their post-training. Based on these findings, we propose a lightweight and cost-effective solution called SafeReAct that restores the suppressed safety behaviors by aligning with LoRA adapters on a few layers. Experiments on four state-of-the-art LRMs show that our method significantly improves safety on harmful prompts without compromising reasoning performance. Besides LRMs, additional results on other domain-specific LLMs, like medical models, further confirm the generality and effectiveness of our approach.",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "MSA-Thinker: Discrimination-Calibration Reasoning with Hint-Guided Reinforcement Learning for Multimodal Sentiment Analysis",
-      "link": "https://arxiv.org/abs/2604.00013",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00013v1 Announce Type: new Abstract: Multimodal sentiment analysis aims to understand human emotions by integrating textual, auditory, and visual modalities. Although Multimodal Large Language Models (MLLMs) have achieved state-of-the-art performance via supervised fine-tuning (SFT), their end-to-end \"black-box\" nature limits interpretability. Existing methods incorporating Chain-of-Thought (CoT) reasoning are hindered by high annotation costs, while Reinforcement Learning (RL) faces challenges such as low exploration efficiency and sparse rewards, particularly on hard samples. To address these issues, we propose a novel training framework that integrates structured Discrimination-Calibration (DC) reasoning with Hint-based Reinforcement Learning. First, we perform cold-start SFT using high-quality CoT data synthesized by a teacher model (Qwen3Omni-30B), which inherently contains the DC structure. This equips the model with a reasoning paradigm that performs macro discrimination followed by fine-grained calibration from the initial stage. Building on this, we propose Hint-GRPO, which leverages the discrimination phase within the DC structure as a verifiable anchor during RL to provide directional hints for hard samples, guiding policy optimization and effectively mitigating the reward sparsity problem. Experiments on the Qwen2.5Omni-7B model demonstrate that our method not only achieves higher accuracy in fine-grained sentiment regression tasks but also generates high-quality structured reasoning chains. Crucially, it exhibits superior generalization capability in cross-domain evaluations. This enhances model interpretability while validating the positive contribution of explicit reasoning steps to model robustness, offering a new paradigm for building trustworthy and efficient sentiment analysis systems.",
-      "categories": [
-        "cs.CL",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "Disentangling Prompt Element Level Risk Factors for Hallucinations and Omissions in Mental Health LLM Responses",
-      "link": "https://arxiv.org/abs/2604.00014",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00014v1 Announce Type: new Abstract: Mental health concerns are often expressed outside clinical settings, including in high-distress help seeking, where safety-critical guidance may be needed. Consumer health informatics systems increasingly incorporate large language models (LLMs) for mental health question answering, yet many evaluations underrepresent narrative, high-distress inquiries. We introduce UTCO (User, Topic, Context, Tone), a prompt construction framework that represents an inquiry as four controllable elements for systematic stress testing. Using 2,075 UTCO-generated prompts, we evaluated Llama 3.3 and annotated hallucinations (fabricated or incorrect clinical content) and omissions (missing clinically necessary or safety-critical guidance). Hallucinations occurred in 6.5% of responses and omissions in 13.2%, with omissions concentrated in crisis and suicidal ideation prompts. Across regression, element-specific matching, and similarity-matched comparisons, failures were most consistently associated with context and tone, while user-background indicators showed no systematic differences after balancing. These findings support evaluating omissions as a primary safety outcome and moving beyond static benchmark question sets.",
-      "categories": [
-        "cs.CL",
-        "cs.HC"
-      ]
-    },
-    {
-      "source": "arXiv CL",
-      "sourceType": "research",
-      "feedTitle": "cs.CL updates on arXiv.org",
-      "title": "ASCAT: An Arabic Scientific Corpus and Benchmark for Advanced Translation Evaluation",
-      "link": "https://arxiv.org/abs/2604.00015",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.00015v1 Announce Type: new Abstract: We present ASCAT (Arabic Scientific Corpus for Advanced Translation), a high-quality English-Arabic parallel benchmark corpus designed for scientific translation evaluation constructed through a systematic multi-engine translation and human validation pipeline. Unlike existing Arabic-English corpora that rely on short sentences or single-domain text, ASCAT targets full scientific abstracts averaging 141.7 words (English) and 111.78 words (Arabic), drawn from five scientific domains: physics, mathematics, computer science, quantum mechanics, and artificial intelligence. Each abstract was translated using three complementary architectures generative AI (Gemini), transformer-based models (Hugging Face \\texttt{quickmt-en-ar}), and commercial MT APIs (Google Translate, DeepL) and subsequently validated by domain experts at the lexical, syntactic, and semantic levels. The resulting corpus contains 67,293 English tokens and 60,026 Arabic tokens, with an Arabic vocabulary of 17,604 unique words reflecting the morphological richness of the language. We benchmark three state-of-the-art LLMs on the corpus GPT-4o-mini (BLEU: 37.07), Gemini-3.0-Flash-Preview (BLEU: 30.44), and Qwen3-235B-A22B (BLEU: 23.68) demonstrating its discriminative power as an evaluation benchmark. ASCAT addresses a critical gap in scientific MT resources for Arabic and is designed to support rigorous evaluation of scientific translation quality and training of domain-specific translation models.",
-      "categories": [
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "DySCo: Dynamic Semantic Compression for Effective Long-term Time Series Forecasting",
-      "link": "https://arxiv.org/abs/2604.01261",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01261v1 Announce Type: new Abstract: Time series forecasting (TSF) is critical across domains such as finance, meteorology, and energy. While extending the lookback window theoretically provides richer historical context, in practice, it often introduces irrelevant noise and computational redundancy, preventing models from effectively capturing complex long-term dependencies. To address these challenges, we propose a Dynamic Semantic Compression (DySCo) framework. Unlike traditional methods that rely on fixed heuristics, DySCo introduces an Entropy-Guided Dynamic Sampling (EGDS) mechanism to autonomously identify and retain high-entropy segments while compressing redundant trends. Furthermore, we incorporate a Hierarchical Frequency-Enhanced Decomposition (HFED) strategy to separate high-frequency anomalies from low-frequency patterns, ensuring that critical details are preserved during sparse sampling. Finally, a Cross-Scale Interaction Mixer(CSIM) is designed to dynamically fuse global contexts with local representations, replacing simple linear aggregation. Experimental results demonstrate that DySCo serves as a universal plug-and-play module, significantly enhancing the ability of mainstream models to capture long-term correlations with reduced computational cost.",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Sven: Singular Value Descent as a Computationally Efficient Natural Gradient Method",
-      "link": "https://arxiv.org/abs/2604.01279",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01279v1 Announce Type: new Abstract: We introduce Sven (Singular Value dEsceNt), a new optimization algorithm for neural networks that exploits the natural decomposition of loss functions into a sum over individual data points, rather than reducing the full loss to a single scalar before computing a parameter update. Sven treats each data point's residual as a separate condition to be satisfied simultaneously, using the Moore-Penrose pseudoinverse of the loss Jacobian to find the minimum-norm parameter update that best satisfies all conditions at once. In practice, this pseudoinverse is approximated via a truncated singular value decomposition, retaining only the $k$ most significant directions and incurring a computational overhead of only a factor of $k$ relative to stochastic gradient descent. This is in comparison to traditional natural gradient methods, which scale as the square of the number of parameters. We show that Sven can be understood as a natural gradient method generalized to the over-parametrized regime, recovering natural gradient descent in the under-parametrized limit. On regression tasks, Sven significantly outperforms standard first-order methods including Adam, converging faster and to a lower final loss, while remaining competitive with LBFGS at a fraction of the wall-time cost. We discuss the primary challenge to scaling, namely memory overhead, and propose mitigation strategies. Beyond standard machine learning benchmarks, we anticipate that Sven will find natural application in scientific computing settings where custom loss functions decompose into several conditions.",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "hep-th",
-        "math.OC"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Forecasting Supply Chain Disruptions with Foresight Learning",
-      "link": "https://arxiv.org/abs/2604.01298",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01298v1 Announce Type: new Abstract: Anticipating supply chain disruptions before they materialize is a core challenge for firms and policymakers alike. A key difficulty is learning to reason reliably about infrequent, high-impact events from noisy and unstructured inputs - a setting where general-purpose models struggle without task-specific adaptation. We introduce an end-to-end framework that trains LLMs to produce calibrated probabilistic forecasts using realized disruption outcomes as supervision. The resulting model substantially outperforms strong baselines - including GPT-5 - on accuracy, calibration, and precision. We also show that training induces more structured and reliable probabilistic reasoning without explicit prompting. These results suggest a general pathway for training domain-specific forecasting models that produce decision-ready signals. To support transparency we open-source the evaluation dataset used in this study. Dataset: https://huggingface.co/datasets/LightningRodLabs/supply-chain-predictions",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "UQ-SHRED: uncertainty quantification of shallow recurrent decoder networks for sparse sensing via engression",
-      "link": "https://arxiv.org/abs/2604.01305",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01305v1 Announce Type: new Abstract: Reconstructing high-dimensional spatiotemporal fields from sparse sensor measurements is critical in a wide range of scientific applications. The SHallow REcurrent Decoder (SHRED) architecture is a recent state-of-the-art architecture that reconstructs high-quality spatial domain from hyper-sparse sensor measurement streams. An important limitation of SHRED is that in complex, data-scarce, high-frequency, or stochastic systems, portions of the spatiotemporal field must be modeled with valid uncertainty estimation. We introduce UQ-SHRED, a distributional learning framework for sparse sensing problems that provides uncertainty quantification through a neural network-based distributional regression called engression. UQ-SHRED models the uncertainty by learning the predictive distribution of the spatial state conditioned on the sensor history. By injecting stochastic noise into sensor inputs and training with an energy score loss, UQ-SHRED produces predictive distributions with minimal computational overhead, requiring only noise injection at the input and resampling through a single architecture without retraining or additional network structures. On complicated synthetic and real-life datasets including turbulent flow, atmospheric dynamics, neuroscience and astrophysics, UQ-SHRED provides a distributional approximation with well-calibrated confidence intervals. We further conduct ablation studies to understand how each model setting affects the quality of the UQ-SHRED performance, and its validity on uncertainty quantification over a set of different experimental setups.",
-      "categories": [
-        "cs.LG",
-        "cs.CE"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "An Online Machine Learning Multi-resolution Optimization Framework for Energy System Design Limit of Performance Analysis",
-      "link": "https://arxiv.org/abs/2604.01308",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01308v1 Announce Type: new Abstract: Designing reliable integrated energy systems for industrial processes requires optimization and verification models across multiple fidelities, from architecture-level sizing to high-fidelity dynamic operation. However, model mismatch across fidelities obscures the sources of performance loss and complicates the quantification of architecture-to-operation performance gaps. We propose an online, machine-learning-accelerated multi-resolution optimization framework that estimates an architecture-specific upper bound on achievable performance while minimizing expensive high-fidelity model evaluations. We demonstrate the approach on a pilot energy system supplying a 1 MW industrial heat load. First, we solve a multi-objective architecture optimization to select the system configuration and component capacities. We then develop an machine learning (ML)-accelerated multi-resolution, receding-horizon optimal control strategy that approaches the achievable-performance bound for the specified architecture, given the additional controls and dynamics not captured by the architectural optimization model. The ML-guided controller adaptively schedules the optimization resolution based on predictive uncertainty and warm-starts high-fidelity solves using elite low-fidelity solutions. Our results on the pilot case study show that the proposed multi-resolution strategy reduces the architecture-to-operation performance gap by up to 42% relative to a rule-based controller, while reducing required high-fidelity model evaluations by 34% relative to the same multi-fidelity approach without ML guidance, enabling faster and more reliable design verification. Together, these gains make high-fidelity verification tractable, providing a practical upper bound on achievable operational performance.",
-      "categories": [
-        "cs.LG",
-        "cs.CE",
-        "math.OC"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "JetPrism: diagnosing convergence for generative simulation and inverse problems in nuclear physics",
-      "link": "https://arxiv.org/abs/2604.01313",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01313v1 Announce Type: new Abstract: High-fidelity Monte Carlo simulations and complex inverse problems, such as mapping smeared experimental observations to ground-truth states, are computationally intensive yet essential for robust data analysis. Conditional Flow Matching (CFM) offers a mathematically robust approach to accelerating these tasks, but we demonstrate its standard training loss is fundamentally misleading. In rigorous physics applications, CFM loss plateaus prematurely, serving as an unreliable indicator of true convergence and physical fidelity. To investigate this disconnect, we designed JetPrism, a configurable CFM framework acting as an efficient generative surrogate for evaluating unconditional generation and conditional detector unfolding. Using synthetic stress tests and a Jefferson Lab kinematic dataset ($\\gamma p \\to \\rho^0 p \\to \\pi^+\\pi^- p$) relevant to the forthcoming Electron-Ion Collider (EIC), we establish that physics-informed metrics continue to improve significantly long after the standard loss converges. Consequently, we propose a multi-metric evaluation protocol incorporating marginal and pairwise $\\chi^2$ statistics, $W_1$ distances, correlation matrix distances ($D_{\\mathrm{corr}}$), and nearest-neighbor distance ratios ($R_{\\mathrm{NN}}$). By demonstrating that domain-specific evaluations must supersede generic loss metrics, this work establishes JetPrism as a dependable generative surrogate that ensures precise statistical agreement with ground-truth data without memorizing the training set. While demonstrated in nuclear physics, this diagnostic framework is readily extensible to parameter generation and complex inverse problems across broad domains. Potential applications span medical imaging, astrophysics, semiconductor discovery, and quantitative finance, where high-fidelity simulation, rigorous inversion, and generative reliability are critical.",
-      "categories": [
-        "cs.LG",
-        "nucl-ex",
-        "physics.data-an",
-        "physics.ins-det"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Detecting Complex Money Laundering Patterns with Incremental and Distributed Graph Modeling",
-      "link": "https://arxiv.org/abs/2604.01315",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01315v1 Announce Type: new Abstract: Money launderers take advantage of limitations in existing detection approaches by hiding their financial footprints in a deceitful manner. They manage this by replicating transaction patterns that the monitoring systems cannot easily distinguish. As a result, criminally gained assets are pushed into legitimate financial channels without drawing attention. Algorithms developed to monitor money flows often struggle with scale and complexity. The difficulty of identifying such activities is further intensified by the (persistent) inability of current solutions to control the excessive number of false positive signals produced by rigid, risk-based rules systems. We propose a framework called ReDiRect (REduce, DIstribute, and RECTify), specifically designed to overcome these challenges. The primary contribution of our work is a novel framing of this problem in an unsupervised setting; where a large transaction graph is fuzzily partitioned into smaller, manageable components to enable fast processing in a distributed manner. In addition, we define a refined evaluation metric that better captures the effectiveness of exposed money laundering patterns. Through comprehensive experimentation, we demonstrate that our framework achieves superior performance compared to existing and state-of-the-art techniques, particularly in terms of efficiency and real-world applicability. For validation, we used the real (open source) Libra dataset and the recently released synthetic datasets by IBM Watson. Our code and datasets are available at https://github.com/mhaseebtariq/redirect.",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Efficient and Principled Scientific Discovery through Bayesian Optimization: A Tutorial",
-      "link": "https://arxiv.org/abs/2604.01328",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01328v1 Announce Type: new Abstract: Traditional scientific discovery relies on an iterative hypothesise-experiment-refine cycle that has driven progress for centuries, but its intuitive, ad-hoc implementation often wastes resources, yields inefficient designs, and misses critical insights. This tutorial presents Bayesian Optimisation (BO), a principled probability-driven framework that formalises and automates this core scientific cycle. BO uses surrogate models (e.g., Gaussian processes) to model empirical observations as evolving hypotheses, and acquisition functions to guide experiment selection, balancing exploitation of known knowledge and exploration of uncharted domains to eliminate guesswork and manual trial-and-error. We first frame scientific discovery as an optimisation problem, then unpack BO's core components, end-to-end workflows, and real-world efficacy via case studies in catalysis, materials science, organic synthesis, and molecule discovery. We also cover critical technical extensions for scientific applications, including batched experimentation, heteroscedasticity, contextual optimisation, and human-in-the-loop integration. Tailored for a broad audience, this tutorial bridges AI advances in BO with practical natural science applications, offering tiered content to empower cross-disciplinary researchers to design more efficient experiments and accelerate principled scientific discovery.",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Model Merging via Data-Free Covariance Estimation",
-      "link": "https://arxiv.org/abs/2604.01329",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01329v1 Announce Type: new Abstract: Model merging provides a way of cheaply combining individual models to produce a model that inherits each individual's capabilities. While some merging methods can approach the performance of multitask training, they are often heuristically motivated and lack theoretical justification. A principled alternative is to pose model merging as a layer-wise optimization problem that directly minimizes interference between tasks. However, this formulation requires estimating per-layer covariance matrices from data, which may not be available when performing merging. In contrast, many of the heuristically-motivated methods do not require auxiliary data, making them practically advantageous. In this work, we revisit the interference minimization framework and show that, under certain conditions, covariance matrices can be estimated directly from difference matrices, eliminating the need for data while also reducing computational costs. We validate our approach across vision and language benchmarks on models ranging from 86M parameters to 7B parameters, outperforming previous data-free state-of-the-art merging methods",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "SECURE: Stable Early Collision Understanding via Robust Embeddings in Autonomous Driving",
-      "link": "https://arxiv.org/abs/2604.01337",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01337v1 Announce Type: new Abstract: While deep learning has significantly advanced accident anticipation, the robustness of these safety-critical systems against real-world perturbations remains a major challenge. We reveal that state-of-the-art models like CRASH, despite their high performance, exhibit significant instability in predictions and latent representations when faced with minor input perturbations, posing serious reliability risks. To address this, we introduce SECURE - Stable Early Collision Understanding Robust Embeddings, a framework that formally defines and enforces model robustness. SECURE is founded on four key attributes: consistency and stability in both prediction space and latent feature space. We propose a principled training methodology that fine-tunes a baseline model using a multi-objective loss, which minimizes divergence from a reference model and penalizes sensitivity to adversarial perturbations. Experiments on DAD and CCD datasets demonstrate that our approach not only significantly enhances robustness against various perturbations but also improves performance on clean data, achieving new state-of-the-art results.",
-      "categories": [
-        "cs.LG",
-        "cs.CV"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Massively Parallel Exact Inference for Hawkes Processes",
-      "link": "https://arxiv.org/abs/2604.01342",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01342v1 Announce Type: new Abstract: Multivariate Hawkes processes are a widely used class of self-exciting point processes, but maximum likelihood estimation naively scales as $O(N^2)$ in the number of events. The canonical linear exponential Hawkes process admits a faster $O(N)$ recurrence, but prior work evaluates this recurrence sequentially, without exploiting parallelization on modern GPUs. We show that the Hawkes process intensity can be expressed as a product of sparse transition matrices admitting a linear-time associative multiply, enabling computation via a parallel prefix scan. This yields a simple yet massively parallelizable algorithm for maximum likelihood estimation of linear exponential Hawkes processes. Our method reduces the computational complexity to approximately $O(N/P)$ with $P$ parallel processors, and naturally yields a batching scheme to maintain constant memory usage, avoiding GPU memory constraints. Importantly, it computes the exact likelihood without any additional assumptions or approximations, preserving the simplicity and interpretability of the model. We demonstrate orders-of-magnitude speedups on simulated and real datasets, scaling to thousands of nodes and tens of millions of events, substantially beyond scales reported in prior work. We provide an open-source PyTorch library implementing our optimizations.",
-      "categories": [
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arXiv ML",
-      "sourceType": "research",
-      "feedTitle": "cs.LG updates on arXiv.org",
-      "title": "Malliavin Calculus for Counterfactual Gradient Estimation in Adaptive Inverse Reinforcement Learning",
-      "link": "https://arxiv.org/abs/2604.01345",
-      "publishedAt": "2026-04-03T04:00:00.000Z",
-      "contentSnippet": "arXiv:2604.01345v1 Announce Type: new Abstract: Inverse reinforcement learning (IRL) recovers the loss function of a forward learner from its observed responses adaptive IRL aims to reconstruct the loss function of a forward learner by passively observing its gradients as it performs reinforcement learning (RL). This paper proposes a novel passive Langevin-based algorithm that achieves adaptive IRL. The key difficulty in adaptive IRL is that the required gradients in the passive algorithm are counterfactual, that is, they are conditioned on events of probability zero under the forward learner's trajectory. Therefore, naive Monte Carlo estimators are prohibitively inefficient, and kernel smoothing, though common, suffers from slow convergence. We overcome this by employing Malliavin calculus to efficiently estimate the required counterfactual gradients. We reformulate the counterfactual conditioning as a ratio of unconditioned expectations involving Malliavin quantities, thus recovering standard estimation rates. We derive the necessary Malliavin derivatives and their adjoint Skorohod integral formulations for a general Langevin structure, and provide a concrete algorithmic approach which exploits these for counterfactual gradient estimation.",
-      "categories": [
-        "cs.LG"
       ]
     },
     {
@@ -2586,7 +2117,7 @@
       "title": "Tech Nonprofits to Feds: Don’t Weaponize Procurement to Undermine AI Trust and Safety",
       "link": "https://www.eff.org/deeplinks/2026/04/tech-nonprofits-feds-dont-weaponize-procurement-undermine-ai-trust-and-safety",
       "publishedAt": "2026-04-03T17:37:01.000Z",
-      "contentSnippet": "While the very public fight continues between the Department of Defense and Anthropic over whether the government can punish a company for refusing to allow its technology to be used for mass surveillance, another agency of the U.S. government is quietly working to ensure that this dispute will never happen again. How? By rewriting government procurement rules. Using procurement — meaning, the processes by which governments acquire goods and services — to accomplish policy goals is a time-honored and often appropriate strategy. The government literally expresses its politics and priorities by deciding where and how it spends its money. To that end, governments can and should give our tax dollars to companies and projects that serve the public interest, such as open-source software development, interoperability, or right to repair. And they should withhold those dollars from those that don’t, like shady contractors with inadequate security systems. New proposed rules for the principal agency in charge of acquiring goods, property, and services for the federal government, the General Services Administration (GSA), are supposed to be primarily an effort to implement one policy priority: promoting steering government funds toward “ideologically neutral” American AI innovation, but the new guidelines do far more than that. As explained in comments filed today with our partners at the Center for Democracy and Technology, the Protect Democracy Project, and the Electronic Privacy Information Center, the GSA’s guidelines include broad provisions that would make AI tools less safe and less useful. If finally adopted, these provisions would become standard components of every federal contract. You can read the full comments here. The most egregious example is a requirement that contractors and government service providers must license their AI systems to the government for “all lawful purposes.” Given the government’s loose interpretations of the law, ability to find loopholes to surveil you, and willingness to do illegal spying, we need serious and proactive legal restrictions to prevent it from gobbling up all the personal data it can acquire and using even routine bureaucratic data for punitive ends. Relatedly, the draft rules require that “AI System(s) must not refuse to produce data outputs or conduct analyses based on the Contractor’s or Service Provider’s discretionary policies.” In other words, if a company’s safety guardrails might prevent responding to a government request, the company must disable those guardrails. Given widespread public concerns about AI safety, it seems misguided, at best, to limit the safeguards a company deems necessary. There are myriad other problems with the draft rules, such as technologically incoherent “anti-Woke” requirements. But, the overarching problem is clear: much of this proposal would not serve the overall public interest in using American tax dollars to promote privacy, safety, and responsible technological innovation. The GSA should start over.",
+      "contentSnippet": "While the very public fight continues between the Department of Defense and Anthropic over whether the government can punish a company for refusing to allow its technology to be used for mass surveillance, another agency of the U.S. government is quietly working to ensure that this dispute will never happen again. How? By rewriting government procurement rules. Using procurement — meaning, the processes by which governments acquire goods and services — to accomplish policy goals is a time-honored and often appropriate strategy. The government literally expresses its politics and priorities by deciding where and how it spends its money. To that end, governments can and should give our tax dollars to companies and projects that serve the public interest, such as open-source software development, interoperability, or right to repair. And they should withhold those dollars from those that don’t, like shady contractors with inadequate security systems. New proposed rules for the principal agency in charge of acquiring goods, property, and services for the federal government, the General Services Administration (GSA), are supposed to be primarily an effort to implement one policy priority: promoting “ideologically neutral” American AI innovation. But the new guidelines do far more than that. As explained in comments filed today with our partners at the Center for Democracy and Technology, the Protect Democracy Project, and the Electronic Privacy Information Center, the GSA’s guidelines include broad provisions that would make AI tools less safe and less useful. If finally adopted, these provisions would become standard components of every federal contract. You can read the full comments here. The most egregious example is a requirement that contractors and government service providers must license their AI systems to the government for “all lawful purposes.” Given the government’s loose interpretations of the law, ability to find loopholes to surveil you, and willingness to do illegal spying, we need serious and proactive legal restrictions to prevent it from gobbling up all the personal data it can acquire and using even routine bureaucratic data for punitive ends. Relatedly, the draft rules require that “AI System(s) must not refuse to produce data outputs or conduct analyses based on the Contractor’s or Service Provider’s discretionary policies.” In other words, if a company’s safety guardrails might prevent responding to a government request, the company must disable those guardrails. Given widespread public concerns about AI safety, it seems misguided, at best, to limit the safeguards a company deems necessary. There are myriad other problems with the draft rules, such as technologically incoherent “anti-Woke” requirements. But, the overarching problem is clear: much of this proposal would not serve the overall public interest in using American tax dollars to promote privacy, safety, and responsible technological innovation. The GSA should start over.",
       "categories": [
         {
           "_": "Artificial Intelligence",
