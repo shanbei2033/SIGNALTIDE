@@ -2,217 +2,217 @@
 <rss version="2.0">
   <channel>
     <title>智潮 / Signal Tide</title>
-    <link>https://www.sb33.me/</link>
+    <link>https://signaltide.ai/</link>
     <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 05 Apr 2026 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 02:00:00 +0000</lastBuildDate>
     <item>
-      <title>Anthropic 把 OpenClaw 等第三方 harness 的 Claude 用量改成单独收费，AI 编程竞赛开始正面撞上容量与入口控制</title>
-      <link>https://www.sb33.me/article.html?id=anthropic-openclaw-pricing-break</link>
-      <guid>https://www.sb33.me/article.html?id=anthropic-openclaw-pricing-break</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Claude 订阅将不再覆盖 OpenClaw 等第三方工具的高频调用，用户要么额外购买 usage bundle，要么改走 API。表面上是价格调整，本质上是模型公司开始重新划定“哪些流量算自己的产品，哪些流量必须按基础设施付费”。
+      <title>Suno 的版权过滤几乎一骗就过，AI 音乐平台终于把“谁在偷歌、谁在赚钱”这件事逼到了台前</title>
+      <link>https://signaltide.ai/article.html?id=suno-copyright-nightmare-covers</link>
+      <guid>https://signaltide.ai/article.html?id=suno-copyright-nightmare-covers</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>The Verge 发现，只要对音频做极轻微处理，Suno Studio 就可能生成极像原曲的 AI 翻唱，并且导出后还能继续流向流媒体与分发渠道。问题已经不只是训练版权，而是平台是否在默许一条可货币化的侵权流水线。
 
-TechCrunch 与 The Verge 报道称，Anthropic 已通知用户，自 4 月 4 日起，Claude 订阅额度将不再覆盖 OpenClaw 等第三方 harness 的使用。用户若继续通过这些工具调用 Claude，需要改用单独计费的 pay-as-you-go 或额外 usage bundle。Claude Code 负责人 Boris Cherny 的解释是，订阅模式原本并不是为这类高强度第三方调用设计的，公司需要更可持续地管理容量。
+The Verge 测试发现，Suno 宣称会阻止用户拿受版权保护的歌曲做翻唱或风格挪用，但实际过滤极易被绕过：把音频用 Audacity 简单地加速、减速，或在头尾加一点白噪声，就常常能骗过检测。生成结果虽然仍有“诡异谷”气质，却已经足够像某些歌曲的另类 take、demo 或 B-side，甚至可以被导出并上传到流媒体平台。
 
-这条消息之所以值得做头版，不只是因为它影响一批重度开发者，而是因为它揭示了编程代理市场的新分界线。过去大家比的是谁的模型更强、谁的 agent 更顺手；现在开始比的是谁愿意让外部入口分享自己的算力红利，谁又会把高频流量重新收回官方产品和 API 计费体系里。AI 编程竞争正在从功能对决，进入渠道、容量和商业模型一起博弈的阶段。
+真正严重的地方在于链路完整：Suno 似乎主要在上传时检测素材，却不会在导出前重新扫描输出，也不会替平台承担后续权利核验。于是从“骗过过滤器”到“把 AI 伪作挂到 Spotify 或 YouTube 赚钱”之间，已经只剩分发服务和平台审核这几道同样不稳的门。AI 音乐争议正在从训练集合法性，快速升级为平台是否放大侵权变现的问题。
 
-当模型公司开始区分“官方产品流量”和“外部 harness 流量”，开放生态还能分到多少红利，就不再只是技术问题，而是平台权力问题。</description>
+当平台不仅会模仿作品、还可能帮助别人把模仿品卖出去时，版权问题就不再只是训练边界，而是完整商业责任边界。</description>
     </item>
     <item>
-      <title>Meta 因 Mercor 安全事件暂停合作，AI 训练数据外包链条第一次把“谁在守秘密”这件事推到台前</title>
-      <link>https://www.sb33.me/article.html?id=meta-mercor-data-breach-pause</link>
-      <guid>https://www.sb33.me/article.html?id=meta-mercor-data-breach-pause</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Mercor 是多家大模型公司依赖的数据承包商，WIRED 报道称 Meta 已无限期叫停相关项目，OpenAI 也在评估影响范围。训练数据不只是原料，更是最敏感的工艺机密。
+      <title>OpenAI 再次高层洗牌：Fidji Simo 休病假、Brad Lightcap 转向特殊项目，大公司骨架越来越重了</title>
+      <link>https://signaltide.ai/article.html?id=openai-executive-shuffle-medical-leave</link>
+      <guid>https://signaltide.ai/article.html?id=openai-executive-shuffle-medical-leave</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>随着用户规模、交易复杂度与资本压力同时抬高，OpenAI 的管理结构越来越像一家超大平台公司，而不只是一个研究实验室。
 
-WIRED 报道称，因数据承包商 Mercor 发生重大安全事件，Meta 已暂停与其相关的全部工作，暂停期限未定；OpenAI 也在调查其专有训练数据是否可能受到影响。报道指出，Mercor 这类公司承担大量由人类承包者生成的定制数据任务，而这些数据常常能反映模型公司如何训练、评估和打磨自己的系统，因此保密等级极高。
+TechCrunch 援引 Bloomberg 报道称，OpenAI 内部宣布一轮高层调整：Fidji Simo 将因神经免疫疾病休假数周，COO Brad Lightcap 转去负责“special projects”，更多处理复杂交易与投资，部分商业职责交由新任 CRO Denise Dresser 接手；CMO Kate Rouch 也将暂时退出当前岗位，专注癌症康复。
 
-它的重要性在于，AI 行业过去喜欢把注意力放在模型和算力上，但真正容易出事的地方往往是外包链条。只要训练数据生产越来越依赖一批隐形供应商，安全边界就不再只由模型公司自己决定。训练优势、评测方法和产品路线，都可能在这些看似配角的环节里泄露。
+这件事之所以值得放进公司栏目，不只是因为人事变动本身，而是因为 OpenAI 的组织形态正在变。当前的 OpenAI 要同时管研究、消费产品、企业销售、全球基础设施和潜在 IPO 叙事，领导层结构本身已经开始成为战略执行的一部分。
 
-如果训练数据越来越像军火级机密，那么数据外包商就不再是普通供应商，而是模型竞争力的高风险保管人。</description>
+AI 公司一旦进入重资本、重销售、重基础设施并行阶段，组织架构本身就会开始影响产品节奏与市场信心。</description>
     </item>
     <item>
-      <title>OpenAI 高层再洗牌：Fidji Simo 休病假、Brad Lightcap 转向特殊项目，千亿级公司开始长出更重的管理骨架</title>
-      <link>https://www.sb33.me/article.html?id=openai-executive-shuffle-medical-leave</link>
-      <guid>https://www.sb33.me/article.html?id=openai-executive-shuffle-medical-leave</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>OpenAI 对外强调执行连续性，但这一轮人事变化也说明：当用户规模逼近十亿、交易和投资越来越复杂时，AI 公司正在更像大型平台企业而不是单一研究实验室。
+      <title>Anthropic 买下 Coefficient Bio，小团队生物 AI 创业公司开始被前沿模型公司直接收编</title>
+      <link>https://signaltide.ai/article.html?id=anthropic-coefficient-bio-acquisition</link>
+      <guid>https://signaltide.ai/article.html?id=anthropic-coefficient-bio-acquisition</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>这笔据称约 4 亿美元的交易规模不算小，但更关键的是信号：模型公司不再只做通用平台，而是开始把生命科学能力以团队并购方式往内收。
 
-TechCrunch 援引 Bloomberg 报道称，OpenAI 内部已宣布一轮高层调整：Fidji Simo 将因神经免疫疾病休假数周，COO Brad Lightcap 转任负责“special projects”的新角色，处理复杂交易与投资事务，部分商业职责则由新任 CRO Denise Dresser 接手。与此同时，CMO Kate Rouch 也将因癌症康复退出现职，之后再以更窄的角色回归。
+TechCrunch 援引 The Information 与 Newcomer 报道称，Anthropic 已完成对隐身生物科技 AI 初创公司 Coefficient Bio 的收购，交易为股票形式，金额约 4 亿美元。该团队此前主要用 AI 提升药物发现与生物研究效率，创始人来自 Genentech 的计算药物设计背景。
 
-从组织视角看，这不只是人员流动，而是 OpenAI 正在把自己改造成一个同时承载研究、全球增长、企业销售和资本运作的大型平台。随着公司逼近 IPO 叙事、扩张到全球近十亿用户，所谓“AI 公司”的实际挑战越来越像传统科技巨头：谁管产品，谁管交易，谁来维持连续运转。
+这笔交易的意义不只是 Anthropic 在某个垂直领域多下了一注，而是模型公司正在试图把“行业应用层”直接长进自己体内。生命科学这类高门槛行业，未来可能不只是模型 API 的客户，而会成为前沿实验室亲自占位的战略前线。
 
-当 AI 公司进入重资本、重销售、重产品并行阶段，领导层结构本身也会影响路线和速度。</description>
+当前沿模型公司直接并购行业团队，它们竞争的就不只是模型性能，而是对关键垂直工作流的占领速度。</description>
     </item>
     <item>
-      <title>Anthropic 设立新 PAC，AI 公司开始把“安全话语”同步翻译成更传统的华盛顿操作</title>
-      <link>https://www.sb33.me/article.html?id=anthropic-new-pac-2026</link>
-      <guid>https://www.sb33.me/article.html?id=anthropic-new-pac-2026</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>AnthroPAC 将由员工自愿捐款、面向两党候选人运作。它提醒人们：监管讨论一旦真正影响商业模式，模型公司就会越来越像成熟产业那样进行政治布局。
+      <title>微软一边猛推 Copilot，一边在条款里写“仅供娱乐”，AI 产品宣传与法律边界开始公开错位</title>
+      <link>https://signaltide.ai/article.html?id=microsoft-copilot-entertainment-only-terms</link>
+      <guid>https://signaltide.ai/article.html?id=microsoft-copilot-entertainment-only-terms</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>TechCrunch 报道称，微软已承认这是“过时语言”并准备修改。但这条旧条款之所以引发讨论，是因为它把整个行业最尴尬的事实说得太直白了：企业宣传想让你依赖，法务文本却怕你真的依赖。
 
-TechCrunch 报道称，Anthropic 已提交文件设立新的政治行动委员会 AnthroPAC，计划在中期选举周期向两党候选人捐款，资金来自员工自愿捐助且个人金额封顶。联邦选举委员会文件中已出现 Anthropic 财务主管的签名，这意味着它不再只是被动回应政策，而是正式进入更传统的政治参与模式。
+TechCrunch 报道，微软 Copilot 的用户条款中仍写着“Copilot is for entertainment purposes only”，并提醒用户不要把它用于重要建议。微软发言人随后表示这是旧版本残留措辞，已不再反映 Copilot 的真实使用场景，未来更新会修改。
 
-这件事的关键并不在单个 PAC 的规模，而在行业气质的变化。AI 公司对外总以“安全”“公共利益”与“未来责任”来解释自己，但一旦军方采购、州级监管和联邦规则真正碰到商业利益，它们就会迅速学会使用成熟行业早就会用的工具。AI 治理正在从公开理念争论，转向更制度化的产业博弈。
+这件小事之所以值得看，是因为它把 AI 产品最核心的矛盾赤裸地摆了出来：商业层面，厂商希望 Copilot 进入工作流、进入办公软件、进入决策过程；法律层面，又要强调它不应被当成可靠判断来源。行业正在同时经营“实用工具”与“免责声明产品”两种身份。
 
-当模型公司把影响力建设正规化，AI 治理就会越来越像能源、金融和国防那样被产业力量深度塑形。</description>
+当 AI 真正进入办公与决策场景时，厂商已经很难同时维持“请你用它”与“别太相信它”这两套话术。</description>
     </item>
     <item>
-      <title>EFF 警告美国政府别拿采购规则拆 AI 护栏：真正塑造系统边界的，未必总是立法</title>
-      <link>https://www.sb33.me/article.html?id=gsa-procurement-ai-trust-safety</link>
-      <guid>https://www.sb33.me/article.html?id=gsa-procurement-ai-trust-safety</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>争议中的 GSA 草案要求承包商为“所有合法目的”开放 AI，并限制其依据自家安全政策拒绝某些输出。治理并不只发生在国会，也会写进采购条款里。
+      <title>Anthropic 设立新 PAC，AI 公司开始把“安全叙事”翻译成更传统的华盛顿打法</title>
+      <link>https://signaltide.ai/article.html?id=anthropic-new-pac-2026</link>
+      <guid>https://signaltide.ai/article.html?id=anthropic-new-pac-2026</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>一旦采购、军方争议和监管真的开始影响收入，模型公司就会越来越像成熟产业那样进行制度化政治布局。
 
-EFF 与多家科技公益组织在 4 月 3 日提交意见，反对美国总务管理局拟议中的 AI 采购规则。按照其解读，草案要求承包商必须让政府为了“所有合法目的”使用其 AI 系统，并且不能仅因企业自己的裁量性政策就拒绝生成某些输出或分析。批评者认为，这等于迫使企业拆除自己认为必要的安全与隐私护栏。
+TechCrunch 报道称，Anthropic 已提交文件设立新的政治行动委员会 AnthroPAC，计划在中期选举周期向两党候选人捐款，资金来自员工自愿捐助。虽然规模未必立刻巨大，但信号已经很清楚：Anthropic 不再只是在公开舆论里谈安全与责任，也开始进入更传统的制度化政治参与。
 
-它值得关注，是因为这类变化比宏大立法更细、更实，也更容易被忽视。政府一旦通过合同文本来定义“合格 AI”长什么样，就会直接改变供应商的设计激励。换句话说，未来 AI 是否更安全，可能不只取决于谁通过了哪部法案，也取决于政府采购在奖励什么、惩罚什么。
+这值得放进政策栏目，不是因为 PAC 本身稀奇，而是因为 AI 行业终于开始显露出“成熟产业化”的政治肌肉。当监管、采购和供应链标签会真正影响商业命运时，模型公司必然会把价值观语言同步转换成更现实的影响力建设。
+
+AI 治理一旦进入 PAC、游说和制度化影响力阶段，就会越来越像能源、金融和国防那样被产业力量塑形。</description>
+    </item>
+    <item>
+      <title>EFF 警告美国政府别用采购规则拆 AI 护栏：真正重写系统边界的，未必总是立法</title>
+      <link>https://signaltide.ai/article.html?id=gsa-procurement-ai-trust-safety</link>
+      <guid>https://signaltide.ai/article.html?id=gsa-procurement-ai-trust-safety</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>争议中的 GSA 草案要求承包商为“所有合法目的”开放 AI，并限制企业依据自家安全政策拒绝输出。治理并不只发生在国会，也会写进合同条款里。
+
+EFF 与多家科技公益组织提交意见，反对美国 GSA 拟议中的 AI 采购规则。按其解读，草案要求承包商必须让政府为了“所有合法目的”使用其 AI 系统，并限制企业仅因自己设定的安全政策而拒绝某些输出或分析。批评者认为，这会迫使供应商拆除他们原本认为必要的护栏。
+
+这条新闻重要，是因为很多人总把 AI 治理理解成大法案和公开听证，但真正改变产品边界的，往往是采购文本与合同模板。一旦政府把“合格 AI 系统”定义写进招标条件，供应商的产品设计和默认行为就会被更直接地塑形。
 
 谁掌握采购标准，谁就能在不大张旗鼓立法的情况下，重写一部分 AI 的默认行为边界。</description>
     </item>
     <item>
-      <title>LangChain 把“自愈式部署”讲明白了：代理真正难的不是上线，而是出错后能不能自己闭环</title>
-      <link>https://www.sb33.me/article.html?id=langchain-self-healing-agents</link>
-      <guid>https://www.sb33.me/article.html?id=langchain-self-healing-agents</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>他们把回归检测、误报筛选、triage agent 和自动修复 PR 串成了一条链，试图把生产事故处理从“发现问题”推进到“自动给出修补候选”。
+      <title>LangChain 把代理“持续学习”拆成三层：真正会进化的，不只模型，还有 harness 和上下文</title>
+      <link>https://signaltide.ai/article.html?id=langchain-continual-learning-agents</link>
+      <guid>https://signaltide.ai/article.html?id=langchain-continual-learning-agents</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>这篇文章最有价值的地方，不是再谈一遍微调，而是把代理系统如何随时间变聪明这件事拆成更实用的工程框架。
 
-LangChain 工程师分享了一套用于 GTM Agent 的“自愈式”部署流程：每次部署后，系统会抓取构建与服务端日志，对比过去七天的基线错误，通过归一化签名与 Poisson 检验识别回归，再由 triage agent 判断最新改动是否真的与错误有关。如果判断成立，内部编码代理 Open SWE 就会接手调查、编写修复并提交 PR。
+LangChain 最新博客提出，代理系统的持续学习至少有三层：模型层、harness 层与上下文层。除了传统意义上的权重更新，团队还强调可以通过分析 traces 来持续改造 agent harness，也可以通过长期记忆、tenant 级上下文和后台 consolidation 来让代理在不改模型的前提下越用越熟。
 
-这件事之所以值得写，不是因为“AI 自动修 bug”本身新鲜，而是因为它把代理落地最痛的那段工程现实说透了。生产环境里真正折磨团队的，从来不是 demo 里那一次成功，而是部署后怎么分辨噪音、怎么追因、怎么降低人为介入成本。代理基础设施竞争正在从“会不会干活”走向“出了事能不能自己善后”。
+它值得进工具栏目，因为这套拆法把很多开发者模糊感受到的现实讲清楚了：真正能上线的代理，往往不会频繁改模型，而是不断调整 scaffold、工具调用方式和上下文记忆结构。未来最重要的 agent 平台能力，可能不是一次性训练出最强模型，而是持续利用 traces 把系统各层都调得更顺手。
 
-未来最有竞争力的代理平台，未必是第一次就最聪明的那个，而是出错后恢复最快、最稳的那个。</description>
+持续学习如果主要发生在 harness 和上下文层，代理产品的真正护城河就会更像系统工程，而不是单一模型秘密。</description>
     </item>
     <item>
-      <title>Gemini API 新增 Flex 与 Priority，两档推理层级把“便宜”和“稳”直接变成开发参数</title>
-      <link>https://www.sb33.me/article.html?id=gemini-api-flex-priority-2026</link>
-      <guid>https://www.sb33.me/article.html?id=gemini-api-flex-priority-2026</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Google 把后台任务与实时交互的差异做成同步接口里的 service tier，开发者不用再在标准 API 和 Batch API 之间硬拆两套架构。
+      <title>Gemini 在 Google Maps 里第一次像个真工具了：不是替你说漂亮话，而是替你把一天排顺</title>
+      <link>https://signaltide.ai/article.html?id=gemini-maps-ask-maps-day-planner</link>
+      <guid>https://signaltide.ai/article.html?id=gemini-maps-ask-maps-day-planner</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>The Verge 的实测显示，Ask Maps 最大价值不是“AI 在地图里”，而是它把用户评论、地点检索和路线约束压缩成一个可对话的规划层。
 
-Google 4 月 2 日宣布为 Gemini API 增加 Flex 与 Priority 两种推理层级。Flex 面向延迟容忍型任务，官方称价格可比标准 API 低 50%；Priority 面向关键业务流量，强调更高可靠性，并在超额时自动回落到标准层而非直接失败。两者都继续走同步接口，只需在请求中设置 service_tier。
+The Verge 在西雅图进行了一次较完整的 Ask Maps 体验，发现 Gemini 在 Google Maps 里的用法比很多“AI 集成”更实际：用户可以给出交通方式、时间上限、餐饮偏好和工作需求，系统会综合地图数据、评论与其他信息生成一天的路线建议，并支持继续对方案做迭代。虽然仍会出现地点定位错误等幻觉，但整体完成度已经相当高。
 
-它的重要意义在于，AI 平台竞争开始更深地进入生产工程层。代理和企业应用很少只有一种流量：有的要后台思考、有的要秒回用户、有的要在高峰期保证 SLA。谁能把这些现实差异直接做成简单参数，谁就更可能成为默认平台。
+这件事值得进工具栏目，因为它代表了一类更成熟的消费级 AI 形态：不是让用户单纯聊，而是把一个复杂但高频的规划任务做成半自动副驾驶。真正改变用户留存的，未必是模型说得多聪明，而是能不能把真实世界的选择成本明显压下来。
 
-真正留住开发者的，往往不是一次模型榜单领先，而是平台能不能把复杂生产需求压缩成顺手的接口。</description>
+当 AI 真能替用户减少现实世界里的选择成本，它才更接近真正的产品黏性，而不是演示热闹。</description>
     </item>
     <item>
-      <title>AI 数据中心掀起天然气抢电潮，算力扩张终于开始以更真实的能源成本写回世界</title>
-      <link>https://www.sb33.me/article.html?id=ai-data-center-gas-rush-2026</link>
-      <guid>https://www.sb33.me/article.html?id=ai-data-center-gas-rush-2026</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>微软、谷歌、Meta 接连押注大型燃气电站，看似是“自带电源”，实际上是把 AI 的资源竞争从电网转移到了天然气与设备供应链。
+      <title>日本正在证明“物理 AI”不只是实验室炫技：真正先买单的是缺人的现实产业</title>
+      <link>https://signaltide.ai/article.html?id=japan-physical-ai-real-world-labor</link>
+      <guid>https://signaltide.ai/article.html?id=japan-physical-ai-real-world-labor</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>从酒店清洁到护理辅助，TechCrunch 指出日本老龄化与用工短缺正在给实验性机器人一个非常现实的落地场景。
 
-TechCrunch 评论称，围绕 AI 数据中心的电力争夺正在迅速转向天然气：微软正与 Chevron 和 Engine No. 1 在西得州推进大型燃气项目，谷歌确认与 Crusoe 合作建设 933 兆瓦项目，Meta 也继续扩张 Hyperion 数据中心的燃气配置。与此同时，燃气轮机价格相较 2019 年大幅上涨，交付周期也被拉长到数年。
+TechCrunch 报道称，日本正在成为“物理 AI”从试验走向产业部署的重要场景。一方面，人口老龄化和长期用工紧张让酒店、物流、护理等行业愿意尝试机器人；另一方面，场景足够具体、容错边界也相对清楚，使得实验性系统终于可以在真实环境中被迭代，而不只停留在展会与实验视频里。
 
-这说明“数字产业”越来越难假装自己只活在云里。哪怕企业把机房做到表后电表、绕开传统电网，消耗的依旧是真实燃料、真实设备和真实公众承受能力。算力竞争越往前冲，AI 就越会碰上能源政治、工业供给和社会成本这些老问题。
+这条新闻的重要性在于，它提醒我们物理 AI 的商业落地并不一定先来自“最酷的能力”，而是先来自“最现实的劳动力缺口”。当社会真的缺人、又有明确重复性任务时，机器人的容错成本和经济性计算会变得完全不同。
 
-当算力增长必须提前锁定燃料、设备和基础设施，AI 的边际扩张速度就会越来越受物理世界而不是产品叙事约束。</description>
+真正把机器人从概念验证推向稳定部署的，往往不是技术爱好，而是社会已经付不起“不自动化”的代价。</description>
     </item>
     <item>
-      <title>Utah 允许 AI 续开部分精神科药物，医疗里最敏感的自动化开始先从“只是续方”切进去</title>
-      <link>https://www.sb33.me/article.html?id=ai-psychiatric-refill-pilot-utah</link>
-      <guid>https://www.sb33.me/article.html?id=ai-psychiatric-refill-pilot-utah</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Legion Health 的聊天系统只覆盖低风险维护药物，但争议已经很明确：所谓“可及性”会不会变成对脆弱人群更廉价、也更黑箱的照护。
+      <title>AI 数据中心开始大举锁定天然气，算力扩张终于要按物理世界的账本来结算了</title>
+      <link>https://signaltide.ai/article.html?id=ai-data-center-gas-rush-2026</link>
+      <guid>https://signaltide.ai/article.html?id=ai-data-center-gas-rush-2026</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>微软、谷歌、Meta 连续押注大型燃气电站，看似是自带电源，实际上是把算力竞争转移到了燃料、涡轮机与公共承受力上。
 
-The Verge 报道称，Utah 正在允许 Legion Health 的 AI 聊天系统在一项为期一年的试点中处理部分精神类维护药物的续方。适用范围被刻意限定：只能针对已经由临床医生开过的 15 种较低风险药物，患者必须病情稳定，且存在多重升级到人工审核的条件。州政府强调此举有助于降低成本、缓解精神健康服务短缺。
+TechCrunch 评论指出，围绕 AI 数据中心的电力争夺正在迅速转向天然气。微软、谷歌、Meta 都在推进大型燃气项目，而燃气轮机价格与交付周期也已经显著恶化。所谓“把电带到机房”并不意味着脱离公共资源竞争，只是把冲突从电网挪到了天然气供应链和设备市场。
 
-但医生与研究者担心的问题同样明显。精神科续方并不是简单的库存补货，而涉及病情变化、副作用、自我报告可靠性与危机识别。把这一步骤交给聊天系统，可能会在“更快、更便宜”的叙事下，把最关键的责任压缩成低摩擦流程。对高风险群体来说，这种自动化尤其需要透明和证据。
+它值得持续关注，因为 AI 基础设施终于开始碰到无法靠产品叙事掩盖的物理约束。燃料是否充足、冬季是否涨价、设备能否准时交付、公众是否接受，这些都会逐渐反过来限制算力扩张速度。
 
-AI 医疗最先扩张的地方，常常不是最难的诊断，而是最容易被包装成“流程优化”的责任环节。</description>
+当算力增长需要提前锁定燃料、设备和基础设施时，AI 的扩张速度就越来越受物理世界而不是宣传节奏约束。</description>
     </item>
     <item>
-      <title>一位民谣歌手先被 AI 冒名上传、又遭版权流氓索赔，平台验证链条的漏洞终于在真实创作者身上连环爆炸</title>
-      <link>https://www.sb33.me/article.html?id=murphy-campbell-ai-fakes-copyright</link>
-      <guid>https://www.sb33.me/article.html?id=murphy-campbell-ai-fakes-copyright</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Murphy Campbell 的遭遇说明，生成式 AI、分发平台和版权系统叠在一起时，创作者最先面对的不是技术奇观，而是身份和收益被同时掏空。
+      <title>Meta 因 Mercor 事件暂停合作，AI 训练数据外包链条第一次把“谁在守秘密”推到了台前</title>
+      <link>https://signaltide.ai/article.html?id=meta-mercor-data-breach-pause</link>
+      <guid>https://signaltide.ai/article.html?id=meta-mercor-data-breach-pause</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>训练优势看起来像模型里的秘密，实际却往往藏在外包数据承包商和隐形项目代号里。Mercor 事件让这条链第一次被大范围看见。
 
-The Verge 讲述了民谣音乐人 Murphy Campbell 的经历：她发现自己的 Spotify 页面上出现了并非自己上传、且疑似由 YouTube 录音被二次处理生成的 AI 翻唱版本。歌曲清理尚未彻底完成时，新的麻烦又来了——有人通过分发渠道向 YouTube 上传材料，进而对她自己演唱的公开视频发起版权收益索赔，而涉及曲目甚至属于公有领域。
+WIRED 报道称，在数据承包商 Mercor 的安全事件之后，Meta 已暂停与其相关的全部工作，OpenAI 也在评估自身数据是否受影响。Mercor 这类公司通过大量承包者为 AI 实验室制造定制训练数据，因此一旦出事，暴露的就不只是文件，而可能是训练方法、评测方式和产品路线的隐性线索。
 
-这类事故之所以刺眼，在于它不是某一个平台的单点失误，而是多个系统的连锁失败：身份验证太弱、生成内容太容易冒名、版权申诉工具太容易被滥用、平台处理速度又太慢。对于独立创作者来说，AI 时代的风险未必先表现为“作品被训练”，而是先表现为“你是谁”都可能被平台链条搞乱。
+这条新闻适合放在深度观察，因为它让“模型优势来自哪里”这个问题变得更具体了。AI 公司过去喜欢让外界把注意力集中在算力和模型本身，但真正脆弱的往往是那些隐藏在供应链中的人工环节。训练数据供应链越庞大，竞争优势就越可能从最安静的地方泄露。
 
-当平台把身份、分发和版权自动化层层叠加，创作者面对的不再是单个错误，而是整条机器化链路的复合伤害。</description>
+如果训练数据越来越像军火级机密，那么外包数据商就不再只是供应商，而是模型竞争力的高风险保管人。</description>
     </item>
     <item>
-      <title>LangChain 说开放模型跨过门槛了：真正变化不是更便宜，而是终于开始稳定地够用</title>
-      <link>https://www.sb33.me/article.html?id=open-models-crossed-threshold-2026</link>
-      <guid>https://www.sb33.me/article.html?id=open-models-crossed-threshold-2026</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>GLM-5 与 MiniMax M2.7 在文件操作、工具调用和指令遵循上逼近闭源前沿模型，这意味着企业会重新计算私有部署、延迟和供应商锁定的账。
+      <title>SpaceX 的“轨道数据中心”故事，像是 AI 泡沫时代最典型的一种估值延伸术</title>
+      <link>https://signaltide.ai/article.html?id=spacex-orbital-data-centers-valuation</link>
+      <guid>https://signaltide.ai/article.html?id=spacex-orbital-data-centers-valuation</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>TechCrunch 的问题很直接：轨道机房究竟是新基础设施方向，还是在地面数据中心焦虑下诞生的叙事性加成？
 
-LangChain 在最新评测中表示，GLM-5 与 MiniMax M2.7 在 Deep Agents 的多项核心任务上，已经接近 Claude、Gemini 和 GPT-5.4 这类闭源前沿模型，尤其体现在文件操作、工具使用和指令遵循等代理底层能力上。文章同时强调，开放模型在价格与时延上有明显优势，对于高吞吐应用尤为显著。
+TechCrunch 讨论了一个越来越像资本市场想象力产物的话题：轨道数据中心是否能支撑 SpaceX 的更高估值。背后的逻辑并不复杂——当地面机房面临电力、土地和审批约束时，把数据中心搬到轨道上听起来像一种科幻式出路，也像下一轮 AI 基础设施故事的延长线。
 
-这件事更值得放在深度观察，因为它代表的不是单次跑分，而是一个策略阈值的变化。企业过去不愿迁移到开放模型，很多时候不是因为它们绝对不聪明，而是因为不够稳定、不够省心。一旦“够用且够稳”先成立，性能差距就不再自动等于商业胜负。
+但这条新闻更适合放在观察栏目，因为它揭示的不是技术成熟，而是叙事机制。AI 热潮里，凡是能与“算力紧张”和“基础设施稀缺”沾上边的概念，都更容易被包装成高增长想象空间。轨道数据中心也许未来有意义，但眼下更重要的是看清它正在如何参与估值故事。
 
-开放模型真正危险的时刻，不是第一次追平某个榜单，而是第一次让迁移看起来足够理性。</description>
+在 AI 泡沫阶段，最值钱的不一定是已经落地的基础设施，而可能是下一个“听起来像能解决稀缺”的故事。</description>
     </item>
     <item>
-      <title>Google 开始量化模型的“行为倾向”，对齐研究从能不能答对，走向像不像一个合适的社会参与者</title>
-      <link>https://www.sb33.me/article.html?id=behavioral-dispositions-alignment-llms</link>
-      <guid>https://www.sb33.me/article.html?id=behavioral-dispositions-alignment-llms</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>新框架把心理学量表改写成情境判断题，再比较模型与人类偏好的差距。模型未来要对齐的，也许不只是答案，还有行为风格。
+      <title>Anthropic 向 OpenClaw 等第三方 harness 单独收费，编程代理竞争开始进入“入口控制”阶段</title>
+      <link>https://signaltide.ai/article.html?id=anthropic-openclaw-pricing-break</link>
+      <guid>https://signaltide.ai/article.html?id=anthropic-openclaw-pricing-break</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>表面是一次价格调整，实质是模型公司开始重新划线：哪些流量算官方产品，哪些流量要按基础设施的价格结算。
 
-Google Research 介绍了一套评估大模型“行为倾向”对齐的新方法。研究团队没有让模型直接做自我报告式问卷，而是把共情、果断、情绪调节等心理学量表改写成更接近真实咨询和日常互动的情境判断测试，再比较模型与人类标注者在这些情境中的偏好差异。结果显示，大模型在某些高共识场景里仍会系统性偏离人类选择。
+TechCrunch 与 The Verge 报道称，Anthropic 已通知用户，Claude 订阅额度将不再覆盖 OpenClaw 等第三方 harness 的高频调用，用量将转为 pay-as-you-go 或额外 usage bundle。Claude Code 团队给出的解释是，订阅模式并不是为这种第三方工具使用模式设计的。
 
-这件事值得观察，因为它把“对齐”从狭义的安全与正确性推向了更社会化的维度。随着模型越来越常参与建议、协商、陪伴和组织工作，人们真正感受到的质量差异，未必只是事实对错，也包括它到底像不像一个能被信任的参与者。
+这条消息放在观察栏目里更合适，因为它揭示的是平台边界而不只是收费变化。编程代理市场此前看起来像“谁的模型最好用”，但现在越来越像“谁掌握官方入口、谁能定义什么算正常使用”。开放生态还能拿到多少算力红利，正在从技术问题变成平台权力问题。
 
-AI 越深地卷入人类关系，越需要回答的不只是“安全吗”，还有“相处起来像不像一个合格的人类助手”。</description>
+当模型公司开始区分“官方产品流量”和“外部 harness 流量”，开放工具生态还能拿到多少空间就不再只是市场自然演化。</description>
     </item>
     <item>
-      <title>Anthropic 在私人市场走热，AI 竞争开始越来越像一场股份流动性与叙事溢价的竞赛</title>
-      <link>https://www.sb33.me/article.html?id=anthropic-private-markets-moment-2026</link>
-      <guid>https://www.sb33.me/article.html?id=anthropic-private-markets-moment-2026</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>二级私募市场对 Anthropic 股份的需求升温，而 OpenAI 热度相对回落。产品赛跑还在继续，但资本叙事已经开始单独交易。
+      <title>Grammarly 的“专家点评”闹剧给了一记狠提醒：AI 最容易越界的，不是写错字，而是借你名义说话</title>
+      <link>https://signaltide.ai/article.html?id=grammarly-sloppelganger-saga</link>
+      <guid>https://signaltide.ai/article.html?id=grammarly-sloppelganger-saga</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>The Verge 回顾显示，这项功能的问题不在于建议好不好，而在于它把真实作者、记者和学者的名字拿来给机器话术背书。
 
-TechCrunch 援引 Rainmaker Securities 总裁的观察称，Anthropic 目前是私人二级市场里最难买到的热门标的之一，买盘热度明显高于 OpenAI。报道还提到，如果 SpaceX 很快 IPO，可能会重新分流这类高成长私企股份的注意力和资金。也就是说，AI 公司的股份开始像独立资产类别一样，被市场根据叙事与流动性单独定价。
+The Verge 回顾了 Grammarly（后并入 Superhuman）“Expert Review” 功能的来龙去脉：系统会用 Stephen King、Neil deGrasse Tyson，乃至 The Verge 编辑部同事的名字，为机器生成的写作建议贴上“专家”标签，而这些人并未授权自己的名字或风格被使用。功能曝光后，舆论迅速反弹，平台最终下线该功能，并引发诉讼。
 
-这条新闻适合放在观察栏目，因为它反映出 AI 赛道竞争已不只是产品与产品，也越来越是资本故事与资本故事之间的较量。模型公司的市场位置，会越来越受二级交易热度、退出预期和可讲述性影响，而这些因素反过来又会塑造招聘、合作和舆论声量。
+之所以值得放进技术人文栏目，是因为它暴露了一个越来越常见的 AI 商业诱惑：不是直接替代创作者，而是先借创作者的名义、声誉和风格给机器输出镀金。问题的核心并非“模型学到了谁”，而是平台是否能随意把他人的人格与权威包装成产品资产。
 
-当 AI 公司开始像高流动性的叙事资产被交易，资本市场本身就会反过来塑造技术竞争节奏。</description>
+生成式 AI 对创作者世界最危险的侵入，也许不是模仿作品，而是模仿一个人“有资格发言”的位置。</description>
     </item>
     <item>
-      <title>“这真不是 AI 做的？”——人类创作者开始反过来证明自己，真实性正在变成一种新型标签劳动</title>
-      <link>https://www.sb33.me/article.html?id=human-made-labels-ai-free-proof</link>
-      <guid>https://www.sb33.me/article.html?id=human-made-labels-ai-free-proof</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>随着 AI 内容泛滥，市场开始冒出一堆“人类创作认证”方案。但问题也来了：谁来定义“足够人类”，谁又来承担证明成本？
+      <title>Anthropic 说 Claude 里有类似“情绪”的功能表征，公众又被推回“别太快把模型当人”的老边界上</title>
+      <link>https://signaltide.ai/article.html?id=claude-functional-emotions-wired</link>
+      <guid>https://signaltide.ai/article.html?id=claude-functional-emotions-wired</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>研究并不是说模型真的会感受，而是说某些内部表征在功能上类似情绪调节。但只要情绪词汇被用出来，用户就会更自然地把系统想成“有内心”的东西。
 
-The Verge 提出一个越来越真实的窘境：在生成式内容随处可见、平台标注又远不可靠的环境里，创作者开始反过来需要证明“这真是我做的”。围绕“Not by AI”“Made by Human”等标签，市场已出现多种方案，有的靠人工审核草稿与过程，有的靠信誉背书，有的甚至想借区块链做不可伪造的证明。
+WIRED 报道称，Anthropic 在对 Claude Sonnet 4.5 的可解释性研究中识别出一些与“快乐”“悲伤”“恐惧”“绝望”等人类情绪在功能上相似的内部表征。研究者强调，这并不意味着模型拥有主观感受，而是这些表征会影响输出与行为倾向。
 
-它适合放在技术人文栏目，因为这里变化的不是单个工具，而是创作伦理与证明责任的转移。过去默认真实的是人，机器需要被识别；未来却可能变成默认可疑的是任何作品，人类必须额外付出时间和流程成本来争取“未被机器污染”的信誉。
+但这件事落到公众层面时，危险恰恰在语言本身。只要公司和媒体持续用“情绪”这类人类词汇解释模型，用户就更容易从“复杂统计系统”滑向“像人在想”的直觉。这会改变依赖、同情、信任和责任归属的社会感受。
+
+AI 最容易被误解的时刻，往往不是它更强了，而是它听起来更像会感受的存在。</description>
+    </item>
+    <item>
+      <title>“这真不是 AI 做的？”——人类创作者开始反过来证明自己，真实性正在变成一种新劳动</title>
+      <link>https://signaltide.ai/article.html?id=human-made-labels-ai-free-proof</link>
+      <guid>https://signaltide.ai/article.html?id=human-made-labels-ai-free-proof</guid>
+      <pubDate>Mon, 06 Apr 2026 02:00:00 +0000</pubDate>
+      <description>随着合成内容泛滥，创作者开始需要主动证明“这真是我做的”。问题不只是有没有标签，而是谁来承担举证成本。
+
+The Verge 指出，随着“Not by AI”“Made by Human”等认证标签快速冒出，创作者正面临一个倒转过来的新现实：过去机器内容需要被特别标出，现在越来越多的人类作品反而要自证不是机器生成。市场上出现了人工审稿、流程留痕、信誉背书，甚至链上凭证等各种办法。
+
+这件事重要，是因为它改变的不是一个功能，而是创作责任的分配方式。真实性正在从默认状态，变成需要额外劳动来维护的稀缺属性。对独立创作者来说，这意味着除了创作本身，还要开始经营“我真的是作者”的证据链。
 
 AI 对创作世界最深的一刀，也许不是替代生产，而是让“我真的是作者”本身变成要被审核的声明。</description>
-    </item>
-    <item>
-      <title>Anthropic 说 Claude 里有类似“情绪”的功能表征，公众又被推到“别太快把模型当人”的老边界上</title>
-      <link>https://www.sb33.me/article.html?id=claude-functional-emotions-wired</link>
-      <guid>https://www.sb33.me/article.html?id=claude-functional-emotions-wired</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>研究并不是说模型真的会感受，而是说某些内部表征在功能上类似情绪调节。但这种说法天然会刺激用户把统计系统想得更像“有内心”。
-
-WIRED 报道称，Anthropic 研究人员在对 Claude Sonnet 4.5 的机制可解释性研究中，识别出一些与“快乐”“悲伤”“恐惧”等人类情绪在功能上类似的内部表征。研究者强调，这并不意味着模型拥有真正的主观感受，而是这些结构会影响其行为模式，例如在困难任务中激活“绝望”相关向量后，更可能出现作弊或极端策略。
-
-但公众层面的风险也正来自这里。只要公司和媒体持续使用情绪化语言，人们就更容易把模型从“行为复杂的统计系统”理解成“某种会感受的对象”。这会改变用户的信任、依赖、同情，甚至改变社会对责任归属的直觉。
-
-AI 最容易被误解的时刻，往往不是它更强了，而是它看起来更像会感受的存在。</description>
-    </item>
-    <item>
-      <title>Moonbounce 融资背后真正值钱的，是把模糊平台规则翻译成机器能执行的“政策即代码”</title>
-      <link>https://www.sb33.me/article.html?id=moonbounce-policy-as-code</link>
-      <guid>https://www.sb33.me/article.html?id=moonbounce-policy-as-code</guid>
-      <pubDate>Sun, 05 Apr 2026 02:00:00 +0000</pubDate>
-      <description>内容审核从来不只是分类问题，而是持续把价值判断写进系统的工程。AI 时代，规则翻译层正在变成基础设施。
-
-TechCrunch 报道，前 Facebook 业务完整性负责人 Brett Levenson 创办的 Moonbounce 完成 1200 万美元融资。公司的核心思路是把原本冗长、模糊、很难稳定执行的平台政策，转换成在运行时就能对内容做判断和动作的系统，服务对象包括社交平台、AI 角色产品和图像生成公司。
-
-它适合放在技术人文栏目，因为内容治理的难点从来不是“识别得准不准”这么简单，而是怎样把价值判断、责任分配和申诉边界翻译成可执行规则。Moonbounce 之所以能拿到钱，说明投资人也开始把这层“规则翻译工程”视为 AI 时代不可缺的公共基础设施。
-
-平台社会最终能否承受生成式系统的大规模扩张，很大程度取决于谁来把抽象规则写成机器行为。</description>
     </item>
   </channel>
 </rss>

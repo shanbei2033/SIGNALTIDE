@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T02:00:35.928Z",
+  "generatedAt": "2026-04-06T02:00:51.110Z",
   "items": [
     {
       "source": "OpenAI",
@@ -113,24 +113,24 @@
       "source": "OpenAI",
       "sourceType": "official",
       "feedTitle": "OpenAI News",
-      "title": "Update on the OpenAI Foundation",
-      "link": "https://openai.com/index/update-on-the-openai-foundation",
-      "publishedAt": "2026-03-24T09:00:00.000Z",
-      "contentSnippet": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
-      "categories": [
-        "Company"
-      ]
-    },
-    {
-      "source": "OpenAI",
-      "sourceType": "official",
-      "feedTitle": "OpenAI News",
       "title": "Powering product discovery in ChatGPT",
       "link": "https://openai.com/index/powering-product-discovery-in-chatgpt",
       "publishedAt": "2026-03-24T09:00:00.000Z",
       "contentSnippet": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
       "categories": [
         "Product"
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "sourceType": "official",
+      "feedTitle": "OpenAI News",
+      "title": "Update on the OpenAI Foundation",
+      "link": "https://openai.com/index/update-on-the-openai-foundation",
+      "publishedAt": "2026-03-24T09:00:00.000Z",
+      "contentSnippet": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
+      "categories": [
+        "Company"
       ]
     },
     {
@@ -704,6 +704,53 @@
       "source": "TechCrunch AI",
       "sourceType": "media",
       "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
+      "link": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/",
+      "publishedAt": "2026-04-05T18:51:37.000Z",
+      "contentSnippet": "AI skeptics aren’t the only ones warning users not to unthinkingly trust models’ outputs — that’s what the AI companies say themselves in their terms of service.",
+      "categories": [
+        "AI",
+        "Copilot",
+        "Microsoft"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "Can orbital data centers help justify a massive valuation for SpaceX?",
+      "link": "https://techcrunch.com/2026/04/05/can-orbital-data-centers-help-justify-a-massive-valuation-for-spacex/",
+      "publishedAt": "2026-04-05T15:40:58.000Z",
+      "contentSnippet": "On the latest episode of TechCrunch’s Equity podcast, we debated Elon Musk's vision for data centers in space.",
+      "categories": [
+        "AI",
+        "Space",
+        "Elon Musk",
+        "Equity podcast"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
+      "title": "In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants",
+      "link": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+      "publishedAt": "2026-04-05T14:00:00.000Z",
+      "contentSnippet": "Driven by labor shortages, Japan is pushing physical AI from pilot projects into real-world deployment.",
+      "categories": [
+        "Hardware",
+        "AI",
+        "Japan",
+        "Salesforce Ventures",
+        "Global Brain",
+        "woven capital",
+        "physical ai"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "sourceType": "media",
+      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
       "title": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
       "link": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
       "publishedAt": "2026-04-04T16:32:22.000Z",
@@ -763,9 +810,9 @@
         "Privacy",
         "Startups",
         "Venture",
-        "In Brief",
+        "Mergers and Acquisitions",
         "Claude",
-        "Mergers and Acquisitions"
+        "In Brief"
       ]
     },
     {
@@ -778,9 +825,9 @@
       "contentSnippet": "With the midterms right around the corner, the new group is positioned to back candidates who support the AI company's policy agenda.",
       "categories": [
         "AI",
-        "In Brief",
         "AnthroPAC",
         "artificial intelligence",
+        "In Brief",
         "Anthropic",
         "government"
       ]
@@ -794,14 +841,14 @@
       "publishedAt": "2026-04-03T19:48:22.000Z",
       "contentSnippet": "Meta, Microsoft, and Google are all betting big on new natural gas power plants to run their AI data centers. They may regret it.",
       "categories": [
-        "AI",
-        "Climate",
         "Enterprise",
-        "Meta",
-        "natural gas",
-        "data centers",
+        "Climate",
+        "AI",
+        "Google",
         "Microsoft",
-        "Google"
+        "data centers",
+        "natural gas",
+        "Meta"
       ]
     },
     {
@@ -832,12 +879,12 @@
         "Startups",
         "AI",
         "Fundraising",
-        "ai safety",
-        "Amplify Partners",
-        "content moderation",
         "Exclusive",
-        "moonbounce",
-        "StepStone Group"
+        "content moderation",
+        "Amplify Partners",
+        "StepStone Group",
+        "ai safety",
+        "moonbounce"
       ]
     },
     {
@@ -858,52 +905,34 @@
       ]
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Microsoft takes on AI rivals with three new foundational models",
-      "link": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-      "publishedAt": "2026-04-02T16:48:16.000Z",
-      "contentSnippet": "MAI released models that can transcribe voice into text as well as generate audio and images after the group's formation six months ago.",
-      "categories": [
-        "Enterprise",
-        "AI",
-        "artificial intelligence",
-        "Microsoft",
-        "Mustafa Suleyman",
-        "OpenAI"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Suno is a music copyright nightmare",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
+      "publishedAt": "2026-04-05T16:00:00.000Z",
+      "contentSnippet": "AI music platform Suno's policy is that it does not permit the use of copyrighted material. You can upload your own tracks to remix or set your original lyrics to AI-generated music. But, it's supposed to recognize and stop you from using other people's songs and lyrics. Now, no system is perfect, but it turns out that Suno's copyright filters are incredibly easy to fool. With minimal effort and some free software, Suno will spit out AI-generated imitations of popular songs like Beyoncé's \"Freedom,\" Black Sabbath's \"Paranoid,\" and Aqua's \"Barbie Girl\" that are alarmingly close to the original. Most people will likely be able to tell the dif … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Google now lets you direct avatars through prompts in its Vids app",
-      "link": "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app/",
-      "publishedAt": "2026-04-02T16:00:00.000Z",
-      "contentSnippet": "Google is adding a way to customize and instruct avatars for video creation in the Vids app.",
-      "categories": [
-        "AI",
-        "Apps",
-        "Google",
-        "Google Vids",
-        "Video Editing"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "I let Gemini in Google Maps plan my day and it went surprisingly well",
+      "link": "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on",
+      "publishedAt": "2026-04-05T14:00:00.000Z",
+      "contentSnippet": "Take me to the tacos, Gemini. You may be familiar with Gemini as the thing that's in every Google service you use - whether you want it or not. While it's been a constant, sometimes unwelcome presence in Gmail for at least the past year, it's a relatively new addition to Maps. And you know what? It's kind of great. To put it to the test, I had Gemini plan a day-long itinerary for me around the city. After an hour or so of having Gemini find stuff for me - playgrounds near the new light rail extension, kid-friendly restaurants with vehicle themes, you get the gist - I was impressed. Some of the suggestions were obvious, but I also bookmarked a handful of spots not on m … Read the full story at The Verge.",
+      "categories": []
     },
     {
-      "source": "TechCrunch AI",
+      "source": "The Verge AI",
       "sourceType": "media",
-      "feedTitle": "AI News & Artificial Intelligence | TechCrunch",
-      "title": "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an accident",
-      "link": "https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/",
-      "publishedAt": "2026-04-01T22:12:13.000Z",
-      "contentSnippet": "Anthropic executives said it was an accident and retracted the bulk of the takedown notices.",
-      "categories": [
-        "AI",
-        "GitHub",
-        "Anthropic",
-        "In Brief"
-      ]
+      "feedTitle": "AI | The Verge",
+      "title": "Grammarly’s sloppelganger saga",
+      "link": "https://www.theverge.com/column/906606/grammarly-expert-review-ai-saga",
+      "publishedAt": "2026-04-05T12:00:00.000Z",
+      "contentSnippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the ups and downs of AI, follow Stevie Bonifield. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Most people probably know Grammarly for its browser extension that suggests how to spruce up your emails, but over the past few years, it's been eyeing bigger ambitions. In October, the company formerly known as Grammarly made a public pivot to rebrand as an AI company called Superhuman. The new name was adopted from Superhuman Mail, an AI email platform that Grammarly acquired i … Read the full story at The Verge.",
+      "categories": []
     },
     {
       "source": "The Verge AI",
@@ -973,36 +1002,6 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/906253/granola-note-links-ai-training-psa",
       "publishedAt": "2026-04-02T21:56:16.000Z",
       "contentSnippet": "If you use the AI-powered note-taking app Granola, you might want to double-check your privacy settings. Though Granola says your notes are \"private by default,\" it makes them viewable to anyone with a link, and also uses them for internal AI training unless you opt out. Granola describes itself as an \"AI notepad for people in back-to-back meetings.\" It integrates with your calendar to capture audio from your meetings, and then uses AI to generate a bulleted list of what you've heard, which it calls a \"note.\" You can edit the AI-generated notes, invite other collaborators to view them, and use Granola's AI assistant to ask questions about y … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "Elon Musk is about to be a very busy boy!",
-      "link": "https://www.theverge.com/tech/906027/elon-musk-lawsuit-ipo-spacex-tesla",
-      "publishedAt": "2026-04-02T18:15:00.000Z",
-      "contentSnippet": "To be honest, I thought Elon Musk would confidentially file for SpaceX's IPO on the 20th of this month, rather than the 1st. But maybe that just means he's moved on to other numbers, and we should all mark our calendars for June 7th as an IPO date just in case. Based on the April 1st filing, and the general length of an SEC review before the S-1 document becomes public, the earliest I am expecting a SpaceX IPO is June. (At least, assuming there is still anyone left at the SEC who wants to do their job instead of just glance at the first page of the filing, say, \"Seems fine!\" and then go out for a smoke break.) Of course, this process could … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "OpenAI just bought TBPN",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/906022/openai-buys-tbpn",
-      "publishedAt": "2026-04-02T17:40:07.000Z",
-      "contentSnippet": "OpenAI has purchased TBPN, an online talk show that often interviews AI executives and other tech leaders. The show goes live every weekday at 2PM PT, often for a three-hour duration, counting OpenAI CEO Sam Altman, as well as executives from Meta, Microsoft, Palantir, and Andreessen Horowitz, among its past guests, and Bloomberg, CNBC, and Fox Business as its competitors. TBPN's livestream is primarily available on X and YouTube, but many users watch it on X. OpenAI's purchase comes as a lawsuit between Altman and Elon Musk, who was a co-founder of OpenAI before splitting from the project and now owns X, is headed to trial later this mont … Read the full story at The Verge.",
-      "categories": []
-    },
-    {
-      "source": "The Verge AI",
-      "sourceType": "media",
-      "feedTitle": "AI | The Verge",
-      "title": "It’s not easy to get depression-detecting AI through the FDA",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down",
-      "publishedAt": "2026-04-02T15:33:23.000Z",
-      "contentSnippet": "For the past seven years, the California-based startup Kintsugi has been developing AI designed to detect signs of depression and anxiety from a person's speech. But after failing to secure FDA clearance in time, the company is shutting down and releasing most of its technology as open-source. Some elements may even find a second life beyond healthcare, like detecting deepfake audio. Mental health assessments still largely rely on patient questionnaires and clinical interviews, rather than the lab tests or scans common in physical medicine. Instead of focusing on what someone is saying, Kintsugi's software analyzes how it is being said. Th … Read the full story at The Verge.",
       "categories": []
     },
     {
@@ -1353,6 +1352,19 @@
       "source": "Wired Business",
       "sourceType": "media",
       "feedTitle": "Business Latest",
+      "title": "With One Million Displaced, Lebanon Turns to Digital Wallets for Aid",
+      "link": "https://www.wired.com/story/with-one-million-displaced-lebanon-turns-to-digital-wallets-for-aid/",
+      "publishedAt": "2026-04-05T09:30:00.000Z",
+      "contentSnippet": "Amid mass displacement and collapsing trust in institutions, digital wallets are becoming critical conduits for aid, connecting diaspora donors directly with communities on the ground.",
+      "categories": [
+        "Business",
+        "Business / Startups"
+      ]
+    },
+    {
+      "source": "Wired Business",
+      "sourceType": "media",
+      "feedTitle": "Business Latest",
       "title": "Meta Pauses Work With Mercor After Data Breach Puts AI Industry Secrets at Risk",
       "link": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/",
       "publishedAt": "2026-04-03T21:28:14.000Z",
@@ -1492,19 +1504,6 @@
       "link": "https://www.wired.com/story/the-big-interview-podcast-luis-von-ahn-duolingo/",
       "publishedAt": "2026-03-31T10:30:00.000Z",
       "contentSnippet": "This has nothing to do with the crypto he lost the password for.",
-      "categories": [
-        "Business",
-        "Business / Computers and Software"
-      ]
-    },
-    {
-      "source": "Wired Business",
-      "sourceType": "media",
-      "feedTitle": "Business Latest",
-      "title": "The IRS Wants Smarter Audits. Palantir Could Help Decide Who Gets Flagged",
-      "link": "https://www.wired.com/story/documents-reveal-palantir-irs-contract-fraud-clean-energy-credits/",
-      "publishedAt": "2026-03-30T09:30:00.000Z",
-      "contentSnippet": "Documents show the tax agency is testing a Palantir tool to surface “highest-value” audit and investigation targets from a maze of legacy systems.",
       "categories": [
         "Business",
         "Business / Computers and Software"
@@ -1801,6 +1800,18 @@
       "source": "LangChain Blog",
       "sourceType": "opensource",
       "feedTitle": "LangChain Blog",
+      "title": "Continual learning for AI agents",
+      "link": "https://blog.langchain.com/continual-learning-for-ai-agents/",
+      "publishedAt": "2026-04-05T21:46:30.000Z",
+      "contentSnippet": "Most discussions of continual learning in AI focus on one thing: updating model weights. But for AI agents, learning can happen at three distinct layers: the model, the harness, and the context. Understanding the difference changes how you think about building systems that improve over time. The three main layers",
+      "categories": [
+        "Harrison's In the Loop Series"
+      ]
+    },
+    {
+      "source": "LangChain Blog",
+      "sourceType": "opensource",
+      "feedTitle": "LangChain Blog",
       "title": "How My Agents Self-Heal in Production",
       "link": "https://blog.langchain.com/production-agents-self-heal/",
       "publishedAt": "2026-04-03T17:01:03.000Z",
@@ -1914,18 +1925,6 @@
       "publishedAt": "2026-03-23T21:37:58.000Z",
       "contentSnippet": "If you're attending Google Cloud Next 2026 in Las Vegas this year and working on agent development, here's what we have planned. Visit Us at Booth #5006 We'll be at Booth #5006 in the Expo Hall at the Mandalay Bay Convention Center, April 22-24.",
       "categories": []
-    },
-    {
-      "source": "LangChain Blog",
-      "sourceType": "opensource",
-      "feedTitle": "LangChain Blog",
-      "title": "Two different types of agent authorization",
-      "link": "https://blog.langchain.com/two-different-types-of-agent-authorization/",
-      "publishedAt": "2026-03-23T17:29:28.000Z",
-      "contentSnippet": "LangSmith Fleet introduces two types of agent authorization: Assistants, which use the end user's own credentials, and Claws, which use a fixed set of credentials.",
-      "categories": [
-        "Harrison's In the Loop Series"
-      ]
     },
     {
       "source": "LlamaIndex Blog",
