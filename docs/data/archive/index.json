@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-04-07T02:00:00.000Z",
+  "generatedAt": "2026-04-08T02:00:00.000Z",
   "items": [
+    {
+      "date": "2026-04-08",
+      "displayDate": "2026年4月8日",
+      "articleCount": 18,
+      "leadId": "anthropic-mythos-project-glasswing",
+      "leadHeadline": "Anthropic 把最强新模型先锁进安全联盟里：AI 找漏洞的速度，可能比行业补漏洞更快",
+      "note": "保存当日首页版面与详情内容。"
+    },
     {
       "date": "2026-04-07",
       "displayDate": "2026年4月7日",
