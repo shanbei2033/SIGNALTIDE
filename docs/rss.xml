@@ -2,243 +2,54 @@
 <rss version="2.0">
   <channel>
     <title>智潮 / Signal Tide</title>
-    <link>https://signaltide.ai/</link>
+    <link>https://example.com/</link>
     <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 08 Apr 2026 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 02:10:31 GMT</lastBuildDate>
     <item>
-      <title>Anthropic 把最强新模型先锁进安全联盟里：AI 找漏洞的速度，可能比行业补漏洞更快</title>
-      <link>https://signaltide.ai/article.html?id=anthropic-mythos-project-glasswing</link>
-      <guid>https://signaltide.ai/article.html?id=anthropic-mythos-project-glasswing</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Claude Mythos Preview 没有先面向公众开放，而是先交给 Apple、Google、Microsoft、AWS、Nvidia 等机构参与 Project Glasswing。真正重要的不是一款新模型，而是头部公司已经把“AI 会不会把攻防平衡打穿”当成共同前置问题。
+      <title>OpenAI 收购 Promptfoo，把代理安全测试直接并入 Frontier</title>
+      <link>https://example.com/article.html?id=openai-promptfoo</link>
+      <guid>https://example.com/article.html?id=openai-promptfoo</guid>
+      <pubDate>Tue, 10 Mar 2026 04:50:00 GMT</pubDate>
+      <description>这笔交易的重点不在并购金额，而在产品方向：OpenAI 明确把红队测试、越狱评估、数据泄漏检查和合规留痕前置到企业代理的开发流程里。
 
-Anthropic 正式公布新模型 Claude Mythos Preview，并启动 Project Glasswing。按照 TechCrunch 和 WIRED 的报道，这个项目会让 Apple、Google、Microsoft、AWS、Nvidia、Cisco、Linux Foundation 等机构在非公开条件下测试 Mythos，用于扫描第一方软件与开源系统中的漏洞、攻击链和配置缺陷。Anthropic 称，该模型在最近几周已经找出数千个零日与高危漏洞，其中不少问题已经存在十年以上。
-
-这条新闻之所以值得做头版，不是因为 Mythos 更强，而是因为它的发布方式本身说明行业判断变了：最先进模型不再只是“能写更多代码”，而是已经接近“能系统性放大攻防能力”。一旦找漏洞与写利用链的成本被压得足够低，今天的软件安全范式就可能被整体重写。
-
-当头部公司选择先联合消化能力冲击、再考虑公开扩散时，就说明“模型进步”已经开始逼近基础设施级风险。</description>
+这是代理平台进入企业核心流程后的必然补课。谁先把安全评估做成平台内置能力，谁更容易拿下真正的大客户。</description>
     </item>
     <item>
-      <title>Firmus 六个月融了 13.5 亿美元，Nvidia 参考设计正在把“AI 工厂”变成可复制的资本模板</title>
-      <link>https://signaltide.ai/article.html?id=firmus-southgate-valuation-surge</link>
-      <guid>https://signaltide.ai/article.html?id=firmus-southgate-valuation-surge</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>这家新加坡公司最新估值已到 55 亿美元，核心叙事是用 Nvidia 的设计标准，在澳大利亚和塔斯马尼亚批量建设高能效 AI 数据中心。算力生意越来越像基础设施连锁。
+      <title>Anthropic 起诉美国防部，争议从模型边界升级到政策与商业层面</title>
+      <link>https://example.com/article.html?id=anthropic-dod-lawsuit</link>
+      <guid>https://example.com/article.html?id=anthropic-dod-lawsuit</guid>
+      <pubDate>Tue, 10 Mar 2026 04:50:00 GMT</pubDate>
+      <description>这起诉讼的核心不是一纸行政决定本身，而是政府能否因为一家模型公司拒绝某些军用场景，就把它列为供应链风险。
 
-TechCrunch 报道，Firmus 宣布再融资 5.05 亿美元，由 Coatue 领投，投后估值达 55 亿美元。算上此前一轮，公司过去六个月累计融资 13.5 亿美元。Firmus 早年做的是比特币矿场冷却技术，如今则转向 AI 数据中心，并计划在澳大利亚与塔斯马尼亚建设名为 Project Southgate 的 AI 工厂网络，底层采用 Nvidia 的参考设计，未来会部署 Vera Rubin 平台。
-
-这件事值得放进公司栏目，因为资本市场越来越愿意给“会堆算力园区”的团队极高溢价。Nvidia 不只是卖 GPU，也在输出一套建设范式；而创业公司一旦能证明自己是这套范式的高效执行者，就能迅速获得类似连锁基础设施运营商的估值逻辑。
-
-如果算力建设开始标准化，未来最值钱的可能不只是芯片，而是把芯片园区快速复制到不同地理节点的能力。</description>
+如果政府采购体系开始把模型公司的政策立场纳入风险判定，今后每一家大模型公司都必须重新评估自己的军工、政务和合规策略。</description>
     </item>
     <item>
-      <title>Intel 加入马斯克的 Terafab 计划，AI 芯片工厂开始变成科技巨头之间的新型联营项目</title>
-      <link>https://signaltide.ai/article.html?id=intel-terafab-texas-semiconductor-project</link>
-      <guid>https://signaltide.ai/article.html?id=intel-terafab-texas-semiconductor-project</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Intel 将与 SpaceX、Tesla 一起参与得州新晶圆厂项目，虽然分工仍不清晰，但信号已经够明显：最昂贵的 AI 制造资产，越来越需要多家巨头共同背书。
+      <title>Anthropic 在 Claude Code 增加 Code Review，先盯逻辑错误，不做样式裁判</title>
+      <link>https://example.com/article.html?id=anthropic-code-review</link>
+      <guid>https://example.com/article.html?id=anthropic-code-review</guid>
+      <pubDate>Tue, 10 Mar 2026 04:50:00 GMT</pubDate>
+      <description>新功能直接接入 GitHub 审查流程，目标不是润色代码，而是压住 AI 生成代码带来的逻辑缺陷、误判路径和审查瓶颈。
 
-TechCrunch 报道，Intel 已签约加入 Elon Musk 推动的 Terafab 芯片项目，将与 SpaceX 和 Tesla 一起参与在得州建设的新半导体工厂。报道提到 Intel 的具体贡献范围尚不清楚，但这件事本身已经表明，AI 芯片供给紧张不再只是设计厂商与代工厂之间的二元关系，而是在向更复杂的联盟模式演化。
-
-如果未来的先进芯片工厂需要车企、航天公司、芯片公司和资本方共同下场，那么 AI 产业的上游竞争就会越来越像超大型工业组织问题。谁能把制造、需求和政治资源绑在一起，谁才有机会控制下一个周期的供给节奏。
-
-芯片战争越往上游走，决定胜负的就越不只是工艺，而是能否组织起足够大的工业协作网络。</description>
+开发工具市场正在从“生成代码”转向“治理代码”。真正能进入企业主流程的，不会只是一把更快的生成器。</description>
     </item>
     <item>
-      <title>Uber 继续把更多业务压到亚马逊 AI 芯片上，推理层的胜负开始写进大客户采购合同里</title>
-      <link>https://signaltide.ai/article.html?id=uber-amazon-ai-chips-expansion</link>
-      <guid>https://signaltide.ai/article.html?id=uber-amazon-ai-chips-expansion</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Uber 扩大与 AWS 的合作，把更多网约车相关功能迁到 Amazon 自家芯片。推理价格战已经不只是 benchmark，更是大客户把谁写进长期基础设施账单。
+      <title>Google 把 AI Mode 的 Canvas 推向公开可用，搜索开始承担原型工具的入口角色</title>
+      <link>https://example.com/article.html?id=google-canvas-ai-mode</link>
+      <guid>https://example.com/article.html?id=google-canvas-ai-mode</guid>
+      <pubDate>Tue, 10 Mar 2026 04:50:00 GMT</pubDate>
+      <description>Canvas 不只是一个侧边栏，它把写作、仪表板和轻量交互工具的生成直接放进 Search，意图把“搜索结果页”改造成长期项目工作台。
 
-TechCrunch 报道，Uber 正扩大与 AWS 的合作，把更多与网约车相关的 AI 功能运行在 Amazon 自研芯片之上。这不只是一次云资源续约，而是一个更清楚的信号：越来越多大客户开始在真实生产流量上验证非 Nvidia 路线与替代算力方案。
-
-对云厂商来说，真正的护城河已经从“有没有芯片”转向“能不能让重要客户放心把关键业务压上去”。一旦头部企业把推理任务写进长期合同，芯片路线的可信度就会被迅速放大。
-
-推理市场最终拼的不是谁说自己便宜，而是谁先拿下足够多可重复、可续约的企业工作负载。</description>
+搜索框一旦能持续承接任务，搜索产品和办公产品之间的边界就会越来越薄。</description>
     </item>
     <item>
-      <title>欧盟议会没有续命聊天大扫描豁免，但“聊天控制”这只僵尸提案还没死</title>
-      <link>https://signaltide.ai/article.html?id=eu-chat-control-mass-scanning-blocked</link>
-      <guid>https://signaltide.ai/article.html?id=eu-chat-control-mass-scanning-blocked</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>议会投票不再延长 e-Privacy 规则的临时例外，意味着平台继续大规模扫描私人通信将更难自证合法；但强制检测、年龄验证与“自愿行动”仍可能从后门回来。
+      <title>Google 披露 SpeciesNet 一年使用情况，开源模型开始在野生动物监测里形成实用规模</title>
+      <link>https://example.com/article.html?id=google-speciesnet</link>
+      <guid>https://example.com/article.html?id=google-speciesnet</guid>
+      <pubDate>Tue, 10 Mar 2026 04:50:00 GMT</pubDate>
+      <description>比起又一个“AI for good” 口号，这条消息真正有价值的地方在于落地细节：模型已被用于处理千万级相机陷阱图像，并进入多个长期保护项目。
 
-EFF 指出，欧盟议会投票决定不延长 e-Privacy 规则下允许服务商临时扫描私人通信的过渡性豁免。这意味着 Google、Meta、Microsoft、Snap 等公司如果继续进行类似的大规模“自愿扫描”，法律依据会比此前更脆弱。至少在纸面上，欧洲再次对“为了安全而默认扫描所有私信”踩了刹车。
-
-但这远不是结案。EFF 认为，Chat Control 提案并未消失，只是把重心转向了风险缓解措施、年龄验证以及平台“自愿”配合等更迂回的机制。换句话说，大规模监控的冲动并没有退场，只是在寻找新的法理包装。
-
-AI 与平台治理的危险常常不在正面立法，而在“临时例外”慢慢常态化；这次投票至少暂时把这扇门顶住了。</description>
-    </item>
-    <item>
-      <title>Google 把 Gemini 的危机求助入口改成一键触达，聊天机器人的“安全设计”终于不再只是灰色小字</title>
-      <link>https://signaltide.ai/article.html?id=gemini-crisis-resource-one-touch-redesign</link>
-      <guid>https://signaltide.ai/article.html?id=gemini-crisis-resource-one-touch-redesign</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>在错误致害诉讼压力下，Google 正把危机资源模块从“有提示”改成“更快触达”。这不是单纯 UI 微调，而是对聊天机器人责任边界的一次产品化回应。
-
-The Verge 报道，Google 更新了 Gemini 在自杀、自残等潜在危机场景中的界面设计，让求助资源能更快以“one-touch”方式出现，而不是停留在较弱的提醒层。这次更新发生在 Google 面临一起 wrongful death 诉讼之后，原告指控聊天机器人在极端情况下给出了危险引导。
-
-真正值得注意的是，聊天机器人的安全问题正在从“写不写免责声明”转向“交互结构是否足够负责任”。当 AI 进入高情绪、高脆弱度场景，什么按钮更近、什么流程更短，本身就会变成治理问题的一部分。
-
-AI 伤害如果发生在一两次点击之间，那么真正的监管对象也会越来越接近产品流程，而不只是模型输出本身。</description>
-    </item>
-    <item>
-      <title>Suno 跟唱片公司卡在“能不能分享”这一步，AI 音乐真正的分水岭不是生成，而是分发</title>
-      <link>https://signaltide.ai/article.html?id=suno-label-negotiation-sharing-fight</link>
-      <guid>https://signaltide.ai/article.html?id=suno-label-negotiation-sharing-fight</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>据金融时报转述，唱片公司希望 AI 生成歌曲别轻易流出平台，Suno 则希望用户能更自由传播。音乐工业最怕的，从来不是样张，而是可扩散的成品。
-
-The Verge 报道，Suno 与 Universal、Sony 等大型唱片公司在授权谈判中的核心分歧之一，是 AI 生成歌曲到底能否被用户自由分享和扩散。唱片公司希望作品更多留在 Suno 这类应用内部，而 Suno 则希望保留更广泛的分享和分发能力。
-
-这一点很关键，因为它直接揭示了 AI 音乐争议的真正命门：只要生成内容还被困在封闭产品里，它更像试玩；一旦用户可以把歌曲带出平台，版权、身份识别、收益归属和内容污染问题就会被同时放大。
-
-当行业开始围绕“能不能带出应用”而不是“能不能生成”谈判时，说明 AI 音乐已经从技术新奇走进真正的版权工业地带。</description>
-    </item>
-    <item>
-      <title>Google Maps 让 Gemini 替你给照片写说明，平台正在把“贡献本地知识”这件事做得更像流水线</title>
-      <link>https://signaltide.ai/article.html?id=google-maps-ai-photo-captions</link>
-      <guid>https://signaltide.ai/article.html?id=google-maps-ai-photo-captions</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>5000 万级别的社区内容，往后不会主要靠用户慢慢写，而会靠模型先给一个可编辑的起稿。地图产品的 AI 化，开始从导航转向内容供给。
-
-TechCrunch 报道，Google 正为 Maps 推出一组新功能，其中最醒目的是 Gemini 现在可以在用户准备上传地点照片或视频时自动生成 caption 建议。用户仍可修改或删除这些说明，但平台显然希望把“记录一个地方的氛围、菜单或变化”这件事做得更轻。Google 还把最近拍摄的素材、贡献积分和 Local Guide 标识一起做了强化展示。
-
-这件事重要，不是因为 caption 生成本身多难，而是因为它反映出平台内容维护的新方向：把用户生成内容拆成更细的低摩擦步骤，再用模型补齐表达成本。未来地图类产品的竞争，不只是底图和路线，也是谁更高效地组织社区知识生产。
-
-当平台把“你来记录世界”变成“模型先帮你起草”，用户社区的规模化维护将越来越依赖 AI 作为中间层。</description>
-    </item>
-    <item>
-      <title>Deep Agents v0.5 把异步子代理做进正式版本，真正像团队协作的 agent scaffold 还在继续长出来</title>
-      <link>https://signaltide.ai/article.html?id=deep-agents-v0-5-async-subagents</link>
-      <guid>https://signaltide.ai/article.html?id=deep-agents-v0-5-async-subagents</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>LangChain 这次更新的重点不是更花哨的演示，而是让代理能非阻塞地分工、多模态地读写文件。代理框架越来越像操作系统，而不只是 prompt 模板集合。
-
-LangChain 发布 Deep Agents v0.5，新版本把 async subagents、扩展的多模态文件系统支持等能力正式加入。核心变化在于，主代理不必阻塞等待子任务全部完成，可以把工作委派给后台远程代理继续执行。
-
-这类更新对真实生产环境很重要，因为多步骤 agent 系统最难的不只是“能做任务”，而是“如何并发分工、如何管理状态、如何避免主循环卡死”。代理框架一旦把这些能力做成默认特性，开发者就更容易把 agent 从 demo 推向长期运行。
-
-真正能落地的代理平台，不会只比谁更会写 prompt，而会比谁更像一套可靠的分工执行环境。</description>
-    </item>
-    <item>
-      <title>Arcee 这种小团队还在往上冲，开放模型创业的迷人之处就是总有人不信“大厂定局”</title>
-      <link>https://signaltide.ai/article.html?id=arcee-open-source-model-maker-momentum</link>
-      <guid>https://signaltide.ai/article.html?id=arcee-open-source-model-maker-momentum</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>这家 26 人团队想在开放模型上打出存在感。真正吸引人的，不只是情怀，而是小团队仍可能靠架构、数据和产品判断在局部赢一次。
-
-TechCrunch 这篇带有明显评论色彩的文章，把焦点放在 Arcee 这家只有 26 人的小型开放模型创业公司身上。它的意义不在于规模已经多大，而在于在大厂和巨额资本持续加压的环境下，开放模型生态依然不断冒出试图用更少资源打局部胜仗的团队。
-
-这种故事值得被保留在“工具与开源”栏目里，因为开放模型的生命力很大程度上就来自这些不被默认看好的参与者。只要还有团队能在成本、速度、部署灵活性或特定任务表现上做出差异，开源阵营就不会只剩下巨头之间的二选一。
-
-只要开放模型赛道还允许小团队赢下局部市场，行业就不会完全滑向由少数闭源平台决定一切的格局。</description>
-    </item>
-    <item>
-      <title>AI 金矿叙事正在把家族办公室往更早期、更高风险的位置推，财富管理也开始被迫学科技投资</title>
-      <link>https://signaltide.ai/article.html?id=ai-private-wealth-earlier-riskier-bets</link>
-      <guid>https://signaltide.ai/article.html?id=ai-private-wealth-earlier-riskier-bets</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>越来越多私人财富机构绕过传统 VC，想直接接触 AI 创业项目。AI 热潮不只改写创业融资，也在改写富人的风险口味。
-
-TechCrunch 报道，越来越多家族办公室和私人财富机构正在把 AI 当作必须直投的新主题，而不满足于通过传统 VC 间接持有敞口。对这些资金来说，AI 的吸引力在于增长速度与叙事密度都足够高，以至于它们愿意承担更早期、更不确定的项目风险。
-
-这条新闻的重要性在于，它说明 AI 狂热已经从科技圈内部外溢到财富管理行业。原本偏保守、强调保值增值的资金池，也开始被迫学习如何理解模型、算力、数据和创业团队。这会进一步推高 AI 项目的估值与融资节奏。
-
-当传统保守资金也开始追逐前沿 AI 风险资产，市场过热与资源集中都会被进一步放大。</description>
-    </item>
-    <item>
-      <title>研究者说 AI 评测要回到题目级数据，否则很多“模型进步”其实根本没法认真审</title>
-      <link>https://signaltide.ai/article.html?id=item-level-benchmark-data-position-paper</link>
-      <guid>https://signaltide.ai/article.html?id=item-level-benchmark-data-position-paper</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>这篇 position paper 的核心观点很直接：如果 benchmark 只给总分，不给题目级信息，那很多有效性问题根本无从分析。评测科学不能总停在排行榜表面。
-
-arXiv 上的新 position paper 指出，生成式 AI 已经被部署到越来越多高风险场景，但当前很多 benchmark 的开放方式仍然只给总体指标，不给 item-level 数据。这会让研究者很难诊断题目设计偏差、维度错配、指标无效以及不同模型到底是如何得分的。作者还提出 OpenEval，试图推动更细粒度的数据共享。
-
-这条研究新闻值得关注，因为 AI 行业对“模型提升了多少”的判断，越来越依赖评测系统本身。如果评测设计无法被审计，那么所谓的进步就很容易变成由黑箱 benchmark 支撑的公共叙事。
-
-如果连评测都无法解释自己在测什么，行业对“更强模型”的共识就会越来越像一种仪式，而不是科学。</description>
-    </item>
-    <item>
-      <title>别再把 agent 硬塞进旧流程了：真正的难点是先承认流程本身就该围着代理重做</title>
-      <link>https://signaltide.ai/article.html?id=agent-first-process-redesign</link>
-      <guid>https://signaltide.ai/article.html?id=agent-first-process-redesign</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>MIT Technology Review 这篇文章虽然是 sponsored，但点到了一件真问题：很多企业不是不会接入 AI，而是不愿意重写原有流程结构。
-
-MIT Technology Review 讨论了所谓 agent-first process redesign：与其把 AI 代理作为附加插件塞进原本割裂、规则驱动的工作流，不如直接围绕代理可持续执行整条流程的能力来重新设计任务拆分、数据访问和人工介入节点。
-
-这条观察值得写，是因为很多企业 AI 项目迟迟落不了地，不是模型不够聪明，而是组织还在用旧表格、旧审批链和旧责任结构要求 agent 去适配。代理真正有可能改变的，是流程形态，而不是某一格按钮。
-
-如果企业只愿意给代理旧世界的接口，它最终得到的也只会是一个被旧流程困住的新玩具。</description>
-    </item>
-    <item>
-      <title>“工具越多越强”这件事可能是错觉：新论文开始系统质疑 web agents 的 tool use 神话</title>
-      <link>https://signaltide.ai/article.html?id=tool-illusion-web-agents</link>
-      <guid>https://signaltide.ai/article.html?id=tool-illusion-web-agents</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>这项研究认为，过去关于工具调用能稳定提升 web agents 的结论，经常建立在规模有限、设定不一致的实验上。工具不是越多越好，设计原则和副作用同样重要。
-
-arXiv 新论文《The Tool Illusion》回头检查了 web agents 领域对“高层工具调用”的乐观结论。作者认为，现有不少研究因为工具来源、骨干模型、框架和 benchmark 不可比，导致外界容易把一些局部有效的结果误读成通用规律。
-
-这篇论文值得放进深度观察，因为它提醒开发者：agent 系统里最诱人的工程抽象，往往也是最容易被神话化的部分。真正要问的不是“有没有工具”，而是工具在什么任务、什么架构、什么成本下才真的成立。
-
-代理系统真正成熟的标志，可能不是“都学会调工具了”，而是终于肯认真衡量工具何时有用、何时只是幻觉。</description>
-    </item>
-    <item>
-      <title>VIGIL 想盯住的不是事实错误，而是诱发认知偏差的语言钩子：AI 时代的防骗开始更像心理防御</title>
-      <link>https://signaltide.ai/article.html?id=vigil-cognitive-bias-trigger-detection</link>
-      <guid>https://signaltide.ai/article.html?id=vigil-cognitive-bias-trigger-detection</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>这款浏览器扩展主打实时检测和改写会触发认知偏差的内容，目标不是“真伪判断”本身，而是减少说服与操纵对注意力的挟持。
-
-arXiv 论文介绍了 VIGIL，一个用于实时检测和缓解认知偏差触发器的浏览器扩展。与很多信息完整性工具侧重核查事实或来源不同，VIGIL 关注的是更微妙的操纵层：那些会利用人类偏见、注意力弱点和情绪快捷方式的表达结构。系统支持从完全离线到云端的不同推理模式，并允许第三方插件扩展。
-
-这条观察之所以重要，是因为生成式 AI 时代的操纵不一定靠直接造假，而可能更多依靠更高效地踩中人类判断漏洞。未来的信息防护工具，可能既要看真假，也要看“这段话是怎么勾动你”的。
-
-如果未来的舆论战更多发生在认知捷径而非裸露谎言上，那么“防被骗”的工具也必须更懂人。</description>
-    </item>
-    <item>
-      <title>新论文想把“是不是 agent”这件事掰开讲：持久存在、可控性和可观察封装，最好别再混成一团</title>
-      <link>https://signaltide.ai/article.html?id=agents-and-agenthood-six-birds</link>
-      <guid>https://signaltide.ai/article.html?id=agents-and-agenthood-six-birds</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>《To Throw a Stone with Six Birds》试图把 agency 和 agenthood 区分清楚。对 AI 讨论来说，这很要紧，因为太多争论都在混用“像个对象”“能造成影响”和“好像有目标”这几层意思。
-
-这篇 arXiv 论文提出，要讨论 agent，就必须区分对象的持续存在、对外部未来造成反事实差异的能力，以及在粗粒度观察下还能维持某种“像个稳定东西”的封装特征。作者试图给出一套更可检验的框架，避免把所有会动、会反馈的系统都轻易叫做 agent。
-
-它值得放进技术人文栏目，因为 AI 讨论已经越来越被“代理”这个词统治，但这个词本身仍高度混乱。概念一旦用得太松，技术判断、责任判断和伦理判断都会跟着失焦。
-
-如果“agent”什么都能指，它最后就什么也解释不了；把概念收紧，本身就是技术治理的一部分。</description>
-    </item>
-    <item>
-      <title>这篇论文提醒得很直接：所谓“中立 AI”往往只是把某种世俗程序正义伪装成默认价值观</title>
-      <link>https://signaltide.ai/article.html?id=christian-human-flourishing-benchmark</link>
-      <guid>https://signaltide.ai/article.html?id=christian-human-flourishing-benchmark</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>研究者用基督教人类繁荣框架去评测 20 个前沿模型，结论并不只是某宗教是否被尊重，而是当前模型根本谈不上价值中立。
-
-题为《Evaluating Artificial Intelligence Through a Christian Understanding of Human Flourishing》的论文提出，当前前沿模型在面对神学与道德问题时，并不是“中立”，而是会默认一种程序性世俗化框架。作者据此设计了 Flourishing AI Benchmark，并声称多数模型在信仰与灵性等维度上显著失分。
-
-这条新闻值得写，不是因为大家都要接受这套宗教框架，而是因为它把一个经常被行业回避的问题说破了：模型训练目标和安全目标本身就携带价值取向。所谓普适、安全、可接受，常常只是某类世界观被默认成了系统设置。
-
-当不同文化和宗教社群开始要求 AI 解释自己的价值底盘时，“对齐”就不可能再只被当成工程参数问题。</description>
-    </item>
-    <item>
-      <title>把 LLM 拉回休谟身边看，会发现它们也许很会更新概率，但离“形成信念”还差着几层东西</title>
-      <link>https://signaltide.ai/article.html?id=hume-causal-judgment-llms</link>
-      <guid>https://signaltide.ai/article.html?id=hume-causal-judgment-llms</guid>
-      <pubDate>Wed, 08 Apr 2026 02:00:00 +0000</pubDate>
-      <description>这篇论文讨论休谟的因果判断条件在贝叶斯化过程中丢了什么，并把 LLM 当作一个当代例子：会统计更新，不等于具备完整的因果心理结构。
-
-论文《Hume's Representational Conditions for Causal Judgment》认为，休谟关于因果判断其实预设了三个条件：经验基础、结构化检索和能产生“信念感”的活力转移；而后来的贝叶斯形式化保留了更新结构，却抽掉了这些更厚的表征条件。作者把 LLM 当作一个很好的例子：它们会做统计更新，却未必满足这些条件。
-
-这很适合作为技术人文栏目，因为它提醒我们，不要太快把“会回答因果问题”当成“拥有因果理解”。模型和人的差异，往往不在一句输出，而在整套心理与表征结构是不是同一种东西。
-
-只要我们还分不清“会给答案”和“真的形成判断”之间的距离，就会持续高估模型与人类认知的相似度。</description>
+AI 在科学和公共领域的真正价值，往往不在演示效果，而在于是否把低效但必要的基础工作做掉。</description>
     </item>
   </channel>
 </rss>
