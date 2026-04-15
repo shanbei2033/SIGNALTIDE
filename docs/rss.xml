@@ -2,54 +2,141 @@
 <rss version="2.0">
   <channel>
     <title>智潮 / Signal Tide</title>
-    <link>https://example.com/</link>
+    <link>https://shanbei2033.github.io/SIGNALTIDE/</link>
     <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 09 Apr 2026 02:10:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 02:00:00 +0000</lastBuildDate>
     <item>
-      <title>OpenAI 收购 Promptfoo，把代理安全测试直接并入 Frontier</title>
-      <link>https://example.com/article.html?id=openai-promptfoo</link>
-      <guid>https://example.com/article.html?id=openai-promptfoo</guid>
-      <pubDate>Tue, 10 Mar 2026 04:50:00 GMT</pubDate>
-      <description>这笔交易的重点不在并购金额，而在产品方向：OpenAI 明确把红队测试、越狱评估、数据泄漏检查和合规留痕前置到企业代理的开发流程里。
+      <title>OpenAI 把最强网络安全模型先交给“可信防守方”，AI 安防军备竞赛开始公开分层</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-cyber-trusted-access</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-cyber-trusted-access</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description>OpenAI 扩大 Trusted Access for Cyber 计划，并推出面向审查通过机构的 GPT-5.4-Cyber。关键信号不是又一个垂直模型，而是前沿能力开始按“谁能用、怎么用、是否可审计”来分级发放。
 
-这是代理平台进入企业核心流程后的必然补课。谁先把安全评估做成平台内置能力，谁更容易拿下真正的大客户。</description>
+当模型能力足以改变真实攻防效率，厂商竞争就不再只是“谁更强”，还包括“谁能证明自己有能力把强能力关在合适的门里”。</description>
     </item>
     <item>
-      <title>Anthropic 起诉美国防部，争议从模型边界升级到政策与商业层面</title>
-      <link>https://example.com/article.html?id=anthropic-dod-lawsuit</link>
-      <guid>https://example.com/article.html?id=anthropic-dod-lawsuit</guid>
-      <pubDate>Tue, 10 Mar 2026 04:50:00 GMT</pubDate>
-      <description>这起诉讼的核心不是一纸行政决定本身，而是政府能否因为一家模型公司拒绝某些军用场景，就把它列为供应链风险。
+      <title>Cloudflare 把 OpenAI 模型直接嵌进 Agent Cloud，企业代理开始争抢“默认基础设施”位置</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-cloudflare-agent-cloud</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-cloudflare-agent-cloud</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description>Cloudflare Agent Cloud 接入 OpenAI 的 GPT-5.4 与 Codex，重点不只是模型升级，而是把部署、扩展、安全与观测能力一起打包给企业客户。
 
-如果政府采购体系开始把模型公司的政策立场纳入风险判定，今后每一家大模型公司都必须重新评估自己的军工、政务和合规策略。</description>
+谁能控制代理落地的基础设施入口，谁就更有机会锁定企业长期工作流，而不只是赚一次调用费。</description>
     </item>
     <item>
-      <title>Anthropic 在 Claude Code 增加 Code Review，先盯逻辑错误，不做样式裁判</title>
-      <link>https://example.com/article.html?id=anthropic-code-review</link>
-      <guid>https://example.com/article.html?id=anthropic-code-review</guid>
-      <pubDate>Tue, 10 Mar 2026 04:50:00 GMT</pubDate>
-      <description>新功能直接接入 GitHub 审查流程，目标不是润色代码，而是压住 AI 生成代码带来的逻辑缺陷、误判路径和审查瓶颈。
+      <title>Google 把 AI Skills 放进 Chrome，浏览器开始变成可复用工作流容器</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-chrome-ai-skills</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-chrome-ai-skills</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description>Chrome 新增 Skills 功能，允许用户把常用 AI 提示保存成一键工作流，跨网页重复调用。Google 想争的不是又一个聊天入口，而是浏览器里那层高频重复任务。
 
-开发工具市场正在从“生成代码”转向“治理代码”。真正能进入企业主流程的，不会只是一把更快的生成器。</description>
+AI 助手真正高频的价值，往往不是回答一次复杂问题，而是替用户省掉第 50 次重复操作。</description>
     </item>
     <item>
-      <title>Google 把 AI Mode 的 Canvas 推向公开可用，搜索开始承担原型工具的入口角色</title>
-      <link>https://example.com/article.html?id=google-canvas-ai-mode</link>
-      <guid>https://example.com/article.html?id=google-canvas-ai-mode</guid>
-      <pubDate>Tue, 10 Mar 2026 04:50:00 GMT</pubDate>
-      <description>Canvas 不只是一个侧边栏，它把写作、仪表板和轻量交互工具的生成直接放进 Search，意图把“搜索结果页”改造成长期项目工作台。
+      <title>OpenAI 收购理财初创 Hiro，ChatGPT 的“代做决策”边界继续向高价值场景推进</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-hiro-acquisition</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-hiro-acquisition</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description>据 TechCrunch 报道，OpenAI 已收购 AI 个人理财创业公司 Hiro。交易本身规模未披露，但方向清晰：ChatGPT 正试图进入更高信任、更高频、更接近交易执行的个人事务。
 
-搜索框一旦能持续承接任务，搜索产品和办公产品之间的边界就会越来越薄。</description>
+一旦 AI 进入理财、医疗、法务等高责任场景，竞争优势将不只是模型体验，而是风险控制、解释能力与监管适配。</description>
     </item>
     <item>
-      <title>Google 披露 SpeciesNet 一年使用情况，开源模型开始在野生动物监测里形成实用规模</title>
-      <link>https://example.com/article.html?id=google-speciesnet</link>
-      <guid>https://example.com/article.html?id=google-speciesnet</guid>
-      <pubDate>Tue, 10 Mar 2026 04:50:00 GMT</pubDate>
-      <description>比起又一个“AI for good” 口号，这条消息真正有价值的地方在于落地细节：模型已被用于处理千万级相机陷阱图像，并进入多个长期保护项目。
+      <title>Anthropic 一边打官司一边向白宫讲 Mythos，前沿模型公司的政府关系进入“双线操作”阶段</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=anthropic-mythos-government-briefing</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=anthropic-mythos-government-briefing</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description>Anthropic 联合创始人确认，公司曾向特朗普政府简报内部项目 Mythos。它同时又在与政府发生法律冲突，说明前沿模型公司的政策路径正在变得更复杂。
 
-AI 在科学和公共领域的真正价值，往往不在演示效果，而在于是否把低效但必要的基础工作做掉。</description>
+AI 政策竞争已经不只是监管辩论，也包括谁能定义“国家利益需要什么样的模型能力”。</description>
+    </item>
+    <item>
+      <title>Google 在华盛顿谈“AI 经济”，巨头开始把就业与增长叙事提前写进政策游说</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-ai-economy-forum</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-ai-economy-forum</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description>Google 举办 AI for the Economy Forum，把 AI 讨论从模型性能拉向就业、产业与国家竞争力。对大公司而言，这既是公共议题，也是政策沟通模板。
+
+谁先占据“AI 带来普惠经济价值”的话语高地，谁就更容易在监管压力上获得缓冲。</description>
+    </item>
+    <item>
+      <title>Waypoint-1.5 想把可交互世界搬上日常 GPU，生成式 3D 不再只属于大实验室</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=huggingface-waypoint-15</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=huggingface-waypoint-15</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description>来自 Hugging Face 博客的 Waypoint-1.5 展示了更高保真的交互世界生成能力，重点在于“日常 GPU 可运行”。这类项目的意义，在于把昂贵研究原型往开发者可试验区间压。
+
+真正能改变行业节奏的，往往不是最强 demo，而是第一次让足够多人跑得起来的版本。</description>
+    </item>
+    <item>
+      <title>多模态 Embedding 与 Reranker 开始模块化，RAG 正从“能用”走向“可精修”</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=sentence-transformers-multimodal-reranker</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=sentence-transformers-multimodal-reranker</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description>Hugging Face 介绍多模态 Embedding 与 Reranker 模型在 Sentence Transformers 中的使用方式。对开发者来说，检索系统正在摆脱只拼向量库的粗放阶段。
+
+下一阶段 RAG 的护城河，不是“有没有做”，而是检索链路能不能被持续调优到接近真实业务需求。</description>
+    </item>
+    <item>
+      <title>Gemini Robotics-ER 1.6 强化具身推理，机器人竞赛重新回到“能否进真实环境”</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=gemini-robotics-er-16</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=gemini-robotics-er-16</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description>Google DeepMind 更新 Gemini Robotics-ER 1.6，强调更强空间理解与多视角推理。机器人领域的判断标准也越来越明确：不是会不会演示，而是复杂环境里能不能稳定做事。
+
+机器人不是 AI 的边角实验，而是检验模型能否真正进入物理世界的最硬试金石。</description>
+    </item>
+    <item>
+      <title>微软新一期“未来工作”报告提醒：AI 改变工作已很快，但收益分配远没有同步</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=microsoft-future-of-work-2025</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=microsoft-future-of-work-2025</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description>微软研究院发布 New Future of Work 报告，认为 AI 正在推动工作形态快速变化，但不同群体获得的好处并不均衡。比效率更值得追问的是谁受益、谁被挤压。
+
+如果 AI 的收益分配长期失衡，社会对技术的容忍度会比模型进步速度更早触顶。</description>
+    </item>
+    <item>
+      <title>斯坦福报告称 AI 内部人与公众的认知裂缝正在扩大</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=stanford-ai-insider-gap</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=stanford-ai-insider-gap</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>针对 Sam Altman 的袭击事件，给整个 AI 行业敲响了什么警钟</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=verge-sam-altman-warning</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=verge-sam-altman-warning</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>Google 的 SynthID 水印如果真能被逆向，AI 可验证性会被迫重算</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-synthid-reverse-engineer</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-synthid-reverse-engineer</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>Coachella 里的 AI 网红热潮，正在重写“到场”与“真实感”</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=ai-influencers-coachella</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=ai-influencers-coachella</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>脑机接口创业公司准备首次人体植入，感知增强与医疗伦理再次并轨</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=brain-sensor-science-corp</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=brain-sensor-science-corp</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description></description>
+    </item>
+    <item>
+      <title>当 AI 被看成工具还是同事，工作关系与责任划分会完全不同</title>
+      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=future-work-podcast-collaborator</link>
+      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=future-work-podcast-collaborator</guid>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <description></description>
     </item>
   </channel>
 </rss>
