@@ -2,140 +2,180 @@
 <rss version="2.0">
   <channel>
     <title>智潮 / Signal Tide</title>
-    <link>https://shanbei2033.github.io/SIGNALTIDE/</link>
+    <link>https://signaltide.shanbei.me/</link>
     <description>聚合、重写并归档每日 AI 领域的重要新闻。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 15 Apr 2026 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 02:00:00 GMT</lastBuildDate>
     <item>
-      <title>OpenAI 把最强网络安全模型先交给“可信防守方”，AI 安防军备竞赛开始公开分层</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-cyber-trusted-access</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-cyber-trusted-access</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
-      <description>OpenAI 扩大 Trusted Access for Cyber 计划，并推出面向审查通过机构的 GPT-5.4-Cyber。关键信号不是又一个垂直模型，而是前沿能力开始按“谁能用、怎么用、是否可审计”来分级发放。
+      <title>OpenAI 把 Agents SDK 补成企业级底座</title>
+      <link>https://signaltide.shanbei.me/article.html?id=openai-agents-sdk-enterprise</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=openai-agents-sdk-enterprise</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
+      <description>新版 Agents SDK 增加原生沙箱执行与更贴近模型能力的 harness，目标不是再做一个“会调工具”的 demo，而是让长流程代理在文件、工具和安全边界里真正可部署。
 
-当模型能力足以改变真实攻防效率，厂商竞争就不再只是“谁更强”，还包括“谁能证明自己有能力把强能力关在合适的门里”。</description>
+OpenAI 发布新版 Agents SDK，核心更新是原生 sandbox execution 与 model-native harness。官方把重点放在“更安全、更长期运行的代理”上，意味着产品方向已经从演示式 agent 转向可在真实文件、工具和执行环境里稳定工作的系统。
+
+这次更新的重要性不只在功能多了两项，而在于 OpenAI 正试图把代理开发的默认抽象层握在自己手里。谁来定义 agent 的运行容器、工具调用边界与调试接口，谁就更可能影响企业如何采购、集成和治理下一代自动化工作流。
+
+如果企业开始把 agent 当作长期运行的软件组件，而不是聊天界面的附属功能，那么 SDK、沙箱和审计能力就会成为比“会不会调用工具”更关键的分水岭。</description>
     </item>
     <item>
-      <title>Cloudflare 把 OpenAI 模型直接嵌进 Agent Cloud，企业代理开始争抢“默认基础设施”位置</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-cloudflare-agent-cloud</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-cloudflare-agent-cloud</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Cloudflare Agent Cloud 接入 OpenAI 的 GPT-5.4 与 Codex，重点不只是模型升级，而是把部署、扩展、安全与观测能力一起打包给企业客户。
+      <title>Google 把 Gemini 单独塞进 Mac 菜单栏</title>
+      <link>https://signaltide.shanbei.me/article.html?id=google-gemini-mac-app</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=google-gemini-mac-app</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Gemini 推出原生 Mac 应用，并支持快捷键呼出浮窗与窗口共享。Google 抢的不是一个新客户端，而是桌面级 AI 入口：谁先占住系统层快捷呼出，谁就更接近日常工作流。
 
-谁能控制代理落地的基础设施入口，谁就更有机会锁定企业长期工作流，而不只是赚一次调用费。</description>
+Google 为 Mac 推出原生 Gemini 应用，用户可通过 Option + Space 拉出浮动聊天窗，并在授权后让 Gemini 读取当前窗口内容。这个设计明显对准桌面上的即时协助场景，让 AI 不必停留在浏览器标签页里。
+
+更值得看的是入口位置。桌面助手竞争已经不只是模型回答质量，而是谁能以最低摩擦嵌入操作系统层的高频动作。对 Google 来说，Gemini Mac 应用是在 Apple、微软和一系列第三方桌面助手之间抢占“默认召唤位”。
+
+当 AI 助手进入系统级入口竞争，产品优势会越来越取决于调用摩擦、权限设计与和本地工作流的耦合深度。</description>
     </item>
     <item>
-      <title>Google 把 AI Skills 放进 Chrome，浏览器开始变成可复用工作流容器</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-chrome-ai-skills</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-chrome-ai-skills</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Chrome 新增 Skills 功能，允许用户把常用 AI 提示保存成一键工作流，跨网页重复调用。Google 想争的不是又一个聊天入口，而是浏览器里那层高频重复任务。
+      <title>Adobe 想把 Creative Cloud 变成可对话执行层</title>
+      <link>https://signaltide.shanbei.me/article.html?id=adobe-firefly-agent-editing</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=adobe-firefly-agent-editing</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Adobe 新版 Firefly AI Assistant 能跨 Firefly、Photoshop、Premiere、Lightroom 等应用执行任务。重点不只是“能聊天”，而是让自然语言直接调度复杂创意软件栈。
 
-AI 助手真正高频的价值，往往不是回答一次复杂问题，而是替用户省掉第 50 次重复操作。</description>
+Adobe 发布 Firefly AI Assistant，用户可以用自然语言描述修改意图，由系统跨多个 Creative Cloud 应用完成具体任务。官方把它描述为创意工作的“根本性转变”，因为用户不必再先掌握复杂术语与菜单结构。
+
+这说明创意软件的竞争逻辑也在变化。过去的门槛在专业工具熟练度，如今平台厂商更想把这些能力封装成可对话调用的工作流。谁能把语言接口与专业工具链真正接起来，谁就更可能留住下一代轻专业与跨职能创作者。
+
+AI 对创意软件最深的改变，可能不是多一个生成按钮，而是把原本分散在不同应用里的专业能力重组为统一的执行层。</description>
     </item>
     <item>
-      <title>OpenAI 收购理财初创 Hiro，ChatGPT 的“代做决策”边界继续向高价值场景推进</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-hiro-acquisition</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=openai-hiro-acquisition</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
-      <description>据 TechCrunch 报道，OpenAI 已收购 AI 个人理财创业公司 Hiro。交易本身规模未披露，但方向清晰：ChatGPT 正试图进入更高信任、更高频、更接近交易执行的个人事务。
+      <title>OpenAI 与 Anthropic 在 AI 责任法案上公开分裂</title>
+      <link>https://signaltide.shanbei.me/article.html?id=ai-liability-bill-split</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=ai-liability-bill-split</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Wired 报道称，OpenAI 支持、Anthropic 反对一项伊利诺伊州 AI 责任法案。争议核心不是单一条文，而是谁来承担极端 AI 事故的法律后果。
 
-一旦 AI 进入理财、医疗、法务等高责任场景，竞争优势将不只是模型体验，而是风险控制、解释能力与监管适配。</description>
+据 Wired 报道，OpenAI 与 Anthropic 围绕一项伊利诺伊州 AI 责任法案出现公开分歧。报道将争议描述为：一方支持，另一方认为法案会在大规模死亡或金融灾难等极端情境下，为实验室豁免过多责任。
+
+这类分裂值得注意，因为它表明前沿模型公司的政策利益已经不再一致。随着模型逐步进入高风险现实场景，安全口号会越来越快转化成关于责任分配、法律敞口与竞争优势的具体博弈。
+
+AI 治理接下来的难点，可能不是“大家都同意要监管”，而是监管条款一旦触及真实赔偿责任，各家公司会迅速分化。</description>
     </item>
     <item>
-      <title>Anthropic 一边打官司一边向白宫讲 Mythos，前沿模型公司的政府关系进入“双线操作”阶段</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=anthropic-mythos-government-briefing</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=anthropic-mythos-government-briefing</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Anthropic 联合创始人确认，公司曾向特朗普政府简报内部项目 Mythos。它同时又在与政府发生法律冲突，说明前沿模型公司的政策路径正在变得更复杂。
+      <title>网络关停正在变成常态化治理工具</title>
+      <link>https://signaltide.shanbei.me/article.html?id=network-shutdowns-control</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=network-shutdowns-control</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
+      <description>EFF 追踪显示，政府越来越把连通性本身当成可被切断、降速与选择性恢复的控制工具。讨论虽不只针对 AI，但它直接决定智能系统、平台分发与数字公共空间能否存在。
 
-AI 政策竞争已经不只是监管辩论，也包括谁能定义“国家利益需要什么样的模型能力”。</description>
+EFF 在最新文章中回顾了互联网关停如何从少数紧急手段，变成多国政府常态化的治理工具。文章提到 2024 年全球共发生 304 次网络关停，覆盖 54 个国家，创下新高。
+
+这类议题放在 AI 版面里同样重要，因为今天越来越多的模型服务、内容分发和数字协作都依赖稳定网络环境。连通性一旦被当成行政权力的开关，所谓“AI 普惠”“数字赋能”都会暴露出更脆弱的基础设施前提。
+
+如果网络连通性本身都不能被默认视为稳定公共条件，那么建立在其上的 AI 服务、平台权利与数字生产力叙事都会变得更不牢靠。</description>
     </item>
     <item>
-      <title>Google 在华盛顿谈“AI 经济”，巨头开始把就业与增长叙事提前写进政策游说</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-ai-economy-forum</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-ai-economy-forum</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Google 举办 AI for the Economy Forum，把 AI 讨论从模型性能拉向就业、产业与国家竞争力。对大公司而言，这既是公共议题，也是政策沟通模板。
+      <title>Gemini 3.1 Flash TTS 把语音可控性往前推了一格</title>
+      <link>https://signaltide.shanbei.me/article.html?id=gemini-flash-tts-expressive-speech</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=gemini-flash-tts-expressive-speech</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Google 推出 Gemini 3.1 Flash TTS，主打更具表现力的语音生成与更细粒度的音频标签控制。语音模型竞争正在从“像不像人”转向“能否按指令稳定演”。
 
-谁先占据“AI 带来普惠经济价值”的话语高地，谁就更容易在监管压力上获得缓冲。</description>
+Google 发布 Gemini 3.1 Flash TTS，强调 expressive speech 与更精细的音频标签控制。相比上一阶段主要比拼自然度，这次更新更像是在解决“如何让语音按导演意图稳定表现”的问题。
+
+这意味着语音生成工具的竞争正在进入更专业的制作环节。无论是产品配音、虚拟助手还是内容工业，用户真正需要的往往不是一次随机生成得像真人，而是可重复、可编辑、可控地得到某种语气和节奏。
+
+一旦可控性成为语音模型的核心指标，音频 AI 的商业价值就会更接近专业生产工具，而不只是展示型玩具。</description>
     </item>
     <item>
-      <title>Waypoint-1.5 想把可交互世界搬上日常 GPU，生成式 3D 不再只属于大实验室</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=huggingface-waypoint-15</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=huggingface-waypoint-15</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
-      <description>来自 Hugging Face 博客的 Waypoint-1.5 展示了更高保真的交互世界生成能力，重点在于“日常 GPU 可运行”。这类项目的意义，在于把昂贵研究原型往开发者可试验区间压。
+      <title>Gitar 想用代理给 AI 代码再做一层安检</title>
+      <link>https://signaltide.shanbei.me/article.html?id=gitar-agent-code-security</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=gitar-agent-code-security</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Gitar 融资 900 万美元，主打用 agents 审查代码安全，而这些代码越来越多本身也是由 AI 生成。AI 写代码与 AI 审代码，开始形成彼此对冲的新工具链。
 
-真正能改变行业节奏的，往往不是最强 demo，而是第一次让足够多人跑得起来的版本。</description>
+TechCrunch 报道，Gitar 从隐身模式走出并宣布获得 900 万美元融资，公司希望用 agents 审查代码安全。它瞄准的是一个越来越明确的新问题：既然越来越多代码先由 AI 写出，那后续的风险检查也需要自动化加速。
+
+这类工具的意义在于，它们并不假设 AI 代码一定可靠，而是把“AI 生成”当成必须额外验收的输入源。未来开发栈可能会越来越像双层系统：一层负责生成，一层负责审查、约束与回退。
+
+随着生成式编码加速进入团队流程，真正能建立护城河的未必只是更会写代码的模型，也包括更会发现问题、阻止问题上线的审查系统。</description>
     </item>
     <item>
-      <title>多模态 Embedding 与 Reranker 开始模块化，RAG 正从“能用”走向“可精修”</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=sentence-transformers-multimodal-reranker</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=sentence-transformers-multimodal-reranker</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Hugging Face 介绍多模态 Embedding 与 Reranker 模型在 Sentence Transformers 中的使用方式。对开发者来说，检索系统正在摆脱只拼向量库的粗放阶段。
+      <title>VAKRA 把代理失败模式拆得更细了</title>
+      <link>https://signaltide.shanbei.me/article.html?id=vakra-agent-benchmark-analysis</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=vakra-agent-benchmark-analysis</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
+      <description>IBM Research 与 Hugging Face 分析 VAKRA，重点不是再做一个总分榜，而是拆开推理、工具使用与失效模式，让开发者知道代理到底坏在哪。
 
-下一阶段 RAG 的护城河，不是“有没有做”，而是检索链路能不能被持续调优到接近真实业务需求。</description>
+Hugging Face 博文解读了 IBM Research 的 VAKRA 基准，聚焦代理系统在 reasoning、tool use 与 failure modes 上的具体表现。与其给 agent 一个模糊的综合分，VAKRA 更想把失败拆解成可诊断的问题。
+
+这类评测思路之所以重要，是因为 agent 的价值越来越取决于流程可靠性，而不是单次回答是否聪明。企业如果要把代理真正放进生产环境，就需要知道系统是在规划、调用工具、记忆，还是在长链路执行上出错。
+
+当 agent 从实验走向部署，最有价值的 benchmark 往往不是告诉你“谁最好”，而是告诉你“为什么会坏、坏在什么环节”。</description>
     </item>
     <item>
-      <title>Gemini Robotics-ER 1.6 强化具身推理，机器人竞赛重新回到“能否进真实环境”</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=gemini-robotics-er-16</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=gemini-robotics-er-16</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
-      <description>Google DeepMind 更新 Gemini Robotics-ER 1.6，强调更强空间理解与多视角推理。机器人领域的判断标准也越来越明确：不是会不会演示，而是复杂环境里能不能稳定做事。
+      <title>校园里的 AI 裸照危机比想象更大</title>
+      <link>https://signaltide.shanbei.me/article.html?id=deepfake-nudes-schools-crisis</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=deepfake-nudes-schools-crisis</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
+      <description>Wired 与 Indicator 统计显示，全球近 90 所学校、约 600 名学生已受到 AI 生成裸照影响。生成式 AI 最尖锐的社会后果，正在最脆弱的人群里率先外溢。
 
-机器人不是 AI 的边角实验，而是检验模型能否真正进入物理世界的最硬试金石。</description>
+Wired 与非营利组织 Indicator 的分析显示，全球近 90 所学校、约 600 名学生已受到 AI 生成裸照事件影响，而且问题仍在扩散。报道指出，这类图像并不需要高端黑产工具，普通 nudify 应用就能把伤害门槛压得很低。
+
+这条新闻之所以必须被严肃看待，是因为它把生成式 AI 的风险从版权争议、就业焦虑，推回到现实校园中的羞辱、勒索与长期心理伤害。对平台、学校和监管者来说，重点已不是是否承认问题存在，而是能否建立快速下架、取证、教育与追责机制。
+
+如果最早被规模化放大的不是生产力收益，而是对未成年人的低成本伤害，那么社会对生成式 AI 的容忍边界会更快收紧。</description>
     </item>
     <item>
-      <title>微软新一期“未来工作”报告提醒：AI 改变工作已很快，但收益分配远没有同步</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=microsoft-future-of-work-2025</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=microsoft-future-of-work-2025</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
-      <description>微软研究院发布 New Future of Work 报告，认为 AI 正在推动工作形态快速变化，但不同群体获得的好处并不均衡。比效率更值得追问的是谁受益、谁被挤压。
+      <title>LinkedIn 说招聘下滑还不能怪 AI</title>
+      <link>https://signaltide.shanbei.me/article.html?id=linkedin-hiring-ai-yet</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=linkedin-hiring-ai-yet</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
+      <description>LinkedIn 数据显示，自 2022 年以来招聘下降约 20%，但公司认为主因仍是高利率等宏观环境，而非 AI 直接取代岗位。就业市场对 AI 的真实影响，仍处在解释权争夺中。
 
-如果 AI 的收益分配长期失衡，社会对技术的容忍度会比模型进步速度更早触顶。</description>
+TechCrunch 援引 LinkedIn 数据称，招聘规模自 2022 年以来下降约 20%，但 LinkedIn 认为主因是利率上升等宏观环境，而不是 AI 已经实质性替代大量岗位。这个判断试图给当下最敏感的问题降温：就业转弱究竟有多少是 AI 造成的。
+
+不过，这条数据本身也说明，AI 对劳动力市场的影响仍处在叙事竞争阶段。企业会把效率工具引入流程，但统计上的岗位变化往往滞后且混杂。对观察者来说，更重要的也许不是今天能否给出单一答案，而是持续追踪哪些岗位先被重写、哪些环节先被压缩。
+
+围绕“AI 是否正在抢工作”的争论，接下来会越来越依赖长期行业数据，而不是单日公司表态。</description>
     </item>
     <item>
-      <title>斯坦福报告称 AI 内部人与公众的认知裂缝正在扩大</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=stanford-ai-insider-gap</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=stanford-ai-insider-gap</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <title>Allbirds 卖鞋转做 AI 算力，资本市场对“沾 AI 即重估”的狂热仍没退</title>
+      <link>https://signaltide.shanbei.me/article.html?id=allbirds-ai-pivot</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=allbirds-ai-pivot</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
       <description></description>
     </item>
     <item>
-      <title>针对 Sam Altman 的袭击事件，给整个 AI 行业敲响了什么警钟</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=verge-sam-altman-warning</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=verge-sam-altman-warning</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <title>HoloTab 想做浏览器里的 AI 伴侣，网页代理正在回到标签页正中央</title>
+      <link>https://signaltide.shanbei.me/article.html?id=holotab-browser-companion</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=holotab-browser-companion</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
       <description></description>
     </item>
     <item>
-      <title>Google 的 SynthID 水印如果真能被逆向，AI 可验证性会被迫重算</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-synthid-reverse-engineer</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=google-synthid-reverse-engineer</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <title>长链路任务为什么总坏在半路，研究者开始给代理失败做病理切片</title>
+      <link>https://signaltide.shanbei.me/article.html?id=long-horizon-task-mirage</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=long-horizon-task-mirage</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
       <description></description>
     </item>
     <item>
-      <title>Coachella 里的 AI 网红热潮，正在重写“到场”与“真实感”</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=ai-influencers-coachella</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=ai-influencers-coachella</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <title>GoodPoint 试着把“有建设性的评审意见”教给模型，科研协作而非替代成了另一条路</title>
+      <link>https://signaltide.shanbei.me/article.html?id=goodpoint-paper-feedback</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=goodpoint-paper-feedback</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
       <description></description>
     </item>
     <item>
-      <title>脑机接口创业公司准备首次人体植入，感知增强与医疗伦理再次并轨</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=brain-sensor-science-corp</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=brain-sensor-science-corp</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <title>Coachella 上到处都是 AI 网红，真假身份开始像滤镜一样被消费</title>
+      <link>https://signaltide.shanbei.me/article.html?id=ai-influencers-coachella</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=ai-influencers-coachella</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
       <description></description>
     </item>
     <item>
-      <title>当 AI 被看成工具还是同事，工作关系与责任划分会完全不同</title>
-      <link>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=future-work-podcast-collaborator</link>
-      <guid>https://shanbei2033.github.io/SIGNALTIDE/article.html?id=future-work-podcast-collaborator</guid>
-      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <title>LLM 对抽象意义的理解可能比想象中更差，语言流利不等于概念到位</title>
+      <link>https://signaltide.shanbei.me/article.html?id=abstract-meaning-comprehension</link>
+      <guid>https://signaltide.shanbei.me/article.html?id=abstract-meaning-comprehension</guid>
+      <pubDate>Thu, 16 Apr 2026 02:00:00 GMT</pubDate>
       <description></description>
     </item>
   </channel>
